@@ -3,6 +3,7 @@ package aaRS;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -66,10 +67,16 @@ public class POAtoFASTA {
         }
 
         reader.close();
+        PrintWriter writer = new PrintWriter("FASTA.txt", "UTF-8");
 
         for (int i=0; i<seqs.length; i++) {
             System.out.println(">" + seqNames.get(i));
             System.out.println(seqs[i].toString());
+
+            writer.println(">" + seqNames.get(i));
+            writer.println(seqs[i].toString());
         }
+        writer.flush();
+        writer.close();
     }
 }
