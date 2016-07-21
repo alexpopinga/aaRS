@@ -11,7 +11,13 @@ public class POAtoFASTA {
 
     public static void main(String[] args) throws IOException {
 
-        FileReader fileReader = new FileReader(args[0]);
+        String inFileName = "infile.poa";
+        if (args.length >= 1) {
+            inFileName = args[0];
+        }
+
+        System.out.println("Reading POA file named " + inFileName);
+        FileReader fileReader = new FileReader(inFileName);
         BufferedReader reader = new BufferedReader(fileReader);
 
         String line = reader.readLine();
@@ -67,7 +73,14 @@ public class POAtoFASTA {
         }
 
         reader.close();
-        PrintWriter writer = new PrintWriter("FASTA.txt", "UTF-8");
+        
+        String outFileName = inFileName + ".fasta";
+        if (args.length >= 2) {
+            outFileName = args[1];
+        }
+        
+        System.out.println("Writing out file to " + outFileName);
+        PrintWriter writer = new PrintWriter(outFileName, "UTF-8");
 
         for (int i=0; i<seqs.length; i++) {
             System.out.println(">" + seqNames.get(i));
