@@ -73,12 +73,14 @@ public class POAtoFASTA {
         }
 
         reader.close();
-        
-        String outFileName = inFileName + ".fasta";
+
+        String inFileNameWithoutTXT = inFileName.split("\\.")[0];
+
+        String outFileName = inFileNameWithoutTXT + ".fasta";
         if (args.length >= 2) {
             outFileName = args[1];
         }
-        
+
         System.out.println("Writing out file to " + outFileName);
         PrintWriter writer = new PrintWriter(outFileName, "UTF-8");
 
