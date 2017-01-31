@@ -26,6 +26,34 @@ public class POAtoFASTA {
         while (! line.equals("<PRO>")) {
             line = reader.readLine();
         }
+package aaRS;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
+
+public class POAtoFASTA {
+
+    public static void main(String[] args) throws IOException {
+
+        String inFileName = "infile.poa";
+        if (args.length >= 1) {
+            inFileName = args[0];
+        }
+
+        System.out.println("Reading POA file named " + inFileName);
+        FileReader fileReader = new FileReader(inFileName);
+        BufferedReader reader = new BufferedReader(fileReader);
+
+        String line = reader.readLine();
+        List<String> seqNames = new ArrayList<String>();
+
+        while (! line.equals("<PRO>")) {
+            line = reader.readLine();
+        }
 
         line = reader.readLine();
 
@@ -56,9 +84,14 @@ public class POAtoFASTA {
             for (int i=0; i<n; i++) {
                 int seq = Integer.parseInt(s[i*2+1]);
                 String aaStr = s[(i+1)*2];
-                String aminoAcid = aaStr.split("\\.")[2];
 
+            try {
+                String aminoAcid = aaStr.split("\\.")[2];
                 seqs[seq].append(aminoAcid);
+            } catch (ArrayIndexOutOfBoundsException e) {
+                System.err.println("ArrayIndexOutOfBoundsException: " + e.getMessage());
+            }
+
             }
 
             alignmentLength += 1;
