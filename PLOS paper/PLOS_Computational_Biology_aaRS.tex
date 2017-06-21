@@ -230,7 +230,7 @@ Peter Wills\textsuperscript{3*}
 % Please keep the abstract below 300 words
 \section*{Abstract}
 The aminoacyl-tRNA synthetases (aaRSs) are proteins that catalyse the attachment of specific amino acids to their code-specified tRNA binding sites.  The enzymes therefore have direct relevance to the genetic code, and they have popped up 
-among other research as well, including in medicine \cite{bib10}.
+among other research as well, including in medicine \cite{bib9}.
 The aaRSs have had their phylogenies described previously \cite{}.  However, for the first time we have taken into account the structural information of the proteins, using it to inform the alignments from which the phylogenies are inferred.
 
 % Please keep the Author Summary between 150 and 200 words
@@ -248,9 +248,9 @@ Previous phylogenetic analyses of the aminoacyl-tRNA synthetases have been perfo
 incorporating vital structural information.  The unique conservation of the aaRS relies in their structural integrity and is difficult to assess by sequence alignments alone.  
 
 Therefore, to better capture the phylogenetic relationships between each of the aaRSs, we align each aaRS by their structure, which provides us with the sequence alignment used for the phylogenetic inference.  
-We use structural data provided by x-ray crystallography [CITE?] and supplement these data with structural information provided MODELLER \cite{bib2}, which aligns sequences obtained from GenBank with known aaRSs and infers their structures.
-With a diversely sampled dataset, we align the proteins by structure using Partial Order Structure Alignment (POSA) \cite{bib7}.  This provides us with sequence alignments.  We hone in on the most conserved regions [CITE] and perform 
-Bayesian phylogenetic inference on these conserved regions using BEAST 2 \cite{bib8}.
+We use structural data provided by x-ray crystallography [CITE?] and supplement these data with structural information provided Modeller \cite{bib1}, which aligns sequences obtained from GenBank with known aaRSs and infers their structures.
+With a diversely sampled dataset, we align the proteins by structure using Partial Order Structure Alignment (POSA) \cite{bib6}.  This provides us with sequence alignments.  We hone in on the most conserved regions [CITE] and perform 
+Bayesian phylogenetic inference on these conserved regions using BEAST 2 \cite{bib7}.
 
 The pipeline is shown in Figure \ref{pipeline}.
 
@@ -273,7 +273,7 @@ The pipeline is shown in Figure \ref{pipeline}.
 
 
 \subsection*{Modelling structures}
-To ensure a statistically significant and diverse dataset, we gathered additional amino acid sequences from GenBank.  We selected 20 organisms from each of the 3 domains of life, sampling from as many distinct clades as possible, HHpred and MODELLER
+To ensure a statistically significant and diverse dataset, we gathered additional amino acid sequences from GenBank.  We selected 20 organisms from each of the 3 domains of life, sampling from as many distinct clades as possible, HHpred and Modeller
 
 
 \subsection*{Structural alignments}
@@ -453,7 +453,7 @@ Nulla mi mi, venenatis sed ipsum varius, volutpat euismod diam. Proin rutrum vel
 \end{itemize}
 
 \section*{Discussion}
-Nulla mi mi, venenatis sed ipsum varius, Table~\ref{table1} volutpat euismod diam. Proin rutrum vel massa non gravida. Quisque tempor sem et dignissim rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo vitae nulla elementum commodo eu id massa. In vitae diam ac augue semper tincidunt eu ut eros. Fusce fringilla erat porttitor lectus cursus, vel sagittis arcu lobortis. Aliquam in enim semper, aliquam massa id, cursus neque. Praesent faucibus semper libero~\cite{bib3}.
+Nulla mi mi, venenatis sed ipsum varius, Table~\ref{table1} volutpat euismod diam. Proin rutrum vel massa non gravida. Quisque tempor sem et dignissim rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo vitae nulla elementum commodo eu id massa. In vitae diam ac augue semper tincidunt eu ut eros. Fusce fringilla erat porttitor lectus cursus, vel sagittis arcu lobortis. Aliquam in enim semper, aliquam massa id, cursus neque. Praesent faucibus semper libero.
 
 \section*{Conclusion}
 
@@ -517,55 +517,58 @@ Cras egestas velit mauris, eu mollis turpis pellentesque sit amet. Interdum et m
 % 
 \begin{thebibliography}{10}
 
-\bibitem{bib1}
-G. C. Conant, K. H. Wolfe.
-\newblock {{T}urning a Hobby into a Job: How Duplicated Genes Find New
-  functions}.
-\newblock Nat Rev Genet. Dec;9(12):938--950. 2008.
+% Use this sample article?? -could relate to Rodin-Ohno hypothesis
 
-\bibitem{bib2}
+%\bibitem{bib1}
+%G. C. Conant, K. H. Wolfe.
+%\newblock {{T}urning a Hobby into a Job: How Duplicated Genes Find New
+%  functions}.
+%\newblock Nat Rev Genet. Dec;9(12):938--950. 2008.
+
+% Modeller paper
+\bibitem{bib1}
 B. Webb, A. Sali.
 \newblock Comparative Protein Structure Modeling Using Modeller.
 \newblock Current Protocols in Bioinformatics, John Wiley and Sons, Inc., 5.6.1-5.6.32. 2014.
 
-\bibitem{bib3}
+\bibitem{bib2}
 M. A. Marti-Renom, A. Stuart, A. Fiser, R. Sánchez, F. Melo, A. Sali. 
 \newblock Comparative Protein Structure Modeling of Genes and Genomes.
 \newblock Annu. Rev. Biophys. Biomol. Struct. 29, 291-325. 2000.
 
-\bibitem{bib4}
+\bibitem{bib3}
 A. Sali, T. L. Blundell.
 \newblock Comparative Protein Modelling by Satisfaction of Spatial Restraints.
 \newblock J. Mol. Biol. 234, 779-815. 1993.
 
-\bibitem{bib5}
+\bibitem{bib4}
 A. Fiser, R. K. Do, A. Sali.
 \newblock Modeling of Loops in Protein Structures.
 \newblock Protein Science 9. 1753-1773. 2000.
 
-\bibitem{bib6}
+\bibitem{bib5}
 J. Söding, A. Biegert, A. N. Lupas.
 \newblock The HHpred Interactive Server for Protein Homology Detection and Structure Prediction. 
 \newblock Nucleic Acids Research. 33(Web Server issue):W244-W248. doi:10.1093/nar/gki408. 2005.
 
-\bibitem{bib7}
+\bibitem{bib6}
 Z. Li, P. Natarajan, Y. Ye, T. Hrabe, A. Godzik.
 \newblock POSA: A User-Driven, Interactive Multiple Protein Structure Alignment Server.
 \newblock Nucl. Acids Res. 2014. doi: 10.1093/nar/gku394
 
-\bibitem{bib8}
+\bibitem{bib7}
 R. Bouckaert, J. Heled, D. Kühnert, T. Vaughan, C-H. Wu, D. Xie, M. A. Suchard, A. Rambaut, A. J. Drummond.
 \newblock BEAST 2: A Software Platform for Bayesian Evolutionary Analysis.
 \newblock PLoS Computational Biology, 10(4), e1003537. 2014. doi:10.1371/journal.pcbi.1003537
 
 % MCMC paper
-\bibitem{bib9}
+\bibitem{bib8}
 A. J. Drummond, G. K. Nicholls, A. G. Rodrigo, W. Solomon. 
 \newblock Estimating Mutation Parameters, Population History and Genealogy Simultaneously From Temporally Spaced Sequence Data.
 \newblock Genetics 161, 1307-1320. 2002.
 
 % Malaria (prolyl-) paper
-\bibitem{bib10} 
+\bibitem{bib9} 
 Jonathan D. Herman, Lauren R. Pepper, Joseph F. Cortese, Guillermina Estiu, Kevin Galinsky, Vanessa Zuzarte-Luis, Emily R. Derbyshire, Ulf Ribacke, Amanda K. Lukens, Sofia A. Santos, Vishal Patel, Clary B. Clish, William J. Sullivan Jr., Huihao Zhou,
 Selina E. Bopp, Paul Schimmel, Susan Lindquist, Jon Clardy, Maria M. Mota, Tracy L. Keller, Malcolm Whitman, Olaf Wiest, Dyann F. Wirth, Ralph Mazitschek. 
 \newblock The cytoplasmic prolyl-tRNA synthetase of the malaria parasite is a dual-stage target of febrifugine and its analogs.
