@@ -249,7 +249,7 @@ incorporating vital structural information.  The unique conservation of the aaRS
 
 Therefore, to better capture the phylogenetic relationships between each of the aaRSs, we align each aaRS by their structure, which provides us with the sequence alignment used for the phylogenetic inference.  
 We use structural data provided by x-ray crystallography [CITE?] and supplement these data with structural information provided Modeller \cite{Modeller}, which aligns sequences obtained from GenBank with known aaRSs and infers their structures.
-With a diversely sampled dataset, we align the proteins by structure using Partial Order Structure Alignment (POSA) \cite{bib6}.  This provides us with sequence alignments.  We hone in on the most conserved regions [CITE] and perform 
+With a diversely sampled dataset, we align the proteins by structure using Partial Order Structure Alignment (POSA) \cite{POSA} \cite{POSA1}.  This provides us with sequence alignments.  We hone in on the most conserved regions [CITE] and perform 
 Bayesian phylogenetic inference on these conserved regions using BEAST 2 \cite{bib7}.
 
 The pipeline is shown in Figure \ref{pipeline}.
@@ -760,8 +760,14 @@ Söding J, Biegert A, Lupas AN.
 \newblock The HHpred interactive server for protein homology detection and structure prediction. 
 \newblock Nucleic Acids Research. 33(Web Server issue):W244-W248. doi:10.1093/nar/gki408. 2005.
 
-% POSA paper
-\bibitem{bib6}
+% POSA paper 0
+\bibitem{POSA}
+Ye Y, Godzik A.
+\newblock Multiple flexible structure alignment using partial order graphs.
+\newblock Bioinformatics, vol. 21 (pg. 2362-2369). 2005.
+
+% POSA paper 1
+\bibitem{POSA1}
 Li Z, Natarajan P, Ye Y, Hrabe T, Godzik A.
 \newblock POSA: A user-driven, interactive multiple protein structure alignment server.
 \newblock Nucl. Acids Res. 2014. doi: 10.1093/nar/gku394
