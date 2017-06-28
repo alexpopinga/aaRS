@@ -248,7 +248,7 @@ Previous phylogenetic analyses of the aminoacyl-tRNA synthetases have been perfo
 incorporating vital structural information.  The unique conservation of the aaRS relies in their structural integrity and is difficult to assess by sequence alignments alone.  
 
 Therefore, to better capture the phylogenetic relationships between each of the aaRSs, we align each aaRS by their structure, which provides us with the sequence alignment used for the phylogenetic inference.  
-We use structural data provided by x-ray crystallography [CITE?] and supplement these data with structural information provided Modeller \cite{bib1}, which aligns sequences obtained from GenBank with known aaRSs and infers their structures.
+We use structural data provided by x-ray crystallography [CITE?] and supplement these data with structural information provided Modeller \cite{Modeller}, which aligns sequences obtained from GenBank with known aaRSs and infers their structures.
 With a diversely sampled dataset, we align the proteins by structure using Partial Order Structure Alignment (POSA) \cite{bib6}.  This provides us with sequence alignments.  We hone in on the most conserved regions [CITE] and perform 
 Bayesian phylogenetic inference on these conserved regions using BEAST 2 \cite{bib7}.
 
@@ -299,14 +299,17 @@ Partial Order Structure Alignment (POSA)
 
 
 \subsection*{Phylogenetic inference}
-BEAST 2
 
-Molecular Clock
+\textit{BEAST 2}
 
+\textit{Molecular Clock}
 A strict molecular clock with invariable rates would be inappropriate for our dataset, given the breadth of time our phylogenies span, from present-day stretching all the way to before the divergence of the last universal common ancestor (LUCA) that connects the three domains of life: Archaea, Bacteria, Eukarya. 
-We are not particularly interested in the branches near the tips, which distinguish the species, but the fact that the rates of evolution within these branches should be vastly different than those which fixed into populations billions of years in the past cannot be ignored.
+We are not particularly interested in the branches near the tips, which distinguish the species, but the fact that the rates of evolution within these branches should be vastly different than those which fixed into populations billions of years in the past cannot be ignored.  Therefore, we chose to use a 
+relaxed molecular clock to allow the rate at which mutations fixed into the populations - i. e., the rate of evolution - to vary.  With little information to go on concerning the effective population sizes throughout time, we chose a log normal distribution. 
 
-Tree prior
+
+\textit{Population dynamics and tree prior}
+A simple birth-death skyline model allows for conservative analysis rather than making assumptions for which we have limited prior knowledge, as it yields information about past population dynamics without the need to parameterize with differential equations. \cite{coalSky} \cite{BDSKY}
 
 
 % Results and Discussion can be combined.
@@ -728,7 +731,7 @@ Cras egestas velit mauris, eu mollis turpis pellentesque sit amet. Interdum et m
 %\newblock Nat Rev Genet. Dec;9(12):938--950. 2008.
 
 % Modeller paper
-\bibitem{bib1}
+\bibitem{Modeller}
 Webb B, Sali A.
 \newblock Comparative protein structure modeling using Modeller.
 \newblock Current Protocols in Bioinformatics, John Wiley and Sons, Inc., 5.6.1-5.6.32. 2014.
@@ -825,10 +828,16 @@ Drummond AJ, Ho SYW, Phillips MJ, Rambaut A.
 \newblock PLoS Biology, 4(5):e88. 2012. doi: 10.1073/pnas.1207965110.
 
 % BDSKY paper
-\bibitem{bib16} 
+\bibitem{BDSKY} 
 Stadler T, Kuhnert D, Bonhoeffer S, Drummond AJ.
 \newblock Birth-death skyline plot reveals temporal changes of epidemic spread in HIV and hepatitis C virus (HCV).
 \newblock Proceedings of the National Academy of Sciences of the United States of America, 110(1):228-33. 2013. doi: 10.1073/pnas.1207965110.
+
+% Coalescent skyline paper
+\bibitem{coalSky} 
+Drummond AJ, Rambaut A, Shapiro B, Pybus OG.
+\newblock Bayesian coalescent inference of past population dynamics from molecular sequences.
+\newblock Molecular Biology and Evolution, 22(5): 1185-92. 2005. http://doi.org/10.1093/molbev/msi103
 
 \end{thebibliography}
 
