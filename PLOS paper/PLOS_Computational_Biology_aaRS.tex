@@ -229,9 +229,9 @@ Peter Wills\textsuperscript{3*}
 \end{flushleft}
 % Please keep the abstract below 300 words
 \section*{Abstract}
-The aminoacyl-tRNA synthetases (aaRSs) are proteins that catalyse the attachment of specific amino acids to their code-specified tRNA binding sites.  The enzymes therefore have direct relevance to the genetic code \cite{bib10}, and they have popped up 
-among other research as well, including in medicine \cite{bib9}.
-The aaRSs have had their phylogenies described previously \cite{}.  However, for the first time we have taken into account the structural information of the proteins, using it to inform the alignments from which the phylogenies are inferred.
+The aminoacyl-tRNA synthetases (aaRSs) are proteins that catalyse the attachment of specific amino acids to their code-specified tRNA binding sites.  The enzymes therefore have direct relevance to the genetic code \cite{Woese}, and they have popped up 
+among other research as well, including in medicine \cite{MalariaProlyl}.
+The aaRSs phylogenies have been investigated and described previously \cite{aaRSphylogeny} \cite{aaRSphylogeny2017}.  However, for the first time we have taken into account the structural information of the proteins, using it to inform the alignments from which the phylogenies are inferred.
 
 % Please keep the Author Summary between 150 and 200 words
 % Use first person. PLOS ONE authors please skip this step. 
@@ -242,7 +242,7 @@ The aaRSs have had their phylogenies described previously \cite{}.  However, for
 
 % Use "Eq" instead of "Equation" for equation citations.
 \section*{Introduction}
-The aminoacyl-tRNA synthetases, which are divided by their core structures into two distinct classes, are fundamental to understanding the origin of the genetic code \cite{bib10}.
+The aminoacyl-tRNA synthetases, which are divided by their core structures into two distinct classes, are fundamental to understanding the origin of the genetic code \cite{Woese}.
 
 Previous phylogenetic analyses of the aminoacyl-tRNA synthetases have been performed [CITE], but the ability of traditional sequence alignment tools such as Clustal, MUSCLE, etc., falls short of 
 incorporating vital structural information.  The unique conservation of the aaRS relies in their structural integrity and is difficult to assess by sequence alignments alone.  
@@ -250,7 +250,7 @@ incorporating vital structural information.  The unique conservation of the aaRS
 Therefore, to better capture the phylogenetic relationships between each of the aaRSs, we align each aaRS by their structure, which provides us with the sequence alignment used for the phylogenetic inference.  
 We use structural data provided by x-ray crystallography [CITE?] and supplement these data with structural information provided Modeller \cite{Modeller}, which aligns sequences obtained from GenBank with known aaRSs and infers their structures.
 With a diversely sampled dataset, we align the proteins by structure using Partial Order Structure Alignment (POSA) \cite{POSA} \cite{POSA1}.  This provides us with sequence alignments.  We hone in on the most conserved regions [CITE] and perform 
-Bayesian phylogenetic inference on these conserved regions using BEAST 2 \cite{bib7}.
+Bayesian phylogenetic inference on these conserved regions using BEAST 2 \cite{BEAST2}.
 
 The pipeline is shown in Figure \ref{pipeline}.
 
@@ -742,6 +742,31 @@ Thanks to Alexei Drummond, University of Auckland, for valuable comments.
 %  functions}.
 %\newblock Nat Rev Genet. Dec;9(12):938--950. 2008.
 
+% Woese paper
+\bibitem{Woese} 
+Woese CR, Olsen GJ, Ibba M, Soll D.
+\newblock Aminoacyl-tRNA synthetases, the genetic code, and the evolutionary process.
+\newblock Microbiology and Molecular Biology Reviews, p. 202-236. 2000.
+
+% Malaria (prolyl-) paper
+\bibitem{MalariaProlyl} 
+Herman JD, Pepper LR, Cortese JF, Estiu G, Galinsky K, Zuzarte-Luis V, Derbyshire ER, Ribacke U, Lukens AK, Santos SA, Patel V, Clish CB, Sullivan Jr. WJ, Zhou H,
+Bopp SE, Schimmel P, Lindquist S, Clardy J, Mota MM, Keller TL, Whitman M, Wiest O, Wirth DF, Mazitschek R. 
+\newblock The cytoplasmic prolyl-tRNA synthetase of the malaria parasite is a dual-stage target of febrifugine and its analogs.
+\newblock Science Translation Medicine, Vol 7, Issue 288. 2015.
+
+% Previous aaRS phylogenies
+\bibitem{aaRSphylogeny1999} 
+Wolf YI, Aravind L, Grishin NV, Koonin EV.
+\newblock Evolution of aminoacyl-tRNA synthetases--analyses of unique domain architectures and phylogenetic trees reveals a complex history of horizontal gene transfer events.
+\newblock Genome Research, (8):689-710. 1999.
+
+% Previous aaRS phylogenies
+\bibitem{aaRSphylogeny2017} 
+Chaliotis A, Vlastaridis P, Mossialos D, Ibba M, Becker HD, Stathopoulos C, Amoutzias GD.
+\newblock The complex evolutionary history of aminoacyl-tRNA synthetases.
+\newblock Nucleic Acids Research, 45(3):1059-1068. 2018. doi: 10.1093/nar/gkw1182.
+
 % Modeller paper
 \bibitem{Modeller}
 Webb B, Sali A.
@@ -785,29 +810,16 @@ Li Z, Natarajan P, Ye Y, Hrabe T, Godzik A.
 \newblock Nucl. Acids Res. 2014. doi: 10.1093/nar/gku394
 
 % BEAST 2 paper
-\bibitem{bib7}
+\bibitem{BEAST2}
 Bouckaert R, Heled J, Kühnert D, Vaughan T, Wu C-H, Xie D, Suchard MA, Rambaut A, Drummond AJ.
 \newblock BEAST 2: A software platform for Bayesian evolutionary analysis.
 \newblock PLoS Computational Biology, 10(4), e1003537. 2014. doi:10.1371/journal.pcbi.1003537
 
 % MCMC paper
-\bibitem{bib8}
+\bibitem{MCMC}
 Drummond AJ, Nicholls GK, Rodrigo AG, Solomon S. 
 \newblock Estimating mutation parameters, population history and genealogy simultaneously from temporally spaced sequence data.
 \newblock Genetics 161, 1307-1320. 2002.
-
-% Malaria (prolyl-) paper
-\bibitem{bib9} 
-Herman JD, Pepper LR, Cortese JF, Estiu G, Galinsky K, Zuzarte-Luis V, Derbyshire ER, Ribacke U, Lukens AK, Santos SA, Patel V, Clish CB, Sullivan Jr. WJ, Zhou H,
-Bopp SE, Schimmel P, Lindquist S, Clardy J, Mota MM, Keller TL, Whitman M, Wiest O, Wirth DF, Mazitschek R. 
-\newblock The cytoplasmic prolyl-tRNA synthetase of the malaria parasite is a dual-stage target of febrifugine and its analogs.
-\newblock Science Translation Medicine, Vol 7, Issue 288. 2015.
-
-% Woese paper
-\bibitem{bib10} 
-Woese CR, Olsen GJ, Ibba M, Soll D.
-\newblock Aminoacyl-tRNA synthetases, the genetic code, and the evolutionary process.
-\newblock Microbiology and Molecular Biology Reviews, p. 202-236. 2000.
 
 % Wills paper - Emergence of Coding (intro to Remco's method)
 \bibitem{bib11} 
@@ -816,13 +828,13 @@ Wills PR, Nieselt K, McCaskill JS.
 \newblock Origins of Life and Evolution of Biospheres. 2015. doi:10.1007/s11084-015-9434-5.
 
 % Rodin-Ohno paper
-\bibitem{bib11} 
+\bibitem{RodinOhno} 
 Rodin SN, Ohno S.
 \newblock Four primordial modes of tRNA-Synthetase recognition, determined by the (G,C) operational code.
 \newblock Proceedings of the National Academy of Sciences, Vol 94, pp. 5183-5188. 1997.
 
 % Rodin-Ohno-Rodin paper
-\bibitem{bib12} 
+\bibitem{RodinOhnoRodin} 
 Rodin S, Ohno S, Rodin A.
 \newblock Transfer RNAs with complementary anticodons: Could they reflect early evolution of discriminative genetic code adaptors?
 \newblock Proceedings of the National Academy of Sciences, Vol 90, pp. 4723-4727. 1993.
