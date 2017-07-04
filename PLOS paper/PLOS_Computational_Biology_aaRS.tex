@@ -231,7 +231,7 @@ Peter Wills\textsuperscript{3*}
 \section*{Abstract}
 The aminoacyl-tRNA synthetases (aaRSs) are proteins that catalyse the attachment of specific amino acids to their code-specified tRNA binding sites.  The enzymes therefore have direct relevance to the genetic code \cite{Woese}, and they have popped up 
 among other research as well, including in medicine \cite{MalariaProlyl}.
-The aaRSs phylogenies have been investigated and described previously \cite{aaRSphylogeny} \cite{aaRSphylogeny2017}.  However, for the first time we have taken into account the structural information of the proteins, using it to inform the alignments from which the phylogenies are inferred.
+The aaRSs phylogenies have been investigated and described previously \cite{aaRSphylogeny1999} \cite{aaRSphylogeny2017}.  However, for the first time we have taken into account the structural information of the proteins, using it to inform the alignments from which the phylogenies are inferred.
 
 % Please keep the Author Summary between 150 and 200 words
 % Use first person. PLOS ONE authors please skip this step. 
@@ -277,7 +277,11 @@ To ensure a statistically significant and diverse dataset, we gathered additiona
 We selected 20 organisms from each of the 3 domains of life, sampling from as many distinct clades as possible along the tips of the tree of life found in Figure \ref{treeoflife} [from: \hyperref[label_name]{``http://tolweb.org/Eukaryotes/3''}]. 
 The result of our sampling is shown in Figure \ref{sampledtree}.
 
-We used the ``protein homology detection and protein structure prediction" program HHpred \cite{HHpred} and Modeller \cite{Modeller} to provide 3D structures to the aaRS data from the GenBank database.
+We used the ``protein homology detection and protein structure prediction" program HHpred \cite{HHpred} and Modeller \cite{Modeller} to provide 3D structures to the aaRS data from the GenBank database.  
+HHpred, which is available through the online server (http://toolkit.tuebingen.mpg.de/\#/) searches the database for known structures that closely match the input queries (i. e., our GenBank sequences).  
+It feeds its produced alignment with the known structures to Modeller, which infers structures for the input queries based upon the known structure.
+
+We align the modelled structures with the aaRS structures obtained by x-ray crystallography.  This ensures a more complete dataset.
 
 
 \begin{figure}
