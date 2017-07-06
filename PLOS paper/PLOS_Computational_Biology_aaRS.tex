@@ -329,7 +329,6 @@ The prior distributions Pr($\tau|\theta$)Pr($\theta$), which represent the prior
 where Pr($D$) is a normalization constant which can be ignored.
 
 
-
 %\begin{eqnarray}
 %\ f(\tree,\traj,\eta, \theta | D) = \frac{\Pr (D|\tree,\theta) f(\tree|\traj,\eta) f(\traj |\eta) f(\eta) f(\theta) }{\Pr(D)},
 %\label{eq:posterior}
@@ -343,8 +342,9 @@ relaxed molecular clock to allow the rate at which mutations fixed into the popu
 \textit{Population dynamics and tree priors}
 A simple birth-death skyline model allows for conservative analysis rather than making assumptions for which we have limited prior knowledge, as it yields information about past population dynamics without the need to parameterize with differential equations. \cite{coalSky} \cite{BDSKY}
 
-\textit{Other methods}  There are other methods of analyzing molecular data to infer phylogenies.  In maximum likelihood \cite{Guindon}, the likelihood calculation Pr($D|\tau$) is the sole piece of the inference and yields one tree that maximizes the likelihood.  Rather than posterior probabilities, the branches of the tree are labelled with bootstrap values.
-These alternative trees are provided in the Supporting Information.
+\textit{Other methods}  There are other methods of analyzing molecular data to infer phylogenies.  In maximum likelihood \cite{Guindon}, the likelihood calculation Pr($D|\tau$) is the sole piece of the inference and yields one tree that maximizes the likelihood.  Rather than posterior probabilities, the branches of the tree are labelled with bootstrap values. \cite{HolderLewis}
+Maximum likelihood trees are provided in the Supporting Information.
+
 
 
 % Results and Discussion can be combined.
@@ -480,11 +480,7 @@ $T.\ vaginalis$ & + & -- & $\alpha$ & -- & $\alpha$ & $\alpha$ & $\alpha$ & $\al
 
 % T. BRUCEI TYR/MET???
 
-TREE ANNOTATOR + FIGTREE
 
-TREESTAT
-
-RELAXED CLOCK
 
 % Place tables after the first paragraph in which they are cited.
 \begin{table}[!ht]
