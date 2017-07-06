@@ -317,6 +317,22 @@ A partial order alignment is shown in Figure \ref{POA} [from: ``http://github.co
 \subsection*{Phylogenetic inference}
 
 \textit{BEAST 2}
+The power of Bayesian statistics in phylogenetics \cite{Huelsenbeck} \cite{HolderLewis}
+
+The Bayesian method to phylogenetic inference attempts to obtain a posterior probability distribution of trees Pr($\tau|D$), where $\tau$ is the tree distribution and $D$ is the data, in our case the sequence alignment (via structural alignment) of amino acids that make up the aaRSs.
+The prior distribution Pr($\tau$) and the likelihood calculation Pr($D|\tau$)
+
+\begin{eqnarray}
+\Pr(\tau|D) = \frac{\Pr(D|\tau)\Pr(\tau)}{\Pr(D)},
+\label{eq:posterior}
+\end{eqnarray}
+
+In other methods \cite{Guindon}, the likelihood calculation Pr($D|\tau$) is the sole piece of the inference and yields one tree that maximizes the likelihood.  Rather than posterior probabilities, the branches of the tree are labelled with bootstrap values.
+
+%\begin{eqnarray}
+%\ f(\tree,\traj,\eta, \theta | D) = \frac{\Pr (D|\tree,\theta) f(\tree|\traj,\eta) f(\traj |\eta) f(\eta) f(\theta) }{\Pr(D)},
+%\label{eq:posterior}
+%\end{eqnarray}
 
 \textit{Molecular Clock}
 A strict molecular clock with invariable rates would be inappropriate for our dataset, given the breadth of time our phylogenies span, from present-day stretching all the way to before the divergence of the last universal common ancestor (LUCA) that connects the three domains of life: Archaea, Bacteria, Eukarya. 
@@ -827,13 +843,31 @@ Li Z, Natarajan P, Ye Y, Hrabe T, Godzik A.
 \bibitem{BEAST2}
 Bouckaert R, Heled J, Kühnert D, Vaughan T, Wu C-H, Xie D, Suchard MA, Rambaut A, Drummond AJ.
 \newblock BEAST 2: A software platform for Bayesian evolutionary analysis.
-\newblock PLoS Computational Biology, 10(4), e1003537. 2014. doi:10.1371/journal.pcbi.1003537
+\newblock PLoS Computational Biology, 10(4), e1003537. 2014. doi: 10.1371/journal.pcbi.1003537
 
 % HHpred paper
 \bibitem{HHpred}
 Söding J, Biegert A, Lupas AN.
 \newblock The HHpred interactive server for protein homology detection and structure prediction. 
-\newblock Nucleic Acids Research. 33(Web Server issue):W244-W248. doi:10.1093/nar/gki408. 2005.
+\newblock Nucleic Acids Research. 33(Web Server issue):W244-W248. doi: 10.1093/nar/gki408. 2005.
+
+% Bayesian phylogenetics
+\bibitem{Huelsenbeck} 
+Huelsenbeck JP, Ronquist F, Nielsen R, Bollback JP.
+\newblock Bayesian inference of phylogeny and its impact on evolutionary biology.
+\newblock Science, 294(5550):2310-2314. 2001. doi: 10.1126/science.1065889
+
+% Bayesian phylogenetics
+\bibitem{HolderLewis} 
+Holder M, Lewis PO.
+\newblock Phylogeny estimation: traditional and Bayesian approaches.
+\newblock Nature Reviews Genetics, 4:275-284. 2003. doi: 10.1038/nrg1044
+
+% Maximum likelihood 
+\bibitem{Guindon}
+Guindon S, Gascuel O.
+\newblock A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood.
+\newblock Systematic Biology, 52(5):696-704. 2003. doi: 10.1080/10635150390235520
 
 % 
 \bibitem{bib2}
@@ -863,7 +897,7 @@ Drummond AJ, Nicholls GK, Rodrigo AG, Solomon S.
 \bibitem{bib11} 
 Wills PR, Nieselt K, McCaskill JS.
 \newblock Emergence of coding and its specificity as a physico-informatic problem.
-\newblock Origins of Life and Evolution of Biospheres. 2015. doi:10.1007/s11084-015-9434-5.
+\newblock Origins of Life and Evolution of Biospheres. 2015. doi: 10.1007/s11084-015-9434-5.
 
 % Rodin-Ohno paper
 \bibitem{RodinOhno} 
@@ -905,7 +939,9 @@ Stadler T, Kuhnert D, Bonhoeffer S, Drummond AJ.
 \bibitem{coalSky} 
 Drummond AJ, Rambaut A, Shapiro B, Pybus OG.
 \newblock Bayesian coalescent inference of past population dynamics from molecular sequences.
-\newblock Molecular Biology and Evolution, 22(5): 1185-92. 2005. http://doi.org/10.1093/molbev/msi103
+\newblock Molecular Biology and Evolution, 22(5): 1185-92. 2005. doi: 10.1093/molbev/msi103
+
+%%%%
 
 \end{thebibliography}
 
