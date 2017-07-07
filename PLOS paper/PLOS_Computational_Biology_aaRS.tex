@@ -330,9 +330,10 @@ Because of the nature of the Bayesian approach, it permits the ability to incorp
 If not much is known previous to the analysis, these things can simply be inferred and the prior distribution is not heavily weighted. \cite{MCMC}
 
 \textit{MCMC}
-In order to perform Bayesian inference, one must have a method of sampling the probability distribution.  A popular choice is to implement Metropolis-Hastings Markov chain Monte Carlo (MCMC). \cite{MCMC} \cite{Metropolis} \cite{Hastings}  
+In order to perform Bayesian inference, one must have a method of sampling the probability distribution.  A popular choice is to implement Metropolis-Hastings Markov chain Monte Carlo (MCMC) integration. \cite{MCMC} \cite{Metropolis} \cite{Hastings}  
+The general idea here is that, after sampling one tree, another is proposed that has either higher probability given the sequence data or lower.  The higher probability tree is more readily accepted than the lower probability tree - however, the lower probability tree is sometimes accepted, and in this way it is possible to sample around the distribution and move across low probability ``valleys" to escape local maxima and find the global maximum.  \cite{}
 
-MCMC efficiency \cite{MCMCefficiency}
+%MCMC efficiency \cite{MCMCefficiency}
 
 \textit{Bayesian phylogenetics} The Bayesian method to phylogenetic inference attempts to obtain a posterior probability distribution of trees Pr($\tau,\theta|D$), where $\tau$ represents the trees sampled, $\theta$ is the substitution model, and $D$ is the data.  In our case, the data is the sequence alignment of amino acids which was produced by structurally aligning the aaRSs.
 The prior distributions Pr($\tau|\theta$)Pr($\theta$), which represent the prior knowledge available to the researcher, are combined with the likelihood calculation Pr($D|\tau$).  \cite{PPinBayesianPhylogenetics} The full equation, then is
