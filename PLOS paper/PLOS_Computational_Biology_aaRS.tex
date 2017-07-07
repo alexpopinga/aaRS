@@ -327,10 +327,11 @@ The credible interval, then, is the way to describe how certain or uncertain we 
 The power of Bayesian statistics in phylogenetics has sparked interest among a growing community of researchers over the years. \cite{Huelsenbeck} \cite{HolderLewis} \cite{MammalRadiation} \cite{EarlyMammals} \cite{MissingData} \cite{SPREAD} \cite{MammalDiversification} \cite{SampledAncestors} \cite{Phylodynamics}
 In particular, the Bayesian Evolutionary Analysis by Sampling Trees (BEAST) software provides a framework for relatively easy introduction of new models and parameterizations in its statistical framework for the analysis of countless evolutionary questions. \cite{BEAST} \cite{BEAST1point7} \cite{BEAST2}.
 Because of the nature of the Bayesian approach, it permits the ability to incorporate prior knowledge (e. g., past population dynamics) into the inference by using it to generate a prior probability distribution to indicate where the true parameter values probably exist.  
-If not much is known previous to the analysis, these things can simply be inferred and the prior distribution is not heavily weighted.
+If not much is known previous to the analysis, these things can simply be inferred and the prior distribution is not heavily weighted. \cite{MCMC}
 
 \textit{MCMC}
-\cite{MCMC}
+In order to perform Bayesian inference, one must have a method of sampling the probability distribution.  A popular choice is to implement Metropolis-Hastings Markov chain Monte Carlo (MCMC). \cite{MCMC} \cite{Metropolis} \cite{Hastings}  
+
 MCMC efficiency \cite{MCMCefficiency}
 
 \textit{Bayesian phylogenetics} The Bayesian method to phylogenetic inference attempts to obtain a posterior probability distribution of trees Pr($\tau,\theta|D$), where $\tau$ represents the trees sampled, $\theta$ is the substitution model, and $D$ is the data.  In our case, the data is the sequence alignment of amino acids which was produced by structurally aligning the aaRSs.
@@ -989,10 +990,22 @@ Drummond AJ, Nicholls GK, Rodrigo AG, Solomon S.
 \newblock Estimating mutation parameters, population history and genealogy simultaneously from temporally spaced sequence data.
 \newblock Genetics 161, 1307-1320. 2002.
 
+% Metropolis
+\bibitem{Metropolis}
+Metropolis N, Rosenbluth A, Rosenbluth M, Teller A, Teller E.
+\newblock Equations of state calculations by fast computing machines.
+\newblock Journal of Chemical Physics, 21(6): 1087-1091. 1953. doi: 10.1063/1.1699114.
+
+% Hastings
+\bibitem{Hastings}
+Hastings WK.
+\newblock Monte Carlo sampling methods using Markov chains and their applications.
+\newblock Biometrika, 57(1): 97-109. 1970. doi: 10.2307/2334940.
+
 % MCMC efficiency
 \bibitem{MCMCefficiency}
 Lakner C, van der Mark P, Huelsenbeck JP, Larget B, Ronquist F.
-\newblock Efficiency of Markov Chain Monte Carlo tree proposals in Bayesian phylogenetics.
+\newblock Efficiency of Markov chain Monte Carlo tree proposals in Bayesian phylogenetics.
 \newblock Systematic Biology, 57(1): 86-103. 2008. doi: 10.1080/10635150801886156.
 
 % Wills paper - Emergence of Coding (intro to Remco's method)
