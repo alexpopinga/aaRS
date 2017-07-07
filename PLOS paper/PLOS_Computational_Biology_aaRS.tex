@@ -317,22 +317,24 @@ A partial order alignment is shown in Figure \ref{POA} [from: ``http://github.co
 \subsection*{Phylogenetic inference}
 
 \textit{Bayesian inference}
-Based on Bayes' theorem \cite{}, Bayesian inference supplies straight-forward measures of uncertainty in its posterior probabilities and credible intervals.  
+Based on Bayes' theorem \cite{Bayes}, Bayesian inference supplies straight-forward measures of uncertainty in its posterior probabilities and credible intervals.  
 In classical, or frequentist, statistics the premise is that parameters are fixed and data are random.  Therefore, they report confidence intervals, which show a range of values to include the true value of some parameter with a minimum probability (e. g., 95\%).
 Bayesians, on the other hand, believe that probability is fundamentally measuring the degree of certainty and thus the parameters are random and the data are fixed. The credible interval is used to denote the range of values that include some percentage (e. g., 95\%) of the probability. \cite{}
 In other words, a frequentist designs an experiment to produce a number of trials in which the data (in this case, the sequence data) changes from each trial to the next and then looks for the confidence interval that includes, say, 95\% of the true parameter value (a ``true" tree, or phylogeny, in this case).  
-A Bayesian takes the provided (sequence) data as a \textit{given} and then computes probabilities of different parameter values (which describe the possible trees) that could explain the data.
-The credible interval, then, is the way to describe how certain or uncertain we are about the answers that were inferred. \cite{}
+A Bayesian takes the provided (sequence) data as a \textit{given} and then computes probabilities of different parameter values (which describe the possible tree topologies) that could explain the data.
+The credible interval, then, is the way to describe how certain or uncertain we are about the answers that were inferred. \cite{PPinBayesianPhylogenetics}
 
-The power of Bayesian statistics in phylogenetics has been embraced by a growing community of researchers in recent years \cite{Huelsenbeck} \cite{HolderLewis} \cite{} \cite{} \cite{}
-In particular, the Bayesian Evolutionary Analysis by Sampling Trees (BEAST) software provides a framework for relatively easy introduction of new models and parameterizations in its statistical framework for the analysis of countless evolutionary questions.  
+The power of Bayesian statistics in phylogenetics has sparked interest among a growing community of researchers over the years. \cite{Huelsenbeck} \cite{HolderLewis} \cite{MammalRadiation} \cite{EarlyMammals} \cite{MissingData} \cite{SPREAD} \cite{MammalDiversification} \cite{SampledAncestors} \cite{Phylodynamics}
+In particular, the Bayesian Evolutionary Analysis by Sampling Trees (BEAST) software provides a framework for relatively easy introduction of new models and parameterizations in its statistical framework for the analysis of countless evolutionary questions. \cite{BEAST} \cite{BEAST1point7} \cite{BEAST2}.
 Because of the nature of the Bayesian approach, it permits the ability to incorporate prior knowledge (e. g., past population dynamics) into the inference by using it to generate a prior probability distribution to indicate where the true parameter values probably exist.  
 If not much is known previous to the analysis, these things can simply be inferred and the prior distribution is not heavily weighted.
 
 \textit{MCMC}
+\cite{MCMC}
+MCMC efficiency \cite{MCMCefficiency}
 
 \textit{Bayesian phylogenetics} The Bayesian method to phylogenetic inference attempts to obtain a posterior probability distribution of trees Pr($\tau,\theta|D$), where $\tau$ represents the trees sampled, $\theta$ is the substitution model, and $D$ is the data.  In our case, the data is the sequence alignment of amino acids which was produced by structurally aligning the aaRSs.
-The prior distributions Pr($\tau|\theta$)Pr($\theta$), which represent the prior knowledge available to the researcher, are combined with the likelihood calculation Pr($D|\tau$).  The full equation, then is
+The prior distributions Pr($\tau|\theta$)Pr($\theta$), which represent the prior knowledge available to the researcher, are combined with the likelihood calculation Pr($D|\tau$).  \cite{PPinBayesianPhylogenetics} The full equation, then is
 
 \begin{eqnarray}
 \Pr(\tau,\theta|D) = \frac{\Pr(D|\tau,\theta)\Pr(\tau|\theta)\Pr(\theta)}{\Pr(D)},
@@ -349,12 +351,12 @@ where Pr($D$) is a normalization constant which can be ignored.
 \textit{Molecular Clock}
 A strict molecular clock with invariable rates would be inappropriate for our dataset, given the breadth of time our phylogenies span, from present-day stretching all the way to before the divergence of the last universal common ancestor (LUCA) that connects the three domains of life: Archaea, Bacteria, Eukarya. 
 We are not particularly interested in the branches near the tips, which distinguish the species, but the fact that the rates of evolution within these branches should be vastly different than those which fixed into populations billions of years in the past cannot be ignored.  Therefore, we chose to use a 
-relaxed molecular clock to allow the rate at which mutations fixed into the populations - i. e., the rate of evolution - to vary.  With little information to go on concerning the effective population sizes throughout time, we chose a log normal distribution. 
+relaxed molecular clock to allow the rate at which mutations fixed into the populations - i. e., the rate of evolution - to vary. \cite{RelaxedClockModelSelection}  With little information to go on concerning the effective population sizes throughout time, we chose a log normal distribution. 
 
 \textit{Population dynamics and tree priors}
 Bayesian skyline models yield information about past population dynamics without the need to parameterize with differential equations, and so allow us to estimate the population dynamics rather than making assumptions for which we have limited prior knowledge. \cite{coalSky} \cite{BDSKY}
 
-\textit{Other methods}  There are other methods of analyzing molecular data to infer phylogenies.  In maximum likelihood \cite{Guindon}, the likelihood calculation Pr($D|\tau$) is the sole piece of the inference and yields one tree that maximizes the likelihood.  Rather than posterior probabilities, the branches of the tree are labelled with bootstrap values. \cite{HolderLewis}
+\textit{Other methods}  There are other methods of analyzing molecular data to infer phylogenies. [CITE CRITICISMS oF BAYES HERE] In maximum likelihood \cite{Guindon}, the likelihood calculation Pr($D|\tau$) is the sole piece of the inference and yields one tree that maximizes the likelihood.  Rather than posterior probabilities, the branches of the tree are labelled with bootstrap values. \cite{HolderLewis}
 Maximum likelihood trees are provided in the Supporting Information.
 
 
@@ -850,6 +852,18 @@ Li Z, Natarajan P, Ye Y, Hrabe T, Godzik A.
 \newblock POSA: A user-driven, interactive multiple protein structure alignment server.
 \newblock Nucl. Acids Res. 2014. doi: 10.1093/nar/gku394
 
+% BEAST
+\bibitem{BEAST}
+Drummond AJ, Rambaut A.
+\newblock BEAST: Bayesian evolutionary analysis by sampling trees.
+\newblock BMC Evolutionary Biology. 2007. doi: 10.1186/1471-2148-7-214.
+
+% BEAST 1.7
+\bibitem{BEAST1point7}
+Drummond AJ, Suchard MA, Xie Dong, Rambaut A.
+\newblock Bayesian phylogenetics with BEAUti and the BEAST 1.7.
+\newblock Molecular Biology and Evolution, 29(8): 1969-1973. 2012. doi: 10.1093/molbev/mss075.
+
 % BEAST 2 paper
 \bibitem{BEAST2}
 Bouckaert R, Heled J, Kühnert D, Vaughan T, Wu C-H, Xie D, Suchard MA, Rambaut A, Drummond AJ.
@@ -862,6 +876,18 @@ Söding J, Biegert A, Lupas AN.
 \newblock The HHpred interactive server for protein homology detection and structure prediction. 
 \newblock Nucleic Acids Research. 33(Web Server issue):W244-W248. doi: 10.1093/nar/gki408. 2005.
 
+% Bayes theorem
+\bibitem{Bayes}
+Bayes, Price
+\newblock An essay towards solving a problem in the doctrine of chances.
+\newblock Philosophical Transactions of the Royal Society, 53:370-418. 1763. doi:10.1098/rstl.1763.0053
+
+% Prior and posterior in Bayesian phylogenetics
+\bibitem{PPinBayesianPhylogenetics}
+Alfaro ME, Holder MT.
+\newblock The posterior and the prior in Bayesian phylogenetics.
+\newblock Annual Review of Ecology, Evolution, and Systematics, 37: 19-42. 2006. doi: 10.1146/annurev.ecolsys.37.091305.110021
+
 % Bayesian phylogenetics
 \bibitem{Huelsenbeck} 
 Huelsenbeck JP, Ronquist F, Nielsen R, Bollback JP.
@@ -873,6 +899,59 @@ Huelsenbeck JP, Ronquist F, Nielsen R, Bollback JP.
 Holder M, Lewis PO.
 \newblock Phylogeny estimation: traditional and Bayesian approaches.
 \newblock Nature Reviews Genetics, 4:275-284. 2003. doi: 10.1038/nrg1044
+
+%%%%
+% BAYESIAN PHYLOGENETICS PAPERS
+
+% Science, explicit 'Bayesian phylogenetics' in title
+\bibitem{MammalRadiation} 
+Murphy WJ, Eizirik E, O'Brien SJ, Madsen O, Scally M, Douady CJ, Teeling E, Ryder OA, Stanhope MJ, de Jong WW, Springer MS.
+\newblock Resolution of the early placental mammal radiation using Bayesian phylogenetics.
+\newblock Science, 294(5550): 2348-2351. 2001. doi: 10.1126/science.1067179
+
+% Early mammal evolution
+\bibitem{EarlyMammals} 
+Jow H, Hudelot C, Rattray M, Higgs PG.
+\newblock Bayesian phylogenetics using an RNA substitution model applied to early mammalian evolution.
+\newblock Molecular Biology and Evolution, 19(9): 1591-1601. 2002. doi: 10.1093/oxfordjournals.molbev.a004221
+
+% Missing data no problem for Bayesian phylogenetics
+\bibitem{MissingData} 
+Wiens JJ, Moen DS.
+\newblock Missing data and the accuracy of Bayesian phylogenetics.
+\newblock Journal of Systematics and Evolution, 46(3): 307-314. 2008. doi: 10.3724/SP.J.1002.2008.08040.
+
+% SPREAD
+\bibitem{SPREAD} 
+Bielejec F, Rambaut A, Suchard MA, Lemey P.
+\newblock SPREAD: spatial phylogenetic reconstruction of evolutionary dynamics.
+\newblock Bioinformatics, 27(20): 2910-2912. 2011. doi: 10.1093/bioinformatics/btr481.
+
+% Mammal diversification
+\bibitem{MammalDiversification}
+Meredith, Janecka JE, Gatesy J, Ryder OA, Fisher CA, Teeling EC, Goodbla A, Eizirik E, Simao TLL, Stadler T, Rabosky DL, Honeycutt RL, Flynn JJ, Ingram CM, Steiner C, Williams TL, Robinson TJ, Burk-Herrick A, Westerman M, Ayoub NA, Springer MS, Murphy WJ.
+\newblock Impacts of the Cretaceous terrestrial revolution and KPg Extinction on mammal diversification.
+\newblock Science, 334(6055): 521-524. 2011. doi: 10.1126/science.1211028.
+
+% Sampled ancestors
+\bibitem{SampledAncestors}
+Gavryushkina A, Heath TA, Ksepka DT, Stadler T, Welch D, Drummond AJ.
+\newblock Bayesian total-evidence dating reveals recent crown radiation of penguins.
+\newblock Systematic Biology, 66(1): 57-73. 2016. doi: 10.1093/sysbio/syw060.
+
+% Phylodynamics
+\bibitem{Phylodynamics}
+Rasmussen DA, Kouyos R, Gunthard HF, Stadler T.
+\newblock Phylodynamics on local sexual contact networks.
+\newblock PLOS Computational Biology. 2017. doi: 10.1371/journal.pcbi.1005448.
+
+%%%%
+
+% Relaxed clock model selection 
+\bibitem{RelaxedClockModelSelection} 
+Baele G, Li WLS, Drummond AJ, Suchard MA.
+\newblock Accurate model selection of relaxed molecular clocks in Bayesian phylogenetics.
+\newblock Molecular Biology and Evolution, 30(2): 239-243. 2013. doi: 10.1093/molbev/mss243
 
 % Maximum likelihood 
 \bibitem{Guindon}
@@ -903,6 +982,12 @@ Fiser A, Do RK, Sali A.
 Drummond AJ, Nicholls GK, Rodrigo AG, Solomon S. 
 \newblock Estimating mutation parameters, population history and genealogy simultaneously from temporally spaced sequence data.
 \newblock Genetics 161, 1307-1320. 2002.
+
+% MCMC efficiency
+\bibitem{MCMCefficiency}
+Lakner C, van der Mark P, Huelsenbeck JP, Larget B, Ronquist F.
+\newblock Efficiency of Markov Chain Monte Carlo tree proposals in Bayesian phylogenetics.
+\newblock Systematic Biology, 57(1): 86-103. 2008. doi: 10.1080/10635150801886156.
 
 % Wills paper - Emergence of Coding (intro to Remco's method)
 \bibitem{bib11} 
@@ -951,6 +1036,34 @@ Stadler T, Kuhnert D, Bonhoeffer S, Drummond AJ.
 Drummond AJ, Rambaut A, Shapiro B, Pybus OG.
 \newblock Bayesian coalescent inference of past population dynamics from molecular sequences.
 \newblock Molecular Biology and Evolution, 22(5): 1185-92. 2005. doi: 10.1093/molbev/msi103
+
+
+%%%%
+% BAYESIAN CRITICS
+
+% 
+\bibitem{} 
+
+\newblock 
+\newblock 
+
+% 
+\bibitem{} 
+
+\newblock 
+\newblock 
+
+% 
+\bibitem{} 
+
+\newblock 
+\newblock 
+
+% 
+\bibitem{} 
+
+\newblock 
+\newblock 
 
 %%%%
 
