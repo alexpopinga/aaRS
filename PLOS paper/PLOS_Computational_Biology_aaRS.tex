@@ -317,7 +317,14 @@ A partial order alignment is shown in Figure \ref{POA} [from: ``http://github.co
 \subsection*{Phylogenetic inference}
 
 \textit{Bayesian inference}
-The power of Bayesian statistics in phylogenetics \cite{Huelsenbeck} \cite{HolderLewis}
+Based on Bayes' theorem \cite{}, Bayesian inference supplies straight-forward measures of uncertainty in its posterior probabilities and credible intervals.  
+In classical, or frequentist, statistics the premise is that parameters are fixed and data are random.  Therefore, they report confidence intervals, which show a range of values to include the true value of some parameter with a minimum probability (e. g., 95\%).
+Bayesians, on the other hand, believe that probability is fundamentally measuring the degree of certainty and thus the parameters are random and the data are fixed. The credible interval is used to denote the range of values that include some percentage (e. g., 95\%) of the probability. \cite{}
+In other words, a frequentist designs an experiment to produce a number of trials in which data changes and then looks for the confidence interval that includes, say, 95\% of the true parameter value.  A Bayesian takes the provided data as a \textit{given} and then computes probabilities of different parameter values based on the data.
+The credible interval is a way to describe how certain (or uncertain) we are about the answers that were inferred. \cite{}
+
+The power of Bayesian statistics in phylogenetics has been embraced by a growing community of researchers in recent years \cite{Huelsenbeck} \cite{HolderLewis} \cite{} \cite{} \cite{}
+In particular, the Bayesian Evolutionary Analysis by Sampling Trees (BEAST) software permits relatively easy introduction of new models and parameterizations in its statistical framework for the analysis of countless evolutionary questions.  
 
 The Bayesian method to phylogenetic inference attempts to obtain a posterior probability distribution of trees Pr($\tau,\theta|D$), where $\tau$ represents the trees sampled, $\theta$ is the substitution model, and $D$ is the data.  In our case, the data is the sequence alignment of amino acids which was produced by structurally aligning the aaRSs.
 The prior distributions Pr($\tau|\theta$)Pr($\theta$), which represent the prior knowledge available to the researcher, are combined with the likelihood calculation Pr($D|\tau$).  The full equation, then is
@@ -340,7 +347,7 @@ We are not particularly interested in the branches near the tips, which distingu
 relaxed molecular clock to allow the rate at which mutations fixed into the populations - i. e., the rate of evolution - to vary.  With little information to go on concerning the effective population sizes throughout time, we chose a log normal distribution. 
 
 \textit{Population dynamics and tree priors}
-A simple birth-death skyline model allows for conservative analysis rather than making assumptions for which we have limited prior knowledge, as it yields information about past population dynamics without the need to parameterize with differential equations. \cite{coalSky} \cite{BDSKY}
+Bayesian skyline models yield information about past population dynamics without the need to parameterize with differential equations, and so allow us to estimate the population dynamics rather than making assumptions for which we have limited prior knowledge. \cite{coalSky} \cite{BDSKY}
 
 \textit{Other methods}  There are other methods of analyzing molecular data to infer phylogenies.  In maximum likelihood \cite{Guindon}, the likelihood calculation Pr($D|\tau$) is the sole piece of the inference and yields one tree that maximizes the likelihood.  Rather than posterior probabilities, the branches of the tree are labelled with bootstrap values. \cite{HolderLewis}
 Maximum likelihood trees are provided in the Supporting Information.
