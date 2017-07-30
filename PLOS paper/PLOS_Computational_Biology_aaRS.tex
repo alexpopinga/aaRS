@@ -277,7 +277,7 @@ To ensure a statistically significant and diverse dataset, we gathered additiona
 We selected 20 organisms from each of the 3 domains of life, sampling from as many distinct clades as possible along the tips of the tree of life found in Figure \ref{treeoflife} [from: \hyperref[label_name]{``http://tolweb.org/Eukaryotes/3''}]. 
 The result of our sampling is shown in Figure \ref{sampledtree}.
 
-We used the ``protein homology detection and protein structure prediction" program HHpred \cite{HHpred} and Modeller \cite{Modeller} to provide 3D structures to the aaRS data from the GenBank database.  
+We used the ``protein homology detection and protein structure prediction" program HHpred \cite{HHpred} and Modeller \cite{Modeller} to provide 3D structures to the aaRS data from the GenBank database \cite{HHpred1}.  
 HHpred, which is available through the online server (http://toolkit.tuebingen.mpg.de/\#/) searches the database for known structures that closely match the input queries (i. e., our GenBank sequences).  
 It feeds its produced alignment with the known structures to Modeller, which infers structures for the input queries based upon the known structure.
 
@@ -328,6 +328,8 @@ The power of Bayesian statistics in phylogenetics has sparked interest among a g
 In particular, the Bayesian Evolutionary Analysis by Sampling Trees (BEAST) software provides a framework for relatively easy introduction of new models and parameterizations in its statistical framework for the analysis of countless evolutionary questions. \cite{BEAST} \cite{BEAST1point7} \cite{BEAST2}.
 Because of the nature of the Bayesian approach, it permits the ability to incorporate prior knowledge (e. g., past population dynamics) into the inference by using it to generate a prior probability distribution to indicate where the true parameter values probably exist.  
 If not much is known previous to the analysis, these things can simply be inferred and the prior distribution is not heavily weighted. \cite{MCMC}
+
+%"However, in too many studies only two hypotheses are aired: the favoured one and the null hypothesis. It is worth highlighting here what the p value in NHST represents: the probability of the data (and even more unlikely events) if the null hypothesis is true. Instead, is it not often more interesting to ask what the probability of a given hypothesis is, given the data? The latter, p(hypothesis | data) rather than p(data | hypothesis), requires a Bayesian approach rather than the classical statistics of NHST (e.g. Yoccoz, 1991; Cohen, 1994; Hilborn & Mangel, 1997)." \cite{ConfidenceInterval}
 
 \textit{MCMC}
 In order to perform Bayesian inference, one must have a method of sampling the probability distribution.  A popular choice is to implement Metropolis-Hastings Markov chain Monte Carlo (MCMC) integration. \cite{MCMC} \cite{Metropolis} \cite{Hastings}  
@@ -868,7 +870,25 @@ Bouckaert R, Heled J, Kühnert D, Vaughan T, Wu C-H, Xie D, Suchard MA, Rambaut 
 \bibitem{HHpred}
 Söding J, Biegert A, Lupas AN.
 \newblock The HHpred interactive server for protein homology detection and structure prediction. 
-\newblock Nucleic Acids Research. 33(Web Server issue):W244-W248. doi: 10.1093/nar/gki408. 2005.
+\newblock Nucleic Acids Research, 33(Web Server issue):W244-W248. 2005. doi: 10.1093/nar/gki408.
+
+% HMM-HMM
+%\bibitem{HMMHMM}
+%Söding J.
+%\newblock Protein homology detection by HMM-HMM comparison.
+%\newblock Bioinformatics, 21(7): 951-960. 2005. doi: 10.1093/bioinformatics/bti125.
+
+% HHblits
+%\bibitem{HHblits}
+%Remmert M, Biegert A, Hauser A, Söding J.
+%\newblock HHblits: Lightning-fast iterative protein sequence searching by HMM-HMM alignment.
+%\newblock 2015.
+
+% HHpred + MODELLER paper
+\bibitem{HHpred1}
+Meier A, Söding J.
+\newblock Automatic prediction of protein 3D structures by probabilistic multi-template homology modeling.
+\newblock PLoS Computational Biology, 11(10): e1004343. 2015. doi: 10.1371/journal.pcbi.1004343.
 
 % Bayes theorem
 \bibitem{Bayes}
@@ -1072,6 +1092,12 @@ Brown JM, Lemmon AR, Jockusch E.
 \newblock Systematic Biology, 56(4): 643-655. 2007. doi: 10.1080/10635150701546249.
 
 %%%%
+
+% Glycine, genetic code evolution
+\bibitem{Glycine} 
+Bernhardt HS, Patrick WM.
+\newblock Genetic code evolution started with the incorporation of glycine, followed by other small hydrophilic amino acids.
+\newblock Journal of Molecular Evolution, 78: 307-309. 2014. doi: 10.1007/s00239-014-9627-y.
 
 \end{thebibliography}
 
