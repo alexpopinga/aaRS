@@ -277,9 +277,14 @@ To ensure a statistically significant and diverse dataset, we gathered additiona
 We selected 20 organisms from each of the 3 domains of life, sampling from as many distinct clades as possible along the tips of the tree of life found in Figure \ref{treeoflife} [from: \hyperref[label_name]{``http://tolweb.org/Eukaryotes/3''}]. 
 The result of our sampling is shown in Figure \ref{sampledtree}.
 
-We used the ``protein homology detection and protein structure prediction" program HHpred \cite{HHpred} and Modeller \cite{Modeller} to provide 3D structures to the aaRS data from the GenBank database \cite{HHpred1}.  
+The Critical Assessment of techniques for protein Structure Prediction (CASP), a ``community-wide blind benchmark" provides objective, independent assessment of protein structure prediction methods every two years and ranks them according to distances between the methods' predicted structure and the target structure.
+
+We used the ``protein homology detection and protein structure prediction" program HHpred \cite{HHpred} and Modeller \cite{Modeller} to provide 3D structures to the aaRS data from the GenBank database.  
 HHpred, which is available through the online server (http://toolkit.tuebingen.mpg.de/\#/) searches the database for known structures that closely match the input queries (i. e., our GenBank sequences).  
 It feeds its produced alignment with the known structures to Modeller, which infers structures for the input queries based upon the known structure.
+Essentially, HHpred adds some additional restraints to the homology modelling, increasing the efficacy of the modelling by about 6.5\% \cite{HHpred1}
+
+MODLLER is homology modeling software 
 
 We align the modelled structures with the aaRS structures obtained by x-ray crystallography.  This ensures a more complete dataset.
 
