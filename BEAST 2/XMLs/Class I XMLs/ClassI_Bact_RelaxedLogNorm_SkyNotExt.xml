@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="ClassI_Bact"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_arg_1iq0_t_therm19A-aa" taxon="arg_1iq0_t_therm19A-aa" totalcount="20" value="LVEHSVNPNKELHVGHLRNIALGDAIARI-LVLNYIDDTG-NRILLAQMATMHAL-VWESD-KALA-TYYAKDIAFQF-INVVDVRQSHPQALVRAALALA-AHHLAY"/>
+                    <sequence id="seq_arg_3fnr_c_pyl_j20A-aa" taxon="arg_3fnr_c_pyl_j20A-aa" totalcount="20" value="LLEYSANPTGPLHIGHARGAVFGDTLTRL-NTEYYVNDAG-DKMLVLIKQNLEQA-VSERS-ATLE-TYLAADIVYHK-INIWGADHHGYIPRMKAAMEFL-LEIILA"/>
+                    <sequence id="seq_arg_bact_m__coli3A-aa" taxon="arg_bact_m__coli3A-aa" totalcount="20" value="VVDYAPNVAKEMHVGHLRSTIIGDAAVRT-IRANHVGDWG-DITMTQNQITYDRL-MGESL-GIVA-LYTTTDIACAK-LYYIDSRQHQHLMQAWAIVRKA-LEHHMF"/>
+                    <sequence id="seq_arg_bact_m_egans16A-aa" taxon="arg_bact_m_egans16A-aa" totalcount="20" value="VIDYSPNIAKRMHVGHIRSTIIGQALVHI-IGDNHLGDWG-DLSLRAAQRNYDRL-YGESF-GVIE-VYMTRDIATIK-IYVVDARQELHFRQLFAIVRAM-LVHVPF"/>
+                    <sequence id="seq_arg_bact_m_ensis8A-aa" taxon="arg_bact_m_ensis8A-aa" totalcount="20" value="VVDYSPNLAKEMHVGHLRSSVIGDALCRV-IRQNHIGDWG-GESLRHMNEVFARL-KPESA-PLCR-GYATTDLAAAA-VYVVDSRQREHFQKFFAAARDA-MDHAAF"/>
+                    <sequence id="seq_arg_bact_m_gatus10A-aa" taxon="arg_bact_m_gatus10A-aa" totalcount="20" value="IVDFSPNIAKEMHVGHLRSTIIGDSIARV-LRLNHVGDWG-DQSRREFQKIYDRL-RGESF-AIVE-NYATTDLAALR-IYVTDSGQANHFAQVFQVAQRA-IEHVPF"/>
+                    <sequence id="seq_arg_bact_m_gilis13A-aa" taxon="arg_bact_m_gilis13A-aa" totalcount="20" value="MIEYSPNTNKPLHLGHVRNNLLGNALANI-VKTNIVNDRG-NWVYAGFDETYRKM-YYESN-EKVM-VYMTQDIGTAK-IYVVGNEQNYHFQVLSILLDKL-LVHFSY"/>
+                    <sequence id="seq_arg_bact_m_iacus6A-aa" taxon="arg_bact_m_iacus6A-aa" totalcount="20" value="VVDYSPNIAKRMRVDHIRSTMIGQAIVNI-IRMNHWGDYD-DLSLTANQANYRRL-HCESF-VVIK-LYITRDIAAIK-IYVVKQAQELHFRQAFTISKTL-LSHVAC"/>
+                    <sequence id="seq_arg_bact_m_incut12A-aa" taxon="arg_bact_m_incut12A-aa" totalcount="20" value="LLEFSANPTGPLHVGHGRQAALGDALANV-HREFYYNDAG-AYLRREQDMDLKAF-YLESS-KTVD-TYFVPDVAYHV-INIQGSDHHGTIARVRAGLQGI-PDYVLH"/>
+                    <sequence id="seq_arg_bact_m_incut14A-aa" taxon="arg_bact_m_incut14A-aa" totalcount="20" value="QVEFSANPTGNLHLGHARGAAVGDSLCNV-SREYYINDAG-KYELGKLREDLENF-YSETS-QALE-TYLLPDIAYHK-INVWGADHHGYIPRMKAAIEAL-LEVEII"/>
+                    <sequence id="seq_arg_bact_m_incut15A-aa" taxon="arg_bact_m_incut15A-aa" totalcount="20" value="QFEYSANPTGPFTVGHGRQIIIGDVLSEV-TREMYINDAG-NRILSSMKDTLEKI-FSEKS-EVLK-TYFMTDIAYHY-YDIWGSDHHGHIPRMKAAMKAL-FNVILH"/>
+                    <sequence id="seq_arg_bact_m_incut1A-aa" taxon="arg_bact_m_incut1A-aa" totalcount="20" value="QLEYSANPTGPLHLGHGRGAVVGDTLARL-TREYYINDAG-DLMMKEIREDLSLM-FSERS-RLIN-TYFASDIAYHY-INVWGADHHGYIPRVKAALKML-LEILLV"/>
+                    <sequence id="seq_arg_bact_m_incut5A-aa" taxon="arg_bact_m_incut5A-aa" totalcount="20" value="QVEFSANPTGDLHLGHARGAAVGDSLCNI-TREYYINDAG-RYELDKIKQDLAAF-YSETS-EALS-TYLLPDIAYHQ-INVWGADHHGYIPRMKAAIAAL-LEVEII"/>
+                    <sequence id="seq_arg_bact_m_incut9A-aa" taxon="arg_bact_m_incut9A-aa" totalcount="20" value="LLEYSANPTGDLHIGHARNAAVGDALANI-TREYYINDAG-EYEMAKLKNDLAEF-FSETS-EVLA-TYFLPDIAYHF-IDLFGADHHGYINRLKASLETF-LEIQIM"/>
+                    <sequence id="seq_arg_bact_m_lobus4A-aa" taxon="arg_bact_m_lobus4A-aa" totalcount="20" value="VIDLGPNVAKPLHVGHLRSTIIGDALVRI-IGDNHLGDWG-PACMEMLRPIYERL-LGESF-GVVA-TYTTTDLATIK-LYVVGAPQALHFKTVFAQAKRW-FQHVQF"/>
+                    <sequence id="seq_arg_bact_m_malis18A-aa" taxon="arg_bact_m_malis18A-aa" totalcount="20" value="IVDYSPNIAKEMHVGHLRPAVIGDCLSRI-VRLSHVGDWG-QLSSRAYRVIYDLM-RGESF-ETIE-NYATTDLAAIR-IYPVGAEQTNHFAQIFQVGKRA-FFHAPF"/>
+                    <sequence id="seq_arg_bact_m_rferi11A-aa" taxon="arg_bact_m_rferi11A-aa" totalcount="20" value="ILEFSPNTNKPLHVGHLRNDVIGESLSRI-TKINLINDRG-KWAIEGIKETYEIT-YLESE-VVLE-IYLTQDLGNIA-IYVVGSEQIQHFKSLFFVAEKL-LIHLSH"/>
+                    <sequence id="seq_arg_bact_m_ticus17A-aa" taxon="arg_bact_m_ticus17A-aa" totalcount="20" value="VVEYSPNTNKPLHLGHLRNNFLGHAVSEI-YKVNLVNDRG-GWVYDGFDITYQKL-YYESQ-EVVA-VYITQDLGTAD-VYVVGNEQDYHFEVLAKIMARL-LYHLSY"/>
+                    <sequence id="seq_arg_bact_m_urans2A-aa" taxon="arg_bact_m_urans2A-aa" totalcount="20" value="VIEHSVNPNKELHVGHLRNVVLGDSMARI-EVQNYIDDTG-EQTVKAQLQTCFRL-NWESD-QAMN-MYAAKDIGYQF-INVIDSRQDHPQTVVRSALGVA-SIHLSY"/>
+                    <sequence id="seq_cys_1li5_e__coli1A-aa" taxon="cys_1li5_e__coli1A-aa" totalcount="20" value="GMYVGITVYDLCHIGHGRTFVAFDVVARY-KYVRNITDID-DRMIAEMHKDFDAL-PRATH-ELTE-GWHIECSAMNC-IHGGGSDLMFPHENEIAQSTCA-VYWMHS"/>
+                    <sequence id="seq_cys_3c8z_m__smeg17A-aa" taxon="cys_3c8z_m__smeg17A-aa" totalcount="20" value="TMYVGITPYDATHLGHAATYLTFDLVHRL-QYVQNVTDVD-DRETQLFREDMAAL-VAATD-EMVE-GWHVECSAIAL-IQGGGSDLIFPHEYSAAHAESV-AHYVHT"/>
+                    <sequence id="seq_cys_bact_m_cus_16A-aa" taxon="cys_bact_m_cus_16A-aa" totalcount="20" value="RMYVGVTPYDTTHMGHARTYVVYDTIRRY-LYVQNVTDID-RQETERFLRDMDAL-VKATD-EVNS-GWHIECTAMVL-IHGGGSDLQFPHACELAQAENF-VAWSHI"/>
+                    <sequence id="seq_cys_bact_m_egans17A-aa" taxon="cys_bact_m_egans17A-aa" totalcount="20" value="TLYVGVTPYDTTHMGHARTFIVFDVLVRY-TYCQNITDVD-ERQIAQLRADCADL-PRVSE-PIIE-GWHIECSAMSI-IHGGGADLIFPHSCEIAQSESA-AIWMHV"/>
+                    <sequence id="seq_cys_bact_m_incut10A-aa" taxon="cys_bact_m_incut10A-aa" totalcount="20" value="SLYCGVTVYDYCHLGHARSYIVWDTLRRY-RYVQNFTDID-DRYTQAYFEDMARL-PRATH-RLIA-GWHIECSAMVR-IHVGGADLVFPHENEIAQSEAV-AYWLHN"/>
+                    <sequence id="seq_cys_bact_m_incut11A-aa" taxon="cys_bact_m_incut11A-aa" totalcount="20" value="RMYVGPTVYDLIHVGNARPALVFDVFRRY-IMVQNFTDID-DTFIAEYWRDAHAL-PRTTD-EIIE-GWHIECTVMSV-IHAGGEDLVFPHENEKAQAEAL-AYWMHN"/>
+                    <sequence id="seq_cys_bact_m_incut13A-aa" taxon="cys_bact_m_incut13A-aa" totalcount="20" value="GIYVGPTVYADPHLGHARGPVVYDVLRRY-RFVSNITDVE-EKYTWSYFDAMQAL-PRASG-ELTE-GWHIECTAMSL-LHAGGIDLQFPHECEIAQAEAA-AHWMHH"/>
+                    <sequence id="seq_cys_bact_m_incut14A-aa" taxon="cys_bact_m_incut14A-aa" totalcount="20" value="GMYVGPTVYGDAHLGHARPAITFDVLFRY-RYVRNITDVE-QYYLNRYHKAMEAL-PHASG-ELVK-GWHAECTAMGR-IHGGGMDLIFPHECEIAQSVAS-VYWMHN"/>
+                    <sequence id="seq_cys_bact_m_incut15A-aa" taxon="cys_bact_m_incut15A-aa" totalcount="20" value="KMYVGPTVYNYIHIGNARPAIVYDTVRKY-QYVSNFTDVD-ERFIKAYFEDVGSL-PRVTE-DFIR-GWHIECSAMAK-IHAGGQDLTFPHENEIAQSEAL-AYWLHN"/>
+                    <sequence id="seq_cys_bact_m_incut16A-aa" taxon="cys_bact_m_incut16A-aa" totalcount="20" value="RMYVGITVYDYCHIGHARMVVVFDIVQRW-TYVRNITDID-RRFIDAMNADFDAL-PRATD-GMIE-GWHIECSAMGC-IHGGGQDLQFPHENEIAQSEGA-VYWMHN"/>
+                    <sequence id="seq_cys_bact_m_incut18A-aa" taxon="cys_bact_m_incut18A-aa" totalcount="20" value="SIYLGPTVYDDAHLGHARSSVCFDLLRRV-KFARNYTDID-EFYIKSYEEDMRVL-PRATH-DLIK-GWHTECVAMID-IHAGGIDLLFPHENEAAQCRCG-AIWLHN"/>
+                    <sequence id="seq_cys_bact_m_incut19A-aa" taxon="cys_bact_m_incut19A-aa" totalcount="20" value="KMYYGVTVYDYCHLGHARACIIWDVVRRY-TYIQNFTDID-ERYIQAYFEDMTRL-PRATH-RLIF-GWHIECSAMVR-IHAGGADLIFPHENEIAQSEAV-SYWMHN"/>
+                    <sequence id="seq_cys_bact_m_incut3A-aa" taxon="cys_bact_m_incut3A-aa" totalcount="20" value="LIYTGVTVYDDSHVGHGRSLIVFDVFRRF-KFVRNFTDVD-DRYIARYYVDMENI-PRVTE-EVIQ-GWHTECVAMVF-IHGGGLDLVFPHENEIAQAEAI-AYWMHN"/>
+                    <sequence id="seq_cys_bact_m_incut4A-aa" taxon="cys_bact_m_incut4A-aa" totalcount="20" value="GMYLGPTVYSDAHLGHAKKEVAFDVIRRA-RYVSNITDVE-DKYFWSFFRDMDAL-PRATG-KLIE-GWHIECSAMSL-IHGGGLDLQFPHEAEIAQAEAA-AYWMHN"/>
+                    <sequence id="seq_cys_bact_m_incut8A-aa" taxon="cys_bact_m_incut8A-aa" totalcount="20" value="SMYSGPTV--FAHIGNFRTFLFADVLRRF-HHVMNLTDVG-AFYIAAFKEDAAKL-PRATE-ELIG-GWHIECSAMAR-IHTGGEDNIFPHECEIAQSRCG-ALWLHS"/>
+                    <sequence id="seq_cys_bact_m_incut9A-aa" taxon="cys_bact_m_incut9A-aa" totalcount="20" value="KMYVGPTVYNYIHIGNARPAINYDVVRRY-EYVSNFTDVD-EKYIAAFHEDVGAL-PRVMD-QFIK-GWHIECSVMAF-IHAGGSDLQFPHENEIAQSEAH-AYWMHN"/>
+                    <sequence id="seq_cys_bact_m_lobus5A-aa" taxon="cys_bact_m_lobus5A-aa" totalcount="20" value="TMYVGPTVYKPSHIGHMVGPVIFDTVKRY-KWIVNITDVD-AKMTEDYFACLKSL-PKATD-EVIQ-GWHIECTCMAI-IHGGGLDLQFPHENELAQSESW-AIWMHN"/>
+                    <sequence id="seq_cys_bact_m_obile7A-aa" taxon="cys_bact_m_obile7A-aa" totalcount="20" value="YIYVGPTVYNKVHIGNMKPIMTFDLFLRG-LFLHNLTDID-ELYSDFYLKMLDEY-EKVTD-EYIG-GWHTECSALIN-IHGGGIDLIFPNENENIQNIAL-AKWLHV"/>
+                    <sequence id="seq_cys_bact_m_rferi12A-aa" taxon="cys_bact_m_rferi12A-aa" totalcount="20" value="KVYAGPTVYNYAHIGNFRTYIFGDLLIKT-NYAMNITDIG-EFFTEAFFNDCRKL-LVASK-EVVK-SWHLECAAMNL-IHLGGVDHIGVHINEIAIAECF-CVFVHG"/>
+                    <sequence id="seq_cys_bact_m_ticus20A-aa" taxon="cys_bact_m_ticus20A-aa" totalcount="20" value="GMYVGPTVYGPAHLGHARCYVTFDVIQRY-RYVRNITDVG-QRYMNSFHRDMALL-PQASG-RMIQ-GWHIECTALAT-IHGGGMDLLFPHECELAQSQAA-AYWLHN"/>
+                    <sequence id="seq_gln_1qtq_e__coli1A-aa" taxon="gln_1qtq_e__coli1A-aa" totalcount="20" value="HTRFPPEPNGYLHIGHAKSICLNFGIAQD-QCNLRFDDTN-IEYVESIKNDVEWL-RYSSD-AYAI-MYDFTHCISDA-HSLCTLEFQDNRRLYDWVLDNI-PRQYEF"/>
+                    <sequence id="seq_gln_2hz7_d_radio2A-aa" taxon="gln_2hz7_d_radio2A-aa" totalcount="20" value="VTRFPPDPSGYAHLGHVFASLLDFNTARQ-QFNLRMDDTN-QEYVDSIADDLKWL-YYASD-AYAE-AYDFEHPLQDA-HSMCSLEFVDNRAIYDWLMEKL-PHQYEF"/>
+                    <sequence id="seq_gln_bact_m_ejuni7A-aa" taxon="gln_bact_m_ejuni7A-aa" totalcount="20" value="MYRFAPSPTGDMHIGNLRAAIFNYICARQ-DFILRIEDTD-AGKEEEIKEILNLF-YIQSE-QMAL-TYNFACAVDDM-CIIRGEDHVSNTPKQEHIRASL-MTYAHL"/>
+                    <sequence id="seq_gln_bact_m_ensis12A-aa" taxon="gln_bact_m_ensis12A-aa" totalcount="20" value="RTRFPPEPNGFLHVGHAKAICIDFGVARA-PCLLRFDDTN-ARYADAIRTDLAWL-THTSD-GLAD-TYDFAHGQCDA-HSLCSLEFEDHRPLYDWFIEKL-SRQIEF"/>
+                    <sequence id="seq_gln_bact_m_ensis5A-aa" taxon="gln_bact_m_ensis5A-aa" totalcount="20" value="ETRFPPEPNGYLHIGHAKSICLNFSVARD-VCHLRFDDTN-VEYVNSIVDAVRWL-YFASD-EFAE-MYDYTHCISDA-HSLCTLEFEDHRPLYDWVLNEL-PQQIEF"/>
+                    <sequence id="seq_gln_bact_m_gatus14A-aa" taxon="gln_bact_m_gatus14A-aa" totalcount="20" value="RVRIAPSPTGNLHIGTARTAVFNWLFARR-QFILRIEDTD-SEYTDNILTGLQWL-FYQTQ-AAVQ-LYNLAVVVDDI-HVIRGEDHIANTAKQILLYEAL-PEFAHT"/>
+                    <sequence id="seq_gln_bact_m_hilus15A-aa" taxon="gln_bact_m_hilus15A-aa" totalcount="20" value="VTRFPPEPNGYLHIGHARSIVLNFGLAQD-ECNLRFDDTN-EEYARAIEEDVRWL-LYASD-QCAL-MYDFAHPLEDF-HSLCTLEFENNRTVYDWVIENL-PHQYEF"/>
+                    <sequence id="seq_gln_bact_m_incut3A-aa" taxon="gln_bact_m_incut3A-aa" totalcount="20" value="QTRFPPEPNGYLHIGHAKAICLDFGIAAA-VCNLRFDDTN-MEYVEAIQEDIRWL-YYASD-DFAV-MYDFAHGQSDY-HSLCTLEFVPHRPLYDLFIDWL-PRQTEF"/>
+                    <sequence id="seq_gln_bact_m_lobus9A-aa" taxon="gln_bact_m_lobus9A-aa" totalcount="20" value="TGRLAPSPTGAQHVGNARTYLVAWLAARA-TVRVRIEDID-PGAAEQALDDLRWL-VTQTT-AALE-AYQLAVVVDDA-EVVRGDDLIPSTPRQLLLYRAL-PAFAHV"/>
+                    <sequence id="seq_glu_1j09_t_therm1A-aa" taxon="glu_1j09_t_therm1A-aa" totalcount="20" value="VTRIAPSPTGDPHVGTAYIALFNYAWARR-RFIVRIEDTD-PGAEERILAALKWL-YRQSE-KYAE-TYHLANVVDDH-DVIRAEEWLVSTPIHVLLYRAF-PRFYHM"/>
+                    <sequence id="seq_glu_1nzj_e__coli2A-aa" taxon="glu_1nzj_e__coli2A-aa" totalcount="20" value="IGRFAPSPSGELHFGSLIAALGSYLQARA-RWLVRIEDID-PGAAETILRQLEHY-LWQSQ-EALA-AYNLAVVVDDH-EIVRGADLIEPTVRQISLYQLF-PDYIHL"/>
+                    <sequence id="seq_glu_2cfo_t_elong16A-aa" taxon="glu_2cfo_t_elong16A-aa" totalcount="20" value="RVRLAPSPTGNLHIGTARTAVFNWLYARH-KFILRIEDTD-PEYTENILEGLQWL-YFQSD-QAIQ-LYNLVVVVDDI-DVIRGEDHIGNTPKQILLYEAL-PNFAHT"/>
+                    <sequence id="seq_glu_2cfo_t_elong3A-aa" taxon="glu_2cfo_t_elong3A-aa" totalcount="20" value="RVRLAPSPTGNLHIGTARTAVFNWLYARH-KFILRIEDTD-PEYTENILEGLQWL-YFQSD-QAIQ-LYNLVVVVDDI-DVIRGEDHIGNTPKQILLYEAL-PNFAHT"/>
+                    <sequence id="seq_glu_2o5r_t_itima4A-aa" taxon="glu_2o5r_t_itima4A-aa" totalcount="20" value="RVRFAPSPTGFLHVGGARTALFNFLFARK-EFILRIEDTD-REYEEKL?ESLRWL-YRQSE-YREH-TYNFACVVDD?-HVIRGDDHLSNTLRQLALYEAF-PVFAHV"/>
+                    <sequence id="seq_glu_bact_m_egans10A-aa" taxon="glu_bact_m_egans10A-aa" totalcount="20" value="RVRFAPSPTGSLHIGGVRTALFNWLCARH-QFILRIEDTD-PGAADDISISLRWV-YVQSQ-PYVD-VYHFAHLVDDH-LVMRGEEWVPSTPYHVLLYDYF-PIFAHL"/>
+                    <sequence id="seq_glu_bact_m_ejuni11A-aa" taxon="glu_bact_m_ejuni11A-aa" totalcount="20" value="TTRFAPSPTGYLHIGGLRTALYNYLYARK-NFLLRIEDTD-KEATKAIIEAFKWC-TYQSE-EYVK-TYNFTVVIDDA-DVIRGDDHLSNTPKQIVLYEAL-PKFFHV"/>
+                    <sequence id="seq_glu_bact_m_ensis18A-aa" taxon="glu_bact_m_ensis18A-aa" totalcount="20" value="VTRFAPSPTGELHVGGARTALYSWALARR-RFLLRFEDTD-AAAADRIRADLAWF-PRQSE-AAVD-TFHLAVVVDDH-HVVRGQEHLSNTPKHAALCDAL-PVWAHT"/>
+                    <sequence id="seq_glu_bact_m_ensis9A-aa" taxon="glu_bact_m_ensis9A-aa" totalcount="20" value="RTRFAPSPTGFIHLGNIRSALYPWAFARK-TFVLRIEDTD-QEAVDAILEGMAWL-YYQMQ-EVLA-MYNFCVVVDDL-HVIRGDDHVNNTPRQINILRAL-PVYAHL"/>
+                    <sequence id="seq_glu_bact_m_gilis7A-aa" taxon="glu_bact_m_gilis7A-aa" totalcount="20" value="RVRFAPSPTGALHIGGVRTALYNYLFARQ-DLIFRIEDTD-PGAEEYILESFKWL-YRQSE-KYVQ-TYHLANIVDDH-HVIRGEEWLPSAPLHVLLYRAF-PAFAHL"/>
+                    <sequence id="seq_glu_bact_m_hilus16A-aa" taxon="glu_bact_m_hilus16A-aa" totalcount="20" value="RVRYAPSPTGHLHIGGARTALFNYLFARH-KMIVRIEDTD-EGGEQSQLENLQWL-YRQTE-KYVD-TYNFAVVIDDH-HVFRGEEHLSNTPKQLMVYEYF-PQFAHL"/>
+                    <sequence id="seq_glu_bact_m_iacus17A-aa" taxon="glu_bact_m_iacus17A-aa" totalcount="20" value="RTRFAPSPTGYLHIGSLRTVLFSWLWARH-QFLLRIEDTD-EGAEEQLTSSLQAI-YKQSE-AHAQ-TYALAAMVDDH-HVLRADEWIPTWPIHHQIYEAF-PVWVHV"/>
+                    <sequence id="seq_glu_bact_m_incut14A-aa" taxon="glu_bact_m_incut14A-aa" totalcount="20" value="VTRFPPDPSGYAHLGHVFASLLDFNTARQ-QFNLRMDDTN-QEYVDSIADDLKWL-YYASD-AYAE-AYDFEHPLQDA-HSMCSLEFVDNRAIYDWLMEKL-PHQYEF"/>
+                    <sequence id="seq_glu_bact_m_licus5A-aa" taxon="glu_bact_m_licus5A-aa" totalcount="20" value="KTRFAPSPTGYLHLGNARTAIFSYLFARH-GFVLRIEDTD-KEYEEMLIEDLKWL-YRQSE-EYVN-TYNFVVVVDDA-HVIRGEDHIPNTPKQILIYEAL-PKFAHL"/>
+                    <sequence id="seq_glu_bact_m_lobus15A-aa" taxon="glu_bact_m_lobus15A-aa" totalcount="20" value="RTRFAPSPTGYLHIGGVRTALFNWLYARR-QFVLRIDDTD-AEAVKPILDGFDWL-YFQGQ-AAAM-LYAFATVVDEV-HVIRAEEHLANTPVQILIYNAL-PEFAHV"/>
+                    <sequence id="seq_glu_bact_m_obile20A-aa" taxon="glu_bact_m_obile20A-aa" totalcount="20" value="RTRYAPSPTGYLHIGGARTALFNYLFAKH-DFIVRIEDTD-AGGEESQLDNLEWL-YRQSE-EIVE-TYNFAVVVDDF-HVLRGEEHITNTPKQLAVYEAM-PVFGHL"/>
+                    <sequence id="seq_glu_bact_m_ormis8A-aa" taxon="glu_bact_m_ormis8A-aa" totalcount="20" value="RVRYAPSPTGHLHIGNARTALFNYLFARS-KFIIRIEDTD-EGGEQSQLNYLKWL-YRQSE-TYYE-TYNFAVAVDDY-HVLRGEDHISNTPKQIMIYNAL-PAFGHM"/>
+                    <sequence id="seq_glu_bact_m_rferi6A-aa" taxon="glu_bact_m_rferi6A-aa" totalcount="20" value="RVRYAPSPTGLQHIGGIRTALFNYFFAKS-KFLLRIEDTD-PEAENDLYSSLKWL-YVQSQ-QYAK-TYHLANVVDDY-HVLRAQEWVSSGPLHVLLYKAF-PIYCHL"/>
+                    <sequence id="seq_glu_bact_m_ureus19A-aa" taxon="glu_bact_m_ureus19A-aa" totalcount="20" value="RVRYAPSPTGYLHIGNARTALFNYLYAKH-DFVIRIEDTD-EDGETSQFDNLKWL-YRQSE-PLID-TYNFAVAIDDH-DVIRGDDHISNTPKQIMIYEAF-PRFGHM"/>
+                    <sequence id="seq_ile_1ile_t_therm19A-aa" taxon="ile_1ile_t_therm19A-aa" totalcount="20" value="TVYEPPTANGLPHVGHAQARSYKDLFPRY-PRRAGWDTHG-FTYEKEWEAFTERI-YATLE-WSLK-DVWYDSGAMPF-FIAEGIDQTRGFNSLHQLGVML-FNVICH"/>
+                    <sequence id="seq_ile_1qu2_s_ureus2A-aa" taxon="ile_1qu2_s_ureus2A-aa" totalcount="20" value="ILHDPPYANGNLHMGHALNKILKDFIVRY-PYVPGWDTHG-LEQIELQKKDFRRL-YITLK-RIFG-DVWFDSGSSHR-MYLEGSDQYRGFNSSITTSVAT-YFLLSH"/>
+                    <sequence id="seq_ile_bact_m__coli5A-aa" taxon="ile_bact_m__coli5A-aa" totalcount="20" value="ILHDPPYANGSIHIGHSVNKILKDIIIKS-PYVPGWDCHG-ATQVDGQRKDFIRL-YLTMD-RALG-DVWFDSGSTHS-MYLEGSDQHRGFMSSLMISTAM-YQVLTH"/>
+                    <sequence id="seq_ile_bact_m_egans17A-aa" taxon="ile_bact_m_egans17A-aa" totalcount="20" value="VFYEPPTANGRPGLHHTISRSFKDVILRY-GRREGWDTHG-WEYIQEWKAFTKRI-YITYE-WIFR-DCWFDSGSMPV-YICEAVDQTRGFYTLHAVSTLL-FNVICL"/>
+                    <sequence id="seq_ile_bact_m_ejuni18A-aa" taxon="ile_bact_m_ejuni18A-aa" totalcount="20" value="TLHDPPYANGHIHIGHALNKILKETIIKT-RFTPGWDCHG-SEFVDIQREEFKDL-YLTMK-RTLC-DVWFDSGSTFN-MYLEGSDQHRGFQSSLLVGTAI-YSILTH"/>
+                    <sequence id="seq_ile_bact_m_ensis10A-aa" taxon="ile_bact_m_ensis10A-aa" totalcount="20" value="VAHDPPYANGDIHLGHLLNKVLKDLVVRS-PYTPGWDCHG-GKHVKTQRQQMERL-YLTMD-EVFA-DVWFESGSSWH-LYLEGSDQHRGFQHSLLPALAV-FGVLTH"/>
+                    <sequence id="seq_ile_bact_m_ensis16A-aa" taxon="ile_bact_m_ensis16A-aa" totalcount="20" value="ILHDPPYANGDIHLGHAVNKILKDMVVKS-PYVPGWDCHG-TEQIEKQKAGFKRL-YKTMN-RALG-DVWFDSGTTHW-LYLEGSDQHRGFHSSLLTASML-YGLLTH"/>
+                    <sequence id="seq_ile_bact_m_gatus12A-aa" taxon="ile_bact_m_gatus12A-aa" totalcount="20" value="VLHDPPYANGALHMGHALNKTLKDIINKY-RYVPGWDCHG-LAQVEQQSQSFQRY-YLTLT-DVFG-DVWFDSGSSWA-LYLEGSDQHRGFQSSLLTSVAC-YRVLTH"/>
+                    <sequence id="seq_ile_bact_m_gilis15A-aa" taxon="ile_bact_m_gilis15A-aa" totalcount="20" value="VFFEPPSANGMPGIHHVMARSIKDIFCRY-KRKAGWDTHG-MKFTKEWEDLTHKM-YITYD-WLLK-DVWFDSGAMPY-FIAEGVDQTRGFFTLHAIATMV-YAVISN"/>
+                    <sequence id="seq_ile_bact_m_hilus7A-aa" taxon="ile_bact_m_hilus7A-aa" totalcount="20" value="VLHDPPYANGDIHMGHALNKILKDIIVRY-PYVPGWDTHG-YEQIDNQRRQFKRL-YITLK-KVFG-DVWFDSGSSHQ-LYLEGSDQYRGFNSSLSTAVAV-YGVLSH"/>
+                    <sequence id="seq_ile_bact_m_iacus8A-aa" taxon="ile_bact_m_iacus8A-aa" totalcount="20" value="VFFEPPTANGRPGIHHVEARSSKDIMVRF-GARGGWDTHG-WDYIQEWEKLTQRI-YITYD-WIFK-DCWFDSGAMPV-FISEAIDQTRGFYTLHAVSTLL-YNVICL"/>
+                    <sequence id="seq_ile_bact_m_itima14A-aa" taxon="ile_bact_m_itima14A-aa" totalcount="20" value="VLHDPPYANGHIHIGTALNKILKDIVVKY-PYVPGWDTHG-LRFVDIQREEFKRL-YITLK-DVFK-DVWIDSGASFE-MYLEGSDQHRGFHSSIFLAVAK-YEVLTH"/>
+                    <sequence id="seq_ile_bact_m_licus3A-aa" taxon="ile_bact_m_licus3A-aa" totalcount="20" value="VLHDPPYANGHIHVGHALNKILKDVINKY-NFIPGWDCHG-KKYVNIQREDFVRL-YLTMD-RELG-DVWFDSGCSHA-LYLEGSDQHRGFQASLLESVGS-YAVLTH"/>
+                    <sequence id="seq_ile_bact_m_obile9A-aa" taxon="ile_bact_m_obile9A-aa" totalcount="20" value="ILHDPPYANGDLHIGHALNKILKDIVVRY-PFVPGWDTHG-LSQIKNQKKQFLTM-YQTLD-KVFK-DVWFDSGTTSM-VYLEGSDQYRGFNSSLINSVVY-FKLVSH"/>
+                    <sequence id="seq_ile_bact_m_opcut19A-aa" taxon="ile_bact_m_opcut19A-aa" totalcount="20" value="TLHDPPYANGSLHIGHALNKILKDIINRY-RCIHGWDCHG-LKAMQEQCASLKRW-YLTLK-GVFG-DVWFDSGSSWA-LYLEGSDQHRGFQSSLLTSVAT-YTVLTH"/>
+                    <sequence id="seq_ile_bact_m_opcut20A-aa" taxon="ile_bact_m_opcut20A-aa" totalcount="20" value="TFYEPPSANGEPGIHHVLSRALKDLFCRY-KRKSGWDTHG-MRYTDQWEKLTTEL-YITYD-YLLK-DVWFDSGAMPY-FIAEGVDQTRGFFTLHAIAVML-FNVVSN"/>
+                    <sequence id="seq_ile_bact_m_opcut6A-aa" taxon="ile_bact_m_opcut6A-aa" totalcount="20" value="SFLDPITANNPMGVHHAWGRTYKDVYNRY-RYQQGFDCQG-NKFARVQTDQSIRL-YFTMS-SFLK-NPWLDAGIVAF-FITESFGQFRNFYALLAMSTMM-FTLLGH"/>
+                    <sequence id="seq_ile_bact_m_ormis11A-aa" taxon="ile_bact_m_ormis11A-aa" totalcount="20" value="VLHDPPYANGDIHMGHALNKVLKDFIVRS-PYVPGWDTHG-WQQIEGQKTQFKRL-YVTLK-KVFG-DVWFDSGSSHQ-LYLEGSDQYRGFNSSISTAVAV-YGVLSH"/>
+                    <sequence id="seq_ile_bact_m_rferi13A-aa" taxon="ile_bact_m_rferi13A-aa" totalcount="20" value="TFYDPPFATGLPHFGHFVPNTIKDIIPRY-KRNFGWDTHG-LRYTEEWKNIILRL-YKTMD-WVFK-DCWFESGAMPY-FIAEGLDQTRGFYTLTILGTAL-FNVIVN"/>
+                    <sequence id="seq_ile_bact_m_urans4A-aa" taxon="ile_bact_m_urans4A-aa" totalcount="20" value="VFYEPPTANGKPALHHVLARSFKDLFPRF-TRKGGWDTHG-WETIQDWNELTERM-YITYQ-NLLR-DVWFDSGSMPY-YICEAIDQTRGFYSLHAISTML-YNVICL"/>
+                    <sequence id="seq_leu_2v0c_T_thermophilus" taxon="leu_2v0c_T_thermophilus" totalcount="20" value="YVLVFPYPSGDLHMGHLKNYTMGDVLARF-LHPMGWDAFG-YANIRQAKESLRLM-VTTCE-WIFL-DTFFDSSWYYL-QYIGGVEHAVLLLYSRFFTKFL-FGLFTQ"/>
+                    <sequence id="seq_leu_bact_A_aeolicus_ALPHA" taxon="leu_bact_A_aeolicus_ALPHA" totalcount="20" value="YVLEFPYPSGRIHMGHVRNYTIGDAIARY-LHPMGWDAFG-YENIDYMKKQLKIL-IATCD-WIFL-DTFFDSSWYFL-VYIGGIEHAVLLLYARFFQKFL-FKLITQ"/>
+                    <sequence id="seq_leu_bact_B_burgdorferi" taxon="leu_bact_B_burgdorferi" totalcount="20" value="YILDFPYPSANLHVGHPEGYTATDIFGRY-LHPIGFDSFG-EENINKFKKQIKAL-IRTHE-WIFL-PQWAGSCWYYL-LYIGGAEHTVLLLYSRFWHKVL-FKLINQ"/>
+                    <sequence id="seq_leu_bact_B_licheniformis" taxon="leu_bact_B_licheniformis" totalcount="20" value="YALDFPYPSGGLHVGHPEGYTATDILSRM-LHPMGWDAFG-EQNIDNFRRQIRAL-VNTTD-WIFL-PQWAGSCWYFL-MYIGGAEHAVLLLYARFWHKFL-FQLYNQ"/>
+                    <sequence id="seq_leu_bact_B_thailandensis" taxon="leu_bact_B_thailandensis" totalcount="20" value="YCVSLPYPSGKLHMGHVRNYTINDVMYRY-LMPMGWDAFG-YDNIAYMKKQMQSM-VTTCK-WLFL-DTFVDSAWYFS-QYIGGIEHAILLLYSRFWAKVM-ANLLTQ"/>
+                    <sequence id="seq_leu_bact_C_Amoebophilus_asiaticus" taxon="leu_bact_C_Amoebophilus_asiaticus" totalcount="20" value="YILDFPYPSGELHVGHPLGYIASDIVARY-LHPMGFDAFG-AKNIGRYKQQLCQL-ISTCE-WIFI-PGWAGSSWYFF-LYLGGAEHATGLLYARFWTQFL-FELIHQ"/>
+                    <sequence id="seq_leu_bact_C_aggregans" taxon="leu_bact_C_aggregans" totalcount="20" value="YVLDYPYPSGDLSVGHCRNYVPTDVVARY-LHPMGWDAFG-RRYSANYKRQMNML-ITSSE-WIFL-GTFACSSWYFL-MYVGGAEHAVMLLYARFWTKVL-FCLRNQ"/>
+                    <sequence id="seq_leu_bact_C_jejuni" taxon="leu_bact_C_jejuni" totalcount="20" value="YILSFPYPSGRIHMGHVRNYTIGDALARY-LHPIGFDSFG-YENIAYMKKELFSL-LATSD-EFFI-DTFFESSWYFA-QYIGGIEHAILLLYARFFQKAL-FRLLTQ"/>
+                    <sequence id="seq_leu_bact_C_thermalis" taxon="leu_bact_C_thermalis" totalcount="20" value="YALSFPYPSGSLHMGHVRNYVITDVIARL-LHPMGWDAFG-QRNIAQMRDQLKRL-LATCS-WIFL-DTFIDSSWYFL-QYVGGIEHAILLLYSRFFTKVL-FRLLTQ"/>
+                    <sequence id="seq_leu_bact_D_radiodurans" taxon="leu_bact_D_radiodurans" totalcount="20" value="YALTFPYPSGNLHIGHWYANVAPDARARW-LFPMAFDAFG-YANIERMTGQFSRM-FATCD-WFFI-DTFVDSSWYMY-LYTGGIEHAILLLYSRFWTKVM-FRLRNQ"/>
+                    <sequence id="seq_leu_bact_E_coli" taxon="leu_bact_E_coli" totalcount="20" value="YCLSLPYPSGRLHMGHVRNYTIGDVIARY-LQPIGWDAFG-YDNIAYMKNQLKML-LATCT-KFFT-DTFMESSWYYA-IYIGGIEHAIMLLYFRFFHKLM-AQLLCQ"/>
+                    <sequence id="seq_leu_bact_G_obscuriglobus" taxon="leu_bact_G_obscuriglobus" totalcount="20" value="YILDFPYPSGGLHVGHPEGYTATDILARF-LHPMGWDAYG-QQNINTFRRQIKAL-VDTTD-WIFL-PQWAGSCWYFL-LYVGGAEHAVLLLYARFWHKVL-FRLVNQ"/>
+                    <sequence id="seq_leu_bact_G_stearothermophilus" taxon="leu_bact_G_stearothermophilus" totalcount="20" value="YVLDFPYPSGGLHVGHPEGYTATDILARM-LHPMGWDAFG-QKNIDNFRRQIKSL-INTTD-WIFL-PQWAGSCWYYL-VYIGGAEHAVLLLYARFWHKFL-FKLFNQ"/>
+                    <sequence id="seq_leu_bact_M_mobile" taxon="leu_bact_M_mobile" totalcount="20" value="YALDFPYPSGGLHVGHPEGYTATDIISRY-LHPIGWDAFG-LKNIENFRRQLKSL-VNTTD-WIFK-PQWAGSCWYYL-LYIGGQEHAVLLLYARFWHKIL-FKLINQ"/>
+                    <sequence id="seq_leu_bact_M_smegmatis" taxon="leu_bact_M_smegmatis" totalcount="20" value="FVQDFPYPSGGLHVGHPLGYIATDVYARY-LHALGFDAFG-EANIVNFRRQLGRL-FSTTD-WIFL-PQWAGSSWYEL-LYVGGVEHAVLLLYSRFWHKVL-YRLVNQ"/>
+                    <sequence id="seq_leu_bact_S_aureus" taxon="leu_bact_S_aureus" totalcount="20" value="YALDFPYPSGGLHVGHPEGYTATDIISRY-LHPMGWDAFG-KKNIQTFKRQIKEL-VNTTD-WIFI-PQWAGSCWYYL-LYIGGVEHAVLLLYARFWHKVL-FKLFNQ"/>
+                    <sequence id="seq_leu_bact_S_elongatus" taxon="leu_bact_S_elongatus" totalcount="20" value="YALSFPYPSGNLHMGHVRNYTITDAIARV-LHPMGWDAFG-YQNVAQMREQLKQL-VTTCS-WLFL-DTFMCSSWYYL-QYVGGIEHAILLLYSRFFTKVL-FRLLTQ"/>
+                    <sequence id="seq_leu_bact_T_maritima" taxon="leu_bact_T_maritima" totalcount="20" value="YALVFPYPSGTLHVGHVKNYVIGDIVARY-LHPFGYDAFG-RKNIATIRQQVKKL-IATCD-WIFL-DTFVDSSWYFL-QYIGGVEHAVLLLYSRFVTKVL-FNLFTQ"/>
+                    <sequence id="seq_leu_bact_T_thermophilus" taxon="leu_bact_T_thermophilus" totalcount="20" value="YVLVFPYPSGDLHMGHLKNYTMGDVLARF-LHPMGWDAFG-YENIRQAKESLRLM-VTTCE-WIFL-DTFFDSSWYYL-QYIGGVEHAVLLLYSRFFTKFL-FGLFTQ"/>
+                    <sequence id="seq_met_1pfv_e__coli1A-aa" taxon="met_1pfv_e__coli1A-aa" totalcount="20" value="LVTCLPYANGSIHLGHMLEHIQADVWVRY-NFICADDAHG-GEMSQEHQTDFAGF-HSTHS-LIYS-YVWLDAPIGYM-YHFIGKDIVYFSLFWPAMLEGS-PNLFVH"/>
+                    <sequence id="seq_met_1woy_t_therm2A-aa" taxon="met_1woy_t_therm2A-aa" totalcount="20" value="YVTTIYYVNAEPHLGHAYTTVVADFLARW-FFLTGTDEHG-DRVSGRFKRAWDLL-IRTTE-LVLK-FVWFDALLNYV-WHLIGKDILKPAVFWPTMLKAA-YHLNVG"/>
+                    <sequence id="seq_met_2csx_a__aeol3A-aa" taxon="met_2csx_a__aeol3A-aa" totalcount="20" value="YVTTIYYVNDVPHLGHAYTTIAADTIARY-FFLTGTDEHG-DRNAERFKKLWEFL-IRTTD-KVFE-YVWFDALFNYI-LHLVGKDILRFTVYWPAFLMSL-PKVFAH"/>
+                    <sequence id="seq_met_2x1l_m_matis4A-aa" taxon="met_2x1l_m_matis4A-aa" totalcount="20" value="YITTIAYPNGVPHIGHAYEYIATDAIARF-RYLTGTDVHG-RRNSDVFQRLQEKL-IRTSD-AIWK-YVWVDALTNYL-LHMIGKDIIRFTVYWPAFLMSA-PRIFAH"/>
+                    <sequence id="seq_met_bact_m_egans17A-aa" taxon="met_bact_m_egans17A-aa" totalcount="20" value="LVAVWPYANGPRHIGHVAFGVPADIFARY-LMVSGTDEHG-DRYNKIIGDDLYNL-TRTTT-DIFR-YVWFDAVIGYL-FYFMGKDNIVFTVIWPAMLLGY-PNVVSS"/>
+                    <sequence id="seq_met_bact_m_ensis9A-aa" taxon="met_bact_m_ensis9A-aa" totalcount="20" value="YVTTIYYVNDRPHLGHVYTTLVADVAARF-FFLTGVDEHA-DRNALAFRETFDKL-VRTSS-AYVT-YVWIDALFNYL-THYIAKDILWFAAIWPALLLAL-PTVFTH"/>
+                    <sequence id="seq_met_bact_m_gatus11A-aa" taxon="met_bact_m_gatus11A-aa" totalcount="20" value="ALTTLYYVNDVPHIGSAYTTIAADAIARF-LMITGSDEHG-NAIVARFQDLWQLL-SRTTD-VFYR-YVWFDALLGYV-LHLIGKDILRFAVYWPAMLLSA-PRVFGH"/>
+                    <sequence id="seq_met_bact_m_iacus8A-aa" taxon="met_bact_m_iacus8A-aa" totalcount="20" value="LVAVWPYASGARHLGHVAFGVPSDVFARY-LMVSGTDDHG-DFYNAEIRNNLRDL-TRTST-AFFT-YVWFDAVIGYL-YYFMGKDNIVFSVIWPAMLIGH-PEVVSS"/>
+                    <sequence id="seq_met_bact_m_incut10A-aa" taxon="met_bact_m_incut10A-aa" totalcount="20" value="YITTIYYPSGNLHIGHAYSTVAGDVIARY-RYLTGTDEHG-DEMIAGIKQLWAKL-IRTTE-QVFE-YVWIDALVNYI-IHLMAKEIVRFSIIWPILLMAL-PKVFAH"/>
+                    <sequence id="seq_met_bact_m_incut12A-aa" taxon="met_bact_m_incut12A-aa" totalcount="20" value="YITTIYYVNSEPHIGSAYTTIVADIIARY-FFLTGTDEHG-DELAEKFKRLWKEL-IRTTD-EFVA-YVWVDALINYI-LHLIGKEINRFSIIWPAMLMSV-PKVFAH"/>
+                    <sequence id="seq_met_bact_m_incut13A-aa" taxon="met_bact_m_incut13A-aa" totalcount="20" value="LVTALPYVNNIPHLGNLVQVLSADAFARY-LYVCGTDEYG-NKYYEIHKSIYKWF-GRTTN-NFFL-YVWFDAPIGYI-VQFIGKDNILFTIIFPCIEIGS-LQLSSS"/>
+                    <sequence id="seq_met_bact_m_incut14A-aa" taxon="met_bact_m_incut14A-aa" totalcount="20" value="TVTSLPYANGPVHIGHLAVYVPADIYVRY-LFIGGSDEHG-DRYHFLIKKSFEEF-SRTSS-DFFK-YVWFDAPIGYI-VHFIGKDNIVFCIVFPAMLKAE-PNVPSN"/>
+                    <sequence id="seq_met_bact_m_incut15A-aa" taxon="met_bact_m_incut15A-aa" totalcount="20" value="YITTIYYPSGKLHIGHAYTTVAGDAMARY-RYLTGTDEHG-DRAAEDIQQLWKKL-IRTTE-KVFQ-YVWIDALFNYI-VHLVGKEIVRFTIYWPIMLMAL-PKVFAH"/>
+                    <sequence id="seq_met_bact_m_incut16A-aa" taxon="met_bact_m_incut16A-aa" totalcount="20" value="LVTSLPYANGQIHIGHLVEYIQTDIWART-YYIGADDTHG-ERVWREHKRDFDSF-YTTDS-KIYL-YVWLDAPVGYY-YHFIGKDILYFTLFWPAMLEFS-PNVFAH"/>
+                    <sequence id="seq_met_bact_m_incut5A-aa" taxon="met_bact_m_incut5A-aa" totalcount="20" value="FITAIDYANGTPHIGHVYEKILADAIARY-TFVMGTDEHG-DDLSEAFQGLWKKL-IRTTS-DVLQ-YVWFDALLSYL-WHVIGKDILKPAVFWPTMLRAA-YRLVVH"/>
+                    <sequence id="seq_met_bact_m_incut7A-aa" taxon="met_bact_m_incut7A-aa" totalcount="20" value="YLTTIYYPSDKLHIGHAYTTVAGDAMARY-MYLTGTDEHG-DDIVAGIQELWRKL-IRTTQ-KIFA-YVWIDALANYI-VHLVGKEIVRFTIYWPIMLMAL-PKVFGH"/>
+                    <sequence id="seq_met_bact_m_lobus6A-aa" taxon="met_bact_m_lobus6A-aa" totalcount="20" value="FQTTIDYPNSRPHIGTAFEKLGADVQARY-FFLMGNDENT-DDMARQFREVWAAL-VQTSS-KFIQ-YVWFDALLTYI-THFIGKDITRFCALWPAMLWAA-PKVFSH"/>
+                    <sequence id="seq_met_bact_m_malis19A-aa" taxon="met_bact_m_malis19A-aa" totalcount="20" value="AVTTLYYVNDLPHIGSAYPTMAADALARF-LMITGTDEHG-DRISSSFVSLWELL-SRTTA-EFFG-YVWFDALLGYV-IHIIGKDILRFAVYWPAMLMSA-PRVFGH"/>
+                    <sequence id="seq_met_bact_m_ticus20A-aa" taxon="met_bact_m_ticus20A-aa" totalcount="20" value="TITALPYANGPIHIGHLAVYIPADIYARY-IFISGSDEHG-DKYHHLNKQNLQDL-SRTSS-DFFT-YVWFDAPIGYI-VHFVGKDNIVFCIIFPVMLQAH-PQVPAN"/>
+                    <sequence id="seq_trp_1i6m_b_stear1A-aa" taxon="trp_1i6m_b_stear1A-aa" totalcount="20" value="TIFSGIQPSGVITIGNYIALRQFVELQHE-NCYFCIVDQH-RQNIRRLAALYLAV-FIQSE-MLQC-TYPPLMAADIL-IVPVGEDQKQHIELTRDLAERF-PEARIP"/>
+                    <sequence id="seq_trp_2el7_t_therm2A-aa" taxon="trp_2el7_t_therm2A-aa" totalcount="20" value="RVLSGIQPSGEIHIGNYLAIKQWVAIGEK-DAFFCIVDYH-AQRTFEAALVNIAA-FVQSH-VFTT-MYPVLQAADIL-TVPVGEDQVQHIELTREIARRF-PQALLN"/>
+                    <sequence id="seq_trp_2g36_t_itima4A-aa" taxon="trp_2g36_t_itima4A-aa" totalcount="20" value="RILSGMRPTGKLHIGHLVALENWVKLQEE-ECFYFVADWH-KEYTRDLVRGFLAC-FVQSG-LFSM-IYPVLQAADIL-GVPVGEDQVYHIELTREIARRF-PEAILS"/>
+                    <sequence id="seq_trp_2ip1_s_cerev20A-aa" taxon="trp_2ip1_s_cerev20A-aa" totalcount="20" value="FLYTGRGPSSSMHLGHMIPFVFTKWLQEP-LVIELTDDEV-KNFARENAKDIIAV-FSDLQ-RVSR-HFASIQIATAF-LIPCAIDQDPYFRVCRDVADKL-KPALLH"/>
+                    <sequence id="seq_trp_bact_m__coli15A-aa" taxon="trp_bact_m__coli15A-aa" totalcount="20" value="IVFSGAQPSGELTIGNYMALRQWVNMQDD-HCIYCIVDQH-RKATLDTLALYLAC-FVQSH-ALNC-DYPVLMAADIL-LVPVGEDQKQHLELSRDIAQRF-PEPFIP"/>
+                    <sequence id="seq_trp_bact_m_egans10A-aa" taxon="trp_bact_m_egans10A-aa" totalcount="20" value="RVFSGIQPSGNLHIGNYLAIQQWVAGQGQ-TNFICIVDLH-HRQTRELAALLLAC-FVQSH-VFSC-TYPVLMAADIL-EVPVGEDQKQHIELTRDLAQRF-PEPVIR"/>
+                    <sequence id="seq_trp_bact_m_ejuni11A-aa" taxon="trp_bact_m_ejuni11A-aa" totalcount="20" value="RVLTGLQPSGDLHIGNYFAIKQMVDAQEK-QMFMFIANYH-KQNSLKAAAAFLSL-WLQSD-ILSQ-SYPVLMAADIL-IVPVGKDQIQHVEIARDIALKV-PEARVN"/>
+                    <sequence id="seq_trp_bact_m_ensis19A-aa" taxon="trp_bact_m_ensis19A-aa" totalcount="20" value="RILTGLQPSGQLHLGNYCAIQPLLGLQEA-KLFVFVASYH-RANCRRVVIDYLAF-YLQQD-LLAC-TYPVLQAADIL-AVPVGADQTQNVEYARDLAGRF-PELLVR"/>
+                    <sequence id="seq_trp_bact_m_gatus18A-aa" taxon="trp_bact_m_gatus18A-aa" totalcount="20" value="RVLSGVQPTGNLHLGNYLAIRNWVEGQQQ-DNFFCVVDLH-AENTYRTAALYLAC-FVQSH-LLNC-DYPVLMAADIL-RVPVGEDQKQHLELTRDIAVRI-PEPLIP"/>
+                    <sequence id="seq_trp_bact_m_gilis7A-aa" taxon="trp_bact_m_gilis7A-aa" totalcount="20" value="IILTGDRPTGKLHIGHYVSLKRRVELQNS-DKFIFIADAQ-RQNVIEVALDYLAC-FIQSQ-YYMD-TYPISQAADIT-TVPVGEDQEPMIEQAREIVRRF-PEILLP"/>
+                    <sequence id="seq_trp_bact_m_iacus17A-aa" taxon="trp_bact_m_iacus17A-aa" totalcount="20" value="RVFSGIQPSGNLHLGNYLAIHTWVQEQNQ-DNFFCIVDLH-RKNVRDLAALYLAA-FVQSH-ILNC-NYPTLMAADIL-VVPVGDDQRQHIELTRDIAERF-PEALIR"/>
+                    <sequence id="seq_trp_bact_m_lobus16A-aa" taxon="trp_bact_m_lobus16A-aa" totalcount="20" value="RILSGVQPSGKLHLGNYFAIKQHIERQDT-ECFYFIADYH-AENVRDVALDYLAL-FRQSD-FFSS-TYPLLMAADIL-LVPVGKDQEQHLEMTRDVAGAF-PDGVYN"/>
+                    <sequence id="seq_trp_bact_m_malis12A-aa" taxon="trp_bact_m_malis12A-aa" totalcount="20" value="RVLSGIQSTGNLHLGNYLAIRNWVEGQSQ-ENYLFVADLH-AANTYTLAALYLAC-FIQSH-LFNC-DYPVLMASDIL-KVPVGEDQKQHLEITRDIAARF-PEPLIR"/>
+                    <sequence id="seq_trp_bact_m_opcut5A-aa" taxon="trp_bact_m_opcut5A-aa" totalcount="20" value="RIVSGMRPTGKLHLGHYFVIRNWVKLQEE-ECFFFIADWH-RQNIREVMIDWLAL-FIQSL-LFGM-GYPVLQAADIL-GVPVGEDQLPHIELSREIARRF-PKALLT"/>
+                    <sequence id="seq_trp_bact_m_opcut9A-aa" taxon="trp_bact_m_opcut9A-aa" totalcount="20" value="RIFSGMRPTGSLHLGHYHVLKNWVKLQSE-PCFFCVVDWH-EKNVWDVLIDWLAS-FIQSK-LLGM-GYPVLMAADIL-LVPVGEDQVPHVEMTREIARRF-PQALLT"/>
+                    <sequence id="seq_trp_bact_m_ormis8A-aa" taxon="trp_bact_m_ormis8A-aa" totalcount="20" value="TIFSGIQPSGSVTLGNYIAMKQFVDLQDD-NCYFCIVDQH-RKNIRNLAALYLAI-FIQSE-MLQC-TYPPLMAADIL-VVPVGEDQKQHLELTRNLAERF-PEVKIP"/>
+                    <sequence id="seq_trp_bact_m_rferi6A-aa" taxon="trp_bact_m_rferi6A-aa" totalcount="20" value="VMLTGDRPTGALHLGHYVSVVNRLKFQEE-ETYFIIADLH-PSNVREMVLDYLAC-YLQSA-IFSM-GYPVLMSADIL-LVPVGRDNESHIEFARELARRF-PESVFT"/>
+                    <sequence id="seq_trp_bact_m_ticus13A-aa" taxon="trp_bact_m_ticus13A-aa" totalcount="20" value="RILTGIQCTGRPHLGNVLAMLPTLELAAT-DTFIFLADLH-RNYVYAAAAAWLAL-YRQSK-YLSC-TYPILMAADIL-IVPVGKDQLQHLEITRDIATSF-PQALID"/>
+                    <sequence id="seq_trp_bact_m_urans14A-aa" taxon="trp_bact_m_urans14A-aa" totalcount="20" value="RVFSGIQPTGDPHIGNYFAMQNYVRLGEQ-QSLYCVVDLH-AQKTFDMAVANFAI-FVQSH-IFTC-MYPALMAADIL-IVPVGEDQTQHIELTREIARKF-PKAVYN"/>
+                    <sequence id="seq_trp_bact_m_ureus20A-aa" taxon="trp_bact_m_ureus20A-aa" totalcount="20" value="TLFSGIQPSGIPTIGNYIALKQFVDVQND-DCYFCIVDQH-RKQTRQLAAIYLAS-FIQSE-MLTT-TYPPLMAADIV-IVPVGDDQKQHIELTRNLVDRF-PEIRMP"/>
+                    <sequence id="seq_tyr_1h3f_t_therm18A-aa" taxon="tyr_1h3f_t_therm18A-aa" totalcount="20" value="TVKLGADPTPDLHLGHAVVLRKMRQFQEL-KVVLIIGDTF-RENAKTYVAQAGKI-RYNSE-RLTS-LYPFAQAYDSV-VEMGGTDQRFNLLVGREVQRAY-QVCFLM"/>
+                    <sequence id="seq_tyr_1jil_s_ureus19A-aa" taxon="tyr_1jil_s_ureus19A-aa" totalcount="20" value="TLYCGADPTDSLHIGHLLPFLTLRRFQEH-RPIVLIGGTG-DKNIEGISKQMHNI-VNNRD-DYGK-TYTILQAIDFG-IQVGGSDQWGNITSGIELMRRM-AYGLTI"/>
+                    <sequence id="seq_tyr_1wq4_e__coli20A-aa" taxon="tyr_1wq4_e__coli20A-aa" totalcount="20" value="ALVCGFDPTDSLHLGHLVPLLCLKRFQQA-KPVALVGGTA-QEWVDKIRKQVAPF-ANNYD-DIGK-SYNLLQGYDFA-LCIGGSDQWGNITSGIDLTRRL-VFGLTV"/>
+                    <sequence id="seq_tyr_2dlc_s_cerev18X-aa" taxon="tyr_2dlc_s_cerev18X-aa" totalcount="20" value="KLYWGTAPTGRPHCGYFVPMTKLADFLKA-EVTVLLADHL-NYRAKYYELTIKAI-VVGSS-RLSN-IYPLMQALDEQ-CQFGGVDQRKIFVLAEENLPSL-RAHLMN"/>
+                    <sequence id="seq_tyr_bact_m_egans13A-aa" taxon="tyr_bact_m_egans13A-aa" totalcount="20" value="RLKQGFDPTPDMHIGHAVGLRKLRAFQEL-QVVLIVGDTW-RANAETYMEQFFRV-RWQSE-DLAG-MYPMLQAYDSV-VEFGGTDQKFNILAGRELMAQL-QQVFLV"/>
+                    <sequence id="seq_tyr_bact_m_ejuni14A-aa" taxon="tyr_bact_m_ejuni14A-aa" totalcount="20" value="FIKAGFDPTPDLHLGHSVVLTKMAFLQKH-IVQFLIGDTF-LINAKTYKTQVFKV-KFNST-ELTS-LYPLLQGYDSV-IEMGGTDQKFNLLMGRQLQRVY-QAVIMM"/>
+                    <sequence id="seq_tyr_bact_m_ensis6A-aa" taxon="tyr_bact_m_ensis6A-aa" totalcount="20" value="TLYCGFDPTDSLHLGHLVPVMALAHAQRC-KPLALVGGTA-DANALAIGEQIGRI-VNNLD-DVGS-SYMLLQAYDFA-VQIGGQDQWGNIVFGTELGRKM-LAALTM"/>
+                    <sequence id="seq_tyr_bact_m_gatus8A-aa" taxon="tyr_bact_m_gatus8A-aa" totalcount="20" value="RIKLGIDPTSDIHLGHSIIFRKLRQFQDA-TAVLIIGDTF-QRNAETYLDQLRPI-RYNSE-ELLG-LYPLMQGYDSV-VELGGTDQKFNIAVGRDLQRHF-QFGLLL"/>
+                    <sequence id="seq_tyr_bact_m_gilis11A-aa" taxon="tyr_bact_m_gilis11A-aa" totalcount="20" value="TAYVGIDPTDSLHIGHLCGVMILRHFQRC-KPLALIGGTA-RHNQACIKKQLAKF-VNNYD-EVGK-TYQLLQGYDFL-LQMGGSDQWGNITTGTELIRRT-AYALTC"/>
+                    <sequence id="seq_tyr_bact_m_hilus3A-aa" taxon="tyr_bact_m_hilus3A-aa" totalcount="20" value="TLYCGFDPTDSLHIGHLVTIMTLRRFQQA-QPIALVGGTA-ETWSARIKAQLERF-KNNYD-DIGK-SYMMLQAYDFL-LQIGGSDQWGNITAGLELIRRT-AFGLTV"/>
+                    <sequence id="seq_tyr_bact_m_iacus4A-aa" taxon="tyr_bact_m_iacus4A-aa" totalcount="20" value="RLKLGIDPTSDIHIGHAVALRKMRQFQEL-TVVLIVGDTW-KSNAKYYMDQVFKV-RWQSE-GLIG-MYPMLQAYDSI-IEFGGTDQKFNILAGRQLMEQM-QDVILV"/>
+                    <sequence id="seq_tyr_bact_m_itima10A-aa" taxon="tyr_bact_m_itima10A-aa" totalcount="20" value="RVKLGVDPSPDLHLGHAVVLRKLREFQDL-TVVLIIGDTF-LENAKTYQEQAFKI-RFNGE-ILAS-LYPLAQAYDSV-VELGGTDQLFNLLVGRKIQEEY-QIVMTM"/>
+                    <sequence id="seq_tyr_bact_m_licus1A-aa" taxon="tyr_bact_m_licus1A-aa" totalcount="20" value="RVKAGFDPTPDLHLGHVVLLQKLRQFQQL-EVFFIIGDTF-LENAKTYEHQVFKV-VFNST-ELCA-IYPLLQAYDSV-VEIGGTDQKFNLLIGRDIQREY-QVCITL"/>
+                    <sequence id="seq_tyr_bact_m_lobus2A-aa" taxon="tyr_bact_m_lobus2A-aa" totalcount="20" value="RVKYGIDPTFDVHLGHTVPLRKLRQFQEF-TAVLIIGTTA-DKNAQTYLTQIAKV-RPNGE-KLLG-LYPLMQGHDSV-VELGGTEQLYNLMVGRDLQRAA-QICLTM"/>
+                    <sequence id="seq_tyr_bact_m_malis15A-aa" taxon="tyr_bact_m_malis15A-aa" totalcount="20" value="RIKFGIDPTAEIHLGHSIPVRKLRAFQDA-KAVLLIGDTF-AENAKNYLDQVRPI-RYNSE-ELLS-LYPLVQGYDSV-VELGGTDQKFNIAVGRDLQRHF-QFGVLL"/>
+                    <sequence id="seq_tyr_bact_m_mis_112A-aa" taxon="tyr_bact_m_mis_112A-aa" totalcount="20" value="SLYSGFDPTDSLHIGHLLPILMLRRFQLA-RPIALVGGTA-REWSQKIKNQLSRF-ANNYD-DVGK-SYMILQSLDFL-LQIGGSDQWGNITSGLELIRKS-AFGLTI"/>
+                    <sequence id="seq_tyr_bact_m_obile7A-aa" taxon="tyr_bact_m_obile7A-aa" totalcount="20" value="GIYVGFDPSKSIHLGNFVVINVLLIAKKH-PTVALIGGTA-KKNTEAIKKQIKHF-VNNSD-DVGK-AYSLIQANDFH-IQFGGSDQWGNITTGLELIRKR-SGGFTI"/>
+                    <sequence id="seq_tyr_bact_m_rferi9A-aa" taxon="tyr_bact_m_rferi9A-aa" totalcount="20" value="VFYAGVDATSSLHIGHLIPFLAMMHLRQH-MPIVLIGDTS-GNNALLIKNQLQRI-IHNSN-DVGM-NYQLLQSYDYY-LQIGGDDQWGNIISGVDLIRKK-TFGLTF"/>
+                    <sequence id="seq_tyr_bact_m_ticus16A-aa" taxon="tyr_bact_m_ticus16A-aa" totalcount="20" value="TGYIGFDPTPSLHVGNLATIMLLKHFQLA-KPIAVVGGTA-LHNQSCIMKQLKCF-LNNID-EVGK-SYQLLQGYDFY-LQMGGADQWGNLTTGIELIRRK-AFALTA"/>
+                    <sequence id="seq_tyr_bact_m_urans17A-aa" taxon="tyr_bact_m_urans17A-aa" totalcount="20" value="RVKLGADPTPDLHLGHAVILRKMRQFQDL-KVIMLIGDTF-RANAESYLAQCRLI-RYNSE-GLAA-LYPLTQGYDSV-VELGGTDQLFNNLVGRALQRDY-QVVLTL"/>
+                    <sequence id="seq_val_1gax_t_therm17A-aa" taxon="val_1gax_t_therm17A-aa" totalcount="20" value="VIFMPPNVTGSLHMGHALDNSLQDALIRY-VWLPGTDHAG-EESGGTILKQLKRL-AFTMD-YAFS-DTWFSSALWPL-VLVTGYDILFLVSRMEVSGYHF-FTVLLH"/>
+                    <sequence id="seq_val_bact_m__coli14A-aa" taxon="val_bact_m__coli14A-aa" totalcount="20" value="CIMIPPNVTGSLHMGHAFQQTIMDTMIRY-LWQVGTDHAG-AESGGTITRQMRRL-RFTMD-EVFV-DTWFSSALWTF-VMVSGFDIIFFIARMIMMTMHF-FTVYMT"/>
+                    <sequence id="seq_val_bact_m_ejuni10A-aa" taxon="val_bact_m_ejuni10A-aa" totalcount="20" value="CIMMPPNVTGVLHIGHALTFTLQDIMTRY-LYQPGLDHAG-EQSGGKILDQMRTL-RFTMD-KAFV-DTWFSSGLWAM-LLITGFDILFFVARMMFQSTNV-FDIYLH"/>
+                    <sequence id="seq_val_bact_m_ensis9A-aa" taxon="val_bact_m_ensis9A-aa" totalcount="20" value="SIQLPPNVTGTLHMGHAFNQTIMDGLVRY-LWVPGTDHAG-EQSGSTITGQVRRI-YFTMN-EVFV-DTWFSSALVPF-VLVTGFDIIFFVARMVMMTTHF-FTVYVH"/>
+                    <sequence id="seq_val_bact_m_gatus5A-aa" taxon="val_bact_m_gatus5A-aa" totalcount="20" value="CIVIPPNVTGSLHMGHAFEASLIDVLIRF-LWLPGTDHAS-AESGGTIVGQLRRL-RFTMD-EAFI-DTWFSSGLWPF-TLVTGFDIIFFVARMTMMAGHF-FDVYIH"/>
+                    <sequence id="seq_val_bact_m_hilus15A-aa" taxon="val_bact_m_hilus15A-aa" totalcount="20" value="TIVIPPNVTGKLHLGHAWDTTLQDIITRM-LWLPGMDHAG-EEYAGHIRSQWAKL-RFTLD-EVFV-DTWFSSALWPF-VLVTGYDIIFFVSRMIFQGLEF-FDVLIH"/>
+                    <sequence id="seq_val_bact_m_hilus7A-aa" taxon="val_bact_m_hilus7A-aa" totalcount="20" value="VIFMPPNVTGSLHMGHALDNSLQDALIRY-VWLPGTDHAG-EESGGTILKQLKRL-AFTMD-YAFS-DTWFSSALWPL-VLVTGYDILFLVSRMEVSGYHF-FTVLLH"/>
+                    <sequence id="seq_val_bact_m_incut8A-aa" taxon="val_bact_m_incut8A-aa" totalcount="20" value="TVVIPPNVTGKLHLGHAWDSTLQDIVTRM-LWLPGMDHAG-EEYADFIRSQWAKI-RFTLD-EVFV-DTWFSSALWPF-VLVTGYDIIFFVSRMIFQGIEF-FDVLIH"/>
+                    <sequence id="seq_val_bact_m_itima6A-aa" taxon="val_bact_m_itima6A-aa" totalcount="20" value="SIVIPPNITGRIHMGHALNITLQDIVVRY-LWVPGEDHAG-NKYRREIREQIKAL-RFTLD-KVFV-DTWFSSALWPF-LLVTGFDIIFFVARMIMMGYEF-FHVYIH"/>
+                    <sequence id="seq_val_bact_m_malis11A-aa" taxon="val_bact_m_malis11A-aa" totalcount="20" value="CIVIPPNVTGSLHMGHAFDNTLIDSLIRY-LYLPGTDHAS-DSSKGTIVGQLRRL-RFTMD-EEFV-DTWFSSGLWPF-TLVTGFDIIFFVARMTMLGGHF-FDVYIH"/>
+                    <sequence id="seq_val_bact_m_matis3A-aa" taxon="val_bact_m_matis3A-aa" totalcount="20" value="SIVLPPNVTGSLHMGHALDHTLMDVLTRR-LWLPGMDHAG-RESGGTIGGQMRRL-RFTMD-TIFK-DTWFSSALWPF-VLVTGYDILFFVARMMMFGTFV-FNVFLH"/>
+                    <sequence id="seq_val_bact_m_obile2A-aa" taxon="val_bact_m_obile2A-aa" totalcount="20" value="SILLPPNVTGKLHIGHAWNTTLQDFLIRL-LWLPGTDHAG-NEYANEIKKQWSKL-RFTLD-DIFV-DTWFSSGIAPF-VIVTAYDIIFFVARMYFMGIYS-FKALIH"/>
+                    <sequence id="seq_val_bact_m_rferi1A-aa" taxon="val_bact_m_rferi1A-aa" totalcount="20" value="SMVAPPNVTGVLHMGHALNFVLQDVLVRY-LWLFGTDHAG-DRHRGIIVNQINKL-RFTLD-KVFK-DTWFSSWLWPF-TLITAYDIIFFVARMVMAGLEF-FDVYIT"/>
+                    <sequence id="seq_val_bact_m_ticus12A-aa" taxon="val_bact_m_ticus12A-aa" totalcount="20" value="TIVLPPNITGVLHMGHVLNTTLQDVLIRK-CWVPGIDHAS-EKYGSIILEQIKQL-HFTMD-KVFI-DTWFSSWLWPI-VLVTAPEIIFFVARMIMAGYAF-FHVYFT"/>
+                    <sequence id="seq_val_bact_m_urans13A-aa" taxon="val_bact_m_urans13A-aa" totalcount="20" value="TIVIPPNVTGNLHLGHALDNTLIDTLIRY-LYLPGMDHAG-GKSGGMILDQLTRL-RFTMD-TQFV-DTWFSSNLWPF-VLVTGYDILFFVARMQMAGYGL-FTVMLH"/>
+                    <sequence id="seq_val_bact_m_ureus4A-aa" taxon="val_bact_m_ureus4A-aa" totalcount="20" value="TIVIPPNVTGKLHLGHAWDTTLQDIITRM-LYLPGMDHAG-EEYASFIRAQWAKL-RFTLD-KVFV-DTWFSSALWPF-ALVTGYDIIFFVARMIFQGLEF-FDVLLH"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="30000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:ClassI_Bact" name="stateNode">
+            <taxonset id="TaxonSet.ClassI_Bact" spec="TaxonSet">
+                <alignment idref="ClassI_Bact"/>
+            </taxonset>
+        </tree>
+        <parameter id="gammaShape.s:ClassI_Bact" name="stateNode">1.0</parameter>
+        <parameter id="mutationRate.s:ClassI_Bact" name="stateNode">1.0</parameter>
+        <parameter id="ucldStdev.c:ClassI_Bact" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:ClassI_Bact" spec="parameter.IntegerParameter" dimension="360">1</stateNode>
+        <parameter id="bPopSizes.t:ClassI_Bact" dimension="5" lower="0.0" name="stateNode" upper="380000.0">380.0</parameter>
+        <stateNode id="bGroupSizes.t:ClassI_Bact" spec="parameter.IntegerParameter" dimension="5">1</stateNode>
+    </state>
+
+    <init id="RandomTree.t:ClassI_Bact" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:ClassI_Bact" taxa="@ClassI_Bact">
+        <populationModel id="ConstantPopulation0.t:ClassI_Bact" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:ClassI_Bact" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BayesianSkyline.t:ClassI_Bact" spec="BayesianSkyline" groupSizes="@bGroupSizes.t:ClassI_Bact" popSizes="@bPopSizes.t:ClassI_Bact">
+                <treeIntervals id="BSPTreeIntervals.t:ClassI_Bact" spec="TreeIntervals" tree="@Tree.t:ClassI_Bact"/>
+            </distribution>
+            <distribution id="MarkovChainedPopSizes.t:ClassI_Bact" spec="beast.math.distributions.MarkovChainDistribution" jeffreys="true" parameter="@bPopSizes.t:ClassI_Bact"/>
+            <prior id="GammaShapePrior.s:ClassI_Bact" name="distribution" x="@gammaShape.s:ClassI_Bact">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="ucldStdevPrior.c:ClassI_Bact" name="distribution" x="@ucldStdev.c:ClassI_Bact">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.4" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.5" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.ClassI_Bact" spec="ThreadedTreeLikelihood" data="@ClassI_Bact" tree="@Tree.t:ClassI_Bact">
+                <siteModel id="SiteModel.s:ClassI_Bact" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:ClassI_Bact" shape="@gammaShape.s:ClassI_Bact">
+                    <parameter id="proportionInvariant.s:ClassI_Bact" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:ClassI_Bact" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:ClassI_Bact" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:ClassI_Bact" tree="@Tree.t:ClassI_Bact">
+                    <LogNormal id="LogNormalDistributionModel.c:ClassI_Bact" S="@ucldStdev.c:ClassI_Bact" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.3" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:ClassI_Bact" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="gammaShapeScaler.s:ClassI_Bact" spec="ScaleOperator" parameter="@gammaShape.s:ClassI_Bact" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+        <parameter idref="mutationRate.s:ClassI_Bact"/>
+        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">108</weightvector>
+    </operator>
+
+    <operator id="ucldStdevScaler.c:ClassI_Bact" spec="ScaleOperator" parameter="@ucldStdev.c:ClassI_Bact" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:ClassI_Bact" spec="IntRandomWalkOperator" parameter="@rateCategories.c:ClassI_Bact" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:ClassI_Bact" spec="SwapOperator" intparameter="@rateCategories.c:ClassI_Bact" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:ClassI_Bact" spec="UniformOperator" parameter="@rateCategories.c:ClassI_Bact" weight="10.0"/>
+
+    <operator id="BayesianSkylineTreeScaler.t:ClassI_Bact" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:ClassI_Bact" weight="3.0"/>
+
+    <operator id="BayesianSkylineTreeRootScaler.t:ClassI_Bact" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:ClassI_Bact" weight="3.0"/>
+
+    <operator id="BayesianSkylineUniformOperator.t:ClassI_Bact" spec="Uniform" tree="@Tree.t:ClassI_Bact" weight="30.0"/>
+
+    <operator id="BayesianSkylineSubtreeSlide.t:ClassI_Bact" spec="SubtreeSlide" tree="@Tree.t:ClassI_Bact" weight="15.0"/>
+
+    <operator id="BayesianSkylineNarrow.t:ClassI_Bact" spec="Exchange" tree="@Tree.t:ClassI_Bact" weight="15.0"/>
+
+    <operator id="BayesianSkylineWide.t:ClassI_Bact" spec="Exchange" isNarrow="false" tree="@Tree.t:ClassI_Bact" weight="3.0"/>
+
+    <operator id="BayesianSkylineWilsonBalding.t:ClassI_Bact" spec="WilsonBalding" tree="@Tree.t:ClassI_Bact" weight="3.0"/>
+
+    <operator id="popSizesScaler.t:ClassI_Bact" spec="ScaleOperator" parameter="@bPopSizes.t:ClassI_Bact" scaleFactor="0.75" weight="15.0"/>
+
+    <operator id="groupSizesDelta.t:ClassI_Bact" spec="DeltaExchangeOperator" integer="true" weight="6.0">
+        <intparameter idref="bGroupSizes.t:ClassI_Bact"/>
+    </operator>
+
+    <logger id="tracelog" fileName="ClassI_Bact_RelaxedLogNorm_SkyNotExt.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.ClassI_Bact"/>
+        <log id="TreeHeight.t:ClassI_Bact" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:ClassI_Bact"/>
+        <log idref="gammaShape.s:ClassI_Bact"/>
+        <log idref="mutationRate.s:ClassI_Bact"/>
+        <log idref="ucldStdev.c:ClassI_Bact"/>
+        <log id="rate.c:ClassI_Bact" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:ClassI_Bact" tree="@Tree.t:ClassI_Bact"/>
+        <log idref="BayesianSkyline.t:ClassI_Bact"/>
+        <log idref="bPopSizes.t:ClassI_Bact"/>
+        <log idref="bGroupSizes.t:ClassI_Bact"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:ClassI_Bact" fileName="ClassI_Bact_RelaxedLogNorm_SkyNotExt.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:ClassI_Bact" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:ClassI_Bact" tree="@Tree.t:ClassI_Bact"/>
+    </logger>
+
+</run>
+
+</beast>

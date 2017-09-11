@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="ClassI_Euk"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_arg_euk_md__mori8A-aa" taxon="arg_euk_md__mori8A-aa" totalcount="20" value="IVDFSPNIAKEMHVGHLRSTIIGDSICRV-VRLNHLGDWG-EVSRQEFQKIYDRL-RGESF-AVVQ-TYDTSDMAAIK-IYVTDVGQYTHFMTIDACARRA-VEHVGF"/>
+                    <sequence id="seq_arg_euk_md_atica6A-aa" taxon="arg_euk_md_atica6A-aa" totalcount="20" value="VVDFSPNIAKEMHVGHLRSTIIGDTLASM-LRRNHVGDWG-DISRREFDQVYQRL-KGESF-GVIE-NYASTDMTALW-IYVTDVGQQQHFDMVFKAAKRA-ASHVGF"/>
+                    <sequence id="seq_arg_euk_md_ideum12A-aa" taxon="arg_euk_md_ideum12A-aa" totalcount="20" value="IVEFSPNIAKPFHAGHLRSTIIGNFMVNL-VSMNYLGDWG-DLSIVKYKDIYNRL-AGESL-IEFK-LYITRDIAAAV-YYVVASQQDFHFRQLFDILGKM-LTHINY"/>
+                    <sequence id="seq_arg_euk_md_incut15A-aa" taxon="arg_euk_md_incut15A-aa" totalcount="20" value="IVDFSPNIAKEMHVGHLRSTIIGDTLCRL-LRLNHVGDWG-EASRKEFQVVYDML-RGESF-DVIS-LYSTTDLAAIR-LYVTDAGQSTHFDQARCIARQA-LEHVPF"/>
+                    <sequence id="seq_arg_euk_md_incut1A-aa" taxon="arg_euk_md_incut1A-aa" totalcount="20" value="VLEYSPNIAKQFHVGHLRSTILGGFLANL-ISLNYLGDWG-ELSIKQYAQEYALL-VGEST-DAVQ-LYLTRDLGGAI-IYVVSSQQDRHLAQFFKLLALM-LEHVSF"/>
+                    <sequence id="seq_arg_euk_md_mblia14A-aa" taxon="arg_euk_md_mblia14A-aa" totalcount="20" value="VVDFSPNVAKSMHVGHLRSTIIGDSICRL-HRINHVGDWG-DISRHEFQRIYDRL-FGESS-TTVA-TYDTTDMAAIY-VYVVDAGQSSHFDLVFKAAEKA-AVHVPF"/>
+                    <sequence id="seq_arg_euk_md_oidea11A-aa" taxon="arg_euk_md_oidea11A-aa" totalcount="20" value="VVDFSPNVAKEMHVGHLRSTIIGDTIART-LRINHVGDWG-EASRNEFDAIYHRL-RGESW-LVEE-GYGTTDMATLA-IYVTDEGQSGHFKLVFGAGKR--IDHVGF"/>
+                    <sequence id="seq_arg_euk_md_opcut2A-aa" taxon="arg_euk_md_opcut2A-aa" totalcount="20" value="LVDFAPNIAKEMHVGHLRSTIIGESISRL-ARINHIGDWG-DVSREEFDKVYTRL-RGESF-KVLD-TYDTTDVTATY-IYCTDLGQYEHFRMCMQTAKDM-WDHAGF"/>
+                    <sequence id="seq_arg_euk_md_phora5A-aa" taxon="arg_euk_md_phora5A-aa" totalcount="20" value="IIDFSPNIAKDMHVGHLRSTLIGDCLARI-LRLNHVGDWG-DQSRREFQVIYDRL-RGESF-EVIL-NYATTDLAAIR-VYVTDSGQANHFAGIFQIARRA-LEHVPF"/>
+                    <sequence id="seq_arg_euk_md_ranae4A-aa" taxon="arg_euk_md_ranae4A-aa" totalcount="20" value="VIDYSPNIAKIFHMGHFRTTILGNFVKKI-VGINYLGDWG-ELSINKYKELYSKL-SGESF-TCQD-LYLTRDFSAAK-IYVVSSEQKEHFEDLFATLRKA-LEHVQY"/>
+                    <sequence id="seq_arg_euk_md_rerio13A-aa" taxon="arg_euk_md_rerio13A-aa" totalcount="20" value="IVDFSPNIAKEMHVGHLRSTIIGDSMCRL-LRLNHVGDWG-DVSRKEFQKVYNCL-RGESY-AVVK-TYDTSDLAAIR-IYVTDSGQAMHFQVIFAAAQLI-VEHAGF"/>
+                    <sequence id="seq_arg_euk_md_rzaki10A-aa" taxon="arg_euk_md_rzaki10A-aa" totalcount="20" value="VLDFSPNIAKPFHAGHLRSAIIGNVLRNL-VAINYLGDWG-SLSEVEYRSMYARL-DGESL-SLVD-TYLTRDIAAAV-LYVVGPEQALHFEQLFELLRVL-CRHVAF"/>
+                    <sequence id="seq_arg_euk_md_setta7A-aa" taxon="arg_euk_md_setta7A-aa" totalcount="20" value="IVDFSPNIAKEMHVGHLRSTIIGESISRV-HRVNHVGDWG-DVSRREFQDIYNRL-KGESF-GVVE-TYDTSDLATLR-VYVVGQSQGQSQCSAKAEMQSR-LLTLGS"/>
+                    <sequence id="seq_arg_euk_md_stica3A-aa" taxon="arg_euk_md_stica3A-aa" totalcount="20" value="LVDFSPNIAKEMHVGHLRSTIIGESICRL-LRVNHVGDWG-DVSRREFQKIYDRL-KGESF-EVVK-TYDTSDMAAIR-IYVVDAGQNTHLKNIYLAAERC-AEHVQF"/>
+                    <sequence id="seq_cys_euk_md_incut10A-aa" taxon="cys_euk_md_incut10A-aa" totalcount="20" value="NWYAGPTVYDSAHLGHARNYVTFDIIRRV-YLVMNITDID-REFELEFFDDMKAL-TRVSE-DFIS-GWHIECSVMAS-IHSGGIDLRFPHDNELAQSEAH-VYFLHS"/>
+                    <sequence id="seq_cys_euk_md_incut11A-aa" taxon="cys_euk_md_incut11A-aa" totalcount="20" value="SWYTGPTVYSSSHIGHARNYMTVDIIQRI-IHVMGLTDID-KKFEQEFFEDLKSL-TRVSE-KYIE-GWHIECSAMID-VHSGGVDLEFPHQNEIAQCEGH-AYFFHI"/>
+                    <sequence id="seq_cys_euk_md_incut12A-aa" taxon="cys_euk_md_incut12A-aa" totalcount="20" value="GMYIGVTSYDLSHIGHARAYVAFDVLYRY-VYVRNFTDVD-WRFCEEFLSDMADL-PRVTD-DMIA-GWHIECSAMSA-IHGGGMDLIFPHENEIAQSCAA-VYWIHN"/>
+                    <sequence id="seq_cys_euk_md_incut13A-aa" taxon="cys_euk_md_incut13A-aa" totalcount="20" value="LAYIGPTVYDSTHLGHARTYVTFDVVRRI-RYQCNITDVD-RKYEQEFLSDMHTL-TRVTE-LFIQ-GWHIECSAMAA-LHLGGCDLQFPHDNELIQLETW-ICFLHS"/>
+                    <sequence id="seq_cys_euk_md_incut14A-aa" taxon="cys_euk_md_incut14A-aa" totalcount="20" value="RWYIGPTVYDSSHLGHARTYVAFDVIRRI-FCVMNITDVD-AFYEQEYHEDMKSL-TRVTE-SYIQ-GWHIECSVMAS-IHGGGIDLCFPHDNELAQAEAY-VYFLHS"/>
+                    <sequence id="seq_cys_euk_md_incut15A-aa" taxon="cys_euk_md_incut15A-aa" totalcount="20" value="RWYTGPTVYDLSHMGHARAYLTFDIIRRV-IYQMNITDID-RKYERAFFEDMQRL-TRVTE-EFVQ-GWHIECSVMAS-IHSGGWDLKFPHDNECAQSEAC-VYFLHC"/>
+                    <sequence id="seq_cys_euk_md_incut1A-aa" taxon="cys_euk_md_incut1A-aa" totalcount="20" value="SWYSGPTVYDSSHVGHARTYVQIDLLQRI-HSAMGITNID-SRYEEEFINDMQRL-VRVSD-DYIR-GWHIECSVNCH-VHAGGIDLRFPHCNEIAQCEAY-CMMLHI"/>
+                    <sequence id="seq_cys_euk_md_incut3A-aa" taxon="cys_euk_md_incut3A-aa" totalcount="20" value="TWYTGPTVYDWSHMGHARTYVGFDIVRRI-IYIENITDID-RYYEHLFWEDMKQL-VRVTE-SFIQ-GWHIECSAMAC-VHCGGIDLKFPHDNELAQSEAY-VYFLHT"/>
+                    <sequence id="seq_cys_euk_md_incut4A-aa" taxon="cys_euk_md_incut4A-aa" totalcount="20" value="KWYCGPTVYDASHMGHARSYISFDILRRV-FYCMNITDID-KFWEEEYHKDMAAL-TRVSE-DFVQ-GWHIECSAMAG-IHGGGFDLRFPHDNELAQSEAY-VYFLHT"/>
+                    <sequence id="seq_cys_euk_md_incut5A-aa" taxon="cys_euk_md_incut5A-aa" totalcount="20" value="SIYCGVTVYDLCHLGHARSYIAWDVLRRY-TFVQNFTDID-DRNIEAFKSDMALL-PRATK-SIIS-GWHIECSTMVR-IHLGGADLIFPHENEIAQSEMA-AYWLHN"/>
+                    <sequence id="seq_cys_euk_md_incut6A-aa" taxon="cys_euk_md_incut6A-aa" totalcount="20" value="TWYQGPTVYDHSHIGHAVCFQRFDILRRV-LQVWGMTDID-RQYEESFFQDMAAL-TRVTE-EFIQ-GWHIECSAMAS-IHTGGIDLLYPHTNELAQCESH-VHFWHT"/>
+                    <sequence id="seq_cys_euk_md_incut7A-aa" taxon="cys_euk_md_incut7A-aa" totalcount="20" value="RCYTGPTVYSTSHLGHARTYLSFDMIRRI-QWSMNVTDID-ADREKAFFAELDTL-LRVSE-EFIS-GWHIECSTMSG-LHAGGIDLRFPHSNEIAQSQAR-VNWMHT"/>
+                    <sequence id="seq_cys_euk_md_incut8A-aa" taxon="cys_euk_md_incut8A-aa" totalcount="20" value="KIYSGPTVYDFPHIGNYRSFLFSDLLHRT-KLVMNITDID-DRYTQAFLQDLKDL-PRATD-EMIK-GWHIECSAMSR-IHTGGTDNRFPHENEIAQSECF-VYWLHV"/>
+                    <sequence id="seq_cys_euk_md_incut9A-aa" taxon="cys_euk_md_incut9A-aa" totalcount="20" value="NAYIGPTVYDASHMGHASTYIQFDVIRRV-RWVMNITDVD-RYWEEQFNIDMKAL-TRVSD-EFVE-GWHIECSAMAG-IHGGGIDLKFPHDNEIAQSEAF-IYFMHT"/>
+                    <sequence id="seq_cys_euk_md_ranae2A-aa" taxon="cys_euk_md_ranae2A-aa" totalcount="20" value="KIYIGPTVYDHSHIGHARTYVSFDVIRNI-TFVMNITDID-VKYTNLFLEDMALL-TKVTE-EYVK-GWHIECSVMAN-IHAGGVDLKFPHENEIAQCQAR-VYFMHT"/>
+                    <sequence id="seq_gln_euk_md_antum12A-aa" taxon="gln_euk_md_antum12A-aa" totalcount="20" value="YFRFPPEPNGFLHIGHAKSMNLNFGSARA-KCYLRYDDTN-QVYIDAIMEMVDWM-TFSSD-TFAV-SYDFTHCLIDS-YSLCTLEFETRRESYFWLLNEL-PYVWEF"/>
+                    <sequence id="seq_gln_euk_md_gigas3A-aa" taxon="gln_euk_md_gigas3A-aa" totalcount="20" value="HTRFPPEPNGILHIGHAKAINFNFGYAKK-NTYLRYDDTN-EKFFTAIKNMVEWL-THASD-AYAV-TYDYTHCLCDS-HSLCTKEFQSRRSSYYWLCNAL-PVQWEY"/>
+                    <sequence id="seq_gln_euk_md_incut2A-aa" taxon="gln_euk_md_incut2A-aa" totalcount="20" value="FTRFPPEPNGFLHIGHSKAIFVNFGYAAH-KCYLRYDDTN-AKYFESILEIVRWL-TYSSD-DLGV-TYDFTHCLCDS-HSLCTTEFIDSRESYEWLCDQL-PRQSEY"/>
+                    <sequence id="seq_gln_euk_md_incut5A-aa" taxon="gln_euk_md_incut5A-aa" totalcount="20" value="VTRFPPEPNGFLHLGHAKSICLNYGIAKI-RFHLRYDDTN-QQYIDAIEEDVRWL-YYASD-EWAK-MYDFAHGQSDS-HSICTLEFELHRPLYDWLQSEL-TRQIEF"/>
+                    <sequence id="seq_gln_euk_md_mblia9A-aa1" taxon="gln_euk_md_mblia9A-aa" totalcount="20" value="LTRFPPEPNGYLHLGHAKAMFISFNYALL-KTYLRMDDTN-KEYIDSILASIEWL-THTSD-DVAV-SYDFSHCLIDA-HSLCTLEFGIRRESYDWVTHNV-PMQWEF"/>
+                    <sequence id="seq_gln_euk_md_nalis17A-aa" taxon="gln_euk_md_nalis17A-aa" totalcount="20" value="MTRFPPEPNGWIHIGHAKAMILDFGLAAT-HCYMRFDDTN-VEFIEGIKKDVHWL-THTSD-QFAL-TYDYSHCVIDS-HSLCTLEFQNRRDSYYWVLDAL-PVVWEF"/>
+                    <sequence id="seq_gln_euk_md_oidea6A-aa" taxon="gln_euk_md_oidea6A-aa" totalcount="20" value="VTRFPPEPNGYLHIGHAKAMFVDFGFAER-DCYLRFDDTN-QEYIDHIQDIVAWL-TYSSD-NFAI-SYDYTHCLVDA-HSLCTLEFESRRASYYWLLHVL-PVVWEY"/>
+                    <sequence id="seq_gln_euk_md_piens11A-aa" taxon="gln_euk_md_piens11A-aa" totalcount="20" value="RTRFPPEPNGILHIGHAKAINFNFGYAKA-ICFLRFDDTN-AKFFTAICDMVAWL-TYASD-AWAV-TYDYTHCLCDS-HSLCTKEFQARRSSYFWLCNAL-PVQWEY"/>
+                    <sequence id="seq_gln_euk_md_ranae14A-aa" taxon="gln_euk_md_ranae14A-aa" totalcount="20" value="VTRFPPEPNGILHIGHAKAINLDFGYAEK-ICYLRFDDTN-DYYFESIIEDVKWL-TSSSK-ELAE-SYEFALCVSDS-HSFCTREFFTRQESYKWLLDAL-PVQWEF"/>
+                    <sequence id="seq_gln_euk_md_rerio7A-aa" taxon="gln_euk_md_rerio7A-aa" totalcount="20" value="RTRFPPEPNGILHIGHAKAINFNFGFAKA-ICFLRYDDTN-EKYFTAIKDMVEWL-THASD-NLAV-TYDYTHCLCDS-HSLCTKEFQARRSSYFWLCNAL-PVQWEY"/>
+                    <sequence id="seq_gln_euk_md_rzaki4A-aa" taxon="gln_euk_md_rzaki4A-aa" totalcount="20" value="HTRFPPEPNGILHIGHAKAMHINFTFARV-KCIFRYDDTN-ERFFVGIRQMVDWL-THTSD-DLAV-TYDYSHCLIDS-HSMCTKEFQNRRMSYYWLCNAL-PVQWEY"/>
+                    <sequence id="seq_gln_euk_md_setta16A-aa" taxon="gln_euk_md_setta16A-aa" totalcount="20" value="HTRFPPEPNGILHIGHAKAITFNFAYARD-NCYLRYDDTN-EEFFRGILRDVTWL-THSSD-AAAV-TYDFTHCLCDS-HSLCTKEFQNRRSSYYWLCNAL-PVQWEY"/>
+                    <sequence id="seq_gln_euk_md_stica13A-aa" taxon="gln_euk_md_stica13A-aa" totalcount="20" value="QTRFPPEPNGILHIGHAKAININFGYAAA-VCYLRYDDTN-EKFFVGIKDMVEWL-THSSD-EWAV-TYDYTHCLCDS-HSLCTKEFQSRRSSYYWLCNAL-PVQWEY"/>
+                    <sequence id="seq_gln_euk_md_theta10A-aa" taxon="gln_euk_md_theta10A-aa" totalcount="20" value="RTRFPPEPNGYLHIGHAKSICLNFGVAKE-RTNMRFDDTN-EEYVRSILKDVRWL-RYASD-EAAI-MYDFAHCISDA-HSLCTLEFEDHRPLYDWVLDEL-PQQTEF"/>
+                    <sequence id="seq_gln_euk_md_ttata8A-aa" taxon="gln_euk_md_ttata8A-aa" totalcount="20" value="LTRFPPEPNGYLHIGHAKAMFVNFGLAKE-CCYLRYDDTN-KEYIDHIEEIVGWM-TYTSD-DLAV-SYDYAHCIVDS-HSLCTLEFETRRASYYWLLDAL-PYVWEY"/>
+                    <sequence id="seq_glu_euk_md_incut1A-aa" taxon="glu_euk_md_incut1A-aa" totalcount="20" value="VTRFPPEPSGYLHIGHAKAAMLNYYFGKM-KFIVRFDDTN-DEFEQTILEDLQML-THTSD-DYAI-IYDFACPIVDS-HALRTNEYRDRNPQYKWMIDSL-VEIWDF"/>
+                    <sequence id="seq_glu_euk_md_incut2A-aa" taxon="glu_euk_md_incut2A-aa" totalcount="20" value="-VRFAPSPTGFMHLGGLRMALINYLIAKK-KFILRIEDTD-KGSADNIIRTLCDF-YVQSS-KYAE-TYHLASVVDDH-LVIRGEEWISSVPKHLQLYSAF-PDFIHL"/>
+                    <sequence id="seq_glu_euk_md_incut3A-aa" taxon="glu_euk_md_incut3A-aa" totalcount="20" value="VVRFPPEASGYLHIGHAKAALLNQYYQQA-KLVMRFDDTN-ADFEKVILEDVAML-THTSQ-EYCE-TYDFACPIVDS-HVLRTMEYHDRDPQFYWFIEAL-PYIWEY"/>
+                    <sequence id="seq_glu_euk_md_incut5A-aa" taxon="glu_euk_md_incut5A-aa" totalcount="20" value="VTRFPPEPSGYLHIGHAKAALLNYYYANK-KLLLRFDDTN-EEFQESIEADLKIL-SFTSD-NYCE-TYDFACPIVDS-HALRTNEYSDRIEQYNWVINAL-VEIYEF"/>
+                    <sequence id="seq_glu_euk_md_incut6A-aa" taxon="glu_euk_md_incut6A-aa" totalcount="20" value="VVRFPPEASGYLHIGHAKAALLNQHYQVT-KLIMRFDDTN-EDFEKVILEDVAML-TYTSD-RMGE-TYDFACPIVDS-HALRTTEYHDRDEQFYWVIEAL-PYIWEY"/>
+                    <sequence id="seq_glu_euk_md_incut7A-aa" taxon="glu_euk_md_incut7A-aa" totalcount="20" value="KLRFAPEPSGYLHIGHAKAALLNQYFAER-EVIIRFDDTN-NEFVDNLLIDIATL-TYTSD-EMAE-TYDFCCPFVDA-HALRSSEYHDRNEQYYRIQTDM-VHLYEF"/>
+                    <sequence id="seq_glu_euk_md_incut8A-aa" taxon="glu_euk_md_incut8A-aa" totalcount="20" value="VTRFPPEASGFLHIGHAKAALINRMLADA-KMLFRFDDTN-EHFEVAIEEDLKTL-TYSSD-EKAE-TYDFCCPLVDS-HALRTNEYHDRNAQYYWFCDAM-PTIEDF"/>
+                    <sequence id="seq_glu_euk_md_incut9A-aa" taxon="glu_euk_md_incut9A-aa" totalcount="20" value="VTRFAPEPSGCLHIGHLKALLVNYNLAEK-TLLLRFDDTN-EKYEKEILRDLDTL-SHSSD-DEAV-TYDFVCPIVDS-VVCRANEYKDRNEQYKWFLENL-PEFNDF"/>
+                    <sequence id="seq_glu_euk_md_nalis13A-aa" taxon="glu_euk_md_nalis13A-aa" totalcount="20" value="KLRFAPSPTGYLHIGGLRTALYNYLFAKK-KFVLRIEDTD-EGAIENLIESLEWA-YIQSQ-KYVD-TYHMAVIVDDH-HIVRGEEWLPSTPKHVYLYECL-PEFVHL"/>
+                    <sequence id="seq_glu_euk_md_phora10A-aa" taxon="glu_euk_md_phora10A-aa" totalcount="20" value="RVRLAPSPTGTLHIGTARTALFNWLFARQ-AFLLRIEDTD-EEFTDNILEGLQWI-VIQSH-AAIQ-LYNLAVVVDDA-HVIRGEDHIANTAKQLQLYKAL-PQFAHT"/>
+                    <sequence id="seq_glu_euk_md_setta12A-aa" taxon="glu_euk_md_setta12A-aa" totalcount="20" value="RVRFAPSPTGFLHLGGLRTALFNYLFAVK-TFILRLEDTD-TGAAEALQRDLAWA-YVQSE-QYAE-TYHLANVVDDH-HVLRGEEWLISTAKHELLYRAF-PTFVHL"/>
+                    <sequence id="seq_ile_euk_md__mori12A-aa" taxon="ile_euk_md__mori12A-aa" totalcount="20" value="SFYDPPFATGLPHYGHILAGTIKDVVTRY-ERRFGWDCHG-MKYAADWENIITRM-YKTLY-WVFK-DCWFESGSMPY-FIAEGIDQTRGFYTLIVLSTAL-FNLIAN"/>
+                    <sequence id="seq_ile_euk_md_gigas13A-aa" taxon="ile_euk_md_gigas13A-aa" totalcount="20" value="TFYDPPFATGLPHYGHILAGTIKDVVTRW-ERRFGWDCHG-MRYSTEWEEIVTRL-YKTMY-WVFK-DCWFESGSMPY-FIAEGIDQTRGFYTLLVLSTLL-FNLIVN"/>
+                    <sequence id="seq_ile_euk_md_ideum17A-aa" taxon="ile_euk_md_ideum17A-aa" totalcount="20" value="SFYDPPFATGLPHYGHILAGTIKDTITRY-ERRFGWDCHG-MKYSHEWEIVVNRM-YKTMD-WVFQ-DCWFESGSMPY-FIAEGLDQTRGFYTLLVLSTAL-FNLIVN"/>
+                    <sequence id="seq_ile_euk_md_incut14A-aa" taxon="ile_euk_md_incut14A-aa" totalcount="20" value="WQLSPPYANGQLHLGHAMNKILKDIVVRH-HFVPGWDCHG-REAMEMQRKEFMSW-YLTMT-QVFY-DVWFDSGTSWM-LVLEGSDQHRGFQSSLLTSVIA-FTIVTH"/>
+                    <sequence id="seq_ile_euk_md_incut16A-aa" taxon="ile_euk_md_incut16A-aa" totalcount="20" value="TLHDPPYANGDTHLGHALNKILKSIIVNY-RYVPGWDCHG-LKTVKAQREQFKRY-YLTLE-RVFG-DVWFDSGTSWA-LYLEGSDQHRGFQSSLLTAAAA-YAVLTH"/>
+                    <sequence id="seq_ile_euk_md_incut5A-aa" taxon="ile_euk_md_incut5A-aa" totalcount="20" value="SFYDPPFATGLPHYGHILAGTIKDMVTRF-IRRFGWDCHG-TRYVDEWRKTVERV-YKTMH-WVFS-DCWFESGSMPY-FVSEGLDQTRGFYTLLVLGVAL-FNVAVS"/>
+                    <sequence id="seq_ile_euk_md_incut9A-aa" taxon="ile_euk_md_incut9A-aa" totalcount="20" value="ILHDPPFANGNLHMGHVLNKALKDMIVRY-SFVPGWDCHG-EGAIKEQKTDFVRL-YLTLH-ALFL-DVWFDSGTSWN-VYLEGSDQHRGFQSSLLTKITT-FTIITH"/>
+                    <sequence id="seq_ile_euk_md_labra1A-aa" taxon="ile_euk_md_labra1A-aa" totalcount="20" value="VLQDPPYANGSLHMGHALNKILKDIILRF-QYIPGWDCHG-LREVDNQREQMKVF-YRTIE-RTFQ-DVWFDSGTAWT-VVLEGSDQHRGFQSLLLTSLGA-YTVVTH"/>
+                    <sequence id="seq_ile_euk_md_mblia2A-aa" taxon="ile_euk_md_mblia2A-aa" totalcount="20" value="NFYDPPFATGLPHYGHLLAGTIKDVVCRY-NRRFGWDCHG-MRYSQEWEAIVKRS-YKTMN-WVFK-DCWFESGSMPY-FIAEGLDQTRGFYTLLILSTAL-SNCIVN"/>
+                    <sequence id="seq_ile_euk_md_nalis10A-aa" taxon="ile_euk_md_nalis10A-aa" totalcount="20" value="IFYDPPFATGTPHYGHILAGTIKDVVTRY-PRRFGWDTHG-MKHQQDWERVVRRC-YKSMD-WVFK-DCWFESGSMPF-FIAEGLDQTRGFYTMTILSSLL-FNVIVN"/>
+                    <sequence id="seq_ile_euk_md_opcut11A-aa" taxon="ile_euk_md_opcut11A-aa" totalcount="20" value="ITHDPPYANGDLHMGHFENKILKDIINRH-EYKPGWDCHG-SDTIKRQKKSINEW-TIL---ELFS-DVWIDSGVSWF-SYLEGSDQHRGFQSSIFTSQVH-FNLVTH"/>
+                    <sequence id="seq_ile_euk_md_opcut18A-aa" taxon="ile_euk_md_opcut18A-aa" totalcount="20" value="IFYDPPFATGLPHYGHILAGTIKDIVTRY-TRRFGWDCHG-QRYVDEWEKTVVRM-YKTMD-WVFA-DCWFESGSMPY-FVAEGLDQTRGFYTLMVLSTAL-FNLICN"/>
+                    <sequence id="seq_ile_euk_md_phora8A-aa" taxon="ile_euk_md_phora8A-aa" totalcount="20" value="VLHDPPYANGDLHMGHVLNKVLKDIINKY-CFVPGWDCHG-KKQIKIQKAGFIRW-YLTFN-GVFG-DVWFDSGSSWA-LYLEGSDQHRGFQSSLLTSTAV-YKVITH"/>
+                    <sequence id="seq_ile_euk_md_piens4A-aa" taxon="ile_euk_md_piens4A-aa" totalcount="20" value="TFYDPPFATGLPHYGHILAGTIKDIVTRY-DRRFGWDCHG-MRYSAEWKSTVSRL-YKTLY-WVFK-DCWFESGSMPY-FIAEGIDQTRGFYTLLVLATAL-FNVIVN"/>
+                    <sequence id="seq_ile_euk_md_ranae6A-aa" taxon="ile_euk_md_ranae6A-aa" totalcount="20" value="TFYDPPFATGLPHFGHILAGTVKDVITRY-DRRFGWDCHG-MKHSSEWKDTVEKM-YKTMD-YVFS-DCWFESGCMPY-FIGEGIDQTRGFYTLHVISTLL-FNVIVN"/>
+                    <sequence id="seq_ile_euk_md_theta3A-aa" taxon="ile_euk_md_theta3A-aa" totalcount="20" value="TFYDPPFATGMPHYGHILAGTIKDCITRY-ERKWGWDTHG-MRYASEWKRVVRRL-YKTLD-WVCK-DCWFESGSMPY-FIAEGLDQTRGFYTLMVIGTAL-FNVIVN"/>
+                    <sequence id="seq_ile_euk_md_uberi7A-aa" taxon="ile_euk_md_uberi7A-aa" totalcount="20" value="SFYDPPFATGLPHYGHILAGTIKDVVTRY-ERRFGWDCHG-MKYSSEWEQIITRL-YKTMN-WVFK-DCWFESGSMPY-FIAEGLDQTRGFYTLLVLGTAL-FNVIVN"/>
+                    <sequence id="seq_ile_euk_md_wa_ii15A-aa" taxon="ile_euk_md_wa_ii15A-aa" totalcount="20" value="SFYDPPFATGLPHYGHILAGTVKDVVTRY-ERRFGWDCHG-LRYTQEWKSTVERV-YKTMD-WVFK-DCWFESGSMPY-FVGEGLDQTRGFYTLMVLSTAL-FNIIVN"/>
+                    <sequence id="seq_leu_euk_md_antum13A-aa" taxon="leu_euk_md_antum13A-aa" totalcount="20" value="LTTFFPYMNGKLHLGHGFSLTKAEFASRF-LWPFGFHVTG-DYFPPIAMEDLKSF-FMTTS-WQFN-DSLSDSTIYMA-LRCSGKDLIQNLTMFLYNHAAI-PAIFCN"/>
+                    <sequence id="seq_leu_euk_md_incut11A-aa" taxon="leu_euk_md_incut11A-aa" totalcount="20" value="YVLDFPYPSGALHVGHPEGYTATDILSRY-MHPMGWDAFG-KKNIDRFREQLQSL-VSTTD-WIFL-PQWAGSCWYYL-LYLGGAEHAVLLLYARFWHKVL-FRLVNQ"/>
+                    <sequence id="seq_leu_euk_md_incut12A-aa" taxon="leu_euk_md_incut12A-aa" totalcount="20" value="FVTFYPYMNGRLHLGHTFSLSKCEFAVGY-LFPFGLHCTG-DYFPPLAIQDLKRM-FITTD-WQFL-ESLSDSTIYMA-LRVSGKDLVPNLSYYLYNHVAM-PAVRAN"/>
+                    <sequence id="seq_leu_euk_md_incut4A-aa" taxon="leu_euk_md_incut4A-aa" totalcount="20" value="FVTFYPYMNGRLHLGHTFSLSKCEFAVGY-LFPFGLHCTG-EYFPPLAVQDLKRM-FITTD-WQFL-ESLSDSTIYMA-LRASGKDLIPNLSYFLYNHVAM-PAVRAN"/>
+                    <sequence id="seq_leu_euk_md_incut5A-aa" taxon="leu_euk_md_incut5A-aa" totalcount="20" value="IVTFYPYMNGRLHLGHTFSLSKAEFGVGY-LFPFGLHCSG-KYFPPHCKEDLRKM-FLTTD-WQFL-ESLSDSTIYMA-LRVSGKDLVPNLTYYIYNHVAI-PSIRAN"/>
+                    <sequence id="seq_leu_euk_md_incut6A-aa" taxon="leu_euk_md_incut6A-aa" totalcount="20" value="YILAFPYPSGHLHMGHVRVYTLSDCLARF-LHPMGWDAFG-IKNIEYMRKQLQRL-VTTCA-WIFL-DTFVDSSWYFA-IYVGGVEHAILLLYARFLTRFF-FRLLTQ"/>
+                    <sequence id="seq_leu_euk_md_incut7A-aa" taxon="leu_euk_md_incut7A-aa" totalcount="20" value="YILDFPYPSGALHVGHPAGYTATDILARL-LHPIGWDAFG-ERNVNRFRQQLQSL-VSTTD-WIFL-PQWAGSCWYYL-LYVGGAEHAVLLLYARFWHKVL-FRLVSQ"/>
+                    <sequence id="seq_leu_euk_md_labra2A-aa" taxon="leu_euk_md_labra2A-aa" totalcount="20" value="MGTVFAYMNGSLHAGHGFSISKIEFNAGF-LFPVGFHCTG-SYYPHITKDDNIAF-FITTD-WQIN-ESLSDSTIYMS-IRSSGKDLIPNLTFCLYNHAAI-PSMRAN"/>
+                    <sequence id="seq_leu_euk_md_mblia10A-aa" taxon="leu_euk_md_mblia10A-aa" totalcount="20" value="FVTFYPYMNGRLHLGHLFSATRAEFAVGY-LFPFGFHVTG-KHFPALCYKDMCKF-MITTD-WQFR-ESLSDSTIYNA-LRCSGKDLIPNLTMMLYNHTAI-PGMRAN"/>
+                    <sequence id="seq_leu_euk_md_minis3A-aa" taxon="leu_euk_md_minis3A-aa" totalcount="20" value="YVLPFPYPSGKMHMGHVRVFSISDCISRY-IHPMGWDAFG-KNNVEEMRKQISGL-VNTST-WLFL-DTFMDSSWYFY-YYVGGSEHSIMLLFARFVARFL-FHLITQ"/>
+                    <sequence id="seq_leu_euk_md_nalis19A-aa" taxon="leu_euk_md_nalis19A-aa" totalcount="20" value="MITFFPYMNGRLHLGHLFTISKAEFAVRY-LFPFAFHCTG-HYFPPYGVKDMKQF-FITTD-WQFR-DSLSDSTIYTA-CRVSGKDLVTNLTMWLYNHAAV-PAVRAN"/>
+                    <sequence id="seq_leu_euk_md_phora16A-aa" taxon="leu_euk_md_phora16A-aa" totalcount="20" value="YALSFPYPSGKLHMGHVRNYVITDVIARA-LHPMGWDAFG-NTNIQQMRKQLDQL-ISTCN-WLFL-DTFMCSSWYFL-HYVGGIEHAILLLYSRFFTKVL-FRLLPQ"/>
+                    <sequence id="seq_leu_euk_md_ranae14A-aa" taxon="leu_euk_md_ranae14A-aa" totalcount="20" value="FITFYPYMNGKLHLGHLYSISKADFMSYY-LFPLAFHCTG-KTFPKLCISSLKTF-FVTTD-WQFF-DSLSDSTIYMA-LRVSGKDLIKNLLFFMFNHVAL-PRIFTN"/>
+                    <sequence id="seq_leu_euk_md_setta18A-aa" taxon="leu_euk_md_setta18A-aa" totalcount="20" value="YALAFPYPSGALHMGHVRVYTISDSVARF-IHPMGWDAFG-IRNIAYMKEQLDAL-VTTCS-WLFL-DTFVDSAWYFL-LYIGGIEHAVLLLYARFVNMAA-FKLLAQ"/>
+                    <sequence id="seq_leu_euk_md_tatus9A-aa" taxon="leu_euk_md_tatus9A-aa" totalcount="20" value="YGNFFPYMNGYLHLGHAFSLSKLEFAAAY-LLPFAFHCTG-TFFPPLAVEDLKAF-FVTTD-WQMR-ESLSDSTLYMA-LRVSGKDLIQNLTFSIYNHTAL-PGFRCN"/>
+                    <sequence id="seq_met_euk_md_incut11A-aa" taxon="met_euk_md_incut11A-aa" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADVFARF-LFICGTDEYG-DKYHAIHKEVYDWF-GRTST-EIFW-YVWFDATIGYI-YQFMAKDNVLFSIIFPSSLIGT-VHLSAT"/>
+                    <sequence id="seq_met_euk_md_incut12A-aa" taxon="met_euk_md_incut12A-aa" totalcount="20" value="KVSTIYYVNGEPHLGHIYSTALADAICRW-FLTTGTDEHG-DSIASVFQSELSHY-IRTTD-QVWN-YVWIDALTNYL-LHVFGKDIAKFCYFYPCLLLAL-PRMICH"/>
+                    <sequence id="seq_met_euk_md_incut13A-aa" taxon="met_euk_md_incut13A-aa" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADIFARY-LYICGTDEYG-DKYFEIHNNVYRWF-GRTST-RLFL-YVWFDAPIGYM-YQFMAKDNVPFVVMFPATVLGV-VHLFAT"/>
+                    <sequence id="seq_met_euk_md_incut14A-aa" taxon="met_euk_md_incut14A-aa" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADVFSRY-LYICGTDEYG-DKYNKIHAEIYDWF-SRTSI-DIFW-YVWFDAPIGYI-YNFLGKDNVPFSVIFPCSLLGA-VHMSAT"/>
+                    <sequence id="seq_met_euk_md_incut16A-aa" taxon="met_euk_md_incut16A-aa" totalcount="20" value="YFTTINYTNGTPHMGHAYEIVTSDILVRI-RFQTGTDEHG-DENVKQFKNMNEKL-IRTTD-ELWR-YVWFDALTNYI-VHIVGKDITWFSVIWPAMLLSV-PTIFAH"/>
+                    <sequence id="seq_met_euk_md_incut17A-aa" taxon="met_euk_md_incut17A-aa" totalcount="20" value="RLRTGTRVNAEPHMGSAYTTMAADAITRF-SFVTGTDEHG-DGVVASFKGLWEEM-IRTTD-AILD-YVWFDALLGYM-VHLVGKDILRFALYWPGMLLSA-PKIFAH"/>
+                    <sequence id="seq_met_euk_md_incut18A-aa" taxon="met_euk_md_incut18A-aa" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADVYARY-IYICGTDEYG-DKYHEIHKEIYEWF-GRTST-DIFN-YVWFDAPIGYI-VQFMGKDNVPFTVIFPASLIGS-LNLSTT"/>
+                    <sequence id="seq_met_euk_md_incut19A-aa" taxon="met_euk_md_incut19A-aa" totalcount="20" value="LITSLPYVNNIPHLGNIICVLSADVFARY-IYICGTDEYG-DKYHAIHKEVYKWF-GRTSS-DIFK-YVWFDAPIGYV-YQFMGKDNVPFTVMFPSTLLGT-MTISVT"/>
+                    <sequence id="seq_met_euk_md_incut2A-aa" taxon="met_euk_md_incut2A-aa" totalcount="20" value="LITSLPYCNNVPHLGNLISLLSADVFSRY-LYVCGTDEYG-DKYNALHRETYDWF-GRTST-EIFN-YVWFDACIGYV-YQFMGKDNTYFSVLFPSSQLGD-LHLSTT"/>
+                    <sequence id="seq_met_euk_md_incut5A-aa" taxon="met_euk_md_incut5A-aa" totalcount="20" value="-ITSLPYVNNVPHLGNIICVLSADVFARY-LYLCGTDEYG-DKYHIIHADIYRWF-GRTTT-DIFQ-YVWFDATIGYL-YQFMAKDNVPFSLVFPCSALGA-VHLIAT"/>
+                    <sequence id="seq_met_euk_md_incut6A-aa" taxon="met_euk_md_incut6A-aa" totalcount="20" value="FATTIYYVNASPHIGHVYSTLIVDVLGRY-FVMTGTDEHG-TSVSSEFKQCFKEM-IRTTN-DIWK-YVWLDALFNYY-VHVVGKDILKFAIYWPAFLMSA-PRLVSH"/>
+                    <sequence id="seq_met_euk_md_opcut3A-aa" taxon="met_euk_md_opcut3A-aa" totalcount="20" value="YLTTIYYVNGKPHIGHVFTTLLADTLKRF-YLMTGTDEHG-DNMAKTFETFLENF-MRTTM-KLWE-YVWIDALAIYL-VQFLGKDIARFCVYWLAFLMGA-PRFFIH"/>
+                    <sequence id="seq_met_euk_md_ranae7A-aa" taxon="met_euk_md_ranae7A-aa" totalcount="20" value="IITSLPYVNNQPHLGNIICVLSADMYARF-VFLSGTDEYG-EENRIIHKKIYDWF-GHTTS-DFFN-YVWFDAVIGYF-VQFMGKDNVFFTIVFPSLIFAT-IKLSVT"/>
+                    <sequence id="seq_trp_1r6u_h_h_sap19B-aa" taxon="trp_1r6u_h_h_sap19B-aa" totalcount="20" value="YLYTGRGPSSE?HVGHLIPFIFTKWLQDV-PLVIQ?TDDE-YGDAVENAKDIIAC-FSDLD-KIQK-SFPAIQAAPSF-LIPCAIDQDPYFR?TRDVAPRI-PALLHS"/>
+                    <sequence id="seq_trp_euk_md__mori12A-aa" taxon="trp_euk_md__mori12A-aa" totalcount="20" value="YLYTGRGPSSDMHLGHMIPFMFTKWLQDV-PLIIQLTDDE-RKMAYNNAKDIIAI-FNDLD-RIQK-TFPSIEAAPAF-LVPCAIDQDPYFRMTRDVAVRL-PSLIHS"/>
+                    <sequence id="seq_trp_euk_md_antum4A-aa" taxon="trp_euk_md_antum4A-aa" totalcount="20" value="YLYTGRGPSSEMHVGHLIPFMFTKWLQDT-PLVIQLTDDE-DKMTTENLKDIIAF-FRDFE-RIEK-MFPAIQAAPSF-MIPQAIDQDPYFRLTRDVAPRM-PAVIHS"/>
+                    <sequence id="seq_trp_euk_md_aurus13A-aa" taxon="trp_euk_md_aurus13A-aa" totalcount="20" value="YLYTGRGPSSEMHVGHLIPFIFTKWLQDV-PLVIQMTDDE-YGYAVENAKDI-TC-FSDLD-KIQK-SFPAIQAAPSF-LIPCAIDQDPYFRMTRDVAPRI-PALLHS"/>
+                    <sequence id="seq_trp_euk_md_gas_114A-aa" taxon="trp_euk_md_gas_114A-aa" totalcount="20" value="YLYTGRGPSSEMHMGHLIPFIFTKWLQDT-PLVIQLTDDE-NHLAFENAKDIIAC-FSDLD-RIQK-SFPAIQAAPSF-LIPCAIDQDPYFRMTRDVAPRM-PALLHS"/>
+                    <sequence id="seq_trp_euk_md_ica_15A-aa" taxon="trp_euk_md_ica_15A-aa" totalcount="20" value="YLYTGRGPSSELHLGHLIPFIMTKYLQEA-PLVIQMSDDE-IKLAHENAKDIIAM-FNNLT-RMQK-GFPAVQAAPAL-LIPCAIDQDPYFRMCRDVAPRL-CALIHS"/>
+                    <sequence id="seq_trp_euk_md_ideum17A-aa" taxon="trp_euk_md_ideum17A-aa" totalcount="20" value="TVFSGMQPTSSLHLGNYLAMGNWLKIQDL-KLIFSIVDLH-QSNTISVAINYLAC-FNQSM-ILNC-SYPVLMAADIL-HVPVGEDQTQHLEFTRDIAQAF-PSIITS"/>
+                    <sequence id="seq_trp_euk_md_labra11A-aa" taxon="trp_euk_md_labra11A-aa" totalcount="20" value="IVFSGIQPTGI-HLGNYLALRNWVDLQNN-TVIYSVVGLH-RRSKLDAAASLLAI-FHQDE-ILNC-AYPVLQAADVL-HVPVGEDQLQHIELMRHIASSF-PEVISP"/>
+                    <sequence id="seq_trp_euk_md_mblia2A-aa" taxon="trp_euk_md_mblia2A-aa" totalcount="20" value="YIYTGRGPSSGLHLGHLLPFIFTKYLQDA-YVVIQITDDE-DSYTRENIKDIIAC-FINSQ-LVDR-AFPPKQMLPVY-LIASGIEQDPYFRLARDLAPRM-NAYLLG"/>
+                    <sequence id="seq_trp_euk_md_nalis10A-aa" taxon="trp_euk_md_nalis10A-aa" totalcount="20" value="YIYTGRGPSSDLHLGHITSFIINKYIQDA-WFIIQITDDE-HKYTEANIRDIIAQ-MRESK-ELSR-LFPVRQIAPAF-LIPCGREQDPYFRFAREVAGKM-VSTIYG"/>
+                    <sequence id="seq_trp_euk_md_opcut15A-aa" taxon="trp_euk_md_opcut15A-aa" totalcount="20" value="RIVSGIQPTGV-HLGNYLAIKSWVQLQDP-DVLYMIVDLH-RRNITDMTIALLAC-FQQSK-LLGC-SYPILMAADVL-HVPVGDDQQQHLELASTLANTF-PVPMYN"/>
+                    <sequence id="seq_trp_euk_md_opcut16A-aa" taxon="trp_euk_md_opcut16A-aa" totalcount="20" value="YLYTGRGPSSELHVGHLVPFLFTKYLQDT-PLVIQLTDDE-HNYAYENMKDIIAC-FTNLE-RIEK-AFPAVQAAPAF-LVPHAIDQDPYFRMVRDVAPRL-PSSIHS"/>
+                    <sequence id="seq_trp_euk_md_opcut9A-aa" taxon="trp_euk_md_opcut9A-aa" totalcount="20" value="YLYTGRGPSSEMHLGHTVPFIINKHLQEA-PLVIQITDDE-YRLARENAKDIIAM-FIDTD-RVQE-AYPPIQTVPAF-LIPCAIDQDPYFRLCRDVAPKL-PSCLYS"/>
+                    <sequence id="seq_trp_euk_md_phora8A-aa" taxon="trp_euk_md_phora8A-aa" totalcount="20" value="RILSGVQPTG-LHIGNWLAIRNWVNLQNT-ETYVCVVDLH-AEDTRNTAALYLAC-FVQSH-LLNC-DYPIMMAADIL-LVPVGEDQKQHLELARDIAQQR-PEPLIM"/>
+                    <sequence id="seq_trp_euk_md_ranae6A-aa" taxon="trp_euk_md_ranae6A-aa" totalcount="20" value="YLYTGRGPSSKMHLGHVIPFQLCKYFQDT-PLVIQMTDDE-TKYCAENIKDIIAF-FSNVE-KIAK-GFPAKEIAPCF-LIPCAVDQDPYFRLARDKASVM-PTTLYV"/>
+                    <sequence id="seq_trp_euk_md_rerio18A-aa" taxon="trp_euk_md_rerio18A-aa" totalcount="20" value="YLYTGRGPSSQIHVGHLIPFIFTKWLQDV-PLVIQLTDDE-RRFTVENARDIIAC-FSDLE-KVQK-SFPAIQAAPSF-LIPCAIDQDPYFRMTRDVAPRI-PALLHS"/>
+                    <sequence id="seq_trp_euk_md_tatus1A-aa" taxon="trp_euk_md_tatus1A-aa" totalcount="20" value="YLYTGRGPSSELHLGHLVPFMFTKYLQDA-PLVIQLTDDE-QRLARENAKDIIAC-FSDFD-KIAK-SFPPVQAAPSF-LIPCAIDQDPYFRMTRDVAPRI-PALIES"/>
+                    <sequence id="seq_trp_euk_md_theta3A-aa" taxon="trp_euk_md_theta3A-aa" totalcount="20" value="YLYTGRGPSSDLHMGHLIPFMFTKWLQDT-PLVIQMTDDE-YELGKENAKDIIAC-FSNLE-RIEK-SFPAIQAAPSF-LIPCAIDQDPYFRMTRDVAPRL-PALLHS"/>
+                    <sequence id="seq_trp_euk_md_uberi7A-aa" taxon="trp_euk_md_uberi7A-aa" totalcount="20" value="YLYTGRGPSSEMHLGHLIPFMFTKYLQDV-PLVVQMTDDE-HRLTYENAKDIIAC-FSNLD-EIEK-SFPAIQAAPSF-LIPCAIDQDPYFRVTRDVAPKL-PALIHS"/>
+                    <sequence id="seq_tyr_euk_md_antum3A-aa" taxon="tyr_euk_md_antum3A-aa" totalcount="20" value="RCYDGFEPSGRMHIAQIFKAVNVNKCTAA-EFVFWVADFW-EKIRIVGRYLIEVW-LWSSE-DIGR-LYPLMQCCDIF-ICQLGLDQRKVNMLAREYCDLI-PVILSH"/>
+                    <sequence id="seq_tyr_euk_md_incut10A-aa" taxon="tyr_euk_md_incut10A-aa" totalcount="20" value="KVYWGTATTGKPHVAYFVPMSKIADFLRA-EVTILFADHL-ALRVQYYERAIKAM-VKGSD-RLSS-LYPGLQALDEE-AQFGGVDQRKIFTFAEKYLPHL-RIHLMN"/>
+                    <sequence id="seq_tyr_euk_md_incut12A-aa" taxon="tyr_euk_md_incut12A-aa" totalcount="20" value="ICYDGFEPSGRMHIAQILKTINVNKLTEC-VFVFYVADFW-KIVGEYFVHIWKAA-VWASD-DISR-FYPCMQCADIF-ICQLGMDQRKVNMLAREYCDAA-PVILSH"/>
+                    <sequence id="seq_tyr_euk_md_incut13A-aa" taxon="tyr_euk_md_incut13A-aa" totalcount="20" value="TVYCGFDPTESLHLGNLLGIIVLTWFQRC-QPVALLGGTA-ERNVQGIRRILE-S-LNNLD-DVGK-TYQLLQGYDFV-MQIGGSDQMGNIITGLDLIRRM-CFGLTF"/>
+                    <sequence id="seq_tyr_euk_md_incut14A-aa" taxon="tyr_euk_md_incut14A-aa" totalcount="20" value="RCYDGFEPSGRMHIAQILKSINVNRMTKA-TFIFWVADFW-RKVGQYMIEIWKAT-LWSSD-DIAR-LYPCMQCADIF-ICQLGMDQRKVNMLAIEYCDKV-PIIVSH"/>
+                    <sequence id="seq_tyr_euk_md_incut16A-aa" taxon="tyr_euk_md_incut16A-aa" totalcount="20" value="KAYLGFDATKSLHVGSLLQIMILRHLQQC-KPIVLLGGTG-QDNVNGIKTVFE-K-VNNDE-EYGP-NYMILQAYDFL-LQLGGSDQWGNMVNGVELTRRA-VFAMTA"/>
+                    <sequence id="seq_tyr_euk_md_incut6A-aa" taxon="tyr_euk_md_incut6A-aa" totalcount="20" value="ICYDGFEPSGRIHIAQVMKAINVNKLTKA-KFIFLVADFW-QTVGKYMIEVWKSI-VWSSE-DIAR-FYPCMQCADIF-ICQLGMDQRKVNMLAREYSELK-PIILSH"/>
+                    <sequence id="seq_tyr_euk_md_incut8A-aa" taxon="tyr_euk_md_incut8A-aa" totalcount="20" value="TVYCGFDPTRTLHIGNLLAIMGLVHCVRA-NVIALVGGTA-DANIAGITEVLH-R-VNNAE-DIGR-TYQVLQGHDFL-VQLGGSDQWGNITAGIDLVRRV-VYGVTM"/>
+                    <sequence id="seq_tyr_euk_md_labra1A-aa" taxon="tyr_euk_md_labra1A-aa" totalcount="20" value="KCYWGSATTGRPHIGYYVPLTKIADFLTA-EVTILLADHV-AHRTKYYEFLLRTV-VVGSS-KLCS-LYPGLQALDEQ-FQFGGVDQRKIFTYAKEYLPKL-RAHLMN"/>
+                    <sequence id="seq_tyr_euk_md_minis9A-aa" taxon="tyr_euk_md_minis9A-aa" totalcount="20" value="SIYLGVDPTKGLHIGHLMACRILKRFHDA-KCIALVGGTA-QENVKEIQNDLK-R-VNNYD-DVGK-AYQCLQANDFL-CQIGGSDQWGNITSGIDFVKRK-VHGITV"/>
+                    <sequence id="seq_tyr_euk_md_ndcut15A-aa" taxon="tyr_euk_md_ndcut15A-aa" totalcount="20" value="TCYDGFEPSGRIHIAQIAKAINVNRLLRS-DCVFYVADFW-QILGRYFVEVWKAC-VWASE-NIAR-LYPSMQCADIF-LVEMGLDQRKVNALARDYCDKS-PVILMH"/>
+                    <sequence id="seq_tyr_euk_md_phora7A-aa" taxon="tyr_euk_md_phora7A-aa" totalcount="20" value="RVKLGIDPTGDIHLGHSILFRKLRAFQDA-IAVLIIGDTF---NAQTYLQQLG-K-YQNST-KLLG-LYPLLQGYDSV-VELGGTDQRFNVAIGRDLQRYY-QFCLLL"/>
+                    <sequence id="seq_tyr_euk_md_piens2A-aa" taxon="tyr_euk_md_piens2A-aa" totalcount="20" value="KIYWGTATTGKPHVAYFVPMSKIADFLKA-EVTILFADHL-ELRVSYYENVIKAM-IKGTD-RLSS-LYPGLQALDEE-AQFGGIDQRKIFTFAEKYLPAL-RVHLMN"/>
+                    <sequence id="seq_tyr_euk_md_ranae5A-aa" taxon="tyr_euk_md_ranae5A-aa" totalcount="20" value="SIGWRVVVGDNLHLGHVSSLLKIIMVKDV-AVRILIDDDL-NKNREAIKKIIIKI-FLSSD-KLIS-LQPVLKTLDFL-IIVHCNDKVSLVEKSKQFI-NL-IKYINN"/>
+                    <sequence id="seq_tyr_euk_md_rzaki11A-aa" taxon="tyr_euk_md_rzaki11A-aa" totalcount="20" value="VLYWGTATTGRPHIGYFVPMTKIADFLKA-QVTILFADHL-KLRTEYYEAVIKAL-VRGTS-RMSS-LYPGLQALDEE-AQFGGVDQRKIFTFAEKYMPAL-RIHLMN"/>
+                    <sequence id="seq_tyr_euk_md_stica4A-aa" taxon="tyr_euk_md_stica4A-aa" totalcount="20" value="KIYWGTATTGKPHVAYFVPMSKIADFLKA-EVTILFADHL-ELRTKYYEAVIKAM-VKGTD-RLSS-LYPGLQALDEE-AQFGGVDQRKIFTFSEKYLPQL-RIHFMN"/>
+                    <sequence id="seq_val_euk_md_antum15A-aa" taxon="val_euk_md_antum15A-aa" totalcount="20" value="VIIAPPNVTGYLHLGHALTGAVQDTLIRF-LYLPGTDHAG-KNHAGMITEQFRRI-RFTMD-EAFV-DTWFSSGLWPF-LMETGHDILFFVARMVMLSLHF-YEVFLH"/>
+                    <sequence id="seq_val_euk_md_incut11A-aa" taxon="val_euk_md_incut11A-aa" totalcount="20" value="TILLPPNVTGSLHIGHALTASIQDSLCRY-LWVPGVDHAG-EEYGNRIDNQMKAM-VFTMD-ECFV-DTWFSSGLYPL-VMETGSDILFFVARMVMLCTYL-FEIYLH"/>
+                    <sequence id="seq_val_euk_md_incut12A-aa" taxon="val_euk_md_incut12A-aa" totalcount="20" value="VMCMPPNITGSLHIGHSMMIAIQDAICRY-LYLPGTDHAG-ENYGSRILDQFKRL-KFTMD-EAFC-DTWFSSGLWPF-LLETGKDILFFVGRMVMMSLEL-FKVLLH"/>
+                    <sequence id="seq_val_euk_md_incut14A-aa" taxon="val_euk_md_incut14A-aa" totalcount="20" value="VMVIPPNVTGSLHLGHALTNAIEDAITRY-LWVPGCDHAG-REKGVRIYDQLKCL-AFTMD-EAFV-DTWFSSGLFPF-LLETGHDILFFVARMVFFGQKL-FEVYLH"/>
+                    <sequence id="seq_val_euk_md_incut17A-aa" taxon="val_euk_md_incut17A-aa" totalcount="20" value="TLLIPPNVTGSLHIGHALTNSIQDALVRW-LYLPGLDHAG-EQFGGRILSQLRIL-VFTLD-ESFV-DTWFSSGLFPF-VLETGNDIIFFVARMVMLSLEL-FEVYLH"/>
+                    <sequence id="seq_val_euk_md_incut18A-aa" taxon="val_euk_md_incut18A-aa" totalcount="20" value="VIVLPPNVTGPLHIGHALTAAIQDTIIRW-LWVPGTDHAG-NLYRDAILRQLRCL-CYTMD-EAFV-DTWFSSGIFPL-VLETGPDILFLVARMVMLGMKL-FKVYLH"/>
+                    <sequence id="seq_val_euk_md_incut19A-aa" taxon="val_euk_md_incut19A-aa" totalcount="20" value="MMCIPPNVTGSLHLGHALTNAIQDCLTRW-LWNPGCDHAG-NEKGDRIYHQLKKL-CFTMD-EAFI-DTWFSSGIFPF-LLETGHDILFFVARMVMMGLKL-FEVYLH"/>
+                    <sequence id="seq_val_euk_md_incut2A-aa" taxon="val_euk_md_incut2A-aa" totalcount="20" value="VIVIPPNVTGSLHLGHALTNSIQDAVVRY-LWVPGTDHAG-GEYGARIQGQLKKM-VFTMD-TAFI-DTWFSSGLFPF-LLETGSDILFFVARMVMMGQQL-FQVFLH"/>
+                    <sequence id="seq_val_euk_md_incut5A-aa" taxon="val_euk_md_incut5A-aa" totalcount="20" value="MICIPPNVTGALHIGHALTNAVQDTLVRW-LWNPGTDHAG-EQYGDRICTQLRRL-VFTMD-EAFV-DTWFSSALFPF-LLETGADILFFVARMVFFSLAL-FDVYLH"/>
+                    <sequence id="seq_val_euk_md_incut6A-aa" taxon="val_euk_md_incut6A-aa" totalcount="20" value="VMCLPPNVTGTLHLGHAITNTIQDALVRW-LWLPGCDHAG-ERKGETIYDQLKKL-CFTLD-EAFV-DTWFSSGLFPF-LMETGSDILFFVARMVMLGMKL-FKVLLH"/>
+                    <sequence id="seq_val_euk_md_incut7A-aa" taxon="val_euk_md_incut7A-aa" totalcount="20" value="TMVLPPNVTGHLHLGHALTVAIEDAAVRF-NWIPGMDHAG-QEHRNHIRGQLQSL-FYTLD-TSFI-DTWFSSGLVPF-LMETGKDILFFVCRMSWLYESL-FAIALH"/>
+                    <sequence id="seq_val_euk_md_incut9A-aa" taxon="val_euk_md_incut9A-aa" totalcount="20" value="TLVIPPNVTGSLHMGHALTNSIEDTLTRW-LWNPGCDHAG-EEKGGFIYKQIKYL-AFTMS-EAFI-DTWFSSGIFPI-LLETGYDILFFVARMVMMCTYL-FDVYLH"/>
+                    <sequence id="seq_val_euk_md_oidea3A-aa" taxon="val_euk_md_oidea3A-aa" totalcount="20" value="VIVIPPNVTGSLHLGHALMVAVEDTLTRW-LWVPGTDHAG-DTYGGKILAQLRRM-AFTMD-EAFL-DTWFSSGLFPF-LLETGHDILFFVARMVMMGMKL-FQIYLH"/>
+                    <sequence id="seq_val_euk_md_phora10A-aa" taxon="val_euk_md_phora10A-aa" totalcount="20" value="SVVIPPNVTGSLHMGHAFNSALIDTIVRF-LCLPGTDHAS-VQSGGIIVNQMRRL-RFTLD-EAFV-DTWFSSGLWPF-TLVTGFDIIFFVARMTMMASSF-FEVYIH"/>
+                    <sequence id="seq_val_euk_md_wa_ii4A-aa" taxon="val_euk_md_wa_ii4A-aa" totalcount="20" value="VIALPPNVTGRLHLGHTLTAAIQDSLCRY-LWIPGTDHAG-EKHGSAICSQFRRL-FFTLD-NAFI-DTWFSSGLIPF-LLETGSDILFFVARMVMLSFAC-FTIYLH"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="10000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:ClassI_Euk" name="stateNode">
+            <taxonset id="TaxonSet.ClassI_Euk" spec="TaxonSet">
+                <alignment idref="ClassI_Euk"/>
+            </taxonset>
+        </tree>
+        <parameter id="gammaShape.s:ClassI_Euk" name="stateNode">1.0</parameter>
+        <parameter id="mutationRate.s:ClassI_Euk" name="stateNode">1.0</parameter>
+        <parameter id="ucldStdev.c:ClassI_Euk" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:ClassI_Euk" spec="parameter.IntegerParameter" dimension="300">1</stateNode>
+        <stateNode id="indicators.alltrees" spec="parameter.BooleanParameter">false</stateNode>
+        <parameter id="populationMean.alltrees" name="stateNode">1.0</parameter>
+        <parameter id="popSizes.alltrees" name="stateNode">1.0</parameter>
+    </state>
+
+    <init id="RandomTree.t:ClassI_Euk" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:ClassI_Euk" taxa="@ClassI_Euk">
+        <populationModel id="ConstantPopulation0.t:ClassI_Euk" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:ClassI_Euk" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="ExtendedBayesianSkyline.t:ClassI_Euk" spec="Coalescent">
+                <populationModel id="scaledDemo.t:ClassI_Euk" spec="ScaledPopulationFunction">
+                    <population id="demographic.alltrees" spec="CompoundPopulationFunction" populationIndicators="@indicators.alltrees" populationSizes="@popSizes.alltrees">
+                        <itree id="treeIntervals.t:ClassI_Euk" spec="TreeIntervals" tree="@Tree.t:ClassI_Euk"/>
+                    </population>
+                    <parameter id="RealParameter.4" lower="0.0" name="factor" upper="0.0">1.0</parameter>
+                </populationModel>
+                <treeIntervals idref="treeIntervals.t:ClassI_Euk"/>
+            </distribution>
+            <prior id="GammaShapePrior.s:ClassI_Euk" name="distribution" x="@gammaShape.s:ClassI_Euk">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="indicatorsPrior.alltrees" name="distribution">
+                <x id="indsSun.alltrees" spec="util.Sum">
+                    <arg idref="indicators.alltrees"/>
+                </x>
+                <distr id="Poisson.EBSP" spec="beast.math.distributions.Poisson">
+                    <parameter id="RealParameter.5" estimate="false" name="lambda" upper="0.0">0.69314718056</parameter>
+                </distr>
+            </prior>
+            <prior id="popSizePrior.alltrees" name="distribution" x="@popSizes.alltrees">
+                <Exponential id="popPriorDist.EBSP" mean="@populationMean.alltrees" name="distr"/>
+            </prior>
+            <prior id="populationMeanPrior.alltrees" name="distribution" x="@populationMean.alltrees">
+                <OneOnX id="OneOnX.EBSP" name="distr"/>
+            </prior>
+            <prior id="ucldStdevPrior.c:ClassI_Euk" name="distribution" x="@ucldStdev.c:ClassI_Euk">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.ClassI_Euk" spec="ThreadedTreeLikelihood" data="@ClassI_Euk" tree="@Tree.t:ClassI_Euk">
+                <siteModel id="SiteModel.s:ClassI_Euk" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:ClassI_Euk" shape="@gammaShape.s:ClassI_Euk">
+                    <parameter id="proportionInvariant.s:ClassI_Euk" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:ClassI_Euk" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:ClassI_Euk" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:ClassI_Euk" tree="@Tree.t:ClassI_Euk">
+                    <LogNormal id="LogNormalDistributionModel.c:ClassI_Euk" S="@ucldStdev.c:ClassI_Euk" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.1" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:ClassI_Euk" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="gammaShapeScaler.s:ClassI_Euk" spec="ScaleOperator" parameter="@gammaShape.s:ClassI_Euk" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+        <parameter idref="mutationRate.s:ClassI_Euk"/>
+        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">108</weightvector>
+    </operator>
+
+    <operator id="ucldStdevScaler.c:ClassI_Euk" spec="ScaleOperator" parameter="@ucldStdev.c:ClassI_Euk" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:ClassI_Euk" spec="IntRandomWalkOperator" parameter="@rateCategories.c:ClassI_Euk" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:ClassI_Euk" spec="SwapOperator" intparameter="@rateCategories.c:ClassI_Euk" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:ClassI_Euk" spec="UniformOperator" parameter="@rateCategories.c:ClassI_Euk" weight="10.0"/>
+
+    <operator id="ExtendedBayesianSkylineTreeScaler.t:ClassI_Euk" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:ClassI_Euk" weight="3.0"/>
+
+    <operator id="ExtendedBayesianSkylineTreeRootScaler.t:ClassI_Euk" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:ClassI_Euk" weight="3.0"/>
+
+    <operator id="ExtendedBayesianSkylineUniformOperator.t:ClassI_Euk" spec="Uniform" tree="@Tree.t:ClassI_Euk" weight="30.0"/>
+
+    <operator id="ExtendedBayesianSkylineSubtreeSlide.t:ClassI_Euk" spec="SubtreeSlide" tree="@Tree.t:ClassI_Euk" weight="15.0"/>
+
+    <operator id="ExtendedBayesianSkylineNarrow.t:ClassI_Euk" spec="Exchange" tree="@Tree.t:ClassI_Euk" weight="15.0"/>
+
+    <operator id="ExtendedBayesianSkylineWide.t:ClassI_Euk" spec="Exchange" isNarrow="false" tree="@Tree.t:ClassI_Euk" weight="3.0"/>
+
+    <operator id="ExtendedBayesianSkylineWilsonBalding.t:ClassI_Euk" spec="WilsonBalding" tree="@Tree.t:ClassI_Euk" weight="3.0"/>
+
+    <operator id="bitflip.alltrees" spec="BitFlipOperator" parameter="@indicators.alltrees" weight="30.0"/>
+
+    <operator id="indicatorSampler.alltrees" spec="SampleOffValues" dist="@popPriorDist.EBSP" indicators="@indicators.alltrees" values="@popSizes.alltrees" weight="15.0"/>
+
+    <operator id="indicatorScaler.alltrees" spec="ScaleOperator" degreesOfFreedom="1" indicator="@indicators.alltrees" parameter="@popSizes.alltrees" scaleFactor="0.5" weight="15.0"/>
+
+    <operator id="EBSPupDownOperator.alltrees" spec="UpDownOperator" scaleFactor="0.7" weight="5.0">
+        <up idref="popSizes.alltrees"/>
+        <up idref="populationMean.alltrees"/>
+    </operator>
+
+    <logger id="tracelog" fileName="ClassI_Euk_Sky.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.ClassI_Euk"/>
+        <log id="TreeHeight.t:ClassI_Euk" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:ClassI_Euk"/>
+        <log idref="gammaShape.s:ClassI_Euk"/>
+        <log idref="mutationRate.s:ClassI_Euk"/>
+        <log idref="ucldStdev.c:ClassI_Euk"/>
+        <log id="rate.c:ClassI_Euk" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:ClassI_Euk" tree="@Tree.t:ClassI_Euk"/>
+        <log idref="ExtendedBayesianSkyline.t:ClassI_Euk"/>
+        <log idref="indicators.alltrees"/>
+        <log idref="populationMean.alltrees"/>
+        <log idref="popSizes.alltrees"/>
+        <log id="sumIndicators" spec="util.Sum">
+            <arg idref="indicators.alltrees"/>
+        </log>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:ClassI_Euk" fileName="ClassI_Euk_Sky.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:ClassI_Euk" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:ClassI_Euk" tree="@Tree.t:ClassI_Euk"/>
+    </logger>
+
+    <logger id="EBSPLogger" fileName="EBSP.log" logEvery="5000" model="@demographic.alltrees">
+        <log idref="demographic.alltrees"/>
+    </logger>
+
+</run>
+
+</beast>
