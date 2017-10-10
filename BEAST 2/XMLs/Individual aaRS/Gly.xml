@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="Gly"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_gly_2zt5_h_h_sap1A-aa" taxon="gly_2zt5_h_h_sap1A-aa" totalcount="20" value="LKNNIIQTWRQHFQEEQILEIDCTMLTYLRPETAQGIFFAAAQIGNSFRNREFTMAEIEHFLGYFIGRIYLYLTCWDAESEIVGCADRPNVIEPSFGLGRIMYT"/>
+                    <sequence id="seq_gly_arch_m_anium1A-aa" taxon="gly_arch_m_anium1A-aa" totalcount="20" value="LKDNIISIWKKSYAKEGAIFLDTPVIAYLRPETAQGIFIIVCQVGKGFRNREFTQAEVEVFMAYFLEKTYSILSTWDFEYEIVGVSDRPRVVEPSYGIDRIVLT"/>
+                    <sequence id="seq_gly_arch_m_hilum20A-aa" taxon="gly_arch_m_hilum20A-aa" totalcount="20" value="LKDNIIAAWKREYAREGAIFLDTPVIDYLRPETAQGIPIIVCQVGKGFRNREFSQAEVEVFMAYFLNKTYEILLTWDFEYEIVGVSDRPKVVEPSYGLDRILLT"/>
+                    <sequence id="seq_gly_arch_m_itans12A-aa" taxon="gly_arch_m_itans12A-aa" totalcount="20" value="LKNNFINEWKNYFLRPNFWEVDPAIVMYLRPETAQGPYLGLAVVGKAFRNREFTQAELQIFYAYFVGKVKQFYEHVDIEIEVGGIHYRPHVLELSFGVDRNVLA"/>
+                    <sequence id="seq_gly_arch_m_opcut10A-aa" taxon="gly_arch_m_opcut10A-aa" totalcount="20" value="LKRKIEEKWREYYVHEGFMEIEAPNLLYLRPETAQAIFFGVVQIGRAYRNREFTQAEAEVFIGYFLGLTKRMLNCWDVEVEVVGIADRSHVIEPSYGIDRILYC"/>
+                    <sequence id="seq_gly_arch_m_opcut11A-aa" taxon="gly_arch_m_opcut11A-aa" totalcount="20" value="LKNKIMNRWREFYVVEGFYEIESPTIMYLRPETAQGIFFGVVQLGKSYRNREFTQAEAEIFLTYHLCLAKRFLMCWDVEAEIIGIADRPHVIEPSFGIDRIIYT"/>
+                    <sequence id="seq_gly_arch_m_opcut13A-aa" taxon="gly_arch_m_opcut13A-aa" totalcount="20" value="LRRNIVEKWRKVFVLDLIIEVETPIIMYLRPETAQGMFFGVAQIGRVARNREFTQMEIELFMAFFMALAAKFLKSYDQMVEVSGHAYRPHVVEPSFGLDRIMYV"/>
+                    <sequence id="seq_gly_arch_m_opcut14A-aa" taxon="gly_arch_m_opcut14A-aa" totalcount="20" value="LKDKIIALWRHYFIRHIVVEIETPVIAYLRPETAQGMFLGIAQIGRVARNREFTIAEMEFFLAYWMAVARDFIMTFDQLVEVSGHAYRPHVAEPSFGVERLLFV"/>
+                    <sequence id="seq_gly_arch_m_opcut15A-aa" taxon="gly_arch_m_opcut15A-aa" totalcount="20" value="IKRKIERKIREAFIREGFFEIETPDITYLRPETAQGIFFGVFQIGKAYRNREFTQAEAEIFFAYYMVMIKKILLTWDAEVECVGLAYRVMIHEPSFGIDRPFYL"/>
+                    <sequence id="seq_gly_arch_m_opcut16A-aa" taxon="gly_arch_m_opcut16A-aa" totalcount="20" value="LKEKIVALWRDYFIRHIVVEIETPVIAYLRPETAQGMFLGIAQVGRVARNREFTIAEMEFFLAYWMAIARDFVMTFDQLVEVSGHAYRPHVAEPSFGVERLIFV"/>
+                    <sequence id="seq_gly_arch_m_opcut17A-aa" taxon="gly_arch_m_opcut17A-aa" totalcount="20" value="LKRNVQQRWWEAMVYENIVGLDAAILMYLRPETAQGIFFGIAQIGKAFRNREFEQMEMQYFFEAWKEKRLQWHIAVDIQYEVEGIHSRPYVVETSAGLDRTILM"/>
+                    <sequence id="seq_gly_arch_m_opcut18A-aa" taxon="gly_arch_m_opcut18A-aa" totalcount="20" value="IKNKIVDLWRKHFIKDFVVEIDTPALTFLRPETAQGMFIGIAQIGKVGRNREFTIMEVEFFMAYWMGVASNFVNTFDQIVEISGHAYRPHVIEPSFGVERCLYL"/>
+                    <sequence id="seq_gly_arch_m_opcut19A-aa" taxon="gly_arch_m_opcut19A-aa" totalcount="20" value="IKRNIINEWLNNLVYGLVLEIETPIITYLRPETAQGMFLGIAQIGRVGRNREFTIMELEFFMAYWMALGNIFLRTFDQEVEVAGYSYRPHVVEPSFGLERIFYV"/>
+                    <sequence id="seq_gly_arch_m_opcut4A-aa" taxon="gly_arch_m_opcut4A-aa" totalcount="20" value="LRRKIENIWRKYFVIERAAEIDTPTIGYLRPETAQGMFFGVAQIGRAYRNREFNQAELEFFLAYFIGKTRRFLLCWDAEVEVVGIADRIHVIEPSFGLDRITYS"/>
+                    <sequence id="seq_gly_arch_m_opcut5A-aa" taxon="gly_arch_m_opcut5A-aa" totalcount="20" value="LKRNVEETWRDRFVTEGNMEIDSPTVTYLRPETAQGMFFGAAQIGAGYRNREFTMAELEFFVAYFLARSKQWFECWDAEGELEGIASRVFVVEPAFGVGRAVYT"/>
+                    <sequence id="seq_gly_arch_m_opcut6A-aa" taxon="gly_arch_m_opcut6A-aa" totalcount="20" value="LKRRIEQVWREFYVIEGHMEIECPTIGYLRPETAQGMFFGAVQIGKSYRNREFTQAECELFLGYNIALTNEFLTCWDAEIEIVGIADRPHVIEPSYGIDRIFYG"/>
+                    <sequence id="seq_gly_arch_m_opcut7A-aa" taxon="gly_arch_m_opcut7A-aa" totalcount="20" value="LKNNIIDTWRKHYITEEFYEIDCPTITYMRPETAQGIFFGVAQIGKAYRNREFTQAEAEFFIAYFVAITKRFLLCWDAEIECVGIADRSHVIEPSHGIDRITFC"/>
+                    <sequence id="seq_gly_arch_m_opcut8A-aa" taxon="gly_arch_m_opcut8A-aa" totalcount="20" value="VKRRIEDLWRQFYVIEGYYEIECPTIGYLRPETAQGIFFGTVQIGRSYRNREFTQAEAEIFVAYYLALTHELLVCWDAEIETVGIADRSHVIEPSYGIDRMIYA"/>
+                    <sequence id="seq_gly_arch_m_opcut9A-aa" taxon="gly_arch_m_opcut9A-aa" totalcount="20" value="LKNNIISKFREQYIIEGFYEIESPTVTYMRPETAQGIFFGVVQIGKSYRNREFTQAEIEYFIAYFIALTKRFLECWDAEIECVGIADRPHVIEPSYGIDRITYC"/>
+                    <sequence id="seq_gly_bact_m_alpha10A-aa" taxon="gly_bact_m_alpha10A-aa" totalcount="20" value="TFQGLILTLQDYWARQGCTIVQLDME---VGAGTSHTCMAAAYVQPSRRPQHYYQFQVVIKPDNIQELYLGSLKGWEVWLEVTQFTYFPVTGEITYGLERLAMY"/>
+                    <sequence id="seq_gly_bact_m_alpha18A-aa" taxon="gly_bact_m_alpha18A-aa" totalcount="20" value="NFQSVIATLNQFWADRGCLIAQYDTE---KGAGTMNTFWAVAYVEPCRRPQHYYQYQVLIKPEGIQETYLDSLRGWEVWLEVTQFTYFPVSIEITYGLERLAMY"/>
+                    <sequence id="seq_gly_bact_m_incut6A-aa" taxon="gly_bact_m_incut6A-aa" totalcount="20" value="TFQQIILTLQSYWDRQGCALLQIDME---VGAGTSHTFWRAAYVQPSRRPQHYYQYQVVLKPENILDLYLGSLAGWEVWLEVTQFTYFPVLGEITYGLERLAMY"/>
+                    <sequence id="seq_gly_bact_m_incut8A-aa" taxon="gly_bact_m_incut8A-aa" totalcount="20" value="LKRNVQNLWWQSMTLHNIVGMDAAILMYLRPETAQGIFFGIAQIGKAFRNREFEQMEMQFFFNYWQQARWQWHIAVDIEYEIEGIHARPHVIETSLGSDRLILM"/>
+                    <sequence id="seq_gly_bact_m_opcut12A-aa" taxon="gly_bact_m_opcut12A-aa" totalcount="20" value="LKRNIKEAWWQDMVNPRMVGLDCSIIMYLRPETAQGIFFGIAQVGKAFRNREFEQMEIEFFYEYWRDLRRQWYSTTDIEYELEGVAHRPHVIEPSAGADRFTLA"/>
+                    <sequence id="seq_gly_bact_m_opcut13A-aa" taxon="gly_bact_m_opcut13A-aa" totalcount="20" value="LKNNIKRAWWKKFVESYNVGLDAAILMYLRPETAQGIFFGIAQIGKSFRNREFEQMELEFFFDYWKQFCKDWLLTTDIEYELWGIASRPYCIEPSLGADRVTLA"/>
+                    <sequence id="seq_gly_bact_m_opcut14A-aa" taxon="gly_bact_m_opcut14A-aa" totalcount="20" value="LKNNLKAAWWRAMVERDVEGLDASILTYLRPETAQGIFFGIAQIGKAFRNREFEQMELEFFHSQWVEARLQWWRTVDILYELEGIANRPFVIEPSAGVDRGVLA"/>
+                    <sequence id="seq_gly_bact_m_opcut15A-aa" taxon="gly_bact_m_opcut15A-aa" totalcount="20" value="LLNNIKNEWIKYFINENNFLIDAKILMYLRPETAQAIFFGVGQIGKSFRNREFEQMELEYFFEYYLKKCYEFLITSDIEFELLGVANRPHVIEPSMGLDRLALA"/>
+                    <sequence id="seq_gly_bact_m_opcut16A-aa" taxon="gly_bact_m_opcut16A-aa" totalcount="20" value="LKNHVRDHWWHQTVCPSVLGLDSAIIQYLRPETAQGIFFGIAQIGKSFRNREFEQMEMEWFYDFWKHERMRWWECVDVEYELEGVAHRPHVIEPASGLTRAVLV"/>
+                    <sequence id="seq_gly_bact_m_opcut17A-aa" taxon="gly_bact_m_opcut17A-aa" totalcount="20" value="LKNNVKKAWWQKFIQSFNVGIDAAILMFLRPETAQGIFFGIGQIGKSFRNREFEQMELEFFQNYWKTFASDWLTTTDIEYELWGIASRPYCIEPSLGADRVTLA"/>
+                    <sequence id="seq_gly_bact_m_opcut5A-aa" taxon="gly_bact_m_opcut5A-aa" totalcount="20" value="LKNNIKKYWWDSMVLHNIVGIDSAIFMYLRPETAQGIFFGIAQIGKAFRNREFEQMEMQFFFKKWKEIRLKWHKATDIEFEVEGIHSRPYVIETSIGVDRMFLS"/>
+                    <sequence id="seq_gly_bact_m_opcut7A-aa" taxon="gly_bact_m_opcut7A-aa" totalcount="20" value="LKNNIIADWWRTNVERDMEGLDAAILMYLRPETAQGIFFGIAQVGKAFRNREFEQMEIEYFHQRWLEARLAWWETFDLMYEIEGIANRPYVIEPSAGVGRCMLA"/>
+                    <sequence id="seq_gly_bact_m_opcut9A-aa" taxon="gly_bact_m_opcut9A-aa" totalcount="20" value="LKNNIKAAWWRSNVERDMEGLDASIIMYLRPETAQGIFFGIAQIGKAFRNRELEQMEIEFFHEHWLEKRLKWWETYDLMYEIEGIANRPFVIEPSAGVDRAMLA"/>
+                    <sequence id="seq_gly_bact_m_rferi4A-aa" taxon="gly_bact_m_rferi4A-aa" totalcount="20" value="LKKNIKKEWWKSMVLHNIVGLDSAIFMYLRPETAQGIFFGIAQVGKAFRNCEFEQMEMQFFFCYWQQNRMNFFIAFDIEYEVEGIHNRPYVIETSAGLTRSVLM"/>
+                    <sequence id="seq_gly_d1atib_therm2A-aa" taxon="gly_d1atib_therm2A-aa" totalcount="20" value="LKNNLKQAWWRRNVERDMEGLDASVLTYLRPETAQGIFFGIAQIGKAFRNREFEQMEIEYFHRYWVEERLKWWQTVDILYELEGIAQRPYVIEPSAGVDRGVLA"/>
+                    <sequence id="seq_gly_d1j5wb_itima3A-aa" taxon="gly_d1j5wb_itima3A-aa" totalcount="20" value="YLQDVI-KLNDFWASKGCLLEQYDE----VGAGTFHTFWKVAYVQPSRRPQRYFQYQVIIKPENSQELYLESLEGWEVWLEITQFTYFDIPLEITYGLERIA-Y"/>
+                    <sequence id="seq_gly_euk_md_incut16A-aa" taxon="gly_euk_md_incut16A-aa" totalcount="20" value="IMNNIQQEWRRHFLEDNLLEISCPAMTFLRPELAQGIVFGGCQIGTAYRNREFPLAEIEYFLAYFLARIYLFLTCWDAELESAACADRPSVIEPTFGLGRIIYA"/>
+                    <sequence id="seq_gly_euk_md_incut3A-aa" taxon="gly_euk_md_incut3A-aa" totalcount="20" value="LKSNFINLWKQHFLEEDMLEVECTNLTFLRPETAQGMFFAAAQVGTGFRNREFPMAEIEHFLGYFMARTYLFLKCWDCEIECVGIADRPSVVEPSFGVGRLIYS"/>
+                    <sequence id="seq_gly_euk_md_incut4A-aa" taxon="gly_euk_md_incut4A-aa" totalcount="20" value="LKSNMIHLWKKFFLQEQMLEVECSILTFLRPETAQGILFAAAQIGNSFRNREFTMCEIEHFLGYFMARIHMYMLCWDAECECVGCADRGSVIEPSFGVGRILYC"/>
+                    <sequence id="seq_gly_euk_md_incut5A-aa" taxon="gly_euk_md_incut5A-aa" totalcount="20" value="VKANILQTWRNFFLEEQMLEVDCSMLTFLRPETAQGIFFAAAQIGNAFRNREFTMAEIEHFLGYFMGRIQMFMLCWDAECECVGCADRPSVIEPSFGVGRVMYS"/>
+                    <sequence id="seq_gly_euk_md_incut6A-aa" taxon="gly_euk_md_incut6A-aa" totalcount="20" value="IKANLLSLWRSHFFEEQMLEVDCSMLTYLRPETAQGIFFAAAQIGSSFRNREFTMAEIEHFLGYFIGRIYLFMTCWDAECECIGCADRSNVIEPSFGIGRIIYS"/>
+                    <sequence id="seq_gly_euk_md_incut9A-aa" taxon="gly_euk_md_incut9A-aa" totalcount="20" value="VKANLINLWRQHFLNEDMSEVDCVSVTYLRPETAQGIFFAAAQIGNAFRNREFTMAEIEHFLAYFMARTQQFLHCWDAEIECVGHADRSHVIEPSFGLGRIIYS"/>
+                    <sequence id="seq_gly_euk_md_opcut10A-aa" taxon="gly_euk_md_opcut10A-aa" totalcount="20" value="LRNNFLSMWRQHFVAEDMLEIMCTNIVYLRPETAQGIFFAMAQVGTVFRNREFEQCEIEHFMAYFIGRTYLFLLCWDCDCEIVGIADRPHVIEPSFGVGRILYS"/>
+                    <sequence id="seq_gly_euk_md_opcut11A-aa" taxon="gly_euk_md_opcut11A-aa" totalcount="20" value="IKNNIVDAWRKFFVSDGMLEVACPSITFLRPETAQGIFMTIAQIGKSFRNREFEMAEIEHFLAYFLGKTQKFLRCWDAEVEVVGHADRTRVVEPSFGLDRLFYC"/>
+                    <sequence id="seq_gly_euk_md_opcut12A-aa" taxon="gly_euk_md_opcut12A-aa" totalcount="20" value="MKSNMLHFWRQHFIEESMCEVDTTCLTYMRPELAQGIIFAGACIGTAFRNREFTLAEIEHFLGYFIGRVALFLTCWDAELECVGIADRSSVIEPSFGIGRILYC"/>
+                    <sequence id="seq_gly_euk_md_opcut13A-aa" taxon="gly_euk_md_opcut13A-aa" totalcount="20" value="IKQNFTSEWRKHFYYDKLYEVESSILLFLRPETAQGQFFGSATIGKAFRNREFEQAEIEYFLGYFMGRTYLFLACWDCEIECVGIADR-DVIEPSFGIGRILYI"/>
+                    <sequence id="seq_gly_euk_md_opcut14A-aa" taxon="gly_euk_md_opcut14A-aa" totalcount="20" value="IKANILDLWRRHFNEENMLEVDCSSLTYLRPETAQGIFFASAQIGQAFRNREFTLAEIEHFHAYYIARVKLFMDCWDCELEVVGIANRYSVIEPSFGIGRIIYC"/>
+                    <sequence id="seq_gly_euk_md_opcut17A-aa" taxon="gly_euk_md_opcut17A-aa" totalcount="20" value="IERNFLQKWRDHFLEDDMLEVRCSALTFLRPETAQGIFFAAAQVGAGYRNREFQMAEIEHFLGYYIGRVYLFLCCWDAEIECVGIADR----------------"/>
+                    <sequence id="seq_gly_euk_md_opcut2A-aa" taxon="gly_euk_md_opcut2A-aa" totalcount="20" value="LQANIIGEWRKHFVEEGMHELDTTIMTYLRPETAQGHFFASACIGRSFRNREFTMAEIEHFLGYFLARISLFLLCWDAEIECVGCADR--VIEPSFGLGRILYC"/>
+                    <sequence id="seq_gly_euk_md_opcut7A-aa" taxon="gly_euk_md_opcut7A-aa" totalcount="20" value="LKSEVESFWRRHFLAEDMLEISATCLTFMRPETAQGIFFSVAQIGLGFRNREFQMAEIEHFLAYFLSRTYDFLICWDAEVECAGHADRPGVIEPSFGIGRIIYC"/>
+                    <sequence id="seq_gly_euk_md_opcut8A-aa" taxon="gly_euk_md_opcut8A-aa" totalcount="20" value="IKQNVTQLWRQHFLEESMLEVECPAVTYLRPETAQGIFFAAAQIGQSYRNREFTQAEIEHFLAYFIGRTYLFLVCWDAEVECVGLADRSSVIEPSFGIGRIIYC"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="10000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:Gly" name="stateNode">
+            <taxonset id="TaxonSet.Gly" spec="TaxonSet">
+                <alignment idref="Gly"/>
+            </taxonset>
+        </tree>
+        <parameter id="gammaShape.s:Gly" name="stateNode">1.0</parameter>
+        <parameter id="mutationRate.s:Gly" name="stateNode">1.0</parameter>
+        <parameter id="ucldStdev.c:Gly" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:Gly" spec="parameter.IntegerParameter" dimension="98">1</stateNode>
+        <parameter id="bPopSizes.t:Gly" dimension="5" lower="0.0" name="stateNode" upper="380000.0">380.0</parameter>
+        <stateNode id="bGroupSizes.t:Gly" spec="parameter.IntegerParameter" dimension="5">1</stateNode>
+    </state>
+
+    <init id="RandomTree.t:Gly" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Gly" taxa="@Gly">
+        <populationModel id="ConstantPopulation0.t:Gly" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Gly" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BayesianSkyline.t:Gly" spec="BayesianSkyline" groupSizes="@bGroupSizes.t:Gly" popSizes="@bPopSizes.t:Gly">
+                <treeIntervals id="BSPTreeIntervals.t:Gly" spec="TreeIntervals" tree="@Tree.t:Gly"/>
+            </distribution>
+            <distribution id="MarkovChainedPopSizes.t:Gly" spec="beast.math.distributions.MarkovChainDistribution" jeffreys="true" parameter="@bPopSizes.t:Gly"/>
+            <prior id="GammaShapePrior.s:Gly" name="distribution" x="@gammaShape.s:Gly">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="ucldStdevPrior.c:Gly" name="distribution" x="@ucldStdev.c:Gly">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.Gly" spec="ThreadedTreeLikelihood" data="@Gly" tree="@Tree.t:Gly">
+                <siteModel id="SiteModel.s:Gly" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:Gly" shape="@gammaShape.s:Gly">
+                    <parameter id="proportionInvariant.s:Gly" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:Gly" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:Gly" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:Gly" tree="@Tree.t:Gly">
+                    <LogNormal id="LogNormalDistributionModel.c:Gly" S="@ucldStdev.c:Gly" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.1" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:Gly" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="gammaShapeScaler.s:Gly" spec="ScaleOperator" parameter="@gammaShape.s:Gly" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+        <parameter idref="mutationRate.s:Gly"/>
+        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">104</weightvector>
+    </operator>
+
+    <operator id="ucldStdevScaler.c:Gly" spec="ScaleOperator" parameter="@ucldStdev.c:Gly" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:Gly" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Gly" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:Gly" spec="SwapOperator" intparameter="@rateCategories.c:Gly" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:Gly" spec="UniformOperator" parameter="@rateCategories.c:Gly" weight="10.0"/>
+
+    <operator id="BayesianSkylineTreeScaler.t:Gly" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:Gly" weight="3.0"/>
+
+    <operator id="BayesianSkylineTreeRootScaler.t:Gly" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Gly" weight="3.0"/>
+
+    <operator id="BayesianSkylineUniformOperator.t:Gly" spec="Uniform" tree="@Tree.t:Gly" weight="30.0"/>
+
+    <operator id="BayesianSkylineSubtreeSlide.t:Gly" spec="SubtreeSlide" tree="@Tree.t:Gly" weight="15.0"/>
+
+    <operator id="BayesianSkylineNarrow.t:Gly" spec="Exchange" tree="@Tree.t:Gly" weight="15.0"/>
+
+    <operator id="BayesianSkylineWide.t:Gly" spec="Exchange" isNarrow="false" tree="@Tree.t:Gly" weight="3.0"/>
+
+    <operator id="BayesianSkylineWilsonBalding.t:Gly" spec="WilsonBalding" tree="@Tree.t:Gly" weight="3.0"/>
+
+    <operator id="popSizesScaler.t:Gly" spec="ScaleOperator" parameter="@bPopSizes.t:Gly" scaleFactor="0.75" weight="15.0"/>
+
+    <operator id="groupSizesDelta.t:Gly" spec="DeltaExchangeOperator" integer="true" weight="6.0">
+        <intparameter idref="bGroupSizes.t:Gly"/>
+    </operator>
+
+    <logger id="tracelog" fileName="Gly.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.Gly"/>
+        <log id="TreeHeight.t:Gly" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Gly"/>
+        <log idref="gammaShape.s:Gly"/>
+        <log idref="mutationRate.s:Gly"/>
+        <log idref="ucldStdev.c:Gly"/>
+        <log id="rate.c:Gly" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Gly" tree="@Tree.t:Gly"/>
+        <log idref="BayesianSkyline.t:Gly"/>
+        <log idref="bPopSizes.t:Gly"/>
+        <log idref="bGroupSizes.t:Gly"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:Gly" fileName="Gly.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Gly" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:Gly" tree="@Tree.t:Gly"/>
+    </logger>
+
+</run>
+
+</beast>
