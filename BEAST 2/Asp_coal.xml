@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="Asp"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_asp_1wydb__odaii1B-aa" taxon="asp_1wydb__odaii1B-aa" totalcount="20" value="IQSLALKAFRETLYKEGFIEIFTPKIIFLAQSPQLYKEERVFEVAPAWRAAEFISMDVEMAYNDVMQLLEKILHSFDLIYEIVSGSTRPPHAGFGMGLARLMVM"/>
+                    <sequence id="seq_asp_3i7f_e_ytica1A-aa" taxon="asp_3i7f_e_ytica1A-aa" totalcount="20" value="IQSACCGLFREFLTSQKFVEIHTPKLIYLAQSPQLYKQRKVFEVGPVFRATEFEGLDIEMEYHECIDVMEKLFTSYDVFVEITSGAQRWPHAGCGIGLERITML"/>
+                    <sequence id="seq_asp_arch_m_aneyi13A-aa" taxon="asp_arch_m_aneyi13A-aa" totalcount="20" value="VEAEMARAAREWFYEHGFVEIFTSKIVFLAQSPQLYKQERVFEIGPAFRATEYTSVDLEMGFEDVMDAVEGVVRSFDLLFEIATGGQRPPHGGAGIGLERVAMQ"/>
+                    <sequence id="seq_asp_arch_m_anium19A-aa" taxon="asp_arch_m_anium19A-aa" totalcount="20" value="AESSILWGIREFLHSQGFIEVHTPKIVYLNQSPQLYKEEKVFEVGPAFRANEFTSIDIEMSHNDAMRILENAVKSFDLQYEVTSGAQRPPHAGWGLGLERLTMI"/>
+                    <sequence id="seq_asp_arch_m_arius16A-aa" taxon="asp_arch_m_arius16A-aa" totalcount="20" value="IQNITLKSFRETLYKEGFVEVFTPKIIFLAQSPQLYKEEKVFEIAPAWRAAEFISMDVEMAYEDTMKLLEKLIYSFDLIYEIASGSTRPPHTGFGMGFARLLVM"/>
+                    <sequence id="seq_asp_arch_m_dleri9A-aa" taxon="asp_arch_m_dleri9A-aa" totalcount="20" value="IRNVVTTAIREFLEERGFIEVHTPKIIYLAQSPQLYKQERVYEIGPIFRANEAISVDIEMSEEDVMRVLEELLAAFDLMYELASGAQRPPHGGWGLGLERTLMT"/>
+                    <sequence id="seq_asp_arch_m_gatei7A-aa" taxon="asp_arch_m_gatei7A-aa" totalcount="20" value="IRNAVQHATRNFFFENGFIEINTSKIVFLNQSPQLYKQEKVYEIGPIFRANEATSIDIEVSHLGVMQTLEDLIRAFDMMHELSSGAQRPPHAGWGLGAERLVTT"/>
+                    <sequence id="seq_asp_arch_m_gidus3A-aa" taxon="asp_arch_m_gidus3A-aa" totalcount="20" value="IRHQVMQSVREFLSEEGFIEVHTPKIVFLNQSPQLYKQEKVFEIGPIFRANEAISIDIEMSHNGVMDVLERLVQSFDLMHELSSGAQRPPHAGWGLGAERLIMS"/>
+                    <sequence id="seq_asp_arch_m_hicus10A-aa" taxon="asp_arch_m_hicus10A-aa" totalcount="20" value="IKSRMLHSVRVFLEEQGFLEINTPKLVFLGQSPQLYKQDRVYEIAPIFRANEVISIDIEASHEDVMKILENLVVAFDLMYEISSGAMRPPHAGWGLGAERFNMT"/>
+                    <sequence id="seq_asp_arch_m_hilum12A-aa" taxon="asp_arch_m_hilum12A-aa" totalcount="20" value="VASAMLRSIREVLYGEGFVEVFTPKIIYLSQSPQLYKEERVFEIGPAYRANEFISVDAEAAYNDIMDILEKIMRSYDLIIEVASGATRPPHAGFGLGFNRLVTA"/>
+                    <sequence id="seq_asp_arch_m_hilum18A-aa" taxon="asp_arch_m_hilum18A-aa" totalcount="20" value="IESALLWGIRQYLHSQKFIEVHTPKIVYLNQSPQLYKEDRVFEVGPAFRANEFTSIDIEMSHNDAMAMLEN---SFDLQYEVTSGAQRPPHAGWGLGLERLTMI"/>
+                    <sequence id="seq_asp_arch_m_itans11A-aa" taxon="asp_arch_m_itans11A-aa" totalcount="20" value="LRAKVQKFFRDWFMENGFVEINTPKIVYLTQSPQLYKQPKVFEIAFAYRAAEFTSVDAEMGEYDVINTIKKMLIGFDIIFEIISGAQRPPHGGFGLGLERYLRQ"/>
+                    <sequence id="seq_asp_arch_m_licus6A-aa" taxon="asp_arch_m_licus6A-aa" totalcount="20" value="LRSEVLKSIRNTFHDNGFIDVDTPKLVFLGQSPQLYKQDRVFEIGPIFRANEAISIDCEMSEKDAMEILEKVINAFDLMYEISSGAQRPPHSGWGVGIERLMMI"/>
+                    <sequence id="seq_asp_arch_m_orans5A-aa" taxon="asp_arch_m_orans5A-aa" totalcount="20" value="IRHEALQAIREYFVKNKFIETATPKVVFLNQSPQLFKQDRVFEIGPIFRANEATSIDVEVSHFDVMEILENLVASFDMMHELSSGAQRPPHAGWGMGCERFVMT"/>
+                    <sequence id="seq_asp_arch_m_oshii14A-aa" taxon="asp_arch_m_oshii14A-aa" totalcount="20" value="IRSSVFRAVREFFYSEGFIEIHTPKIIFLAQSPQLYKQDKVFEIAPIFRANEAWSIDAEMAEGEVMDLLERLISAFDLEYEISSGGQRPPHGGFGLGAERLIMR"/>
+                    <sequence id="seq_asp_arch_m_rinus15A-aa" taxon="asp_arch_m_rinus15A-aa" totalcount="20" value="LRHQVYLITRRYFDAHQFVEVETPVLTALPQSPQLYKQDRYFQIVKCFRDPEFTQIDVEMTEEQIFELIEGLIQAYDLVLEIGGGSIRPPHGGIALGLDRIVML"/>
+                    <sequence id="seq_asp_arch_m_rinus17A-aa" taxon="asp_arch_m_rinus17A-aa" totalcount="20" value="IRAGIIEAARQYFNNNGFIEIHTPKIVYLSQSPQLYKQPRVFEITPYFRANESWGIDAEQGVEDVLNTLEDLIVKFDLDYEIASGGQRPPHGGFGLGIERLMMK"/>
+                    <sequence id="seq_asp_arch_m_schii8A-aa" taxon="asp_arch_m_schii8A-aa" totalcount="20" value="IRSEMLKSVRNTLYNEGFIEVNTPKLVFLGQSPQLYKQDRVFEIAPIFRANEATSIDIEMADKDAMDILEKVVYAFDLMYEISSGAQRPPHAGWGLGADRFTMV"/>
+                    <sequence id="seq_asp_arch_m_um_sp4A-aa" taxon="asp_arch_m_um_sp4A-aa" totalcount="20" value="LRSKAMGAMRSWFYDNEFEEVDTPELSYLSQSPQLYKQDRLFEVGHAFRASEIAMFDVELGHHDVMDVQEESLRKFDLLYELSSGGQRPPHGGYGLGIDRLIQQ"/>
+                    <sequence id="seq_asp_bact_m_egans8A-aa" taxon="asp_bact_m_egans8A-aa" totalcount="20" value="LRHRVVKFIRDFLDAEGFIEIETPILIALPQSPQQLKQDKYFQIARCFRDPEFTQLDMEMSQEDVINLIERLFTAYDLILEAGGGSIRPPHGGIAPGIDRLVMI"/>
+                    <sequence id="seq_asp_bact_m_ejuni9A-aa" taxon="asp_bact_m_ejuni9A-aa" totalcount="20" value="LRSKACIAARNSLANMGFLEVETPILTALPQSPQLFKQDRYFQIAKCFRDPEFTQIDVEMSQKDVIKVAETFLKAYDVVLELGGGSIRPPHGGIAIGLDRLIML"/>
+                    <sequence id="seq_asp_bact_m_ensis7A-aa" taxon="asp_bact_m_ensis7A-aa" totalcount="20" value="LRYRVAIEARKYLDEQGFIDIETPMLTALPQSPQLFKQDRYYQITKCFRDPEFTQIDCETSEQEIRDLFEDMIRAYDMVLEIGGGSVRPPHGGIAFGLDRIVTM"/>
+                    <sequence id="seq_asp_bact_m_gatus18A-aa" taxon="asp_bact_m_gatus18A-aa" totalcount="20" value="LRHQVVKAIRRFLEEEQFIEIETPVLTALPQSPQLFKQDRYYQIARCFRDPEFTQLDMEMSQEEIIDLNERLIAAYDIVLEIGGGSLRPPHGGIAYGLDRLVML"/>
+                    <sequence id="seq_asp_bact_m_gilis5A-aa" taxon="asp_bact_m_gilis5A-aa" totalcount="20" value="LRHKMTIEVRSYLDKLGFLEVETPVLIALPQSPQTLKQDRYFQIAKCFRDPEFTQIDCEMSQEDVITTFEGMAKAYDMVIEVGGGSIRPPHGGLAYGLDRWVSL"/>
+                    <sequence id="seq_asp_bact_m_hilus12A-aa" taxon="asp_bact_m_hilus12A-aa" totalcount="20" value="LRHKVTKAVRDFLDSERFLEIETPMLTALPQSPQIFKQERYYQIARCFRDPEFTQIDIEMSQKDIMDLTERMMAAYDLVLELGGGSLRPPHGGIALGLDRLVML"/>
+                    <sequence id="seq_asp_bact_m_iacus13A-aa" taxon="asp_bact_m_iacus13A-aa" totalcount="20" value="LRHRTIKFMRDWMDREGFWEIETPILMALPQSPQQLKQDKYFQIARCMRDPEFTQLDIEMSQDDVLDVVERLMTSYDLVCELASGSIRPPHGGMAPGIDRLVML"/>
+                    <sequence id="seq_asp_bact_m_incut11A-aa" taxon="asp_bact_m_incut11A-aa" totalcount="20" value="VQAELVDAFRAHLRGEGFTEISTPKIVYLAQSPQLYKQERVFEVAAVYRANEYLSLDVEMGEEDVMGLENRLLAGFDLLFEITSGGQRPPHGGFAIGAERLTAK"/>
+                    <sequence id="seq_asp_bact_m_incut16A-aa" taxon="asp_bact_m_incut16A-aa" totalcount="20" value="KRHRVTKTVRDFCDEHGFLEIETPFLCALPQSPQLFKQERYVQIVRCFRDAEFTQVDLEMSQEDVIGLCEGMIRAYDLVLELGGGSIRPPHGGLAFGLDRVVMH"/>
+                    <sequence id="seq_asp_bact_m_itima19A-aa" taxon="asp_bact_m_itima19A-aa" totalcount="20" value="LRYRISKIIRDYFDELGFLEIETPFLTALPQSPQLFKQDRYFQIVRCFRDPEFTQVDVEMSVEDVLNVSEGMVSAYDLVIEVGGGSIRPPHGGIAFGLDRLVSI"/>
+                    <sequence id="seq_asp_bact_m_licus3A-aa" taxon="asp_bact_m_licus3A-aa" totalcount="20" value="FRHRVYQITRNFFTKEGFIEIETPFLTALPQSPQLFKQDRYFQIVKCFRDPEFTQIDYEMSEEEVMDVAERLIAAYDMVLEIGGGSIRPPHGGLAFGLDRVVAL"/>
+                    <sequence id="seq_asp_bact_m_matis15A-aa" taxon="asp_bact_m_matis15A-aa" totalcount="20" value="LRSKVNAAARSVLAEHDFVEIETPTLTALPQSPQLFKQERYYQIARCYRDPEFTQLDMEMSADDVIAISEQVLKAYDIVCEIGGGSIRPPHGGIAFGWDRITAL"/>
+                    <sequence id="seq_asp_bact_m_obile14A-aa" taxon="asp_bact_m_obile14A-aa" totalcount="20" value="LRHKVTRSMRNFLDRNNYINIETPNLGSLPQSPQLYKQEKYYQIARAFRDLEFTQLDIEMAEEIVIHLIENLFKAYDIVLEVGGGSIRPPHGGIALGIDRLLSI"/>
+                    <sequence id="seq_asp_bact_m_ormis6A-aa" taxon="asp_bact_m_ormis6A-aa" totalcount="20" value="IRNEIIRATYEFFNKEGFVKVDPPILTYLSQSGQLYMEGKVFSFGPTFRAIEFWMIEPEMAFNENLEVQENYVSCADLIAEIIGGSERVPHSGFGLGLERTVAW"/>
+                    <sequence id="seq_asp_bact_m_rferi4A-aa" taxon="asp_bact_m_rferi4A-aa" totalcount="20" value="LRCQATHLIRNFLIKRKFLELETPTFVALPQSPQLYKQDKYFQIARCYRDPEFTQLDLEMSKENIFKLIENMLFIYDLVLELGSGSIRPNHGGIAIGIDRLIML"/>
+                    <sequence id="seq_asp_bact_m_ticus10A-aa" taxon="asp_bact_m_ticus10A-aa" totalcount="20" value="LRQLVAQHARAYLEQHHFVDVETPLLIALPQSPQIFKQDRYYQIAKCFRDPEFTQIDCELSQADILHIFENFTKAYDLVIEIGGGSIRPPHGGIAFGFDRLCAI"/>
+                    <sequence id="seq_asp_bact_m_ureus17A-aa" taxon="asp_bact_m_ureus17A-aa" totalcount="20" value="MRHQITRSIRQYLDDEGFFDIETPVLTALPQSPQLFKQDKYYQIVKCFRDPEFTQVDIEMSQEDVMQMGEEMLKAYDIVLELGGGSIRPPHGGIALGLDRLVML"/>
+                    <sequence id="seq_asp_d1b8aa_ensis2A-aa" taxon="asp_d1b8aa_ensis2A-aa" totalcount="20" value="IRSSVFKAVRDFFHENGFIEIHTPKIIFLAESPQLYKEDRVYEIAPIFRANEAWSIDSEMAEEEVMSFLERLVAAFDLEYEISSGGQRPPHGGFGLGAERLIKQ"/>
+                    <sequence id="seq_asp_d1c0aa__coli1A-aa" taxon="asp_d1c0aa__coli1A-aa" totalcount="20" value="TRAKITSLVRRFMDDHGFLDIETPMLTALPQSPQLFKQDRYYQIVKCFRDPEFTQIDVETSAPQVREVMEALVRAYDMVIEVGGGSVRPPHAGLAFGLDRLTML"/>
+                    <sequence id="seq_asp_d1efwa_therm2A-aa" taxon="asp_d1efwa_therm2A-aa" totalcount="20" value="LRHRVIKAIWDFLDREGFVQVETPFLTALPQSPQLFKQDRYFQIARCFRDPDFTQLDLEMSVEDVLELNERLMAAYDLVLEVGGGSIRPPHGGIAWGLDRLLAL"/>
+                    <sequence id="seq_asp_euk_md_incut10A-aa" taxon="asp_euk_md_incut10A-aa" totalcount="20" value="IQCQIENIFRQFLLSEGFVGIHTPKLICLAQSPQLHKQGRVFEIGPVFRACEFTGLDVEMEYSEVMDIVDRLFVSFDVFIEIISGAQRPPHGGFGVGLERVVML"/>
+                    <sequence id="seq_asp_euk_md_incut11A-aa" taxon="asp_euk_md_incut11A-aa" totalcount="20" value="VRSAIAHEFRSFLDKAGFIEINTPKIVCLAQSPQLYKQGRVYEVGPVFRACEFIGLDLEMEYTEILVLLGDLMKSYDMFIEICSGAQRAPHGGAGLGLERIVML"/>
+                    <sequence id="seq_asp_euk_md_incut13A-aa" taxon="asp_euk_md_incut13A-aa" totalcount="20" value="LQSRVCQYFRQFLIDNDFCEIHSPKIIYLAQSPQLYKQPRVFEVGPVFRSTEFVGLDVEMRYYEVLDVAESLFNSYDMFIEISSGAQRWPHGGFGVGLERVVML"/>
+                    <sequence id="seq_asp_euk_md_incut17A-aa" taxon="asp_euk_md_incut17A-aa" totalcount="20" value="MQSGVCRLFRDFLLKEGFTEIHSPKIIFLAQSPQLYKQGKVFEIGPVFRATEFTGLDMEMAYHEVLEVLDRLFISYDIMMEIMSGAQRSPHGGGGVGLERVVML"/>
+                    <sequence id="seq_asp_euk_md_incut2A-aa" taxon="asp_euk_md_incut2A-aa" totalcount="20" value="LQAVVTDLFREHLHKNGFTEIHSPKLQFLAQSPQLAKQERVYEIGPVFRATEFIGLDLEMTYHEVMELLDSLFLSYDFFMEILSGAQRPPHGGGGIGLERVLML"/>
+                    <sequence id="seq_asp_euk_md_incut3A-aa" taxon="asp_euk_md_incut3A-aa" totalcount="20" value="FRSEFLHSLRLSLHSHHFTEVETPLLTALSQSPQQYKQDRYFQIARCFRNLEFTQLDIEMADLEIQSTIQNLLLSCDLVLEVGGGSLRPPHGGFAIGLDRLLSL"/>
+                    <sequence id="seq_asp_euk_md_incut4A-aa" taxon="asp_euk_md_incut4A-aa" totalcount="20" value="IEAGVCRLFRDILTKKGFVEIHTPKIIYLAQSPQLYKQDKVFTVGAVFRATEFVGLDLEMSYHEVLDTIGGTFTSYDMFMEILSGAQRPPHAGGGIGLERVVML"/>
+                    <sequence id="seq_asp_euk_md_incut5A-aa" taxon="asp_euk_md_incut5A-aa" totalcount="20" value="ITAGVCRFFREHLDRQGFIEIHSPKIIFLAQSPQLYKQDKVYTVGAVFRATEFVGLDLEMSYHEVLKVIGDMFISYDMFMEILSGAQRPPHAGGGIGMERVTML"/>
+                    <sequence id="seq_asp_euk_md_incut6A-aa" taxon="asp_euk_md_incut6A-aa" totalcount="20" value="LQSAVCLLFREFLTSQNFIEIHSPKIIYLAQSPQFYKQERVFEIAPVFRATEFVGLDLEMAYHEVLDMLDKLFVSYDLFMEILSGAQRPPHGGGGIGLERVLML"/>
+                    <sequence id="seq_asp_euk_md_incut7A-aa" taxon="asp_euk_md_incut7A-aa" totalcount="20" value="IQSEVCRLLREFLIEREFIEIHTPKLLCLAQSPQLHKQERVFEIGPVFRACEFVGVDIEMNYHELVDVFDAMFRSFDFFMEILSGAQRPPHGGCGIGLERVIML"/>
+                    <sequence id="seq_asp_euk_md_incut9A-aa" taxon="asp_euk_md_incut9A-aa" totalcount="20" value="LQSGVCTLFREQLLGEGFIEIHSPKIIYLAQSPQLYKQNKVFEIGPVFRATEFVGLDLEMTYHEALDTLDRLMTAYDLFMEICSGAQRSQHAGGGVGLERVVML"/>
+                    <sequence id="seq_asp_euk_md_oidea8A-aa" taxon="asp_euk_md_oidea8A-aa" totalcount="20" value="LRHRMLRAIRNFLDDREFLEVETPLLCALPQSPQLFKQERYYQIARCFRDPEFSQLDMEMTQNAIMSLVEEMVLAYDLVYEVAGGSLRPPHGGIAFGLDRLCML"/>
+                    <sequence id="seq_asp_euk_md_phora16A-aa" taxon="asp_euk_md_phora16A-aa" totalcount="20" value="LRHNTVKAARRFLENEGFIEIETPLLTALPQSPQIFKQERYYQIARCFRDPEFTQIDMEMSQKEILRLNESLIAAYDLVLELGGGSLRPPHGGIAFGLDRLVML"/>
+                    <sequence id="seq_asp_euk_md_ranae14A-aa" taxon="asp_euk_md_ranae14A-aa" totalcount="20" value="ILDAVMFKFRDFLRSNGFIEVKTPKLITLAQSPQLYKQKRVYEIGHVYRASEFIGLDLEMEYISVINFIYDLFKSYDFIIEILSGAERPPHGGCGIGLERLVKA"/>
+                    <sequence id="seq_asp_euk_md_theta12A-aa" taxon="asp_euk_md_theta12A-aa" totalcount="20" value="IQSHVGQAFRNFLAARGFVEIHTPKLQWLAQSPQLHKQERVMEVGPVFRACEFVGLDFEMEYAEAMDIVEGFVVSFDAYLEICSGAQRSPHAGAGLGLERLTMT"/>
+                    <sequence id="seq_asp_euk_md_uberi15A-aa" taxon="asp_euk_md_uberi15A-aa" totalcount="20" value="LQSLIGRKFCEYMYSKDFTEIHTPHIVELTTSSHLHQQDRVFEISCAFEKNEKTTLNFGMTYHEVISVVKELLNNFIILIVVGRGCQYQPCGGCSIDLELFLMQ"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="10000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:Asp" name="stateNode">
+            <taxonset id="TaxonSet.Asp" spec="TaxonSet">
+                <alignment idref="Asp"/>
+            </taxonset>
+        </tree>
+        <parameter id="gammaShape.s:Asp" name="stateNode">1.0</parameter>
+        <parameter id="mutationRate.s:Asp" name="stateNode">1.0</parameter>
+        <parameter id="ucldStdev.c:Asp" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:Asp" spec="parameter.IntegerParameter" dimension="108">1</stateNode>
+        <parameter id="bPopSizes.t:Asp" dimension="5" lower="0.0" name="stateNode" upper="380000.0">380.0</parameter>
+        <stateNode id="bGroupSizes.t:Asp" spec="parameter.IntegerParameter" dimension="5">1</stateNode>
+    </state>
+
+    <init id="RandomTree.t:Asp" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Asp" taxa="@Asp">
+        <populationModel id="ConstantPopulation0.t:Asp" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Asp" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BayesianSkyline.t:Asp" spec="BayesianSkyline" groupSizes="@bGroupSizes.t:Asp" popSizes="@bPopSizes.t:Asp">
+                <treeIntervals id="BSPTreeIntervals.t:Asp" spec="TreeIntervals" tree="@Tree.t:Asp"/>
+            </distribution>
+            <distribution id="MarkovChainedPopSizes.t:Asp" spec="beast.math.distributions.MarkovChainDistribution" jeffreys="true" parameter="@bPopSizes.t:Asp"/>
+            <prior id="GammaShapePrior.s:Asp" name="distribution" x="@gammaShape.s:Asp">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="ucldStdevPrior.c:Asp" name="distribution" x="@ucldStdev.c:Asp">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.Asp" spec="ThreadedTreeLikelihood" data="@Asp" tree="@Tree.t:Asp">
+                <siteModel id="SiteModel.s:Asp" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:Asp" shape="@gammaShape.s:Asp">
+                    <parameter id="proportionInvariant.s:Asp" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:Asp" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:Asp" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:Asp" tree="@Tree.t:Asp">
+                    <LogNormal id="LogNormalDistributionModel.c:Asp" S="@ucldStdev.c:Asp" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.1" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:Asp" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="gammaShapeScaler.s:Asp" spec="ScaleOperator" parameter="@gammaShape.s:Asp" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+        <parameter idref="mutationRate.s:Asp"/>
+        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">104</weightvector>
+    </operator>
+
+    <operator id="ucldStdevScaler.c:Asp" spec="ScaleOperator" parameter="@ucldStdev.c:Asp" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:Asp" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Asp" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:Asp" spec="SwapOperator" intparameter="@rateCategories.c:Asp" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:Asp" spec="UniformOperator" parameter="@rateCategories.c:Asp" weight="10.0"/>
+
+    <operator id="BayesianSkylineTreeScaler.t:Asp" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:Asp" weight="3.0"/>
+
+    <operator id="BayesianSkylineTreeRootScaler.t:Asp" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Asp" weight="3.0"/>
+
+    <operator id="BayesianSkylineUniformOperator.t:Asp" spec="Uniform" tree="@Tree.t:Asp" weight="30.0"/>
+
+    <operator id="BayesianSkylineSubtreeSlide.t:Asp" spec="SubtreeSlide" tree="@Tree.t:Asp" weight="15.0"/>
+
+    <operator id="BayesianSkylineNarrow.t:Asp" spec="Exchange" tree="@Tree.t:Asp" weight="15.0"/>
+
+    <operator id="BayesianSkylineWide.t:Asp" spec="Exchange" isNarrow="false" tree="@Tree.t:Asp" weight="3.0"/>
+
+    <operator id="BayesianSkylineWilsonBalding.t:Asp" spec="WilsonBalding" tree="@Tree.t:Asp" weight="3.0"/>
+
+    <operator id="popSizesScaler.t:Asp" spec="ScaleOperator" parameter="@bPopSizes.t:Asp" scaleFactor="0.75" weight="15.0"/>
+
+    <operator id="groupSizesDelta.t:Asp" spec="DeltaExchangeOperator" integer="true" weight="6.0">
+        <intparameter idref="bGroupSizes.t:Asp"/>
+    </operator>
+
+    <logger id="tracelog" fileName="Asp_coal.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.Asp"/>
+        <log id="TreeHeight.t:Asp" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Asp"/>
+        <log idref="gammaShape.s:Asp"/>
+        <log idref="mutationRate.s:Asp"/>
+        <log idref="ucldStdev.c:Asp"/>
+        <log id="rate.c:Asp" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Asp" tree="@Tree.t:Asp"/>
+        <log idref="BayesianSkyline.t:Asp"/>
+        <log idref="bPopSizes.t:Asp"/>
+        <log idref="bGroupSizes.t:Asp"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:Asp" fileName="Asp_coal.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Asp" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:Asp" tree="@Tree.t:Asp"/>
+    </logger>
+
+</run>
+
+</beast>

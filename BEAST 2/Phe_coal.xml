@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="Phe"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_phe_2alya__therm1A-aa" taxon="phe_2alya__therm1A-aa" totalcount="20" value="PITLMERELVEIFRALGYQAVEGPEVELLRTHTSPMQVFRIVVPGRVFRFAVFHQLEGLVVMAHLKGAIYELAQGAQFAVELGGAGMVVTGFAFGLGVERLAML"/>
+                    <sequence id="seq_phe_2rhq_s_cus_a2A-aa" taxon="phe_2rhq_s_cus_a2A-aa" totalcount="20" value="PLTRTVEEIEDLFLGLGYEIVDGYEVELMRTHTSPVQAVKIICPGKVYRRHQFTQIEGLVVMSDLKGTLELVAKSVEVDVEILGAGMVYSGFAFGMGPDRIAML"/>
+                    <sequence id="seq_phe_3l4g_h_h_sap1A-aa" taxon="phe_3l4g_h_h_sap1A-aa" totalcount="20" value="PLLKVRSQFRQIFLEMGFTEMPTNFIELLRTHTTSASAVKYFSIDRVFRNAEFHQIEGVVALGHLMGVLREFFTSMEVFSEVGNSGVFVSVIAWGLSLERPTMI"/>
+                    <sequence id="seq_phe_arch_m_incut10A-aa" taxon="phe_arch_m_incut10A-aa" totalcount="20" value="YYREYLNWVRKKMVNLGWKELNAEELIILRSQNTAITAGKYFYIGSVWRPIEFQQLEGIII--QLKTEIEKILKSVEVYAEVAGAGMLHKIGAFGIGINRLAMI"/>
+                    <sequence id="seq_phe_arch_m_incut11A-aa" taxon="phe_arch_m_incut11A-aa" totalcount="20" value="FFNEFLDYVREVMIGLGFEEVRG-VLEVLRTQTTATTIYKVFTIGRVFRPMEFHQLDGIVVFKHLLGQLEEIAKSVEVYAEFGGAGIFSRVLAWGWGLDRIAMI"/>
+                    <sequence id="seq_phe_arch_m_incut12A-aa" taxon="phe_arch_m_incut12A-aa" totalcount="20" value="FFRQFVEYLRDVMKELGFVEIEEPPVEILRSHTTAVSAFRFFSLGRVYRVPEFHQIDGIASLRWLIGMLSEFLESIEGYVEILGAGMFYPVAAWGMGIERLAMA"/>
+                    <sequence id="seq_phe_arch_m_incut13A-aa" taxon="phe_arch_m_incut13A-aa" totalcount="20" value="PYRVFLDKIRRRLIEMGFIEMTVSLIEMPRAHATALSAGKYFTIQRVFRPIEFNQIDGFVAFRHLLGILKRFAISVQLSAEFGGAGIFVPVIAWGIGIDRLAMF"/>
+                    <sequence id="seq_phe_arch_m_incut14A-aa" taxon="phe_arch_m_incut14A-aa" totalcount="20" value="FFRQLIEHIRDVMKELGFVEVEEPPVEILRSHTTAVSAFRFFSIGRVYRVPEFHQVDGIASLRWLMGMLGELLESLEGYVEVLGAGLFYPVAAWGMGIERLAMA"/>
+                    <sequence id="seq_phe_arch_m_incut15A-aa" taxon="phe_arch_m_incut15A-aa" totalcount="20" value="PLTRTLEAIVRVFEQLGFSVAEGPEIEVLRTHTSPVQIIRIIAPGRVYRNCLFHQVEGLYVMGDLKQVLYLFARSAEVDIEILGCGMVYTGYAFGMGVERIAML"/>
+                    <sequence id="seq_phe_arch_m_incut16A-aa" taxon="phe_arch_m_incut16A-aa" totalcount="20" value="AYIEFLDLVRDILVSMGFEEVKG-HVEILRSQTTAVSVYRVFSLDRVFRPMEFYQLDGVIVFKHLLAFFKEFAASVEGFIEVFPGGVFVRAIAWGIGIDRLAMA"/>
+                    <sequence id="seq_phe_arch_m_incut17A-aa" taxon="phe_arch_m_incut17A-aa" totalcount="20" value="PLVYFINEIRRIFLDMGFTEMSGHYIEILRTHTTVTTAQAIFSVEKVFRHAEFYQIEGAVYVATLKWILRTFYGSLDVVVELGGSGIFAPVMAWGMGLERLAML"/>
+                    <sequence id="seq_phe_arch_m_incut2A-aa" taxon="phe_arch_m_incut2A-aa" totalcount="20" value="PYERIIEECRKVFLEMGFTEIKGHYVQVLRTHTTAITIQKAFCIDRVYRRPEFDQLEGVVLFKHLLGLLKEFFTSVEPEVELGGAGVFGKVLAWGLGIGRLAML"/>
+                    <sequence id="seq_phe_arch_m_incut3A-aa" taxon="phe_arch_m_incut3A-aa" totalcount="20" value="VLRQAAERVEEVLVGMGFQEMEGPHVDALRGHTTSLTAQRYFSVEKAYRNLEFFQIEGWVMVRDLMGTFREFYSSFELFGEIGNSGIFADVMAWGLALERLLML"/>
+                    <sequence id="seq_phe_arch_m_incut4A-aa" taxon="phe_arch_m_incut4A-aa" totalcount="20" value="PYRRLIEQMRQIFLEMGFTEIKGGIIQVLRTHTTSVTIVKAFCIDRAYRRPEFEQLEGVVMFADLLGLLAEFYHSVEPEVELGGAGVFEPVLAWGLGVSRLAML"/>
+                    <sequence id="seq_phe_arch_m_incut5A-aa" taxon="phe_arch_m_incut5A-aa" totalcount="20" value="-YQRMIDEMRRILLDMGFTELHGSIIQVLRTHTTSLSIVKAFCIGRVYRRPEFEQLEGIVMFRNLLGYLKEFYGSVEPEVELGGAGIFCPVLAWGLGVSRVAML"/>
+                    <sequence id="seq_phe_arch_m_incut6A-aa" taxon="phe_arch_m_incut6A-aa" totalcount="20" value="PMTRIINDVKEVLIGMGFKEVKNPIVEVLRTHTTVSSIHKIFSIDRVFRNPEFYQCEGIILFDNLIGLLKEFLNSLEAEVELLGAGVFKPVLAWGIGLSRLAML"/>
+                    <sequence id="seq_phe_arch_m_incut7A-aa" taxon="phe_arch_m_incut7A-aa" totalcount="20" value="PLTRIIREVKEILLAMGFKEVKS-IVEILRTHTTASSIHKVFCIDRVFRNPEFYQCEGIIMFNNLIGVLKEFLNSLEAEVEILGAGIFKPVLAWGIGFSRLAML"/>
+                    <sequence id="seq_phe_arch_m_incut8A-aa" taxon="phe_arch_m_incut8A-aa" totalcount="20" value="PLKEVINEIRRIFLEMGFVEVSGPLVEVLRTHTTAVSVLKAFSIGRVYRRPEFHQCEGIVLFRDLLGILEEFYRSVEPEVELGGAGIFVVCLAWGLGVERLAML"/>
+                    <sequence id="seq_phe_arch_m_incut9A-aa" taxon="phe_arch_m_incut9A-aa" totalcount="20" value="PLRRIIDEIRSIFLKLGFTESRGPIVEVLRTHTTCVSALKMFSVGRVFRRPEFHQVEGIVAFRNLLGILREFYRSTECEIELGGAGMFTPVAAFGLGIERLAMI"/>
+                    <sequence id="seq_phe_bact_m_incut10A-aa" taxon="phe_bact_m_incut10A-aa" totalcount="20" value="PLNSTTDRIIDIFVGLGYTVATGPEIELLRTHTSNGQIVRIVVPGRCYRRAVFHQIEFFAVFTDLKGTIQIFLQSAEVDVEVMGCGAIYTGFAAGMGVERLAMV"/>
+                    <sequence id="seq_phe_bact_m_incut11A-aa" taxon="phe_bact_m_incut11A-aa" totalcount="20" value="PISILKDRILEIFEKIGFSIVEGPEIELLRTHTSSVQIIRAISIGRVYRNCMFHQVDAFYVFVELKQVLLYFLRSVEIDIEIMGAGMIYTGYAFGMGLERIAML"/>
+                    <sequence id="seq_phe_bact_m_incut12A-aa" taxon="phe_bact_m_incut12A-aa" totalcount="20" value="PISRVLDDLIGIYRQMGYAVIEGPEVELLRTHTSPMQIFKIVVRGKVYRYAMFHQLEGLVVMSDLKGTIAEMARGADFAVELGGCGMVKTGFAFGLGLERIAML"/>
+                    <sequence id="seq_phe_bact_m_incut13A-aa" taxon="phe_bact_m_incut13A-aa" totalcount="20" value="PATQILRQIYSIFADLGFQVYRTREVEVLRTHTSPGQIVRVILPGMCYRNIQFYQVEGLVVMADLKGTITAFARSIEVDIEILGAGMVVTGFAFGMGPQRMLML"/>
+                    <sequence id="seq_phe_bact_m_incut14A-aa" taxon="phe_bact_m_incut14A-aa" totalcount="20" value="PSTQSLRRIQHIFAEMGFQVWESREVEVLRTHTSPGQIIRVILPGKCYRYMMFHQVEGLVIMADLKGTLANFARSVEVDIEILGAGMVWSGFAFGMGPERQTML"/>
+                    <sequence id="seq_phe_bact_m_incut15A-aa" taxon="phe_bact_m_incut15A-aa" totalcount="20" value="PLTLIENRFRTWFLNNGYYETEGSEITLLRTHNTGFSIFSAFSIGKVYRNHQFSQVDVIVAFPNLMWLLKSLLSSCEVDVEVLGSGIIMNALAWGIGIERIAMI"/>
+                    <sequence id="seq_phe_bact_m_incut16A-aa" taxon="phe_bact_m_incut16A-aa" totalcount="20" value="VISQTVDELLEVFGRMGFDVAEGPELELMRSQTSTVQIVRIVSTGRVYRPSMFHQIEGLCVMVDLKTTLIQFAKSAELYVEIGGCGMVWTGFAFGLGIERLVMR"/>
+                    <sequence id="seq_phe_bact_m_incut17A-aa" taxon="phe_bact_m_incut17A-aa" totalcount="20" value="PLTRTIEEIEDLFLGLGYEIVNGYEVELLRTHTSPVQAVKIICPGKVYRRHQFTQIEGLVVMSDLKGTLELLAKSVEVDVEILGAGMVYSGFAFGMGPDRIAML"/>
+                    <sequence id="seq_phe_bact_m_incut19A-aa" taxon="phe_bact_m_incut19A-aa" totalcount="20" value="PITILAENIADTFVAMGWELAEGPEVEVLRTHTSPVQIVYIISIGRTFRTPVFHQVEGLAVMAHLRGTLDAFARSAEVDIEWGGCGMVYSGFAFGMGLERTLQF"/>
+                    <sequence id="seq_phe_bact_m_incut20A-aa" taxon="phe_bact_m_incut20A-aa" totalcount="20" value="PVTRTIDRIESFFGELGFTVATGPEIELLRTQTSGVQIIRIIAPGRVYRNPMFHQMEGLIVFTNLKGTLHDFLRSAEVDVEVLGCGMVYSGFAFGMGMERLTML"/>
+                    <sequence id="seq_phe_bact_m_incut5A-aa" taxon="phe_bact_m_incut5A-aa" totalcount="20" value="PITVTLERIVTIFRGMGFEVEEGPEVELLRTHTSPVQIIQIIAPGKVYRRPMFHQVEGLVVFRHMKYVIEEFLKSAEVDIEVMGCGMVYQGFAFGMGVERLAML"/>
+                    <sequence id="seq_phe_bact_m_incut6A-aa" taxon="phe_bact_m_incut6A-aa" totalcount="20" value="PLTIVIEEIEDLFISMGYSVEEGPEVELMRTQTSPVQTVKIICPGKVYRRHQFMQIEGLCVMSDLKGTLETVAKSVEVDVEILGAGMVYQGFAFGMGVERIAML"/>
+                    <sequence id="seq_phe_bact_m_incut7A-aa" taxon="phe_bact_m_incut7A-aa" totalcount="20" value="PVMRTWERVEQIFRSIGFDVADGPEIELLRTHTSPMQVIKVIAPGRTYRVPMFNQVEGLWIFADLKGVYTDFLKSAEIDMEISGSGQVYIGFAFGSGLERLTML"/>
+                    <sequence id="seq_phe_bact_m_incut8A-aa" taxon="phe_bact_m_incut8A-aa" totalcount="20" value="LTNQILRQVQQIFAEMGFQVWESPEVELLRTHTSPGQILRVLIPGKVYRNMMFHQFEFLAVMADLKGTLSFFAESAEMDVEIGGCGMVFSGFAGGFGPERVAML"/>
+                    <sequence id="seq_phe_bact_m_incut9A-aa" taxon="phe_bact_m_incut9A-aa" totalcount="20" value="PVMSTMDKIIEYFIALNFSIEKGPLIELLRTQTSPVQIIRMIAPGAVFRRPMFHQVEGLVVFANLKSVLEDFLRSAEVDIEVLGCGIVVSGYAFGLGVERFAML"/>
+                    <sequence id="seq_phe_euk_md_incut10A-aa" taxon="phe_euk_md_incut10A-aa" totalcount="20" value="PLLKVRTEFRQIFLEMGFSEMPTNYVELLRTHTTAVSAAKYFSIDKVFRNAEFHQVEGVIALGDLIGTLYEFFRSMEIFCEVGNSGVFVNVIAWGLSLERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut11A-aa" taxon="phe_euk_md_incut11A-aa" totalcount="20" value="TLLKVRTEFRKVFLELGFEEMATNFVELLRTHTTAVSTRKYFSIDRVFRNCEFHQIEGMVILGDMIGLFRVFFASMEIFGEVGNSGMFVTVLAWGLSLERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut12A-aa" taxon="phe_euk_md_incut12A-aa" totalcount="20" value="PLVKTTEDIVDIFCGLGYRVVE-PEIELLRTHTSPVQITRIIAPGRVYRRPVFHQVEVLAIFSHLRGTVMTFLKSAEVDVEVMGCGMVWSGFAAGLGVERFCMV"/>
+                    <sequence id="seq_phe_euk_md_incut13A-aa" taxon="phe_euk_md_incut13A-aa" totalcount="20" value="PLMKMRNEMRKILLEMGFEEMPTNFVELLRTHTTAISSMKYFSIDRVFRNAEFHQVEGLIALGHLIGVISQFFQSMEIFGEVGNSGVFVQVIAWGLGLERPCMI"/>
+                    <sequence id="seq_phe_euk_md_incut14A-aa" taxon="phe_euk_md_incut14A-aa" totalcount="20" value="PLMKVRTEYRQIFLEMGFEEMPTRFVEILRTHTTAVSAVKYFSIDRVFRNAEFHQIEGVIALGDLIGTLESFFKSMEVFSEIGNSGIFVVVIAWGLSLERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut15A-aa" taxon="phe_euk_md_incut15A-aa" totalcount="20" value="PLLKVRAEFRNIFFQMGFEEMDTKWVEIMRTHTTAVSSRKFFSIDRVYRNAEFHQVEGFIILGDLMRNIREFFSSMEIFAEIGNSGMFYTVIAWGFGLERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut3A-aa" taxon="phe_euk_md_incut3A-aa" totalcount="20" value="PLLKVRSEFREIFLEMGFTEMPTKYVELLRTHTTAVSAQKYFSIDKVFRNAEFHQVEGVVALADLITVLDAFFKSMEIFAEIGNSGVFVNVIAWGLSLERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut4A-aa" taxon="phe_euk_md_incut4A-aa" totalcount="20" value="PLLKVRAQYRQIFLEMGFTEMPTNFVEILRTHTTANSAVKYFSIDRVFRNAEFHQIEGSVALGDLMGIIQEFFKSMEIFSEIGNSGIFVSVIAWGLSLERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut5A-aa" taxon="phe_euk_md_incut5A-aa" totalcount="20" value="PLNKVKNEFKQIFLDMGFEEMPTNFVEILRTHTTAVSAKKYFSIDRVFRNAEFHQVEGVIALGHLIGVISEFFKSMEIFGELGNSGIFVRVAAWGLSLERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut6A-aa" taxon="phe_euk_md_incut6A-aa" totalcount="20" value="PLLKVKRQIQLIFLQMGFEEMATNFVELLRTHTTAVSSKKYYSIDRVFRNAEFHQIEGLICLGHLIGVLEDFFSSMEIFSEIGNSGMFVQVIAWGLSLERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut7A-aa" taxon="phe_euk_md_incut7A-aa" totalcount="20" value="PLMEMRRLFVEAFVGMGFEQMKTKLVEVLRTHTTAVSARRFFSIDRVYRNCEFNQVEGMVILGNLIATLRAFFASMEIFAEVGNSGLFVQVLAWGLSLERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut8A-aa" taxon="phe_euk_md_incut8A-aa" totalcount="20" value="PLLKVRAQFREIFLEMGFEEMPTRFVELLRTHTTAISAKKFFSIDRVFRNAEFHQIEGLVVLGDLMGMIQAFFESMEIFHEVGNSGMFVTCIAWGLSLERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut9A-aa" taxon="phe_euk_md_incut9A-aa" totalcount="20" value="PLLKVRQEFREILMELGFQEMDTHWAEVLRTHTTGSSAGRYYSIDRVFRNCEFHQVEGFVILAKMMHTFDSFFRSMEIFGEVGNSGLFVTVMAWGLSLERPTMI"/>
+                    <sequence id="seq_phe_euk_md_minis2A-aa" taxon="phe_euk_md_minis2A-aa" totalcount="20" value="PICILKKTILSYFLNKEFSVYEDSPIVVLRPHTSAHQVNSFIVVGDVYRRPAFTQMEIVRVINDMKGVVEGLIKSLEVEVELLGSGVIDCGWALGIGLERLAMS"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="10000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:Phe" name="stateNode">
+            <taxonset id="TaxonSet.Phe" spec="TaxonSet">
+                <alignment idref="Phe"/>
+            </taxonset>
+        </tree>
+        <parameter id="gammaShape.s:Phe" name="stateNode">1.0</parameter>
+        <parameter id="mutationRate.s:Phe" name="stateNode">1.0</parameter>
+        <parameter id="ucldStdev.c:Phe" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:Phe" spec="parameter.IntegerParameter" dimension="94">1</stateNode>
+        <parameter id="bPopSizes.t:Phe" dimension="5" lower="0.0" name="stateNode" upper="380000.0">380.0</parameter>
+        <stateNode id="bGroupSizes.t:Phe" spec="parameter.IntegerParameter" dimension="5">1</stateNode>
+    </state>
+
+    <init id="RandomTree.t:Phe" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Phe" taxa="@Phe">
+        <populationModel id="ConstantPopulation0.t:Phe" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Phe" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BayesianSkyline.t:Phe" spec="BayesianSkyline" groupSizes="@bGroupSizes.t:Phe" popSizes="@bPopSizes.t:Phe">
+                <treeIntervals id="BSPTreeIntervals.t:Phe" spec="TreeIntervals" tree="@Tree.t:Phe"/>
+            </distribution>
+            <distribution id="MarkovChainedPopSizes.t:Phe" spec="beast.math.distributions.MarkovChainDistribution" jeffreys="true" parameter="@bPopSizes.t:Phe"/>
+            <prior id="GammaShapePrior.s:Phe" name="distribution" x="@gammaShape.s:Phe">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="ucldStdevPrior.c:Phe" name="distribution" x="@ucldStdev.c:Phe">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.Phe" spec="ThreadedTreeLikelihood" data="@Phe" tree="@Tree.t:Phe">
+                <siteModel id="SiteModel.s:Phe" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:Phe" shape="@gammaShape.s:Phe">
+                    <parameter id="proportionInvariant.s:Phe" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:Phe" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:Phe" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:Phe" tree="@Tree.t:Phe">
+                    <LogNormal id="LogNormalDistributionModel.c:Phe" S="@ucldStdev.c:Phe" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.1" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:Phe" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="gammaShapeScaler.s:Phe" spec="ScaleOperator" parameter="@gammaShape.s:Phe" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+        <parameter idref="mutationRate.s:Phe"/>
+        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">104</weightvector>
+    </operator>
+
+    <operator id="ucldStdevScaler.c:Phe" spec="ScaleOperator" parameter="@ucldStdev.c:Phe" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:Phe" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Phe" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:Phe" spec="SwapOperator" intparameter="@rateCategories.c:Phe" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:Phe" spec="UniformOperator" parameter="@rateCategories.c:Phe" weight="10.0"/>
+
+    <operator id="BayesianSkylineTreeScaler.t:Phe" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:Phe" weight="3.0"/>
+
+    <operator id="BayesianSkylineTreeRootScaler.t:Phe" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Phe" weight="3.0"/>
+
+    <operator id="BayesianSkylineUniformOperator.t:Phe" spec="Uniform" tree="@Tree.t:Phe" weight="30.0"/>
+
+    <operator id="BayesianSkylineSubtreeSlide.t:Phe" spec="SubtreeSlide" tree="@Tree.t:Phe" weight="15.0"/>
+
+    <operator id="BayesianSkylineNarrow.t:Phe" spec="Exchange" tree="@Tree.t:Phe" weight="15.0"/>
+
+    <operator id="BayesianSkylineWide.t:Phe" spec="Exchange" isNarrow="false" tree="@Tree.t:Phe" weight="3.0"/>
+
+    <operator id="BayesianSkylineWilsonBalding.t:Phe" spec="WilsonBalding" tree="@Tree.t:Phe" weight="3.0"/>
+
+    <operator id="popSizesScaler.t:Phe" spec="ScaleOperator" parameter="@bPopSizes.t:Phe" scaleFactor="0.75" weight="15.0"/>
+
+    <operator id="groupSizesDelta.t:Phe" spec="DeltaExchangeOperator" integer="true" weight="6.0">
+        <intparameter idref="bGroupSizes.t:Phe"/>
+    </operator>
+
+    <logger id="tracelog" fileName="Phe_coal.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.Phe"/>
+        <log id="TreeHeight.t:Phe" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Phe"/>
+        <log idref="gammaShape.s:Phe"/>
+        <log idref="mutationRate.s:Phe"/>
+        <log idref="ucldStdev.c:Phe"/>
+        <log id="rate.c:Phe" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Phe" tree="@Tree.t:Phe"/>
+        <log idref="BayesianSkyline.t:Phe"/>
+        <log idref="bPopSizes.t:Phe"/>
+        <log idref="bGroupSizes.t:Phe"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:Phe" fileName="Phe_coal.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Phe" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:Phe" tree="@Tree.t:Phe"/>
+    </logger>
+
+</run>
+
+</beast>
