@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="Arg_ArchBact"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_arg_1iq0_t_therm19A-aa1" taxon="arg_1iq0_t_therm19A-aa" totalcount="20" value="LVEHSVNPNKELHVGHLRNIALGDAIARILVLNYIDDTGNRILLAQMATMHALDLLVWESDTYYAKDIAFQFINVVDVRQSHPQALVRAALALAAHHLAY"/>
+                    <sequence id="seq_arg_2zue_p__hori18A-aa1" taxon="arg_2zue_p__hori18A-aa" totalcount="20" value="IVEHSVNPTKPLHMGHARNAILGDVMARIEVQNYIDDLGEEVVRAQMVTTYKLDLLVWESDTYTGKDIAYHLINVIGAEQKHPQLAIKYALQLLLYHLAY"/>
+                    <sequence id="seq_arg_3fnr_c_pyl_j20A-aa1" taxon="arg_3fnr_c_pyl_j20A-aa" totalcount="20" value="LLEYSANPTGPLHIGHARGAVFGDTLTRLNTEYYVNDAGDKMLVLIKQNLEQADSYVSERSTYLAADIVYHKINIWGADHHGYIPRMKAAMEFLLEIILA"/>
+                    <sequence id="seq_arg_arch_m_aneyi2A-aa1" taxon="arg_arch_m_aneyi2A-aa" totalcount="20" value="VVEHSANPVHPLHIGHARNASLGDSLARLQTRFYINDMGQLCLQGFRETLSRLEKWDWESELYTTRDIAYSIFNVIAAEQRLEQLQVRLALIALMIHYAY"/>
+                    <sequence id="seq_arg_arch_m_arius5A-aa1" taxon="arg_arch_m_arius5A-aa" totalcount="20" value="VVEHSANPIHPLHIGHLRNSILGDTISRMNRRFYVNDAGNLNLDGFRESLDKLDVYDYESELYTTRDIAYTVINVIAEQQSIPQMQLRASLYLLLVHYSY"/>
+                    <sequence id="seq_arg_arch_m_dleri14A-aa1" taxon="arg_arch_m_dleri14A-aa" totalcount="20" value="ILEHSANPNGPLHIGHGRNAVIGDILARCEVQYYVNDMGTVVERGHIQTLERLDRFVYESELYTTRDIAYHLVDVLGADHKLAVEQLRAVLDMLIDVYEF"/>
+                    <sequence id="seq_arg_arch_m_gatei12A-aa1" taxon="arg_arch_m_gatei12A-aa" totalcount="20" value="VLEHSANPNGPLHVGHIRNTIIGDTLARCEVQYYVNDMGIPVLDGFKDTLAAMDRFIYESDVYAARDIAFHIIDVLGADHKLIGTQLQATLEILIVFFEF"/>
+                    <sequence id="seq_arg_arch_m_gidus1A-aa1" taxon="arg_arch_m_gidus1A-aa" totalcount="20" value="LIEHSANPDGPLHIGHIRNSIIGDTIARIKTHYYVNDMGETALEGIKQTLKTIDEFVWESELYITRDLAYHMINVLGADHKLYGAQLSKILELLIIFFEF"/>
+                    <sequence id="seq_arg_arch_m_hicus8A-aa1" taxon="arg_arch_m_hicus8A-aa" totalcount="20" value="ILEHSANPNGPLHIGHIRNAIIGDSLARIETQYYVNDMGEYCLSGMEETMKRLDRFVWEGQLYSTRDIAYHLIDVLGSDHKLAAEQVGIAVELLVIFYEF"/>
+                    <sequence id="seq_arg_arch_m_hilum16A-aa1" taxon="arg_arch_m_hilum16A-aa" totalcount="20" value="LVEHSANPVHPLHIGHGRNAILGDSLARLETHFYVDDCGDLVLKGQRETLARLDKWDYESELYVTRDVAYALIRVISTEQTHEQAHVRIILYALIVHYAY"/>
+                    <sequence id="seq_arg_arch_m_hilum7A-aa1" taxon="arg_arch_m_hilum7A-aa" totalcount="20" value="SVEHSANPTGPLHIGRARNSIIGDSIYRIVRQYFVNDSGKIAGDGIASTLKRIDEFDWESDLYFARDIAYHLIDVLGEDHKDHAKSLNHVLKEMVSELQY"/>
+                    <sequence id="seq_arg_arch_m_incut4A-aa1" taxon="arg_arch_m_incut4A-aa" totalcount="20" value="IVEYSANPTGPLTVGHGRNAVLGDTIANLTREYYYNDAGKVIFEDIRRTLARLDSYFNEHTTYRLPDIAYHIVDVFGADHIATYPDVLRALEVLVDVVIY"/>
+                    <sequence id="seq_arg_arch_m_itans15A-aa1" taxon="arg_arch_m_itans15A-aa" totalcount="20" value="VLDYSPNIGKPPHVGNLRSAIIGNPLKNIISINWWGDFGEITIKYMRQFYPKLDEESGESFLYLTRDLAAAIIYVVANEQSQHFNQLIYIAKKANYVKKF"/>
+                    <sequence id="seq_arg_arch_m_licus11A-aa1" taxon="arg_arch_m_licus11A-aa" totalcount="20" value="IIEHSANPNGPLHIGHSRNAIVGDSLKRIEAQYYVNDMGNYALSGFKETLNNLDKFVWESSLYSTRDIAYHIINILGADHKLTAEMVNASLKLLVVFYEY"/>
+                    <sequence id="seq_arg_arch_m_opcut6A-aa1" taxon="arg_arch_m_opcut6A-aa" totalcount="20" value="VVEHSANPVHPLHVGSGRNAVIGNTYANLEERFYVNDMGEQTLKGFRETLSRLDSYDWESSLYTTRDIAYSIYNVIAVEQTREQKQVKATLYLLLVTILY"/>
+                    <sequence id="seq_arg_arch_m_orans10A-aa1" taxon="arg_arch_m_orans10A-aa" totalcount="20" value="LLEHSANPNGPLHVGHIRNSIIGDTLARIEVQYYVNDMGSLAIAGIKETLLRLDKFVNESRLYTTRDLAYHEIDVFGADHKLISGQLRATLNAIVVIFEF"/>
+                    <sequence id="seq_arg_arch_m_schii13A-aa1" taxon="arg_arch_m_schii13A-aa" totalcount="20" value="ILEHSANPNGPLHIGHLRNAIIGDCLKRIETHYYVNDMGNYALDGIKETLKNLDTFVWESSLYSTRDIAYHLIDVLGADHKLTAEMVKAALKLLVIFYEY"/>
+                    <sequence id="seq_arg_arch_m_ultum3A-aa1" taxon="arg_arch_m_ultum3A-aa" totalcount="20" value="VVEHSANPVHPLHIGHARNASLGDTLARLQTRFYINDMGNLCLQGFRETLGRLDKWDWESELYTTRDIAYSIFNVIAAEQRLEQLQVRLALIALMIHYAY"/>
+                    <sequence id="seq_arg_arch_m_um_sp9A-aa1" taxon="arg_arch_m_um_sp9A-aa" totalcount="20" value="VVEHSANPTGPVHVGRARNPILGDAVSRVTREYYVNDAGEGVLGGMRQTLERLDEFVRETELYTTRDLAHHEITVLGEDQELHANKLRAALDIRLEFLQY"/>
+                    <sequence id="seq_arg_bact_m__coli3A-aa1" taxon="arg_bact_m__coli3A-aa" totalcount="20" value="VVDYAPNVAKEMHVGHLRSTIIGDAAVRTIRANHVGDWGDITMTQNQITYDRLNDVMGESLLYTTTDIACAKLYYIDSRQHQHLMQAWAIVRKALEHHMF"/>
+                    <sequence id="seq_arg_bact_m_egans16A-aa1" taxon="arg_bact_m_egans16A-aa" totalcount="20" value="VIDYSPNIAKRMHVGHIRSTIIGQALVHIIGDNHLGDWGDLSLRAAQRNYDRLGYAYGESFVYMTRDIATIKIYVVDARQELHFRQLFAIVRAMLVHVPF"/>
+                    <sequence id="seq_arg_bact_m_ensis8A-aa1" taxon="arg_bact_m_ensis8A-aa" totalcount="20" value="VVDYSPNLAKEMHVGHLRSSVIGDALCRVIRQNHIGDWGGESLRHMNEVFARLGDDKPESAGYATTDLAAAAVYVVDSRQREHFQKFFAAARDAMDHAAF"/>
+                    <sequence id="seq_arg_bact_m_gatus10A-aa1" taxon="arg_bact_m_gatus10A-aa" totalcount="20" value="IVDFSPNIAKEMHVGHLRSTIIGDSIARVLRLNHVGDWGDQSRREFQKIYDRLDEERGESFNYATTDLAALRIYVTDSGQANHFAQVFQVAQRAIEHVPF"/>
+                    <sequence id="seq_arg_bact_m_gilis13A-aa1" taxon="arg_bact_m_gilis13A-aa" totalcount="20" value="MIEYSPNTNKPLHLGHVRNNLLGNALANIVKTNIVNDRGNWVYAGFDETYRKMDKIYYESNVYMTQDIGTAKIYVVGNEQNYHFQVLSILLDKLLVHFSY"/>
+                    <sequence id="seq_arg_bact_m_iacus6A-aa1" taxon="arg_bact_m_iacus6A-aa" totalcount="20" value="VVDYSPNIAKRMRVDHIRSTMIGQAIVNIIRMNHWGDYDDLSLTANQANYRRLGVQHCESFLYITRDIAAIKIYVVKQAQELHFRQAFTISKTLLSHVAC"/>
+                    <sequence id="seq_arg_bact_m_incut12A-aa1" taxon="arg_bact_m_incut12A-aa" totalcount="20" value="LLEFSANPTGPLHVGHGRQAALGDALANVHREFYYNDAGAYLRREQDMDLKAFDQYYLESSTYFVPDVAYHVINIQGSDHHGTIARVRAGLQGIPDYVLH"/>
+                    <sequence id="seq_arg_bact_m_incut14A-aa1" taxon="arg_bact_m_incut14A-aa" totalcount="20" value="QVEFSANPTGNLHLGHARGAAVGDSLCNVSREYYINDAGKYELGKLREDLENFDVWYSETSTYLLPDIAYHKINVWGADHHGYIPRMKAAIEALLEVEII"/>
+                    <sequence id="seq_arg_bact_m_incut15A-aa1" taxon="arg_bact_m_incut15A-aa" totalcount="20" value="QFEYSANPTGPFTVGHGRQIIIGDVLSEVTREMYINDAGNRILSSMKDTLEKIDVYFSEKSTYFMTDIAYHYYDIWGSDHHGHIPRMKAAMKALFNVILH"/>
+                    <sequence id="seq_arg_bact_m_incut1A-aa1" taxon="arg_bact_m_incut1A-aa" totalcount="20" value="QLEYSANPTGPLHLGHGRGAVVGDTLARLTREYYINDAGDLMMKEIREDLSLMDVWFSERSTYFASDIAYHYINVWGADHHGYIPRVKAALKMLLEILLV"/>
+                    <sequence id="seq_arg_bact_m_incut5A-aa1" taxon="arg_bact_m_incut5A-aa" totalcount="20" value="QVEFSANPTGDLHLGHARGAAVGDSLCNITREYYINDAGRYELDKIKQDLAAFDVWYSETSTYLLPDIAYHQINVWGADHHGYIPRMKAAIAALLEVEII"/>
+                    <sequence id="seq_arg_bact_m_incut9A-aa1" taxon="arg_bact_m_incut9A-aa" totalcount="20" value="LLEYSANPTGDLHIGHARNAAVGDALANITREYYINDAGEYEMAKLKNDLAEFDNWFSETSTYFLPDIAYHFIDLFGADHHGYINRLKASLETFLEIQIM"/>
+                    <sequence id="seq_arg_bact_m_lobus4A-aa1" taxon="arg_bact_m_lobus4A-aa" totalcount="20" value="VIDLGPNVAKPLHVGHLRSTIIGDALVRIIGDNHLGDWGPACMEMLRPIYERLDHALGESFTYTTTDLATIKLYVVGAPQALHFKTVFAQAKRWFQHVQF"/>
+                    <sequence id="seq_arg_bact_m_malis18A-aa1" taxon="arg_bact_m_malis18A-aa" totalcount="20" value="IVDYSPNIAKEMHVGHLRPAVIGDCLSRIVRLSHVGDWGQLSSRAYRVIYDLMGIERGESFNYATTDLAAIRIYPVGAEQTNHFAQIFQVGKRAFFHAPF"/>
+                    <sequence id="seq_arg_bact_m_rferi11A-aa1" taxon="arg_bact_m_rferi11A-aa" totalcount="20" value="ILEFSPNTNKPLHVGHLRNDVIGESLSRITKINLINDRGKWAIEGIKETYEITNKIYLESEIYLTQDLGNIAIYVVGSEQIQHFKSLFFVAEKLLIHLSH"/>
+                    <sequence id="seq_arg_bact_m_ticus17A-aa1" taxon="arg_bact_m_ticus17A-aa" totalcount="20" value="VVEYSPNTNKPLHLGHLRNNFLGHAVSEIYKVNLVNDRGGWVYDGFDITYQKLDKVYYESQVYITQDLGTADVYVVGNEQDYHFEVLAKIMARLLYHLSY"/>
+                    <sequence id="seq_arg_bact_m_urans2A-aa1" taxon="arg_bact_m_urans2A-aa" totalcount="20" value="VIEHSVNPNKELHVGHLRNVVLGDSMARIEVQNYIDDTGEQTVKAQLQTCFRLDLLNWESDMYAAKDIGYQFINVIDSRQDHPQTVVRSALGVASIHLSY"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="10000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:Arg_ArchBact" name="stateNode">
+            <taxonset id="TaxonSet.Arg_ArchBact" spec="TaxonSet">
+                <alignment idref="Arg_ArchBact"/>
+            </taxonset>
+        </tree>
+        <parameter id="gammaShape.s:Arg_ArchBact" name="stateNode">1.0</parameter>
+        <parameter id="mutationRate.s:Arg_ArchBact" name="stateNode">1.0</parameter>
+        <parameter id="ucldStdev.c:Arg_ArchBact" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:Arg_ArchBact" spec="parameter.IntegerParameter" dimension="70">1</stateNode>
+        <parameter id="birthRate2.t:Arg_ArchBact" lower="0.0" name="stateNode" upper="10000.0">1.0</parameter>
+        <parameter id="relativeDeathRate2.t:Arg_ArchBact" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+    </state>
+
+    <init id="RandomTree.t:Arg_ArchBact" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Arg_ArchBact" taxa="@Arg_ArchBact">
+        <populationModel id="ConstantPopulation0.t:Arg_ArchBact" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Arg_ArchBact" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BirthDeath.t:Arg_ArchBact" spec="beast.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@birthRate2.t:Arg_ArchBact" relativeDeathRate="@relativeDeathRate2.t:Arg_ArchBact" tree="@Tree.t:Arg_ArchBact"/>
+            <prior id="BirthRatePrior.t:Arg_ArchBact" name="distribution" x="@birthRate2.t:Arg_ArchBact">
+                <Uniform id="Uniform.4" name="distr" upper="1000.0"/>
+            </prior>
+            <prior id="GammaShapePrior.s:Arg_ArchBact" name="distribution" x="@gammaShape.s:Arg_ArchBact">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="DeathRatePrior.t:Arg_ArchBact" name="distribution" x="@relativeDeathRate2.t:Arg_ArchBact">
+                <Uniform id="Uniform.5" name="distr"/>
+            </prior>
+            <prior id="ucldStdevPrior.c:Arg_ArchBact" name="distribution" x="@ucldStdev.c:Arg_ArchBact">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.Arg_ArchBact" spec="ThreadedTreeLikelihood" data="@Arg_ArchBact" tree="@Tree.t:Arg_ArchBact">
+                <siteModel id="SiteModel.s:Arg_ArchBact" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:Arg_ArchBact" shape="@gammaShape.s:Arg_ArchBact">
+                    <parameter id="proportionInvariant.s:Arg_ArchBact" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:Arg_ArchBact" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:Arg_ArchBact" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:Arg_ArchBact" tree="@Tree.t:Arg_ArchBact">
+                    <LogNormal id="LogNormalDistributionModel.c:Arg_ArchBact" S="@ucldStdev.c:Arg_ArchBact" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.1" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:Arg_ArchBact" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="gammaShapeScaler.s:Arg_ArchBact" spec="ScaleOperator" parameter="@gammaShape.s:Arg_ArchBact" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+        <parameter idref="mutationRate.s:Arg_ArchBact"/>
+        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">100</weightvector>
+    </operator>
+
+    <operator id="ucldStdevScaler.c:Arg_ArchBact" spec="ScaleOperator" parameter="@ucldStdev.c:Arg_ArchBact" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:Arg_ArchBact" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Arg_ArchBact" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:Arg_ArchBact" spec="SwapOperator" intparameter="@rateCategories.c:Arg_ArchBact" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:Arg_ArchBact" spec="UniformOperator" parameter="@rateCategories.c:Arg_ArchBact" weight="10.0"/>
+
+    <operator id="BirthDeathTreeScaler.t:Arg_ArchBact" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:Arg_ArchBact" weight="3.0"/>
+
+    <operator id="BirthDeathTreeRootScaler.t:Arg_ArchBact" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Arg_ArchBact" weight="3.0"/>
+
+    <operator id="BirthDeathUniformOperator.t:Arg_ArchBact" spec="Uniform" tree="@Tree.t:Arg_ArchBact" weight="30.0"/>
+
+    <operator id="BirthDeathSubtreeSlide.t:Arg_ArchBact" spec="SubtreeSlide" tree="@Tree.t:Arg_ArchBact" weight="15.0"/>
+
+    <operator id="BirthDeathNarrow.t:Arg_ArchBact" spec="Exchange" tree="@Tree.t:Arg_ArchBact" weight="15.0"/>
+
+    <operator id="BirthDeathWide.t:Arg_ArchBact" spec="Exchange" isNarrow="false" tree="@Tree.t:Arg_ArchBact" weight="3.0"/>
+
+    <operator id="BirthDeathWilsonBalding.t:Arg_ArchBact" spec="WilsonBalding" tree="@Tree.t:Arg_ArchBact" weight="3.0"/>
+
+    <operator id="BirthRateScaler.t:Arg_ArchBact" spec="ScaleOperator" parameter="@birthRate2.t:Arg_ArchBact" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="DeathRateScaler.t:Arg_ArchBact" spec="ScaleOperator" parameter="@relativeDeathRate2.t:Arg_ArchBact" scaleFactor="0.75" weight="3.0"/>
+
+    <logger id="tracelog" fileName="Arg_ArchBact.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.Arg_ArchBact"/>
+        <log id="TreeHeight.t:Arg_ArchBact" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Arg_ArchBact"/>
+        <log idref="gammaShape.s:Arg_ArchBact"/>
+        <log idref="mutationRate.s:Arg_ArchBact"/>
+        <log idref="ucldStdev.c:Arg_ArchBact"/>
+        <log id="rate.c:Arg_ArchBact" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Arg_ArchBact" tree="@Tree.t:Arg_ArchBact"/>
+        <log idref="BirthDeath.t:Arg_ArchBact"/>
+        <log idref="birthRate2.t:Arg_ArchBact"/>
+        <log idref="relativeDeathRate2.t:Arg_ArchBact"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:Arg_ArchBact" fileName="Arg_ArchBact.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Arg_ArchBact" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:Arg_ArchBact" tree="@Tree.t:Arg_ArchBact"/>
+    </logger>
+
+</run>
+
+</beast>

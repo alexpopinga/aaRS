@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="Tyr_BactEuk"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_tyr_1h3f_t_therm18A-aa" taxon="tyr_1h3f_t_therm18A-aa" totalcount="20" value="TVKLGADPTPDLHLGHAVVLRKMRQFQELKVVLIIGDTFRENAKTYVAQAGKIFELRYNSELYPFAQAYDSVVEMGGTDQRFNLLVGREVQRAYQVCFLM"/>
+                    <sequence id="seq_tyr_1jil_s_ureus19A-aa" taxon="tyr_1jil_s_ureus19A-aa" totalcount="20" value="TLYCGADPTDSLHIGHLLPFLTLRRFQEHRPIVLIGGTGDKNIEGISKQMHNIAVLVNNRDTYTILQAIDFGIQVGGSDQWGNITSGIELMRRMAYGLTI"/>
+                    <sequence id="seq_tyr_1wq4_e__coli20A-aa" taxon="tyr_1wq4_e__coli20A-aa" totalcount="20" value="ALVCGFDPTDSLHLGHLVPLLCLKRFQQAKPVALVGGTAQEWVDKIRKQVAPFAIAANNYDSYNLLQGYDFALCIGGSDQWGNITSGIDLTRRLVFGLTV"/>
+                    <sequence id="seq_tyr_2dlc_s_cerev18X-aa" taxon="tyr_2dlc_s_cerev18X-aa" totalcount="20" value="KLYWGTAPTGRPHCGYFVPMTKLADFLKAEVTVLLADHLNYRAKYYELTIKAILKFVVGSSIYPLMQALDEQCQFGGVDQRKIFVLAEENLPSLRAHLMN"/>
+                    <sequence id="seq_tyr_bact_m_egans13A-aa" taxon="tyr_bact_m_egans13A-aa" totalcount="20" value="RLKQGFDPTPDMHIGHAVGLRKLRAFQELQVVLIVGDTWRANAETYMEQFFRVTEVRWQSEMYPMLQAYDSVVEFGGTDQKFNILAGRELMAQLQQVFLV"/>
+                    <sequence id="seq_tyr_bact_m_ejuni14A-aa" taxon="tyr_bact_m_ejuni14A-aa" totalcount="20" value="FIKAGFDPTPDLHLGHSVVLTKMAFLQKHIVQFLIGDTFLINAKTYKTQVFKVTQIKFNSTLYPLLQGYDSVIEMGGTDQKFNLLMGRQLQRVYQAVIMM"/>
+                    <sequence id="seq_tyr_bact_m_ensis6A-aa" taxon="tyr_bact_m_ensis6A-aa" totalcount="20" value="TLYCGFDPTDSLHLGHLVPVMALAHAQRCKPLALVGGTADANALAIGEQIGRIAKLVNNLDSYMLLQAYDFAVQIGGQDQWGNIVFGTELGRKMLAALTM"/>
+                    <sequence id="seq_tyr_bact_m_gatus8A-aa" taxon="tyr_bact_m_gatus8A-aa" totalcount="20" value="RIKLGIDPTSDIHLGHSIIFRKLRQFQDATAVLIIGDTFQRNAETYLDQLRPILEIRYNSELYPLMQGYDSVVELGGTDQKFNIAVGRDLQRHFQFGLLL"/>
+                    <sequence id="seq_tyr_bact_m_gilis11A-aa" taxon="tyr_bact_m_gilis11A-aa" totalcount="20" value="TAYVGIDPTDSLHIGHLCGVMILRHFQRCKPLALIGGTARHNQACIKKQLAKFAELVNNYDTYQLLQGYDFLLQMGGSDQWGNITTGTELIRRTAYALTC"/>
+                    <sequence id="seq_tyr_bact_m_hilus3A-aa" taxon="tyr_bact_m_hilus3A-aa" totalcount="20" value="TLYCGFDPTDSLHIGHLVTIMTLRRFQQAQPIALVGGTAETWSARIKAQLERFAKIKNNYDSYMMLQAYDFLLQIGGSDQWGNITAGLELIRRTAFGLTV"/>
+                    <sequence id="seq_tyr_bact_m_iacus4A-aa" taxon="tyr_bact_m_iacus4A-aa" totalcount="20" value="RLKLGIDPTSDIHIGHAVALRKMRQFQELTVVLIVGDTWKSNAKYYMDQVFKVTEVRWQSEMYPMLQAYDSIIEFGGTDQKFNILAGRQLMEQMQDVILV"/>
+                    <sequence id="seq_tyr_bact_m_itima10A-aa" taxon="tyr_bact_m_itima10A-aa" totalcount="20" value="RVKLGVDPSPDLHLGHAVVLRKLREFQDLTVVLIIGDTFLENAKTYQEQAFKITELRFNGELYPLAQAYDSVVELGGTDQLFNLLVGRKIQEEYQIVMTM"/>
+                    <sequence id="seq_tyr_bact_m_licus1A-aa" taxon="tyr_bact_m_licus1A-aa" totalcount="20" value="RVKAGFDPTPDLHLGHVVLLQKLRQFQQLEVFFIIGDTFLENAKTYEHQVFKVTTVVFNSTIYPLLQAYDSVVEIGGTDQKFNLLIGRDIQREYQVCITL"/>
+                    <sequence id="seq_tyr_bact_m_lobus2A-aa" taxon="tyr_bact_m_lobus2A-aa" totalcount="20" value="RVKYGIDPTFDVHLGHTVPLRKLRQFQEFTAVLIIGTTADKNAQTYLTQIAKVAEVRPNGELYPLMQGHDSVVELGGTEQLYNLMVGRDLQRAAQICLTM"/>
+                    <sequence id="seq_tyr_bact_m_malis15A-aa" taxon="tyr_bact_m_malis15A-aa" totalcount="20" value="RIKFGIDPTAEIHLGHSIPVRKLRAFQDAKAVLLIGDTFAENAKNYLDQVRPILEVRYNSELYPLVQGYDSVVELGGTDQKFNIAVGRDLQRHFQFGVLL"/>
+                    <sequence id="seq_tyr_bact_m_mis_112A-aa" taxon="tyr_bact_m_mis_112A-aa" totalcount="20" value="SLYSGFDPTDSLHIGHLLPILMLRRFQLARPIALVGGTAREWSQKIKNQLSRFAIMANNYDSYMILQSLDFLLQIGGSDQWGNITSGLELIRKSAFGLTI"/>
+                    <sequence id="seq_tyr_bact_m_obile7A-aa" taxon="tyr_bact_m_obile7A-aa" totalcount="20" value="GIYVGFDPSKSIHLGNFVVINVLLIAKKHPTVALIGGTAKKNTEAIKKQIKHFAKIVNNSDAYSLIQANDFHIQFGGSDQWGNITTGLELIRKRSGGFTI"/>
+                    <sequence id="seq_tyr_bact_m_rferi9A-aa" taxon="tyr_bact_m_rferi9A-aa" totalcount="20" value="VFYAGVDATSSLHIGHLIPFLAMMHLRQHMPIVLIGDTSGNNALLIKNQLQRIECFIHNSNNYQLLQSYDYYLQIGGDDQWGNIISGVDLIRKKTFGLTF"/>
+                    <sequence id="seq_tyr_bact_m_ticus16A-aa" taxon="tyr_bact_m_ticus16A-aa" totalcount="20" value="TGYIGFDPTPSLHVGNLATIMLLKHFQLAKPIAVVGGTALHNQSCIMKQLKCFAELLNNIDSYQLLQGYDFYLQMGGADQWGNLTTGIELIRRKAFALTA"/>
+                    <sequence id="seq_tyr_bact_m_urans17A-aa" taxon="tyr_bact_m_urans17A-aa" totalcount="20" value="RVKLGADPTPDLHLGHAVILRKMRQFQDLKVIMLIGDTFRANAESYLAQCRLILEIRYNSELYPLTQGYDSVVELGGTDQLFNNLVGRALQRDYQVVLTL"/>
+                    <sequence id="seq_tyr_euk_md_antum3A-aa" taxon="tyr_euk_md_antum3A-aa" totalcount="20" value="RCYDGFEPSGRMHIAQIFKAVNVNKCTAAEFVFWVADFWEKIRIVGRYLIEVWVLFLWSSELYPLMQCCDIFICQLGLDQRKVNMLAREYCDLIPVILSH"/>
+                    <sequence id="seq_tyr_euk_md_incut10A-aa" taxon="tyr_euk_md_incut10A-aa" totalcount="20" value="KVYWGTATTGKPHVAYFVPMSKIADFLRAEVTILFADHLALRVQYYERAIKAMLKFVKGSDLYPGLQALDEEAQFGGVDQRKIFTFAEKYLPHLRIHLMN"/>
+                    <sequence id="seq_tyr_euk_md_incut12A-aa" taxon="tyr_euk_md_incut12A-aa" totalcount="20" value="ICYDGFEPSGRMHIAQILKTINVNKLTECVFVFYVADFWKIVGEYFVHIWKAAVRFVWASDFYPCMQCADIFICQLGMDQRKVNMLAREYCDAAPVILSH"/>
+                    <sequence id="seq_tyr_euk_md_incut13A-aa" taxon="tyr_euk_md_incut13A-aa" totalcount="20" value="TVYCGFDPTESLHLGNLLGIIVLTWFQRCQPVALLGGTAERNVQGIRRILE-S--ILNNLDTYQLLQGYDFVMQIGGSDQMGNIITGLDLIRRMCFGLTF"/>
+                    <sequence id="seq_tyr_euk_md_incut14A-aa" taxon="tyr_euk_md_incut14A-aa" totalcount="20" value="RCYDGFEPSGRMHIAQILKSINVNRMTKATFIFWVADFWRKVGQYMIEIWKATVEFLWSSDLYPCMQCADIFICQLGMDQRKVNMLAIEYCDKVPIIVSH"/>
+                    <sequence id="seq_tyr_euk_md_incut16A-aa" taxon="tyr_euk_md_incut16A-aa" totalcount="20" value="KAYLGFDATKSLHVGSLLQIMILRHLQQCKPIVLLGGTGQDNVNGIKTVFE-K--LVNNDENYMILQAYDFLLQLGGSDQWGNMVNGVELTRRAVFAMTA"/>
+                    <sequence id="seq_tyr_euk_md_incut6A-aa" taxon="tyr_euk_md_incut6A-aa" totalcount="20" value="ICYDGFEPSGRIHIAQVMKAINVNKLTKAKFIFLVADFWQTVGKYMIEVWKSIVEFVWSSEFYPCMQCADIFICQLGMDQRKVNMLAREYSELKPIILSH"/>
+                    <sequence id="seq_tyr_euk_md_incut8A-aa" taxon="tyr_euk_md_incut8A-aa" totalcount="20" value="TVYCGFDPTRTLHIGNLLAIMGLVHCVRANVIALVGGTADANIAGITEVLH-R--VVNNAETYQVLQGHDFLVQLGGSDQWGNITAGIDLVRRVVYGVTM"/>
+                    <sequence id="seq_tyr_euk_md_labra1A-aa" taxon="tyr_euk_md_labra1A-aa" totalcount="20" value="KCYWGSATTGRPHIGYYVPLTKIADFLTAEVTILLADHVAHRTKYYEFLLRTVLKFVVGSSLYPGLQALDEQFQFGGVDQRKIFTYAKEYLPKLRAHLMN"/>
+                    <sequence id="seq_tyr_euk_md_minis9A-aa" taxon="tyr_euk_md_minis9A-aa" totalcount="20" value="SIYLGVDPTKGLHIGHLMACRILKRFHDAKCIALVGGTAQENVKEIQNDLK-R--FVNNYDAYQCLQANDFLCQIGGSDQWGNITSGIDFVKRKVHGITV"/>
+                    <sequence id="seq_tyr_euk_md_ndcut15A-aa" taxon="tyr_euk_md_ndcut15A-aa" totalcount="20" value="TCYDGFEPSGRIHIAQIAKAINVNRLLRSDCVFYVADFWQILGRYFVEVWKACVRFVWASELYPSMQCADIFLVEMGLDQRKVNALARDYCDKSPVILMH"/>
+                    <sequence id="seq_tyr_euk_md_phora7A-aa" taxon="tyr_euk_md_phora7A-aa" totalcount="20" value="RVKLGIDPTGDIHLGHSILFRKLRAFQDAIAVLIIGDTF--NAQTYLQQLG-KLEVYQNSTLYPLLQGYDSVVELGGTDQRFNVAIGRDLQRYYQFCLLL"/>
+                    <sequence id="seq_tyr_euk_md_piens2A-aa" taxon="tyr_euk_md_piens2A-aa" totalcount="20" value="KIYWGTATTGKPHVAYFVPMSKIADFLKAEVTILFADHLELRVSYYENVIKAMLKFIKGTDLYPGLQALDEEAQFGGIDQRKIFTFAEKYLPALRVHLMN"/>
+                    <sequence id="seq_tyr_euk_md_ranae5A-aa" taxon="tyr_euk_md_ranae5A-aa" totalcount="20" value="SIGWRVVVGDNLHLGHVSSLLKIIMVKDVAVRILIDDDLNKNREAIKKIIIKIVSFFLSSDLQPVLKTLDFLIIVHCNDKVSLVEKSKQFI-NLIKYINN"/>
+                    <sequence id="seq_tyr_euk_md_rzaki11A-aa" taxon="tyr_euk_md_rzaki11A-aa" totalcount="20" value="VLYWGTATTGRPHIGYFVPMTKIADFLKAQVTILFADHLKLRTEYYEAVIKALLKFVRGTSLYPGLQALDEEAQFGGVDQRKIFTFAEKYMPALRIHLMN"/>
+                    <sequence id="seq_tyr_euk_md_stica4A-aa" taxon="tyr_euk_md_stica4A-aa" totalcount="20" value="KIYWGTATTGKPHVAYFVPMSKIADFLKAEVTILFADHLELRTKYYEAVIKAMLKFVKGTDLYPGLQALDEEAQFGGVDQRKIFTFSEKYLPQLRIHFMN"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="10000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:Tyr_BactEuk" name="stateNode">
+            <taxonset id="TaxonSet.Tyr_BactEuk" spec="TaxonSet">
+                <alignment idref="Tyr_BactEuk"/>
+            </taxonset>
+        </tree>
+        <parameter id="gammaShape.s:Tyr_BactEuk" name="stateNode">1.0</parameter>
+        <parameter id="mutationRate.s:Tyr_BactEuk" name="stateNode">1.0</parameter>
+        <parameter id="ucldStdev.c:Tyr_BactEuk" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:Tyr_BactEuk" spec="parameter.IntegerParameter" dimension="70">1</stateNode>
+        <parameter id="birthRate2.t:Tyr_BactEuk" lower="0.0" name="stateNode" upper="10000.0">1.0</parameter>
+        <parameter id="relativeDeathRate2.t:Tyr_BactEuk" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+    </state>
+
+    <init id="RandomTree.t:Tyr_BactEuk" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Tyr_BactEuk" taxa="@Tyr_BactEuk">
+        <populationModel id="ConstantPopulation0.t:Tyr_BactEuk" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Tyr_BactEuk" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BirthDeath.t:Tyr_BactEuk" spec="beast.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@birthRate2.t:Tyr_BactEuk" relativeDeathRate="@relativeDeathRate2.t:Tyr_BactEuk" tree="@Tree.t:Tyr_BactEuk"/>
+            <prior id="BirthRatePrior.t:Tyr_BactEuk" name="distribution" x="@birthRate2.t:Tyr_BactEuk">
+                <Uniform id="Uniform.4" name="distr" upper="1000.0"/>
+            </prior>
+            <prior id="GammaShapePrior.s:Tyr_BactEuk" name="distribution" x="@gammaShape.s:Tyr_BactEuk">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="DeathRatePrior.t:Tyr_BactEuk" name="distribution" x="@relativeDeathRate2.t:Tyr_BactEuk">
+                <Uniform id="Uniform.5" name="distr"/>
+            </prior>
+            <prior id="ucldStdevPrior.c:Tyr_BactEuk" name="distribution" x="@ucldStdev.c:Tyr_BactEuk">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.Tyr_BactEuk" spec="ThreadedTreeLikelihood" data="@Tyr_BactEuk" tree="@Tree.t:Tyr_BactEuk">
+                <siteModel id="SiteModel.s:Tyr_BactEuk" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:Tyr_BactEuk" shape="@gammaShape.s:Tyr_BactEuk">
+                    <parameter id="proportionInvariant.s:Tyr_BactEuk" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:Tyr_BactEuk" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:Tyr_BactEuk" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:Tyr_BactEuk" tree="@Tree.t:Tyr_BactEuk">
+                    <LogNormal id="LogNormalDistributionModel.c:Tyr_BactEuk" S="@ucldStdev.c:Tyr_BactEuk" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.1" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:Tyr_BactEuk" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="gammaShapeScaler.s:Tyr_BactEuk" spec="ScaleOperator" parameter="@gammaShape.s:Tyr_BactEuk" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+        <parameter idref="mutationRate.s:Tyr_BactEuk"/>
+        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">100</weightvector>
+    </operator>
+
+    <operator id="ucldStdevScaler.c:Tyr_BactEuk" spec="ScaleOperator" parameter="@ucldStdev.c:Tyr_BactEuk" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:Tyr_BactEuk" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Tyr_BactEuk" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:Tyr_BactEuk" spec="SwapOperator" intparameter="@rateCategories.c:Tyr_BactEuk" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:Tyr_BactEuk" spec="UniformOperator" parameter="@rateCategories.c:Tyr_BactEuk" weight="10.0"/>
+
+    <operator id="BirthDeathTreeScaler.t:Tyr_BactEuk" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:Tyr_BactEuk" weight="3.0"/>
+
+    <operator id="BirthDeathTreeRootScaler.t:Tyr_BactEuk" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Tyr_BactEuk" weight="3.0"/>
+
+    <operator id="BirthDeathUniformOperator.t:Tyr_BactEuk" spec="Uniform" tree="@Tree.t:Tyr_BactEuk" weight="30.0"/>
+
+    <operator id="BirthDeathSubtreeSlide.t:Tyr_BactEuk" spec="SubtreeSlide" tree="@Tree.t:Tyr_BactEuk" weight="15.0"/>
+
+    <operator id="BirthDeathNarrow.t:Tyr_BactEuk" spec="Exchange" tree="@Tree.t:Tyr_BactEuk" weight="15.0"/>
+
+    <operator id="BirthDeathWide.t:Tyr_BactEuk" spec="Exchange" isNarrow="false" tree="@Tree.t:Tyr_BactEuk" weight="3.0"/>
+
+    <operator id="BirthDeathWilsonBalding.t:Tyr_BactEuk" spec="WilsonBalding" tree="@Tree.t:Tyr_BactEuk" weight="3.0"/>
+
+    <operator id="BirthRateScaler.t:Tyr_BactEuk" spec="ScaleOperator" parameter="@birthRate2.t:Tyr_BactEuk" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="DeathRateScaler.t:Tyr_BactEuk" spec="ScaleOperator" parameter="@relativeDeathRate2.t:Tyr_BactEuk" scaleFactor="0.75" weight="3.0"/>
+
+    <logger id="tracelog" fileName="Tyr_BactEuk.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.Tyr_BactEuk"/>
+        <log id="TreeHeight.t:Tyr_BactEuk" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Tyr_BactEuk"/>
+        <log idref="gammaShape.s:Tyr_BactEuk"/>
+        <log idref="mutationRate.s:Tyr_BactEuk"/>
+        <log idref="ucldStdev.c:Tyr_BactEuk"/>
+        <log id="rate.c:Tyr_BactEuk" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Tyr_BactEuk" tree="@Tree.t:Tyr_BactEuk"/>
+        <log idref="BirthDeath.t:Tyr_BactEuk"/>
+        <log idref="birthRate2.t:Tyr_BactEuk"/>
+        <log idref="relativeDeathRate2.t:Tyr_BactEuk"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:Tyr_BactEuk" fileName="Tyr_BactEuk.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Tyr_BactEuk" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:Tyr_BactEuk" tree="@Tree.t:Tyr_BactEuk"/>
+    </logger>
+
+</run>
+
+</beast>

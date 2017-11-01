@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="Trp_ArchEuk"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_trp_1r6u_h_h_sap19B-aa1" taxon="trp_1r6u_h_h_sap19B-aa" totalcount="20" value="YLYTGRGPSSE?HVGHLIPFIFTKWLQDVPLVIQ?TDDEYGDAVENAKDIIACTFIFSDLDSFPAIQAAPSFLIPCAIDQDPYFR?TRDVAPRIPALLHS"/>
+                    <sequence id="seq_trp_2ip1_s_cerev20A-aa1" taxon="trp_2ip1_s_cerev20A-aa" totalcount="20" value="FLYTGRGPSSSMHLGHMIPFVFTKWLQEPLVIELTDDEVKNFARENAKDIIAVTFIFSDLQHFASIQIATAFLIPCAIDQDPYFRVCRDVADKLKPALLH"/>
+                    <sequence id="seq_trp_arch_m_aneyi12A-aa" taxon="trp_arch_m_aneyi12A-aa" totalcount="20" value="ALVTGFMPSGKFHFGHKMVADQIIYYQKEVFIVIADAEVIEIGLYYVANLIALTHIYFQTNVAALTQAADILLVPVGADQDPHIRFTRDIADRFRPASTY"/>
+                    <sequence id="seq_trp_arch_m_arius15A-aa" taxon="trp_arch_m_arius15A-aa" totalcount="20" value="FLYTGRAPSLGMHIGHLIPFIFTKWLQENVYIEITDDETKEWSYENILDIIAVTFIFQDTEFYPALQIVPTMLIPAGIDQDPYWRLQRDIAESLKAAQIH"/>
+                    <sequence id="seq_trp_arch_m_dleri8A-aa" taxon="trp_arch_m_dleri8A-aa" totalcount="20" value="SVLSGMMPSGRMHLGHKTVVDQLVFYQQKVYVPIADLEAHRIAVEYVLNYAALCEIYLQSEFAPIVQAADILLVPVGVDQDPHLRLTRDIAEKEKPASTY"/>
+                    <sequence id="seq_trp_arch_m_hicus9A-aa" taxon="trp_arch_m_hicus9A-aa" totalcount="20" value="AVVTGMMPSGRMHIGHKMIVDQLRWYDREIFIPIADMESRRIAIEYIAGYIALIHVYLQSEYAPIIQVSDILIVPVGPDQDPHIRLTRDIAARFLPSSTY"/>
+                    <sequence id="seq_trp_arch_m_hilum11A-aa" taxon="trp_arch_m_hilum11A-aa" totalcount="20" value="ALYTGRGPS-PVHIGHMVPWILLKWFSDEVYFQITDDEATNWAYENALDVIALLHLIIDTKFYPSLQIAVAFLIPCAIDQDPYFRLARDIADALKPSTLY"/>
+                    <sequence id="seq_trp_arch_m_incut4A-aa" taxon="trp_arch_m_incut4A-aa" totalcount="20" value="SVMDGFMPSGKVHLGHKMVMDQIVWHQESAFVGIADRECREIGVEYILSLIALGLIYFQSGLSVATQAADILVVPVGPDQDPHLRLTRGLAG--PPASTY"/>
+                    <sequence id="seq_trp_arch_m_itans10A-aa" taxon="trp_arch_m_itans10A-aa" totalcount="20" value="FLYTGIAPSKKMHIGHLVPFILTRWFQENVYIMFPDEEVRRKIKEMHAKIAALTFMFINSEFYTVLQIVPTFLIPAGIDQDPYFRLQRDIAPKLKAAEIL"/>
+                    <sequence id="seq_trp_arch_m_opcut17A-aa" taxon="trp_arch_m_opcut17A-aa" totalcount="20" value="NVMTGLMPSGEMHLGNKSAIDQVIFFQKRVSIAVADLEAREVAIEYILNYIAM-EIYFQSRNAPLIQAADVLVVPVGFDQDPHLRLMRDLAK--APSATY"/>
+                    <sequence id="seq_trp_arch_m_opcut18A-aa" taxon="trp_arch_m_opcut18A-aa" totalcount="20" value="NVMTGLMPSGEMHLGNKSAIDQVIYFQKSVSIAVADLEAREIAIEYILNYIAM-EIYFQSKNAPLIQAADVLVVPVGFDQDPHIRLMRDLAKRMPPSATY"/>
+                    <sequence id="seq_trp_arch_m_opcut1A-aa" taxon="trp_arch_m_opcut1A-aa" totalcount="20" value="RIVSGMRPTGKLHLGHYFVIRNWVKLQEECFFFIADWHLRQNIREVMIDWLALSVLFIQSLGYPVLQAADILGVPVGEDQLPHIELSREIARRFPKALLT"/>
+                    <sequence id="seq_trp_arch_m_opcut2A-aa" taxon="trp_arch_m_opcut2A-aa" totalcount="20" value="AVMSGFMPSGLPHFGHKMTMDEIVWHQSKAFVAIADMETRELGM-YIKSIIALAVIYFQSKFVTAIQAADILVVPVGADQDPHMRLTRDLAARIPPSSTY"/>
+                    <sequence id="seq_trp_arch_m_opcut6A-aa" taxon="trp_arch_m_opcut6A-aa" totalcount="20" value="NVMTGFMPSGHPHLGHLMVMKEVVWHVQRGYICIADRECRKYGD-YLSCLYAL-ETYEQSSMSVLTQVADILIVPVGLDQDPHIRLTRGVAHKLTPSATF"/>
+                    <sequence id="seq_trp_arch_m_oshii13A-aa" taxon="trp_arch_m_oshii13A-aa" totalcount="20" value="FLYTGRGPSGPMHIGHIIPFFATKWLQENLYIQITDDETKRWAYDNILDIIAVTFIFQNSEFFPAIQIAPTFLIPAAIDQDPYWRLQRDFAESLKTAALH"/>
+                    <sequence id="seq_trp_arch_m_rinus16A-aa" taxon="trp_arch_m_rinus16A-aa" totalcount="20" value="IVVSGIQPSGELHLGNYFAIRQHLELHEESYFFIVNYHLRRYTFEAAVTYLALAALFVQSDNYPVLQAADILLVPVGADQKQNIEICRDIAQRFPEPLIR"/>
+                    <sequence id="seq_trp_arch_m_schii7A-aa" taxon="trp_arch_m_schii7A-aa" totalcount="20" value="AVVSGMMPSGKMHFGHKMIIDQLLYYQKEIYIPIADLETKNLAIEYITNYIALINIYLQSKFAPIVQVADILIVPVGIDQDPHLRLTRDIASRAPPSSTY"/>
+                    <sequence id="seq_trp_arch_m_ultum14A-aa" taxon="trp_arch_m_ultum14A-aa" totalcount="20" value="ALVTGFMPSGRFHFGHKMVADQIIYYQKEIFIVIADAEVIETGLYYVANLIALTHIYFQTNMAALTQAADILLVPVGADQDPHIRLARDIADRFRPASTY"/>
+                    <sequence id="seq_trp_arch_m_um_sp3A-aa" taxon="trp_arch_m_um_sp3A-aa" totalcount="20" value="SIVTGIGPSGPMHLGHAMVFYFAKRLQDRVYVPLSDDETGDYLRENLRDLLAVTRFVVDTKFYPAVQTAHLLLVPIAVDQDPHVRVSRDVAAKAKPGALL"/>
+                    <sequence id="seq_trp_euk_md__mori12A-aa1" taxon="trp_euk_md__mori12A-aa" totalcount="20" value="YLYTGRGPSSDMHLGHMIPFMFTKWLQDVPLIIQLTDDERKMAYNNAKDIIAITFIFNDLDTFPSIEAAPAFLVPCAIDQDPYFRMTRDVAVRLPSLIHS"/>
+                    <sequence id="seq_trp_euk_md_antum4A-aa1" taxon="trp_euk_md_antum4A-aa" totalcount="20" value="YLYTGRGPSSEMHVGHLIPFMFTKWLQDTPLVIQLTDDEDKMTTENLKDIIAFTFIFRDFEMFPAIQAAPSFMIPQAIDQDPYFRLTRDVAPRMPAVIHS"/>
+                    <sequence id="seq_trp_euk_md_aurus13A-aa1" taxon="trp_euk_md_aurus13A-aa" totalcount="20" value="YLYTGRGPSSEMHVGHLIPFIFTKWLQDVPLVIQMTDDEYGYAVENAKDI-TCTFIFSDLDSFPAIQAAPSFLIPCAIDQDPYFRMTRDVAPRIPALLHS"/>
+                    <sequence id="seq_trp_euk_md_gas_114A-aa1" taxon="trp_euk_md_gas_114A-aa" totalcount="20" value="YLYTGRGPSSEMHMGHLIPFIFTKWLQDTPLVIQLTDDENHLAFENAKDIIACTFIFSDLDSFPAIQAAPSFLIPCAIDQDPYFRMTRDVAPRMPALLHS"/>
+                    <sequence id="seq_trp_euk_md_ica_15A-aa1" taxon="trp_euk_md_ica_15A-aa" totalcount="20" value="YLYTGRGPSSELHLGHLIPFIMTKYLQEAPLVIQMSDDEIKLAHENAKDIIAMTFIFNNLTGFPAVQAAPALLIPCAIDQDPYFRMCRDVAPRLCALIHS"/>
+                    <sequence id="seq_trp_euk_md_ideum17A-aa1" taxon="trp_euk_md_ideum17A-aa" totalcount="20" value="TVFSGMQPTSSLHLGNYLAMGNWLKIQDLKLIFSIVDLHQSNTISVAINYLACVILFNQSMSYPVLMAADILHVPVGEDQTQHLEFTRDIAQAFPSIITS"/>
+                    <sequence id="seq_trp_euk_md_labra11A-aa1" taxon="trp_euk_md_labra11A-aa" totalcount="20" value="IVFSGIQPTGI-HLGNYLALRNWVDLQNNTVIYSVVGLHRRSKLDAAASLLAISILFHQDEAYPVLQAADVLHVPVGEDQLQHIELMRHIASSFPEVISP"/>
+                    <sequence id="seq_trp_euk_md_mblia2A-aa1" taxon="trp_euk_md_mblia2A-aa" totalcount="20" value="YIYTGRGPSSGLHLGHLLPFIFTKYLQDAYVVIQITDDEDSYTRENIKDIIACTFIFINSQAFPPKQMLPVYLIASGIEQDPYFRLARDLAPRMNAYLLG"/>
+                    <sequence id="seq_trp_euk_md_nalis10A-aa1" taxon="trp_euk_md_nalis10A-aa" totalcount="20" value="YIYTGRGPSSDLHLGHITSFIINKYIQDAWFIIQITDDEHKYTEANIRDIIAQTFIMRESKLFPVRQIAPAFLIPCGREQDPYFRFAREVAGKMVSTIYG"/>
+                    <sequence id="seq_trp_euk_md_opcut15A-aa1" taxon="trp_euk_md_opcut15A-aa" totalcount="20" value="RIVSGIQPTGV-HLGNYLAIKSWVQLQDPDVLYMIVDLHRRNITDMTIALLACSVLFQQSKSYPILMAADVLHVPVGDDQQQHLELASTLANTFPVPMYN"/>
+                    <sequence id="seq_trp_euk_md_opcut16A-aa1" taxon="trp_euk_md_opcut16A-aa" totalcount="20" value="YLYTGRGPSSELHVGHLVPFLFTKYLQDTPLVIQLTDDEHNYAYENMKDIIACTFIFTNLEAFPAVQAAPAFLVPHAIDQDPYFRMVRDVAPRLPSSIHS"/>
+                    <sequence id="seq_trp_euk_md_opcut9A-aa1" taxon="trp_euk_md_opcut9A-aa" totalcount="20" value="YLYTGRGPSSEMHLGHTVPFIINKHLQEAPLVIQITDDEYRLARENAKDIIAMTFIFIDTDAYPPIQTVPAFLIPCAIDQDPYFRLCRDVAPKLPSCLYS"/>
+                    <sequence id="seq_trp_euk_md_phora8A-aa1" taxon="trp_euk_md_phora8A-aa" totalcount="20" value="RILSGVQPTG-LHIGNWLAIRNWVNLQNTETYVCVVDLHAEDTRNTAALYLACSTVFVQSHDYPIMMAADILLVPVGEDQKQHLELARDIAQQRPEPLIM"/>
+                    <sequence id="seq_trp_euk_md_ranae6A-aa1" taxon="trp_euk_md_ranae6A-aa" totalcount="20" value="YLYTGRGPSSKMHLGHVIPFQLCKYFQDTPLVIQMTDDETKYCAENIKDIIAFTYIFSNVEGFPAKEIAPCFLIPCAVDQDPYFRLARDKASVMPTTLYV"/>
+                    <sequence id="seq_trp_euk_md_rerio18A-aa1" taxon="trp_euk_md_rerio18A-aa" totalcount="20" value="YLYTGRGPSSQIHVGHLIPFIFTKWLQDVPLVIQLTDDERRFTVENARDIIACTFIFSDLESFPAIQAAPSFLIPCAIDQDPYFRMTRDVAPRIPALLHS"/>
+                    <sequence id="seq_trp_euk_md_tatus1A-aa1" taxon="trp_euk_md_tatus1A-aa" totalcount="20" value="YLYTGRGPSSELHLGHLVPFMFTKYLQDAPLVIQLTDDEQRLARENAKDIIACTFIFSDFDSFPPVQAAPSFLIPCAIDQDPYFRMTRDVAPRIPALIES"/>
+                    <sequence id="seq_trp_euk_md_theta3A-aa1" taxon="trp_euk_md_theta3A-aa" totalcount="20" value="YLYTGRGPSSDLHMGHLIPFMFTKWLQDTPLVIQMTDDEYELGKENAKDIIACTFIFSNLESFPAIQAAPSFLIPCAIDQDPYFRMTRDVAPRLPALLHS"/>
+                    <sequence id="seq_trp_euk_md_uberi7A-aa1" taxon="trp_euk_md_uberi7A-aa" totalcount="20" value="YLYTGRGPSSEMHLGHLIPFMFTKYLQDVPLVVQMTDDEHRLTYENAKDIIACTFIFSNLDSFPAIQAAPSFLIPCAIDQDPYFRVTRDVAPKLPALIHS"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="10000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:Trp_ArchEuk" name="stateNode">
+            <taxonset id="TaxonSet.Trp_ArchEuk" spec="TaxonSet">
+                <alignment idref="Trp_ArchEuk"/>
+            </taxonset>
+        </tree>
+        <parameter id="gammaShape.s:Trp_ArchEuk" name="stateNode">1.0</parameter>
+        <parameter id="mutationRate.s:Trp_ArchEuk" name="stateNode">1.0</parameter>
+        <parameter id="ucldStdev.c:Trp_ArchEuk" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:Trp_ArchEuk" spec="parameter.IntegerParameter" dimension="72">1</stateNode>
+        <parameter id="birthRate2.t:Trp_ArchEuk" lower="0.0" name="stateNode" upper="10000.0">1.0</parameter>
+        <parameter id="relativeDeathRate2.t:Trp_ArchEuk" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+    </state>
+
+    <init id="RandomTree.t:Trp_ArchEuk" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Trp_ArchEuk" taxa="@Trp_ArchEuk">
+        <populationModel id="ConstantPopulation0.t:Trp_ArchEuk" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Trp_ArchEuk" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BirthDeath.t:Trp_ArchEuk" spec="beast.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@birthRate2.t:Trp_ArchEuk" relativeDeathRate="@relativeDeathRate2.t:Trp_ArchEuk" tree="@Tree.t:Trp_ArchEuk"/>
+            <prior id="BirthRatePrior.t:Trp_ArchEuk" name="distribution" x="@birthRate2.t:Trp_ArchEuk">
+                <Uniform id="Uniform.4" name="distr" upper="1000.0"/>
+            </prior>
+            <prior id="GammaShapePrior.s:Trp_ArchEuk" name="distribution" x="@gammaShape.s:Trp_ArchEuk">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="DeathRatePrior.t:Trp_ArchEuk" name="distribution" x="@relativeDeathRate2.t:Trp_ArchEuk">
+                <Uniform id="Uniform.5" name="distr"/>
+            </prior>
+            <prior id="ucldStdevPrior.c:Trp_ArchEuk" name="distribution" x="@ucldStdev.c:Trp_ArchEuk">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.Trp_ArchEuk" spec="ThreadedTreeLikelihood" data="@Trp_ArchEuk" tree="@Tree.t:Trp_ArchEuk">
+                <siteModel id="SiteModel.s:Trp_ArchEuk" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:Trp_ArchEuk" shape="@gammaShape.s:Trp_ArchEuk">
+                    <parameter id="proportionInvariant.s:Trp_ArchEuk" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:Trp_ArchEuk" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:Trp_ArchEuk" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:Trp_ArchEuk" tree="@Tree.t:Trp_ArchEuk">
+                    <LogNormal id="LogNormalDistributionModel.c:Trp_ArchEuk" S="@ucldStdev.c:Trp_ArchEuk" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.1" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:Trp_ArchEuk" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="gammaShapeScaler.s:Trp_ArchEuk" spec="ScaleOperator" parameter="@gammaShape.s:Trp_ArchEuk" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+        <parameter idref="mutationRate.s:Trp_ArchEuk"/>
+        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">100</weightvector>
+    </operator>
+
+    <operator id="ucldStdevScaler.c:Trp_ArchEuk" spec="ScaleOperator" parameter="@ucldStdev.c:Trp_ArchEuk" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:Trp_ArchEuk" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Trp_ArchEuk" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:Trp_ArchEuk" spec="SwapOperator" intparameter="@rateCategories.c:Trp_ArchEuk" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:Trp_ArchEuk" spec="UniformOperator" parameter="@rateCategories.c:Trp_ArchEuk" weight="10.0"/>
+
+    <operator id="BirthDeathTreeScaler.t:Trp_ArchEuk" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:Trp_ArchEuk" weight="3.0"/>
+
+    <operator id="BirthDeathTreeRootScaler.t:Trp_ArchEuk" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Trp_ArchEuk" weight="3.0"/>
+
+    <operator id="BirthDeathUniformOperator.t:Trp_ArchEuk" spec="Uniform" tree="@Tree.t:Trp_ArchEuk" weight="30.0"/>
+
+    <operator id="BirthDeathSubtreeSlide.t:Trp_ArchEuk" spec="SubtreeSlide" tree="@Tree.t:Trp_ArchEuk" weight="15.0"/>
+
+    <operator id="BirthDeathNarrow.t:Trp_ArchEuk" spec="Exchange" tree="@Tree.t:Trp_ArchEuk" weight="15.0"/>
+
+    <operator id="BirthDeathWide.t:Trp_ArchEuk" spec="Exchange" isNarrow="false" tree="@Tree.t:Trp_ArchEuk" weight="3.0"/>
+
+    <operator id="BirthDeathWilsonBalding.t:Trp_ArchEuk" spec="WilsonBalding" tree="@Tree.t:Trp_ArchEuk" weight="3.0"/>
+
+    <operator id="BirthRateScaler.t:Trp_ArchEuk" spec="ScaleOperator" parameter="@birthRate2.t:Trp_ArchEuk" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="DeathRateScaler.t:Trp_ArchEuk" spec="ScaleOperator" parameter="@relativeDeathRate2.t:Trp_ArchEuk" scaleFactor="0.75" weight="3.0"/>
+
+    <logger id="tracelog" fileName="Trp_ArchEuk.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.Trp_ArchEuk"/>
+        <log id="TreeHeight.t:Trp_ArchEuk" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Trp_ArchEuk"/>
+        <log idref="gammaShape.s:Trp_ArchEuk"/>
+        <log idref="mutationRate.s:Trp_ArchEuk"/>
+        <log idref="ucldStdev.c:Trp_ArchEuk"/>
+        <log id="rate.c:Trp_ArchEuk" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Trp_ArchEuk" tree="@Tree.t:Trp_ArchEuk"/>
+        <log idref="BirthDeath.t:Trp_ArchEuk"/>
+        <log idref="birthRate2.t:Trp_ArchEuk"/>
+        <log idref="relativeDeathRate2.t:Trp_ArchEuk"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:Trp_ArchEuk" fileName="Trp_ArchEuk.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Trp_ArchEuk" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:Trp_ArchEuk" tree="@Tree.t:Trp_ArchEuk"/>
+    </logger>
+
+</run>
+
+</beast>

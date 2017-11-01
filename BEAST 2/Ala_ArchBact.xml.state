@@ -1,0 +1,28 @@
+<itsabeastystatewerein version='2.0' sample='5514999'>
+<statenode id='Tree.t:Ala_ArchBact'>((((((0:0.331213306702144,((16:0.25149181573402174,(3:0.14624058277377217,18:0.14624058277377217)40:0.10525123296024957)36:0.048835408486407994,23:0.30032722422042973)50:0.03088608248171426)39:0.029186582657229232,((24:0.24517350087434234,(22:0.20682806948003837,15:0.20682806948003837)33:0.038345431394303964)57:0.033957378641364694,(19:0.18616175295049323,26:0.18616175295049323)38:0.0929691265652138)51:0.0812690098436662)59:0.08038141890189321,(((21:0.07323529029401875,28:0.07323529029401875)53:0.022506039930575136,31:0.09574133022459388)52:0.08754117662843605,27:0.18328250685302994)41:0.2574988014082365)58:0.07110674304332126,(((17:0.18374345971437014,25:0.18374345971437014)42:0.1284449818207599,30:0.31218844153513003)32:0.03764666361310631,20:0.34983510514823635)56:0.16205294615635135)54:0.06285747553035947,29:0.5747455268349472)61:0.4018950692612717,((((11:0.20934396613862502,1:0.20934396613862502)48:0.07037965426570511,8:0.27972362040433013)49:0.3363008976571615,(((((4:0.058548621994439325,14:0.058548621994439325)35:0.1505715237228353,12:0.20912014571727464)44:0.06697594676662241,6:0.27609609248389705)60:0.1569313994741397,7:0.43302749195803675)46:0.12031720874820434,(9:0.35545147930096,(10:0.11415330866622311,13:0.11415330866622311)47:0.24129817063473688)34:0.1978932214052811)45:0.06267981735525052)43:0.008551191398462277,(2:0.47201559472466853,5:0.47201559472466853)55:0.15256011473528536)37:0.352064886636265)62:0.0</statenode>
+<statenode id='gammaShape.s:Ala_ArchBact'>gammaShape.s:Ala_ArchBact[1 1] (0.001,1000.0): 0.7421625200230105 </statenode>
+<statenode id='mutationRate.s:Ala_ArchBact'>mutationRate.s:Ala_ArchBact[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='ucldStdev.c:Ala_ArchBact'>ucldStdev.c:Ala_ArchBact[1 1] (0.0,Infinity): 0.32569692788424026 </statenode>
+<statenode id='rateCategories.c:Ala_ArchBact'>rateCategories.c:Ala_ArchBact[62 1] (0,61): 20 26 7 45 15 38 18 28 2 43 33 0 55 30 2 58 47 38 26 18 32 48 28 37 29 24 33 35 1 53 37 41 51 20 16 6 6 61 58 9 56 50 38 34 47 47 40 1 49 13 61 17 33 57 33 37 25 10 10 9 39 13 </statenode>
+<statenode id='birthRate2.t:Ala_ArchBact'>birthRate2.t:Ala_ArchBact[1 1] (0.0,10000.0): 2.5790539439956244 </statenode>
+<statenode id='relativeDeathRate2.t:Ala_ArchBact'>relativeDeathRate2.t:Ala_ArchBact[1 1] (0.0,1.0): 0.06893185902758864 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"gammaShapeScaler.s:Ala_ArchBact","p":0.4358247038740453,"accept":960,"reject":3959,"acceptFC":949,"rejectFC":3939,"rejectIv":0,"rejectOp":0},
+{"id":"FixMeanMutationRatesOperator","p":3579.540211759841,"accept":97518,"reject":0,"acceptFC":96894,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"ucldStdevScaler.c:Ala_ArchBact","p":0.25547353785023713,"accept":35045,"reject":110815,"acceptFC":34659,"rejectFC":110275,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesRandomWalk.c:Ala_ArchBact","p":"NaN","accept":314818,"reject":173656,"acceptFC":312888,"rejectFC":172557,"rejectIv":168170,"rejectOp":168170},
+{"id":"CategoriesSwapOperator.c:Ala_ArchBact","p":"NaN","accept":339923,"reject":147030,"acceptFC":337902,"rejectFC":146005,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesUniform.c:Ala_ArchBact","p":"NaN","accept":382131,"reject":105465,"acceptFC":379851,"rejectFC":104714,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeScaler.t:Ala_ArchBact","p":0.6001664685747627,"accept":32870,"reject":113027,"acceptFC":32705,"rejectFC":112244,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeRootScaler.t:Ala_ArchBact","p":0.48805531683704,"accept":26837,"reject":119532,"acceptFC":26696,"rejectFC":118796,"rejectIv":12958,"rejectOp":12958},
+{"id":"BirthDeathUniformOperator.t:Ala_ArchBact","p":"NaN","accept":598361,"reject":863900,"acceptFC":594707,"rejectFC":858642,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathSubtreeSlide.t:Ala_ArchBact","p":0.7957318136384738,"accept":37129,"reject":695326,"acceptFC":36890,"rejectFC":690730,"rejectIv":304449,"rejectOp":304449},
+{"id":"BirthDeathNarrow.t:Ala_ArchBact","p":"NaN","accept":85267,"reject":647180,"acceptFC":84666,"rejectFC":643171,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathWide.t:Ala_ArchBact","p":"NaN","accept":453,"reject":145545,"acceptFC":450,"rejectFC":144649,"rejectIv":74218,"rejectOp":74218},
+{"id":"BirthDeathWilsonBalding.t:Ala_ArchBact","p":"NaN","accept":662,"reject":145313,"acceptFC":647,"rejectFC":144479,"rejectIv":17615,"rejectOp":17615},
+{"id":"BirthRateScaler.t:Ala_ArchBact","p":0.37977014227698463,"accept":40504,"reject":105359,"acceptFC":39879,"rejectFC":105093,"rejectIv":0,"rejectOp":0},
+{"id":"DeathRateScaler.t:Ala_ArchBact","p":0.1329962391731339,"accept":36859,"reject":109556,"acceptFC":36123,"rejectFC":109424,"rejectIv":32288,"rejectOp":32288}
+]}
+-->
