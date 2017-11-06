@@ -1,0 +1,28 @@
+<itsabeastystatewerein version='2.0' sample='4999999'>
+<statenode id='Tree.t:Val_BactEuk'>((((18:0.5448468217720407,(((((20:0.3521545509495536,(26:0.20884700688279784,30:0.20884700688279784)59:0.14330754406675578)36:0.01911239276004123,24:0.37126694370959484)46:0.03824179729047472,(17:0.18724918084818395,23:0.18724918084818395)31:0.2222595601518856)37:2.554818809236692E-4,(((19:0.14218788711507885,(25:0.13276025605954514,22:0.13276025605954514)47:0.009427631055533708)34:0.139854749734301,27:0.28204263684937986)53:0.05311702232372534,28:0.3351596591731052)40:0.07460456370788804)49:0.02588368767248217,21:0.4356479105534754)52:0.10919891121856529)32:0.05819680367343116,16:0.6030436254454719)44:0.0314293869821477,2:0.6344730124276196)42:0.019963791111567097,((((14:0.15233453710770484,10:0.15233453710770484)57:0.08410692845847051,(0:7.040646197260953E-4,6:7.040646197260953E-4)41:0.23573740094644924)45:0.07370649136340846,((1:0.15608643611607506,3:0.15608643611607506)35:0.09438355115492106,((4:0.09601606589967478,9:0.09601606589967478)51:0.033082706062760744,29:0.12909877196243552)38:0.1213712153085606)54:0.05967796965858768)39:0.2460626966156701,((8:0.309070972648843,(((7:0.025072420536055705,5:0.025072420536055705)33:0.07567358920957645,15:0.10074600974563216)55:0.11994951076047891,11:0.22069552050611108)50:0.0883754521427319)48:0.09944418115193321,(12:0.1627726808525212,13:0.1627726808525212)43:0.245742472948255)58:0.1476954997444777)56:0.09822614999393275)60:0.0</statenode>
+<statenode id='gammaShape.s:Val_BactEuk'>gammaShape.s:Val_BactEuk[1 1] (0.001,1000.0): 0.6173421707062063 </statenode>
+<statenode id='mutationRate.s:Val_BactEuk'>mutationRate.s:Val_BactEuk[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='ucldStdev.c:Val_BactEuk'>ucldStdev.c:Val_BactEuk[1 1] (0.0,Infinity): 0.4376408226700977 </statenode>
+<statenode id='rateCategories.c:Val_BactEuk'>rateCategories.c:Val_BactEuk[60 1] (0,59): 54 49 27 45 4 31 58 26 33 42 48 38 26 46 55 41 7 52 25 27 12 22 2 32 9 58 57 34 19 44 3 24 23 6 40 33 10 10 27 0 12 38 21 29 45 33 25 56 1 27 53 34 12 42 55 43 37 0 18 20 </statenode>
+<statenode id='birthRate2.t:Val_BactEuk'>birthRate2.t:Val_BactEuk[1 1] (0.0,10000.0): 2.987316927615514 </statenode>
+<statenode id='relativeDeathRate2.t:Val_BactEuk'>relativeDeathRate2.t:Val_BactEuk[1 1] (0.0,1.0): 0.12315676698723252 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"gammaShapeScaler.s:Val_BactEuk","p":0.5193154371179011,"accept":1067,"reject":3288,"acceptFC":1062,"rejectFC":3261,"rejectIv":0,"rejectOp":0},
+{"id":"FixMeanMutationRatesOperator","p":3313.3900090750844,"accept":88349,"reject":0,"acceptFC":87707,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"ucldStdevScaler.c:Val_BactEuk","p":0.40185417696042874,"accept":30845,"reject":102511,"acceptFC":30573,"rejectFC":101878,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesRandomWalk.c:Val_BactEuk","p":"NaN","accept":280748,"reject":160943,"acceptFC":278715,"rejectFC":159724,"rejectIv":152612,"rejectOp":152612},
+{"id":"CategoriesSwapOperator.c:Val_BactEuk","p":"NaN","accept":246713,"reject":194959,"acceptFC":245075,"rejectFC":193490,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesUniform.c:Val_BactEuk","p":"NaN","accept":300027,"reject":143198,"acceptFC":298022,"rejectFC":142154,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeScaler.t:Val_BactEuk","p":0.5705762166039737,"accept":26891,"reject":105600,"acceptFC":26757,"rejectFC":104811,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeRootScaler.t:Val_BactEuk","p":0.5250026892488382,"accept":14532,"reject":118557,"acceptFC":14445,"rejectFC":117733,"rejectIv":36006,"rejectOp":36006},
+{"id":"BirthDeathUniformOperator.t:Val_BactEuk","p":"NaN","accept":587968,"reject":736379,"acceptFC":583753,"rejectFC":731253,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathSubtreeSlide.t:Val_BactEuk","p":1.847192821986417,"accept":11022,"reject":652860,"acceptFC":10846,"rejectFC":648331,"rejectIv":313355,"rejectOp":313355},
+{"id":"BirthDeathNarrow.t:Val_BactEuk","p":"NaN","accept":152398,"reject":510624,"acceptFC":151184,"rejectFC":507128,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathWide.t:Val_BactEuk","p":"NaN","accept":916,"reject":132016,"acceptFC":901,"rejectFC":131128,"rejectIv":67329,"rejectOp":67329},
+{"id":"BirthDeathWilsonBalding.t:Val_BactEuk","p":"NaN","accept":1405,"reject":131432,"acceptFC":1380,"rejectFC":130543,"rejectIv":16470,"rejectOp":16470},
+{"id":"BirthRateScaler.t:Val_BactEuk","p":0.3701951948754922,"accept":35515,"reject":96593,"acceptFC":34818,"rejectFC":96338,"rejectIv":0,"rejectOp":0},
+{"id":"DeathRateScaler.t:Val_BactEuk","p":0.15595423031668307,"accept":39067,"reject":93577,"acceptFC":38288,"rejectFC":93424,"rejectIv":17302,"rejectOp":17302}
+]}
+-->
