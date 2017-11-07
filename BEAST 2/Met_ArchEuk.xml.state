@@ -1,0 +1,28 @@
+<itsabeastystatewerein version='2.0' sample='10000000'>
+<statenode id='Tree.t:Met_ArchEuk'>((((((0:0.008038666247380984,15:0.008038666247380984)55:0.4782294033787895,16:0.4862680696261705)38:0.13195935609487136,((2:0.09804865032448386,4:0.09804865032448386)54:0.3754023647901597,12:0.47345101511464355)51:0.1447764106063983)64:0.013147040999619053,((5:0.23192782598445666,((6:0.11403196562054749,8:0.11403196562054749)49:0.04301169792082804,13:0.15704366354137553)62:0.07488416244308113)47:0.29444347743607074,(((7:0.06919901057707842,9:0.06919901057707842)48:0.12165416206137272,10:0.19085317263845114)40:0.1913306388994639,11:0.38218381153791503)60:0.14418749188261237)61:0.10500316330013348)52:0.1369187717713629,(((1:0.11393120683026486,(14:0.032061659752158043,18:0.032061659752158043)44:0.08186954707810681)41:0.05507649947911711,3:0.16900770630938197)43:0.4748445316733292,((19:0.16767336928314883,33:0.16767336928314883)66:0.055588177149564266,(((21:0.11519941270559811,28:0.11519941270559811)59:0.10264618009393234,27:0.21784559279953045)36:1.5822928954456472E-4,(22:0.1612281989593962,(25:0.09936753645115745,26:0.09936753645115745)46:0.06186066250823874)42:0.05677562312967882)67:0.005257724343638082)53:0.42059069154999806)45:0.12444100050931262)35:0.33657727613179067,((17:0.6069471621020667,((20:0.4571554282597527,30:0.4571554282597527)57:0.016262850877834967,(29:0.4057374778099998,34:0.4057374778099998)56:0.06768080132758786)37:0.133528882964479)39:0.05607303586767365,(23:0.5417749093506858,(24:0.2488445254836234,(31:0.18945667845930111,32:0.18945667845930111)63:0.05938784702432229)58:0.29293038386706244)50:0.12124528861905448)65:0.44185031665407415)68:0.0</statenode>
+<statenode id='gammaShape.s:Met_ArchEuk'>gammaShape.s:Met_ArchEuk[1 1] (0.001,1000.0): 0.9870871935613751 </statenode>
+<statenode id='mutationRate.s:Met_ArchEuk'>mutationRate.s:Met_ArchEuk[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='ucldStdev.c:Met_ArchEuk'>ucldStdev.c:Met_ArchEuk[1 1] (0.0,Infinity): 0.5478598419180307 </statenode>
+<statenode id='rateCategories.c:Met_ArchEuk'>rateCategories.c:Met_ArchEuk[68 1] (0,67): 6 64 16 43 39 51 44 33 65 31 38 9 22 40 61 23 7 11 56 4 42 48 20 24 29 45 36 47 54 46 45 16 48 65 43 39 5 51 1 56 50 20 2 20 8 8 21 34 60 63 31 9 10 35 6 8 44 50 16 43 49 52 15 19 2 24 43 15 </statenode>
+<statenode id='birthRate2.t:Met_ArchEuk'>birthRate2.t:Met_ArchEuk[1 1] (0.0,10000.0): 2.8700519619576945 </statenode>
+<statenode id='relativeDeathRate2.t:Met_ArchEuk'>relativeDeathRate2.t:Met_ArchEuk[1 1] (0.0,1.0): 0.03838469387470816 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"gammaShapeScaler.s:Met_ArchEuk","p":0.45480604614316733,"accept":2169,"reject":6660,"acceptFC":2155,"rejectFC":6636,"rejectIv":0,"rejectOp":0},
+{"id":"FixMeanMutationRatesOperator","p":5644.650778554801,"accept":176279,"reject":0,"acceptFC":175628,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"ucldStdevScaler.c:Met_ArchEuk","p":0.5240624841460229,"accept":68416,"reject":197528,"acceptFC":68219,"rejectFC":196772,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesRandomWalk.c:Met_ArchEuk","p":"NaN","accept":560937,"reject":321513,"acceptFC":558988,"rejectFC":320443,"rejectIv":303058,"rejectOp":303058},
+{"id":"CategoriesSwapOperator.c:Met_ArchEuk","p":"NaN","accept":424679,"reject":459006,"acceptFC":423294,"rejectFC":457309,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesUniform.c:Met_ArchEuk","p":"NaN","accept":541537,"reject":343172,"acceptFC":539854,"rejectFC":341841,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeScaler.t:Met_ArchEuk","p":0.58793050713822,"accept":56064,"reject":209497,"acceptFC":55933,"rejectFC":208728,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeRootScaler.t:Met_ArchEuk","p":0.5365329173437073,"accept":39272,"reject":226104,"acceptFC":39136,"rejectFC":225318,"rejectIv":48605,"rejectOp":48605},
+{"id":"BirthDeathUniformOperator.t:Met_ArchEuk","p":"NaN","accept":1070723,"reject":1584423,"acceptFC":1066838,"rejectFC":1578867,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathSubtreeSlide.t:Met_ArchEuk","p":0.5116900280645347,"accept":95921,"reject":1229422,"acceptFC":95704,"rejectFC":1224958,"rejectIv":499281,"rejectOp":499281},
+{"id":"BirthDeathNarrow.t:Met_ArchEuk","p":"NaN","accept":229097,"reject":1096937,"acceptFC":228021,"rejectFC":1093373,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathWide.t:Met_ArchEuk","p":"NaN","accept":1197,"reject":263582,"acceptFC":1186,"rejectFC":262650,"rejectIv":134588,"rejectOp":134588},
+{"id":"BirthDeathWilsonBalding.t:Met_ArchEuk","p":"NaN","accept":1366,"reject":264240,"acceptFC":1352,"rejectFC":263367,"rejectIv":29726,"rejectOp":29726},
+{"id":"BirthRateScaler.t:Met_ArchEuk","p":0.39098278333345055,"accept":72288,"reject":192871,"acceptFC":71652,"rejectFC":192571,"rejectIv":0,"rejectOp":0},
+{"id":"DeathRateScaler.t:Met_ArchEuk","p":0.13847498514877196,"accept":69189,"reject":195912,"acceptFC":68378,"rejectFC":195804,"rejectIv":51576,"rejectOp":51576}
+]}
+-->
