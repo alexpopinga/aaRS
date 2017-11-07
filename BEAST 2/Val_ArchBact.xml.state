@@ -1,0 +1,28 @@
+<itsabeastystatewerein version='2.0' sample='299999'>
+<statenode id='Tree.t:Val_ArchBact'>(((((30:0.29987528576520384,29:0.29987528576520384)49:0.06429691017932876,15:0.3641721959445326)48:0.0984834152618812,(((27:0.3463725757193507,19:0.3463725757193507)54:0.032683956494902355,((0:0.015641488121382472,23:0.015641488121382472)59:0.26472768691993886,31:0.28036917504132136)50:0.0986873571729317)45:0.06260032476631583,((18:0.16580419303911068,20:0.16580419303911068)57:0.09153649871835592,(21:0.07311039526658418,26:0.07311039526658418)47:0.1842302964908824)61:0.1843161652231023)46:0.020998754225844907)55:0.01721469566311329,((28:0.19148751546965753,((22:0.04222302278356142,24:0.04222302278356142)40:0.040118884075850306,32:0.08234190685941173)42:0.1091456086102458)35:0.21059705245608168,25:0.4020845679257392)58:0.07778573894378787)63:0.92017954625244,(((((1:0.051382965473355774,17:0.051382965473355774)39:0.14506272133435105,5:0.19644568680770683)44:0.29166072124453946,14:0.48810640805224625)36:0.22446498681686788,((((8:0.2524723297761252,(10:0.2049348374546627,11:0.2049348374546627)33:0.04753749232146251)37:0.07411054761696467,9:0.3265828773930899)41:0.011727037977455612,((12:0.2017990800562126,13:0.2017990800562126)38:0.039763063102226326,(3:0.047797864950479996,16:0.047797864950479996)51:0.19376427820795894)43:0.09674777221210656)52:0.143312899010757,(4:0.3885610993608011,7:0.3885610993608011)34:0.09306171502050142)56:0.23094858048781164)60:0.19703820808591366,(2:0.042075697569295585,6:0.042075697569295585)62:0.8675339053857322)53:0.4904402501669394)64:0.0</statenode>
+<statenode id='gammaShape.s:Val_ArchBact'>gammaShape.s:Val_ArchBact[1 1] (0.001,1000.0): 1.253265724194073 </statenode>
+<statenode id='mutationRate.s:Val_ArchBact'>mutationRate.s:Val_ArchBact[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='ucldStdev.c:Val_ArchBact'>ucldStdev.c:Val_ArchBact[1 1] (0.0,Infinity): 0.2930517382101238 </statenode>
+<statenode id='rateCategories.c:Val_ArchBact'>rateCategories.c:Val_ArchBact[64 1] (0,63): 14 48 63 28 61 63 25 5 7 34 11 34 38 30 13 5 37 27 40 16 40 11 52 6 21 15 10 5 60 16 37 21 10 62 24 16 35 37 60 56 25 53 19 29 30 47 39 47 14 52 53 29 3 41 53 20 39 20 1 20 25 4 27 19 </statenode>
+<statenode id='birthRate2.t:Val_ArchBact'>birthRate2.t:Val_ArchBact[1 1] (0.0,10000.0): 1.903700935285568 </statenode>
+<statenode id='relativeDeathRate2.t:Val_ArchBact'>relativeDeathRate2.t:Val_ArchBact[1 1] (0.0,1.0): 0.019783736756366504 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"gammaShapeScaler.s:Val_ArchBact","p":0.45086233901967054,"accept":1255,"reject":3118,"acceptFC":1243,"rejectFC":3099,"rejectIv":0,"rejectOp":0},
+{"id":"FixMeanMutationRatesOperator","p":3324.98001529353,"accept":88597,"reject":0,"acceptFC":87990,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"ucldStdevScaler.c:Val_ArchBact","p":0.44705158097033465,"accept":31549,"reject":101527,"acceptFC":31333,"rejectFC":100830,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesRandomWalk.c:Val_ArchBact","p":"NaN","accept":283571,"reject":161631,"acceptFC":281654,"rejectFC":160482,"rejectIv":153059,"rejectOp":153059},
+{"id":"CategoriesSwapOperator.c:Val_ArchBact","p":"NaN","accept":234515,"reject":210741,"acceptFC":233096,"rejectFC":209005,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesUniform.c:Val_ArchBact","p":"NaN","accept":288754,"reject":156050,"acceptFC":287005,"rejectFC":154709,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeScaler.t:Val_ArchBact","p":0.6052061851719768,"accept":27939,"reject":106013,"acceptFC":27801,"rejectFC":105166,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeRootScaler.t:Val_ArchBact","p":0.4930817223389714,"accept":22812,"reject":110696,"acceptFC":22659,"rejectFC":109863,"rejectIv":21642,"rejectOp":21642},
+{"id":"BirthDeathUniformOperator.t:Val_ArchBact","p":"NaN","accept":482181,"reject":854602,"acceptFC":478866,"rejectFC":848716,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathSubtreeSlide.t:Val_ArchBact","p":1.0463351747298881,"accept":21740,"reject":645707,"acceptFC":21556,"rejectFC":641302,"rejectIv":295505,"rejectOp":295505},
+{"id":"BirthDeathNarrow.t:Val_ArchBact","p":"NaN","accept":59672,"reject":608183,"acceptFC":59180,"rejectFC":603895,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathWide.t:Val_ArchBact","p":"NaN","accept":253,"reject":133446,"acceptFC":246,"rejectFC":132494,"rejectIv":68001,"rejectOp":68001},
+{"id":"BirthDeathWilsonBalding.t:Val_ArchBact","p":"NaN","accept":388,"reject":132914,"acceptFC":376,"rejectFC":132011,"rejectIv":15919,"rejectOp":15919},
+{"id":"BirthRateScaler.t:Val_ArchBact","p":0.37194787417307074,"accept":35878,"reject":97561,"acceptFC":35243,"rejectFC":97262,"rejectIv":0,"rejectOp":0},
+{"id":"DeathRateScaler.t:Val_ArchBact","p":0.12335907226470433,"accept":31653,"reject":102054,"acceptFC":30846,"rejectFC":101903,"rejectIv":42325,"rejectOp":42325}
+]}
+-->

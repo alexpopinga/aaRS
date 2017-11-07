@@ -1,0 +1,28 @@
+<itsabeastystatewerein version='2.0' sample='1269999'>
+<statenode id='Tree.t:Ser_ArchEuk'>((1:1.0243787191335452,(5:0.47841018912319483,(8:0.25346691254819587,(11:0.1587598126368436,17:0.1587598126368436)58:0.09470709991135226)61:0.22494327657499896)67:0.5459685300103503)71:1.3931605918915961,(((((0:0.39767763716084914,(30:0.2376142716738508,26:0.2376142716738508)60:0.16006336548699834)70:0.03818548884871714,35:0.4358631260095663)41:0.3863731018733246,(((3:0.05135257927776514,10:0.05135257927776514)65:0.5472019906276663,(((((25:0.23646898993104506,21:0.23646898993104506)64:0.11989099457431282,(((23:0.20341422646785084,34:0.20341422646785084)69:0.05962515054236417,32:0.263039377010215)66:0.03725189646462973,29:0.30029127347484474)37:0.05606871103051314)62:0.014546930260856183,((24:0.06314585559370874,20:0.06314585559370874)52:0.0819747766224775,27:0.14512063221618623)40:0.22578628255002783)44:0.04957108447036607,(22:0.22252285969538252,36:0.22252285969538252)54:0.19795513954119762)57:0.014024905907395968,28:0.4345029051439761)53:0.16405166476145533)49:0.05351838711293777,(((7:0.2702715752129101,(((2:0.047112536379898234,18:0.047112536379898234)51:0.06634323889127841,16:0.11345577527117665)42:0.03595862332604838,4:0.14941439859722502)56:0.1208571766156851)39:0.0716896784424188,9:0.3419612536553289)59:0.04070227915462882,(6:0.22682334176065522,14:0.22682334176065522)50:0.15584019104930252)38:0.26940942420841146)63:0.17016327086452165)45:0.18117286432571167,12:1.0034090922086025)43:0.026379203138327423,(((33:0.24464857668144108,13:0.24464857668144108)48:0.012285509483520252,31:0.25693408616496133)46:0.14636163091531879,(15:0.33931444364585117,19:0.33931444364585117)68:0.06398127343442894)47:0.6264925782666498)55:1.3877510156782114)72:0.0</statenode>
+<statenode id='gammaShape.s:Ser_ArchEuk'>gammaShape.s:Ser_ArchEuk[1 1] (0.001,1000.0): 0.9802767734588815 </statenode>
+<statenode id='mutationRate.s:Ser_ArchEuk'>mutationRate.s:Ser_ArchEuk[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='ucldStdev.c:Ser_ArchEuk'>ucldStdev.c:Ser_ArchEuk[1 1] (0.0,Infinity): 5.888834064582764E-4 </statenode>
+<statenode id='rateCategories.c:Ser_ArchEuk'>rateCategories.c:Ser_ArchEuk[72 1] (0,71): 44 51 24 38 22 20 10 32 64 53 60 45 53 35 47 46 32 22 34 52 9 13 48 46 48 17 62 12 9 30 3 43 58 70 26 53 37 26 27 39 26 58 24 14 44 2 16 20 60 22 23 36 29 18 65 63 45 40 17 71 3 51 36 9 0 3 0 6 66 36 1 62 </statenode>
+<statenode id='birthRate2.t:Ser_ArchEuk'>birthRate2.t:Ser_ArchEuk[1 1] (0.0,10000.0): 1.7929389132130196 </statenode>
+<statenode id='relativeDeathRate2.t:Ser_ArchEuk'>relativeDeathRate2.t:Ser_ArchEuk[1 1] (0.0,1.0): 0.06767156275782922 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"gammaShapeScaler.s:Ser_ArchEuk","p":0.5406792711857995,"accept":1119,"reject":3341,"acceptFC":1113,"rejectFC":3321,"rejectIv":0,"rejectOp":0},
+{"id":"FixMeanMutationRatesOperator","p":3335.623930234364,"accept":89011,"reject":0,"acceptFC":88406,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"ucldStdevScaler.c:Ser_ArchEuk","p":0.23981527413170792,"accept":30907,"reject":101735,"acceptFC":30687,"rejectFC":101007,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesRandomWalk.c:Ser_ArchEuk","p":"NaN","accept":286664,"reject":155264,"acceptFC":284698,"rejectFC":154166,"rejectIv":151453,"rejectOp":151453},
+{"id":"CategoriesSwapOperator.c:Ser_ArchEuk","p":"NaN","accept":319802,"reject":123706,"acceptFC":318213,"rejectFC":122235,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesUniform.c:Ser_ArchEuk","p":"NaN","accept":355178,"reject":86847,"acceptFC":353265,"rejectFC":85693,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeScaler.t:Ser_ArchEuk","p":0.5902918671172277,"accept":30064,"reject":103172,"acceptFC":29894,"rejectFC":102395,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeRootScaler.t:Ser_ArchEuk","p":0.4924453217079084,"accept":27903,"reject":105534,"acceptFC":27708,"rejectFC":104770,"rejectIv":5064,"rejectOp":5064},
+{"id":"BirthDeathUniformOperator.t:Ser_ArchEuk","p":"NaN","accept":516935,"reject":809538,"acceptFC":513233,"rejectFC":803959,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathSubtreeSlide.t:Ser_ArchEuk","p":0.9040396212066099,"accept":32896,"reject":629791,"acceptFC":32632,"rejectFC":625399,"rejectIv":273186,"rejectOp":273186},
+{"id":"BirthDeathNarrow.t:Ser_ArchEuk","p":"NaN","accept":123042,"reject":540912,"acceptFC":122225,"rejectFC":537038,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathWide.t:Ser_ArchEuk","p":"NaN","accept":592,"reject":132802,"acceptFC":586,"rejectFC":131831,"rejectIv":67257,"rejectOp":67257},
+{"id":"BirthDeathWilsonBalding.t:Ser_ArchEuk","p":"NaN","accept":711,"reject":131927,"acceptFC":697,"rejectFC":131000,"rejectIv":14364,"rejectOp":14364},
+{"id":"BirthRateScaler.t:Ser_ArchEuk","p":0.39431583367371764,"accept":36094,"reject":96333,"acceptFC":35442,"rejectFC":96055,"rejectIv":0,"rejectOp":0},
+{"id":"DeathRateScaler.t:Ser_ArchEuk","p":0.12103088439223914,"accept":31400,"reject":101780,"acceptFC":30584,"rejectFC":101666,"rejectIv":40710,"rejectOp":40710}
+]}
+-->
