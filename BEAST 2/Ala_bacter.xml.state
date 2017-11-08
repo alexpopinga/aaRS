@@ -1,0 +1,35 @@
+<itsabeastystatewerein version='2.0' sample='159999'>
+<statenode id='Tree.t:Ala'>((30:0.721574530418142,(((37:0.5601937373796618,(((24:0.34980019201180196,(17:0.2883027192146809,(4:0.1853545333380167,19:0.1853545333380167)86:0.10294818587666421)72:0.06149747279712103)51:0.15064298413434135,((1:0.31768569320945356,(16:0.25970230309389286,((23:0.21081937005033866,#1[&amp;conv=1, region={0,43}, locus="locus.Ala", relSize=0.423077, affectedSites=44, uselessSiteFraction=0.00000]:0.08413493716481668):0.02860822866882312,#0[&amp;conv=0, region={0,47}, locus="locus.Ala", relSize=0.461538, affectedSites=4, uselessSiteFraction=0.916667]:0.011062270339640412):0.020274704374731084)57:0.057983390115560696)92:0.060036797522092344,(20:0.19577993289511816,(38:0.16865841653013455,(39:0.13381451199607933,27:0.13381451199607933)82:0.034843904534055226)69:0.02712151636498361)67:0.18194255783642774)60:0.12272068541459741)62:0.0028907333748994235,(((25:0.12668443288552197)#1:0.10168089549399939)#0:0.06648536750864056,(28:0.24955482456102748,((29:0.041380215979626135,22:0.041380215979626135)74:0.11051753681217247,32:0.1518977527917986)73:0.09765707176922889)90:0.045295871327134446)88:0.2084832136328808)54:0.056859827858619094)84:0.04531442441907618,#3[&amp;conv=3, region={13,21}, locus="locus.Ala", relSize=0.0865385, affectedSites=9, uselessSiteFraction=0.00000]:0.37323047951737665):0.031456077188692144,(40:0.5455447369032598,((((43:0.2731952261462192,((45:0.15302401277417463,(34:0.10678906021555877)#2:0.04623495255861586)81:0.02031733417327261,(36:0.161781492673291,44:0.161781492673291)55:0.011559854274156234)58:0.09985387919877198)85:0.08822406887630746,46:0.3614192950225267)78:0.0868221509166981,((42:0.367854503566748,((18:0.24719392983748317,26:0.24719392983748317)79:0.09013013736958797,(31:0.24571804574190406,21:0.24571804574190406)89:0.09160602146516708)52:0.030530436359676838)64:0.0040489202079100894,(41:0.25117329704368824,(35:0.1851938449071665,33:0.1851938449071665)80:0.06597945213652173)65:0.12073012673096983)83:0.0763380221645667)70:0.019560962936870097,(47:0.27771426576202024,#2[&amp;conv=2, region={9,89}, locus="locus.Ala", relSize=0.778846, affectedSites=81, uselessSiteFraction=0.00000]:0.17092520554646146):0.19008814311407463)56:0.07774232802716491)71:0.09141950208417038)61:0.08461029143071186)87:0.6427424493905276,((3:0.490106375589112,6:0.490106375589112)68:0.08296491698876235,((((14:0.036606559002075434,11:0.036606559002075434)63:0.2854100413304268,10:0.32201660033250223)49:0.14954954532032522,(8:0.39191639683157703,((7:0.2322776822813614)#3:0.005793833634180068,(13:0.16805048653355503,(5:0.04311159514164706,15:0.04311159514164706)77:0.12493889139190797)59:0.07002102938198643)53:0.15384488091603557)50:0.07964974882125042)91:0.03961858291914638,(2:0.19614567175557598,(12:0.13623741493155944,9:0.13623741493155944)66:0.05990825682401654)48:0.3150390568163979)76:0.061886564005900535)75:0.7912456872307952)93:0.0;</statenode>
+<statenode id='rho.t:Ala'>rho.t:Ala[1 1] (-Infinity,Infinity): 0.001943613282278106 </statenode>
+<statenode id='delta.t:Ala'>delta.t:Ala[1 1] (-Infinity,Infinity): 76.54369857334669 </statenode>
+<statenode id='gammaShape.s:Ala'>gammaShape.s:Ala[1 1] (0.001,1000.0): 0.6393083071989439 </statenode>
+<statenode id='mutationRate.s:Ala'>mutationRate.s:Ala[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='popSize.t:Ala'>popSize.t:Ala[1 1] (-Infinity,Infinity): 5.027076396659677 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"addRemove_popModelConstant.t:Ala","p":"NaN","accept":5885,"reject":10850,"acceptFC":0,"rejectFC":0,"rejectIv":6,"rejectOp":6},
+{"id":"addRemoveDetour_popModelConstant.t:Ala","p":"NaN","accept":10,"reject":16682,"acceptFC":0,"rejectFC":0,"rejectIv":15465,"rejectOp":15465},
+{"id":"CFUniform_popModelConstant.t:Ala","p":"NaN","accept":7699,"reject":9092,"acceptFC":0,"rejectFC":0,"rejectIv":6,"rejectOp":6},
+{"id":"CFWB_popModelConstant.t:Ala","p":"NaN","accept":386,"reject":16408,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"CFCS_popModelConstant.t:Ala","p":"NaN","accept":4008,"reject":12909,"acceptFC":0,"rejectFC":0,"rejectIv":11,"rejectOp":11},
+{"id":"CFSTS_popModelConstant.t:Ala","p":"NaN","accept":10203,"reject":6842,"acceptFC":0,"rejectFC":0,"rejectIv":659,"rejectOp":659},
+{"id":"CFSTXnarrow_popModelConstant.t:Ala","p":"NaN","accept":2282,"reject":14408,"acceptFC":0,"rejectFC":0,"rejectIv":4678,"rejectOp":4678},
+{"id":"CFSTXwide_popModelConstant.t:Ala","p":"NaN","accept":111,"reject":16725,"acceptFC":0,"rejectFC":0,"rejectIv":8561,"rejectOp":8561},
+{"id":"rhoScaler.t:Ala","p":0.8,"accept":1413,"reject":298,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"deltaScaler.t:Ala","p":0.8,"accept":1406,"reject":327,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"ACGupDown3.t:Ala","p":"NaN","accept":697,"reject":979,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"ACGscale.t:Ala","p":"NaN","accept":636,"reject":999,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"addRemoveRedundant.t:Ala","p":"NaN","accept":3,"reject":1675,"acceptFC":0,"rejectFC":0,"rejectIv":1043,"rejectOp":1043},
+{"id":"CRswap.t:Ala","p":"NaN","accept":995,"reject":722,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"CRshift.t:Ala","p":"NaN","accept":1711,"reject":1,"acceptFC":0,"rejectFC":0,"rejectIv":1,"rejectOp":1},
+{"id":"CRBshift.t:Ala","p":"NaN","accept":1630,"reject":0,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"mergeSplit.t:Ala","p":"NaN","accept":5,"reject":1717,"acceptFC":0,"rejectFC":0,"rejectIv":1333,"rejectOp":1333},
+{"id":"CEhop.t:Ala","p":"NaN","accept":120,"reject":1544,"acceptFC":0,"rejectFC":0,"rejectIv":650,"rejectOp":650},
+{"id":"CEflip.t:Ala","p":"NaN","accept":247,"reject":1496,"acceptFC":0,"rejectFC":0,"rejectIv":1174,"rejectOp":1174},
+{"id":"CEslide.t:Ala","p":"NaN","accept":1185,"reject":489,"acceptFC":0,"rejectFC":0,"rejectIv":165,"rejectOp":165},
+{"id":"popSizeScaler.t:Ala","p":0.8,"accept":1105,"reject":613,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"gammaShapeScaler.s:Ala","p":0.5,"accept":37,"reject":138,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"FixMeanMutationRatesOperator","p":0.75,"accept":3312,"reject":0,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0}
+]}
+-->
