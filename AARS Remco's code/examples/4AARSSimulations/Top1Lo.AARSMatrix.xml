@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" version="2.0">
+
+
+<data dataType="fourstate" id="AARS_4lo" name="alignment">
+                    <sequence id="seq_AARS_V_12" taxon="AARS_V_1" value="EVVAAEGGEVGEVVEGGGAGEEVGEGVGAEEAVEEGGGGVAGEVVAVVEVAVEGEEVGVVEGVGVGAEVEGEEEVEGAGAGGVAVEAGVVVEVAAGEAAE"/>
+                    <sequence id="seq_AARS_G_12" taxon="AARS_G_1" value="VAEEVEEAVEVVEEEEEGEAGVVAGAVAAEVAEEEEGAEGVVGVAVAAGEEVEAEEEEGEEEAVGEVEVAVVEEVAGVGEVVEEEEEVEEEGAEEVVVEA"/>
+                    <sequence id="seq_AARS_A_12" taxon="AARS_A_1" value="GEVEEAGEEEGAVEEVGEVAGEEAEGEAEEEVEEEGAGAVEEGEEVGVAEEAAGAEEGEEEVAGVVAEGEGAVEVVVEAGVEGVVVEVVEEVGEVEVEEG"/>
+                    <sequence id="seq_AARS_E_12" taxon="AARS_E_1" value="GEEEGVVAVVGGAEGAGAEEEGVEVGVGAEVEEEEVEGEEAGEVAAEEVVGEAGVVVEEEVGAGVGGVAEVAEEGEVGGAVEGAEGAEGEGVEVGEVVVG"/>
+<!--
+                    <sequence id="seq_AARS_V_22" taxon="AARS_V_2" value="GVVEGVVAEAEVGVAAGEVGEEEGVGGGGEEEEEEVGVAVAGEEVEVEVEAEGGEVEEVVEVVAEAGVAEEGAEVAAGAAGGEAVGAEVVGAEGEGEGEG"/>
+                    <sequence id="seq_AARS_V_32" taxon="AARS_V_3" value="GEVVGVEAEAEGGVAGGVAGEEVVVAGVGEEAEEEVGGAVAGEVVAVEEEAEGGEVEEEVGEVGVGAVAEEEVEVAGAGAGGGGVGAVVEVEVAGGVGGV"/>
+                    <sequence id="seq_AARS_V_42" taxon="AARS_V_4" value="EEEEVEEAEEEVGVAAGGAEEEEEVGGEAEEEEEEEGAAGAVEVEAEVEEAEGAEEEEVVEGEGEGAVAVEAAEEAGGEAVGEGVGAVEAVEGAGGEVGG"/>
+                    <sequence id="seq_AARS_V_52" taxon="AARS_V_5" value="AVGAGEVAEAEGGVAAVEEGEAVGEGGGGVGVEVGVGEVVAAEVVAEGVGAEGAEAGEVGEGVVEGEVEEEGEEVAEGEAEGVGEEAEVVVEVAEAEGGG"/>
+                    <sequence id="seq_AARS_V_62" taxon="AARS_V_6" value="EVEEVEEAEAEGGVAAGVVGEEEEVVGVAEEEEEEEGEEGAEEEEAEVGAAEEAAEEVVVEGGGEGAVGVEAEEVAVGGAGGVGVVAEEVEEVAGGEVGA"/>
+                    <sequence id="seq_AARS_V_72" taxon="AARS_V_7" value="EVVEAEVGVAAEVVEAGGAGEEEVVGEEAEEAVVEGAGGEGGEVVAVEVEAVEGEEGEEVEGVGVGAEVEGAEEVAGVGAGGVGVGAGVVVEVAAGEGAE"/>
+                    <sequence id="seq_AARS_G_22" taxon="AARS_G_2" value="GEEAVEGAAVGVGVEGEVEAEGVAGVVAAEVVEVEEAVVAGEGVAVAVGEVAAGVAEVGEVVAVEEVAGAAAEVGAEEVEVVGVEVEVEEGAAGEEVAAA"/>
+                    <sequence id="seq_AARS_G_32" taxon="AARS_G_3" value="GEEAVAEAEEGEGAEGAVEEEVEAEAGAAVGEEVEVAAAVGVVEAEAEGEEAAAGEVEGAVEGVAEVAVAAGVAEAEEGVGVEGAGAEEVGEEVAVEEGA"/>
+                    <sequence id="seq_AARS_G_42" taxon="AARS_G_4" value="GAEGEAEAVEGVGAEEEEVGEVEVVAVAAEVEEVEVGGGVGEGEGEEEGEEAAEVEVVVGVEAEEEEEGEAAEAEAVVGVVVEGEGAEGEVAAEVEEEAA"/>
+                    <sequence id="seq_AARS_G_52" taxon="AARS_G_5" value="AEVAEVEVVEVVGVEGVGEVEVVAGAEAEEGVGVVEGAGGGEGEAGAEGEGAEVEEAEVVVEGGEEGAGGAAGEEAEEGGEVEGEAEEVEGAGEEEEEAA"/>
+                    <sequence id="seq_AARS_G_62" taxon="AARS_G_6" value="GAEGEGEAVEGVGVGEVEEAEEEVEAVAAEVEEEEEGGGVVEGEGEAEGEEAEEVEVVGVVAAEEEVEGEAAEAEAVVEVVVEGEGAEEEVGAVVEEEAA"/>
+                    <sequence id="seq_AARS_G_72" taxon="AARS_G_7" value="VEEEEEAAVVGVEAVEEGVAEVVAGAVAAEVVEVEVGAVGGEGVEEAVGEEEAAVEEEGVVEAVAEEEVAEEEEVAGVGEEVEEEEAGAEVGAEEVEVAA"/>
+                    <sequence id="seq_AARS_A_22" taxon="AARS_A_2" value="AEVAVVGVVVEAAEEVVAEAVGEAEVGAEEEEVAEVAEAEEEEVGEGVEAEAAEAEEVAEVVGAAEVEEAEAVEAAVVAVVEGVEEAVEVGVVEGEGVEG"/>
+                    <sequence id="seq_AARS_A_32" taxon="AARS_A_3" value="AEEAEAGEEVEAVEEVEEEAEEEEAGEAVVEVEAVEAGEGVEGEGVGVGEGGVVEEEGVAVEAGGEVEGAVAVAVEVVAEEEGGVVAEVVGVGGVEEEEG"/>
+                    <sequence id="seq_AARS_A_42" taxon="AARS_A_4" value="AEGEEAGEEEVAVVVEEVVAEGAAEGEAEGEEVAGVAVAGEEGEGGEVAVEAAGVEAEAGEEAGEVVEVAVAEVGEEEAEEGGVEEAEEEVGGVVVVEEG"/>
+                    <sequence id="seq_AARS_A_52" taxon="AARS_A_5" value="AVVAVGVVVAVAEEEVEEEAVEEAEAEAGVEVVAEVAEAGGVGEGGGEAVEAAAEEEVAGEEAGAVVEVAVEGEVAEEVEVEEVGVAVVEVEEEEEVEEG"/>
+                    <sequence id="seq_AARS_A_62" taxon="AARS_A_6" value="GEEVVAGEEEVAVGVEEVVAEEVAVGEAEEEAVAGVAVAEEEGVAVGVAGEAEGVEVEAGVGAGGVVEAAVAEVGEEAVEVGGVVEAEEEGGAVVVGEEG"/>
+                    <sequence id="seq_AARS_A_72" taxon="AARS_A_7" value="VEVEEAGEEVGAEEEVVVVGVVEAEGEAVEGVEEEEAGAVEEGAVEVVAVEAAGGEEGAVEVAGVVAEGAGAVEEVVEAGVEGVEEAVVEEVVEVEVEEG"/>
+                    <sequence id="seq_AARS_E_22" taxon="AARS_E_2" value="VEGEGGVEEEEEEGAAGGAVGGVVAGVEAVVEEEGAGGVEAGGAEAEEVVAVAGVEVVVVEGVEVGAVVVVAVEGAVGVVGEAVEGAVEEEVEAAEVGGG"/>
+                    <sequence id="seq_AARS_E_32" taxon="AARS_E_3" value="EGEEVEVAGEVGEAGAGVEVGEAEAAVVVEGVGVEEVGVEAAGEEAEVVEAAEGVEVAGEEEGAEGAEVEVAEEGEVVVAAVEEEGAEGEEGEAGGVGGG"/>
+                    <sequence id="seq_AARS_E_42" taxon="AARS_E_4" value="EEGEGVVAEVGVEEGAGGAVEEEGVAEGAEVEEVEEGGEEAAVAVVVEVVEEGVEGVAEEEGGGEGAEVEVAEEGAVVVEEEAVVGAEGVVEVAAEEGEE"/>
+                    <sequence id="seq_AARS_E_52" taxon="AARS_E_5" value="EEEEGEAAGEVGEAGAGGAGVVVVAGEEAVGEEGEVGGVEAGVAEAEGVEAEGEVGVEVEEEVAEAAEVVEAEEGEEGGAGEEVEVAAGVAAEAGAVGGG"/>
+                    <sequence id="seq_AARS_E_62" taxon="AARS_E_6" value="EVGEGEEAGEGVVEGAAEAVEEEGVEEGAEVEEVEEGEEEAAEVEGAEEVAEGGEGGVVEEGGGVGAEVEEAGEGAAVVVGEEVEEAEGEVEEAGEVGEE"/>
+                    <sequence id="seq_AARS_E_72" taxon="AARS_E_7" value="GEEEGVVAVVGVGEGAGAEEVGVEVGVVAEVEEEEEGGEVAVAAGAEEVVEEAGVVVVEEAEAEVGGVGVVAEEGEVGVAGAVAEGAEAEGAEAGEVVGG"/>
+-->
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Beta">beast.math.distributions.Beta</map>
+<map name="Exponential">beast.math.distributions.Exponential</map>
+<map name="InverseGamma">beast.math.distributions.InverseGamma</map>
+<map name="LogNormal">beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Gamma">beast.math.distributions.Gamma</map>
+<map name="Uniform">beast.math.distributions.Uniform</map>
+<map name="prior">beast.math.distributions.Prior</map>
+<map name="LaplaceDistribution">beast.math.distributions.LaplaceDistribution</map>
+<map name="OneOnX">beast.math.distributions.OneOnX</map>
+<map name="Normal">beast.math.distributions.Normal</map>
+<map name="taxon">beast.evolution.alignment.Taxon</map>
+<map name="taxonset">beast.evolution.alignment.TaxonSet</map>
+
+<taxonset id='allTaxa' alignment='@AARS_4lo'/>
+
+
+                        <trait id="TraitSet1" spec="beast.evolution.tree.TraitSet" taxa="@allTaxa" traitname="state" units="year">
+            AARS_V_1=0,
+            AARS_G_1=1,
+            AARS_A_1=2,
+            AARS_E_1=3
+                                </trait>
+
+<!--run chainLength="10000000" id="mcmc" spec="MCMC"-->
+<run spec="beast.inference.SimulatedAnnealing" id="mcmc" chainLength="1000000" startTemp='0.001' endTemp='0.0001'>
+
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:AARS_4lo" name="stateNode">
+            <taxonset id="TaxonSet.AARS_4lo" spec="TaxonSet">
+                <data idref="AARS_4lo" name="alignment"/>
+            </taxonset>
+        </tree>
+<!--
+        <parameter id="birthRate.t:AARS_4lo" name="stateNode" value="1.0"/>
+-->
+    </state>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+                <distribution id='rootPrior' spec='beast.math.distributions.MRCAPrior' tree='@Tree.t:AARS_4lo' monophyletic='true'>
+                    <taxonset idref='allTaxa'/>
+                    <distr id='normalDistr' spec='beast.math.distributions.Normal' mean='3' sigma='0.001'/>
+                </distribution>
+            
+<!--
+            <distribution birthDiffRate="@birthRate.t:AARS_4lo" id="YuleModel.t:AARS_4lo" spec="beast.evolution.speciation.YuleModel" tree="@Tree.t:AARS_4lo"/>
+            <prior id="YuleBirthRatePrior.t:AARS_4lo" name="distribution" x="@birthRate.t:AARS_4lo">
+                <Uniform id="Uniform.0" name="distr" upper="Infinity"/>
+            </prior>
+-->
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution">
+            <distribution id="treeLikelihood.AARS_4lo" spec="beast.evolution.likelihood.AARSMatrixLikelihood">
+
+<!--
+         1         2         3         4
+         V         G         A         E
+    0.2500    0.1800    0.2200    0.3500
+
+and the 4x4 matrix R matrix
+        
+	0.7	0.2	1
+0.7		0.5	0.4
+0.2	0.5		0.3
+1	0.4	0.3	
+
+-->
+                    <model id="substmodel" spec="AARSMatrixModel" tree="@Tree.t:AARS_4lo">
+                        <trait idref="TraitSet1"/>
+						<defaultModel spec='GeneralSubstitutionModel' rates='0.7 0.2 1.0 0.7 0.5 0.4 0.2 0.5 0.3 1.0 0.4 0.3'>
+							<frequencies spec='Frequencies' frequencies='0.2500    0.1800    0.2200    0.3500'/>
+						</defaultModel>
+                        <frequencies estimate="true" id="AARSFrequencies0" spec="AARSFrequencies">
+                            <parameter dimension="1" estimate="true" id="RealParameter0" name="frequencies" value="1 0 0"/>
+                        </frequencies>
+                    </model>
+            </distribution>
+        </distribution>
+    </distribution>
+
+<!--
+    <operator id="YuleBirthRateScaler.t:AARS_4lo" parameter="@birthRate.t:AARS_4lo" scaleFactor="0.75" spec="ScaleOperator" weight="3.0"/>
+-->
+
+    <operator id="treeScaler.t:AARS_4lo" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS_4lo" weight="3.0"/>
+
+    <operator id="treeRootScaler.t:AARS_4lo" rootOnly="true" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS_4lo" weight="3.0"/>
+
+    <operator id="UniformOperator.t:AARS_4lo" spec="Uniform" tree="@Tree.t:AARS_4lo" weight="30.0"/>
+
+    <operator id="SubtreeSlide.t:AARS_4lo" spec="SubtreeSlide" tree="@Tree.t:AARS_4lo" weight="15.0"/>
+
+    <operator id="narrow.t:AARS_4lo" spec="Exchange" tree="@Tree.t:AARS_4lo" weight="15.0"/>
+
+    <operator id="wide.t:AARS_4lo" isNarrow="false" spec="Exchange" tree="@Tree.t:AARS_4lo" weight="3.0"/>
+
+    <operator id="WilsonBalding.t:AARS_4lo" spec="WilsonBalding" tree="@Tree.t:AARS_4lo" weight="3.0"/>
+
+    <logger fileName="Top1Lo4.AARSMatrix.log" id="tracelog" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.AARS_4lo"/>
+        <log id="TreeHeight.t:AARS_4lo" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:AARS_4lo"/>
+<!--
+        <log idref="YuleModel.t:AARS_4lo"/>
+        <parameter idref="birthRate.t:AARS_4lo" name="log"/>
+-->
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log arg="@posterior" id="ESS.0" spec="util.ESS"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger fileName="Top1Lo4.AARSMatrix.trees" id="treelog.t:AARS_4lo" logEvery="1000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:AARS_4lo" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS_4lo"/>
+    </logger>
+    <init estimate="false" id="TreeParser.t:AARS_4lo" initial="@Tree.t:AARS_4lo" spec="beast.util.TreeParser" taxa="@AARS_4lo"
+        newick='((AARS_V_1:1.0,AARS_E_1:1.0):2.0,(AARS_G_1:1.0,AARS_A_1:2.0):1.0)'
+    />
+</run>
+
+
+</beast>

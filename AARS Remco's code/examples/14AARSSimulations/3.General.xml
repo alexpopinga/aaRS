@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" version="2.0">
+
+
+<data id="AARS_14_3" name="alignment">
+	<userDataType spec='beast.evolution.datatype.FourteenState' symbolOrder='VGADELPRSIQCTN'/>
+                    <sequence id="seq_AARS_G_11" taxon="AARS_G_1" value="ASLGEPSLGTALLLLRSETLGQRGSANVCSVLRSVSILDERTPNIQTRADANQLAVPQQDSVCGDEIAIRSAASILETTGSLAVLGVTSRLAVQNTVSEN"/>
+                    <sequence id="seq_AARS_G_21" taxon="AARS_G_2" value="SSTGDPQLGSRPLLIRSQAIGQRGVSDVCAVARTLSVIDENSASIQPRSDANQLALAQQNDECGEDLGTRAPRAVLLVAGPPSVVGITSRLPITTTADDN"/>
+                    <sequence id="seq_AARS_G_31" taxon="AARS_G_3" value="RSVGDPAIETRLLLAQADAVGQRAQSAACAVTRTLAVINDRTPAIQPRSDANELGLEQQNAESGDDVGARAAAAVLESGGALAVLDITTSLPVANTSEDN"/>
+                    <sequence id="seq_AARS_G_41" taxon="AARS_G_4" value="RSVGEPGLQTSLLLTSANAVGQRGVNNVCAITRNLAILDDRTDALQPLSDENQGALEEQNANRGDDLRTRADVAVLESDGALAVLGITTRLELEGTVGDN"/>
+                    <sequence id="seq_AARS_G_51" taxon="AARS_G_5" value="STLGEPELGTRLLALRSETLGQRGENNICNNVRSLSILDESTPNIQPRSDANELAIPQRDADAGDDIPVQAAASVLETTGSLVVLGVANRLPVENTVAEV"/>
+                    <sequence id="seq_AARS_G_61" taxon="AARS_G_6" value="SSNGDPQLGTRPLLLRSQAIGQRGVSDVCEVARTLEVIDDNSVAIQPRSDANQLALAQQNDECQTDLGTRAPRAILLVAGNLSVLGITSRLPIITSADDE"/>
+                    <sequence id="seq_AARS_G_71" taxon="AARS_G_7" value="ASLGEPSLGTALLLLRSETLGQRGSANICSVLRSVSILDERTPNIQTRADANQLAVPQQDSVCGDEIAIRSAASILETTGSLAVLGVTSRLAVQNTVSEN"/>
+                    <sequence id="seq_AARS_A_11" taxon="AARS_A_1" value="ISRARGPRNAISTTAAGLADNAVNTSALLNCLLITACIILNILAVAGIDASAADQLGNIDEADPDATIEDAGAGVIVEVGSRDIRTETGQTADDSARSTA"/>
+                    <sequence id="seq_AARS_A_21" taxon="AARS_A_2" value="ITRSTGPRSVCASQLVGLVEGTINNTAVVQCLVNLACVDQTPPCVGAIAEEAPDGIGNVEEGIPDDINEDTSGAVLINGGPAQLDSECEQSGEDQARTDG"/>
+                    <sequence id="seq_AARS_A_31" taxon="AARS_A_3" value="IARQVAPRSSIQSALVGLADNALNGSAVVQCLLITVCTNQTEPAAPAIAAAPDDGIGNVEEGNSNVTVDAASGRLTADTGPNDQRSECGQTASEQAETSD"/>
+                    <sequence id="seq_AARS_A_41" taxon="AARS_A_4" value="IGRQTGPRGSLRSQLVGLADEALNSSAVVQCLLVLACVVETPPAVVAIGAEGVDRIGNVEAGTSEDTIEDASGAIPIDAGPRDQRSDCGSTASELNRTGE"/>
+                    <sequence id="seq_AARS_A_51" taxon="AARS_A_5" value="CTRLRGLRVAISSTAAGLADNCVTSSALVSCLLILVCVVLNIPAIAAIEAVAADGAGNVDEADPDTTTEDAGAGVIVGVGSRDLRTETGQTADDSARSSD"/>
+                    <sequence id="seq_AARS_A_61" taxon="AARS_A_6" value="ITRSTGPRPVCASQLIGLADDTLNNTAVVQCLCVLACQEQTPPCVGAIAEDCIDGIGNVEEGIADDINEDTSGAVLINIGTAQIRSECGQSGPDLARTSD"/>
+                    <sequence id="seq_AARS_A_71" taxon="AARS_A_7" value="ISRARGPRNAISTTAAGLADNAVNTSALLNCLLITACIILNILAVAGIDASAADQLGNIDEADPDATIEDAGAGVIVEVGSRDIRTETGQTADDSARSTA"/>
+                    <sequence id="seq_AARS_D_11" taxon="AARS_D_1" value="LGVSVAEEISLAVQVDTVNNATTSIPPDDTIILDRAAVTEDANNIVAAPASQTLGANGALTQVEPAASLTSNAAICEQGGALSASPVVTLLTLDASLIPG"/>
+                    <sequence id="seq_AARS_D_21" taxon="AARS_D_2" value="ATPTAGDRTELPEEGSPVNSDTLDSLPLETCVLDRATIAQEGETISALDSSSTLGIITLQTDLDPCASITANASVCEQTGAASVAPVANVITIGADVSDG"/>
+                    <sequence id="seq_AARS_D_31" taxon="AARS_D_3" value="AIATAGDRLELPVQSSSVESNTTNSLPIETVILLRATTAQQARSLEEDDPGNTLSVVGLLTELESCARLAASAANCDDASTLNVSPVANLLTVDAALTEA"/>
+                    <sequence id="seq_AARS_D_41" taxon="AARS_D_4" value="LESTAGDALDLPVQTSIVNNDTSNSLPIESSLLDRSTIGRQGSTDEADDPSTSLSVVGLLTELGPCSSLDANNAACEESGALSVAPVANLLTVNANLTEG"/>
+                    <sequence id="seq_AARS_D_51" taxon="AARS_D_5" value="LGVNSARQISLAVQVDTVNSETTSIPPCDTIVLDRSSVTEDATDVESDPVSARIGANGILTQVEPPASLTANAAVCEQAGALSVTPVATLLTLGSSLVEG"/>
+                    <sequence id="seq_AARS_D_61" taxon="AARS_D_6" value="ITVTAGDRTELPEQGSSVDSNTVDSLPLETCILDRADIAQEGQRVNPQDGSSTLGIIGLQTDLDPCASVTANAAACELTGAAGVAPVANVLTIGADVTEG"/>
+                    <sequence id="seq_AARS_D_71" taxon="AARS_D_7" value="LGVSSAEEISLAVQVDTVNNATTSIPPDDTIILDRAAVTEDANNIVAAPASQTLGANGVLTQIEPAASLTSNAAICEQGGALSASPVVTLLTLDASLIPG"/>
+                    <sequence id="seq_AARS_P_11" taxon="AARS_P_1" value="LGAQSGPVTEVSGILVARSDGTRGESAIIRRLEERSLVGISSETETPQDAITERGSGIIQDLGDEESTEDPTIGILPGTGSPTTRVQANVNAITPTLSSS"/>
+                    <sequence id="seq_AARS_P_21" taxon="AARS_P_2" value="VALCDGPLNAISVILVGRTDGSRGESALIRRILTRNLVGISTNAQGPGNPVTERNNSGIQDGVTDADREDPDRALLAGIGAPERRAELTVNALTNILTSI"/>
+                    <sequence id="seq_AARS_P_31" taxon="AARS_P_3" value="VLLADGPLNAISPVLVGRTQGARGESAIIRRLVVRPLVGILSSQQGLESAISERDNSTIQDGISAAETEGVNAAILNGGEAPERPEDENVNGLTPATAAT"/>
+                    <sequence id="seq_AARS_P_41" taxon="AARS_P_4" value="LVLSDNPLDAISSILAGRTNGGRGESTIVQRLLLRSLSGITSSAQGIESPITEQNQSTVQDGVSDSETSDTNAGVLNPAGAPERPEDANVNALQPGTAST"/>
+                    <sequence id="seq_AARS_P_51" taxon="AARS_P_5" value="LGAEDGPLTEVSRVLVGRSDGSRGESSIVRRLQERTLIGIAADAQAPQDEITERGEGIIADLVDDPSTESPNRAILQGTGSPTTRVEANVNALSPATSSS"/>
+                    <sequence id="seq_AARS_P_61" taxon="AARS_P_6" value="VALTDGPLNAISVILVGRTDGARGESAIIRRVLTRSLVGASTNAQGPGNPVTERDNSAIQDGVTDADTEDPNRALLAGIGAPERREELNVNALNNALTSI"/>
+                    <sequence id="seq_AARS_P_71" taxon="AARS_P_7" value="LGAQDGPVTEVSGILVGRSDGTRGNSAIIRRLEERSLVGISSETETPQDAVTERGSGIIQDLGDEESTEDPTIAILPGTGSPTTRVQANVNAITPTLSSS"/>
+                    <sequence id="seq_AARS_S_11" taxon="AARS_S_1" value="VSASTEPLTIVSITCVDCSSNALGQSANSITLVIARLVTIAPPSESAIVTEEARNIGDNEEGQPNSTNEDEQLTILENDNSITCRNQSGVAARTTARSTA"/>
+                    <sequence id="seq_AARS_S_21" taxon="AARS_S_2" value="IRRSSGPLSSVSDICVNCEDDALEGQELIVLLVTLSLRTVATASAEATDGPSAASVGTDENGEDDDTDVESSSAILINDDARTCRAEDGVGERTRARTAT"/>
+                    <sequence id="seq_AARS_S_31" taxon="AARS_S_3" value="VSQSSGPLSSVADLCVNSSDGVLGESALIILLVSLSLLTLAAPSESAADADTTRSIGAVEQNDPDGTDEDAESGVLIEDNSRTCREEDEDSLRTSAVDAI"/>
+                    <sequence id="seq_AARS_S_41" taxon="AARS_S_4" value="LNSSTGPLSVVADVAVNCSDDALGEEVIIILLVSLPLLTEAAPANPAVDAETTRSINTVEEGDPPGADEATQAAILVNDNSRLCTDEEDVGGRRTARNAT"/>
+                    <sequence id="seq_AARS_S_51" taxon="AARS_S_5" value="LPASTGPLTIVANACVNCENNALGQDATSITLVILRLVTISAPASSETAAEEARNVAAVEEGEVESTNDDDQLAVIVNDNSLTCRNQDGIAARPSNRRAE"/>
+                    <sequence id="seq_AARS_S_61" taxon="AARS_S_6" value="VRESAGPLSSVSDICVNCSDDALEETDIIVLLVTLSLRTIATSSAIATDDLTAASVTTEESGDDDDCDVETQSAILINDDSRSCRDEDGVGERTRGRTAT"/>
+                    <sequence id="seq_AARS_S_71" taxon="AARS_S_7" value="VSASTEPLTIVSNTCVDCSSNAQGQSANSITLVVLRLVSIAPPSESAIVTQEARNIGDNEEGQENSTNEDEQLAILENDNSITCRNQSGVAARTTARSTA"/>
+                    <sequence id="seq_AARS_T_11" taxon="AARS_T_1" value="LNTSSNVREQLVVQVREIGEGDNGVSPIETILLEQATIEQEACAVEGNDPAQDLGVGVEQTVLIPSSNLDAGAAICTGNGALNVNPVASRINVNASVTAG"/>
+                    <sequence id="seq_AARS_T_21" taxon="AARS_T_2" value="LSVQETGRSQLPVQVSIIRRGDGQIPPLQTIQLEQATLDEEAVTVEANSPQSDLNVGSLLSVLIPQATLGAGAALCEQSGSLSVEPLAAIINVNASITTN"/>
+                    <sequence id="seq_AARS_T_31" taxon="AARS_T_3" value="LRVTANGRVVLPLQVVAAGQGGDGVSAIETIIVDQTTIDQEAVTVEATDPPAGLGVALLLTVLVPLAALDAGADRCDQGGALPASPVAEVIDIATSDAEG"/>
+                    <sequence id="seq_AARS_T_41" taxon="AARS_T_4" value="LGVDCNGRSELPVEVTAAGQGDRGIPPIETVILEQPSIDLEAVTDEATDPPSDIGIGGLITTSPGAAPLDLTVDRCEQSGNLTATPLAALLDLNTSATDG"/>
+                    <sequence id="seq_AARS_T_51" taxon="AARS_T_5" value="INTDSNGREQLVVQVSEIARGDSGISPIDQVLLEQATIENEATTVQGNDPSSDLGVGVELEILIASENLDQGAAVCTNSGTLNVNSVDSRLNVNASATAG"/>
+                    <sequence id="seq_AARS_T_61" taxon="AARS_T_6" value="LGVSENGRSQLPIQVSTVRQGDGGIPPLQTINLQQATIDENGVTVEANSPQSDLNVRGLLTLLIPAATLGAGAALCDQSGSLSVNPIAAIINVNASLNEN"/>
+                    <sequence id="seq_AARS_T_71" taxon="AARS_T_7" value="LNTSSNVREQLVVQVREIGEGDNGVSPIETVLLEQATIEQEACAVEGNDPAQDLGVGVEQTVLIPSSNLDAGSAICTGNGALNVNPVASRINVNASVTAG"/>
+                    <sequence id="seq_AARS_N_11" taxon="AARS_N_1" value="QSVADRAVGSRLLLLRADAAGERGPSGICAVIRSADALNERTPDIQPRSDGGELALATQLSECSADGGIREVRCVIVQGRSLAVLGISSRIPIGNTSGGN"/>
+                    <sequence id="seq_AARS_N_21" taxon="AARS_N_2" value="QSVQSPTLGTRLLLAGAQNEGQREVSGRCTVVRRLNIVDEREPDVQPRSDGNNNALVQGAGVVGDDLGAPSAVAVIDSNALLAAVSVTSQTPLEETAPTN"/>
+                    <sequence id="seq_AARS_N_31" taxon="AARS_N_3" value="RSAREPPLGTRILVPRANARGQRGVSGVCAIIRLLRILNQRDVNVEARSDGQPLACIEGEGGCNDNLGVRSPSAVLAAGGDISLLAITSRLPIGNTAPTN"/>
+                    <sequence id="seq_AARS_N_41" taxon="AARS_N_4" value="DSVRGPALGARILLAGAEAEGQSGVSDVSALVRSLNVIDRRQVNVRTRIDGQQLISLQGAGATNDDLGVATATAVSETGGNAAVLGITSRTVIADTAAAD"/>
+                    <sequence id="seq_AARS_N_51" taxon="AARS_N_5" value="QSVCDRELGNRLLLLRAEASGERGVSGVCAVVRSLTALNELTPDIQPRSDQNGLALAQQLSDCGGDVGEREVAAVIVEGRSLDVLGVTSRIPVGNTAGGN"/>
+                    <sequence id="seq_AARS_N_61" taxon="AARS_N_6" value="QSVQEPTLGTRLLLAGAQEEGQREVAGRCTVVRRLTVLDEREPEVQPRANGQQNGLVQGDGLVGDDLGARSATAIIDTNGLLAVAGVTSRTSLENTAPTN"/>
+                    <sequence id="seq_AARS_N_71" taxon="AARS_N_7" value="QSVADRAVGSRLLLLRADAAGERGPSGICAVIRSATALNERTPDIQPRSDGGELALATQLSECSADVGIREVRCVIVQGRSLAVLGISSRIPIGNTSGGN"/>
+                    <sequence id="seq_AARS_V_11" taxon="AARS_V_1" value="LRDTSTIGSASTIRGLCECNEEDGALALSIAGAVGICTSEAILTDCASLTVVGGTGVENVDCRVVERVIADLELTAANEARCQEAETVDTASQGLDDLIA"/>
+                    <sequence id="seq_AARS_V_21" taxon="AARS_V_2" value="LTEADIRVAEAETEGLCECDERESALCNVGSDAVAISADTAVLDNCVLLTAVGGTGIENLDLGVIDRCLAELQVSPITETRVQEGETVDVEDEGLNDVTI"/>
+                    <sequence id="seq_AARS_V_31" taxon="AARS_V_3" value="LQEADDILSEEPTAELCDCDPSDRSLCLEVLDAVGLSASTDIITDCVLVTLVGLTDVENLDVGVVERILGELSTTAETDTQCEEGDTVDTAQEGLDGVST"/>
+                    <sequence id="seq_AARS_V_41" taxon="AARS_V_4" value="LQDLQSILLEATIEQLCECDDTDLALCSVVTDAIGISQTTEVVTDCVLISLVGATNVENLDLGVVERLIAELELTAVTEIECQDGDTVDTTQDGLNDVNT"/>
+                    <sequence id="seq_AARS_V_51" taxon="AARS_V_5" value="LRDTSTIESESTIRGLCEADEEDGALGLSVAGPVGICTSTEILTDCVALPLTGGTGVPNLDLRVVERVISDLELTAVNDTRCQEAETVSTPTRGLDDVIA"/>
+                    <sequence id="seq_AARS_V_61" taxon="AARS_V_6" value="LTNADTRLAEATIEGLCECDERESALCTIVTDAVAISASTAVLSNCVVITLIGGTGIENLDLGVIERCLAELEESPVTVTRTQEGDTVQVQETSLNDVTI"/>
+                    <sequence id="seq_AARS_V_71" taxon="AARS_V_7" value="LRDTSTIESASTIRGLCECNEEDGALALSIAGAVGICVSEAILTDCASLTVVGGTDVENLDCRVVERVVADLELTSANEARCQEAETVDTASQGLDDLIA"/>
+                    <sequence id="seq_AARS_E_11" taxon="AARS_E_1" value="EENDDNRSPLSSVSVGVLEALSTAVSIDLQDETSPPSDSDTLRLSRRLQGQPANDSQIGVITGIQLLRLAGQLLTPRPNELLRDGGDREDGIVNQGPLAA"/>
+                    <sequence id="seq_AARS_E_21" taxon="AARS_E_2" value="EQGSDNRASLSGILTQEEQAENTAVQIDLEDEGCAESDSDSIRPTQRLEPIPGNQTQALLAVGILILRQSGSLQTERPTRLLRGIDERAERVENQGSLTI"/>
+                    <sequence id="seq_AARS_E_31" taxon="AARS_E_3" value="EQGNTNRATLSSIITAVVPAINTAITNDLQDEAIADADDDTIRTIRGLQGVGGRLTQSGLAVGLLVVRDGTQLLTPRPTALLRGAGDQEERVVSQNEVAI"/>
+                    <sequence id="seq_AARS_E_41" taxon="AARS_E_4" value="EQGNVNRASLSSIITQVINRINTANSIDIQDRALADSDDDAIRLLRRLTGLLGNQGQAGNRVGILLLRDSGELLSPRPTALVQGGGDQDERVINQGELVL"/>
+                    <sequence id="seq_AARS_E_51" taxon="AARS_E_5" value="EEDDDDRSPLTSISVGALQDISQVVTIDLEDEASPESDDDNIRLSRRLEGIPANDDQIGVVTGILLLRLAGQVLTPRPTELLRDGGEREERIVSQGPLAA"/>
+                    <sequence id="seq_AARS_E_61" taxon="AARS_E_6" value="EQGNTQRSSLSGVLTQEEQAVATAISIDLEEEGCAESDSDTVRPTQRLEPIPGNQTQALLAVGILILRQTGQLLTERPTALLRGGDERAERVDNQGALAI"/>
+                    <sequence id="seq_AARS_E_71" taxon="AARS_E_7" value="EENDDNRSPLSSISVGVLEAVSEAVSIDLQDETSPESDSDTLRLSRRLQGQPANDSQIGVITGIQLLRLAGQLLTPRPNELLRDGGDREDGIVNQGPLAA"/>
+                    <sequence id="seq_AARS_L_11" taxon="AARS_L_1" value="ETTASSQARAANIGGQSTIDQGDTTVLDRPGDEPTVPNTDAILCDLIICDTTGSSGQEGREDTNCEIVLPTIELASRPTTRCEEEGCADTERQGVGALDL"/>
+                    <sequence id="seq_AARS_L_21" taxon="AARS_L_2" value="EASLTTQERESNIRDQLEVDQGSSGELDNPDDSLTVDDVQNVLGELVICEVAGSTGQRGREDSCCAVPSPTIELAGRPSERIEEGGTVNPERLGLGELDV"/>
+                    <sequence id="seq_AARS_L_31" taxon="AARS_L_3" value="QCTNDTQSRETNIRGQLAVDQGASGVLARPDEAVAVPEVQNCAGVLVVAELTGNTGQEGREDGVCEIILPTIDLPDRPTTRVEEGDSVNTERPGLQVLNI"/>
+                    <sequence id="seq_AARS_L_41" taxon="AARS_L_4" value="ECTNDTQSRDSSIRGQLEVNQGQAALLERPDDAVVVPEISNCLGVLIIVDLTGSSGLQGREDGCCEIILPSIELADRPSVRIEEGDTVNVQRQGIGTLDV"/>
+                    <sequence id="seq_AARS_L_51" taxon="AARS_L_5" value="ETTTTSQARAANIRGQLSIDQDDPTVLDRPGDAPTVPDIDTILCDLVICATTGSAGQEGRVDTNCEIVLPVIELRSRPTTRCERDGCANTERQGIGALDG"/>
+                    <sequence id="seq_AARS_L_61" taxon="AARS_L_6" value="ETSLTTQEREANIRDQLEVNQGSSGVLDTPDDALTVDDVQNVLGELVVCDIQGSTGERGREDSCCATPDPSLELAGRPSARIEQGGTVIPERLGLGTLDV"/>
+                    <sequence id="seq_AARS_L_71" taxon="AARS_L_7" value="ETTASSQARAANIGGQSTIDQGDTTVLDRPGDEPTVPNTDAILCDLIICDTTGSSGQEGREDTNCEIVLPTIELASRPTTRCEEEGCADTERQGVGALDV"/>
+                    <sequence id="seq_AARS_R_11" taxon="AARS_R_1" value="ELDSTDVSLNAGVVAVLQVDDTIPSAVTLLDSALGIANARNSCSTQIGCTLGGETGIEDIERTLREQQSPDQALTSLAADAVIEDENVNQELEGLNDCTI"/>
+                    <sequence id="seq_AARS_R_21" taxon="AARS_R_2" value="DTDTTDVALNPGLRGVLQIDEITACVLTLVESDLGSPEADNQCTTRTVVQVTGSTGIQTVEESCPQQQRPDQNLDSLATDELEEGEDVTQQLNGVNDCCL"/>
+                    <sequence id="seq_AARS_R_31" taxon="AARS_R_3" value="ELPTTEVAVNPAIRGVLQLNPTTACVLTPINNNLGVPDADNSRLSRLVLTISGNTGVQDVARAVPAQNVPEQELTSLNTDAILQGDDAQEELNDLSDCVL"/>
+                    <sequence id="seq_AARS_R_41" taxon="AARS_R_4" value="ELDTVVVALNPGIRGILVTDETTACTVTLIDSDLGVPDADNSCAARLVVTISGNNGIQGVDRAVPEQNRPDQELIALATAAIIEAEEVQEELNGVNDCVI"/>
+                    <sequence id="seq_AARS_R_51" taxon="AARS_R_5" value="ELDSTELSLNSGVDTVLQVEDTTAAALTLVDSALGIPNAEENCEPRIDLTIAGETGIENVERTLREQQSPDQALTSLTLDAIIEGENVTEQLDGLNDCTV"/>
+                    <sequence id="seq_AARS_R_61" taxon="AARS_R_6" value="NVGTTDVALTPGLRGVLQIDEITACTLTLIESDLASPEARNQCTTRVVVQITGSTGVQTVEDACPEVQRPDQRLSSLAADENIEGEDVSEQLNGVSECTL"/>
+                    <sequence id="seq_AARS_R_71" taxon="AARS_R_7" value="ELDSTDVSLNAGVVAVLQVDDTIPSAVTLLDSALGIANARNSCSTQIGCTLGGETGIENIERTLREQQSPDQALTSLAADAVIEDENVNQELEGLNECII"/>
+                    <sequence id="seq_AARS_I_11" taxon="AARS_I_1" value="VATDTNIPQATDIEGLTELTVPENAELEIVSTALGVSSTSEVLAVLVLIAAQGGTGTVSVTSGRVAIQLAAVELDAVSGGRLVESTTIRAALEGANDITA"/>
+                    <sequence id="seq_AARS_I_21" taxon="AARS_I_2" value="VETDISVEQSSNVQGTVDLTEEDTDVVPVVATAIGVSTSTNLLATLVLITGAGNVGVASVTCGEIGLRLSTLDLDDIGAGQVVDGGTIDTTQEGAVDITA"/>
+                    <sequence id="seq_AARS_I_31" taxon="AARS_I_3" value="LGTNTSVPQAIGIQGLLNISASDGAIISVITPAVGVSTSSDCLATLVLIVGPGGVGIDDITCGEVGTLLATVELNDVCGGRLVDANAINTSLEGLNDITV"/>
+                    <sequence id="seq_AARS_I_41" taxon="AARS_I_4" value="LLTDTAVPQSIGIQGTLELQEGNTAVLEVVTSAVGISTQTDCLPVLALIVGAGGIGINPVDCGELGLLLAVLQLDALAAGRLVEGQSINISLEGLPDIEV"/>
+                    <sequence id="seq_AARS_I_51" taxon="AARS_I_5" value="IATPTNVPETTDIEGLTSLTVPEAAELEIVSTALGVSSTDDVLAVLVLITAQGGTGIEDQTSGRVAIRVAAVELDAVSGGRLIESTTIRAALAGADQITV"/>
+                    <sequence id="seq_AARS_I_61" taxon="AARS_I_6" value="LETDLSVEQATSVQGTAELTEEDTDVLEVVATAIGLSTTTNLLALLVLRTGAGGVGVASVSCGETGIRLSTLDLDAIAGGQLVEGGTIDTTPNGAEDITA"/>
+                    <sequence id="seq_AARS_I_71" taxon="AARS_I_7" value="VATDTNIPQATDIEALTELTVPENAELEIVSTALGVSSTDEVLAVLVLIAAQGGTGTVSVTSGRVAIQLAAVELDSVSGGRLVESTTIRAALEGANDITV"/>
+                    <sequence id="seq_AARS_Q_11" taxon="AARS_Q_1" value="VVADDTAPSAAGVEGLLELPVDDSGPSEVEDSAQNASPEDELLPDLVLLALPGANEVESVTSGVVEEQLVDLELEAVAVTGVLQPGSINNTLAGIGPQQV"/>
+                    <sequence id="seq_AARS_Q_21" taxon="AARS_Q_2" value="LVDEDTTPADAGIDGLLELEQESALPLEVDDSAVNVTTGDQLGADIILLALVPADGVVGTTLGCDEQAVLGSELNEVAVVRVTEPGPITDTLSGLGTQVS"/>
+                    <sequence id="seq_AARS_Q_31" taxon="AARS_Q_3" value="LTRDDTSPADAGIEGLLQLEEESAQPLEVEENATNISTSDELRADLVLIRLAPAGGIEGTALSVDEQSISDLELDAAAVQRLAEPGSIGDTIAGLGTQEV"/>
+                    <sequence id="seq_AARS_Q_41" taxon="AARS_Q_4" value="LVRDDESAADPGISEILDLEEDSLQPLEVEDNPVNILTGDELRADLVLIRLCPADGREGTTASLEEQQLSDLELDAAAVTRLVEPGADTDTISGLSTQEV"/>
+                    <sequence id="seq_AARS_Q_51" taxon="AARS_Q_5" value="LVADDTSPSALGVEGLLEIPENDASPSDVEESAQNASTSDELLPGLVLLILPGANEIETISAGVVETELVDLEQEAVAVTGVLQPGSIGNDLAGIGTQDV"/>
+                    <sequence id="seq_AARS_Q_61" taxon="AARS_Q_6" value="LVDEDLTPADAGIEGLLQLEEESATPLEVDDSGLNVNTSDQLGSDLLLLALAPTDGVVGTTLGIDEQQVVDSELNEGAVVRITDPGPITDTLSGLGTQVN"/>
+                    <sequence id="seq_AARS_Q_71" taxon="AARS_Q_7" value="VVADDTAPSAAGVEGLLELPVDDSGPSEVEDSAQNASPSDTLLPDLVLLALPGANEVDSVTSGVVEEELVDLELEVVAVTGVLQPGSINNTLAGIAPQQV"/>
+                    <sequence id="seq_AARS_C_11" taxon="AARS_C_1" value="PLTTDNEARERGIRGESEITEENSRALERREEAVDLGTELAALALLSICDNANGDGQDTRETSLLDPITPQIPIDSLPTDLIEEGTTVRCARTGTGECTI"/>
+                    <sequence id="seq_AARS_C_21" taxon="AARS_C_2" value="ELTTDNDSREPAARGTQEVTAGESRALDQGDSAADVPTATRTLATQTICDTSNGEGQEGRETSLLNILCPQVDISSLPSDQVCEGRTNGTDRTGCGDCTI"/>
+                    <sequence id="seq_AARS_C_31" taxon="AARS_C_3" value="QLATDSASREPGVRGGLDLVDNTSRALDSRDTSVNVPSAVTALATSTICSISNGEGQQGRETTLLIILCPTVEVDSLPSNRLCQGDAVEAERTACPDCAI"/>
+                    <sequence id="seq_AARS_C_41" taxon="AARS_C_4" value="EQNTDNLVREPGVRNTLDATQNASRALDARDTSVDIPTATSILGTSTICDVSNGAGQDRRETSRQELLCPTIEIEGLPTDRVCQGNAVGTERTGCADLAI"/>
+                    <sequence id="seq_AARS_C_51" taxon="AARS_C_5" value="DLTTDNEARERGIRGESEITDEDSRALERRAAAVDLGTSTAALALLSICDTTNGDGQDTRESSLLDAICPQIPIDVIPTNLVCEGTTVGCARTPQGECTI"/>
+                    <sequence id="seq_AARS_C_61" taxon="AARS_C_6" value="EITTLNDTREPAAQGSLEVTAGESRAIDQGDTAEDVPSATRTLATRAICETSSGEGQEGRETSLLDVLCPQVDISSLPIDQIAEGREVGTERTGCGSCTI"/>
+                    <sequence id="seq_AARS_C_71" taxon="AARS_C_7" value="PLTTDNEARERGIRGESEITEENSRALERREEAVDLGTELAALALLSICDNANGDGQDTRETSLLDPITPQIPIDSLPTDLIEEGTTVRCARTGTGECTI"/>
+
+                </data>
+    
+
+
+    
+
+
+    
+<map name="Beta">beast.math.distributions.Beta</map>
+<map name="Exponential">beast.math.distributions.Exponential</map>
+<map name="InverseGamma">beast.math.distributions.InverseGamma</map>
+<map name="LogNormal">beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Gamma">beast.math.distributions.Gamma</map>
+<map name="Uniform">beast.math.distributions.Uniform</map>
+<map name="prior">beast.math.distributions.Prior</map>
+<map name="LaplaceDistribution">beast.math.distributions.LaplaceDistribution</map>
+<map name="OneOnX">beast.math.distributions.OneOnX</map>
+<map name="Normal">beast.math.distributions.Normal</map>
+<map name="taxon">beast.evolution.alignment.Taxon</map>
+<map name="taxonset">beast.evolution.alignment.TaxonSet</map>
+
+<taxonset id='allTaxa' alignment='@AARS_14_3'/>
+
+
+<run chainLength="10000000" id="mcmc" spec="MCMC">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:AARS_14_3" name="stateNode">
+            <taxonset id="TaxonSet.AARS_14_3" spec="TaxonSet">
+                <data idref="AARS_14_3" name="alignment"/>
+            </taxonset>
+        </tree>
+        <parameter id="birthRate.t:AARS_14_3" name="stateNode" value="1.0"/>
+    </state>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="V.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_14_3">
+                <taxonset id="V" spec="TaxonSet">
+		            <taxon id="AARS_V_1"/>
+		            <taxon id="AARS_V_2"/>
+		            <taxon id="AARS_V_3"/>
+		            <taxon id="AARS_V_4"/>
+		            <taxon id="AARS_V_5"/>
+		            <taxon id="AARS_V_6"/>
+		            <taxon id="AARS_V_7"/>
+                </taxonset>
+            </distribution>
+            <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_14_3">
+                <taxonset id="G" spec="TaxonSet">
+		            <taxon id="AARS_G_1"/>
+		            <taxon id="AARS_G_2"/>
+		            <taxon id="AARS_G_3"/>
+		            <taxon id="AARS_G_4"/>
+		            <taxon id="AARS_G_5"/>
+		            <taxon id="AARS_G_6"/>
+		            <taxon id="AARS_G_7"/>
+                </taxonset>
+            </distribution>
+            <distribution id="A.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_14_3">
+                <taxonset id="A" spec="TaxonSet">
+		            <taxon id="AARS_A_1"/>
+		            <taxon id="AARS_A_2"/>
+		            <taxon id="AARS_A_3"/>
+		            <taxon id="AARS_A_4"/>
+		            <taxon id="AARS_A_5"/>
+		            <taxon id="AARS_A_6"/>
+		            <taxon id="AARS_A_7"/>
+                </taxonset>
+            </distribution>
+            <distribution id="D.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_14_3">
+                <taxonset id="D" spec="TaxonSet">
+		            <taxon id="AARS_D_1"/>
+		            <taxon id="AARS_D_2"/>
+		            <taxon id="AARS_D_3"/>
+		            <taxon id="AARS_D_4"/>
+		            <taxon id="AARS_D_5"/>
+		            <taxon id="AARS_D_6"/>
+		            <taxon id="AARS_D_7"/>
+                </taxonset>
+            </distribution>
+            <distribution id="P.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_14_3">
+                <taxonset id="P" spec="TaxonSet">
+		            <taxon id="AARS_P_1"/>
+		            <taxon id="AARS_P_2"/>
+		            <taxon id="AARS_P_3"/>
+		            <taxon id="AARS_P_4"/>
+		            <taxon id="AARS_P_5"/>
+		            <taxon id="AARS_P_6"/>
+		            <taxon id="AARS_P_7"/>
+                </taxonset>
+            </distribution>
+            <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_14_3">
+                <taxonset id="S" spec="TaxonSet">
+		            <taxon id="AARS_S_1"/>
+		            <taxon id="AARS_S_2"/>
+		            <taxon id="AARS_S_3"/>
+		            <taxon id="AARS_S_4"/>
+		            <taxon id="AARS_S_5"/>
+		            <taxon id="AARS_S_6"/>
+		            <taxon id="AARS_S_7"/>
+                </taxonset>
+            </distribution>
+            <distribution id="E.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_14_3">
+                <taxonset id="E" spec="TaxonSet">
+		            <taxon id="AARS_E_1"/>
+		            <taxon id="AARS_E_2"/>
+		            <taxon id="AARS_E_3"/>
+		            <taxon id="AARS_E_4"/>
+		            <taxon id="AARS_E_5"/>
+		            <taxon id="AARS_E_6"/>
+		            <taxon id="AARS_E_7"/>
+                </taxonset>
+            </distribution>
+            <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_14_3">
+                <taxonset id="L" spec="TaxonSet">
+		            <taxon id="AARS_L_1"/>
+		            <taxon id="AARS_L_2"/>
+		            <taxon id="AARS_L_3"/>
+		            <taxon id="AARS_L_4"/>
+		            <taxon id="AARS_L_5"/>
+		            <taxon id="AARS_L_6"/>
+		            <taxon id="AARS_L_7"/>
+                </taxonset>
+            </distribution>
+            <distribution id="R.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_14_3">
+                <taxonset id="R" spec="TaxonSet">
+		            <taxon id="AARS_R_1"/>
+		            <taxon id="AARS_R_2"/>
+		            <taxon id="AARS_R_3"/>
+		            <taxon id="AARS_R_4"/>
+		            <taxon id="AARS_R_5"/>
+		            <taxon id="AARS_R_6"/>
+		            <taxon id="AARS_R_7"/>
+                </taxonset>
+            </distribution>
+            <distribution id="I.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_14_3">
+                <taxonset id="I" spec="TaxonSet">
+		            <taxon id="AARS_I_1"/>
+		            <taxon id="AARS_I_2"/>
+		            <taxon id="AARS_I_3"/>
+		            <taxon id="AARS_I_4"/>
+		            <taxon id="AARS_I_5"/>
+		            <taxon id="AARS_I_6"/>
+		            <taxon id="AARS_I_7"/>
+                </taxonset>
+            </distribution>
+            <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_14_3">
+                <taxonset id="T" spec="TaxonSet">
+		            <taxon id="AARS_T_1"/>
+		            <taxon id="AARS_T_2"/>
+		            <taxon id="AARS_T_3"/>
+		            <taxon id="AARS_T_4"/>
+		            <taxon id="AARS_T_5"/>
+		            <taxon id="AARS_T_6"/>
+		            <taxon id="AARS_T_7"/>
+                </taxonset>
+            </distribution>
+            <distribution id="N.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_14_3">
+                <taxonset id="N" spec="TaxonSet">
+		            <taxon id="AARS_N_1"/>
+		            <taxon id="AARS_N_2"/>
+		            <taxon id="AARS_N_3"/>
+		            <taxon id="AARS_N_4"/>
+		            <taxon id="AARS_N_5"/>
+		            <taxon id="AARS_N_6"/>
+		            <taxon id="AARS_N_7"/>
+                </taxonset>
+            </distribution>
+            <distribution id="Q.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_14_3">
+                <taxonset id="Q" spec="TaxonSet">
+		            <taxon id="AARS_Q_1"/>
+		            <taxon id="AARS_Q_2"/>
+		            <taxon id="AARS_Q_3"/>
+		            <taxon id="AARS_Q_4"/>
+		            <taxon id="AARS_Q_5"/>
+		            <taxon id="AARS_Q_6"/>
+		            <taxon id="AARS_Q_7"/>
+                </taxonset>
+            </distribution>
+            <distribution id="C.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_14_3">
+                <taxonset id="C" spec="TaxonSet">
+		            <taxon id="AARS_C_1"/>
+		            <taxon id="AARS_C_2"/>
+		            <taxon id="AARS_C_3"/>
+		            <taxon id="AARS_C_4"/>
+		            <taxon id="AARS_C_5"/>
+		            <taxon id="AARS_C_6"/>
+		            <taxon id="AARS_C_7"/>
+                </taxonset>
+            </distribution>
+
+            <distribution spec='beast.evolution.substitutionmodel.AARSTreePrior' id='AARSprior'>
+                        <trait id="TraitSet1" spec="beast.evolution.tree.TraitSet" taxa="@allTaxa" traitname="state" units="year">
+				AARS_V_1=0,AARS_V_2=0,AARS_V_3=0,AARS_V_4=0,AARS_V_5=0,AARS_V_6=0,AARS_V_7=0,
+				AARS_G_1=1,AARS_G_2=1,AARS_G_3=1,AARS_G_4=1,AARS_G_5=1,AARS_G_6=1,AARS_G_7=1,
+				AARS_A_1=2,AARS_A_2=2,AARS_A_3=2,AARS_A_4=2,AARS_A_5=2,AARS_A_6=2,AARS_A_7=2,
+				AARS_D_1=3,AARS_D_2=3,AARS_D_3=3,AARS_D_4=3,AARS_D_5=3,AARS_D_6=3,AARS_D_7=3,
+				AARS_E_1=4,AARS_E_2=4,AARS_E_3=4,AARS_E_4=4,AARS_E_5=4,AARS_E_6=4,AARS_E_7=4,
+				AARS_L_1=5,AARS_L_2=5,AARS_L_3=5,AARS_L_4=5,AARS_L_5=5,AARS_L_6=5,AARS_L_7=5,
+				AARS_P_1=6,AARS_P_2=6,AARS_P_3=6,AARS_P_4=6,AARS_P_5=6,AARS_P_6=6,AARS_P_7=6,
+				AARS_R_1=7,AARS_R_2=7,AARS_R_3=7,AARS_R_4=7,AARS_R_5=7,AARS_R_6=7,AARS_R_7=7,
+				AARS_S_1=8,AARS_S_2=8,AARS_S_3=8,AARS_S_4=8,AARS_S_5=8,AARS_S_6=8,AARS_S_7=8,
+				AARS_I_1=9,AARS_I_2=9,AARS_I_3=9,AARS_I_4=9,AARS_I_5=9,AARS_I_6=9,AARS_I_7=9,
+				AARS_Q_1=10,AARS_Q_2=10,AARS_Q_3=10,AARS_Q_4=10,AARS_Q_5=10,AARS_Q_6=10,AARS_Q_7=10,
+				AARS_C_1=11,AARS_C_2=11,AARS_C_3=11,AARS_C_4=11,AARS_C_5=11,AARS_C_6=11,AARS_C_7=11,
+				AARS_T_1=12,AARS_T_2=12,AARS_T_3=12,AARS_T_4=12,AARS_T_5=12,AARS_T_6=12,AARS_T_7=12,
+				AARS_N_1=13,AARS_N_2=13,AARS_N_3=13,AARS_N_4=13,AARS_N_5=13,AARS_N_6=13,AARS_N_7=13
+                                </trait>
+                    <treeIntervals id='treeIntervals' spec='beast.evolution.tree.coalescent.TreeIntervals' tree='@Tree.t:AARS_14_3'/>
+            </distribution>
+
+            <distribution birthDiffRate="@birthRate.t:AARS_14_3" id="YuleModel.t:AARS_14_3" spec="beast.evolution.speciation.YuleModel" tree="@Tree.t:AARS_14_3"/>
+            <prior id="YuleBirthRatePrior.t:AARS_14_3" name="distribution" x="@birthRate.t:AARS_14_3">
+                <Uniform id="Uniform.0" name="distr" upper="Infinity"/>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution">
+            <distribution data="@AARS_14_3" id="treeLikelihood.AARS_14_3" spec="TreeLikelihood" tree="@Tree.t:AARS_14_3">
+                <siteModel id="SiteModel.s:AARS_14_3" spec="SiteModel">
+                    <parameter estimate="false" id="mutationRate.s:AARS_14_3" name="mutationRate" value="1.0"/>
+                    <parameter estimate="false" id="gammaShape.s:AARS_14_3" name="shape" value="1.0"/>
+                    <parameter estimate="false" id="proportionInvariant.s:AARS_14_3" lower="0.0" name="proportionInvariant" upper="1.0" value="0.0"/>
+
+<!--
+
+1	2	3	4	5	6	7	8	9	10	11	12	13	14
+V	G	A	D	E	L	P	R	S	I	Q	C	T	N
+0.088	0.1033	0.1075	0.0708	0.072	0.107	0.0568	0.0546	0.0863	0.0601	0.0456	0.024	0.0757	0.0485
+													
+-1.1551	0.0193	0.2156	0.0108	0.0424	0.1926	0.0179	0.0137	0.0201	0.4703	0.0137	0.024	0.1051	0.0095
+0.0165	-0.5348	0.1523	0.0613	0.0409	0.0066	0.0138	0.0319	0.1157	0.0018	0.015	0.0073	0.0171	0.0546
+0.1765	0.1463	-1.1972	0.0523	0.114	0.0426	0.0817	0.0301	0.2908	0.0116	0.0414	0.0246	0.1606	0.0247
+0.0134	0.0894	0.0794	-1.0836	0.4448	0.0091	0.0241	0.008	0.0924	0.0024	0.0281	0.0007	0.0284	0.2633
+0.0518	0.0586	0.1701	0.437	-1.2232	0.0165	0.0387	0.024	0.0608	0.0077	0.2493	0.0005	0.0623	0.0459
+0.1584	0.0063	0.0428	0.006	0.0111	-0.5757	0.0236	0.0272	0.0297	0.1907	0.0396	0.0092	0.0247	0.0064
+0.0277	0.0252	0.1546	0.03	0.0492	0.0445	-0.6282	0.0371	0.1392	0.006	0.0425	0.0026	0.0602	0.0095
+0.0222	0.0604	0.0593	0.0104	0.0316	0.0532	0.0386	-0.6163	0.1056	0.0112	0.1383	0.0127	0.042	0.0308
+0.0205	0.1386	0.3623	0.0759	0.0508	0.0369	0.0916	0.0668	-1.4673	0.0192	0.0469	0.0337	0.3314	0.1928
+0.688	0.0031	0.0208	0.0028	0.0092	0.3392	0.0057	0.0102	0.0276	-1.2531	0.0052	0.0041	0.1104	0.0269
+0.0265	0.0341	0.0977	0.0437	0.394	0.093	0.053	0.1656	0.0887	0.0069	-1.1453	0.0024	0.0649	0.0749
+0.0882	0.0317	0.1104	0.0021	0.0015	0.0411	0.0062	0.0288	0.1214	0.0102	0.0045	-0.4979	0.0388	0.0129
+0.1221	0.0233	0.228	0.0265	0.0593	0.0349	0.0452	0.0302	0.3776	0.0877	0.0391	0.0123	-1.1848	0.0985
+0.0173	0.1163	0.0548	0.3843	0.0682	0.0141	0.0111	0.0347	0.3428	0.0333	0.0703	0.0064	0.1537	-1.3072
+													
+	0.1868718296	2.0059825116	0.1525728814	0.5890066667	1.80036	0.3152038732	0.2509659341	0.2329550406	7.8268562396	0.3004986842	1.0002	1.3886528402	0.1959154639
+0.1875375		1.4170275349	0.8659923729	0.5681691667	0.0616945794	0.243006338	0.5843659341	1.3409402086	0.0299560732	0.3290131579	0.3042275	0.225936856	1.1259983505
+2.0060829545	1.4165465634		0.7388483051	1.58365	0.3982104673	1.4386679577	0.5513923077	3.3703147161	0.1930502496	0.9080763158	1.025205	2.1219566711	0.5093802062
+0.1523031818	0.8656135528	0.7387523721		6.1790133333	0.0850637383	0.4243806338	0.1465494505	1.0708977984	0.0399414309	0.6163513158	0.0291725	0.3752401585	5.4299517526
+0.5887540909	0.5673932236	1.5826420465	6.1735508475		0.1542364486	0.6814742958	0.4396483516	0.7046600232	0.1281454243	5.4681986842	0.0208375	0.8231500661	0.9465810309
+1.80036	0.0609996128	0.3982191628	0.0847627119	0.1541975		0.4155760563	0.4982681319	0.3442171495	3.1736795341	0.8685947368	0.38341	0.3263532365	0.1319851546
+0.3148356818	0.2439984511	1.4384271628	0.4238135593	0.68347	0.415971028		0.6796230769	1.6133005794	0.0998535774	0.9322039474	0.108355	0.7954034346	0.1959154639
+0.2523231818	0.5848216844	0.5517382326	0.1469220339	0.4389766667	0.4972957009	0.6797133803		1.2238831981	0.1863933444	3.0335013158	0.5292725	0.5549326288	0.6351785567
+0.2330011364	1.3419914811	3.3709066047	1.0722483051	0.7056966667	0.344928785	1.6129985915	1.2236879121		0.3195314476	1.0287144737	1.4044475	4.3786826948	3.9760527835
+7.8197454545	0.0300156825	0.1935270698	0.0395559322	0.1278033333	3.1707274766	0.1003721831	0.1868505495	0.3198785632		0.1140578947	0.1708675	1.4586800528	0.5547501031
+0.3011965909	0.3301725073	0.9090189767	0.6173550847	5.4733166667	0.8693327103	0.9332852113	3.0335736264	1.0280155272	0.114831614		0.10002	0.8575030383	1.5446387629
+1.0024731818	0.3069345595	1.0271821395	0.0296669492	0.0208375	0.384188972	0.1091767606	0.527578022	1.4070020857	0.1697510815	0.0987039474		0.5126520476	0.2660325773
+1.3877775	0.2256017425	2.1213544186	0.3743686441	0.8237758333	0.3262334579	0.7959338028	0.5532241758	4.3763096176	1.4595264559	0.8576276316	0.5126025		2.0313340206
+0.1966302273	1.1260722168	0.5098693953	5.4290516949	0.9474116667	0.1318020561	0.1954616197	0.6356582418	3.9729844728	0.5541873544	1.541975	0.26672	2.0307891678	
+													
+
+-->
+                    <substModel  spec='GeneralSubstitutionModel' rates='
+	0.1868718296	2.0059825116	0.1525728814	0.5890066667	1.80036	0.3152038732	0.2509659341	0.2329550406	7.8268562396	0.3004986842	1.0002	1.3886528402	0.1959154639
+0.1875375		1.4170275349	0.8659923729	0.5681691667	0.0616945794	0.243006338	0.5843659341	1.3409402086	0.0299560732	0.3290131579	0.3042275	0.225936856	1.1259983505
+2.0060829545	1.4165465634		0.7388483051	1.58365	0.3982104673	1.4386679577	0.5513923077	3.3703147161	0.1930502496	0.9080763158	1.025205	2.1219566711	0.5093802062
+0.1523031818	0.8656135528	0.7387523721		6.1790133333	0.0850637383	0.4243806338	0.1465494505	1.0708977984	0.0399414309	0.6163513158	0.0291725	0.3752401585	5.4299517526
+0.5887540909	0.5673932236	1.5826420465	6.1735508475		0.1542364486	0.6814742958	0.4396483516	0.7046600232	0.1281454243	5.4681986842	0.0208375	0.8231500661	0.9465810309
+1.80036	0.0609996128	0.3982191628	0.0847627119	0.1541975		0.4155760563	0.4982681319	0.3442171495	3.1736795341	0.8685947368	0.38341	0.3263532365	0.1319851546
+0.3148356818	0.2439984511	1.4384271628	0.4238135593	0.68347	0.415971028		0.6796230769	1.6133005794	0.0998535774	0.9322039474	0.108355	0.7954034346	0.1959154639
+0.2523231818	0.5848216844	0.5517382326	0.1469220339	0.4389766667	0.4972957009	0.6797133803		1.2238831981	0.1863933444	3.0335013158	0.5292725	0.5549326288	0.6351785567
+0.2330011364	1.3419914811	3.3709066047	1.0722483051	0.7056966667	0.344928785	1.6129985915	1.2236879121		0.3195314476	1.0287144737	1.4044475	4.3786826948	3.9760527835
+7.8197454545	0.0300156825	0.1935270698	0.0395559322	0.1278033333	3.1707274766	0.1003721831	0.1868505495	0.3198785632		0.1140578947	0.1708675	1.4586800528	0.5547501031
+0.3011965909	0.3301725073	0.9090189767	0.6173550847	5.4733166667	0.8693327103	0.9332852113	3.0335736264	1.0280155272	0.114831614		0.10002	0.8575030383	1.5446387629
+1.0024731818	0.3069345595	1.0271821395	0.0296669492	0.0208375	0.384188972	0.1091767606	0.527578022	1.4070020857	0.1697510815	0.0987039474		0.5126520476	0.2660325773
+1.3877775	0.2256017425	2.1213544186	0.3743686441	0.8237758333	0.3262334579	0.7959338028	0.5532241758	4.3763096176	1.4595264559	0.8576276316	0.5126025		2.0313340206
+0.1966302273	1.1260722168	0.5098693953	5.4290516949	0.9474116667	0.1318020561	0.1954616197	0.6356582418	3.9729844728	0.5541873544	1.541975	0.26672	2.0307891678	
+'>
+							<frequencies spec='Frequencies' frequencies='0.0879824035	0.1032793441	0.1074785043	0.0707858428	0.0719856029	0.1069786043	0.0567886423	0.0545890822	0.0862827435	0.0600879824	0.0455908818	0.023995201	0.075684863	0.0484903019
+
+'/>
+                    </substModel>
+                </siteModel>
+                <branchRateModel id="StrictClock.c:AARS_14_3" spec="beast.evolution.branchratemodel.StrictClockModel">
+                    <parameter estimate="false" id="clockRate.c:AARS_14_3" name="clock.rate" value="1.0"/>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="YuleBirthRateScaler.t:AARS_14_3" parameter="@birthRate.t:AARS_14_3" scaleFactor="0.75" spec="ScaleOperator" weight="3.0"/>
+
+    <operator id="treeScaler.t:AARS_14_3" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS_14_3" weight="3.0"/>
+
+    <operator id="treeRootScaler.t:AARS_14_3" rootOnly="true" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS_14_3" weight="3.0"/>
+
+    <operator id="UniformOperator.t:AARS_14_3" spec="Uniform" tree="@Tree.t:AARS_14_3" weight="30.0"/>
+
+    <operator id="SubtreeSlide.t:AARS_14_3" spec="SubtreeSlide" tree="@Tree.t:AARS_14_3" weight="15.0"/>
+
+    <operator id="narrow.t:AARS_14_3" spec="Exchange" tree="@Tree.t:AARS_14_3" weight="15.0"/>
+
+    <operator id="wide.t:AARS_14_3" isNarrow="false" spec="Exchange" tree="@Tree.t:AARS_14_3" weight="3.0"/>
+
+    <operator id="WilsonBalding.t:AARS_14_3" spec="WilsonBalding" tree="@Tree.t:AARS_14_3" weight="3.0"/>
+
+    <logger fileName="14_3.General.log" id="tracelog" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.AARS_14_3"/>
+        <log id="TreeHeight.t:AARS_14_3" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:AARS_14_3"/>
+        <log idref="YuleModel.t:AARS_14_3"/>
+        <parameter idref="birthRate.t:AARS_14_3" name="log"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log arg="@posterior" id="ESS.0" spec="util.ESS"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger fileName="14_3.General.trees" id="treelog.t:AARS_14_3" logEvery="1000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:AARS_14_3" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS_14_3"/>
+    </logger>
+    
+    <init estimate="false" id="TreeParser.t:AARS_14_3" initial="@Tree.t:AARS_14_3" spec="beast.util.TreeParser" taxa="@AARS_14_3"
+        newick='(((((((AARS_V_1:6.0,(AARS_V_2:5.0,(AARS_V_3:4.0,(AARS_V_4:3.0,(AARS_V_5:2.0,(AARS_V_6:1.0,AARS_V_7:1.0):1.0):1.0):1.0):1.0):1.0):1.0,(AARS_E_1:6.0,(AARS_E_2:5.0,(AARS_E_3:4.0,(AARS_E_4:3.0,(AARS_E_5:2.0,(AARS_E_6:1.0,AARS_E_7:1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0,((AARS_R_1:6.0,(AARS_R_2:5.0,(AARS_R_3:4.0,(AARS_R_4:3.0,(AARS_R_5:2.0,(AARS_R_6:1.0,AARS_R_7:1.0):1.0):1.0):1.0):1.0):1.0):1.0,(AARS_L_1:6.0,(AARS_L_2:5.0,(AARS_L_3:4.0,(AARS_L_4:3.0,(AARS_L_5:2.0,(AARS_L_6:1.0,AARS_L_7:1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0,(((AARS_G_1:6.0,(AARS_G_2:5.0,(AARS_G_3:4.0,(AARS_G_4:3.0,(AARS_G_5:2.0,(AARS_G_6:1.0,AARS_G_7:1.0):1.0):1.0):1.0):1.0):1.0):1.0,(AARS_D_1:6.0,(AARS_D_2:5.0,(AARS_D_3:4.0,(AARS_D_4:3.0,(AARS_D_5:2.0,(AARS_D_6:1.0,AARS_D_7:1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0,((AARS_A_1:6.0,(AARS_A_2:5.0,(AARS_A_3:4.0,(AARS_A_4:3.0,(AARS_A_5:2.0,(AARS_A_6:1.0,AARS_A_7:1.0):1.0):1.0):1.0):1.0):1.0):1.0,(AARS_P_1:6.0,(AARS_P_2:5.0,(AARS_P_3:4.0,(AARS_P_4:3.0,(AARS_P_5:2.0,(AARS_P_6:1.0,AARS_P_7:1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0,((AARS_S_1:6.0,(AARS_S_2:5.0,(AARS_S_3:4.0,(AARS_S_4:3.0,(AARS_S_5:2.0,(AARS_S_6:1.0,AARS_S_7:1.0):1.0):1.0):1.0):1.0):1.0):1.0,(AARS_T_1:6.0,(AARS_T_2:5.0,(AARS_T_3:4.0,(AARS_T_4:3.0,(AARS_T_5:2.0,(AARS_T_6:1.0,AARS_T_7:1.0):1.0):1.0):1.0):1.0):1.0):1.0):3.0):1.0,((AARS_Q_1:6.0,(AARS_Q_2:5.0,(AARS_Q_3:4.0,(AARS_Q_4:3.0,(AARS_Q_5:2.0,(AARS_Q_6:1.0,AARS_Q_7:1.0):1.0):1.0):1.0):1.0):1.0):1.0,(AARS_C_1:6.0,(AARS_C_2:5.0,(AARS_C_3:4.0,(AARS_C_4:3.0,(AARS_C_5:2.0,(AARS_C_6:1.0,AARS_C_7:1.0):1.0):1.0):1.0):1.0):1.0):1.0):4.0):1.0,((AARS_N_1:6.0,(AARS_N_2:5.0,(AARS_N_3:4.0,(AARS_N_4:3.0,(AARS_N_5:2.0,(AARS_N_6:1.0,AARS_N_7:1.0):1.0):1.0):1.0):1.0):1.0):1.0,(AARS_I_1:6.0,(AARS_I_2:5.0,(AARS_I_3:4.0,(AARS_I_4:3.0,(AARS_I_5:2.0,(AARS_I_6:1.0,AARS_I_7:1.0):1.0):1.0):1.0):1.0):1.0):1.0):5.0);'
+    />
+</run>
+
+
+</beast>

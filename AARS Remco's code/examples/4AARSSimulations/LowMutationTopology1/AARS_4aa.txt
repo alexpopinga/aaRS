@@ -1,0 +1,52 @@
+
+rseed =   2.053794e+05
+Hierarchy of amino acid frequency vectors
+and Substitution Rate Matrices
+
+         1         2         3         4
+         V         G         A         E
+    0.2500    0.1800    0.2200    0.3500
+
+    -0.5200    0.1260    0.0440    0.3500
+    0.1750    -0.4250    0.1100    0.1400
+    0.0500    0.0900    -0.2450    0.1050
+    0.2500    0.0720    0.0660    -0.3880
+
+
+         1         2         3
+         V         G         A
+    0.6000    0.1800    0.2200
+
+    -0.1513    0.0945    0.0568
+    0.3150    -0.4250    0.1100
+    0.1550    0.0900    -0.2450
+
+
+         1         2
+         V         G
+    0.6000    0.4000
+
+    -0.1513    0.1513
+    0.2270    -0.2270
+
+
+AARS Tree
+((V:5482,E:5482):13115,(G:18497,A:18497):100);
+
+Epoch Lengths
+    0  10013015 5482
+
+Mutation rates in each epoch
+ 0.000e+00  7.264e-06  8.848e-06  1.585e-05 
+
+Ancestral Nodes 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+GVVGVGVVVVGVGVVVVGVGVVVGVGVGGVVVVVVVGGGGVVGVGVGVGVVGGGVVVVGVVVGVVVVVVGGGVVVGVVGVVVVGVVGVVVGGGVVVVVGG
+VVVVGVVAVVVGVVGAGGAGVVVVVGVVAVVVVVVVGGVVAGVVVAVVVVAVGGVVVVVVVGVGVGAVVVVAVVGAGGGAGGVVVGAVVVVVVAGGVGGG
+
+
+Organism Tree 
+((1:7134,7:7134):22429,((2:15872,5:15872):10700,(3:24146,(4:7629,6:7629):16517):2426):2991);
+
+Species Epoch Lengths
+    0 2991 2426 8274 8243  495 7134
