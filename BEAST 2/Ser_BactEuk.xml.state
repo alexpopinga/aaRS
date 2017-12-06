@@ -1,28 +1,28 @@
-<itsabeastystatewerein version='2.0' sample='1774999'>
-<statenode id='Tree.t:Ser_BactEuk'>((((17:0.24789876887250345,(19:0.006563195973481277,20:0.006563195973481277)69:0.24133557289902216)64:0.35687712071883454,(12:0.5196311187113678,((15:0.30171164969996966,0:0.30171164969996966)39:0.035663959785560584,((31:0.25295584390493436,27:0.25295584390493436)67:0.07545448360887025,36:0.3284103275138046)58:0.008965281971725636)48:0.18225550922583755)66:0.08514477087997019)60:0.015210868146325773,((((22:0.1334066926371389,29:0.1334066926371389)63:0.05470133038439309,((25:0.052856273006925907,21:0.052856273006925907)49:0.03632571495083003,28:0.08918198795775593)51:0.09892603506377605)70:0.06174779945643527,((((24:0.11922668227434223,35:0.11922668227434223)44:0.012654628829620887,30:0.13188131110396312)59:0.04191290878489942,33:0.17379421988886254)47:0.01718230932367648,26:0.19097652921253902)65:0.058879293265428234)42:0.005972843058922456,(23:0.18326073789452896,37:0.18326073789452896)54:0.07256792764236075)43:0.36415809220077405)61:0.01899548637871107,(((13:0.2401772328556828,(6:0.12708634222708698,16:0.12708634222708698)52:0.11309089062859581)71:0.11619799157107627,((((5:0.09129934488858722,11:0.09129934488858722)50:0.1094980570366413,32:0.20079740192522852)53:0.07623678641758277,(7:0.05415749593728596,14:0.05415749593728596)55:0.22287669240552532)73:0.026977045460358173,((3:0.24388968715094292,(((4:0.06817024260239148,1:0.06817024260239148)41:0.036115035296984774,34:0.10428527789937625)46:0.08790827105422891,18:0.19219354895360516)56:0.05169613819733776)72:0.005105896293830653,(9:0.14438191368199854,10:0.14438191368199854)45:0.10461366976277503)38:0.055015650358395896)68:0.052363990623589596)62:0.035663248042518136,(2:0.1947886538995213,8:0.1947886538995213)40:0.1972498185697559)57:0.24694377164709763)74:0.0</statenode>
-<statenode id='gammaShape.s:Ser_BactEuk'>gammaShape.s:Ser_BactEuk[1 1] (0.001,1000.0): 0.8082542116530627 </statenode>
+<itsabeastystatewerein version='2.0' sample='5739999'>
+<statenode id='Tree.t:Ser_BactEuk'>((((12:0.6990763128712747,(((26:0.32858465216975724,(33:0.2533653904703002,(30:0.21167197699518414,(24:0.09557281184090295,35:0.09557281184090295)54:0.11609916515428119)63:0.04169341347511607)43:0.07521926169945703)47:0.06897603160684529,((29:0.24826427672686988,22:0.24826427672686988)65:0.042496603329063215,((25:0.07842664283253997,21:0.07842664283253997)49:0.039438540234559866,28:0.11786518306709984)51:0.17289569698883325)59:0.10679980372066944)42:0.028555926837893875,(23:0.24779825439342476,37:0.24779825439342476)44:0.17831835622107164)70:0.2729597022567783)60:0.08308005988115197,((15:0.380242007216625,0:0.380242007216625)48:0.07567653210360975,((27:0.23646115197519485,36:0.23646115197519485)66:0.13518027854868192,31:0.37164143052387677)67:0.08427710879635797)39:0.3262378334321919)61:0.0436161743322393,(17:0.29558183775617075,(19:0.015323455221708105,20:0.015323455221708105)69:0.28025838253446267)64:0.5301907093284952)58:0.075273244302827,(((13:0.4196913211454659,(6:0.2059006309013367,16:0.2059006309013367)52:0.21379069024412922)40:0.08516040417647197,(2:0.41878941736527014,8:0.41878941736527014)73:0.08606230795666775)72:0.033310498659943066,((((5:0.11285284004084001,11:0.11285284004084001)50:0.12793723783709454,32:0.24079007787793455)53:0.09435825623023986,(7:0.09143184226867698,14:0.09143184226867698)55:0.24371649183949742)56:0.07883481702379036,((3:0.36266066756899645,(10:0.17744143876291701,9:0.17744143876291701)45:0.18521922880607944)68:0.020172220267845486,(((34:0.09122902799596637,1:0.09122902799596637)41:0.07138211070188712,4:0.16261113869785349)46:0.09636999133647733,18:0.2589811300343308)57:0.12385175780251112)62:0.031150263295122826)71:0.1241790728499162)38:0.362883567405612)74:0.0</statenode>
+<statenode id='gammaShape.s:Ser_BactEuk'>gammaShape.s:Ser_BactEuk[1 1] (0.001,1000.0): 1.0480294899777156 </statenode>
 <statenode id='mutationRate.s:Ser_BactEuk'>mutationRate.s:Ser_BactEuk[1 1] (0.0,Infinity): 1.0 </statenode>
-<statenode id='ucldStdev.c:Ser_BactEuk'>ucldStdev.c:Ser_BactEuk[1 1] (0.0,Infinity): 6.254191508766576E-4 </statenode>
-<statenode id='rateCategories.c:Ser_BactEuk'>rateCategories.c:Ser_BactEuk[74 1] (0,73): 43 70 51 22 4 69 15 62 24 12 36 9 17 63 71 53 7 67 48 11 33 37 46 70 49 19 17 1 65 70 17 28 14 31 13 64 56 47 50 68 8 3 40 67 38 49 59 50 69 57 26 72 1 25 1 16 34 11 12 34 32 6 47 69 33 3 39 31 27 63 7 9 73 67 </statenode>
-<statenode id='birthRate2.t:Ser_BactEuk'>birthRate2.t:Ser_BactEuk[1 1] (0.0,10000.0): 4.4940276316651655 </statenode>
-<statenode id='relativeDeathRate2.t:Ser_BactEuk'>relativeDeathRate2.t:Ser_BactEuk[1 1] (0.0,1.0): 0.047101194569822036 </statenode>
+<statenode id='ucldStdev.c:Ser_BactEuk'>ucldStdev.c:Ser_BactEuk[1 1] (0.0,Infinity): 0.22580695430004954 </statenode>
+<statenode id='rateCategories.c:Ser_BactEuk'>rateCategories.c:Ser_BactEuk[74 1] (0,73): 54 37 26 69 3 71 57 17 47 45 27 57 69 65 11 31 32 73 57 2 65 65 66 37 73 44 3 72 53 14 66 22 45 59 27 19 54 19 29 40 52 63 70 2 48 45 65 17 57 32 71 56 25 15 45 22 2 53 70 12 58 57 26 16 49 37 45 59 33 26 32 62 20 38 </statenode>
+<statenode id='birthRate2.t:Ser_BactEuk'>birthRate2.t:Ser_BactEuk[1 1] (0.0,10000.0): 2.9164463858607967 </statenode>
+<statenode id='relativeDeathRate2.t:Ser_BactEuk'>relativeDeathRate2.t:Ser_BactEuk[1 1] (0.0,1.0): 0.1372383421263144 </statenode>
 </itsabeastystatewerein>
 <!--
 {"operators":[
-{"id":"gammaShapeScaler.s:Ser_BactEuk","p":0.5151116033197142,"accept":1290,"reject":4128,"acceptFC":1283,"rejectFC":4103,"rejectIv":0,"rejectOp":0},
-{"id":"FixMeanMutationRatesOperator","p":3846.2283933426534,"accept":107050,"reject":0,"acceptFC":106409,"rejectFC":0,"rejectIv":0,"rejectOp":0},
-{"id":"ucldStdevScaler.c:Ser_BactEuk","p":0.17527518679360846,"accept":40756,"reject":119265,"acceptFC":40267,"rejectFC":118804,"rejectIv":0,"rejectOp":0},
-{"id":"CategoriesRandomWalk.c:Ser_BactEuk","p":"NaN","accept":348620,"reject":184479,"acceptFC":346635,"rejectFC":183352,"rejectIv":182144,"rejectOp":182144},
-{"id":"CategoriesSwapOperator.c:Ser_BactEuk","p":"NaN","accept":454508,"reject":78855,"acceptFC":452254,"rejectFC":77996,"rejectIv":0,"rejectOp":0},
-{"id":"CategoriesUniform.c:Ser_BactEuk","p":"NaN","accept":478948,"reject":53998,"acceptFC":476508,"rejectFC":53369,"rejectIv":0,"rejectOp":0},
-{"id":"BirthDeathTreeScaler.t:Ser_BactEuk","p":0.5213813375482358,"accept":35952,"reject":124421,"acceptFC":35765,"rejectFC":123725,"rejectIv":0,"rejectOp":0},
-{"id":"BirthDeathTreeRootScaler.t:Ser_BactEuk","p":0.5623144401401353,"accept":15572,"reject":144457,"acceptFC":15496,"rejectFC":143645,"rejectIv":48614,"rejectOp":48614},
-{"id":"BirthDeathUniformOperator.t:Ser_BactEuk","p":"NaN","accept":666338,"reject":936736,"acceptFC":662501,"rejectFC":931316,"rejectIv":0,"rejectOp":0},
-{"id":"BirthDeathSubtreeSlide.t:Ser_BactEuk","p":2.282150968882871,"accept":12431,"reject":790886,"acceptFC":12217,"rejectFC":786374,"rejectIv":379169,"rejectOp":379169},
-{"id":"BirthDeathNarrow.t:Ser_BactEuk","p":"NaN","accept":160961,"reject":639631,"acceptFC":160007,"rejectFC":635862,"rejectIv":0,"rejectOp":0},
-{"id":"BirthDeathWide.t:Ser_BactEuk","p":"NaN","accept":609,"reject":159939,"acceptFC":597,"rejectFC":159078,"rejectIv":81347,"rejectOp":81347},
-{"id":"BirthDeathWilsonBalding.t:Ser_BactEuk","p":"NaN","accept":1140,"reject":158531,"acceptFC":1129,"rejectFC":157627,"rejectIv":16889,"rejectOp":16889},
-{"id":"BirthRateScaler.t:Ser_BactEuk","p":0.3933745355398477,"accept":41572,"reject":118896,"acceptFC":40926,"rejectFC":118613,"rejectIv":0,"rejectOp":0},
-{"id":"DeathRateScaler.t:Ser_BactEuk","p":0.14210026236118062,"accept":43050,"reject":116981,"acceptFC":42311,"rejectFC":116769,"rejectIv":21290,"rejectOp":21290}
+{"id":"gammaShapeScaler.s:Ser_BactEuk","p":0.5151952965562744,"accept":2089,"reject":6757,"acceptFC":2082,"rejectFC":6732,"rejectIv":0,"rejectOp":0},
+{"id":"FixMeanMutationRatesOperator","p":5663.388511199146,"accept":176992,"reject":0,"acceptFC":176351,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"ucldStdevScaler.c:Ser_BactEuk","p":0.1736553732429064,"accept":67322,"reject":197383,"acceptFC":66833,"rejectFC":196922,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesRandomWalk.c:Ser_BactEuk","p":"NaN","accept":577086,"reject":306059,"acceptFC":575101,"rejectFC":304932,"rejectIv":302337,"rejectOp":302337},
+{"id":"CategoriesSwapOperator.c:Ser_BactEuk","p":"NaN","accept":757119,"reject":125691,"acceptFC":754865,"rejectFC":124832,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesUniform.c:Ser_BactEuk","p":"NaN","accept":797048,"reject":86543,"acceptFC":794608,"rejectFC":85914,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeScaler.t:Ser_BactEuk","p":0.5220223703568189,"accept":59892,"reject":205442,"acceptFC":59705,"rejectFC":204746,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeRootScaler.t:Ser_BactEuk","p":0.5623699742286605,"accept":25555,"reject":239301,"acceptFC":25479,"rejectFC":238489,"rejectIv":80620,"rejectOp":80620},
+{"id":"BirthDeathUniformOperator.t:Ser_BactEuk","p":"NaN","accept":1102830,"reject":1553110,"acceptFC":1098993,"rejectFC":1547690,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathSubtreeSlide.t:Ser_BactEuk","p":2.278036087310744,"accept":20629,"reject":1309299,"acceptFC":20415,"rejectFC":1304787,"rejectIv":627737,"rejectOp":627737},
+{"id":"BirthDeathNarrow.t:Ser_BactEuk","p":"NaN","accept":265494,"reject":1061224,"acceptFC":264540,"rejectFC":1057455,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathWide.t:Ser_BactEuk","p":"NaN","accept":1024,"reject":265217,"acceptFC":1012,"rejectFC":264356,"rejectIv":134823,"rejectOp":134823},
+{"id":"BirthDeathWilsonBalding.t:Ser_BactEuk","p":"NaN","accept":1854,"reject":263098,"acceptFC":1843,"rejectFC":262194,"rejectIv":28215,"rejectOp":28215},
+{"id":"BirthRateScaler.t:Ser_BactEuk","p":0.3910941702966709,"accept":68245,"reject":197473,"acceptFC":67599,"rejectFC":197190,"rejectIv":0,"rejectOp":0},
+{"id":"DeathRateScaler.t:Ser_BactEuk","p":0.13696837194740039,"accept":68761,"reject":196463,"acceptFC":68022,"rejectFC":196251,"rejectIv":38242,"rejectOp":38242}
 ]}
 -->
