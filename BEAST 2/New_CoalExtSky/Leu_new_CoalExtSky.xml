@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="Leu"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_leu_arch_afg_" taxon="leu_arch_afg_" totalcount="20" value="FLTIYPYLNGNLHAGHTRTFTIGDAFARYLFPLGFHVTGEYFSREALQALKSIDRVFTTTDESLSDSTIYMALRSSGKDLVANLLFYLFHHVAIPAIAVN"/>
+                    <sequence id="seq_leu_arch_hdl_" taxon="leu_arch_hdl_" totalcount="20" value="FVTVYPYPSGGMHIGHARTYTVPDVYARYLFPIAWHVTGRYFIENYKENMQSLDREFTTNDEPLSDSTVYMSYRISGNDLISNLTFYLFHHTDLPGIAVA"/>
+                    <sequence id="seq_leu_arch_mac_" taxon="leu_arch_mac_" totalcount="20" value="FITIYPYLNGNLHAGHTRTFTIGDVVARHLYPMGFHVTGDYFKREAEKAMRMIDRKFTTTDESLGDSTIYMSLRSSGKDLVPNLLFFLFHHVALPALAVN"/>
+                    <sequence id="seq_leu_arch_mae_" taxon="leu_arch_mae_" totalcount="20" value="FITAFPYLNGVLHAGHLRTFTIPEITARYLWTFGFHVSGNYFSKKATESFKKMDRNFKTDDESLSDSTLYMAWRCSAKDLVPNLTFMIFNHVALPGIVVN"/>
+                    <sequence id="seq_leu_arch_mhu_" taxon="leu_arch_mhu_" totalcount="20" value="YLTVYPYPSGAMHVGHGRTYIVPDVVARFLYPMAFHVTGNHFSNEYERVMTQADRRFTTVEEPLSDSTIYMAFRFSAKDLISNLTFQLFHHCTIPGMVVF"/>
+                    <sequence id="seq_leu_arch_mja_" taxon="leu_arch_mja_" totalcount="20" value="FITAFPYLNGVLHAGHLRTFTIPEVVARFLWTFGYHVTGEYFSKKAEEAFKRMDRNFKTDDESLSDSTIYPAWRCSAKDLIPNLTFYIFNHVAIPGIVVN"/>
+                    <sequence id="seq_leu_arch_mka_" taxon="leu_arch_mka_" totalcount="20" value="YITVYPYPSGSMHVGHARTYLVPDIYARFLFPMAFHVTGEYFAREYEENMKRMDRKFTTVDEPLSDSTVYMAWRLSAKDLVTNLTFFIFHHAALPGIVVF"/>
+                    <sequence id="seq_leu_arch_mth_2" taxon="leu_arch_mth_" totalcount="20" value="FLTVYPYPSGAMHIGHGRTYTVPDVYARFLFPMAWHVTGEYFSREYRSVMEDMDREFKTTDEPLTDSTIYMAWRLSAKDLIGNLTFHIFHHSAIPGAVVF"/>
+                    <sequence id="seq_leu_arch_neq_2" taxon="leu_arch_neq_" totalcount="20" value="FVTAFPYVNGYLHLGHLVTYIKAEITARYLFPMGFHATGEYFSKAAKEDLSKLERSF-TTVESLSDSTIYTAIRFSAQDLIANLVFYIFHHVAIPGIAVS"/>
+                    <sequence id="seq_leu_arch_occl_2" taxon="leu_arch_occl_" totalcount="20" value="FITAFPYPNSPLHLGHSRTYTITDAYARFLFPMGFHFTGRYFSRDAKQAMIESDREFTTIDESLSDSTIYMASRHSGRDLVPNLTFFIFNHAAIPQIVVN"/>
+                    <sequence id="seq_leu_arch_pai_2" taxon="leu_arch_pai_" totalcount="20" value="FVTAYPYPNGAIHIGHGRTYLIADVLARFLFPMGFHYTGRYFHEQSKRAMQKFDREFTTIDESLSDSTIYMASRNSGKDLIPNLTFFIFNHVAIPQIVAN"/>
+                    <sequence id="seq_leu_arch_pdl_2" taxon="leu_arch_pdl_" totalcount="20" value="FITAFPYPNSPLHLGHSRTYTITDVYARYLFPMGFHYTGRYFHNDAKMAMIESDREFTTIDESLSDSTIYMASRHSGRDLVPNLTFFIFNHAAIPQIVVN"/>
+                    <sequence id="seq_leu_arch_pho_1wz22" taxon="leu_arch_pho_1wz2" totalcount="20" value="YITVFPYLSGHLHVGHARTYTIPDVIARFLFPMAWHITGKYFMKAAKETFIRADREFYTTSESLSDSTIYMAWRCSGKDLIPNLTFFIFNHVAIPGIAVN"/>
+                    <sequence id="seq_leu_arch_sacs_2" taxon="leu_arch_sacs_" totalcount="20" value="FITVFPYTNSPLHIGHGRTYITADIYARYLFPFAFQFTGAYFKEDMRNTALTLDREFTTIDDSLSDSTIYTVSRHSGRDLVQNIPYYLYHHVGVPRIVLN"/>
+                    <sequence id="seq_leu_arch_tac_2" taxon="leu_arch_tac_" totalcount="20" value="MITVWPYTNGSLHVGHGRTYTLGDIIARYLFPMGFHQSGDYFSNAIINDFKHLDRRFTSADESLSDSTIYPAIRLTAIPHISNLSFYVLNHAAIPGLIIS"/>
+                    <sequence id="seq_leu_arch_tvo_2" taxon="leu_arch_tvo_" totalcount="20" value="MITVWPYTNGSLHVGHGRTYTLGDIIARYLFPMGFHQSGDYFSNAIINDFKHLDRKFTSADESLSDSTIYPAIRLTAVPHISNLSFYVMNHAAIPGLIIS"/>
+                    <sequence id="seq_leu_bact_aae_ALPHA" taxon="leu_bact_aae_ALPHA" totalcount="20" value="YVLEFPYPSGRIHMGHVRNYTIGDAIARYLHPMGWDAFGYENIDYMKKQLKILDREIATCDDTFFDSSWYFLVYIGGIEHAVLLLYARFFQKFLFKLITQ"/>
+                    <sequence id="seq_leu_bact_aas_" taxon="leu_bact_aas_" totalcount="20" value="YILDFPYPSGELHVGHPLGYIASDIVARYLHPMGFDAFGAKNIGRYKQQLCQLDRCISTCEPGWAGSSWYFFLYLGGAEHATGLLYARFWTQFLFELIHQ"/>
+                    <sequence id="seq_leu_bact_bbu_" taxon="leu_bact_bbu_" totalcount="20" value="YILDFPYPSANLHVGHPEGYTATDIFGRYLHPIGFDSFGEENINKFKKQIKALDREIRTHEPQWAGSCWYYLLYIGGAEHTVLLLYSRFWHKVLFKLINQ"/>
+                    <sequence id="seq_leu_bact_bli_" taxon="leu_bact_bli_" totalcount="20" value="YALDFPYPSGGLHVGHPEGYTATDILSRMLHPMGWDAFGEQNIDNFRRQIRALDREVNTTDPQWAGSCWYFLMYIGGAEHAVLLLYARFWHKFLFQLYNQ"/>
+                    <sequence id="seq_leu_bact_bte_" taxon="leu_bact_bte_" totalcount="20" value="YCVSLPYPSGKLHMGHVRNYTINDVMYRYLMPMGWDAFGYDNIAYMKKQMQSMDREVTTCKDTFVDSAWYFSQYIGGIEHAILLLYSRFWAKVMANLLTQ"/>
+                    <sequence id="seq_leu_bact_cag_" taxon="leu_bact_cag_" totalcount="20" value="YVLDYPYPSGDLSVGHCRNYVPTDVVARYLHPMGWDAFGRRYSANYKRQMNMLDREITSSEGTFACSSWYFLMYVGGAEHAVMLLYARFWTKVLFCLRNQ"/>
+                    <sequence id="seq_leu_bact_cje_" taxon="leu_bact_cje_" totalcount="20" value="YILSFPYPSGRIHMGHVRNYTIGDALARYLHPIGFDSFGYENIAYMKKELFSLSRMLATSDDTFFESSWYFAQYIGGIEHAILLLYARFFQKALFRLLTQ"/>
+                    <sequence id="seq_leu_bact_cthe_" taxon="leu_bact_cthe_" totalcount="20" value="YALSFPYPSGSLHMGHVRNYVITDVIARLLHPMGWDAFGQRNIAQMRDQLKRLDKELATCSDTFIDSSWYFLQYVGGIEHAILLLYSRFFTKVLFRLLTQ"/>
+                    <sequence id="seq_leu_bact_dra_" taxon="leu_bact_dra_" totalcount="20" value="YALTFPYPSGNLHIGHWYANVAPDARARWLFPMAFDAFGYANIERMTGQFSRMDRKFATCDDTFVDSSWYMYLYTGGIEHAILLLYSRFWTKVMFRLRNQ"/>
+                    <sequence id="seq_leu_bact_ecc_" taxon="leu_bact_ecc_" totalcount="20" value="YCLSLPYPSGRLHMGHVRNYTIGDVIARYLQPIGWDAFGYDNIAYMKNQLKMLDRELATCTDTFMESSWYYAIYIGGIEHAIMLLYFRFFHKLMAQLLCQ"/>
+                    <sequence id="seq_leu_bact_ges_" taxon="leu_bact_ges_" totalcount="20" value="YILDFPYPSGGLHVGHPEGYTATDILARFLHPMGWDAYGQQNINTFRRQIKALDREVDTTDPQWAGSCWYFLLYVGGAEHAVLLLYARFWHKVLFRLVNQ"/>
+                    <sequence id="seq_leu_bact_gse_" taxon="leu_bact_gse_" totalcount="20" value="YVLDFPYPSGGLHVGHPEGYTATDILARMLHPMGWDAFGQKNIDNFRRQIKSLDREINTTDPQWAGSCWYYLVYIGGAEHAVLLLYARFWHKFLFKLFNQ"/>
+                    <sequence id="seq_leu_bact_mmo_" taxon="leu_bact_mmo_" totalcount="20" value="YALDFPYPSGGLHVGHPEGYTATDIISRYLHPIGWDAFGLKNIENFRRQLKSLDKEVNTTDPQWAGSCWYYLLYIGGQEHAVLLLYARFWHKILFKLINQ"/>
+                    <sequence id="seq_leu_bact_msg_" taxon="leu_bact_msg_" totalcount="20" value="FVQDFPYPSGGLHVGHPLGYIATDVYARYLHALGFDAFGEANIVNFRRQLGRLDRSFSTTDPQWAGSSWYELLYVGGVEHAVLLLYSRFWHKVLYRLVNQ"/>
+                    <sequence id="seq_leu_bact_sar_" taxon="leu_bact_sar_" totalcount="20" value="YALDFPYPSGGLHVGHPEGYTATDIISRYLHPMGWDAFGKKNIQTFKRQIKELDREVNTTDPQWAGSCWYYLLYIGGVEHAVLLLYARFWHKVLFKLFNQ"/>
+                    <sequence id="seq_leu_bact_smr_2" taxon="leu_bact_smr_" totalcount="20" value="FITVYPYTNAPLHIGHGRTYTIGDIIARYLFPMAFHITGVFFAERVHMDFDALDRRFHTGEESLSDSTIYMAQRHTGIAHISNLSFFIYHHIAIPMITLN"/>
+                    <sequence id="seq_leu_bact_syf_" taxon="leu_bact_syf_" totalcount="20" value="YALSFPYPSGNLHMGHVRNYTITDAIARVLHPMGWDAFGYQNVAQMREQLKQLDREVTTCSDTFMCSSWYYLQYVGGIEHAILLLYSRFFTKVLFRLLTQ"/>
+                    <sequence id="seq_leu_bact_tma_" taxon="leu_bact_tma_" totalcount="20" value="YALVFPYPSGTLHVGHVKNYVIGDIVARYLHPFGYDAFGRKNIATIRQQVKKLDREIATCDDTFVDSSWYFLQYIGGVEHAVLLLYSRFVTKVLFNLFTQ"/>
+                    <sequence id="seq_leu_bact_ttj_" taxon="leu_bact_ttj_" totalcount="20" value="YVLVFPYPSGDLHMGHLKNYTMGDVLARFLHPMGWDAFGYENIRQAKESLRLMDREVTTCEDTFFDSSWYYLQYIGGVEHAVLLLYSRFFTKFLFGLFTQ"/>
+                    <sequence id="seq_leu_bact_ttj_2v0c" taxon="leu_bact_ttj_2v0c" totalcount="20" value="YVLVFPYPSGDLHMGHLKNYTMGDVLARFLHPMGWDAFGYANIRQAKESLRLMDREVTTCEDTFFDSSWYYLQYIGGVEHAVLLLYSRFFTKFLFGLFTQ"/>
+                    <sequence id="seq_leu_euk_adl_" taxon="leu_euk_adl_" totalcount="20" value="MGTVFAYMNGSLHAGHGFSISKIEFNAGFLFPVGFHCTGSYYPHITKDDNIAFDRQFITTDESLSDSTIYMSIRSSGKDLIPNLTFCLYNHAAIPSMRAN"/>
+                    <sequence id="seq_leu_euk_bhom_" taxon="leu_euk_bhom_" totalcount="20" value="YVLPFPYPSGKMHMGHVRVFSISDCISRYIHPMGWDAFGKNNVEEMRKQISGLNREVNTSTDTFMDSSWYFYYYVGGSEHSIMLLFARFVARFLFHLITQ"/>
+                    <sequence id="seq_leu_euk_bta_" taxon="leu_euk_bta_" totalcount="20" value="FVTFYPYMNGRLHLGHTFSLSKCEFAVGYLFPFGLHCTGEYFPPLAVQDLKRMDRSFITTDESLSDSTIYMALRASGKDLIPNLSYFLYNHVAMPAVRAN"/>
+                    <sequence id="seq_leu_euk_cowc_" taxon="leu_euk_cowc_" totalcount="20" value="YILAFPYPSGHLHMGHVRVYTLSDCLARFLHPMGWDAFGIKNIEYMRKQLQRLDKEVTTCADTFVDSSWYFAIYVGGVEHAILLLYARFLTRFFFRLLTQ"/>
+                    <sequence id="seq_leu_euk_crg_" taxon="leu_euk_crg_" totalcount="20" value="IVTFYPYMNGRLHLGHTFSLSKAEFGVGYLFPFGLHCSGKYFPPHCKEDLRKMDRSFLTTDESLSDSTIYMALRVSGKDLVPNLTYYIYNHVAIPSIRAN"/>
+                    <sequence id="seq_leu_euk_csl_" taxon="leu_euk_csl_" totalcount="20" value="YILDFPYPSGALHVGHPAGYTATDILARLLHPIGWDAFGERNVNRFRQQLQSLDREVSTTDPQWAGSCWYYLLYVGGAEHAVLLLYARFWHKVLFRLVSQ"/>
+                    <sequence id="seq_leu_euk_egut_" taxon="leu_euk_egut_" totalcount="20" value="YGNFFPYMNGYLHLGHAFSLSKLEFAAAYLLPFAFHCTGTFFPPLAVEDLKAFDRTFVTTDESLSDSTLYMALRVSGKDLIQNLTFSIYNHTALPGFRCN"/>
+                    <sequence id="seq_leu_euk_gla_" taxon="leu_euk_gla_" totalcount="20" value="FVTFYPYMNGRLHLGHLFSATRAEFAVGYLFPFGFHVTGKHFPALCYKDMCKFDRSMITTDESLSDSTIYNALRCSGKDLIPNLTMMLYNHTAIPGMRAN"/>
+                    <sequence id="seq_leu_euk_gtt_" taxon="leu_euk_gtt_" totalcount="20" value="YVLDFPYPSGALHVGHPEGYTATDILSRYMHPMGWDAFGKKNIDRFREQLQSLDREVSTTDPQWAGSCWYYLLYLGGAEHAVLLLYARFWHKVLFRLVNQ"/>
+                    <sequence id="seq_leu_euk_hsa_" taxon="leu_euk_hsa_" totalcount="20" value="FVTFYPYMNGRLHLGHTFSLSKCEFAVGYLFPFGLHCTGDYFPPLAIQDLKRMDRSFITTDESLSDSTIYMALRVSGKDLVPNLSYYLYNHVAMPAVRAN"/>
+                    <sequence id="seq_leu_euk_lif_" taxon="leu_euk_lif_" totalcount="20" value="LTTFFPYMNGKLHLGHGFSLTKAEFASRFLWPFGFHVTGDYFPPIAMEDLKSFDRSFMTTSDSLSDSTIYMALRCSGKDLIQNLTMFLYNHAAIPAIFCN"/>
+                    <sequence id="seq_leu_euk_nce_" taxon="leu_euk_nce_" totalcount="20" value="FITFYPYMNGKLHLGHLYSISKADFMSYYLFPLAFHCTGKTFPKLCISSLKTFDRSFVTTDDSLSDSTIYMALRVSGKDLIKNLLFFMFNHVALPRIFTN"/>
+                    <sequence id="seq_leu_euk_pchr_" taxon="leu_euk_pchr_" totalcount="20" value="YALSFPYPSGKLHMGHVRNYVITDVIARALHPMGWDAFGNTNIQQMRKQLDQLDREISTCNDTFMCSSWYFLHYVGGIEHAILLLYSRFFTKVLFRLLPQ"/>
+                    <sequence id="seq_leu_euk_sre_" taxon="leu_euk_sre_" totalcount="20" value="YALAFPYPSGALHMGHVRVYTISDSVARFIHPMGWDAFGIRNIAYMKEQLDALDREVTTCSDTFVDSAWYFLLYIGGIEHAVLLLYARFVNMAAFKLLAQ"/>
+                    <sequence id="seq_leu_euk_tva_" taxon="leu_euk_tva_" totalcount="20" value="MITFFPYMNGRLHLGHLFTISKAEFAVRYLFPFAFHCTGHYFPPYGVKDMKQFDRSFITTDDSLSDSTIYTACRVSGKDLVTNLTMWLYNHAAVPAVRAN"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="30000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:Leu" name="stateNode">
+            <taxonset id="TaxonSet.Leu" spec="TaxonSet">
+                <alignment idref="Leu"/>
+            </taxonset>
+        </tree>
+        <parameter id="gammaShape.s:Leu" name="stateNode">1.0</parameter>
+        <parameter id="mutationRate.s:Leu" name="stateNode">1.0</parameter>
+        <parameter id="ucldStdev.c:Leu" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:Leu" spec="parameter.IntegerParameter" dimension="100">1</stateNode>
+        <stateNode id="indicators.alltrees" spec="parameter.BooleanParameter">false</stateNode>
+        <parameter id="populationMean.alltrees" name="stateNode">1.0</parameter>
+        <parameter id="popSizes.alltrees" name="stateNode">1.0</parameter>
+    </state>
+
+    <init id="RandomTree.t:Leu" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Leu" taxa="@Leu">
+        <populationModel id="ConstantPopulation0.t:Leu" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Leu" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="ExtendedBayesianSkyline.t:Leu" spec="Coalescent">
+                <populationModel id="scaledDemo.t:Leu" spec="ScaledPopulationFunction">
+                    <population id="demographic.alltrees" spec="CompoundPopulationFunction" populationIndicators="@indicators.alltrees" populationSizes="@popSizes.alltrees">
+                        <itree id="treeIntervals.t:Leu" spec="TreeIntervals" tree="@Tree.t:Leu"/>
+                    </population>
+                    <parameter id="RealParameter.4" lower="0.0" name="factor" upper="0.0">1.0</parameter>
+                </populationModel>
+                <treeIntervals idref="treeIntervals.t:Leu"/>
+            </distribution>
+            <prior id="GammaShapePrior.s:Leu" name="distribution" x="@gammaShape.s:Leu">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="indicatorsPrior.alltrees" name="distribution">
+                <x id="indsSun.alltrees" spec="util.Sum">
+                    <arg idref="indicators.alltrees"/>
+                </x>
+                <distr id="Poisson.EBSP" spec="beast.math.distributions.Poisson">
+                    <parameter id="RealParameter.5" estimate="false" name="lambda" upper="0.0">0.69314718056</parameter>
+                </distr>
+            </prior>
+            <prior id="popSizePrior.alltrees" name="distribution" x="@popSizes.alltrees">
+                <Exponential id="popPriorDist.EBSP" mean="@populationMean.alltrees" name="distr"/>
+            </prior>
+            <prior id="populationMeanPrior.alltrees" name="distribution" x="@populationMean.alltrees">
+                <OneOnX id="OneOnX.EBSP" name="distr"/>
+            </prior>
+            <prior id="ucldStdevPrior.c:Leu" name="distribution" x="@ucldStdev.c:Leu">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.Leu" spec="ThreadedTreeLikelihood" data="@Leu" tree="@Tree.t:Leu">
+                <siteModel id="SiteModel.s:Leu" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:Leu" shape="@gammaShape.s:Leu">
+                    <parameter id="proportionInvariant.s:Leu" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:Leu" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:Leu" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:Leu" tree="@Tree.t:Leu">
+                    <LogNormal id="LogNormalDistributionModel.c:Leu" S="@ucldStdev.c:Leu" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.1" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:Leu" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="gammaShapeScaler.s:Leu" spec="ScaleOperator" parameter="@gammaShape.s:Leu" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+        <parameter idref="mutationRate.s:Leu"/>
+        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">100</weightvector>
+    </operator>
+
+    <operator id="ucldStdevScaler.c:Leu" spec="ScaleOperator" parameter="@ucldStdev.c:Leu" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:Leu" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Leu" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:Leu" spec="SwapOperator" intparameter="@rateCategories.c:Leu" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:Leu" spec="UniformOperator" parameter="@rateCategories.c:Leu" weight="10.0"/>
+
+    <operator id="ExtendedBayesianSkylineTreeScaler.t:Leu" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:Leu" weight="3.0"/>
+
+    <operator id="ExtendedBayesianSkylineTreeRootScaler.t:Leu" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Leu" weight="3.0"/>
+
+    <operator id="ExtendedBayesianSkylineUniformOperator.t:Leu" spec="Uniform" tree="@Tree.t:Leu" weight="30.0"/>
+
+    <operator id="ExtendedBayesianSkylineSubtreeSlide.t:Leu" spec="SubtreeSlide" tree="@Tree.t:Leu" weight="15.0"/>
+
+    <operator id="ExtendedBayesianSkylineNarrow.t:Leu" spec="Exchange" tree="@Tree.t:Leu" weight="15.0"/>
+
+    <operator id="ExtendedBayesianSkylineWide.t:Leu" spec="Exchange" isNarrow="false" tree="@Tree.t:Leu" weight="3.0"/>
+
+    <operator id="ExtendedBayesianSkylineWilsonBalding.t:Leu" spec="WilsonBalding" tree="@Tree.t:Leu" weight="3.0"/>
+
+    <operator id="bitflip.alltrees" spec="BitFlipOperator" parameter="@indicators.alltrees" weight="30.0"/>
+
+    <operator id="indicatorSampler.alltrees" spec="SampleOffValues" dist="@popPriorDist.EBSP" indicators="@indicators.alltrees" values="@popSizes.alltrees" weight="15.0"/>
+
+    <operator id="indicatorScaler.alltrees" spec="ScaleOperator" degreesOfFreedom="1" indicator="@indicators.alltrees" parameter="@popSizes.alltrees" scaleFactor="0.5" weight="15.0"/>
+
+    <operator id="EBSPupDownOperator.alltrees" spec="UpDownOperator" scaleFactor="0.7" weight="5.0">
+        <up idref="popSizes.alltrees"/>
+        <up idref="populationMean.alltrees"/>
+    </operator>
+
+    <logger id="tracelog" fileName="Leu_new_CoalExtSky.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.Leu"/>
+        <log id="TreeHeight.t:Leu" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Leu"/>
+        <log idref="gammaShape.s:Leu"/>
+        <log idref="mutationRate.s:Leu"/>
+        <log idref="ucldStdev.c:Leu"/>
+        <log id="rate.c:Leu" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Leu" tree="@Tree.t:Leu"/>
+        <log idref="ExtendedBayesianSkyline.t:Leu"/>
+        <log idref="indicators.alltrees"/>
+        <log idref="populationMean.alltrees"/>
+        <log idref="popSizes.alltrees"/>
+        <log id="sumIndicators" spec="util.Sum">
+            <arg idref="indicators.alltrees"/>
+        </log>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:Leu" fileName="Leu_new_CoalExtSky.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Leu" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:Leu" tree="@Tree.t:Leu"/>
+    </logger>
+
+    <logger id="EBSPLogger" fileName="EBSP.log" logEvery="5000" model="@demographic.alltrees">
+        <log idref="demographic.alltrees"/>
+    </logger>
+
+</run>
+
+</beast>

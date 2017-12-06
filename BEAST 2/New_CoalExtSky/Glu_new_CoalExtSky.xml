@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="Glu"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_glu_arch_afg_" taxon="glu_arch_afg_" totalcount="20" value="VMRFAPNPNGPPTLGSARGIIVNGEYARMKYIIRFDDTDPEAYDWYLEDIEWLDV-IYASKTLDFESAIEDHHIIRGKDLIDSERRQRYIYEYFPITKHW"/>
+                    <sequence id="seq_glu_arch_hdl_" taxon="glu_arch_hdl_" totalcount="20" value="-MRCAPNPNGPWHIGHSRMPAVIGTYAEEEFIVRFDDTDPWAYDEILDEIGYLAV-YRASDMLDFQSGVDDHHIIRGIDLQDSAKRQQFVYDYFPEVIHW"/>
+                    <sequence id="seq_glu_arch_mhu_" taxon="glu_arch_mhu_" totalcount="20" value="VMRFAPNPSGPLHLGHARAAFLNDEYIRRKYILRIEDTDPDAYDMVREDIAWMAT-IFQSDLMNLSVAVDDHHVIRGKDHIANTKRQEFIFRYMPVYRHY"/>
+                    <sequence id="seq_glu_arch_mja_" taxon="glu_arch_mja_" totalcount="20" value="VMRFAPNPSGPLHIGHARAAVLNDYFVKKKLILRLEDTDPEAYDMIKEDLDWLDV-VIQSDLMNFSVPVDDHHVLRGKDHIVNTEKQAYIYKYFPEFIHY"/>
+                    <sequence id="seq_glu_arch_mka_" taxon="glu_arch_mka_" totalcount="20" value="RLRFAPNPSGPLHIGHARAAVLNDEYARRTLVLRIEDTDPEAYDMIEEDLEWLDR-YVQSNTMNFAVAVDDHHVLRGKDHESNTRRQKYVFEHLPEYVHY"/>
+                    <sequence id="seq_glu_arch_mth_" taxon="glu_arch_mth_" totalcount="20" value="-LRFAPNPSGPLHIGHARAAILNHEYARKRLILRIEDTDPEAYDMIPADLEWLDT-VIQSDMMNFSVAVDDHHVLRGKDHLANREKQEYLYRHLPEFIHY"/>
+                    <sequence id="seq_glu_arch_occl_" taxon="glu_arch_occl_" totalcount="20" value="VTRFAPNPDFIIHLGNARPAILSYEYKVMRMILRFEDTDPEAYELIKQDLKWLDE-YIQSLTYNLAAAVDDHHILRAKEHMQNTIKQKYIYGYMPNVIHF"/>
+                    <sequence id="seq_glu_arch_pai_" taxon="glu_arch_pai_" totalcount="20" value="VVRFAPNPDFVLHLGSARPAILNYAYRIKKFILRFEDTDPNAYESIREDLRWLDE-YIQSQTYNFAVSIDDHHVLRAQEHSVNTIKQSYVFRHFPVTIHF"/>
+                    <sequence id="seq_glu_arch_pdl_" taxon="glu_arch_pdl_" totalcount="20" value="VTRFAPNPDFVIHLGNARPAILSYEYKVIKMILRFEDTDPEAYELIKQDLEWLDE-YIQSLTYNFAAGVDDWHILRAKEHMQNTIKQKYVYEYMPHVVHF"/>
+                    <sequence id="seq_glu_arch_sacs_" taxon="glu_arch_sacs_" totalcount="20" value="VTRFAPNPDGPLHLGNARAAIISHEYARIKFILRFDDTDPEAYDWIKEDLKWLDE-VRASATYNFASAIDDYHIFRGKEHAVNAGKQKWIYNYMPYVREF"/>
+                    <sequence id="seq_glu_arch_smr_" taxon="glu_arch_smr_" totalcount="20" value="VTRFAPNPDYTIHLGNARPALLSYWYAEMKMILRFEDTDPEAYDRIRNDLKWLNE-YIQSLTYNLAAAIDDHHILRAKEHVSNTIKQKFLYDHMPETIHF"/>
+                    <sequence id="seq_glu_arch_tac_" taxon="glu_arch_tac_" totalcount="20" value="VMRMAPSPSGPLHIGHTRMAILNDEYVKRELILRIEDTNPDAYHMIPEDLEWLTI-VIQSDMMSFSVAVDDHHVLRGKDQLTNTDKQRYIFDYNPYYYHY"/>
+                    <sequence id="seq_glu_arch_tvo_" taxon="glu_arch_tvo_" totalcount="20" value="VMRLAPSPSGPLHIGHTRMAILNDEYVKRDLILRIEDTNPEAYAMIPEDLEWLTT-VIQSEMMSFSVAVDDHHVLRGKDQLTNTEKQRYVFEYNPYYYHY"/>
+                    <sequence id="seq_glu_bact_aae_" taxon="glu_bact_aae_" totalcount="20" value="KTRFAPSPTGYLHLGNARTAIFSYLFARHGFVLRIEDTDKEYEEMLIEDLKWLD-FYRQSETYNFVVVVDDAHVIRGEDHIPNTPKQILIYEALPKFAHL"/>
+                    <sequence id="seq_glu_bact_bbu_" taxon="glu_bact_bbu_" totalcount="20" value="RVRYAPSPTGLQHIGGIRTALFNYFFAKSKFLLRIEDTDPEAENDLYSSLKWLDGPYVQSQTYHLANVVDDYHVLRAQEWVSSGPLHVLLYKAFPIYCHL"/>
+                    <sequence id="seq_glu_bact_bfs_" taxon="glu_bact_bfs_" totalcount="20" value="RVRFAPSPTGALHIGGVRTALYNYLFARQDLIFRIEDTDPGAEEYILESFKWLDGVYRQSETYHLANIVDDHHVIRGEEWLPSAPLHVLLYRAFPAFAHL"/>
+                    <sequence id="seq_glu_bact_bli_" taxon="glu_bact_bli_" totalcount="20" value="RVRYAPSPTGHLHIGNARTALFNYLFARSKFIIRIEDTDEGGEQSQLNYLKWLDSVYRQSETYNFAVAVDDYHVLRGEDHISNTPKQIMIYNALPAFGHM"/>
+                    <sequence id="seq_glu_bact_bte_" taxon="glu_bact_bte_" totalcount="20" value="RTRFAPSPTGFIHLGNIRSALYPWAFARKTFVLRIEDTDQEAVDAILEGMAWLDGPYYQMQMYNFCVVVDDLHVIRGDDHVNNTPRQINILRALPVYAHL"/>
+                    <sequence id="seq_glu_bact_cag_" taxon="glu_bact_cag_" totalcount="20" value="RVRFAPSPTGSLHIGGVRTALFNWLCARHQFILRIEDTDPGAADDISISLRWVDGPYVQSQVYHFAHLVDDHLVMRGEEWVPSTPYHVLLYDYFPIFAHL"/>
+                    <sequence id="seq_glu_bact_cje_" taxon="glu_bact_cje_" totalcount="20" value="TTRFAPSPTGYLHIGGLRTALYNYLYARKNFLLRIEDTDKEATKAIIEAFKWCDEVTYQSETYNFTVVIDDADVIRGDDHLSNTPKQIVLYEALPKFFHV"/>
+                    <sequence id="seq_glu_bact_dra_" taxon="glu_bact_dra_" totalcount="20" value="VTRFPPDPSGYAHLGHVFASLLDFNTARQQFNLRMDDTNQEYVDSIADDLKWLG-FYYASDAYDFEHPLQDAHSMCSLEFVDNRAIYDWLMEKLPHQYEF"/>
+                    <sequence id="seq_glu_bact_ecc_1nzj" taxon="glu_bact_ecc_1nzj" totalcount="20" value="IGRFAPSPSGELHFGSLIAALGSYLQARARWLVRIEDIDPGAAETILRQLEHYDDVLWQSQAYNLAVVVDDHEIVRGADLIEPTVRQISLYQLFPDYIHL"/>
+                    <sequence id="seq_glu_bact_ges_" taxon="glu_bact_ges_" totalcount="20" value="RTRFAPSPTGYLHIGGVRTALFNWLYARRQFVLRIDDTDAEAVKPILDGFDWLDGPYFQGQLYAFATVVDEVHVIRAEEHLANTPVQILIYNALPEFAHV"/>
+                    <sequence id="seq_glu_bact_gse_" taxon="glu_bact_gse_" totalcount="20" value="RVRYAPSPTGHLHIGGARTALFNYLFARHKMIVRIEDTDEGGEQSQLENLQWLDSVYRQTETYNFAVVIDDHHVFRGEEHLSNTPKQLMVYEYFPQFAHL"/>
+                    <sequence id="seq_glu_bact_hau_" taxon="glu_bact_hau_" totalcount="20" value="RTRFAPSPTGYLHIGSLRTVLFSWLWARHQFLLRIEDTDEGAEEQLTSSLQAIDGPYKQSETYALAAMVDDHHVLRADEWIPTWPIHHQIYEAFPVWVHV"/>
+                    <sequence id="seq_glu_bact_mmo_" taxon="glu_bact_mmo_" totalcount="20" value="RTRYAPSPTGYLHIGGARTALFNYLFAKHDFIVRIEDTDAGGEESQLDNLEWLDSPYRQSETYNFAVVVDDFHVLRGEEHITNTPKQLAVYEAMPVFGHL"/>
+                    <sequence id="seq_glu_bact_phm_" taxon="glu_bact_phm_" totalcount="20" value="VTRFAPSPTGELHVGGARTALYSWALARRRFLLRFEDTDAAAADRIRADLAWFDEGPRQSETFHLAVVVDDHHVVRGQEHLSNTPKHAALCDALPVWAHT"/>
+                    <sequence id="seq_glu_bact_rmr_" taxon="glu_bact_rmr_" totalcount="20" value="RVRFAPSPTGFLHIGGLRTALYNFLFARKQFILRIEDTDPGAEEDIIESLRWADGPYRQSETYHMANVVDDHHVIRGEEWLSSTPKHVLLYRYLPQMAHL"/>
+                    <sequence id="seq_glu_bact_sar_" taxon="glu_bact_sar_" totalcount="20" value="RVRYAPSPTGYLHIGNARTALFNYLYAKHDFVIRIEDTDEDGETSQFDNLKWLDSVYRQSETYNFAVAIDDHDVIRGDDHISNTPKQIMIYEAFPRFGHM"/>
+                    <sequence id="seq_glu_bact_tma_2o5r" taxon="glu_bact_tma_2o5r" totalcount="20" value="RVRFAPSPTGFLHVGGARTALFNFLFARKEFILRIEDTDREYEEKL?ESLRWLDGPYRQSETYNFACVVDD?HVIRGDDHLSNTLRQLALYEAFPVFAHV"/>
+                    <sequence id="seq_glu_bact_ttj_1j09" taxon="glu_bact_ttj_1j09" totalcount="20" value="VTRIAPSPTGDPHVGTAYIALFNYAWARRRFIVRIEDTDPGAEERILAALKWLDGPYRQSETYHLANVVDDHDVIRAEEWLVSTPIHVLLYRAFPRFYHM"/>
+                    <sequence id="seq_glu_euk_adl_" taxon="glu_euk_adl_" totalcount="20" value="VTRFPPEPSGYLHIGHAKAAMLNYYFGKMKFIVRFDDTNDEFEQTILEDLQMLDVITHTSDIYDFACPIVDSHALRTNEYRDRNPQYKWMIDSLVEIWDF"/>
+                    <sequence id="seq_glu_euk_bhom_" taxon="glu_euk_bhom_" totalcount="20" value="-VRFAPSPTGFMHLGGLRMALINYLIAKKKFILRIEDTDKGSADNIIRTLCDFDGPYVQSSTYHLASVVDDHLVIRGEEWISSVPKHLQLYSAFPDFIHL"/>
+                    <sequence id="seq_glu_euk_bmor_" taxon="glu_euk_bmor_" totalcount="20" value="VVRFPPEASGYLHIGHAKAALLNQYYQQAKLVMRFDDTNADFEKVILEDVAMLDMFTHTSQTYDFACPIVDSHVLRTMEYHDRDPQFYWFIEALPYIWEY"/>
+                    <sequence id="seq_glu_euk_cpv_" taxon="glu_euk_cpv_" totalcount="20" value="VTRFPPEPSGYLHIGHAKAALLNYYYANKKLLLRFDDTNEEFQESIEADLKILFNVSFTSDTYDFACPIVDSHALRTNEYSDRIEQYNWVINALVEIYEF"/>
+                    <sequence id="seq_glu_euk_dre_" taxon="glu_euk_dre_" totalcount="20" value="VVRFPPEASGYLHIGHAKAALLNQHYQVTKLIMRFDDTNEDFEKVILEDVAMLDQFTYTSDTYDFACPIVDSHALRTTEYHDRDEQFYWVIEALPYIWEY"/>
+                    <sequence id="seq_glu_euk_egut_" taxon="glu_euk_egut_" totalcount="20" value="KLRFAPEPSGYLHIGHAKAALLNQYFAEREVIIRFDDTNNEFVDNLLIDIATLTAVTYTSDTYDFCCPFVDAHALRSSEYHDRNEQYYRIQTDMVHLYEF"/>
+                    <sequence id="seq_glu_euk_lif_" taxon="glu_euk_lif_" totalcount="20" value="VTRFPPEASGFLHIGHAKAALINRMLADAKMLFRFDDTNEHFEVAIEEDLKTLDGPTYSSDTYDFCCPLVDSHALRTNEYHDRNAQYYWFCDAMPTIEDF"/>
+                    <sequence id="seq_glu_euk_nce_" taxon="glu_euk_nce_" totalcount="20" value="VTRFAPEPSGCLHIGHLKALLVNYNLAEKTLLLRFDDTNEKYEKEILRDLDTLLKISHSSDTYDFVCPIVDSVVCRANEYKDRNEQYKWFLENLPEFNDF"/>
+                    <sequence id="seq_glu_euk_pchr_" taxon="glu_euk_pchr_" totalcount="20" value="RVRLAPSPTGTLHIGTARTALFNWLFARQAFLLRIEDTDEEFTDNILEGLQWIDDPVIQSHLYNLAVVVDDAHVIRGEDHIANTAKQLQLYKALPQFAHT"/>
+                    <sequence id="seq_glu_euk_sre_" taxon="glu_euk_sre_" totalcount="20" value="RVRFAPSPTGFLHLGGLRTALFNYLFAVKTFILRLEDTDTGAAEALQRDLAWAHGPYVQSETYHLANVVDDHHVLRGEEWLISTAKHELLYRAFPTFVHL"/>
+                    <sequence id="seq_glu_euk_telo_2cfo" taxon="glu_euk_telo_2cfo" totalcount="20" value="RVRLAPSPTGNLHIGTARTAVFNWLYARHKFILRIEDTDPEYTENILEGLQWLDGPYFQSDLYNLVVVVDDIDVIRGEDHIGNTPKQILLYEALPNFAHT"/>
+                    <sequence id="seq_glu_euk_tva_" taxon="glu_euk_tva_" totalcount="20" value="KLRFAPSPTGYLHIGGLRTALYNYLFAKKKFVLRIEDTDEGAIENLIESLEWADGVYIQSQTYHMAVIVDDHHIVRGEEWLPSTPKHVYLYECLPEFVHL"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="30000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:Glu" name="stateNode">
+            <taxonset id="TaxonSet.Glu" spec="TaxonSet">
+                <alignment idref="Glu"/>
+            </taxonset>
+        </tree>
+        <parameter id="gammaShape.s:Glu" name="stateNode">1.0</parameter>
+        <parameter id="mutationRate.s:Glu" name="stateNode">1.0</parameter>
+        <parameter id="ucldStdev.c:Glu" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:Glu" spec="parameter.IntegerParameter" dimension="84">1</stateNode>
+        <stateNode id="indicators.alltrees" spec="parameter.BooleanParameter">false</stateNode>
+        <parameter id="populationMean.alltrees" name="stateNode">1.0</parameter>
+        <parameter id="popSizes.alltrees" name="stateNode">1.0</parameter>
+    </state>
+
+    <init id="RandomTree.t:Glu" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Glu" taxa="@Glu">
+        <populationModel id="ConstantPopulation0.t:Glu" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Glu" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="ExtendedBayesianSkyline.t:Glu" spec="Coalescent">
+                <populationModel id="scaledDemo.t:Glu" spec="ScaledPopulationFunction">
+                    <population id="demographic.alltrees" spec="CompoundPopulationFunction" populationIndicators="@indicators.alltrees" populationSizes="@popSizes.alltrees">
+                        <itree id="treeIntervals.t:Glu" spec="TreeIntervals" tree="@Tree.t:Glu"/>
+                    </population>
+                    <parameter id="RealParameter.4" lower="0.0" name="factor" upper="0.0">1.0</parameter>
+                </populationModel>
+                <treeIntervals idref="treeIntervals.t:Glu"/>
+            </distribution>
+            <prior id="GammaShapePrior.s:Glu" name="distribution" x="@gammaShape.s:Glu">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="indicatorsPrior.alltrees" name="distribution">
+                <x id="indsSun.alltrees" spec="util.Sum">
+                    <arg idref="indicators.alltrees"/>
+                </x>
+                <distr id="Poisson.EBSP" spec="beast.math.distributions.Poisson">
+                    <parameter id="RealParameter.5" estimate="false" name="lambda" upper="0.0">0.69314718056</parameter>
+                </distr>
+            </prior>
+            <prior id="popSizePrior.alltrees" name="distribution" x="@popSizes.alltrees">
+                <Exponential id="popPriorDist.EBSP" mean="@populationMean.alltrees" name="distr"/>
+            </prior>
+            <prior id="populationMeanPrior.alltrees" name="distribution" x="@populationMean.alltrees">
+                <OneOnX id="OneOnX.EBSP" name="distr"/>
+            </prior>
+            <prior id="ucldStdevPrior.c:Glu" name="distribution" x="@ucldStdev.c:Glu">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.Glu" spec="ThreadedTreeLikelihood" data="@Glu" tree="@Tree.t:Glu">
+                <siteModel id="SiteModel.s:Glu" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:Glu" shape="@gammaShape.s:Glu">
+                    <parameter id="proportionInvariant.s:Glu" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:Glu" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:Glu" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:Glu" tree="@Tree.t:Glu">
+                    <LogNormal id="LogNormalDistributionModel.c:Glu" S="@ucldStdev.c:Glu" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.1" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:Glu" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="gammaShapeScaler.s:Glu" spec="ScaleOperator" parameter="@gammaShape.s:Glu" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+        <parameter idref="mutationRate.s:Glu"/>
+        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">100</weightvector>
+    </operator>
+
+    <operator id="ucldStdevScaler.c:Glu" spec="ScaleOperator" parameter="@ucldStdev.c:Glu" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:Glu" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Glu" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:Glu" spec="SwapOperator" intparameter="@rateCategories.c:Glu" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:Glu" spec="UniformOperator" parameter="@rateCategories.c:Glu" weight="10.0"/>
+
+    <operator id="ExtendedBayesianSkylineTreeScaler.t:Glu" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:Glu" weight="3.0"/>
+
+    <operator id="ExtendedBayesianSkylineTreeRootScaler.t:Glu" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Glu" weight="3.0"/>
+
+    <operator id="ExtendedBayesianSkylineUniformOperator.t:Glu" spec="Uniform" tree="@Tree.t:Glu" weight="30.0"/>
+
+    <operator id="ExtendedBayesianSkylineSubtreeSlide.t:Glu" spec="SubtreeSlide" tree="@Tree.t:Glu" weight="15.0"/>
+
+    <operator id="ExtendedBayesianSkylineNarrow.t:Glu" spec="Exchange" tree="@Tree.t:Glu" weight="15.0"/>
+
+    <operator id="ExtendedBayesianSkylineWide.t:Glu" spec="Exchange" isNarrow="false" tree="@Tree.t:Glu" weight="3.0"/>
+
+    <operator id="ExtendedBayesianSkylineWilsonBalding.t:Glu" spec="WilsonBalding" tree="@Tree.t:Glu" weight="3.0"/>
+
+    <operator id="bitflip.alltrees" spec="BitFlipOperator" parameter="@indicators.alltrees" weight="30.0"/>
+
+    <operator id="indicatorSampler.alltrees" spec="SampleOffValues" dist="@popPriorDist.EBSP" indicators="@indicators.alltrees" values="@popSizes.alltrees" weight="15.0"/>
+
+    <operator id="indicatorScaler.alltrees" spec="ScaleOperator" degreesOfFreedom="1" indicator="@indicators.alltrees" parameter="@popSizes.alltrees" scaleFactor="0.5" weight="15.0"/>
+
+    <operator id="EBSPupDownOperator.alltrees" spec="UpDownOperator" scaleFactor="0.7" weight="5.0">
+        <up idref="popSizes.alltrees"/>
+        <up idref="populationMean.alltrees"/>
+    </operator>
+
+    <logger id="tracelog" fileName="Glu_new_CoalExtSky.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.Glu"/>
+        <log id="TreeHeight.t:Glu" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Glu"/>
+        <log idref="gammaShape.s:Glu"/>
+        <log idref="mutationRate.s:Glu"/>
+        <log idref="ucldStdev.c:Glu"/>
+        <log id="rate.c:Glu" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Glu" tree="@Tree.t:Glu"/>
+        <log idref="ExtendedBayesianSkyline.t:Glu"/>
+        <log idref="indicators.alltrees"/>
+        <log idref="populationMean.alltrees"/>
+        <log idref="popSizes.alltrees"/>
+        <log id="sumIndicators" spec="util.Sum">
+            <arg idref="indicators.alltrees"/>
+        </log>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:Glu" fileName="Glu_new_CoalExtSky.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Glu" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:Glu" tree="@Tree.t:Glu"/>
+    </logger>
+
+    <logger id="EBSPLogger" fileName="EBSP.log" logEvery="5000" model="@demographic.alltrees">
+        <log idref="demographic.alltrees"/>
+    </logger>
+
+</run>
+
+</beast>

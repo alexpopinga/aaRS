@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="Gln_CUT"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_gln_bact_bfs_" taxon="gln_bact_bfs_" totalcount="20" value="QTRFPPEPNGYLHIGHAKAICLDFGIAAAVCNLRFDDTNMEYVEAIQEDIRWLGNVYYASDMYDFAHGQSDYHSLCTLEFVPHRPLYDLFIDWLPRQTEF"/>
+                    <sequence id="seq_gln_bact_bte_" taxon="gln_bact_bte_" totalcount="20" value="ETRFPPEPNGYLHIGHAKSICLNFSVARDVCHLRFDDTNVEYVNSIVDAVRWLQHQYFASDMYDYTHCISDAHSLCTLEFEDHRPLYDWVLNELPQQIEF"/>
+                    <sequence id="seq_gln_bact_dra_2hz7" taxon="gln_bact_dra_2hz7" totalcount="20" value="VTRFPPDPSGYAHLGHVFASLLDFNTARQQFNLRMDDTNQEYVDSIADDLKWLGHFYYASDAYDFEHPLQDAHSMCSLEFVDNRAIYDWLMEKLPHQYEF"/>
+                    <sequence id="seq_gln_bact_ecc_1qtq" taxon="gln_bact_ecc_1qtq" totalcount="20" value="HTRFPPEPNGYLHIGHAKSICLNFGIAQDQCNLRFDDTNIEYVESIKNDVEWLSNVRYSSDMYDFTHCISDAHSLCTLEFQDNRRLYDWVLDNIPRQYEF"/>
+                    <sequence id="seq_gln_bact_phm_" taxon="gln_bact_phm_" totalcount="20" value="RTRFPPEPNGFLHVGHAKAICIDFGVARAPCLLRFDDTNARYADAIRTDLAWLSEITHTSDTYDFAHGQCDAHSLCSLEFEDHRPLYDWFIEKLSRQIEF"/>
+                    <sequence id="seq_gln_bact_ttj_" taxon="gln_bact_ttj_" totalcount="20" value="VTRFPPEPNGYLHIGHARSIVLNFGLAQDECNLRFDDTNEEYARAIEEDVRWLTRVLYASDMYDFAHPLEDFHSLCTLEFENNRTVYDWVIENLPHQYEF"/>
+                    <sequence id="seq_gln_euk_adl_" taxon="gln_euk_adl_" totalcount="20" value="FTRFPPEPNGFLHIGHSKAIFVNFGYAAHKCYLRYDDTNAKYFESILEIVRWLFRITYSSDTYDFTHCLCDSHSLCTTEFIDSRESYEWLCDQLPRQSEY"/>
+                    <sequence id="seq_gln_euk_cowc_" taxon="gln_euk_cowc_" totalcount="20" value="HTRFPPEPNGILHIGHAKAMHINFTFARVKCIFRYDDTNERFFVGIRQMVDWLAAVTHTSDTYDYSHCLIDSHSMCTKEFQNRRMSYYWLCNALPVQWEY"/>
+                    <sequence id="seq_gln_euk_cpv_" taxon="gln_euk_cpv_" totalcount="20" value="VTRFPPEPNGFLHLGHAKSICLNYGIAKIRFHLRYDDTNQQYIDAIEEDVRWLGEKYYASDMYDFAHGQSDSHSICTLEFELHRPLYDWLQSELTRQIEF"/>
+                    <sequence id="seq_gln_euk_crg_" taxon="gln_euk_crg_" totalcount="20" value="HTRFPPEPNGILHIGHAKAINFNFGYAKKNTYLRYDDTNEKFFTAIKNMVEWLFQVTHASDTYDYTHCLCDSHSLCTKEFQSRRSSYYWLCNALPVQWEY"/>
+                    <sequence id="seq_gln_euk_csl_" taxon="gln_euk_csl_" totalcount="20" value="VTRFPPEPNGYLHIGHAKAMFVDFGFAERDCYLRFDDTNQEYIDHIQDIVAWLWKVTYSSDSYDYTHCLVDAHSLCTLEFESRRASYYWLLHVLPVVWEY"/>
+                    <sequence id="seq_gln_euk_dre_" taxon="gln_euk_dre_" totalcount="20" value="RTRFPPEPNGILHIGHAKAINFNFGFAKAICFLRYDDTNEKYFTAIKDMVEWLYAVTHASDTYDYTHCLCDSHSLCTKEFQARRSSYFWLCNALPVQWEY"/>
+                    <sequence id="seq_gln_euk_egut_" taxon="gln_euk_egut_" totalcount="20" value="LTRFPPEPNGYLHIGHAKAMFVNFGLAKECCYLRYDDTNKEYIDHIEEIVGWMFKITYTSDSYDYAHCIVDSHSLCTLEFETRRASYYWLLDALPYVWEY"/>
+                    <sequence id="seq_gln_euk_gla_" taxon="gln_euk_gla_" totalcount="20" value="LTRFPPEPNGYLHLGHAKAMFISFNYALLKTYLRMDDTNKEYIDSILASIEWLFKFTHTSDSYDFSHCLIDAHSLCTLEFGIRRESYDWVTHNVPMQWEF"/>
+                    <sequence id="seq_gln_euk_gtt_" taxon="gln_euk_gtt_" totalcount="20" value="RTRFPPEPNGYLHIGHAKSICLNFGVAKERTNMRFDDTNEEYVRSILKDVRWLDNTRYASDMYDFAHCISDAHSLCTLEFEDHRPLYDWVLDELPQQTEF"/>
+                    <sequence id="seq_gln_euk_hsa_" taxon="gln_euk_hsa_" totalcount="20" value="RTRFPPEPNGILHIGHAKAINFNFGYAKAICFLRFDDTNAKFFTAICDMVAWLYKVTYASDTYDYTHCLCDSHSLCTKEFQARRSSYFWLCNALPVQWEY"/>
+                    <sequence id="seq_gln_euk_lif_" taxon="gln_euk_lif_" totalcount="20" value="YFRFPPEPNGFLHIGHAKSMNLNFGSARAKCYLRYDDTNQVYIDAIMEMVDWMDWVTFSSDSYDFTHCLIDSYSLCTLEFETRRESYFWLLNELPYVWEF"/>
+                    <sequence id="seq_gln_euk_mde_" taxon="gln_euk_mde_" totalcount="20" value="QTRFPPEPNGILHIGHAKAININFGYAAAVCYLRYDDTNEKFFVGIKDMVEWLYKITHSSDTYDYTHCLCDSHSLCTKEFQSRRSSYYWLCNALPVQWEY"/>
+                    <sequence id="seq_gln_euk_nce_" taxon="gln_euk_nce_" totalcount="20" value="VTRFPPEPNGILHIGHAKAINLDFGYAEKICYLRFDDTNDYYFESIIEDVKWLYAITSSSKSYEFALCVSDSHSFCTREFFTRQESYKWLLDALPVQWEF"/>
+                    <sequence id="seq_gln_euk_sre_" taxon="gln_euk_sre_" totalcount="20" value="HTRFPPEPNGILHIGHAKAITFNFAYARDNCYLRYDDTNEEFFRGILRDVTWLFKITHSSDTYDFTHCLCDSHSLCTKEFQNRRSSYYWLCNALPVQWEY"/>
+                    <sequence id="seq_gln_euk_tva_" taxon="gln_euk_tva_" totalcount="20" value="MTRFPPEPNGWIHIGHAKAMILDFGLAATHCYMRFDDTNVEFIEGIKKDVHWLWKITHTSDTYDYSHCVIDSHSLCTLEFQNRRDSYYWVLDALPVVWEF"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="30000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:Gln_CUT" name="stateNode">
+            <taxonset id="TaxonSet.Gln_CUT" spec="TaxonSet">
+                <alignment idref="Gln_CUT"/>
+            </taxonset>
+        </tree>
+        <parameter id="gammaShape.s:Gln_CUT" name="stateNode">1.0</parameter>
+        <parameter id="mutationRate.s:Gln_CUT" name="stateNode">1.0</parameter>
+        <parameter id="ucldStdev.c:Gln_CUT" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:Gln_CUT" spec="parameter.IntegerParameter" dimension="40">1</stateNode>
+        <stateNode id="indicators.alltrees" spec="parameter.BooleanParameter">false</stateNode>
+        <parameter id="populationMean.alltrees" name="stateNode">1.0</parameter>
+        <parameter id="popSizes.alltrees" name="stateNode">1.0</parameter>
+    </state>
+
+    <init id="RandomTree.t:Gln_CUT" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Gln_CUT" taxa="@Gln_CUT">
+        <populationModel id="ConstantPopulation0.t:Gln_CUT" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Gln_CUT" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="ExtendedBayesianSkyline.t:Gln_CUT" spec="Coalescent">
+                <populationModel id="scaledDemo.t:Gln_CUT" spec="ScaledPopulationFunction">
+                    <population id="demographic.alltrees" spec="CompoundPopulationFunction" populationIndicators="@indicators.alltrees" populationSizes="@popSizes.alltrees">
+                        <itree id="treeIntervals.t:Gln_CUT" spec="TreeIntervals" tree="@Tree.t:Gln_CUT"/>
+                    </population>
+                    <parameter id="RealParameter.4" lower="0.0" name="factor" upper="0.0">1.0</parameter>
+                </populationModel>
+                <treeIntervals idref="treeIntervals.t:Gln_CUT"/>
+            </distribution>
+            <prior id="GammaShapePrior.s:Gln_CUT" name="distribution" x="@gammaShape.s:Gln_CUT">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="indicatorsPrior.alltrees" name="distribution">
+                <x id="indsSun.alltrees" spec="util.Sum">
+                    <arg idref="indicators.alltrees"/>
+                </x>
+                <distr id="Poisson.EBSP" spec="beast.math.distributions.Poisson">
+                    <parameter id="RealParameter.5" estimate="false" name="lambda" upper="0.0">0.69314718056</parameter>
+                </distr>
+            </prior>
+            <prior id="popSizePrior.alltrees" name="distribution" x="@popSizes.alltrees">
+                <Exponential id="popPriorDist.EBSP" mean="@populationMean.alltrees" name="distr"/>
+            </prior>
+            <prior id="populationMeanPrior.alltrees" name="distribution" x="@populationMean.alltrees">
+                <OneOnX id="OneOnX.EBSP" name="distr"/>
+            </prior>
+            <prior id="ucldStdevPrior.c:Gln_CUT" name="distribution" x="@ucldStdev.c:Gln_CUT">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.Gln_CUT" spec="ThreadedTreeLikelihood" data="@Gln_CUT" tree="@Tree.t:Gln_CUT">
+                <siteModel id="SiteModel.s:Gln_CUT" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:Gln_CUT" shape="@gammaShape.s:Gln_CUT">
+                    <parameter id="proportionInvariant.s:Gln_CUT" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:Gln_CUT" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:Gln_CUT" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:Gln_CUT" tree="@Tree.t:Gln_CUT">
+                    <LogNormal id="LogNormalDistributionModel.c:Gln_CUT" S="@ucldStdev.c:Gln_CUT" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.1" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:Gln_CUT" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="gammaShapeScaler.s:Gln_CUT" spec="ScaleOperator" parameter="@gammaShape.s:Gln_CUT" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+        <parameter idref="mutationRate.s:Gln_CUT"/>
+        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">100</weightvector>
+    </operator>
+
+    <operator id="ucldStdevScaler.c:Gln_CUT" spec="ScaleOperator" parameter="@ucldStdev.c:Gln_CUT" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:Gln_CUT" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Gln_CUT" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:Gln_CUT" spec="SwapOperator" intparameter="@rateCategories.c:Gln_CUT" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:Gln_CUT" spec="UniformOperator" parameter="@rateCategories.c:Gln_CUT" weight="10.0"/>
+
+    <operator id="ExtendedBayesianSkylineTreeScaler.t:Gln_CUT" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:Gln_CUT" weight="3.0"/>
+
+    <operator id="ExtendedBayesianSkylineTreeRootScaler.t:Gln_CUT" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Gln_CUT" weight="3.0"/>
+
+    <operator id="ExtendedBayesianSkylineUniformOperator.t:Gln_CUT" spec="Uniform" tree="@Tree.t:Gln_CUT" weight="30.0"/>
+
+    <operator id="ExtendedBayesianSkylineSubtreeSlide.t:Gln_CUT" spec="SubtreeSlide" tree="@Tree.t:Gln_CUT" weight="15.0"/>
+
+    <operator id="ExtendedBayesianSkylineNarrow.t:Gln_CUT" spec="Exchange" tree="@Tree.t:Gln_CUT" weight="15.0"/>
+
+    <operator id="ExtendedBayesianSkylineWide.t:Gln_CUT" spec="Exchange" isNarrow="false" tree="@Tree.t:Gln_CUT" weight="3.0"/>
+
+    <operator id="ExtendedBayesianSkylineWilsonBalding.t:Gln_CUT" spec="WilsonBalding" tree="@Tree.t:Gln_CUT" weight="3.0"/>
+
+    <operator id="bitflip.alltrees" spec="BitFlipOperator" parameter="@indicators.alltrees" weight="30.0"/>
+
+    <operator id="indicatorSampler.alltrees" spec="SampleOffValues" dist="@popPriorDist.EBSP" indicators="@indicators.alltrees" values="@popSizes.alltrees" weight="15.0"/>
+
+    <operator id="indicatorScaler.alltrees" spec="ScaleOperator" degreesOfFreedom="1" indicator="@indicators.alltrees" parameter="@popSizes.alltrees" scaleFactor="0.5" weight="15.0"/>
+
+    <operator id="EBSPupDownOperator.alltrees" spec="UpDownOperator" scaleFactor="0.7" weight="5.0">
+        <up idref="popSizes.alltrees"/>
+        <up idref="populationMean.alltrees"/>
+    </operator>
+
+    <logger id="tracelog" fileName="Gln_CUT_new_CoalExtSky.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.Gln_CUT"/>
+        <log id="TreeHeight.t:Gln_CUT" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Gln_CUT"/>
+        <log idref="gammaShape.s:Gln_CUT"/>
+        <log idref="mutationRate.s:Gln_CUT"/>
+        <log idref="ucldStdev.c:Gln_CUT"/>
+        <log id="rate.c:Gln_CUT" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Gln_CUT" tree="@Tree.t:Gln_CUT"/>
+        <log idref="ExtendedBayesianSkyline.t:Gln_CUT"/>
+        <log idref="indicators.alltrees"/>
+        <log idref="populationMean.alltrees"/>
+        <log idref="popSizes.alltrees"/>
+        <log id="sumIndicators" spec="util.Sum">
+            <arg idref="indicators.alltrees"/>
+        </log>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:Gln_CUT" fileName="Gln_CUT_new_CoalExtSky.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Gln_CUT" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:Gln_CUT" tree="@Tree.t:Gln_CUT"/>
+    </logger>
+
+    <logger id="EBSPLogger" fileName="EBSP.log" logEvery="5000" model="@demographic.alltrees">
+        <log idref="demographic.alltrees"/>
+    </logger>
+
+</run>
+
+</beast>
