@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="Cys_total"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_cys_3c8z_msg_" taxon="cys_3c8z_msg_" totalcount="20" value="TMYVGITPYDATHLGHAATYLTFDLVHRLQYVQNVTDVDDRETQLFREDMAALHDYVAATDGWHVECSAIALIQGGGSDLIFPHEYSAAHAESVAHYVHT"/>
+                    <sequence id="seq_cys_arch_afg_" taxon="cys_arch_afg_" totalcount="20" value="KMYVGITAYDYSHIGHARSAVFFDVFRRYVYVQNFTDVDEKFIEEYLKDMEALTYQPKVTEGWHIECSVMSAIHGGGKDLIFPHENERAQSFARVIWVHN"/>
+                    <sequence id="seq_cys_arch_hdl_" taxon="cys_arch_hdl_" totalcount="20" value="LVYTGLTVSDDAHLGHARLWVQSDVVVRWRHVQNFTDVNRHYIESVIEDMRALEVYPRVSEGWHIECSAMSMVHVGGQDLVFPHENEIAQSEAAAYWLHV"/>
+                    <sequence id="seq_cys_arch_mhu_" taxon="cys_arch_mhu_" totalcount="20" value="SLFVGPTVYNYPHLGHARTYVVFDVLAKYLYIQNITDVDRKFEREYIKDMLSLSYHARATTGWHIEDTAITEIHGGGLDLIFPHEAEIAQMESLVYWMHT"/>
+                    <sequence id="seq_cys_arch_neq_" taxon="cys_arch_neq_" totalcount="20" value="KMYTGVTPYDKAHVGHLRTYLVTDLLRRIIAVTNFTDIDEENIKYVFDVLKELYVYPRVTYGWHIECSVMSSIHLGGSDLIFPHENEIAQSETLVYWVHI"/>
+                    <sequence id="seq_cys_arch_occl_" taxon="cys_arch_occl_" totalcount="20" value="RMYVGPTVYDYTHLGHARTYVAFDAIKRYIHVQNITDIDDTYSRDYFEMLQKLHIHPRVTDGWHIECSVMSSIHGGGQDLVFPHENERAQSEAFVYWLHT"/>
+                    <sequence id="seq_cys_arch_pai_" taxon="cys_arch_pai_" totalcount="20" value="RGYVGITPYDHVHVGHGRVYVFFDMFRRYRLVINFTDIDERYIAEFFEMSNKLHAYPRVTEGWHLECVVMSTFHGGGADLIFPHENEIAIAKAYAYWIHV"/>
+                    <sequence id="seq_cys_arch_pdl_" taxon="cys_arch_pdl_" totalcount="20" value="RMYVGPTVYDYTHIGHARTYVAFDAIKRYIHVQNITDIDDEYSRDYFDMLKKLHIHPRVTEGWHIECSVMSSIHGGGQDLIFPHENEKAQSEAYVYWLHT"/>
+                    <sequence id="seq_cys_arch_pho_" taxon="cys_arch_pho_" totalcount="20" value="RMYVGPTVYDYPHLGHARTYIAFDVIRRYLMVMNFTDIDEKFIKVFLEDMKALDIYPRVTEGWHIECSVMSSIHGGGNDLIFPHENEIAQSEACVYWLHT"/>
+                    <sequence id="seq_cys_arch_rmr_" taxon="cys_arch_rmr_" totalcount="20" value="RLYAGPTVYTYAHIGNFRSFLTADLIVRVVYVCIW-DLARYYTQAFLEDWQALDVRPRATEGWHIECSVMSMLHLGGEDLIFPHECEIAQAESLAYWVHT"/>
+                    <sequence id="seq_cys_arch_sacs_" taxon="cys_arch_sacs_" totalcount="20" value="KMYVGPTVYDYVHIGHGRAFVGFDGIVRYIRVQNITDIDDYYTKDYMESLKALDQHPRVTSGWHIECSTMSTIHGGGVDLVFPHENERAQSEALVYWVHV"/>
+                    <sequence id="seq_cys_arch_smr_" taxon="cys_arch_smr_" totalcount="20" value="KMYVGPTVYDYNHIGHGRVYVVYDALKRYLHVMNITDIDETYTRDYLESLGKLDLHPRVTEGWHIECSVMSSIHGGGTDLIFPHENERAQSEAAVYWVHT"/>
+                    <sequence id="seq_cys_arch_tac_" taxon="cys_arch_tac_" totalcount="20" value="NMFVGPTVQDHFHIGHARTYIFFDAVAKLFYLQNITDIDDMYLREFLEDMSALNYFAKSTLGWHIEDTAITEIHGGGSDLIFPHEAEIAQMRAISYWIHT"/>
+                    <sequence id="seq_cys_bact_aae_" taxon="cys_bact_aae_" totalcount="20" value="LIYTGVTVYDDSHVGHGRSLIVFDVFRRFKFVRNFTDVDDRYIARYYVDMENIDVEPRVTEGWHTECVAMVFIHGGGLDLVFPHENEIAQAEAIAYWMHN"/>
+                    <sequence id="seq_cys_bact_aas_" taxon="cys_bact_aas_" totalcount="20" value="GMYVGPTVYGPAHLGHARCYVTFDVIQRYRYVRNITDVGQRYMNSFHRDMALLNIEPQASGGWHIECTALATIHGGGMDLLFPHECELAQSQAAAYWLHN"/>
+                    <sequence id="seq_cys_bact_bbu_" taxon="cys_bact_bbu_" totalcount="20" value="KVYAGPTVYNYAHIGNFRTYIFGDLLIKTNYAMNITDIGEFFTEAFFNDCRKLDKVLVASKSWHLECAAMNLIHLGGVDHIGVHINEIAIAECFCVFVHG"/>
+                    <sequence id="seq_cys_bact_bfs_" taxon="cys_bact_bfs_" totalcount="20" value="GMYVGPTVYGDAHLGHARPAITFDVLFRYRYVRNITDVEQYYLNRYHKAMEALSIEPHASGGWHAECTAMGRIHGGGMDLIFPHECEIAQSVASVYWMHN"/>
+                    <sequence id="seq_cys_bact_bli_" taxon="cys_bact_bli_" totalcount="20" value="KMYVGPTVYNYIHIGNARPAIVYDTVRKYQYVSNFTDVDERFIKAYFEDVGSLDCHPRVTEGWHIECSAMAKIHAGGQDLTFPHENEIAQSEALAYWLHN"/>
+                    <sequence id="seq_cys_bact_bte_" taxon="cys_bact_bte_" totalcount="20" value="RMYVGITVYDYCHIGHARMVVVFDIVQRWTYVRNITDIDRRFIDAMNADFDALDIEPRATDGWHIECSAMGCIHGGGQDLQFPHENEIAQSEGAVYWMHN"/>
+                    <sequence id="seq_cys_bact_cag_" taxon="cys_bact_cag_" totalcount="20" value="TLYVGVTPYDTTHMGHARTFIVFDVLVRYTYCQNITDVDERQIAQLRADCADLTFAPRVSEGWHIECSAMSIIHGGGADLIFPHSCEIAQSESAAIWMHV"/>
+                    <sequence id="seq_cys_bact_cje_" taxon="cys_bact_cje_" totalcount="20" value="SIYLGPTVYDDAHLGHARSSVCFDLLRRVKFARNYTDIDEFYIKSYEEDMRVLDFKPRATHGWHTECVAMIDIHAGGIDLLFPHENEAAQCRCGAIWLHN"/>
+                    <sequence id="seq_cys_bact_cthe_" taxon="cys_bact_cthe_" totalcount="20" value="KMYYGVTVYDYCHLGHARACIIWDVVRRYTYIQNFTDIDERYIQAYFEDMTRLDAYPRATHGWHIECSAMVRIHAGGADLIFPHENEIAQSEAVSYWMHN"/>
+                    <sequence id="seq_cys_bact_dra_" taxon="cys_bact_dra_" totalcount="20" value="GMYLGPTVYSDAHLGHAKKEVAFDVIRRARYVSNITDVEDKYFWSFFRDMDALSINPRATGGWHIECSAMSLIHGGGLDLQFPHEAEIAQAEAAAYWMHN"/>
+                    <sequence id="seq_cys_bact_ecc_1li5" taxon="cys_bact_ecc_1li5" totalcount="20" value="GMYVGITVYDLCHIGHGRTFVAFDVVARYKYVRNITDIDDRMIAEMHKDFDALDMEPRATHGWHIECSAMNCIHGGGSDLMFPHENEIAQSTCAVYWMHS"/>
+                    <sequence id="seq_cys_bact_ges_" taxon="cys_bact_ges_" totalcount="20" value="TMYVGPTVYKPSHIGHMVGPVIFDTVKRYKWIVNITDVDAKMTEDYFACLKSLDHFPKATDGWHIECTCMAIIHGGGLDLQFPHENELAQSESWAIWMHN"/>
+                    <sequence id="seq_cys_bact_hau_" taxon="cys_bact_hau_" totalcount="20" value="RMYVGVTPYDTTHMGHARTYVVYDTIRRYLYVQNVTDIDRQETERFLRDMDALNHYVKATDGWHIECTAMVLIHGGGSDLQFPHACELAQAENFVAWSHI"/>
+                    <sequence id="seq_cys_bact_mmo_" taxon="cys_bact_mmo_" totalcount="20" value="YIYVGPTVYNKVHIGNMKPIMTFDLFLRGLFLHNLTDIDELYSDFYLKMLDEYDYIEKVTDGWHTECSALINIHGGGIDLIFPNENENIQNIALAKWLHV"/>
+                    <sequence id="seq_cys_bact_phm_" taxon="cys_bact_phm_" totalcount="20" value="SMYSGPTV--FAHIGNFRTFLFADVLRRFHHVMNLTDVGAFYIAAFKEDAAKLDGLPRATEGWHIECSAMARIHTGGEDNIFPHECEIAQSRCGALWLHS"/>
+                    <sequence id="seq_cys_bact_sar_" taxon="cys_bact_sar_" totalcount="20" value="KMYVGPTVYNYIHIGNARPAINYDVVRRYEYVSNFTDVDEKYIAAFHEDVGALTSNPRVMDGWHIECSVMAFIHAGGSDLQFPHENEIAQSEAHAYWMHN"/>
+                    <sequence id="seq_cys_bact_syf_" taxon="cys_bact_syf_" totalcount="20" value="SLYCGVTVYDYCHLGHARSYIVWDTLRRYRYVQNFTDIDDRYTQAYFEDMARLDDYPRATHGWHIECSAMVRIHVGGADLVFPHENEIAQSEAVAYWLHN"/>
+                    <sequence id="seq_cys_bact_tma_" taxon="cys_bact_tma_" totalcount="20" value="RMYVGPTVYDLIHVGNARPALVFDVFRRYIMVQNFTDIDDTFIAEYWRDAHALNFHPRTTDGWHIECTVMSVIHAGGEDLVFPHENEKAQAEALAYWMHN"/>
+                    <sequence id="seq_cys_bact_ttj_" taxon="cys_bact_ttj_" totalcount="20" value="GIYVGPTVYADPHLGHARGPVVYDVLRRYRFVSNITDVEEKYTWSYFDAMQALSIAPRASGGWHIECTAMSLLHAGGIDLQFPHECEIAQAEAAAHWMHH"/>
+                    <sequence id="seq_cys_euk_bhom_" taxon="cys_euk_bhom_" totalcount="20" value="SWYSGPTVYDSSHVGHARTYVQIDLLQRIHSAMGITNIDSRYEEEFINDMQRLMSVVRVSDGWHIECSVNCHVHAGGIDLRFPHCNEIAQCEAYCMMLHI"/>
+                    <sequence id="seq_cys_euk_cowc_" taxon="cys_euk_cowc_" totalcount="20" value="NAYIGPTVYDASHMGHASTYIQFDVIRRVRWVMNITDVDRYWEEQFNIDMKALDRLTRVSDGWHIECSAMAGIHGGGIDLKFPHDNEIAQSEAFIYFMHT"/>
+                    <sequence id="seq_cys_euk_cpv_" taxon="cys_euk_cpv_" totalcount="20" value="NWYAGPTVYDSAHLGHARNYVTFDIIRRVYLVMNITDIDREFELEFFDDMKALDVVTRVSEGWHIECSVMASIHSGGIDLRFPHDNELAQSEAHVYFLHS"/>
+                    <sequence id="seq_cys_euk_crg_" taxon="cys_euk_crg_" totalcount="20" value="KIYSGPTVYDFPHIGNYRSFLFSDLLHRTKLVMNITDIDDRYTQAFLQDLKDLSHYPRATDGWHIECSAMSRIHTGGTDNRFPHENEIAQSECFVYWLHV"/>
+                    <sequence id="seq_cys_euk_ddi_" taxon="cys_euk_ddi_" totalcount="20" value="SWYTGPTVYSSSHIGHARNYMTVDIIQRIIHVMGLTDIDKKFEQEFFEDLKSLMFTTRVSEGWHIECSAMIDVHSGGVDLEFPHQNEIAQCEGHAYFFHI"/>
+                    <sequence id="seq_cys_euk_egut_" taxon="cys_euk_egut_" totalcount="20" value="GMYIGVTSYDLSHIGHARAYVAFDVLYRYVYVRNFTDVDWRFCEEFLSDMADLTHQPRVTDGWHIECSAMSAIHGGGMDLIFPHENEIAQSCAAVYWIHN"/>
+                    <sequence id="seq_cys_euk_gla_" taxon="cys_euk_gla_" totalcount="20" value="LAYIGPTVYDSTHLGHARTYVTFDVVRRIRYQCNITDVDRKYEQEFLSDMHTLTVVTRVTEGWHIECSAMAALHLGGCDLQFPHDNELIQLETWICFLHS"/>
+                    <sequence id="seq_cys_euk_gtt_" taxon="cys_euk_gtt_" totalcount="20" value="RWYIGPTVYDSSHLGHARTYVAFDVIRRIFCVMNITDVDAFYEQEYHEDMKSLDVLTRVTEGWHIECSVMASIHGGGIDLCFPHDNELAQAEAYVYFLHS"/>
+                    <sequence id="seq_cys_euk_lif_" taxon="cys_euk_lif_" totalcount="20" value="RWYTGPTVYDLSHMGHARAYLTFDIIRRVIYQMNITDIDRKYERAFFEDMQRLDIVTRVTEGWHIECSVMASIHSGGWDLKFPHDNECAQSEACVYFLHC"/>
+                    <sequence id="seq_cys_euk_nce_" taxon="cys_euk_nce_" totalcount="20" value="KIYIGPTVYDHSHIGHARTYVSFDVIRNITFVMNITDIDVKYTNLFLEDMALLTVLTKVTEGWHIECSVMANIHAGGVDLKFPHENEIAQCQARVYFMHT"/>
+                    <sequence id="seq_cys_euk_ngr_" taxon="cys_euk_ngr_" totalcount="20" value="TWYTGPTVYDWSHMGHARTYVGFDIVRRIIYIENITDIDRYYEHLFWEDMKQLTVLVRVTEGWHIECSAMACVHCGGIDLKFPHDNELAQSEAYVYFLHT"/>
+                    <sequence id="seq_cys_euk_pbi_" taxon="cys_euk_pbi_" totalcount="20" value="KWYCGPTVYDASHMGHARSYISFDILRRVFYCMNITDIDKFWEEEYHKDMAALDVLTRVSEGWHIECSAMAGIHGGGFDLRFPHDNELAQSEAYVYFLHT"/>
+                    <sequence id="seq_cys_euk_pchr_" taxon="cys_euk_pchr_" totalcount="20" value="SIYCGVTVYDLCHLGHARSYIAWDVLRRYTFVQNFTDIDDRNIEAFKSDMALLDRMPRATKGWHIECSTMVRIHLGGADLIFPHENEIAQSEMAAYWLHN"/>
+                    <sequence id="seq_cys_euk_sre_" taxon="cys_euk_sre_" totalcount="20" value="TWYQGPTVYDHSHIGHAVCFQRFDILRRVLQVWGMTDIDRQYEESFFQDMAALAHITRVTEGWHIECSAMASIHTGGIDLLYPHTNELAQCESHVHFWHT"/>
+                    <sequence id="seq_cys_euk_tva_" taxon="cys_euk_tva_" totalcount="20" value="RCYTGPTVYSTSHLGHARTYLSFDMIRRIQWSMNVTDIDADREKAFFAELDTLDALLRVSEGWHIECSTMSGLHAGGIDLRFPHSNEIAQSQARVNWMHT"/>
+                    <sequence id="seq_dmelanogas__mito1A-aa" taxon="dmelanogas__mito1A-aa" totalcount="20" value="TWYTGPTVYDSAHLGHASTYVKVDILQRIVTAMNITDVDRAYEAEFRQDMLRLDVRSHVTTGWHIECSAIAGIHAGGLDLRFPHENEEAQCCARVYWVHT"/>
+                    <sequence id="seq_hsapiens_c__mito2A-aa" taxon="hsapiens_c__mito2A-aa" totalcount="20" value="------------------------------MVMGITDVDSLYEEDFKQDMAALTVYLRVTEGWHIECSAIASIHSGGIDLAFPHENEIAQCEVFGYFLHS"/>
+                    <sequence id="seq_paulinella_astid3A-aa" taxon="paulinella_astid3A-aa" totalcount="20" value="LIYCGVTVYDLCHLGHARSYIVWDVLRRYTFVQNFTDIDERNIEAFKVDMKTLDRMPRVTQGWHIECSTMVRIHLGGADLIFPHENEIAQSETAAYWLHN"/>
+                    <sequence id="seq_pcatodon_c__mito4A-aa" taxon="pcatodon_c__mito4A-aa" totalcount="20" value="SWYSGPTVYDHAHLGHACSYVRFDIIRRIIMVMGITDVDNLYEEDFKQDMAALTVYLRVTEGWHTECSTIASIHSGGIDLAFPHENEIAQCEAFGYFLHS"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="10000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:Cys_total" name="stateNode">
+            <taxonset id="TaxonSet.Cys_total" spec="TaxonSet">
+                <alignment idref="Cys_total"/>
+            </taxonset>
+        </tree>
+        <parameter id="ucldStdev.c:Cys_total" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:Cys_total" spec="parameter.IntegerParameter" dimension="100">1</stateNode>
+        <parameter id="birthRate2.t:Cys_total" lower="0.0" name="stateNode" upper="10000.0">1.0</parameter>
+        <parameter id="relativeDeathRate2.t:Cys_total" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+    </state>
+
+    <init id="RandomTree.t:Cys_total" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Cys_total" taxa="@Cys_total">
+        <populationModel id="ConstantPopulation0.t:Cys_total" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Cys_total" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BirthDeath.t:Cys_total" spec="beast.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@birthRate2.t:Cys_total" relativeDeathRate="@relativeDeathRate2.t:Cys_total" tree="@Tree.t:Cys_total"/>
+            <prior id="BirthRatePrior.t:Cys_total" name="distribution" x="@birthRate2.t:Cys_total">
+                <Uniform id="Uniform.4" name="distr" upper="1000.0"/>
+            </prior>
+            <prior id="DeathRatePrior.t:Cys_total" name="distribution" x="@relativeDeathRate2.t:Cys_total">
+                <Uniform id="Uniform.5" name="distr"/>
+            </prior>
+            <prior id="ucldStdevPrior.c:Cys_total" name="distribution" x="@ucldStdev.c:Cys_total">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.Cys_total" spec="ThreadedTreeLikelihood" data="@Cys_total" tree="@Tree.t:Cys_total">
+                <siteModel id="SiteModel.s:Cys_total" spec="SiteModel" gammaCategoryCount="4">
+                    <parameter id="mutationRate.s:Cys_total" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:Cys_total" estimate="false" name="shape">1.0</parameter>
+                    <parameter id="proportionInvariant.s:Cys_total" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:Cys_total" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:Cys_total" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:Cys_total" tree="@Tree.t:Cys_total">
+                    <LogNormal id="LogNormalDistributionModel.c:Cys_total" S="@ucldStdev.c:Cys_total" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.1" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:Cys_total" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="ucldStdevScaler.c:Cys_total" spec="ScaleOperator" parameter="@ucldStdev.c:Cys_total" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:Cys_total" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Cys_total" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:Cys_total" spec="SwapOperator" intparameter="@rateCategories.c:Cys_total" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:Cys_total" spec="UniformOperator" parameter="@rateCategories.c:Cys_total" weight="10.0"/>
+
+    <operator id="BirthDeathTreeScaler.t:Cys_total" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:Cys_total" weight="3.0"/>
+
+    <operator id="BirthDeathTreeRootScaler.t:Cys_total" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Cys_total" weight="3.0"/>
+
+    <operator id="BirthDeathUniformOperator.t:Cys_total" spec="Uniform" tree="@Tree.t:Cys_total" weight="30.0"/>
+
+    <operator id="BirthDeathSubtreeSlide.t:Cys_total" spec="SubtreeSlide" tree="@Tree.t:Cys_total" weight="15.0"/>
+
+    <operator id="BirthDeathNarrow.t:Cys_total" spec="Exchange" tree="@Tree.t:Cys_total" weight="15.0"/>
+
+    <operator id="BirthDeathWide.t:Cys_total" spec="Exchange" isNarrow="false" tree="@Tree.t:Cys_total" weight="3.0"/>
+
+    <operator id="BirthDeathWilsonBalding.t:Cys_total" spec="WilsonBalding" tree="@Tree.t:Cys_total" weight="3.0"/>
+
+    <operator id="BirthRateScaler.t:Cys_total" spec="ScaleOperator" parameter="@birthRate2.t:Cys_total" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="DeathRateScaler.t:Cys_total" spec="ScaleOperator" parameter="@relativeDeathRate2.t:Cys_total" scaleFactor="0.75" weight="3.0"/>
+
+    <logger id="tracelog" fileName="Cys_total.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.Cys_total"/>
+        <log id="TreeHeight.t:Cys_total" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Cys_total"/>
+        <log idref="ucldStdev.c:Cys_total"/>
+        <log id="rate.c:Cys_total" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Cys_total" tree="@Tree.t:Cys_total"/>
+        <log idref="BirthDeath.t:Cys_total"/>
+        <log idref="birthRate2.t:Cys_total"/>
+        <log idref="relativeDeathRate2.t:Cys_total"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:Cys_total" fileName="Cys_total.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Cys_total" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:Cys_total" tree="@Tree.t:Cys_total"/>
+    </logger>
+
+</run>
+
+</beast>
