@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="Met_total"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_dmelanogas__mito3A-aa" taxon="dmelanogas__mito3A-aa" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADIYARYLLICGTDEYGDKYFELHNAIYRWFDYFGRTTTYVWFDAPFGYVFQFMAKDNVPFSVVWPSVLLAIVHIMAT"/>
+                    <sequence id="seq_hsapiens_m__mito4A-aa" taxon="hsapiens_m__mito4A-aa" totalcount="20" value="YFTTIFYVNAAPHIGHLYSALLADALCRHRFSTGTDEHGDRVSEQFQQLFQEATDFIRTTEYVWLDALVNYLSHIIGKDILKFAIYWPAFLLGAPRICVH"/>
+                    <sequence id="seq_met_1pfv_e__coli1A-aa" taxon="met_1pfv_e__coli1A-aa" totalcount="20" value="LVTCLPYANGSIHLGHMLEHIQADVWVRYNFICADDAHGGEMSQEHQTDFAGFDNYHSTHSYVWLDAPIGYMYHFIGKDIVYFSLFWPAMLEGSPNLFVH"/>
+                    <sequence id="seq_met_1rqg_p_byssi2A-aa" taxon="met_1rqg_p_byssi2A-aa" totalcount="20" value="MVTSLPYANGPIHAGHLAAYLPADIFVRYVFICGTDEHGDEFHEQIKITFQRADFFGRTELYVWFEAPIGYIIHFIGKDNIPFAIFWPAFLMAYPDIPAN"/>
+                    <sequence id="seq_met_arch_afg_" taxon="met_arch_afg_" totalcount="20" value="LVTCLPYANGKAHVGHLRTYVPADVYVRYVFVCGSDCHGDIYHEHFIKIFDALDFYGRTDSYVWVDAPIGYIIHFIGLDIVYHCIFWPAMLKGYPAVVAS"/>
+                    <sequence id="seq_met_arch_hdl_" taxon="met_arch_hdl_" totalcount="20" value="VVTALPYANGDLHIGHLRSYVSADAFTRAVYVCGSDMHGLRHHKQYRETFPKFDQYGHTHDYVWVDAPIEYVVHVIGRDIIQHTVYWPAMLEAYPAVCAA"/>
+                    <sequence id="seq_met_arch_mac_" taxon="met_arch_mac_" totalcount="20" value="LVTCLPYANGKAHIGHLRTYVPADIFARSTFVCGSDTHGEIYHKHFDETFKQLDAFGTTDDYVWVDAPIGYIVHFIGGDITYHCIFWPAMLNGYPAVVAS"/>
+                    <sequence id="seq_met_arch_mae_" taxon="met_arch_mae_" totalcount="20" value="LLTTLAYTNGPLHLGHARTYIPADIIKRYIHVGGTDNHGNKYHNEIKRDLDNLDSYGKTHSYVWLEAPIGYIWHFIGKDITVHAVFWPGMLLGYPSIFSG"/>
+                    <sequence id="seq_met_arch_mhu_" taxon="met_arch_mhu_" totalcount="20" value="LVTCLPYTNGPCHLGHLRTYVPADFYVRFVFICGSDNHGERYHTHFSDTFTKMDHFGMTDDYVWVDAPIGYITHFIGQDITYHCVFWPAMLHGYPAVVAS"/>
+                    <sequence id="seq_met_arch_mja_" taxon="met_arch_mja_" totalcount="20" value="LITTLAYTNGPLHLGHARTYIPADIIYKYIHVGGTDNHGEKYHNEIKEDLDLLDAFGKTHSYVWLEAPIGYIYHFIGKDITVHAVFWPGMLIALPAVVSG"/>
+                    <sequence id="seq_met_arch_mka_" taxon="met_arch_mka_" totalcount="20" value="LVTTLAYTNGPLHIGHVRTYLPADVYTRFIHIGGTDNHGEKYHEMIKEDLERLDEFSREFNYVWFDAPIGYVVHFIGKDIIVHALFWPAMLMGLPTIVAG"/>
+                    <sequence id="seq_met_arch_mth_" taxon="met_arch_mth_" totalcount="20" value="FITCLPYANGPTHLGHLRTYIPADIYARYLFVCATDEHGTRYHEMIRGDLERCDSFTRTTDYVWGEAFLGYIIHFIGKDIIYHAIFWPALLMAYPNIIAG"/>
+                    <sequence id="seq_met_arch_neq_" taxon="met_arch_neq_" totalcount="20" value="LVTALPYSNGPIHLGHIAAYLPADIFYRFLYICGSDQYGSFYRKIQEEIFKKFDIYSGTESYVWFDAPIGYIVHFIGKDNIPFTIFWPALIIGYPQVFGN"/>
+                    <sequence id="seq_met_arch_occl_" taxon="met_arch_occl_" totalcount="20" value="VVASWPYVNNVPHLGNLISVLSADVFARYVFVSGSDEHGDQAHEYVSRLFREFDNYTRTESYVWFDALLGYIVYFIGKDNIPFAIIFPAMLMALPYIAST"/>
+                    <sequence id="seq_met_arch_pab_1rqg" taxon="met_arch_pab_1rqg" totalcount="20" value="MVTSLPYANGPIHAGHLAAYLPADIFVRYVFICGTDEHGDEFHEQIKITFQRADFFGRTELYVWFEAPIGYIIHFIGKDNIPFAIFWPAFLMAYPDIPAN"/>
+                    <sequence id="seq_met_arch_pai_ALPHA_" taxon="met_arch_pai_ALPHA_" totalcount="20" value="VIGSWPYVQTVPHLGNMISVLSADVYARYVFVSGSDVHGMKMHAIVAELFKKWDLYTHTHSYVWFEAVLGYIVFFVGKDNVPFVIILPALLLAYPTTAST"/>
+                    <sequence id="seq_met_arch_pdl_" taxon="met_arch_pdl_" totalcount="20" value="VVTSWPYVNNVPHLGNLISILSADVFARYVFVSGSDEHGDQAHEYVSKLFQEYDNYTRTESYVWFDALLGYVVYFIGKDNIPFAIILPAMFMAYPYISST"/>
+                    <sequence id="seq_met_arch_pho_" taxon="met_arch_pho_" totalcount="20" value="MVTSLPYANGPIHAGHLAAYLPADIFVRYVFICGTDEHGDEFHEHIKITFQRADFFGRTELYVWFEAPIGYIIHFIGKDNIPFAIFWPAFLMAYPDIPAN"/>
+                    <sequence id="seq_met_arch_sacs_" taxon="met_arch_sacs_" totalcount="20" value="LVTSWPYVNAVPHLGNLISILSADVFARYVFVSGSDEHGDQAHAYDKKLFDTWDNYSRTESYVWFEALLGYLYYFIGKDNIPFAVILPAMLMASPVIAAT"/>
+                    <sequence id="seq_met_arch_smr_" taxon="met_arch_smr_" totalcount="20" value="YITTIYYPNAPPHIGHAYTTVFADVLARYFFMTGNDEHGDEMADVYKKYWELLDYFIRTTDYVWFDALLNYIHHVIGKDILWFTVVWFSILKALPKLLVH"/>
+                    <sequence id="seq_met_arch_tac_" taxon="met_arch_tac_" totalcount="20" value="LVNCLPYANGPLHIGHIAAYLGADVFVRYLYVSGSDEYGDIYYEEHLRTFENLDIFMRTTWYVWFEALIGYIYYFIGKDNIPFAIIWPAMLMGYPDIPAN"/>
+                    <sequence id="seq_met_arch_tvo_" taxon="met_arch_tvo_" totalcount="20" value="LVNCLPYANGPLHVGHIAAYLGADVFVRFLYVSGSDEYGDRYYAEHIETFKKLDIFMRTTYYVWFEALIGYIYYFIGKDNIPFSIIWPAMLLGYPDIPAN"/>
+                    <sequence id="seq_met_bact_aae_2csx" taxon="met_bact_aae_2csx" totalcount="20" value="YVTTIYYVNDVPHLGHAYTTIAADTIARYFFLTGTDEHGDRNAERFKKLWEFLTKFIRTTDYVWFDALFNYILHLVGKDILRFTVYWPAFLMSLPKVFAH"/>
+                    <sequence id="seq_met_bact_aas_" taxon="met_bact_aas_" totalcount="20" value="TITALPYANGPIHIGHLAVYIPADIYARYIFISGSDEHGDKYHHLNKQNLQDLDIFSRTSSYVWFDAPIGYIVHFVGKDNIVFCIIFPVMLQAHPQVPAN"/>
+                    <sequence id="seq_met_bact_bbu_" taxon="met_bact_bbu_" totalcount="20" value="LVTALPYVNNIPHLGNLVQVLSADAFARYLYVCGTDEYGNKYYEIHKSIYKWFDIFGRTTNYVWFDAPIGYIVQFIGKDNILFTIIFPCIEIGSLQLSSS"/>
+                    <sequence id="seq_met_bact_bfs_" taxon="met_bact_bfs_" totalcount="20" value="TVTSLPYANGPVHIGHLAVYVPADIYVRYLFIGGSDEHGDRYHFLIKKSFEEFDVYSRTSSYVWFDAPIGYIVHFIGKDNIVFCIVFPAMLKAEPNVPSN"/>
+                    <sequence id="seq_met_bact_bli_" taxon="met_bact_bli_" totalcount="20" value="YITTIYYPSGKLHIGHAYTTVAGDAMARYRYLTGTDEHGDRAAEDIQQLWKKLDDFIRTTEYVWIDALFNYIVHLVGKEIVRFTIYWPIMLMALPKVFAH"/>
+                    <sequence id="seq_met_bact_bte_" taxon="met_bact_bte_" totalcount="20" value="LVTSLPYANGQIHIGHLVEYIQTDIWARTYYIGADDTHGERVWREHKRDFDSFDNFYTTDSYVWLDAPVGYYYHFIGKDILYFTLFWPAMLEFSPNVFAH"/>
+                    <sequence id="seq_met_bact_cag_" taxon="met_bact_cag_" totalcount="20" value="LVAVWPYANGPRHIGHVAFGVPADIFARYLMVSGTDEHGDRYNKIIGDDLYNLDTFTRTTTYVWFDAVIGYLFYFMGKDNIVFTVIWPAMLLGYPNVVSS"/>
+                    <sequence id="seq_met_bact_cje_" taxon="met_bact_cje_" totalcount="20" value="----------------------ADTLARFRFLTGTDEHGDKISFEFKKLWDEFDIYARTTDYVWLDALFIYVVHLVGKDILRFAIYWPAFLMSVPFIGAH"/>
+                    <sequence id="seq_met_bact_cthe_" taxon="met_bact_cthe_" totalcount="20" value="AVTTLYYVNDLPHIGSAYPTMAADALARFLMITGTDEHGDRISSSFVSLWELLDRFSRTTAYVWFDALLGYVIHIIGKDILRFAVYWPAMLMSAPRVFGH"/>
+                    <sequence id="seq_met_bact_dra_" taxon="met_bact_dra_" totalcount="20" value="FITAIDYANGTPHIGHVYEKILADAIARYTFVMGTDEHGDDLSEAFQGLWKKLDFFIRTTSYVWFDALLSYLWHVIGKDILKPAVFWPTMLRAAYRLVVH"/>
+                    <sequence id="seq_met_bact_ecc_1pfv" taxon="met_bact_ecc_1pfv" totalcount="20" value="LVTCLPYANGSIHLGHMLEHIQADVWVRYNFICADDAHGGEMSQEHQTDFAGFDNYHSTHSYVWLDAPIGYMYHFIGKDIVYFSLFWPAMLEGSPNLFVH"/>
+                    <sequence id="seq_met_bact_ges" taxon="met_bact_ges" totalcount="20" value="FQTTIDYPNSRPHIGTAFEKLGADVQARYFFLMGNDENTDDMARQFREVWAALDTFVQTSSYVWFDALLTYITHFIGKDITRFCALWPAMLWAAPKVFSH"/>
+                    <sequence id="seq_met_bact_gse_" taxon="met_bact_gse_" totalcount="20" value="YLTTIYYPSDKLHIGHAYTTVAGDAMARYMYLTGTDEHGDDIVAGIQELWRKLDDFIRTTQYVWIDALANYIVHLVGKEIVRFTIYWPIMLMALPKVFGH"/>
+                    <sequence id="seq_met_bact_hau_" taxon="met_bact_hau_" totalcount="20" value="LVAVWPYASGARHLGHVAFGVPSDVFARYLMVSGTDDHGDFYNAEIRNNLRDLDLFTRTSTYVWFDAVIGYLYYFMGKDNIVFSVIWPAMLIGHPEVVSS"/>
+                    <sequence id="seq_met_bact_msg_2x1l" taxon="met_bact_msg_2x1l" totalcount="20" value="YITTIAYPNGVPHIGHAYEYIATDAIARFRYLTGTDVHGRRNSDVFQRLQEKLDRFIRTSDYVWVDALTNYLLHMIGKDIIRFTVYWPAFLMSAPRIFAH"/>
+                    <sequence id="seq_met_bact_phm_" taxon="met_bact_phm_" totalcount="20" value="YVTTIYYVNDRPHLGHVYTTLVADVAARFFFLTGVDEHADRNALAFRETFDKLDDFVRTSSYVWIDALFNYLTHYIAKDILWFAAIWPALLLALPTVFTH"/>
+                    <sequence id="seq_met_bact_rmr_" taxon="met_bact_rmr_" totalcount="20" value="LVTALPYANGPIHIGHLAAYLPADLYCRYLFICGSDELGDRYHPMIRDSFARFDYYGRTTSYVWFDAPIGYIIHFIGKDNIVFCLMFPAMLMAHPNVPAN"/>
+                    <sequence id="seq_met_bact_sar_" taxon="met_bact_sar_" totalcount="20" value="YITTIYYPSGNLHIGHAYSTVAGDVIARYRYLTGTDEHGDEMIAGIKQLWAKLDDFIRTTEYVWIDALVNYIIHLMAKEIVRFSIIWPILLMALPKVFAH"/>
+                    <sequence id="seq_met_bact_syf_" taxon="met_bact_syf_" totalcount="20" value="ALTTLYYVNDVPHIGSAYTTIAADAIARFLMITGSDEHGNAIVARFQDLWQLLDRFSRTTDYVWFDALLGYVLHLIGKDILRFAVYWPAMLLSAPRVFGH"/>
+                    <sequence id="seq_met_bact_tma_" taxon="met_bact_tma_" totalcount="20" value="YITTIYYVNSEPHIGSAYTTIVADIIARYFFLTGTDEHGDELAEKFKRLWKELDYFIRTTDYVWVDALINYILHLIGKEINRFSIIWPAMLMSVPKVFAH"/>
+                    <sequence id="seq_met_bact_ttj_1woy" taxon="met_bact_ttj_1woy" totalcount="20" value="YVTTIYYVNAEPHLGHAYTTVVADFLARWFFLTGTDEHGDRVSGRFKRAWDLLDDFIRTTEFVWFDALLNYVWHLIGKDILKPAVFWPTMLKAAYHLNVG"/>
+                    <sequence id="seq_met_euk_adl_" taxon="met_euk_adl_" totalcount="20" value="LITSLPYCNNVPHLGNLISLLSADVFSRYLYVCGTDEYGDKYNALHRETYDWFDLFGRTSTYVWFDACIGYVYQFMGKDNTYFSVLFPSSQLGDLHLSTT"/>
+                    <sequence id="seq_met_euk_bhom_" taxon="met_euk_bhom_" totalcount="20" value="KVSTIYYVNGEPHLGHIYSTALADAICRWFLTTGTDEHGDSIASVFQSELSHYGRFIRTTDYVWIDALTNYLLHVFGKDIAKFCYFYPCLLLALPRMICH"/>
+                    <sequence id="seq_met_euk_bmor_" taxon="met_euk_bmor_" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADIFARYLYICGTDEYGDKYFEIHNNVYRWFDYFGRTSTYVWFDAPIGYMYQFMAKDNVPFVVMFPATVLGVVHLFAT"/>
+                    <sequence id="seq_met_euk_cpv_" taxon="met_euk_cpv_" totalcount="20" value="YFTTINYTNGTPHMGHAYEIVTSDILVRIRFQTGTDEHGDENVKQFKNMNEKLDRFIRTTDYVWFDALTNYIVHIVGKDITWFSVIWPAMLLSVPTIFAH"/>
+                    <sequence id="seq_met_euk_crg_" taxon="met_euk_crg_" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADVFSRYLYICGTDEYGDKYNKIHAEIYDWFDKFSRTSIYVWFDAPIGYIYNFLGKDNVPFSVIFPCSLLGAVHMSAT"/>
+                    <sequence id="seq_met_euk_csl_" taxon="met_euk_csl_" totalcount="20" value="RLRTGTRVNAEPHMGSAYTTMAADAITRFSFVTGTDEHGDGVVASFKGLWEEMDSFIRTTDYVWFDALLGYMVHLVGKDILRFALYWPGMLLSAPKIFAH"/>
+                    <sequence id="seq_met_euk_ddi_" taxon="met_euk_ddi_" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADVYARYIYICGTDEYGDKYHEIHKEIYEWFDKFGRTSTYVWFDAPIGYIVQFMGKDNVPFTVIFPASLIGSLNLSTT"/>
+                    <sequence id="seq_met_euk_egut_" taxon="met_euk_egut_" totalcount="20" value="LITSLPYVNNIPHLGNIICVLSADVFARYIYICGTDEYGDKYHAIHKEVYKWFDEFGRTSSYVWFDAPIGYVYQFMGKDNVPFTVMFPSTLLGTMTISVT"/>
+                    <sequence id="seq_met_euk_gla_" taxon="met_euk_gla_" totalcount="20" value="YLTTIYYVNGKPHIGHVFTTLLADTLKRFYLMTGTDEHGDNMAKTFETFLENFDVFMRTTMYVWIDALAIYLVQFLGKDIARFCVYWLAFLMGAPRFFIH"/>
+                    <sequence id="seq_met_euk_gtt_" taxon="met_euk_gtt_" totalcount="20" value="-------------MGSAYPTIAADILADYVFVTGSDEHGDAMVGEFKQLWDKLDSFIRTTDYVWFDALLGYIVHIIGKDILRFAVYWPAMLMSAPYIHSH"/>
+                    <sequence id="seq_met_euk_hsa_" taxon="met_euk_hsa_" totalcount="20" value="-ITSLPYVNNVPHLGNIICVLSADVFARYLYLCGTDEYGDKYHIIHADIYRWFDIFGRTTTYVWFDATIGYLYQFMAKDNVPFSLVFPCSALGAVHLIAT"/>
+                    <sequence id="seq_met_euk_lif_" taxon="met_euk_lif_" totalcount="20" value="FATTIYYVNASPHIGHVYSTLIVDVLGRYFVMTGTDEHGTSVSSEFKQCFKEMNYFIRTTNYVWLDALFNYYVHVVGKDILKFAIYWPAFLMSAPRLVSH"/>
+                    <sequence id="seq_met_euk_nce_" taxon="met_euk_nce_" totalcount="20" value="IITSLPYVNNQPHLGNIICVLSADMYARFVFLSGTDEYGEENRIIHKKIYDWFDFFGHTTSYVWFDAVIGYFVQFMGKDNVFFTIVFPSLIFATIKLSVT"/>
+                    <sequence id="seq_met_euk_ngr_" taxon="met_euk_ngr_" totalcount="20" value="----------------------SDSIYLYIFSTGTDEHGEKISETFKTMMKDFTHYLRTSAYVWLDALTNYLVQIIGKDILKFGIYWPAFLMALPTILVH"/>
+                    <sequence id="seq_met_euk_pchr_" taxon="met_euk_pchr_" totalcount="20" value="----------------------------------------QVSEEYHHLWSRWDRFIRTTDYVWFDALIGYLVHVIGKDILRFAVYWPAMLMSAPMVFGH"/>
+                    <sequence id="seq_met_euk_sre_" taxon="met_euk_sre_" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADVFARFLFICGTDEYGDKYHAIHKEVYDWFDYFGRTSTYVWFDATIGYIYQFMAKDNVLFSIIFPSSLIGTVHLSAT"/>
+                    <sequence id="seq_paulinella_astid5A-aa" taxon="paulinella_astid5A-aa" totalcount="20" value="TITTLYYVNDRPHLGSAYTTLASDALARYMFVTGCDEHGNRISEEYRHLWSRWDRFIRTTDYVWFDALIGYLIHIIGKDILRFAVYWPAMLMSAPKVFGH"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="10000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:Met_total" name="stateNode">
+            <taxonset id="TaxonSet.Met_total" spec="TaxonSet">
+                <alignment idref="Met_total"/>
+            </taxonset>
+        </tree>
+        <parameter id="ucldStdev.c:Met_total" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:Met_total" spec="parameter.IntegerParameter" dimension="118">1</stateNode>
+        <parameter id="birthRate2.t:Met_total" lower="0.0" name="stateNode" upper="10000.0">1.0</parameter>
+        <parameter id="relativeDeathRate2.t:Met_total" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+    </state>
+
+    <init id="RandomTree.t:Met_total" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Met_total" taxa="@Met_total">
+        <populationModel id="ConstantPopulation0.t:Met_total" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Met_total" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BirthDeath.t:Met_total" spec="beast.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@birthRate2.t:Met_total" relativeDeathRate="@relativeDeathRate2.t:Met_total" tree="@Tree.t:Met_total"/>
+            <prior id="BirthRatePrior.t:Met_total" name="distribution" x="@birthRate2.t:Met_total">
+                <Uniform id="Uniform.5" name="distr" upper="1000.0"/>
+            </prior>
+            <prior id="DeathRatePrior.t:Met_total" name="distribution" x="@relativeDeathRate2.t:Met_total">
+                <Uniform id="Uniform.6" name="distr"/>
+            </prior>
+            <prior id="ucldStdevPrior.c:Met_total" name="distribution" x="@ucldStdev.c:Met_total">
+                <Gamma id="Gamma.1" name="distr">
+                    <parameter id="RealParameter.5" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.6" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.Met_total" spec="ThreadedTreeLikelihood" data="@Met_total" tree="@Tree.t:Met_total">
+                <siteModel id="SiteModel.s:Met_total" spec="SiteModel" gammaCategoryCount="4">
+                    <parameter id="mutationRate.s:Met_total" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:Met_total" estimate="false" name="shape">1.0</parameter>
+                    <parameter id="proportionInvariant.s:Met_total" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:Met_total" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:Met_total" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:Met_total" tree="@Tree.t:Met_total">
+                    <LogNormal id="LogNormalDistributionModel.c:Met_total" S="@ucldStdev.c:Met_total" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.4" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:Met_total" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="ucldStdevScaler.c:Met_total" spec="ScaleOperator" parameter="@ucldStdev.c:Met_total" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:Met_total" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Met_total" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:Met_total" spec="SwapOperator" intparameter="@rateCategories.c:Met_total" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:Met_total" spec="UniformOperator" parameter="@rateCategories.c:Met_total" weight="10.0"/>
+
+    <operator id="BirthDeathTreeScaler.t:Met_total" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:Met_total" weight="3.0"/>
+
+    <operator id="BirthDeathTreeRootScaler.t:Met_total" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Met_total" weight="3.0"/>
+
+    <operator id="BirthDeathUniformOperator.t:Met_total" spec="Uniform" tree="@Tree.t:Met_total" weight="30.0"/>
+
+    <operator id="BirthDeathSubtreeSlide.t:Met_total" spec="SubtreeSlide" tree="@Tree.t:Met_total" weight="15.0"/>
+
+    <operator id="BirthDeathNarrow.t:Met_total" spec="Exchange" tree="@Tree.t:Met_total" weight="15.0"/>
+
+    <operator id="BirthDeathWide.t:Met_total" spec="Exchange" isNarrow="false" tree="@Tree.t:Met_total" weight="3.0"/>
+
+    <operator id="BirthDeathWilsonBalding.t:Met_total" spec="WilsonBalding" tree="@Tree.t:Met_total" weight="3.0"/>
+
+    <operator id="BirthRateScaler.t:Met_total" spec="ScaleOperator" parameter="@birthRate2.t:Met_total" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="DeathRateScaler.t:Met_total" spec="ScaleOperator" parameter="@relativeDeathRate2.t:Met_total" scaleFactor="0.75" weight="3.0"/>
+
+    <logger id="tracelog" fileName="Met_total.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.Met_total"/>
+        <log id="TreeHeight.t:Met_total" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Met_total"/>
+        <log idref="ucldStdev.c:Met_total"/>
+        <log id="rate.c:Met_total" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Met_total" tree="@Tree.t:Met_total"/>
+        <log idref="BirthDeath.t:Met_total"/>
+        <log idref="birthRate2.t:Met_total"/>
+        <log idref="relativeDeathRate2.t:Met_total"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:Met_total" fileName="Met_total.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Met_total" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:Met_total" tree="@Tree.t:Met_total"/>
+    </logger>
+
+</run>
+
+</beast>
