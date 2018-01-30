@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" version="2.0">
+
+
+<data id="AARS_Arch_edited" name="alignment">
+	<userDataType spec='beast.evolution.datatype.NineTeenState' symbolOrder='VGADPESLRTINCYHMWKF'/>
+                    <sequence id="seq_arg_2zue_p__hori18A-aa1" taxon="arg_2zue_p__hori18A-aa" totalcount="20" value="IVEHSVNPTKPLHMGHARNAILGDVMARIEVQNYIDDLGEEVVRAQMVTTYKLDLLVWESDTYTGKDIAYHLINVIGAEQKHPQLAIKYALQLLLYHLAY"/>
+                    <sequence id="seq_arg_arch_m_aneyi2A-aa1" taxon="arg_arch_m_aneyi2A-aa" totalcount="20" value="VVEHSANPVHPLHIGHARNASLGDSLARLQTRFYINDMGQLCLQGFRETLSRLEKWDWESELYTTRDIAYSIFNVIAAEQRLEQLQVRLALIALMIHYAY"/>
+                    <sequence id="seq_arg_arch_m_arius5A-aa1" taxon="arg_arch_m_arius5A-aa" totalcount="20" value="VVEHSANPIHPLHIGHLRNSILGDTISRMNRRFYVNDAGNLNLDGFRESLDKLDVYDYESELYTTRDIAYTVINVIAEQQSIPQMQLRASLYLLLVHYSY"/>
+                    <sequence id="seq_arg_arch_m_dleri14A-aa1" taxon="arg_arch_m_dleri14A-aa" totalcount="20" value="ILEHSANPNGPLHIGHGRNAVIGDILARCEVQYYVNDMGTVVERGHIQTLERLDRFVYESELYTTRDIAYHLVDVLGADHKLAVEQLRAVLDMLIDVYEF"/>
+                    <sequence id="seq_arg_arch_m_gatei12A-aa1" taxon="arg_arch_m_gatei12A-aa" totalcount="20" value="VLEHSANPNGPLHVGHIRNTIIGDTLARCEVQYYVNDMGIPVLDGFKDTLAAMDRFIYESDVYAARDIAFHIIDVLGADHKLIGTQLQATLEILIVFFEF"/>
+                    <sequence id="seq_arg_arch_m_gidus1A-aa1" taxon="arg_arch_m_gidus1A-aa" totalcount="20" value="LIEHSANPDGPLHIGHIRNSIIGDTIARIKTHYYVNDMGETALEGIKQTLKTIDEFVWESELYITRDLAYHMINVLGADHKLYGAQLSKILELLIIFFEF"/>
+                    <sequence id="seq_arg_arch_m_hicus8A-aa1" taxon="arg_arch_m_hicus8A-aa" totalcount="20" value="ILEHSANPNGPLHIGHIRNAIIGDSLARIETQYYVNDMGEYCLSGMEETMKRLDRFVWEGQLYSTRDIAYHLIDVLGSDHKLAAEQVGIAVELLVIFYEF"/>
+                    <sequence id="seq_arg_arch_m_hilum16A-aa1" taxon="arg_arch_m_hilum16A-aa" totalcount="20" value="LVEHSANPVHPLHIGHGRNAILGDSLARLETHFYVDDCGDLVLKGQRETLARLDKWDYESELYVTRDVAYALIRVISTEQTHEQAHVRIILYALIVHYAY"/>
+                    <sequence id="seq_arg_arch_m_hilum7A-aa1" taxon="arg_arch_m_hilum7A-aa" totalcount="20" value="SVEHSANPTGPLHIGRARNSIIGDSIYRIVRQYFVNDSGKIAGDGIASTLKRIDEFDWESDLYFARDIAYHLIDVLGEDHKDHAKSLNHVLKEMVSELQY"/>
+                    <sequence id="seq_arg_arch_m_incut4A-aa1" taxon="arg_arch_m_incut4A-aa" totalcount="20" value="IVEYSANPTGPLTVGHGRNAVLGDTIANLTREYYYNDAGKVIFEDIRRTLARLDSYFNEHTTYRLPDIAYHIVDVFGADHIATYPDVLRALEVLVDVVIY"/>
+                    <sequence id="seq_arg_arch_m_itans15A-aa1" taxon="arg_arch_m_itans15A-aa" totalcount="20" value="VLDYSPNIGKPPHVGNLRSAIIGNPLKNIISINWWGDFGEITIKYMRQFYPKLDEESGESFLYLTRDLAAAIIYVVANEQSQHFNQLIYIAKKANYVKKF"/>
+                    <sequence id="seq_arg_arch_m_licus11A-aa1" taxon="arg_arch_m_licus11A-aa" totalcount="20" value="IIEHSANPNGPLHIGHSRNAIVGDSLKRIEAQYYVNDMGNYALSGFKETLNNLDKFVWESSLYSTRDIAYHIINILGADHKLTAEMVNASLKLLVVFYEY"/>
+                    <sequence id="seq_arg_arch_m_opcut6A-aa1" taxon="arg_arch_m_opcut6A-aa" totalcount="20" value="VVEHSANPVHPLHVGSGRNAVIGNTYANLEERFYVNDMGEQTLKGFRETLSRLDSYDWESSLYTTRDIAYSIYNVIAVEQTREQKQVKATLYLLLVTILY"/>
+                    <sequence id="seq_arg_arch_m_orans10A-aa1" taxon="arg_arch_m_orans10A-aa" totalcount="20" value="LLEHSANPNGPLHVGHIRNSIIGDTLARIEVQYYVNDMGSLAIAGIKETLLRLDKFVNESRLYTTRDLAYHEIDVFGADHKLISGQLRATLNAIVVIFEF"/>
+                    <sequence id="seq_arg_arch_m_schii13A-aa1" taxon="arg_arch_m_schii13A-aa" totalcount="20" value="ILEHSANPNGPLHIGHLRNAIIGDCLKRIETHYYVNDMGNYALDGIKETLKNLDTFVWESSLYSTRDIAYHLIDVLGADHKLTAEMVKAALKLLVIFYEY"/>
+                    <sequence id="seq_arg_arch_m_ultum3A-aa1" taxon="arg_arch_m_ultum3A-aa" totalcount="20" value="VVEHSANPVHPLHIGHARNASLGDTLARLQTRFYINDMGNLCLQGFRETLGRLDKWDWESELYTTRDIAYSIFNVIAAEQRLEQLQVRLALIALMIHYAY"/>
+                    <sequence id="seq_arg_arch_m_um_sp9A-aa1" taxon="arg_arch_m_um_sp9A-aa" totalcount="20" value="VVEHSANPTGPVHVGRARNPILGDAVSRVTREYYVNDAGEGVLGGMRQTLERLDEFVRETELYTTRDLAHHEITVLGEDQELHANKLRAALDIRLEFLQY"/>
+                    <sequence id="seq_cys_arch_m_incut10A-aa1" taxon="cys_arch_m_incut10A-aa" totalcount="20" value="RGYVGITPYDHVHVGHGRVYVFFDMFRRYRLVINFTDIDERYIAEFFEMSNKLHAYPRVTEGWHLECVVMSTFHGGGADLIFPHENEIAIAKAYAYWIHV"/>
+                    <sequence id="seq_cys_arch_m_incut11A-aa1" taxon="cys_arch_m_incut11A-aa" totalcount="20" value="RMYVGPTVYDYTHIGHARTYVAFDAIKRYIHVQNITDIDDEYSRDYFDMLKKLHIHPRVTEGWHIECSVMSSIHGGGQDLIFPHENEKAQSEAYVYWLHT"/>
+                    <sequence id="seq_cys_arch_m_incut12A-aa1" taxon="cys_arch_m_incut12A-aa" totalcount="20" value="RMYVGPTVYDYPHLGHARTYIAFDVIRRYLMVMNFTDIDEKFIKVFLEDMKALDIYPRVTEGWHIECSVMSSIHGGGNDLIFPHENEIAQSEACVYWLHT"/>
+                    <sequence id="seq_cys_arch_m_incut13A-aa1" taxon="cys_arch_m_incut13A-aa" totalcount="20" value="RMYVGPTVYDYTHLGHARTYVAFDAIKRYIHVQNITDIDDTYSRDYFEMLQKLHIHPRVTDGWHIECSVMSSIHGGGQDLVFPHENERAQSEAFVYWLHT"/>
+                    <sequence id="seq_cys_arch_m_incut14A-aa1" taxon="cys_arch_m_incut14A-aa" totalcount="20" value="RLYAGPTVYTYAHIGNFRSFLTADLIVRVVYVCIW-DLARYYTQAFLEDWQALDVRPRATEGWHIECSVMSMLHLGGEDLIFPHECEIAQAESLAYWVHT"/>
+                    <sequence id="seq_cys_arch_m_incut15A-aa1" taxon="cys_arch_m_incut15A-aa" totalcount="20" value="KMYVGPTVYDYVHIGHGRAFVGFDGIVRYIRVQNITDIDDYYTKDYMESLKALDQHPRVTSGWHIECSTMSTIHGGGVDLVFPHENERAQSEALVYWVHV"/>
+                    <sequence id="seq_cys_arch_m_incut16A-aa1" taxon="cys_arch_m_incut16A-aa" totalcount="20" value="KMYVGPTVYDYNHIGHGRVYVVYDALKRYLHVMNITDIDETYTRDYLESLGKLDLHPRVTEGWHIECSVMSSIHGGGTDLIFPHENERAQSEAAVYWVHT"/>
+                    <sequence id="seq_cys_arch_m_incut17A-aa1" taxon="cys_arch_m_incut17A-aa" totalcount="20" value="NMFVGPTVQDHFHIGHARTYIFFDAVAKLFYLQNITDIDDMYLREFLEDMSALNYFAKSTLGWHIEDTAITEIHGGGSDLIFPHEAEIAQMRAISYWIHT"/>
+                    <sequence id="seq_cys_arch_m_incut2A-aa1" taxon="cys_arch_m_incut2A-aa" totalcount="20" value="KMYVGITAYDYSHIGHARSAVFFDVFRRYVYVQNFTDVDEKFIEEYLKDMEALTYQPKVTEGWHIECSVMSAIHGGGKDLIFPHENERAQSFARVIWVHN"/>
+                    <sequence id="seq_cys_arch_m_incut3A-aa1" taxon="cys_arch_m_incut3A-aa" totalcount="20" value="LVYTGLTVSDDAHLGHARLWVQSDVVVRWRHVQNFTDVNRHYIESVIEDMRALEVYPRVSEGWHIECSAMSMVHVGGQDLVFPHENEIAQSEAAAYWLHV"/>
+                    <sequence id="seq_cys_arch_m_incut6A-aa1" taxon="cys_arch_m_incut6A-aa" totalcount="20" value="SLFVGPTVYNYPHLGHARTYVVFDVLAKYLYIQNITDVDRKFEREYIKDMLSLSYHARATTGWHIEDTAITEIHGGGLDLIFPHEAEIAQMESLVYWMHT"/>
+                    <sequence id="seq_cys_arch_m_incut9A-aa1" taxon="cys_arch_m_incut9A-aa" totalcount="20" value="KMYTGVTPYDKAHVGHLRTYLVTDLLRRIIAVTNFTDIDEENIKYVFDVLKELYVYPRVTYGWHIECSVMSSIHLGGSDLIFPHENEIAQSETLVYWVHI"/>
+                    <sequence id="seq_glu_arch_m_incut10A-aa1" taxon="glu_arch_m_incut10A-aa" totalcount="20" value="VMRFAPNPSGPLHLGHARAAFLNDEYIRRKYILRIEDTDPDAYDMVREDIAWMAT-IFQSDLMNLSVAVDDHHVIRGKDHIANTKRQEFIFRYMPVYRHY"/>
+                    <sequence id="seq_glu_arch_m_incut11A-aa1" taxon="glu_arch_m_incut11A-aa" totalcount="20" value="VMRFAPNPSGPLHIGHARAAVLNDYFVKKKLILRLEDTDPEAYDMIKEDLDWLDV-VIQSDLMNFSVPVDDHHVLRGKDHIVNTEKQAYIYKYFPEFIHY"/>
+                    <sequence id="seq_glu_arch_m_incut12A-aa1" taxon="glu_arch_m_incut12A-aa" totalcount="20" value="RLRFAPNPSGPLHIGHARAAVLNDEYARRTLVLRIEDTDPEAYDMIEEDLEWLDR-YVQSNTMNFAVAVDDHHVLRGKDHESNTRRQKYVFEHLPEYVHY"/>
+                    <sequence id="seq_glu_arch_m_incut13A-aa1" taxon="glu_arch_m_incut13A-aa" totalcount="20" value="-LRFAPNPSGPLHIGHARAAILNHEYARKRLILRIEDTDPEAYDMIPADLEWLDT-VIQSDMMNFSVAVDDHHVLRGKDHLANREKQEYLYRHLPEFIHY"/>
+                    <sequence id="seq_glu_arch_m_incut14A-aa1" taxon="glu_arch_m_incut14A-aa" totalcount="20" value="VVRFAPNPDFVLHLGSARPAILNYAYRIKKFILRFEDTDPNAYESIREDLRWLDE-YIQSQTYNFAVSIDDHHVLRAQEHSVNTIKQSYVFRHFPVTIHF"/>
+                    <sequence id="seq_glu_arch_m_incut15A-aa1" taxon="glu_arch_m_incut15A-aa" totalcount="20" value="VTRFAPNPDFVIHLGNARPAILSYEYKVIKMILRFEDTDPEAYELIKQDLEWLDE-YIQSLTYNFAAGVDDWHILRAKEHMQNTIKQKYVYEYMPHVVHF"/>
+                    <sequence id="seq_glu_arch_m_incut1A-aa1" taxon="glu_arch_m_incut1A-aa" totalcount="20" value="VMRFAPNPNGPPTLGSARGIIVNGEYARMKYIIRFDDTDPEAYDWYLEDIEWLDV-IYASKTLDFESAIEDHHIIRGKDLIDSERRQRYIYEYFPITKHW"/>
+                    <sequence id="seq_glu_arch_m_incut2A-aa1" taxon="glu_arch_m_incut2A-aa" totalcount="20" value="VTRFAPNPDFIIHLGNARPAILSYEYKVMRMILRFEDTDPEAYELIKQDLKWLDE-YIQSLTYNLAAAVDDHHILRAKEHMQNTIKQKYIYGYMPNVIHF"/>
+                    <sequence id="seq_glu_arch_m_incut4A-aa1" taxon="glu_arch_m_incut4A-aa" totalcount="20" value="VTRFAPNPDGPLHLGNARAAIISHEYARIKFILRFDDTDPEAYDWIKEDLKWLDE-VRASATYNFASAIDDYHIFRGKEHAVNAGKQKWIYNYMPYVREF"/>
+                    <sequence id="seq_glu_arch_m_incut5A-aa1" taxon="glu_arch_m_incut5A-aa" totalcount="20" value="VTRFAPNPDYTIHLGNARPALLSYWYAEMKMILRFEDTDPEAYDRIRNDLKWLNE-YIQSLTYNLAAAIDDHHILRAKEHVSNTIKQKFLYDHMPETIHF"/>
+                    <sequence id="seq_glu_arch_m_incut6A-aa1" taxon="glu_arch_m_incut6A-aa" totalcount="20" value="VMRMAPSPSGPLHIGHTRMAILNDEYVKRELILRIEDTNPDAYHMIPEDLEWLTI-VIQSDMMSFSVAVDDHHVLRGKDQLTNTDKQRYIFDYNPYYYHY"/>
+                    <sequence id="seq_glu_arch_m_incut7A-aa1" taxon="glu_arch_m_incut7A-aa" totalcount="20" value="VMRLAPSPSGPLHIGHTRMAILNDEYVKRDLILRIEDTNPEAYAMIPEDLEWLTT-VIQSEMMSFSVAVDDHHVLRGKDQLTNTEKQRYVFEYNPYYYHY"/>
+                    <sequence id="seq_glu_arch_m_incut9A-aa1" taxon="glu_arch_m_incut9A-aa" totalcount="20" value="-MRCAPNPNGPWHIGHSRMPAVIGTYAEEEFIVRFDDTDPWAYDEILDEIGYLAV-YRASDMLDFQSGVDDHHIIRGIDLQDSAKRQQFVYDYFPEVIHW"/>
+                    <sequence id="seq_glu_arch_m_rinus3A-aa1" taxon="glu_arch_m_rinus3A-aa" totalcount="20" value="RVRFAPSPTGFLHIGGLRTALYNFLFARKQFILRIEDTDPGAEEDIIESLRWADGPYRQSETYHMANVVDDHHVIRGEEWLSSTPKHVLLYRYLPQMAHL"/>
+                    <sequence id="seq_ile_arch_m_aneyi3A-aa1" taxon="ile_arch_m_aneyi3A-aa" totalcount="20" value="AFLEPPTANGFMHVGHARGRTLKDVKLRYWDQAGWDTQGDYYLGHWERASKRLDHAYQTRDDVWMDSGVAHTWITEAADQTRGFYTLLVTGVVWYSVLLQ"/>
+                    <sequence id="seq_ile_arch_m_anium10A-aa1" taxon="ile_arch_m_anium10A-aa" totalcount="20" value="VFLEPPTANGRPHIGHAMTRTIKDIVLRYYRRYGWDCHGFRYIDEWKTVDQIIDGDYITLRDTWFDSGSATYFITEAIDQTRGFYVLHVISTIMYSALSI"/>
+                    <sequence id="seq_ile_arch_m_arius7A-aa1" taxon="ile_arch_m_arius7A-aa" totalcount="20" value="LFIDPPYPSSIPHIGTVWNKTIKDCILRYKDQPGYDTHGINNSKSLTQNFRNLDNPYFTFNDVWFDSGVAFFLVLEGHDQLRGFFSLLRTGVILYAVLVH"/>
+                    <sequence id="seq_ile_arch_m_dleri15A-aa1" taxon="ile_arch_m_dleri15A-aa" totalcount="20" value="YFLDPPYASGSIHLGTAWNKIIKDAVNRYRLQPGWDCHGLKHVEIMTEQFKRLDNPYMTLDDVWVDSGVAAWFITEGHDQTRGFYSQLGCGVVTYTVLMH"/>
+                    <sequence id="seq_ile_arch_m_gatei13A-aa1" taxon="ile_arch_m_gatei13A-aa" totalcount="20" value="FFVDPPYTTGHIHLGTAWNKILKDSILRYIDRAGYDMHGLSHKDIMSEQFKSLNDPYQTIMDVWFDSAMASWFITEGQDQTRGFYSQLGASTIAYSVLMH"/>
+                    <sequence id="seq_ile_arch_m_gidus2A-aa1" taxon="ile_arch_m_gidus2A-aa" totalcount="20" value="YFVDPPYTTGRIHLGTAWNKVLKDTILRYTDTPGWDMHGLANKDAMTEQFKSLDNPYMTIKDVWFDSGVASWFITEGHDQTRGFYSQLGTSVVCYAVLMH"/>
+                    <sequence id="seq_ile_arch_m_hicus16A-aa1" taxon="ile_arch_m_hicus16A-aa" totalcount="20" value="SFLDPPYCSGRIHLGTAWNKIMKDTYLRFRRQPGWDTHGVENKAVMTGQFQRLDDPYVTFDDVWIDSGVAGWFITEGHDQTRGFYSQLGCGVIAYRVLMH"/>
+                    <sequence id="seq_ile_arch_m_hilum18A-aa1" taxon="ile_arch_m_hilum18A-aa" totalcount="20" value="TFLEPPTTNGMPHVGHIRGRTYKDVVIRFWVQGGWDMQGEEYLAYWREGTKRLDNAYETRQDVWLDSGIAWIFVTEGIDQTRGFYSLLATSVLYYNVLIQ"/>
+                    <sequence id="seq_ile_arch_m_hilum9A-aa1" taxon="ile_arch_m_hilum9A-aa" totalcount="20" value="VFLEPPTANGRPHIGHAMTRTIKDIVLRYYRRVGWDCHGFRYIDEWKQVDDLIDGDYITLRDTWFDSGSATYFITEAIDQTRGFYVLHVIATIMYSALSI"/>
+                    <sequence id="seq_ile_arch_m_incut17A-aa1" taxon="ile_arch_m_incut17A-aa" totalcount="20" value="SYLDPPFANDDIHVGHAWGRALRDSEIRYYVRPGFDTHGYKNINKQISSFKRLDNPYFTYDDVWLDSGGAFYFILEGWDQIRGFYSLLGEGVLYYNVYVS"/>
+                    <sequence id="seq_ile_arch_m_opcut4A-aa1" taxon="ile_arch_m_opcut4A-aa" totalcount="20" value="YFLDPPYVSGAIHLGTAWNKIIKDMIIRFWRQPGFDMHGLNNLKIMTEQFKMLDDPYMTIKDVWFDSGIASWFIVEGEDQVTKFYSQQAASVIAYRVAMH"/>
+                    <sequence id="seq_ile_arch_m_orans12A-aa1" taxon="ile_arch_m_orans12A-aa" totalcount="20" value="FFVDPPYTTGHIHLGTAWNKIIKDTILRYLERPGWDMHGITQKQAMTEQFQRLQEPYMTLKDVWFDSAVASWFVTEGHDQTRGFYSQLGASMVGYSVLMH"/>
+                    <sequence id="seq_ile_arch_m_rinus6A-aa1" taxon="ile_arch_m_rinus6A-aa" totalcount="20" value="SFYEPPTANGKPGIHHVLARTIKDIFCRYERKAGWDTHGLRYKELWDQLTERIDHPYITFEDVWFDSGAMPFFIAEGVDQTRGFYTLHAIATMVFHVVVN"/>
+                    <sequence id="seq_ile_arch_m_rinus8A-aa1" taxon="ile_arch_m_rinus8A-aa" totalcount="20" value="NFIDPPYPSGVPHIGTAWNKTLKDIVLRYFDRPGYDCHGFNNIKSLTKWFKELDNPYLTLRDVWFDSAISFYFIVEGHDQIRGFFSLLRAGVLGYTVLVH"/>
+                    <sequence id="seq_ile_arch_m_schii14A-aa1" taxon="ile_arch_m_schii14A-aa" totalcount="20" value="YFVDPPYCSGAIHLGTAWNKIIKDTYLRFLDKAGWDMHGLKHKEIMEKQFKNLDNAYMPITDVWFDSGLAPYFITEGHDQVTKFYSQHALSAIVYKCLMH"/>
+                    <sequence id="seq_ile_arch_m_ultum5A-aa1" taxon="ile_arch_m_ultum5A-aa" totalcount="20" value="AFLEPPTANGFMHVGHARGRTLKDVKLRYWDQAGWDTQGDYYIEHWERASKRLDHAYQTRHDVWMDSGVAHTWITEAADQTRGFYTLLVTGVVWYSVLLQ"/>
+                    <sequence id="seq_ile_arch_m_um_sp11A-aa1" taxon="ile_arch_m_um_sp11A-aa" totalcount="20" value="FFVDPPYTSGAAHMGHAWNKSLKDAYIRYTDRPGYDMHGEESLAQLQSDFQSFDNPYRTIDDVWLDSSVASWLIIEAHDQTRGFWSQLGMGTAAYNVVMH"/>
+                    <sequence id="seq_leu_1wz2_p__hori1A-aa1" taxon="leu_1wz2_p__hori1A-aa" totalcount="20" value="YITVFPYLSGHLHVGHARTYTIPDVIARFLFPMAWHITGKYFMKAAKETFIRADREFYTTSESLSDSTIYMAWRCSGKDLIPNLTFFIFNHVAIPGIAVN"/>
+                    <sequence id="seq_leu_arch_m_aneyi13A-aa1" taxon="leu_arch_m_aneyi13A-aa" totalcount="20" value="FITAFPYPNSPLHLGHSRTYTITDVYARYLFPMGFHYTGRYFHNDAKMAMIESDREFTTIDESLSDSTIYMASRHSGRDLVPNLTFFIFNHAAIPQIVVN"/>
+                    <sequence id="seq_leu_arch_m_anium18A-aa1" taxon="leu_arch_m_anium18A-aa" totalcount="20" value="MITVWPYTNGSLHVGHGRTYTLGDIIARYLFPMGFHQSGDYFSNAIINDFKHLDRKFTSADESLSDSTIYPAIRLTAVPHISNLSFYVMNHAAIPGLIIS"/>
+                    <sequence id="seq_leu_arch_m_ankai6A-aa1" taxon="leu_arch_m_ankai6A-aa" totalcount="20" value="FITAFPYLNGVLHAGHLRTFTIPEITARYLWTFGFHVSGNYFSKKATESFKKMDRNFKTDDESLSDSTLYMAWRCSAKDLVPNLTFMIFNHVALPGIVVN"/>
+                    <sequence id="seq_leu_arch_m_arius15A-aa1" taxon="leu_arch_m_arius15A-aa" totalcount="20" value="FITVFPYTNSPLHIGHGRTYITADIYARYLFPFAFQFTGAYFKEDMRNTALTLDREFTTIDDSLSDSTIYTVSRHSGRDLVQNIPYYLYHHVGVPRIVLN"/>
+                    <sequence id="seq_leu_arch_m_dleri9A-aa1" taxon="leu_arch_m_dleri9A-aa" totalcount="20" value="YITVYPYPSGSMHVGHARTYLVPDIYARFLFPMAFHVTGEYFAREYEENMKRMDRKFTTVDEPLSDSTVYMAWRLSAKDLVTNLTFFIFHHAALPGIVVF"/>
+                    <sequence id="seq_leu_arch_m_gatei7A-aa1" taxon="leu_arch_m_gatei7A-aa" totalcount="20" value="YLTVYPYPSGAMHVGHGRTYIVPDVVARFLYPMAFHVTGNHFSNEYERVMTQADRRFTTVEEPLSDSTIYMAFRFSAKDLISNLTFQLFHHCTIPGMVVF"/>
+                    <sequence id="seq_leu_arch_m_gidus3A-aa1" taxon="leu_arch_m_gidus3A-aa" totalcount="20" value="FLTIYPYLNGNLHAGHTRTFTIGDAFARYLFPLGFHVTGEYFSREALQALKSIDRVFTTTDESLSDSTIYMALRSSGKDLVANLLFYLFHHVAIPAIAVN"/>
+                    <sequence id="seq_leu_arch_m_hicus10A-aa1" taxon="leu_arch_m_hicus10A-aa" totalcount="20" value="FLTVYPYPSGAMHIGHGRTYTVPDVYARFLFPMAWHVTGEYFSREYRSVMEDMDREFKTTDEPLTDSTIYMAWRLSAKDLIGNLTFHIFHHSAIPGAVVF"/>
+                    <sequence id="seq_leu_arch_m_hilum12A-aa1" taxon="leu_arch_m_hilum12A-aa" totalcount="20" value="FVTAYPYPNGAIHIGHGRTYLIADVLARFLFPMGFHYTGRYFHEQSKRAMQKFDREFTTIDESLSDSTIYMASRNSGKDLIPNLTFFIFNHVAIPQIVAN"/>
+                    <sequence id="seq_leu_arch_m_hilum17A-aa1" taxon="leu_arch_m_hilum17A-aa" totalcount="20" value="MITVWPYTNGSLHVGHGRTYTLGDIIARYLFPMGFHQSGDYFSNAIINDFKHLDRRFTSADESLSDSTIYPAIRLTAIPHISNLSFYVLNHAAIPGLIIS"/>
+                    <sequence id="seq_leu_arch_m_itans11A-aa1" taxon="leu_arch_m_itans11A-aa" totalcount="20" value="FVTAFPYVNGYLHLGHLVTYIKAEITARYLFPMGFHATGEYFSKAAKEDLSKLERSF-TTVESLSDSTIYTAIRFSAQDLIANLVFYIFHHVAIPGIAVS"/>
+                    <sequence id="seq_leu_arch_m_orans5A-aa1" taxon="leu_arch_m_orans5A-aa" totalcount="20" value="FITIYPYLNGNLHAGHTRTFTIGDVVARHLYPMGFHVTGDYFKREAEKAMRMIDRKFTTTDESLGDSTIYMSLRSSGKDLVPNLLFFLFHHVALPALAVN"/>
+                    <sequence id="seq_leu_arch_m_rinus16A-aa1" taxon="leu_arch_m_rinus16A-aa" totalcount="20" value="FITVYPYTNAPLHIGHGRTYTIGDIIARYLFPMAFHITGVFFAERVHMDFDALDRRFHTGEESLSDSTIYMAQRHTGIAHISNLSFFIYHHIAIPMITLN"/>
+                    <sequence id="seq_leu_arch_m_schii8A-aa1" taxon="leu_arch_m_schii8A-aa" totalcount="20" value="FITAFPYLNGVLHAGHLRTFTIPEVVARFLWTFGYHVTGEYFSKKAEEAFKRMDRNFKTDDESLSDSTIYPAWRCSAKDLIPNLTFYIFNHVAIPGIVVN"/>
+                    <sequence id="seq_leu_arch_m_ultum14A-aa1" taxon="leu_arch_m_ultum14A-aa" totalcount="20" value="FITAFPYPNSPLHLGHSRTYTITDAYARFLFPMGFHFTGRYFSRDAKQAMIESDREFTTIDESLSDSTIYMASRHSGRDLVPNLTFFIFNHAAIPQIVVN"/>
+                    <sequence id="seq_leu_arch_m_um_sp4A-aa1" taxon="leu_arch_m_um_sp4A-aa" totalcount="20" value="FVTVYPYPSGGMHIGHARTYTVPDVYARYLFPIAWHVTGRYFIENYKENMQSLDREFTTNDEPLSDSTVYMSYRISGNDLISNLTFYLFHHTDLPGIAVA"/>
+                    <sequence id="seq_leu_euk_md_labra20A-aa" taxon="leu_euk_md_labra20A-aa" totalcount="20" value="MGTVFAYMNGSLHAGHGFSISKIEFNAGFLFPVGFHCTGSYYPHITKDDNIAFDRQFITTDESLSDSTIYMSIRSSGKDLIPNLTFCLYNHAAIPSMRAN"/>
+                    <sequence id="seq_lys_arch_m_aneyi11A-aa1" taxon="lys_arch_m_aneyi11A-aa" totalcount="20" value="VVNGGLSVSGLQHVGRLREVVIPEVVRRIRQYLTLYTQDIDRFWADFGPYIKDFEVVTTTDNWRIEWVGVWWFEPYGKDHAGSRDSANELAVKVPEGLPY"/>
+                    <sequence id="seq_lys_arch_m_anium18A-aa1" taxon="lys_arch_m_anium18A-aa" totalcount="20" value="RISTGISPSGPIHVGNMREILTGDILYKADFIYLCDDMDSDHFLNPFIEVMRKTRVIKTSDPWRIEWPAKWYIEPFGKDHGGSYDTGKRIAREIPLPLVY"/>
+                    <sequence id="seq_lys_arch_m_gidus2A-aa1" taxon="lys_arch_m_gidus2A-aa" totalcount="20" value="RIATGISPSGHIHLGNLREMVTADAIRRAKIVYIADDFDSEHFLQPFLESLEILEVRRAYQTWRVDWAARWQCEPFGKDHAGSYDTGVRIAREIPYPVPY"/>
+                    <sequence id="seq_lys_arch_m_hicus8A-aa1" taxon="lys_arch_m_hicus8A-aa" totalcount="20" value="VVASGTSISGSIHIGNSCDVFIASSIAKSRTVWIADDHDVEHFQRPFLEALERFEHYSGARTWRVEWAARWKCEPFGKDHAGSYDVSSIISEEIPYPVPY"/>
+                    <sequence id="seq_lys_arch_m_hilum17A-aa1" taxon="lys_arch_m_hilum17A-aa" totalcount="20" value="RVSTGISPSGPIHVGNMREILTGDILFKADFIYLCDDMDSDYYLEPFVRVMKEARVIKTSDPWRVEWPAKWFVEPFGKDHGGSYDTGRRIAREVPVPLMY"/>
+                    <sequence id="seq_lys_arch_m_incut9A-aa1" taxon="lys_arch_m_incut9A-aa" totalcount="20" value="TVRCANTPTGVLHIGNANDVIRAYFIAKVRLVFTSDDRDSEHFISIYFKEFELLEYYSPSIDWYVEWAMDWAVEPMGKDHY-SWKISPKIAKEVPIPVVY"/>
+                    <sequence id="seq_lys_arch_m_licus5A-aa1" taxon="lys_arch_m_licus5A-aa" totalcount="20" value="LISSGITPSGHIHVGNARETLTADGIYKGELIFIADNYDADHFLNPFINSLDDLTVYKADEPWRVDWPARWKAEPMGKDHGGSYDTGIKISQMVPEKIIY"/>
+                    <sequence id="seq_lys_arch_m_opcut3A-aa1" taxon="lys_arch_m_opcut3A-aa" totalcount="20" value="VIKGGISPSGVPHLGNMNEIVRGYFVAEARQVFTSDDRDGDHFSNLIEESAALLEMVSNTAPWRFEWPAQWRFEPFGKDHA-SWPSGVDIARNVPVPMVY"/>
+                    <sequence id="seq_lys_arch_m_opcut7A-aa1" taxon="lys_arch_m_opcut7A-aa" totalcount="20" value="VVASGASTSGRLHVGNARDVLTADAVARVRVVWISDDVDSDRWARNFVEELREFEWISSAEGWKIEWPTRWVCEPFGKDHYGSYEVGSAIAEEFPVPVPY"/>
+                    <sequence id="seq_lys_arch_m_orans4A-aa1" taxon="lys_arch_m_orans4A-aa" totalcount="20" value="LVATGITPSGHIHIGNMREVVTADAAYRARLIYIADNYDAEHFLKPFIEALRRLEVLRADETWRVDWPARWAVEPFGKDHAGSYDTGKRIVREIPFPIVY"/>
+                    <sequence id="seq_lys_arch_m_oshii12A-aa1" taxon="lys_arch_m_oshii12A-aa" totalcount="20" value="VVESGITPSGYVHVGNFRELFTAYIVGHARHIHMWDDYDAEHFMRKFEEEVEKLDFLYASERWRVDWPMRWSFEPAGKDHLGSYDTGKEIIKEVPLSLMY"/>
+                    <sequence id="seq_lys_arch_m_rinus16A-aa1" taxon="lys_arch_m_rinus16A-aa" totalcount="20" value="IFNGGLSVSGLQHVGRLREIIIPEVLRRIKQYITLYTQDVEHYWEDFGPYLEEFEVVTTTDNWRIEWVGVWWFEPYGKDHAGSRDSCVDLAVNVPEGIPY"/>
+                    <sequence id="seq_lys_arch_m_ultum13A-aa1" taxon="lys_arch_m_ultum13A-aa" totalcount="20" value="VFNGGLSVSGLQHVGRLREVVIPEVVRRIKQYLTLYTQDVDRFWADFGPYLGEFEVVKTTDNWRIEWVGVWWFEPYGKDHAGSRDSANELALKVPEGLPY"/>
+                    <sequence id="seq_lysi_1irx___hori1A-aa1" taxon="lysi_1irx___hori1A-aa" totalcount="20" value="VVESGITPSGYVHVGNFRELFTAYIVGHARHIHMWDDYDAEHFMRKFEEEVEKLDLLYASERWRVDWPMRWSFEPAGKDHLGSYDTGKEIIKEVPLSLMY"/>
+                    <sequence id="seq_met_1rqg_p_byssi1A-aa1" taxon="met_1rqg_p_byssi1A-aa" totalcount="20" value="MVTSLPYANGPIHAGHLAAYLPADIFVRYVFICGTDEHGDEFHEQIKITFQRADFFGRTELYVWFEAPIGYIIHFIGKDNIPFAIFWPAFLMAYPDIPAN"/>
+                    <sequence id="seq_met_arch_m_alpha3A-aa1" taxon="met_arch_m_alpha3A-aa" totalcount="20" value="VIGSWPYVQTVPHLGNMISVLSADVYARYVFVSGSDVHGMKMHAIVAELFKKWDLYTHTHSYVWFEAVLGYIVFFVGKDNVPFVIILPALLLAYPTTAST"/>
+                    <sequence id="seq_met_arch_m_anium11A-aa1" taxon="met_arch_m_anium11A-aa" totalcount="20" value="LVNCLPYANGPLHVGHIAAYLGADVFVRFLYVSGSDEYGDRYYAEHIETFKKLDIFMRTTYYVWFEALIGYIYYFIGKDNIPFSIIWPAMLLGYPDIPAN"/>
+                    <sequence id="seq_met_arch_m_arius8A-aa1" taxon="met_arch_m_arius8A-aa" totalcount="20" value="LVTSWPYVNAVPHLGNLISILSADVFARYVFVSGSDEHGDQAHAYDKKLFDTWDNYSRTESYVWFEALLGYLYYFIGKDNIPFAVILPAMLMASPVIAAT"/>
+                    <sequence id="seq_met_arch_m_hilum10A-aa1" taxon="met_arch_m_hilum10A-aa" totalcount="20" value="LVNCLPYANGPLHIGHIAAYLGADVFVRYLYVSGSDEYGDIYYEEHLRTFENLDIFMRTTWYVWFEALIGYIYYFIGKDNIPFAIIWPAMLMGYPDIPAN"/>
+                    <sequence id="seq_met_arch_m_incut12A-aa1" taxon="met_arch_m_incut12A-aa" totalcount="20" value="VVTALPYANGDLHIGHLRSYVSADAFTRAVYVCGSDMHGLRHHKQYRETFPKFDQYGHTHDYVWVDAPIEYVVHVIGRDIIQHTVYWPAMLEAYPAVCAA"/>
+                    <sequence id="seq_met_arch_m_incut13A-aa1" taxon="met_arch_m_incut13A-aa" totalcount="20" value="LVTCLPYANGKAHIGHLRTYVPADIFARSTFVCGSDTHGEIYHKHFDETFKQLDAFGTTDDYVWVDAPIGYIVHFIGGDITYHCIFWPAMLNGYPAVVAS"/>
+                    <sequence id="seq_met_arch_m_incut14A-aa1" taxon="met_arch_m_incut14A-aa" totalcount="20" value="LLTTLAYTNGPLHLGHARTYIPADIIKRYIHVGGTDNHGNKYHNEIKRDLDNLDSYGKTHSYVWLEAPIGYIWHFIGKDITVHAVFWPGMLLGYPSIFSG"/>
+                    <sequence id="seq_met_arch_m_incut15A-aa1" taxon="met_arch_m_incut15A-aa" totalcount="20" value="LVTCLPYTNGPCHLGHLRTYVPADFYVRFVFICGSDNHGERYHTHFSDTFTKMDHFGMTDDYVWVDAPIGYITHFIGQDITYHCVFWPAMLHGYPAVVAS"/>
+                    <sequence id="seq_met_arch_m_incut16A-aa1" taxon="met_arch_m_incut16A-aa" totalcount="20" value="LITTLAYTNGPLHLGHARTYIPADIIYKYIHVGGTDNHGEKYHNEIKEDLDLLDAFGKTHSYVWLEAPIGYIYHFIGKDITVHAVFWPGMLIALPAVVSG"/>
+                    <sequence id="seq_met_arch_m_incut17A-aa1" taxon="met_arch_m_incut17A-aa" totalcount="20" value="LVTTLAYTNGPLHIGHVRTYLPADVYTRFIHIGGTDNHGEKYHEMIKEDLERLDEFSREFNYVWFDAPIGYVVHFIGKDIIVHALFWPAMLMGLPTIVAG"/>
+                    <sequence id="seq_met_arch_m_incut18A-aa1" taxon="met_arch_m_incut18A-aa" totalcount="20" value="FITCLPYANGPTHLGHLRTYIPADIYARYLFVCATDEHGTRYHEMIRGDLERCDSFTRTTDYVWGEAFLGYIIHFIGKDIIYHAIFWPALLMAYPNIIAG"/>
+                    <sequence id="seq_met_arch_m_incut19A-aa1" taxon="met_arch_m_incut19A-aa" totalcount="20" value="LVTALPYSNGPIHLGHIAAYLPADIFYRFLYICGSDQYGSFYRKIQEEIFKKFDIYSGTESYVWFDAPIGYIVHFIGKDNIPFTIFWPALIIGYPQVFGN"/>
+                    <sequence id="seq_met_arch_m_incut2A-aa1" taxon="met_arch_m_incut2A-aa" totalcount="20" value="LVTCLPYANGKAHVGHLRTYVPADVYVRYVFVCGSDCHGDIYHEHFIKIFDALDFYGRTDSYVWVDAPIGYIIHFIGLDIVYHCIFWPAMLKGYPAVVAS"/>
+                    <sequence id="seq_met_arch_m_incut4A-aa1" taxon="met_arch_m_incut4A-aa" totalcount="20" value="VVTSWPYVNNVPHLGNLISILSADVFARYVFVSGSDEHGDQAHEYVSKLFQEYDNYTRTESYVWFDALLGYVVYFIGKDNIPFAIILPAMFMAYPYISST"/>
+                    <sequence id="seq_met_arch_m_incut5A-aa1" taxon="met_arch_m_incut5A-aa" totalcount="20" value="MVTSLPYANGPIHAGHLAAYLPADIFVRYVFICGTDEHGDEFHEHIKITFQRADFFGRTELYVWFEAPIGYIIHFIGKDNIPFAIFWPAFLMAYPDIPAN"/>
+                    <sequence id="seq_met_arch_m_incut7A-aa1" taxon="met_arch_m_incut7A-aa" totalcount="20" value="LVTALPYANGPIHIGHLAAYLPADLYCRYLFICGSDELGDRYHPMIRDSFARFDYYGRTTSYVWFDAPIGYIIHFIGKDNIVFCLMFPAMLMAHPNVPAN"/>
+                    <sequence id="seq_met_arch_m_rinus9A-aa1" taxon="met_arch_m_rinus9A-aa" totalcount="20" value="YITTIYYPNAPPHIGHAYTTVFADVLARYFFMTGNDEHGDEMADVYKKYWELLDYFIRTTDYVWFDALLNYIHHVIGKDILWFTVVWFSILKALPKLLVH"/>
+                    <sequence id="seq_met_arch_m_ultum6A-aa1" taxon="met_arch_m_ultum6A-aa" totalcount="20" value="VVASWPYVNNVPHLGNLISVLSADVFARYVFVSGSDEHGDQAHEYVSRLFREFDNYTRTESYVWFDALLGYIVYFIGKDNIPFAIIFPAMLMALPYIAST"/>
+                    <sequence id="seq_trp_arch_m_aneyi12A-aa1" taxon="trp_arch_m_aneyi12A-aa" totalcount="20" value="ALVTGFMPSGKFHFGHKMVADQIIYYQKEVFIVIADAEVIEIGLYYVANLIALTHIYFQTNVAALTQAADILLVPVGADQDPHIRFTRDIADRFRPASTY"/>
+                    <sequence id="seq_trp_arch_m_arius15A-aa1" taxon="trp_arch_m_arius15A-aa" totalcount="20" value="FLYTGRAPSLGMHIGHLIPFIFTKWLQENVYIEITDDETKEWSYENILDIIAVTFIFQDTEFYPALQIVPTMLIPAGIDQDPYWRLQRDIAESLKAAQIH"/>
+                    <sequence id="seq_trp_arch_m_dleri8A-aa1" taxon="trp_arch_m_dleri8A-aa" totalcount="20" value="SVLSGMMPSGRMHLGHKTVVDQLVFYQQKVYVPIADLEAHRIAVEYVLNYAALCEIYLQSEFAPIVQAADILLVPVGVDQDPHLRLTRDIAEKEKPASTY"/>
+                    <sequence id="seq_trp_arch_m_hicus9A-aa1" taxon="trp_arch_m_hicus9A-aa" totalcount="20" value="AVVTGMMPSGRMHIGHKMIVDQLRWYDREIFIPIADMESRRIAIEYIAGYIALIHVYLQSEYAPIIQVSDILIVPVGPDQDPHIRLTRDIAARFLPSSTY"/>
+                    <sequence id="seq_trp_arch_m_hilum11A-aa1" taxon="trp_arch_m_hilum11A-aa" totalcount="20" value="ALYTGRGPS-PVHIGHMVPWILLKWFSDEVYFQITDDEATNWAYENALDVIALLHLIIDTKFYPSLQIAVAFLIPCAIDQDPYFRLARDIADALKPSTLY"/>
+                    <sequence id="seq_trp_arch_m_incut4A-aa1" taxon="trp_arch_m_incut4A-aa" totalcount="20" value="SVMDGFMPSGKVHLGHKMVMDQIVWHQESAFVGIADRECREIGVEYILSLIALGLIYFQSGLSVATQAADILVVPVGPDQDPHLRLTRGLAG--PPASTY"/>
+                    <sequence id="seq_trp_arch_m_itans10A-aa1" taxon="trp_arch_m_itans10A-aa" totalcount="20" value="FLYTGIAPSKKMHIGHLVPFILTRWFQENVYIMFPDEEVRRKIKEMHAKIAALTFMFINSEFYTVLQIVPTFLIPAGIDQDPYFRLQRDIAPKLKAAEIL"/>
+                    <sequence id="seq_trp_arch_m_opcut17A-aa1" taxon="trp_arch_m_opcut17A-aa" totalcount="20" value="NVMTGLMPSGEMHLGNKSAIDQVIFFQKRVSIAVADLEAREVAIEYILNYIAM-EIYFQSRNAPLIQAADVLVVPVGFDQDPHLRLMRDLAK--APSATY"/>
+                    <sequence id="seq_trp_arch_m_opcut18A-aa1" taxon="trp_arch_m_opcut18A-aa" totalcount="20" value="NVMTGLMPSGEMHLGNKSAIDQVIYFQKSVSIAVADLEAREIAIEYILNYIAM-EIYFQSKNAPLIQAADVLVVPVGFDQDPHIRLMRDLAKRMPPSATY"/>
+                    <sequence id="seq_trp_arch_m_opcut2A-aa1" taxon="trp_arch_m_opcut2A-aa" totalcount="20" value="AVMSGFMPSGLPHFGHKMTMDEIVWHQSKAFVAIADMETRELGM-YIKSIIALAVIYFQSKFVTAIQAADILVVPVGADQDPHMRLTRDLAARIPPSSTY"/>
+                    <sequence id="seq_trp_arch_m_opcut6A-aa1" taxon="trp_arch_m_opcut6A-aa" totalcount="20" value="NVMTGFMPSGHPHLGHLMVMKEVVWHVQRGYICIADRECRKYGD-YLSCLYAL-ETYEQSSMSVLTQVADILIVPVGLDQDPHIRLTRGVAHKLTPSATF"/>
+                    <sequence id="seq_trp_arch_m_oshii13A-aa1" taxon="trp_arch_m_oshii13A-aa" totalcount="20" value="FLYTGRGPSGPMHIGHIIPFFATKWLQENLYIQITDDETKRWAYDNILDIIAVTFIFQNSEFFPAIQIAPTFLIPAAIDQDPYWRLQRDFAESLKTAALH"/>
+                    <sequence id="seq_trp_arch_m_rinus16A-aa1" taxon="trp_arch_m_rinus16A-aa" totalcount="20" value="IVVSGIQPSGELHLGNYFAIRQHLELHEESYFFIVNYHLRRYTFEAAVTYLALAALFVQSDNYPVLQAADILLVPVGADQKQNIEICRDIAQRFPEPLIR"/>
+                    <sequence id="seq_trp_arch_m_schii7A-aa1" taxon="trp_arch_m_schii7A-aa" totalcount="20" value="AVVSGMMPSGKMHFGHKMIIDQLLYYQKEIYIPIADLETKNLAIEYITNYIALINIYLQSKFAPIVQVADILIVPVGIDQDPHLRLTRDIASRAPPSSTY"/>
+                    <sequence id="seq_trp_arch_m_ultum14A-aa1" taxon="trp_arch_m_ultum14A-aa" totalcount="20" value="ALVTGFMPSGRFHFGHKMVADQIIYYQKEIFIVIADAEVIETGLYYVANLIALTHIYFQTNMAALTQAADILLVPVGADQDPHIRLARDIADRFRPASTY"/>
+                    <sequence id="seq_trp_arch_m_um_sp3A-aa1" taxon="trp_arch_m_um_sp3A-aa" totalcount="20" value="SIVTGIGPSGPMHLGHAMVFYFAKRLQDRVYVPLSDDETGDYLRENLRDLLAVTRFVVDTKFYPAVQTAHLLLVPIAVDQDPHVRVSRDVAAKAKPGALL"/>
+                    <sequence id="seq_try_2cyb_a__fulg20A-aa1" taxon="try_2cyb_a__fulg20A-aa" totalcount="20" value="RAYVGYEPSGEIHLGHMMTVQKLMDLQEAEIIVLLAD-IHEVADYNKKVFIALAKFVLGSEIYPLMQALDIALAVGGIDQRKIHMLARENLPRLPVCLHT"/>
+                    <sequence id="seq_tyr_2cya_a_ernix17A-aa1" taxon="tyr_2cya_a_ernix17A-aa" totalcount="20" value="KGYIGYEPSGVAHIGWLVWMYKVKDLVEADFSVLEAT-WHAAARIVRRVMEAAVRFVDAEEIYPLMQVSDIFIALGGMDQRKAHMLARDVAEKLPVAIHT"/>
+                    <sequence id="seq_tyr_2cyc_p__hori18A-aa1" taxon="tyr_2cyc_p__hori18A-aa" totalcount="20" value="QHYIGFEISGYIHLGTLMAGAKIADFQKAKTRVFLAD-WHEVALYFKVGMEKSVEFVLASEIYPMMQVADIFIAHAGMDQRKAHVIAIEVAQK-PVAVHH"/>
+                    <sequence id="seq_tyr_2zp1_m_annas19A-aa1" taxon="tyr_2zp1_m_annas19A-aa" totalcount="20" value="SAYIGFEPSGKIHLGHYLQIKKMIDLQNADIIILLAD-LAKIGDYNKKVFEAMAKYVYGSEIYPIMQVNTSHVAVGGMEQRKIHMLARELLP--VVCIHN"/>
+                    <sequence id="seq_tyr_arch_m_aneyi2A-aa1" taxon="tyr_arch_m_aneyi2A-aa" totalcount="20" value="KGYLGFEPSGLFHIGWLVWANKVKDLVDAEFYLLAAT-WHKAARHVVDVLEAILKVVDAEDIYPAMQVTDIFIALGGLDQRKAHMLARDTAEKLPIAIHT"/>
+                    <sequence id="seq_tyr_arch_m_anium8A-aa1" taxon="tyr_arch_m_anium8A-aa" totalcount="20" value="KSYIGIEPSGIPHVATVMWPRKLAELQD-KIYVLLAD-WHKGGELLKRSFMAEAEYLWASQIYPIMQVTDIFIAFGGMDQRHAHMLARDIADKMAVSVHG"/>
+                    <sequence id="seq_tyr_arch_m_dleri9A-aa1" taxon="tyr_arch_m_dleri9A-aa" totalcount="20" value="VAYVGFEPSGKVHLGHKLVIDKMIDLQEAHVIILLAD-LHELADYNRRCFLAMTEFVLGSEVYPLMQALDIVLAVGGLEQRKIHMLARDVLPKLPTCLHT"/>
+                    <sequence id="seq_tyr_arch_m_gatei13A-aa1" taxon="tyr_arch_m_gatei13A-aa" totalcount="20" value="KVYAGYEPSGEIHLGHLVTINKLIDLRDAEVTVLLAD-LHKLAEYNRRCFEGLIKYVLGSSVYPIMQMADIAAALGGIDQRKIHMLAREYLPSKPVCIHV"/>
+                    <sequence id="seq_tyr_arch_m_hicus14A-aa1" taxon="tyr_arch_m_hicus14A-aa" totalcount="20" value="VVYTGYEPSGRIHLGHALTVRKLRELQDARVKILLAD-YHELADYNQKCFLALTEFILGSSIYPLMQVIDMVVALGGMEQRKIHMLARENLPRLPVCIHT"/>
+                    <sequence id="seq_tyr_arch_m_hilum1A-aa1" taxon="tyr_arch_m_hilum1A-aa" totalcount="20" value="SAYLGFEPLWPIHIGWLIWAYKLAELKEADVIVLVAT-WHAHGERVRAVLDRIFKYVYGDDMYPLMQVADIFVAVGGMDQRRAHMLARDVAEKLPIALHT"/>
+                    <sequence id="seq_tyr_arch_m_hilum7A-aa1" taxon="tyr_arch_m_hilum7A-aa" totalcount="20" value="KSYIGIEPSGIPHIATVMWPRKLAEIQD-KVTVLLAD-WHKGGEILRKTFQAEADYVWASDLYPIMQVTDIFMAFGGMDQRHAHMLARDIAEKMVVSVHG"/>
+                    <sequence id="seq_tyr_arch_m_licus12A-aa1" taxon="tyr_arch_m_licus12A-aa" totalcount="20" value="IAYIGFEPSGRIHLGHYLQIKKMIDLQNAKIIILLAD-LHELAEQNKKVFDAIATYIYGSEVYPLMQVIDIKVAVGGMEQRKIHMLAREILPSMPVCIHN"/>
+                    <sequence id="seq_tyr_arch_m_ndcut15A-aa1" taxon="tyr_arch_m_ndcut15A-aa" totalcount="20" value="NHYIGFEISGFVHLGTIISMLKVRDFQKAKTTLFLAD-YHKVAKYFAEALKVSVKVVLGSELYVPMQVADIYLAHGGIDQRKAHVIAIEVSDAFPIAVHH"/>
+                    <sequence id="seq_tyr_arch_m_ndcut5A-aa1" taxon="tyr_arch_m_ndcut5A-aa" totalcount="20" value="KGYIGFEPSGLFHIGWLIWAQKLKDLIKADMSILVAT-WHLAGKYALEVLEGFLKVVYAEDIYPAMQVSDIFIALGGTDQRKAHMLARDVAEKLVIAIHT"/>
+                    <sequence id="seq_tyr_arch_m_orans11A-aa1" taxon="tyr_arch_m_orans11A-aa" totalcount="20" value="RAYVGYEPSGKIHMGHVLTVNKLIDLQKAKITVLLAD-VHKIADYNRRCFIALTDFVYGSDVYPLMQAIDIAVAVGGIDQRKIHMLARENLKSLPICIHT"/>
+                    <sequence id="seq_tyr_arch_m_rinus6A-aa1" taxon="tyr_arch_m_rinus6A-aa" totalcount="20" value="RGYIGFEPSGLVHVGWLVWMNKVRDLLEADFYILEAT-WHKAARLVRKVMEGFIKFVDAEEIYPLMQVSDIFIALGGTDQRKAHMLARDIAEKIPVAIHT"/>
+                    <sequence id="seq_tyr_arch_m_ultum3A-aa1" taxon="tyr_arch_m_ultum3A-aa" totalcount="20" value="KGYIGFEPSGLFHIGWLVWANKVRDMIDAEFYLLAAT-WHKAARHVIDVLEAIVKVVDAEDIYPAMQVTDIFIALGGTDQRKAHMLARDTAEKLPIAIHT"/>
+                    <sequence id="seq_tyr_arch_m_um_sp10A-aa1" taxon="tyr_arch_m_um_sp10A-aa" totalcount="20" value="RAYVGYEPSGVLHLGHLLTANKLIDLQDAEVVVLLAD-VHETAEQMKAQFLAYTEFVLGSDVYPLMQALDIELAIGGLDQRKVHMLAREELPSLRPALHT"/>
+                    <sequence id="seq_val_arch_m_aneyi12A-aa1" taxon="val_arch_m_aneyi12A-aa" totalcount="20" value="IIDTPPYPSGKWHVGGAAHYAQIDMIARYFVPWYADRNGDKIEEELVRIWSRLTQ-NGTDSDTWFDSSISVLMRPQGLDIIRTLYFTMLRVYQLFWIRVT"/>
+                    <sequence id="seq_val_arch_m_anium18A-aa1" taxon="val_arch_m_anium18A-aa" totalcount="20" value="TIDTPPTVSGKMHMGHSFSYSHIDFIARYFFPWGFDDNGQASEKALIEGWKRMYDYYVTSSDTWATSSLTPRLRGQGHDIISFAFTTIARSKIHWTLMIS"/>
+                    <sequence id="seq_val_arch_m_ankai5A-aa1" taxon="val_arch_m_ankai5A-aa" totalcount="20" value="IIDTPPYPTGRMHLGHALNWTYMDIIARFLFPQGWDCHGDENIEKMREQINSLDREYITMSDTWMDSSITPMLRPQGHDIIRTAFYTIIKSIALWEIVIN"/>
+                    <sequence id="seq_val_arch_m_arius15A-aa1" taxon="val_arch_m_arius15A-aa" totalcount="20" value="VIDTPPFTSGELHMGHAYWVTISDTIGRFLLPQGWDTQGEDMIRSMRTAMIRLEREYRTYEDVWVDSSVTVLLRLQGTDIIRTLFYTYYRTLALFEVLIN"/>
+                    <sequence id="seq_val_arch_m_hilum11A-aa1" taxon="val_arch_m_hilum11A-aa" totalcount="20" value="VIDTPPYLSNRPHIGQTASYAHFDMIARFIFPFYLDRNGDSYEGEFVSSLRRWDP-NGTDSDTWFDSSISWMMRPQGYDIIRTLYYSLLRAYLLFYVRIN"/>
+                    <sequence id="seq_val_arch_m_hilum17A-aa1" taxon="val_arch_m_hilum17A-aa" totalcount="20" value="AIDTPPTVSGKMHMGHSFSYPHIDFIARYFFPWGFDDNGESSEKSLLEGWKRIYDYYVTSSDTWATSSLTPRLRGQGHDIISFAFTTIARSKIHWRIMIS"/>
+                    <sequence id="seq_val_arch_m_incut13A-aa1" taxon="val_arch_m_incut13A-aa" totalcount="20" value="AIDTPPFTSGTLHLGHVLSHTWIDIIARYLFPQGFDNHGWQAIEAMRKQFIRIDLEYHTMDDCWVDSSITPLLRPQGTDIIRTAFYTILRTYVLWDIVIN"/>
+                    <sequence id="seq_val_arch_m_incut2A-aa1" taxon="val_arch_m_incut2A-aa" totalcount="20" value="IIDTPPYPTGSFHIGHALNWCIIDFIARYMFPQGWDCHGEENIAKMRETARRMDKEYITMYDTWMDSSITPLLRPQGHDIIRTAFYTILRSLALWEIVIN"/>
+                    <sequence id="seq_val_arch_m_incut3A-aa1" taxon="val_arch_m_incut3A-aa" totalcount="20" value="IVDTPPYPTGNLHLGHGLQWSYIDFVARFLFPQGWDCHGEERIDGMKQTMRELDAEYRTMDDTWMDSSITPLLRPQGHDIIRTAFYTLLRTGALWDALIN"/>
+                    <sequence id="seq_val_arch_m_incut4A-aa1" taxon="val_arch_m_incut4A-aa" totalcount="20" value="IIDTPPYPTGNFHIGNALNWCYIDYIARYMFPQGWDCHGAGNIEKMRKTMLRLDNEFVTMEDTWMDSSITALIRPQGHDIIRTAFYTILRSLALWSIVIN"/>
+                    <sequence id="seq_val_arch_m_incut6A-aa1" taxon="val_arch_m_incut6A-aa" totalcount="20" value="VIDTPPYPTGEFHIGNAFNWCYIDFLARYMFPQGWDCHGIGNIRKMRASMRRMDHEYITMMDTWMDSSISVMIRPQGHDIIRTAFYTILRAVSLWQILVN"/>
+                    <sequence id="seq_val_arch_m_incut8A-aa1" taxon="val_arch_m_incut8A-aa" totalcount="20" value="VIDTPPYPTGELHMGHVLNWTYMDVVARYFFPQGWDCHGLENIRKMREQLIQLDTEYVTMDDTWMDSSITPLLRPQGHDIIRTLYYTTVRALVHFEILIN"/>
+                    <sequence id="seq_val_arch_m_incut9A-aa1" taxon="val_arch_m_incut9A-aa" totalcount="20" value="IIDTPPYPTGSIHMGHVLNWVYMDIIARFLFPQGWDCHGQENIRMMKEQMQRLDHEFVTMTDTWMDSSISPLLRPQGHDIIRTAFYTILRCMALFEIVIN"/>
+                    <sequence id="seq_val_arch_m_itans10A-aa1" taxon="val_arch_m_itans10A-aa" totalcount="20" value="IIDTPPYPAPLWHIGAALSYALQDFIARGIFPEGFDGNGDSWREKMDKILKDLDHRYNTDDDTWMDSSITIYLRPQGYEIIRTLYYTLLRVYQLFFVVIN"/>
+                    <sequence id="seq_val_arch_m_rinus16A-aa1" taxon="val_arch_m_rinus16A-aa" totalcount="20" value="VIMMPPNVTGRLHMGHALQDTIQDALTRILWLPGIDHAGEEYGDIILQQKRRLDR-RFTMDDTWFSSWLWPFVLVSGYDILFFIARMIMAGIHFFDVFIT"/>
+                    <sequence id="seq_val_arch_m_schii7A-aa1" taxon="val_arch_m_schii7A-aa" totalcount="20" value="IIDTPPYPTGRLHLGHALNWTYMDIIARYLFPQGWDCHGKENIEKMRRQIKSLDKEYITMTDTWMDSSITPMLRPQGHDIIRTAFYTIVKSVALWEIVIN"/>
+                    <sequence id="seq_val_arch_m_ultum14A-aa1" taxon="val_arch_m_ultum14A-aa" totalcount="20" value="VIDTPPYPSGKWHVGGAAHYAQIDMIARYFVPWYADRNGDRVEEELVRIWRGLTR-NGTDSDTWFDSSISVLLRPQGVDIIRTLYFSVLRVYQLFWVRVT"/>
+                    <sequence id="seq_ala_2ztg_a__fulg1A-aa" taxon="ala_2ztg_a__fulg1A-aa" totalcount="20" value="ELDE?REYYLNFFERRGHGRIEYPVVAYLTIASIADFQNPLTISQPCIRLTLFE??AHHAFKNETVAYCTELLNCLEAIVEVATLVF?NYIVDTGYGLERFVWA"/>
+                    <sequence id="seq_ala_2zze_p__hori2A-aa" taxon="ala_2zze_p__hori2A-aa" totalcount="20" value="TLDEMRE?FLRFFE?HPHGRV-YPVLPLLVGASIMDFQNPLVISQPSIRFTIFEMMAHHAFMDETVELAFEFFTAFEVLYEVATLVFMT?VVDTGYGLERLVWM"/>
+                    <sequence id="seq_ala_arch_m_aneyi12A-aa" taxon="ala_arch_m_aneyi12A-aa" totalcount="20" value="SVAEARRKFIRFFERNGHEFIERPVVAYLTIASIVVFQNPLVIVQPSIRLTSFEMGGHHAFKEETVRLAFEFFTSFEVTVELATLVFMLRVVDTGYGIERLAWF"/>
+                    <sequence id="seq_ala_arch_m_anium17A-aa" taxon="ala_arch_m_anium17A-aa" totalcount="20" value="TLSEMRKAFFDFFEKRGHKLLEYPVVPLLVNASIYDFQNPIVMSQPSIRMTSFEMLCHDAFKEETVRYSYEFLTALEVFVEVATLVFMMQIVDTGYGLERLTWL"/>
+                    <sequence id="seq_ala_arch_m_arius14A-aa" taxon="ala_arch_m_arius14A-aa" totalcount="20" value="TVRESREKFLRFFEKRGHTIVPKPVVAYLTIASIVDFQNPLVVSQPCIRLTTFEMAAHHAFKDETVAFAKEFFTCFEVTVELATLVFMLKIVDTGYGVERIAWF"/>
+                    <sequence id="seq_ala_arch_m_dleri8A-aa" taxon="ala_arch_m_dleri8A-aa" totalcount="20" value="DVWEAGEEFFRFFERHDHEVLDYPVVAHLTIASIACFQNPLVINQPCIRLTLFHMGGHHAFKEETVRLCYEFTVCFEVVVELATLVFMQKIVDTGYGIERYAWI"/>
+                    <sequence id="seq_ala_arch_m_gatei6A-aa" taxon="ala_arch_m_gatei6A-aa" totalcount="20" value="TVDEMREAYLSFFEKQGHTRIDYPVAAYLTIASIADFQNPLTISQPCIRLTCFEMMAHHAFKDRTVELCDQLLTSVEVLIEVATLVFMLRIVDTGYGLERFVWA"/>
+                    <sequence id="seq_ala_arch_m_hicus9A-aa" taxon="ala_arch_m_hicus9A-aa" totalcount="20" value="DLYEIQDKFMEFFAERGHEPIRYPVLAFLVGASIYNFQNPLVVAQPSIRLTCFTMGGHHAFEEETIKYCHDFLTCYEVCVELATLVFILKIVDTGYGLERFAWI"/>
+                    <sequence id="seq_ala_arch_m_licus5A-aa" taxon="ala_arch_m_licus5A-aa" totalcount="20" value="TYNEMVKEFLNFFDKNGHTPIKYPVSALLTIASIAVFQNPLVIAQPCIRLTCFTMGGHHAFTDRTVELCYNFFTCYEVITELATLVFMLKIVDTGYGLERFVWA"/>
+                    <sequence id="seq_ala_arch_m_orans4A-aa" taxon="ala_arch_m_orans4A-aa" totalcount="20" value="NISEMREYYLSFFEARGHTRLDYPVVAYLTIASIADFQNPLTISQPCIRLTNFEMMAHHAFKEHTLELCDELLTCVEVIVELATLVFMNYIVDTGYGLERFVWA"/>
+                    <sequence id="seq_ala_arch_m_rinus15A-aa" taxon="ala_arch_m_rinus15A-aa" totalcount="20" value="TFDEARRKFIEFFTSHGHGYVDYPVLAYLTIASIIVFQNPLVIVQPSVRLTSFEMGGHHAFVNETLQYAFDFFTAYEVLVELATLVFMVLVVDTGYGIERIAWF"/>
+                    <sequence id="seq_ala_arch_m_schii7A-aa" taxon="ala_arch_m_schii7A-aa" totalcount="20" value="TYKEMVKEFINFFKEHGHEPIKAPVTALLTIASIAVFQNPLVIAQPCIRLTCFTMGGHHAFQDETVELCFNFFKCYEVITELATLVFMLKIVDTGYGIERFVWA"/>
+                    <sequence id="seq_ala_arch_m_ultum13A-aa" taxon="ala_arch_m_ultum13A-aa" totalcount="20" value="SVAEARRKFLRFFERNGHEIIERPVVAYLTIASIVVFQNPLVIVQPSIRLTSFEMGGHHAFKEETVRLAFEFFTSFEVTVELATLVFMVKVVDTGYGIERIAWF"/>
+                    <sequence id="seq_asn_1x54a__oshii1A-aa" taxon="asn_1x54a__oshii1A-aa" totalcount="20" value="VKETLIMAAREWLLKDGWHEVFPPILVYLSQSAQLYLEEKVWSLTPSFRATEFWHLELEAALWDIMKVEEELVSASDMLAEIIGGSQRVPHSGFGLGVERLVAW"/>
+                    <sequence id="seq_asn_arch_m_anium9A-aa" taxon="asn_arch_m_anium9A-aa" totalcount="20" value="VRSTIFRSFADFFYDQGYYQVHTPFMVFLNQSAQFYLEEKVFTIAPSFRATEYWHAEAEVANREMMDVEENMIYNHDLLAEIIGGSQRVPHSGFGLGMDRLAMW"/>
+                    <sequence id="seq_asn_arch_m_hilum5A-aa" taxon="asn_arch_m_hilum5A-aa" totalcount="20" value="VQASILRALREFLDSKGFVEVLSPIIGKVMSSAILYKQGKIYFVSPNIRLVEFYQLDLEMYYHEAMDLAEDLITDFDMLYEAISGAERLQTAGFGIGVERLTRY"/>
+                    <sequence id="seq_asn_arch_m_hilum8A-aa" taxon="asn_arch_m_hilum8A-aa" totalcount="20" value="IRSTIFRSFADFFYENGYYQVQTPFMVYLNQSAQFYLEEKVFTIAPSFRATEYWHAEAEVANNEMMDIEERMIYNHDMLAEIIGGSQRVPHSGFGLGLDRLAMW"/>
+                    <sequence id="seq_asn_arch_m_itans4A-aa" taxon="asn_arch_m_itans4A-aa" totalcount="20" value="LRAKVQKFFRDWFMENGFVEINTPKIVYLTQSPQLYKQPKVFEIAFAYRAAEFTSVDAEMGEYDVINTIKKMLIGFDIIFEIISGAQRPPHGGFGLGLERYLRQ"/>
+                    <sequence id="seq_asn_arch_m_opcut6A-aa" taxon="asn_arch_m_opcut6A-aa" totalcount="20" value="IRNRVIRAIHDFFQERGFLQLDAPILTYLSQSGQLYAEGKVYTFGPTFRATEFWMIEPEMALEMNMALAEELVVGMDVLAEIIGGGQRVPHSGFGLGLERTLAW"/>
+                    <sequence id="seq_asn_arch_m_rinus7A-aa" taxon="asn_arch_m_rinus7A-aa" totalcount="20" value="IKHSVLKAGREYFVENDWWEVTPPILTYLSQSAQLYLEEKVWSLTTSFRAAEYWHLEAEAAMEDMMRVAEELVAGFDLLAEIIGGSERVPHSGFGLGIERLVMW"/>
+                    <sequence id="seq_asp_1wydb__odaii1B-aa" taxon="asp_1wydb__odaii1B-aa" totalcount="20" value="IQSLALKAFRETLYKEGFIEIFTPKIIFLAQSPQLYKEERVFEVAPAWRAAEFISMDVEMAYNDVMQLLEKILHSFDLIYEIVSGSTRPPHAGFGMGLARLMVM"/>
+                    <sequence id="seq_asp_arch_m_aneyi13A-aa" taxon="asp_arch_m_aneyi13A-aa" totalcount="20" value="VEAEMARAAREWFYEHGFVEIFTSKIVFLAQSPQLYKQERVFEIGPAFRATEYTSVDLEMGFEDVMDAVEGVVRSFDLLFEIATGGQRPPHGGAGIGLERVAMQ"/>
+                    <sequence id="seq_asp_arch_m_anium19A-aa" taxon="asp_arch_m_anium19A-aa" totalcount="20" value="AESSILWGIREFLHSQGFIEVHTPKIVYLNQSPQLYKEEKVFEVGPAFRANEFTSIDIEMSHNDAMRILENAVKSFDLQYEVTSGAQRPPHAGWGLGLERLTMI"/>
+                    <sequence id="seq_asp_arch_m_arius16A-aa" taxon="asp_arch_m_arius16A-aa" totalcount="20" value="IQNITLKSFRETLYKEGFVEVFTPKIIFLAQSPQLYKEEKVFEIAPAWRAAEFISMDVEMAYEDTMKLLEKLIYSFDLIYEIASGSTRPPHTGFGMGFARLLVM"/>
+                    <sequence id="seq_asp_arch_m_dleri9A-aa" taxon="asp_arch_m_dleri9A-aa" totalcount="20" value="IRNVVTTAIREFLEERGFIEVHTPKIIYLAQSPQLYKQERVYEIGPIFRANEAISVDIEMSEEDVMRVLEELLAAFDLMYELASGAQRPPHGGWGLGLERTLMT"/>
+                    <sequence id="seq_asp_arch_m_gatei7A-aa" taxon="asp_arch_m_gatei7A-aa" totalcount="20" value="IRNAVQHATRNFFFENGFIEINTSKIVFLNQSPQLYKQEKVYEIGPIFRANEATSIDIEVSHLGVMQTLEDLIRAFDMMHELSSGAQRPPHAGWGLGAERLVTT"/>
+                    <sequence id="seq_asp_arch_m_gidus3A-aa" taxon="asp_arch_m_gidus3A-aa" totalcount="20" value="IRHQVMQSVREFLSEEGFIEVHTPKIVFLNQSPQLYKQEKVFEIGPIFRANEAISIDIEMSHNGVMDVLERLVQSFDLMHELSSGAQRPPHAGWGLGAERLIMS"/>
+                    <sequence id="seq_asp_arch_m_hicus10A-aa" taxon="asp_arch_m_hicus10A-aa" totalcount="20" value="IKSRMLHSVRVFLEEQGFLEINTPKLVFLGQSPQLYKQDRVYEIAPIFRANEVISIDIEASHEDVMKILENLVVAFDLMYEISSGAMRPPHAGWGLGAERFNMT"/>
+                    <sequence id="seq_asp_arch_m_hilum12A-aa" taxon="asp_arch_m_hilum12A-aa" totalcount="20" value="VASAMLRSIREVLYGEGFVEVFTPKIIYLSQSPQLYKEERVFEIGPAYRANEFISVDAEAAYNDIMDILEKIMRSYDLIIEVASGATRPPHAGFGLGFNRLVTA"/>
+                    <sequence id="seq_asp_arch_m_hilum18A-aa" taxon="asp_arch_m_hilum18A-aa" totalcount="20" value="IESALLWGIRQYLHSQKFIEVHTPKIVYLNQSPQLYKEDRVFEVGPAFRANEFTSIDIEMSHNDAMAMLEN---SFDLQYEVTSGAQRPPHAGWGLGLERLTMI"/>
+                    <sequence id="seq_asp_arch_m_itans11A-aa" taxon="asp_arch_m_itans11A-aa" totalcount="20" value="LRAKVQKFFRDWFMENGFVEINTPKIVYLTQSPQLYKQPKVFEIAFAYRAAEFTSVDAEMGEYDVINTIKKMLIGFDIIFEIISGAQRPPHGGFGLGLERYLRQ"/>
+                    <sequence id="seq_asp_arch_m_licus6A-aa" taxon="asp_arch_m_licus6A-aa" totalcount="20" value="LRSEVLKSIRNTFHDNGFIDVDTPKLVFLGQSPQLYKQDRVFEIGPIFRANEAISIDCEMSEKDAMEILEKVINAFDLMYEISSGAQRPPHSGWGVGIERLMMI"/>
+                    <sequence id="seq_asp_arch_m_orans5A-aa" taxon="asp_arch_m_orans5A-aa" totalcount="20" value="IRHEALQAIREYFVKNKFIETATPKVVFLNQSPQLFKQDRVFEIGPIFRANEATSIDVEVSHFDVMEILENLVASFDMMHELSSGAQRPPHAGWGMGCERFVMT"/>
+                    <sequence id="seq_asp_arch_m_oshii14A-aa" taxon="asp_arch_m_oshii14A-aa" totalcount="20" value="IRSSVFRAVREFFYSEGFIEIHTPKIIFLAQSPQLYKQDKVFEIAPIFRANEAWSIDAEMAEGEVMDLLERLISAFDLEYEISSGGQRPPHGGFGLGAERLIMR"/>
+                    <sequence id="seq_asp_arch_m_rinus15A-aa" taxon="asp_arch_m_rinus15A-aa" totalcount="20" value="LRHQVYLITRRYFDAHQFVEVETPVLTALPQSPQLYKQDRYFQIVKCFRDPEFTQIDVEMTEEQIFELIEGLIQAYDLVLEIGGGSIRPPHGGIALGLDRIVML"/>
+                    <sequence id="seq_asp_arch_m_rinus17A-aa" taxon="asp_arch_m_rinus17A-aa" totalcount="20" value="IRAGIIEAARQYFNNNGFIEIHTPKIVYLSQSPQLYKQPRVFEITPYFRANESWGIDAEQGVEDVLNTLEDLIVKFDLDYEIASGGQRPPHGGFGLGIERLMMK"/>
+                    <sequence id="seq_asp_arch_m_schii8A-aa" taxon="asp_arch_m_schii8A-aa" totalcount="20" value="IRSEMLKSVRNTLYNEGFIEVNTPKLVFLGQSPQLYKQDRVFEIAPIFRANEATSIDIEMADKDAMDILEKVVYAFDLMYEISSGAQRPPHAGWGLGADRFTMV"/>
+                    <sequence id="seq_asp_arch_m_um_sp4A-aa" taxon="asp_arch_m_um_sp4A-aa" totalcount="20" value="LRSKAMGAMRSWFYDNEFEEVDTPELSYLSQSPQLYKQDRLFEVGHAFRASEIAMFDVELGHHDVMDVQEESLRKFDLLYELSSGGQRPPHGGYGLGIDRLIQQ"/>
+                    <sequence id="seq_asp_d1b8aa_ensis2A-aa" taxon="asp_d1b8aa_ensis2A-aa" totalcount="20" value="IRSSVFKAVRDFFHENGFIEIHTPKIIFLAESPQLYKEDRVYEIAPIFRANEAWSIDSEMAEEEVMSFLERLVAAFDLEYEISSGGQRPPHGGFGLGAERLIKQ"/>
+                    <sequence id="seq_gly_arch_m_anium1A-aa" taxon="gly_arch_m_anium1A-aa" totalcount="20" value="LKDNIISIWKKSYAKEGAIFLDTPVIAYLRPETAQGIFIIVCQVGKGFRNREFTQAEVEVFMAYFLEKTYSILSTWDFEYEIVGVSDRPRVVEPSYGIDRIVLT"/>
+                    <sequence id="seq_gly_arch_m_hilum20A-aa" taxon="gly_arch_m_hilum20A-aa" totalcount="20" value="LKDNIIAAWKREYAREGAIFLDTPVIDYLRPETAQGIPIIVCQVGKGFRNREFSQAEVEVFMAYFLNKTYEILLTWDFEYEIVGVSDRPKVVEPSYGLDRILLT"/>
+                    <sequence id="seq_gly_arch_m_itans12A-aa" taxon="gly_arch_m_itans12A-aa" totalcount="20" value="LKNNFINEWKNYFLRPNFWEVDPAIVMYLRPETAQGPYLGLAVVGKAFRNREFTQAELQIFYAYFVGKVKQFYEHVDIEIEVGGIHYRPHVLELSFGVDRNVLA"/>
+                    <sequence id="seq_gly_arch_m_opcut10A-aa" taxon="gly_arch_m_opcut10A-aa" totalcount="20" value="LKRKIEEKWREYYVHEGFMEIEAPNLLYLRPETAQAIFFGVVQIGRAYRNREFTQAEAEVFIGYFLGLTKRMLNCWDVEVEVVGIADRSHVIEPSYGIDRILYC"/>
+                    <sequence id="seq_gly_arch_m_opcut11A-aa" taxon="gly_arch_m_opcut11A-aa" totalcount="20" value="LKNKIMNRWREFYVVEGFYEIESPTIMYLRPETAQGIFFGVVQLGKSYRNREFTQAEAEIFLTYHLCLAKRFLMCWDVEAEIIGIADRPHVIEPSFGIDRIIYT"/>
+                    <sequence id="seq_gly_arch_m_opcut13A-aa" taxon="gly_arch_m_opcut13A-aa" totalcount="20" value="LRRNIVEKWRKVFVLDLIIEVETPIIMYLRPETAQGMFFGVAQIGRVARNREFTQMEIELFMAFFMALAAKFLKSYDQMVEVSGHAYRPHVVEPSFGLDRIMYV"/>
+                    <sequence id="seq_gly_arch_m_opcut14A-aa" taxon="gly_arch_m_opcut14A-aa" totalcount="20" value="LKDKIIALWRHYFIRHIVVEIETPVIAYLRPETAQGMFLGIAQIGRVARNREFTIAEMEFFLAYWMAVARDFIMTFDQLVEVSGHAYRPHVAEPSFGVERLLFV"/>
+                    <sequence id="seq_gly_arch_m_opcut15A-aa" taxon="gly_arch_m_opcut15A-aa" totalcount="20" value="IKRKIERKIREAFIREGFFEIETPDITYLRPETAQGIFFGVFQIGKAYRNREFTQAEAEIFFAYYMVMIKKILLTWDAEVECVGLAYRVMIHEPSFGIDRPFYL"/>
+                    <sequence id="seq_gly_arch_m_opcut16A-aa" taxon="gly_arch_m_opcut16A-aa" totalcount="20" value="LKEKIVALWRDYFIRHIVVEIETPVIAYLRPETAQGMFLGIAQVGRVARNREFTIAEMEFFLAYWMAIARDFVMTFDQLVEVSGHAYRPHVAEPSFGVERLIFV"/>
+                    <sequence id="seq_gly_arch_m_opcut17A-aa" taxon="gly_arch_m_opcut17A-aa" totalcount="20" value="LKRNVQQRWWEAMVYENIVGLDAAILMYLRPETAQGIFFGIAQIGKAFRNREFEQMEMQYFFEAWKEKRLQWHIAVDIQYEVEGIHSRPYVVETSAGLDRTILM"/>
+                    <sequence id="seq_gly_arch_m_opcut18A-aa" taxon="gly_arch_m_opcut18A-aa" totalcount="20" value="IKNKIVDLWRKHFIKDFVVEIDTPALTFLRPETAQGMFIGIAQIGKVGRNREFTIMEVEFFMAYWMGVASNFVNTFDQIVEISGHAYRPHVIEPSFGVERCLYL"/>
+                    <sequence id="seq_gly_arch_m_opcut19A-aa" taxon="gly_arch_m_opcut19A-aa" totalcount="20" value="IKRNIINEWLNNLVYGLVLEIETPIITYLRPETAQGMFLGIAQIGRVGRNREFTIMELEFFMAYWMALGNIFLRTFDQEVEVAGYSYRPHVVEPSFGLERIFYV"/>
+                    <sequence id="seq_gly_arch_m_opcut4A-aa" taxon="gly_arch_m_opcut4A-aa" totalcount="20" value="LRRKIENIWRKYFVIERAAEIDTPTIGYLRPETAQGMFFGVAQIGRAYRNREFNQAELEFFLAYFIGKTRRFLLCWDAEVEVVGIADRIHVIEPSFGLDRITYS"/>
+                    <sequence id="seq_gly_arch_m_opcut5A-aa" taxon="gly_arch_m_opcut5A-aa" totalcount="20" value="LKRNVEETWRDRFVTEGNMEIDSPTVTYLRPETAQGMFFGAAQIGAGYRNREFTMAELEFFVAYFLARSKQWFECWDAEGELEGIASRVFVVEPAFGVGRAVYT"/>
+                    <sequence id="seq_gly_arch_m_opcut6A-aa" taxon="gly_arch_m_opcut6A-aa" totalcount="20" value="LKRRIEQVWREFYVIEGHMEIECPTIGYLRPETAQGMFFGAVQIGKSYRNREFTQAECELFLGYNIALTNEFLTCWDAEIEIVGIADRPHVIEPSYGIDRIFYG"/>
+                    <sequence id="seq_gly_arch_m_opcut7A-aa" taxon="gly_arch_m_opcut7A-aa" totalcount="20" value="LKNNIIDTWRKHYITEEFYEIDCPTITYMRPETAQGIFFGVAQIGKAYRNREFTQAEAEFFIAYFVAITKRFLLCWDAEIECVGIADRSHVIEPSHGIDRITFC"/>
+                    <sequence id="seq_gly_arch_m_opcut8A-aa" taxon="gly_arch_m_opcut8A-aa" totalcount="20" value="VKRRIEDLWRQFYVIEGYYEIECPTIGYLRPETAQGIFFGTVQIGRSYRNREFTQAEAEIFVAYYLALTHELLVCWDAEIETVGIADRSHVIEPSYGIDRMIYA"/>
+                    <sequence id="seq_gly_arch_m_opcut9A-aa" taxon="gly_arch_m_opcut9A-aa" totalcount="20" value="LKNNIISKFREQYIIEGFYEIESPTVTYMRPETAQGIFFGVVQIGKSYRNREFTQAEIEYFIAYFIALTKRFLECWDAEIECVGIADRPHVIEPSYGIDRITYC"/>
+                    <sequence id="seq_his_arch_m_aneyi12A-aa" taxon="his_arch_m_aneyi12A-aa" totalcount="20" value="ALSRLAEIFTEVAEAYGYREVKPPTLEALRPEATASIALRLYYVVNCFRYREFWQAGIELLDFEVIRILVKFYEIFEVKVSIAGGGRYVPGTGFAIGLDRTLAA"/>
+                    <sequence id="seq_his_arch_m_anium17A-aa" taxon="his_arch_m_anium17A-aa" totalcount="20" value="IEKFIFETASSVAESYGFKRIDFPSLETLIPEATPSTVVRWYSFPKVWRYREHYQFNADIFDAEIISLASGILDVFEAYDAILGGGRYIPAVGFGMGDAVISLL"/>
+                    <sequence id="seq_his_arch_m_ankai5A-aa" taxon="his_arch_m_ankai5A-aa" totalcount="20" value="KRKIIENKLKSVFMAYNFNEINTPTFEGLRPEITSSVVQKLFYFANCFRYREFWQMGCELLDAEVINLAMDGLNVFEVYGQVCGGGRYTPAVGFAYGFDRIMLN"/>
+                    <sequence id="seq_his_arch_m_arius15A-aa" taxon="his_arch_m_arius15A-aa" totalcount="20" value="KIKFIEETFRSVVLNSGYQEVYTPIVEALRPEITPSIVLRLFYVGQVYRYREFRQAGVELLDIEVISLLNEIYDIFEVVHSIAGGGRYTPAIGFAIGVERTALV"/>
+                    <sequence id="seq_his_arch_m_dleri8A-aa" taxon="his_arch_m_dleri8A-aa" totalcount="20" value="ARRWLERYLLDVFRSYGYEEVLTPTFEALRPEMTAPVVLKLAYIVNCFRYREFWQAGVEVFDVEVIELTYRIFDVFEIHVQCAGGGRYVPAVGMAIGFDRLLLA"/>
+                    <sequence id="seq_his_arch_m_erium3A-aa" taxon="his_arch_m_erium3A-aa" totalcount="20" value="PRRVAIDALEGAARQYGFREIGTPALEALTPELTPTVAIKWFSTRPFWRYREFYQTNVDIFDAEVLAVVADGLTVFECFDSVFGGGRYTPAVGVAPGHATLGLL"/>
+                    <sequence id="seq_his_arch_m_gatei6A-aa" taxon="his_arch_m_gatei6A-aa" totalcount="20" value="RRREIEARMRARARLYGFREIATPVFEALRPELTAPVLVKWCYFADCFRYRQFWQFGAELIDAEVITLGYDLLRVFECFAQILGGGAYTPSAGFAIGFDRVMVA"/>
+                    <sequence id="seq_his_arch_m_gidus2A-aa" taxon="his_arch_m_gidus2A-aa" totalcount="20" value="RRREIEKRMRKIAESFGYREVATPTFEALRPELTAPVMLRFYYFANCFRYREFWQFGVELIDAEVIILADKILKVFECYAQVCGGGSYTPSTGFAIGFDRVCEA"/>
+                    <sequence id="seq_his_arch_m_hicus9A-aa" taxon="his_arch_m_hicus9A-aa" totalcount="20" value="NRKEVEGVLRRTFETYGYHEIKTPIFEALRPELTAPVAIKMYYFGSCFRYRQFWQFGCELIEAEVISLASESLHVFEIYVQICGGGTYVESTGFAFGFDRLMNA"/>
+                    <sequence id="seq_his_arch_m_hilum11A-aa" taxon="his_arch_m_hilum11A-aa" totalcount="20" value="ALRHMEEVLCKVAESFGYRRVETPVVEGLRFDMTVPVAVRWYYFTKVFRYREFYQFGVELVDAEVIQLLIASLEVFEAFVAVGGGGRYTPALGFAIGVERLMEA"/>
+                    <sequence id="seq_his_arch_m_itans10A-aa" taxon="his_arch_m_itans10A-aa" totalcount="20" value="LWKEIVSKIESVYQKYGFDPIITPIVEALKYDQTVPLAFKRYTIDRTFRYREFWQADADIVDAEILNMMIEAYEVYEVWIALGGGGRYIPAVGGSIGINPLIVG"/>
+                    <sequence id="seq_his_arch_m_orans4A-aa" taxon="his_arch_m_orans4A-aa" totalcount="20" value="RRRYVESVMRNVVRNWGYSEIITPTFETLRPELTAPVMLKLFYFENCFRYREFWQFGVELIDAEVIALADALLKVFEVYAQVCGGGSYVPSTGFGIGFDRIMEI"/>
+                    <sequence id="seq_his_arch_m_oshii13A-aa" taxon="his_arch_m_oshii13A-aa" totalcount="20" value="KRRWVFEKIREVFEAYGFKEILTPVMESLRPDMTSSVAIKWYYIANMFRYREFWQAGVELIDAEVIALFVESYLVFEAISSIGGGGRYTPATGFAIGIERLLIL"/>
+                    <sequence id="seq_his_arch_m_rinus16A-aa" taxon="his_arch_m_rinus16A-aa" totalcount="20" value="AWQHVEQVVREVLERFNFREIRTPILEVLRPEVTAPVMQKLYYIGPCFRARQFHQFGVELIDAEVIAAMMAVYETFELESALAGGGRYVPAVGFAAGIERLFIA"/>
+                    <sequence id="seq_his_arch_m_schii7A-aa" taxon="his_arch_m_schii7A-aa" totalcount="20" value="KRRFVENKLREVFERYGYKEILTPTFEALRPEMTSPVVLRLYYFANCFRYREFWQMGCELIDAEVLNLAMDGLIVFEIYGQICGGGRYTPAVGFAYGFDRIMMN"/>
+                    <sequence id="seq_his_arch_m_ultum14A-aa" taxon="his_arch_m_ultum14A-aa" totalcount="20" value="ALRRLAEIFARIARSYGYGEVKPPTLEALRPEATASIAVRLYYVVNCFRYREFWQAGVELLDFEVIKLLLKFYEIFEVKVSIAGGGRYVPGTGFAIGLDRTLAA"/>
+                    <sequence id="seq_phe_arch_m_incut10A-aa" taxon="phe_arch_m_incut10A-aa" totalcount="20" value="YYREYLNWVRKKMVNLGWKELNAEELIILRSQNTAITAGKYFYIGSVWRPIEFQQLEGIII--QLKTEIEKILKSVEVYAEVAGAGMLHKIGAFGIGINRLAMI"/>
+                    <sequence id="seq_phe_arch_m_incut11A-aa" taxon="phe_arch_m_incut11A-aa" totalcount="20" value="FFNEFLDYVREVMIGLGFEEVRG-VLEVLRTQTTATTIYKVFTIGRVFRPMEFHQLDGIVVFKHLLGQLEEIAKSVEVYAEFGGAGIFSRVLAWGWGLDRIAMI"/>
+                    <sequence id="seq_phe_arch_m_incut12A-aa" taxon="phe_arch_m_incut12A-aa" totalcount="20" value="FFRQFVEYLRDVMKELGFVEIEEPPVEILRSHTTAVSAFRFFSLGRVYRVPEFHQIDGIASLRWLIGMLSEFLESIEGYVEILGAGMFYPVAAWGMGIERLAMA"/>
+                    <sequence id="seq_phe_arch_m_incut13A-aa" taxon="phe_arch_m_incut13A-aa" totalcount="20" value="PYRVFLDKIRRRLIEMGFIEMTVSLIEMPRAHATALSAGKYFTIQRVFRPIEFNQIDGFVAFRHLLGILKRFAISVQLSAEFGGAGIFVPVIAWGIGIDRLAMF"/>
+                    <sequence id="seq_phe_arch_m_incut14A-aa" taxon="phe_arch_m_incut14A-aa" totalcount="20" value="FFRQLIEHIRDVMKELGFVEVEEPPVEILRSHTTAVSAFRFFSIGRVYRVPEFHQVDGIASLRWLMGMLGELLESLEGYVEVLGAGLFYPVAAWGMGIERLAMA"/>
+                    <sequence id="seq_phe_arch_m_incut15A-aa" taxon="phe_arch_m_incut15A-aa" totalcount="20" value="PLTRTLEAIVRVFEQLGFSVAEGPEIEVLRTHTSPVQIIRIIAPGRVYRNCLFHQVEGLYVMGDLKQVLYLFARSAEVDIEILGCGMVYTGYAFGMGVERIAML"/>
+                    <sequence id="seq_phe_arch_m_incut16A-aa" taxon="phe_arch_m_incut16A-aa" totalcount="20" value="AYIEFLDLVRDILVSMGFEEVKG-HVEILRSQTTAVSVYRVFSLDRVFRPMEFYQLDGVIVFKHLLAFFKEFAASVEGFIEVFPGGVFVRAIAWGIGIDRLAMA"/>
+                    <sequence id="seq_phe_arch_m_incut17A-aa" taxon="phe_arch_m_incut17A-aa" totalcount="20" value="PLVYFINEIRRIFLDMGFTEMSGHYIEILRTHTTVTTAQAIFSVEKVFRHAEFYQIEGAVYVATLKWILRTFYGSLDVVVELGGSGIFAPVMAWGMGLERLAML"/>
+                    <sequence id="seq_phe_arch_m_incut2A-aa" taxon="phe_arch_m_incut2A-aa" totalcount="20" value="PYERIIEECRKVFLEMGFTEIKGHYVQVLRTHTTAITIQKAFCIDRVYRRPEFDQLEGVVLFKHLLGLLKEFFTSVEPEVELGGAGVFGKVLAWGLGIGRLAML"/>
+                    <sequence id="seq_phe_arch_m_incut3A-aa" taxon="phe_arch_m_incut3A-aa" totalcount="20" value="VLRQAAERVEEVLVGMGFQEMEGPHVDALRGHTTSLTAQRYFSVEKAYRNLEFFQIEGWVMVRDLMGTFREFYSSFELFGEIGNSGIFADVMAWGLALERLLML"/>
+                    <sequence id="seq_phe_arch_m_incut4A-aa" taxon="phe_arch_m_incut4A-aa" totalcount="20" value="PYRRLIEQMRQIFLEMGFTEIKGGIIQVLRTHTTSVTIVKAFCIDRAYRRPEFEQLEGVVMFADLLGLLAEFYHSVEPEVELGGAGVFEPVLAWGLGVSRLAML"/>
+                    <sequence id="seq_phe_arch_m_incut5A-aa" taxon="phe_arch_m_incut5A-aa" totalcount="20" value="-YQRMIDEMRRILLDMGFTELHGSIIQVLRTHTTSLSIVKAFCIGRVYRRPEFEQLEGIVMFRNLLGYLKEFYGSVEPEVELGGAGIFCPVLAWGLGVSRVAML"/>
+                    <sequence id="seq_phe_arch_m_incut6A-aa" taxon="phe_arch_m_incut6A-aa" totalcount="20" value="PMTRIINDVKEVLIGMGFKEVKNPIVEVLRTHTTVSSIHKIFSIDRVFRNPEFYQCEGIILFDNLIGLLKEFLNSLEAEVELLGAGVFKPVLAWGIGLSRLAML"/>
+                    <sequence id="seq_phe_arch_m_incut7A-aa" taxon="phe_arch_m_incut7A-aa" totalcount="20" value="PLTRIIREVKEILLAMGFKEVKS-IVEILRTHTTASSIHKVFCIDRVFRNPEFYQCEGIIMFNNLIGVLKEFLNSLEAEVEILGAGIFKPVLAWGIGFSRLAML"/>
+                    <sequence id="seq_phe_arch_m_incut8A-aa" taxon="phe_arch_m_incut8A-aa" totalcount="20" value="PLKEVINEIRRIFLEMGFVEVSGPLVEVLRTHTTAVSVLKAFSIGRVYRRPEFHQCEGIVLFRDLLGILEEFYRSVEPEVELGGAGIFVVCLAWGLGVERLAML"/>
+                    <sequence id="seq_phe_arch_m_incut9A-aa" taxon="phe_arch_m_incut9A-aa" totalcount="20" value="PLRRIIDEIRSIFLKLGFTESRGPIVEVLRTHTTCVSALKMFSVGRVFRRPEFHQVEGIVAFRNLLGILREFYRSTECEIELGGAGMFTPVAAFGLGIERLAMI"/>
+                    <sequence id="seq_pro_arch_m_aneyi7A-aa" taxon="pro_arch_m_aneyi7A-aa" totalcount="20" value="IRRRVVELIRDVLDEKGHEEVLFPLLIALRPTSETSITRKFYQIVSIFRYREVTFKEAHTVVAEAIELYKRIFDTVAFDTQIGTAHHLAWQTSYGLS-DRVVAT"/>
+                    <sequence id="seq_pro_arch_m_anium13A-aa" taxon="pro_arch_m_anium13A-aa" totalcount="20" value="IMKLIDNIIRNAVDKHSFDEVNFPVLIALRPTSESAMYLKIYQIVSVYRYREIHFFEAHTAMDEYRIIWTEIADTIAFDTQIGTIHQYVHQTTFGMS-ERLLAA"/>
+                    <sequence id="seq_pro_arch_m_gatei15A-aa" taxon="pro_arch_m_gatei15A-aa" totalcount="20" value="IRKRVYGILRELLDR-DHEETLFPLLIALRPTSETAIYIKVYQIVNTFRYREISFKEAHTVVEDAIARYREFYDTIAVDTQIGTVHHLCHQTCYGIS-ERSIAA"/>
+                    <sequence id="seq_pro_arch_m_gidus4A-aa" taxon="pro_arch_m_gidus4A-aa" totalcount="20" value="IRQLVYSKLREIMDR-EHDEVYFPALIALRPTSETAMYLKVYQIVNTFRYREISFKEAHTVVKKAIGFYKEFYDTIAFDTQIGTVHHLAHQTCYGIS-ERCIAA"/>
+                    <sequence id="seq_pro_arch_m_hilum12A-aa" taxon="pro_arch_m_hilum12A-aa" totalcount="20" value="IMSLIDSIVRRAVDKRNFQEVNFPILIALRPTSESAMYLKIYQIVSVYRYREIHFFEAHTAMDQYKEIWREISSTIAFDTQIGTIHQYAHQTTYGMS-ERLLAA"/>
+                    <sequence id="seq_pro_arch_m_hilum18A-aa" taxon="pro_arch_m_hilum18A-aa" totalcount="20" value="IRRNVENLIRKFHDETGHEEVLFPVFIVLRPTSETAIMLRVYQIVSVFRAREIMFKEAHTVVREAVEIYKRIFDTIAFDTQIGTVHYLAHTTSYGIS-ERSIAA"/>
+                    <sequence id="seq_pro_arch_m_incut10A-aa" taxon="pro_arch_m_incut10A-aa" totalcount="20" value="IRQRVVEKLRRKLRETGHEEVLFPTLIALRPTSETAIYLKIFQIVNTFRYREITFKEAHTAVKEAVEIYSSFFDTVAFDTQIGTVHMLVYMTCYGIS-DRVVAS"/>
+                    <sequence id="seq_pro_arch_m_incut9A-aa" taxon="pro_arch_m_incut9A-aa" totalcount="20" value="IRRSTYNIIREILDNSGHQETLFPLLIALRPTSETAIYIKLYQIVNTFRYREISFKEAHTVVKEAVELYTEIYRTDAIDAQIGTVHHLAHQTCYGIS-ERSIAA"/>
+                    <sequence id="seq_pro_arch_m_ius_116A-aa" taxon="pro_arch_m_ius_116A-aa" totalcount="20" value="IRQAAVDLIRKLLDAKGHEEVLFPLLVALRPTSETAITKKYYQIVSVFRYREVTFKEAHTLVKEAIEIYKNFFETIAFDTQIGTVHHLPHQTSYGIS-DRVIAV"/>
+                    <sequence id="seq_pro_arch_m_licus14A-aa" taxon="pro_arch_m_licus14A-aa" totalcount="20" value="IRRYAFEAIRDMLDESNHDEALFPMLIALRPTSETPIYIKIYQIVNSFRYREITFKEAHTAVQTALNIYKTFFDTMAFDTQIGTVHNLAYQTCYGIS-DRIIAS"/>
+                    <sequence id="seq_pro_arch_m_opcut11A-aa" taxon="pro_arch_m_opcut11A-aa" totalcount="20" value="AFKFLMSLLENKLESIGAEPAWFPIVIILRPTSETEMYLIIYMTNTVYRYREVLWNETHSVMAKAKEVYDYIFWTYAADAQVGTIHLLIPQTSYGIS-MRAFGG"/>
+                    <sequence id="seq_pro_arch_m_oshii19A-aa" taxon="pro_arch_m_oshii19A-aa" totalcount="20" value="IMRNIEKFIHEEMERTGHQEVLFPALIVLRPTSETAMYFKVYQIVNVYRYREIRFFEAHTAIKEDLEIFDNLMRSLGAEVQIGTMHNYVHQTTFGMS-ERLLAA"/>
+                    <sequence id="seq_pro_arch_m_rinus20A-aa" taxon="pro_arch_m_rinus20A-aa" totalcount="20" value="LWENMRAVLDRMFKETGHENAYFPLFIIVRPTSETIIWILINQWANVVRWMEFLWQEGHTAALRILDIYTTFAETYCIEAQAGTSHFLVWATSWGVS-TRLIGA"/>
+                    <sequence id="seq_pro_arch_m_rinus5A-aa" taxon="pro_arch_m_rinus5A-aa" totalcount="20" value="ALRMIQKIMINLLEETGHEEAYFPTMIFVRPTSETVMYLKMYQVVNVFRYREISFIEAHTAINEALSIYKKFFDNYDFITELGSVINLVYQTCYGVS-ERTLGA"/>
+                    <sequence id="seq_pro_arch_m_ultum6A-aa" taxon="pro_arch_m_ultum6A-aa" totalcount="20" value="IRRRVIELVRRVLDGAGHEEVLFPLLIALRPTSETSISRRFYQIVSIFRYREVTFKEAHTVVAEAIELYKRIFDTVAFDTQIGTVHHLAWQTSYGLS-DRVIAS"/>
+                    <sequence id="seq_pro_d1nj8a_janas1A-aa" taxon="pro_d1nj8a_janas1A-aa" totalcount="20" value="IRRYTFEIIRNLLDESGHDEALFPMLIALRPTSETPIYIKIYQIVNTFRYREITFKEAHTAVKEAISIYKKFFDTMAFDTQIATVHNLAYQTCYGIS-DRVIAS"/>
+                    <sequence id="seq_ser_2cjab__rkeri2B-aa" taxon="ser_2cjab__rkeri2B-aa" totalcount="20" value="IFRTFEKIVLEELEPLGYRE?IFPKLVG?CYAQCPPFWVKVFDRSTSHRYDEFHRIEIVWIAEELHDRY?HIFNTTDYEAEFQNVSINLWSGCSGVGLERWAAV"/>
+                    <sequence id="seq_ser_arch_m_aneyi15A-aa" taxon="ser_arch_m_aneyi15A-aa" totalcount="20" value="LDFALLMYAIDHLTSKGYKLVLPPYMIYLIATAEHPLALKLVGVSPCFRKHQFHKVEQYIYLEELIRNAEELFQKYDLEVEMVSASNTVHTLNSTAASTRAITA"/>
+                    <sequence id="seq_ser_arch_m_anium3A-aa" taxon="ser_arch_m_anium3A-aa" totalcount="20" value="LEMALENYAVDFLSQRGFTVVEPPYMLYLIATSEHSIAIRVAGVSACFRRHQFNKIEQFIFLEEILSNAEEIYRKYDIEAEIVSASNDVHTLNSTAATTRILVA"/>
+                    <sequence id="seq_ser_arch_m_arius19A-aa" taxon="ser_arch_m_arius19A-aa" totalcount="20" value="LDIALLLYAIDTITSRGYTLVLPPYMLYLIATAEHSIALKLVGVSPAFRKHQFHKVEQFIFHEEMIENAEEIFRKYDLEVEMVSCSNCLHTLNSTAASTRAITA"/>
+                    <sequence id="seq_ser_arch_m_dleri11A-aa" taxon="ser_arch_m_dleri11A-aa" totalcount="20" value="LFEVLRDFLLERTRKLGFEPALFPKLIVLAPAQCEPFYIKLYDCSWTYRWNEFQRIEHVWIREELLEATKRVAESYEFEVSVGSFNVHLFTGCAG-GVTRWVVG"/>
+                    <sequence id="seq_ser_arch_m_gatei9A-aa" taxon="ser_arch_m_gatei9A-aa" totalcount="20" value="LDLALQRFSLDILMEKGYTPIIPPYMIYLIATSEHPMALRLAGLSPCFRRHQFHKVEQFVYHEELRENAEEIFQKYDIEAEVVSCSNCVHTLNSTAATSRAMRA"/>
+                    <sequence id="seq_ser_arch_m_gidus5A-aa" taxon="ser_arch_m_gidus5A-aa" totalcount="20" value="LDFALTMYALDFLRKEDFTIVSPPYMMYLIATSEHPIALLYAGVSPCFRKHQFNKVEQFVFHEKLIENVEKLWQKYDLEAEMVSCSNCVHTLNSTAATTRAITA"/>
+                    <sequence id="seq_ser_arch_m_hicus12A-aa" taxon="ser_arch_m_hicus12A-aa" totalcount="20" value="LHRALEEFFIERVKPLGFVECLFPKLIVIAPAQCEPFYVKFFDRSWTYRWHEFQRVELVWLRDRTVELSHDAADKYEMRLAVVSANVHIWTGCTG-GLSRWIYG"/>
+                    <sequence id="seq_ser_arch_m_hilum14A-aa" taxon="ser_arch_m_hilum14A-aa" totalcount="20" value="LDFALAMYALDYLAQKGFRPVIPPYMLYLIATAEHGIAQLYVGWSPCFRKHIFHKVEQFVFHEEITKNTEELIRKYDIEVELASCSNVVHTLNCTGATTRTITA"/>
+                    <sequence id="seq_ser_arch_m_hilum4A-aa" taxon="ser_arch_m_hilum4A-aa" totalcount="20" value="LEMALENYAVDFLSQRGFSIVEPPYMLYLIATSEHSIALRVAGISACFRRHQFNKIEQFVFLEEILGNAEAIYRKYDIEAEIVSASNDVHTLNSTAATTRILVA"/>
+                    <sequence id="seq_ser_arch_m_licus8A-aa" taxon="ser_arch_m_licus8A-aa" totalcount="20" value="LLRAFEELLMEEINKIGFDECLFPKLIVLAPAQCEPFYVKFVDKSWTYRWHEFLRIETVQMRDDTLKYAEKLAEKYEMRLAVTSANVHVWTGCTG-GLSRWVIG"/>
+                    <sequence id="seq_ser_arch_m_opcut13A-aa" taxon="ser_arch_m_opcut13A-aa" totalcount="20" value="MELKLIKFVLETLKKYNYKIMKLPYLVYLNPTAEHPIALIVYGFTTAFRKHQFEKIEQYAFYNFLVSNAETIVKQWDLEVELHSFGTVVNTIYATAPIQRAMTA"/>
+                    <sequence id="seq_ser_arch_m_orans7A-aa" taxon="ser_arch_m_orans7A-aa" totalcount="20" value="LERALINFMLDVHTRQGYLEVFPPVLIYLAPTAEVPVTVSLTAYTACFRRHQFNKVELVKFLEKLTLDAEEILKTYDIEVEISSCSNFVHTLNGSGAVGRTVVA"/>
+                    <sequence id="seq_ser_arch_m_oshii16A-aa" taxon="ser_arch_m_oshii16A-aa" totalcount="20" value="LDLALIRFALDRLIEKGFTPVIPPYMVYLIPTAEHPLALLYVGVSPCFRKHQFHKVEQFVYHEKIIRNAEELFQKYDIEAEVVSASNCVHTLNSTAATSRAIVA"/>
+                    <sequence id="seq_ser_arch_m_rinus18A-aa" taxon="ser_arch_m_rinus18A-aa" totalcount="20" value="LQRALIQFFLDLAVQQGYTEIQPPLFVYPIPTAEVPVTIKFCAYSPCFRRHQFDKVELVQFLEQLREDAERPLRKYDLEVEVSSISNFVHTLNGSGALPRVVAA"/>
+                    <sequence id="seq_ser_arch_m_rinus20A-aa" taxon="ser_arch_m_rinus20A-aa" totalcount="20" value="LDMALLAYAIDYLTSKGYTLVLPPYMLYLIATAEHPLALKYVGISPCFRKHQFHKVEQFVYMEELISNAEHLFRKYDLEAEMVSCSNVLHTLNSTAASTRTITA"/>
+                    <sequence id="seq_ser_arch_m_schii10A-aa" taxon="ser_arch_m_schii10A-aa" totalcount="20" value="LFRALEELIVEEVKKIGFQECLFPKLIVLAPAQCEPFYIMFFDRSWTYRWNEFLRVECVWIRDKTLKYAEKLAEKYEMRLAVTSANVHVWTGCTG-GITRWVVG"/>
+                    <sequence id="seq_ser_arch_m_ultum17A-aa" taxon="ser_arch_m_ultum17A-aa" totalcount="20" value="LDFALLMYAIDKLTSKGYRLVLPPYMIYLIATAEHPLAIKLVGVSPCFRKHQFHKVEQFVYLEELIRNAEELFQKYDLEAEMVSASNTVHTLNSTAASTRTITA"/>
+                    <sequence id="seq_ser_arch_m_um_sp6A-aa" taxon="ser_arch_m_um_sp6A-aa" totalcount="20" value="LEHALVQFMLDVHREQGYVDVFPPIPVWLLPTSEVPVTLKHQAYSPNFRRHQFNKVEMVNFFEGLVDEAEEVLRKYDIEVEVSSVSNFLHTLNGSGAIPRVMVA"/>
+                    <sequence id="seq_thr_3a32_a_ernix20A-aa" taxon="thr_3a32_a_ernix20A-aa" totalcount="20" value="IRYALAEVLAKFHARRGYYVVETPIIAAVKPMNCPYHIFKVFEFGRVHRYRGFTQDDAHIIVYDVFEEMKLVLEKLDFIMQMGTIQFDVYIIHRALSIERFLGV"/>
+                    <sequence id="seq_thr_arch_m_acter18A-aa" taxon="thr_arch_m_acter18A-aa" totalcount="20" value="IRDLLADYVYMLVTSEGAMPVETPIMYMLRYACCFGAFASIYELSTSFRLRGFTMPDLHTVFARQVEMCMRTGQKMDFAAENPTVQIDPIILHCSPSIERVICS"/>
+                    <sequence id="seq_thr_arch_m_anium8A-aa" taxon="thr_arch_m_anium8A-aa" totalcount="20" value="IRKELIKYMDYVNGKNGWTDVWTPHVFGIKPMNCPGHIVKYSEPGTVYRYRAFTQDDGHEFIKTLLGMVRETFTKIDVHVQLSTIQVDVVIIHRAISYERFMAI"/>
+                    <sequence id="seq_thr_arch_m_ankai1A-aa" taxon="thr_arch_m_ankai1A-aa" totalcount="20" value="IRDLLQDYVYNMVVENNGMPVETPVMYMLRFAACFGQFLKLYELSTSFRYRGFTMPDMHTVFENQFWMCLKTGDKVDMAVENPTVQIDPVILHCSPSIERVLCG"/>
+                    <sequence id="seq_thr_arch_m_arius6A-aa" taxon="thr_arch_m_arius6A-aa" totalcount="20" value="IRKEMMRFMEEINDSMGYKEVYTSHVYGIKPMNCPAHIIRFSEFGHVYRWRGFTQDDGHIFIKLLMKKTLDVLAKIDFDIQLSTIQVDPVMVHRAISIDRFMAI"/>
+                    <sequence id="seq_thr_arch_m_dleri17A-aa" taxon="thr_arch_m_dleri17A-aa" totalcount="20" value="VRRCLAEYVENLMADLGAAVVETPVMYMLRYAACFGAFLKIYELSQSFRLRAFTMPDLHTVFLEQAKLCLEVGLKVDFAFENPTVQIDPVILHCSPSLERVICA"/>
+                    <sequence id="seq_thr_arch_m_gatei15A-aa" taxon="thr_arch_m_gatei15A-aa" totalcount="20" value="VRDLLADYALSLVLDYGASPVETPVMYMLRFAACFGMFMKMYELSTSFRHRAFTMPDMHSLFEEQLAIGWKTGRKIDLAAENPTVQIDPPILHCSPSVERVFCA"/>
+                    <sequence id="seq_thr_arch_m_gidus12A-aa" taxon="thr_arch_m_gidus12A-aa" totalcount="20" value="VKTLLEQFITRKCIDYGAMEVETPIMYFLRFAACFGQFLKIYELTRSFRKRAFTMPDMHTVFFNQYRLSVEVLRKFEFNFALSTVQIDPYILHCSVAVERVMYA"/>
+                    <sequence id="seq_thr_arch_m_hilum3A-aa" taxon="thr_arch_m_hilum3A-aa" totalcount="20" value="MMELVEDYSYIVALGIPVFKIRGTNMFILRYAACFQQFFGMLEIADSYRHRRFYMPDLHIFTYKLHEVIFREIGNVEFHIEIATFQIDPVIIHTAISVERYLYA"/>
+                    <sequence id="seq_thr_arch_m_hilum7A-aa" taxon="thr_arch_m_hilum7A-aa" totalcount="20" value="IRKELLSYMDSMNRKNGWFDVWTPHVFGIKPMNCPGHIVRYSEPGTVYRYRAFTQDDGHAFIRTLLTMVKDVFTKIDVHVQLSTIQLDVVMIHRAISYERVMAI"/>
+                    <sequence id="seq_thr_arch_m_incut10A-aa" taxon="thr_arch_m_incut10A-aa" totalcount="20" value="MIEAVSEYAWKLALGIPVLRIRGTNMFVMRYAACHQQFLGMFEVADSYRFRKFYMPDLHILSEKLQEVIHREAANVEYHIEIATFQFDPVIIHTALSVERYIYM"/>
+                    <sequence id="seq_thr_arch_m_incut11A-aa" taxon="thr_arch_m_incut11A-aa" totalcount="20" value="IMESIMQYSWNIVLGIPVYKVMGTNMFVLRYAACHQQFFGMFEVADSYRLRKFYMPDLHILSRIVQDKILEEIANVEYHIEIATFQIDPVIIHTAIGIERFIYT"/>
+                    <sequence id="seq_thr_arch_m_incut9A-aa" taxon="thr_arch_m_incut9A-aa" totalcount="20" value="MVDAVSEYAWKLALGIPVLRIRGTNMFVMRYAACHQQFLGMFEIADSYRLRRFYMPDLHILSRKLQEVIHREATNVEYHIEIATFQFDPVIIHTALSIERYIYM"/>
+                    <sequence id="seq_thr_arch_m_itans2A-aa" taxon="thr_arch_m_itans2A-aa" totalcount="20" value="MVDLVNDYSIKIALPFPVFIVKGTNMFVLRYAACFQQFFGMLEVADSYRFRKFYMPDLHVFFLNMHKKIMEEIKNIEYHIEIGTTQIDVIILHNAISIERYIYA"/>
+                    <sequence id="seq_thr_arch_m_orans14A-aa" taxon="thr_arch_m_orans14A-aa" totalcount="20" value="VKSLLENYVLDVATEFGAMEVETPLMYFLRFAACFGQFLRMIEMTRSFRKRAFTMPDMHTLFKEQYDLCIDVLEKFEFNFALSTVQIDPIVLHCSPAIERCIYA"/>
+                    <sequence id="seq_thr_arch_m_oshii4A-aa" taxon="thr_arch_m_oshii4A-aa" totalcount="20" value="IKSLLEQYVTEKVIEYGAMEVETPVMYFLRFAACFGQFLRMYELTRSFRRRAFTMPDMHTLFKKQFKLSMEVLKKFEFNFALSTVQIDPLILHCSPAIERVMYA"/>
+                    <sequence id="seq_thr_arch_m_rinus5A-aa" taxon="thr_arch_m_rinus5A-aa" totalcount="20" value="LRETLINFLREEQIRRGYQPVVTPHIALLKPMNCPHHIIRLAEFGQVYRYRGFTIDDAHIFFKNVIDLTLYVFRKLDFMVQLGTVQLDPVMIHRAPSLERFIGV"/>
+                    <sequence id="seq_thr_arch_m_schii16A-aa" taxon="thr_arch_m_schii16A-aa" totalcount="20" value="MRDLLADYVYNLVVNMGAMPVETPIMYMLRFAACFGQFLKLYELSTSFRYRCFTMPDMHTVFEKQFWECLKTGDKVDIAVENPTVQIDPIILHCSPSIERVLCG"/>
+                    <sequence id="seq_thr_arch_m_um_sp13A-aa" taxon="thr_arch_m_um_sp13A-aa" totalcount="20" value="VLRELSEYVHGLNREMGYDEVETPHLFGLKPMNCPGHAVRYFEDGKVYRKWAFTIDDGHVFVRRLIDIILEVLDKIDFAFDGPTVQLDPVMIHRALSYERFFMV"/>
+                </data>
+    
+
+    
+<map name="Beta">beast.math.distributions.Beta</map>
+<map name="Exponential">beast.math.distributions.Exponential</map>
+<map name="InverseGamma">beast.math.distributions.InverseGamma</map>
+<map name="LogNormal">beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Gamma">beast.math.distributions.Gamma</map>
+<map name="Uniform">beast.math.distributions.Uniform</map>
+<map name="prior">beast.math.distributions.Prior</map>
+<map name="LaplaceDistribution">beast.math.distributions.LaplaceDistribution</map>
+<map name="OneOnX">beast.math.distributions.OneOnX</map>
+<map name="Normal">beast.math.distributions.Normal</map>
+<map name="taxon">beast.evolution.alignment.Taxon</map>
+<map name="taxonset">beast.evolution.alignment.TaxonSet</map>
+
+<taxonset id='allTaxa' alignment='@AARS_Arch_edited'/>
+
+
+<run chainLength="10000000" id="mcmc" spec="MCMC">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:AARS_Arch_edited" name="stateNode">
+            <taxonset id="TaxonSet.AARS_Arch_edited" spec="TaxonSet">
+                <data idref="AARS_Arch_edited" name="alignment"/>
+            </taxonset>
+        </tree>
+        <parameter id="birthRate.t:AARS_Arch_edited" name="stateNode" value="1.0"/>
+		<stateNode idref='ucldStdev.c:AARS_Arch_edited'/>
+		<stateNode idref='rateCategories.c:AARS_Arch_edited'/>
+    </state>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+
+            <distribution id="V.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="V" spec="TaxonSet">
+		            <taxon id="seq_val_arch_m_aneyi12A-aa1"/>
+                    <taxon id="seq_val_arch_m_anium18A-aa1"/>
+                    <taxon id="seq_val_arch_m_ankai5A-aa1"/>
+                    <taxon id="seq_val_arch_m_arius15A-aa1"/>
+                    <taxon id="seq_val_arch_m_hilum11A-aa1"/>
+                    <taxon id="seq_val_arch_m_hilum17A-aa1"/>
+                    <taxon id="seq_val_arch_m_incut13A-aa1"/>
+                    <taxon id="seq_val_arch_m_incut2A-aa1"/>
+                    <taxon id="seq_val_arch_m_incut3A-aa1"/>
+                    <taxon id="seq_val_arch_m_incut4A-aa1"/>
+                    <taxon id="seq_val_arch_m_incut6A-aa1"/>
+                    <taxon id="seq_val_arch_m_incut8A-aa1"/>
+                    <taxon id="seq_val_arch_m_incut9A-aa1"/>
+                    <taxon id="seq_val_arch_m_itans10A-aa1"/>
+                    <taxon id="seq_val_arch_m_rinus16A-aa1"/>
+                    <taxon id="seq_val_arch_m_schii7A-aa1"/>
+                    <taxon id="seq_val_arch_m_ultum14A-aa1"/>
+                </taxonset>
+            </distribution>
+            <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="G" spec="TaxonSet">
+		            <taxon id="seq_gly_arch_m_anium1A-aa"/>
+                    <taxon id="seq_gly_arch_m_hilum20A-aa"/>
+                    <taxon id="seq_gly_arch_m_itans12A-aa"/>
+                    <taxon id="seq_gly_arch_m_opcut10A-aa"/>
+                    <taxon id="seq_gly_arch_m_opcut11A-aa"/>
+                    <taxon id="seq_gly_arch_m_opcut13A-aa"/>
+                    <taxon id="seq_gly_arch_m_opcut14A-aa"/>
+                    <taxon id="seq_gly_arch_m_opcut15A-aa"/>
+                    <taxon id="seq_gly_arch_m_opcut16A-aa"/>
+                    <taxon id="seq_gly_arch_m_opcut17A-aa"/>
+                    <taxon id="seq_gly_arch_m_opcut18A-aa"/>
+                    <taxon id="seq_gly_arch_m_opcut19A-aa"/>
+                    <taxon id="seq_gly_arch_m_opcut4A-aa"/>
+                    <taxon id="seq_gly_arch_m_opcut5A-aa"/>
+                    <taxon id="seq_gly_arch_m_opcut6A-aa"/>
+                    <taxon id="seq_gly_arch_m_opcut7A-aa"/>
+                    <taxon id="seq_gly_arch_m_opcut8A-aa"/>
+                    <taxon id="seq_gly_arch_m_opcut9A-aa"/>
+
+                </taxonset>
+            </distribution>
+            <distribution id="A.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="A" spec="TaxonSet">
+		            <taxon id="seq_ala_2ztg_a__fulg1A-aa"/>
+                    <taxon id="seq_ala_2zze_p__hori2A-aa"/>
+                    <taxon id="seq_ala_arch_m_aneyi12A-aa"/>
+                    <taxon id="seq_ala_arch_m_anium17A-aa"/>
+                    <taxon id="seq_ala_arch_m_arius14A-aa"/>
+                    <taxon id="seq_ala_arch_m_dleri8A-aa"/>
+                    <taxon id="seq_ala_arch_m_gatei6A-aa"/>
+                    <taxon id="seq_ala_arch_m_hicus9A-aa"/>
+                    <taxon id="seq_ala_arch_m_licus5A-aa"/>
+                    <taxon id="seq_ala_arch_m_orans4A-aa"/>
+                    <taxon id="seq_ala_arch_m_rinus15A-aa"/>
+                    <taxon id="seq_ala_arch_m_schii7A-aa"/>
+                    <taxon id="seq_ala_arch_m_ultum13A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="D.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="D" spec="TaxonSet">
+		            <taxon id="Asp_01/1-99"/>
+		            <taxon id="Asp_02/1-99"/>
+		            <taxon id="Asp_03/1-99"/>
+		            <taxon id="Asp_04/1-99"/>
+		            <taxon id="Asp_05/1-99"/>
+		            <taxon id="Asp_06/1-99"/>
+		            <taxon id="Asp_07/1-99"/>
+		            <taxon id="Asp_08/1-99"/>
+		            <taxon id="Asp_09/1-99"/>
+		            <taxon id="Asp_10/1-99"/>
+		            <taxon id="Asp_11/1-99"/>
+		            <taxon id="Asp_12/1-99"/>
+		            <taxon id="Asp_13/1-99"/>
+		            <taxon id="Asp_14/1-99"/>
+		            <sequence id="seq_asp_1wydb__odaii1B-aa" taxon="asp_1wydb__odaii1B-aa" totalcount="20" value="IQSLALKAFRETLYKEGFIEIFTPKIIFLAQSPQLYKEERVFEVAPAWRAAEFISMDVEMAYNDVMQLLEKILHSFDLIYEIVSGSTRPPHAGFGMGLARLMVM"/>
+                    <sequence id="seq_asp_arch_m_aneyi13A-aa" taxon="asp_arch_m_aneyi13A-aa" totalcount="20" value="VEAEMARAAREWFYEHGFVEIFTSKIVFLAQSPQLYKQERVFEIGPAFRATEYTSVDLEMGFEDVMDAVEGVVRSFDLLFEIATGGQRPPHGGAGIGLERVAMQ"/>
+                    <sequence id="seq_asp_arch_m_anium19A-aa" taxon="asp_arch_m_anium19A-aa" totalcount="20" value="AESSILWGIREFLHSQGFIEVHTPKIVYLNQSPQLYKEEKVFEVGPAFRANEFTSIDIEMSHNDAMRILENAVKSFDLQYEVTSGAQRPPHAGWGLGLERLTMI"/>
+                    <sequence id="seq_asp_arch_m_arius16A-aa" taxon="asp_arch_m_arius16A-aa" totalcount="20" value="IQNITLKSFRETLYKEGFVEVFTPKIIFLAQSPQLYKEEKVFEIAPAWRAAEFISMDVEMAYEDTMKLLEKLIYSFDLIYEIASGSTRPPHTGFGMGFARLLVM"/>
+                    <sequence id="seq_asp_arch_m_dleri9A-aa" taxon="asp_arch_m_dleri9A-aa" totalcount="20" value="IRNVVTTAIREFLEERGFIEVHTPKIIYLAQSPQLYKQERVYEIGPIFRANEAISVDIEMSEEDVMRVLEELLAAFDLMYELASGAQRPPHGGWGLGLERTLMT"/>
+                    <sequence id="seq_asp_arch_m_gatei7A-aa" taxon="asp_arch_m_gatei7A-aa" totalcount="20" value="IRNAVQHATRNFFFENGFIEINTSKIVFLNQSPQLYKQEKVYEIGPIFRANEATSIDIEVSHLGVMQTLEDLIRAFDMMHELSSGAQRPPHAGWGLGAERLVTT"/>
+                    <sequence id="seq_asp_arch_m_gidus3A-aa" taxon="asp_arch_m_gidus3A-aa" totalcount="20" value="IRHQVMQSVREFLSEEGFIEVHTPKIVFLNQSPQLYKQEKVFEIGPIFRANEAISIDIEMSHNGVMDVLERLVQSFDLMHELSSGAQRPPHAGWGLGAERLIMS"/>
+                    <sequence id="seq_asp_arch_m_hicus10A-aa" taxon="asp_arch_m_hicus10A-aa" totalcount="20" value="IKSRMLHSVRVFLEEQGFLEINTPKLVFLGQSPQLYKQDRVYEIAPIFRANEVISIDIEASHEDVMKILENLVVAFDLMYEISSGAMRPPHAGWGLGAERFNMT"/>
+                    <sequence id="seq_asp_arch_m_hilum12A-aa" taxon="asp_arch_m_hilum12A-aa" totalcount="20" value="VASAMLRSIREVLYGEGFVEVFTPKIIYLSQSPQLYKEERVFEIGPAYRANEFISVDAEAAYNDIMDILEKIMRSYDLIIEVASGATRPPHAGFGLGFNRLVTA"/>
+                    <sequence id="seq_asp_arch_m_hilum18A-aa" taxon="asp_arch_m_hilum18A-aa" totalcount="20" value="IESALLWGIRQYLHSQKFIEVHTPKIVYLNQSPQLYKEDRVFEVGPAFRANEFTSIDIEMSHNDAMAMLEN---SFDLQYEVTSGAQRPPHAGWGLGLERLTMI"/>
+                    <sequence id="seq_asp_arch_m_itans11A-aa" taxon="asp_arch_m_itans11A-aa" totalcount="20" value="LRAKVQKFFRDWFMENGFVEINTPKIVYLTQSPQLYKQPKVFEIAFAYRAAEFTSVDAEMGEYDVINTIKKMLIGFDIIFEIISGAQRPPHGGFGLGLERYLRQ"/>
+                    <sequence id="seq_asp_arch_m_licus6A-aa" taxon="asp_arch_m_licus6A-aa" totalcount="20" value="LRSEVLKSIRNTFHDNGFIDVDTPKLVFLGQSPQLYKQDRVFEIGPIFRANEAISIDCEMSEKDAMEILEKVINAFDLMYEISSGAQRPPHSGWGVGIERLMMI"/>
+                    <sequence id="seq_asp_arch_m_orans5A-aa" taxon="asp_arch_m_orans5A-aa" totalcount="20" value="IRHEALQAIREYFVKNKFIETATPKVVFLNQSPQLFKQDRVFEIGPIFRANEATSIDVEVSHFDVMEILENLVASFDMMHELSSGAQRPPHAGWGMGCERFVMT"/>
+                    <sequence id="seq_asp_arch_m_oshii14A-aa" taxon="asp_arch_m_oshii14A-aa" totalcount="20" value="IRSSVFRAVREFFYSEGFIEIHTPKIIFLAQSPQLYKQDKVFEIAPIFRANEAWSIDAEMAEGEVMDLLERLISAFDLEYEISSGGQRPPHGGFGLGAERLIMR"/>
+                    <sequence id="seq_asp_arch_m_rinus15A-aa" taxon="asp_arch_m_rinus15A-aa" totalcount="20" value="LRHQVYLITRRYFDAHQFVEVETPVLTALPQSPQLYKQDRYFQIVKCFRDPEFTQIDVEMTEEQIFELIEGLIQAYDLVLEIGGGSIRPPHGGIALGLDRIVML"/>
+                    <sequence id="seq_asp_arch_m_rinus17A-aa" taxon="asp_arch_m_rinus17A-aa" totalcount="20" value="IRAGIIEAARQYFNNNGFIEIHTPKIVYLSQSPQLYKQPRVFEITPYFRANESWGIDAEQGVEDVLNTLEDLIVKFDLDYEIASGGQRPPHGGFGLGIERLMMK"/>
+                    <sequence id="seq_asp_arch_m_schii8A-aa" taxon="asp_arch_m_schii8A-aa" totalcount="20" value="IRSEMLKSVRNTLYNEGFIEVNTPKLVFLGQSPQLYKQDRVFEIAPIFRANEATSIDIEMADKDAMDILEKVVYAFDLMYEISSGAQRPPHAGWGLGADRFTMV"/>
+                    <sequence id="seq_asp_arch_m_um_sp4A-aa" taxon="asp_arch_m_um_sp4A-aa" totalcount="20" value="LRSKAMGAMRSWFYDNEFEEVDTPELSYLSQSPQLYKQDRLFEVGHAFRASEIAMFDVELGHHDVMDVQEESLRKFDLLYELSSGGQRPPHGGYGLGIDRLIQQ"/>
+                    <sequence id="seq_asp_d1b8aa_ensis2A-aa" taxon="asp_d1b8aa_ensis2A-aa" totalcount="20" value="IRSSVFKAVRDFFHENGFIEIHTPKIIFLAESPQLYKEDRVYEIAPIFRANEAWSIDSEMAEEEVMSFLERLVAAFDLEYEISSGGQRPPHGGFGLGAERLIKQ"/>
+                </taxonset>
+            </distribution>
+            <distribution id="P.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="P" spec="TaxonSet">
+		            <taxon id="Pro_01/1-99"/>
+		            <taxon id="Pro_02/1-99"/>
+		            <taxon id="Pro_03/1-99"/>
+		            <taxon id="Pro_04/1-99"/>
+		            <taxon id="Pro_05/1-99"/>
+		            <taxon id="Pro_06/1-99"/>
+		            <taxon id="Pro_07/1-99"/>
+		            <taxon id="Pro_08/1-99"/>
+		            <taxon id="Pro_09/1-99"/>
+		            <taxon id="Pro_10/1-99"/>
+		            <taxon id="Pro_11/1-99"/>
+		            <taxon id="Pro_12/1-99"/>
+		            <taxon id="Pro_13/1-99"/>
+		            <taxon id="Pro_14/1-99"/>
+                </taxonset>
+            </distribution>
+            <distribution id="E.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="E" spec="TaxonSet">
+		            <taxon id="Glu_01/3-101"/>
+		            <taxon id="Glu_02/3-101"/>
+		            <taxon id="Glu_03/3-101"/>
+		            <taxon id="Glu_04/3-101"/>
+		            <taxon id="Glu_05/3-101"/>
+		            <taxon id="Glu_06/3-101"/>
+		            <taxon id="Glu_07/3-101"/>
+		            <taxon id="Glu_08/3-101"/>
+		            <taxon id="Glu_09/3-101"/>
+		            <taxon id="Glu_10/3-101"/>
+		            <taxon id="Glu_11/3-101"/>
+		            <taxon id="Glu_12/3-101"/>
+		            <taxon id="Glu_13/3-101"/>
+		            <taxon id="Glu_14/3-101"/>
+                </taxonset>
+            </distribution>
+            <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="S" spec="TaxonSet">
+		            <taxon id="Ser_01/1-99"/>
+		            <taxon id="Ser_02/1-99"/>
+		            <taxon id="Ser_05/1-99"/>
+		            <taxon id="Ser_06/1-99"/>
+		            <taxon id="Ser_09/1-99"/>
+		            <taxon id="Ser_10/1-99"/>
+		            <taxon id="Ser_11/1-99"/>
+		            <taxon id="Ser_12/1-99"/>
+		            <taxon id="Ser_13/1-99"/>
+		            <taxon id="Ser_14/1-99"/>
+                </taxonset>
+            </distribution>
+            <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="L" spec="TaxonSet">
+		            <taxon id="Leu_01/3-101"/>
+		            <taxon id="Leu_02/3-101"/>
+		            <taxon id="Leu_03/3-101"/>
+		            <taxon id="Leu_04/3-101"/>
+		            <taxon id="Leu_05/3-101"/>
+		            <taxon id="Leu_06/3-101"/>
+		            <taxon id="Leu_07/3-101"/>
+		            <taxon id="Leu_08/3-101"/>
+		            <taxon id="Leu_09/3-101"/>
+		            <taxon id="Leu_10/3-101"/>
+		            <taxon id="Leu_11/3-101"/>
+		            <taxon id="Leu_12/3-101"/>
+		            <taxon id="Leu_13/3-101"/>
+		            <taxon id="Leu_14/3-101"/>
+                </taxonset>
+            </distribution>
+            <distribution id="R.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="R" spec="TaxonSet">
+		            <taxon id="Arg_01/3-101"/>
+		            <taxon id="Arg_02/3-101"/>
+		            <taxon id="Arg_03/3-101"/>
+		            <taxon id="Arg_04/3-101"/>
+		            <taxon id="Arg_05/3-101"/>
+		            <taxon id="Arg_06/3-101"/>
+		            <taxon id="Arg_07/3-101"/>
+		            <taxon id="Arg_08/3-101"/>
+		            <taxon id="Arg_09/3-101"/>
+		            <taxon id="Arg_10/3-101"/>
+		            <taxon id="Arg_11/3-101"/>
+		            <taxon id="Arg_12/3-101"/>
+		            <taxon id="Arg_13/3-101"/>
+		            <taxon id="Arg_14/3-101"/>
+                </taxonset>
+            </distribution>
+            <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="T" spec="TaxonSet">
+		            <taxon id="Thr_01/1-99"/>
+		            <taxon id="Thr_02/1-99"/>
+		            <taxon id="Thr_03/1-99"/>
+		            <taxon id="Thr_04/1-99"/>
+		            <taxon id="Thr_05/1-99"/>
+		            <taxon id="Thr_06/1-99"/>
+		            <taxon id="Thr_07/1-99"/>
+		            <taxon id="Thr_08/1-99"/>
+		            <taxon id="Thr_09/1-99"/>
+		            <taxon id="Thr_10/1-99"/>
+		            <taxon id="Thr_11/1-99"/>
+		            <taxon id="Thr_12/1-99"/>
+		            <taxon id="Thr_13/1-99"/>
+		            <taxon id="Thr_14/1-99"/>
+                </taxonset>
+            </distribution>
+            <distribution id="I.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="I" spec="TaxonSet">
+		            <taxon id="Ile_01/3-101"/>
+		            <taxon id="Ile_02/3-101"/>
+		            <taxon id="Ile_03/3-101"/>
+		            <taxon id="Ile_04/3-101"/>
+		            <taxon id="Ile_05/3-101"/>
+		            <taxon id="Ile_06/3-101"/>
+		            <taxon id="Ile_07/3-101"/>
+		            <taxon id="Ile_08/3-101"/>
+		            <taxon id="Ile_09/3-101"/>
+		            <taxon id="Ile_10/3-101"/>
+		            <taxon id="Ile_11/3-101"/>
+		            <taxon id="Ile_12/3-101"/>
+		            <taxon id="Ile_13/3-101"/>
+		            <taxon id="Ile_14/3-101"/>
+                </taxonset>
+            </distribution>
+            <distribution id="N.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="N" spec="TaxonSet">
+		            <taxon id="Asn_09/1-99"/>
+		            <taxon id="Asn_10/1-99"/>
+		            <taxon id="Asn_11/1-99"/>
+		            <taxon id="Asn_13/1-99"/>
+		            <taxon id="Asn_14/1-99"/>
+                </taxonset>
+            </distribution>
+            <distribution id="C.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="C" spec="TaxonSet">
+		            <taxon id="Cys_01/3-101"/>
+		            <taxon id="Cys_02/3-101"/>
+		            <taxon id="Cys_03/3-101"/>
+		            <taxon id="Cys_05/3-101"/>
+		            <taxon id="Cys_06/3-101"/>
+		            <taxon id="Cys_08/3-101"/>
+		            <taxon id="Cys_09/3-101"/>
+		            <taxon id="Cys_10/3-101"/>
+		            <taxon id="Cys_11/3-101"/>
+		            <taxon id="Cys_12/3-101"/>
+		            <taxon id="Cys_13/3-101"/>
+		            <taxon id="Cys_14/3-101"/>
+                </taxonset>
+            </distribution>
+            <distribution id="Y.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="Y" spec="TaxonSet">
+		            <taxon id="Tyr_01/3-101"/>
+		            <taxon id="Tyr_02/3-101"/>
+		            <taxon id="Tyr_04/3-101"/>
+		            <taxon id="Tyr_05/3-101"/>
+		            <taxon id="Tyr_06/3-101"/>
+		            <taxon id="Tyr_07/3-101"/>
+		            <taxon id="Tyr_08/3-101"/>
+		            <taxon id="Tyr_09a/3-101"/>
+		            <taxon id="Tyr_09b/3-101"/>
+		            <taxon id="Tyr_10/3-101"/>
+		            <taxon id="Tyr_11/3-101"/>
+		            <taxon id="Tyr_12/3-101"/>
+		            <taxon id="Tyr_13/3-101"/>
+		            <taxon id="Tyr_14/3-101"/>
+                </taxonset>
+            </distribution>
+            <distribution id="H.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="H" spec="TaxonSet">
+		            <taxon id="His_01/1-99"/>
+		            <taxon id="His_02/1-99"/>
+		            <taxon id="His_03/1-99"/>
+		            <taxon id="His_04/1-99"/>
+		            <taxon id="His_05/1-99"/>
+		            <taxon id="His_06/1-99"/>
+		            <taxon id="His_07/1-99"/>
+		            <taxon id="His_08/1-99"/>
+		            <taxon id="His_10/1-99"/>
+		            <taxon id="His_11/1-99"/>
+		            <taxon id="His_12/1-99"/>
+		            <taxon id="His_13/1-99"/>
+		            <taxon id="His_14/1-99"/>
+                </taxonset>
+            </distribution>
+            <distribution id="M.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="M" spec="TaxonSet">
+		            <taxon id="Met_01/3-101"/>
+		            <taxon id="Met_02/3-101"/>
+		            <taxon id="Met_03/3-101"/>
+		            <taxon id="Met_04/3-101"/>
+		            <taxon id="Met_05/3-101"/>
+		            <taxon id="Met_06/3-101"/>
+		            <taxon id="Met_07/3-101"/>
+		            <taxon id="Met_08/3-101"/>
+		            <taxon id="Met_09/3-101"/>
+		            <taxon id="Met_10/3-101"/>
+		            <taxon id="Met_11/3-101"/>
+		            <taxon id="Met_12/3-101"/>
+		            <taxon id="Met_13/3-101"/>
+		            <taxon id="Met_14/3-101"/>
+                </taxonset>
+            </distribution>
+            <distribution id="W.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="W" spec="TaxonSet">
+		            <taxon id="Trp_01/3-101"/>
+		            <taxon id="Trp_02a/3-101"/>
+		            <taxon id="Trp_02b/3-101"/>
+		            <taxon id="Trp_03/3-101"/>
+		            <taxon id="Trp_04/3-101"/>
+		            <taxon id="Trp_05/3-101"/>
+		            <taxon id="Trp_07/3-101"/>
+		            <taxon id="Trp_08/3-101"/>
+		            <taxon id="Trp_09/3-101"/>
+		            <taxon id="Trp_10/3-101"/>
+		            <taxon id="Trp_11/3-101"/>
+		            <taxon id="Trp_12/3-101"/>
+		            <taxon id="Trp_13/3-101"/>
+		            <taxon id="Trp_14/3-101"/>
+                </taxonset>
+            </distribution>
+            <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="K" spec="TaxonSet">
+		            <taxon id="Lys_01/3-101"/>
+		            <taxon id="Lys_02/3-101"/>
+		            <taxon id="Lys_03/3-101"/>
+		            <taxon id="Lys_04/3-101"/>
+		            <taxon id="Lys_05/3-101"/>
+		            <taxon id="Lys_07/3-101"/>
+		            <taxon id="Lys_08/3-101"/>
+		            <taxon id="Lys_10/3-101"/>
+		            <taxon id="Lys_11/3-101"/>
+		            <taxon id="Lys_13/3-101"/>
+		            <taxon id="Lys_14/3-101"/>
+                </taxonset>
+            </distribution>
+            <distribution id="F.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+                <taxonset id="F" spec="TaxonSet">
+		            <taxon id="Phe_01/1-99"/>
+		            <taxon id="Phe_02/1-99"/>
+		            <taxon id="Phe_03/1-99"/>
+		            <taxon id="Phe_05/1-99"/>
+		            <taxon id="Phe_06/1-99"/>
+		            <taxon id="Phe_08/1-99"/>
+		            <taxon id="Phe_10/1-99"/>
+		            <taxon id="Phe_12/1-99"/>
+		            <taxon id="Phe_13/1-99"/>
+		            <taxon id="Phe_14/1-99"/>
+                </taxonset>
+            </distribution>
+
+            <distribution spec='beast.evolution.substitutionmodel.AARSTreePrior' id='AARSprior'>
+                        <trait id="TraitSet1" spec="beast.evolution.tree.TraitSet" taxa="@allTaxa" traitname="state" units="year">
+Val_01/3-101=0, Val_02/3-101=0, Val_03/3-101=0, Val_04/3-101=0, Val_05/3-101=0, Val_06/3-101=0, Val_07/3-101=0, Val_08/3-101=0, Val_09/3-101=0, Val_10/3-101=0, Val_11/3-101=0, Val_12/3-101=0, Val_13/3-101=0, Val_14/3-101=0, 
+Gly_01/1-99=1, Gly_02/1-99=1, Gly_03/1-99=1, Gly_04/1-99=1, Gly_05/1-99=1, Gly_06/1-99=1, Gly_07/1-99=1, Gly_08/1-99=1, Gly_09/1-99=1, Gly_10/1-99=1, Gly_11/1-99=1, Gly_12/1-99=1, Gly_13/1-99=1, Gly_14/1-99=1, 
+Ala_01/1-99=2, Ala_02/1-99=2, Ala_03/1-99=2, Ala_04/1-99=2, Ala_05/1-99=2, Ala_06/1-99=2, Ala_07/1-99=2, Ala_09/1-99=2, Ala_10/1-99=2, Ala_11/1-99=2, Ala_12/1-99=2, Ala_13/1-99=2, Ala_14/1-99=2, 
+Asp_01/1-99=3, Asp_02/1-99=3, Asp_03/1-99=3, Asp_04/1-99=3, Asp_05/1-99=3, Asp_06/1-99=3, Asp_07/1-99=3, Asp_08/1-99=3, Asp_09/1-99=3, Asp_10/1-99=3, Asp_11/1-99=3, Asp_12/1-99=3, Asp_13/1-99=3, Asp_14/1-99=3, 
+Pro_01/1-99=4, Pro_02/1-99=4, Pro_03/1-99=4, Pro_04/1-99=4, Pro_05/1-99=4, Pro_06/1-99=4, Pro_07/1-99=4, Pro_08/1-99=4, Pro_09/1-99=4, Pro_10/1-99=4, Pro_11/1-99=4, Pro_12/1-99=4, Pro_13/1-99=4, Pro_14/1-99=4, 
+Glu_01/3-101=5, Glu_02/3-101=5, Glu_03/3-101=5, Glu_04/3-101=5, Glu_05/3-101=5, Glu_06/3-101=5, Glu_07/3-101=5, Glu_08/3-101=5, Glu_09/3-101=5, Glu_10/3-101=5, Glu_11/3-101=5, Glu_12/3-101=5, Glu_13/3-101=5, Glu_14/3-101=5, 
+Ser_01/1-99=6, Ser_02/1-99=6, Ser_05/1-99=6, Ser_06/1-99=6, Ser_09/1-99=6, Ser_10/1-99=6, Ser_11/1-99=6, Ser_12/1-99=6, Ser_13/1-99=6, Ser_14/1-99=6, 
+Leu_01/3-101=7, Leu_02/3-101=7, Leu_03/3-101=7, Leu_04/3-101=7, Leu_05/3-101=7, Leu_06/3-101=7, Leu_07/3-101=7, Leu_08/3-101=7, Leu_09/3-101=7, Leu_10/3-101=7, Leu_11/3-101=7, Leu_12/3-101=7, Leu_13/3-101=7, Leu_14/3-101=7, 
+Arg_01/3-101=8, Arg_02/3-101=8, Arg_03/3-101=8, Arg_04/3-101=8, Arg_05/3-101=8, Arg_06/3-101=8, Arg_07/3-101=8, Arg_08/3-101=8, Arg_09/3-101=8, Arg_10/3-101=8, Arg_11/3-101=8, Arg_12/3-101=8, Arg_13/3-101=8, Arg_14/3-101=8, 
+Thr_01/1-99=9, Thr_02/1-99=9, Thr_03/1-99=9, Thr_04/1-99=9, Thr_05/1-99=9, Thr_06/1-99=9, Thr_07/1-99=9, Thr_08/1-99=9, Thr_09/1-99=9, Thr_10/1-99=9, Thr_11/1-99=9, Thr_12/1-99=9, Thr_13/1-99=9, Thr_14/1-99=9, 
+Ile_01/3-101=10, Ile_02/3-101=10, Ile_03/3-101=10, Ile_04/3-101=10, Ile_05/3-101=10, Ile_06/3-101=10, Ile_07/3-101=10, Ile_08/3-101=10, Ile_09/3-101=10, Ile_10/3-101=10, Ile_11/3-101=10, Ile_12/3-101=10, Ile_13/3-101=10, Ile_14/3-101=10, 
+Asn_09/1-99=11, Asn_10/1-99=11, Asn_11/1-99=11, Asn_13/1-99=11, Asn_14/1-99=11, 
+Cys_01/3-101=12, Cys_02/3-101=12, Cys_03/3-101=12, Cys_05/3-101=12, Cys_06/3-101=12, Cys_08/3-101=12, Cys_09/3-101=12, Cys_10/3-101=12, Cys_11/3-101=12, Cys_12/3-101=12, Cys_13/3-101=12, Cys_14/3-101=12, 
+Tyr_01/3-101=13, Tyr_02/3-101=13, Tyr_04/3-101=13, Tyr_05/3-101=13, Tyr_06/3-101=13, Tyr_07/3-101=13, Tyr_08/3-101=13, Tyr_09a/3-101=13, Tyr_09b/3-101=13, Tyr_10/3-101=13, Tyr_11/3-101=13, Tyr_12/3-101=13, Tyr_13/3-101=13, Tyr_14/3-101=13, 
+His_01/1-99=14, His_02/1-99=14, His_03/1-99=14, His_04/1-99=14, His_05/1-99=14, His_06/1-99=14, His_07/1-99=14, His_08/1-99=14, His_10/1-99=14, His_11/1-99=14, His_12/1-99=14, His_13/1-99=14, His_14/1-99=14, 
+Met_01/3-101=15, Met_02/3-101=15, Met_03/3-101=15, Met_04/3-101=15, Met_05/3-101=15, Met_06/3-101=15, Met_07/3-101=15, Met_08/3-101=15, Met_09/3-101=15, Met_10/3-101=15, Met_11/3-101=15, Met_12/3-101=15, Met_13/3-101=15, Met_14/3-101=15, 
+Trp_01/3-101=16, Trp_02a/3-101=16, Trp_02b/3-101=16, Trp_03/3-101=16, Trp_04/3-101=16, Trp_05/3-101=16, Trp_07/3-101=16, Trp_08/3-101=16, Trp_09/3-101=16, Trp_10/3-101=16, Trp_11/3-101=16, Trp_12/3-101=16, Trp_13/3-101=16, Trp_14/3-101=16, 
+Lys_01/3-101=17, Lys_02/3-101=17, Lys_03/3-101=17, Lys_04/3-101=17, Lys_05/3-101=17, Lys_07/3-101=17, Lys_08/3-101=17, Lys_10/3-101=17, Lys_11/3-101=17, Lys_13/3-101=17, Lys_14/3-101=17, 
+Phe_01/1-99=18, Phe_02/1-99=18, Phe_03/1-99=18, Phe_05/1-99=18, Phe_06/1-99=18, Phe_08/1-99=18, Phe_10/1-99=18, Phe_12/1-99=18, Phe_13/1-99=18, Phe_14/1-99=18
+                                </trait>
+                    <treeIntervals id='treeIntervals' spec='beast.evolution.tree.coalescent.TreeIntervals' tree='@Tree.t:AARS_Arch_edited'/>
+            </distribution>
+
+            <distribution birthDiffRate="@birthRate.t:AARS_Arch_edited" id="YuleModel.t:AARS_Arch_edited" spec="beast.evolution.speciation.YuleModel" tree="@Tree.t:AARS_Arch_edited"/>
+            <prior id="YuleBirthRatePrior.t:AARS_Arch_edited" name="distribution" x="@birthRate.t:AARS_Arch_edited">
+                <Uniform id="Uniform.0" name="distr" upper="Infinity"/>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution">
+            <distribution data="@AARS_Arch_edited" id="treeLikelihood.AARS_Arch_edited" spec="TreeLikelihood" tree="@Tree.t:AARS_Arch_edited">
+                <siteModel id="SiteModel.s:AARS_Arch_edited" spec="SiteModel">
+                    <parameter estimate="false" id="mutationRate.s:AARS_Arch_edited" name="mutationRate" value="1.0"/>
+                    <parameter estimate="false" id="gammaShape.s:AARS_Arch_edited" name="shape" value="1.0"/>
+                    <parameter estimate="false" id="proportionInvariant.s:AARS_Arch_edited" lower="0.0" name="proportionInvariant" upper="1.0" value="0.0"/>
+
+                    <substModel id="substmodel" spec="TriStateAARSSubstitutionModel" tree="@Tree.t:AARS_Arch_edited">
+                        <trait idref="TraitSet1"/>
+						<defaultModel spec='GeneralSubstitutionModel' rates='
+	0.18727491	2.0069284065	0.1526315789	0.3144104803	0.8910925915	0.2330935252	1.8004640371	0.2522727273	1.3885245902	7.8164948454		0.1969309463	1	0.3144475921	0.118852459	2.0564102564	0.3680555556	0.3048387097	0.6510416667
+0.1875881523		1.4168591224	0.8666666667	0.2423580786	0.8976865031	1.3424460432	0.0614849188	0.5840909091	0.2262295082	0.0309278351		1.1253196931	0.3056994819	0.104815864	0.25	0.1743589744	0.3333333333	0.3741935484	0.0494791667
+2.0056417489	1.4153661465		0.7403508772	1.4366812227	2.4918373377	3.3712230216	0.3979118329	0.5522727273	2.1213114754	0.193814433		0.5089514066	1.0259067358	0.2407932011	0.3155737705	0.8923076923	0.1111111111	0.9064516129	0.2109375
+0.1523272214	0.8655462185	0.7390300231		0.423580786	6.7889244795	1.071942446	0.0846867749	0.1477272727	0.3754098361	0.0391752577		5.4271099744	0.0310880829	0.3257790368	0.9303278689	0.1025641026	0.1319444444	0.4806451613	0.046875
+0.3145275035	0.243697479	1.4387990762	0.4245614035		1.6161883814	1.6143884892	0.4153132251	0.6795454545	0.7950819672	0.0989690722		0.1943734015	0.1088082902	0.2152974504	0.6967213115	0.1692307692	0.1388888889	0.5564516129	0.1614583333
+0.8899858956	0.8979591837	2.4919168591	6.7964912281	1.6135371179		1.7338129496	1.024361949	3.4727272727	1.6803278689	0.2412371134		2.4884910486	0.1191709845	0.4220963173	4.868852459	1.8564102564	0.375	6.4822580645	0.1796875
+0.2327221439	1.3409363745	3.3718244804	1.0719298246	1.6113537118	1.733931444		0.3445475638	1.2227272727	4.3786885246	0.3195876289		3.9744245524	1.4093264249	0.7875354108	0.7418032787	0.4923076923	0.5208333333	0.9677419355	0.546875
+1.7997179126	0.0612244898	0.3983833718	0.0842105263	0.4148471616	1.0241151449	0.345323741		0.4977272727	0.3262295082	3.1690721649		0.1304347826	0.3834196891	0.3994334278	0.5	4.8564102564	0.6666666667	0.2580645161	2.1171875
+0.2524682652	0.5846338535	0.5519630485	0.1473684211	0.6790393013	3.4770455899	1.2244604317	0.4976798144		0.5540983607	0.187628866		0.6342710997	0.5284974093	0.3824362606	2.1393442623	0.6820512821	1.1597222222	5.3532258065	0.1015625
+1.3878702398	0.2256902761	2.1212471132	0.3754385965	0.7947598253	1.6810300759	4.3798561151	0.3271461717	0.5545454545		1.4577319588		2.0306905371	0.5129533679	0.2917847025	0.4754098361	1.5179487179	0.1111111111	1.3870967742	0.171875
+7.8208744711	0.0300120048	0.1928406467	0.0385964912	0.1004366812	0.2418080262	0.3194244604	3.1716937355	0.1863636364	1.4590163934			0.5549872123	0.170984456	0.4192634561	0.1393442623	4.2564102564	0.2152777778	0.3241935484	1.0598958333
+																			
+0.1960507757	1.12484994	0.5103926097	5.4333333333	0.1943231441	2.4916028458	3.9755395683	0.1310904872	0.6340909091	2.031147541	0.5546391753			0.2642487047	1.0849858357	3.9631147541	0.2	0.0694444444	3.0129032258	0.0963541667
+1.0014104372	0.306122449	1.0277136259	0.0298245614	0.1091703057	0.1187466878	1.4086330935	0.3839907193	0.5272727273	0.5131147541	0.1690721649		0.2659846547		0.5439093484	0.25	0.3897435897	0.7152777778	0.0741935484	0.3984375
+0.3145275035	0.1032412965	0.2413394919	0.3263157895	0.2161572052	0.4250962589	0.7870503597	0.3990719258	0.3818181818	0.2918032787	0.4206185567		1.0869565217	0.5440414508		3.8770491803	0.4307692308	2.4861111111	0.1338709677	6.4609375
+0.1184767278	0.24969988	0.317551963	0.9315789474	0.6965065502	4.8667101258	0.7410071942	0.5	2.1363636364	0.4737704918	0.1381443299		3.9539641944	0.2487046632	3.8696883853		0.4051282051	0.2638888889	0.8903225806	0.6796875
+2.0578279267	0.1740696279	0.8937644342	0.1035087719	0.1703056769	1.8626581061	0.4935251799	4.8549883991	0.6818181818	1.5163934426	4.2536082474		0.1969309463	0.3886010363	0.4277620397	0.4057377049		0.5138888889	0.935483871	1.1927083333
+0.365303244	0.337334934	0.1131639723	0.1298245614	0.1397379913	0.3718853616	0.5237410072	0.6658932715	1.1636363636	0.1114754098	0.212371134		0.0716112532	0.7150259067	2.4844192635	0.262295082	0.5179487179		0.1370967742	1.53125
+0.3060648801	0.3733493397	0.9064665127	0.4807017544	0.556768559	6.4809381551	0.9669064748	0.2575406032	5.3477272727	1.3868852459	0.3237113402		3.010230179	0.0725388601	0.1331444759	0.893442623	0.9333333333	0.1388888889		0.0885416667
+0.6502115656	0.0504201681	0.2101616628	0.0473684211	0.1615720524	0.1817124473	0.5467625899	2.1148491879	0.1022727273	0.1721311475	1.0577319588		0.0971867008	0.3989637306	6.4504249292	0.6803278689	1.1897435897	1.5277777778	0.0887096774	
+'>
+							<frequencies spec='Frequencies' frequencies='0.0709	0.0833	0.0866	0.057	0.0458	0.0948	0.0695	0.0862	0.044	0.061	0.0485	0.0391	0.0193	0.0353	0.0244	0.0195	0.0144	0.062	0.0384
+'/>
+						</defaultModel>
+                        <frequencies estimate="true" id="AARSFrequencies0" spec="AARSFrequencies">
+                            <parameter dimension="1" estimate="true" id="RealParameter0" name="frequencies" value="1 0 0"/>
+                        </frequencies>
+                    </substModel>
+                </siteModel>
+				<branchRateModel spec='beast.evolution.branchratemodel.UCRelaxedClockModel' id="RelaxedClock.c:AARS_Arch_edited" tree='@Tree.t:AARS_Arch_edited'>
+					<parameter name='clock.rate' id='ucldMean.c:AARS_Arch_edited' value='1.0'/>
+				    <distr id='LogNormalDistributionModel.c:AARS_Arch_edited' name='distr' spec="beast.math.distributions.LogNormalDistributionModel" meanInRealSpace='true'>
+				        <parameter name='M' value="1.0" estimate='false' lower='0' upper='1'/>
+				        <parameter name='S' id='ucldStdev.c:AARS_Arch_edited' value="0.5" lower="0" upper="1" estimate='true'/>
+				    </distr>
+				    <rateCategories spec='parameter.IntegerParameter' id='rateCategories.c:AARS_Arch_edited' value="1" dimension='10' estimate='true'/>
+				</branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id='ucldStdevScaler.c:AARS_Arch_edited' spec='ScaleOperator' scaleAll='false' scaleFactor="0.5" weight="3" parameter="@ucldStdev.c:AARS_Arch_edited"/>
+    <operator id="CategoriesRandomWalk.c:AARS_Arch_edited" spec="IntRandomWalkOperator" windowSize='1' weight="10" parameter="@rateCategories.c:AARS_Arch_edited"/>
+	<operator id='CategoriesSwapOperator.c:AARS_Arch_edited' spec='SwapOperator' howMany="1" weight="10" intparameter='@rateCategories.c:AARS_Arch_edited'/>
+	<operator id='CategoriesUniform.c:AARS_Arch_edited' spec='UniformOperator' weight="10" parameter='@rateCategories.c:AARS_Arch_edited'/>
+
+    <operator id="YuleBirthRateScaler.t:AARS_Arch_edited" parameter="@birthRate.t:AARS_Arch_edited" scaleFactor="0.75" spec="ScaleOperator" weight="3.0"/>
+
+    <operator id="treeScaler.t:AARS_Arch_edited" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS_Arch_edited" weight="3.0"/>
+
+    <operator id="treeRootScaler.t:AARS_Arch_edited" rootOnly="true" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS_Arch_edited" weight="3.0"/>
+
+    <operator id="UniformOperator.t:AARS_Arch_edited" spec="Uniform" tree="@Tree.t:AARS_Arch_edited" weight="30.0"/>
+
+    <operator id="SubtreeSlide.t:AARS_Arch_edited" spec="SubtreeSlide" tree="@Tree.t:AARS_Arch_edited" weight="15.0"/>
+
+    <operator id="narrow.t:AARS_Arch_edited" spec="Exchange" tree="@Tree.t:AARS_Arch_edited" weight="15.0"/>
+
+    <operator id="wide.t:AARS_Arch_edited" isNarrow="false" spec="Exchange" tree="@Tree.t:AARS_Arch_edited" weight="3.0"/>
+
+    <operator id="WilsonBalding.t:AARS_Arch_edited" spec="WilsonBalding" tree="@Tree.t:AARS_Arch_edited" weight="3.0"/>
+
+    <operator id='RestrictedSubtreeSlide' spec='RestrictedSubtreeSlide' weight='60' tree='@Tree.t:AARS_Arch_edited'>
+		<clade idref='V'/>
+		<clade idref='G'/>
+		<clade idref='A'/>
+		<clade idref='D'/>
+		<clade idref='P'/>
+		<clade idref='E'/>
+		<clade idref='S'/>
+		<clade idref='L'/>
+		<clade idref='R'/>
+		<clade idref='T'/>
+		<clade idref='I'/>
+		<clade idref='N'/>
+		<clade idref='C'/>
+		<clade idref='Y'/>
+		<clade idref='H'/>
+		<clade idref='M'/>
+		<clade idref='W'/>
+		<clade idref='K'/>
+		<clade idref='F'/>
+	</operator>
+
+
+    <logger fileName="Arch_edited.AARS.ucln.log" id="tracelog" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.AARS_Arch_edited"/>
+        <log id="TreeHeight.t:AARS_Arch_edited" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:AARS_Arch_edited"/>
+        <log idref="YuleModel.t:AARS_Arch_edited"/>
+        <parameter idref="birthRate.t:AARS_Arch_edited" name="log"/>
+		<log id='rate.c:AARS_Arch_edited' spec='beast.evolution.branchratemodel.RateStatistic' tree='@Tree.t:AARS_Arch_edited' branchratemodel='@RelaxedClock.c:AARS_Arch_edited'/>
+		<log idref='ucldStdev.c:AARS_Arch_edited'/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log arg="@posterior" id="ESS.0" spec="util.ESS"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger fileName="Arch_edited.AARS.ucln.trees" id="treelog.t:AARS_Arch_edited" logEvery="1000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:AARS_Arch_edited" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS_Arch_edited"/>
+    </logger>
+    
+    <init estimate="false" id="TreeParser.t:AARS_Arch_edited" initial="@Tree.t:AARS_Arch_edited" spec="beast.util.TreeParser" taxa="@AARS_Arch_edited"
+		IsLabelledNewick="true"
+        newick='((((((((((((((((((Val_01/3-101:1,Val_02/3-101:1):1,Val_03/3-101:2):1,Val_04/3-101:3):1,Val_05/3-101:4):1,Val_06/3-101:5):1,Val_07/3-101:6):1,Val_08/3-101:7):1,Val_09/3-101:8):1,Val_10/3-101:9):1,Val_11/3-101:10):1,Val_12/3-101:11):1,Val_13/3-101:12):1,Val_14/3-101:13):1,(((((((((((((Gly_01/1-99:1,Gly_02/1-99:1):1,Gly_03/1-99:2):1,Gly_04/1-99:3):1,Gly_05/1-99:4):1,Gly_06/1-99:5):1,Gly_07/1-99:6):1,Gly_08/1-99:7):1,Gly_09/1-99:8):1,Gly_10/1-99:9):1,Gly_11/1-99:10):1,Gly_12/1-99:11):1,Gly_13/1-99:12):1,Gly_14/1-99:13):1):1,(((((((((((((Ala_01/1-99:1,Ala_02/1-99:1):1,Ala_03/1-99:2):1,Ala_04/1-99:3):1,Ala_05/1-99:4):1,Ala_06/1-99:5):1,Ala_07/1-99:6):1,Ala_09/1-99:7):1,Ala_10/1-99:8):1,Ala_11/1-99:9):1,Ala_12/1-99:10):1,Ala_13/1-99:11):1,Ala_14/1-99:12):2,(((((((((((((Asp_01/1-99:1,Asp_02/1-99:1):1,Asp_03/1-99:2):1,Asp_04/1-99:3):1,Asp_05/1-99:4):1,Asp_06/1-99:5):1,Asp_07/1-99:6):1,Asp_08/1-99:7):1,Asp_09/1-99:8):1,Asp_10/1-99:9):1,Asp_11/1-99:10):1,Asp_12/1-99:11):1,Asp_13/1-99:12):1,Asp_14/1-99:13):1):1):1,(((((((((((((((Pro_01/1-99:1,Pro_02/1-99:1):1,Pro_03/1-99:2):1,Pro_04/1-99:3):1,Pro_05/1-99:4):1,Pro_06/1-99:5):1,Pro_07/1-99:6):1,Pro_08/1-99:7):1,Pro_09/1-99:8):1,Pro_10/1-99:9):1,Pro_11/1-99:10):1,Pro_12/1-99:11):1,Pro_13/1-99:12):1,Pro_14/1-99:13):1,(((((((((((((Glu_01/3-101:1,Glu_02/3-101:1):1,Glu_03/3-101:2):1,Glu_04/3-101:3):1,Glu_05/3-101:4):1,Glu_06/3-101:5):1,Glu_07/3-101:6):1,Glu_08/3-101:7):1,Glu_09/3-101:8):1,Glu_10/3-101:9):1,Glu_11/3-101:10):1,Glu_12/3-101:11):1,Glu_13/3-101:12):1,Glu_14/3-101:13):1):1,((((((((((Ser_01/1-99:1,Ser_02/1-99:1):1,Ser_05/1-99:2):1,Ser_06/1-99:3):1,Ser_09/1-99:4):1,Ser_10/1-99:5):1,Ser_11/1-99:6):1,Ser_12/1-99:7):1,Ser_13/1-99:8):1,Ser_14/1-99:9):5,(((((((((((((Leu_01/3-101:1,Leu_02/3-101:1):1,Leu_03/3-101:2):1,Leu_04/3-101:3):1,Leu_05/3-101:4):1,Leu_06/3-101:5):1,Leu_07/3-101:6):1,Leu_08/3-101:7):1,Leu_09/3-101:8):1,Leu_10/3-101:9):1,Leu_11/3-101:10):1,Leu_12/3-101:11):1,Leu_13/3-101:12):1,Leu_14/3-101:13):1):1):1):1,((((((((((((((((Arg_01/3-101:1,Arg_02/3-101:1):1,Arg_03/3-101:2):1,Arg_04/3-101:3):1,Arg_05/3-101:4):1,Arg_06/3-101:5):1,Arg_07/3-101:6):1,Arg_08/3-101:7):1,Arg_09/3-101:8):1,Arg_10/3-101:9):1,Arg_11/3-101:10):1,Arg_12/3-101:11):1,Arg_13/3-101:12):1,Arg_14/3-101:13):1,(((((((((((((Thr_01/1-99:1,Thr_02/1-99:1):1,Thr_03/1-99:2):1,Thr_04/1-99:3):1,Thr_05/1-99:4):1,Thr_06/1-99:5):1,Thr_07/1-99:6):1,Thr_08/1-99:7):1,Thr_09/1-99:8):1,Thr_10/1-99:9):1,Thr_11/1-99:10):1,Thr_12/1-99:11):1,Thr_13/1-99:12):1,Thr_14/1-99:13):1):1,((((((((((((((Ile_01/3-101:1,Ile_02/3-101:1):1,Ile_03/3-101:2):1,Ile_04/3-101:3):1,Ile_05/3-101:4):1,Ile_06/3-101:5):1,Ile_07/3-101:6):1,Ile_08/3-101:7):1,Ile_09/3-101:8):1,Ile_10/3-101:9):1,Ile_11/3-101:10):1,Ile_12/3-101:11):1,Ile_13/3-101:12):1,Ile_14/3-101:13):1,((((Asn_09/1-99:1,Asn_10/1-99:1):1,Asn_11/1-99:2):1,Asn_13/1-99:3):1,Asn_14/1-99:4):10):1):1,(((((((((((((Cys_01/3-101:1,Cys_02/3-101:1):1,Cys_03/3-101:2):1,Cys_05/3-101:3):1,Cys_06/3-101:4):1,Cys_08/3-101:5):1,Cys_09/3-101:6):1,Cys_10/3-101:7):1,Cys_11/3-101:8):1,Cys_12/3-101:9):1,Cys_13/3-101:10):1,Cys_14/3-101:11):3,(((((((((((((Tyr_01/3-101:1,Tyr_02/3-101:1):1,Tyr_04/3-101:2):1,Tyr_05/3-101:3):1,Tyr_06/3-101:4):1,Tyr_07/3-101:5):1,Tyr_08/3-101:6):1,Tyr_09a/3-101:7):1,Tyr_09b/3-101:8):1,Tyr_10/3-101:9):1,Tyr_11/3-101:10):1,Tyr_12/3-101:11):1,Tyr_13/3-101:12):1,Tyr_14/3-101:13):1):1,(((((((((((((His_01/1-99:1,His_02/1-99:1):1,His_03/1-99:2):1,His_04/1-99:3):1,His_05/1-99:4):1,His_06/1-99:5):1,His_07/1-99:6):1,His_08/1-99:7):1,His_10/1-99:8):1,His_11/1-99:9):1,His_12/1-99:10):1,His_13/1-99:11):1,His_14/1-99:12):2,(((((((((((((Met_01/3-101:1,Met_02/3-101:1):1,Met_03/3-101:2):1,Met_04/3-101:3):1,Met_05/3-101:4):1,Met_06/3-101:5):1,Met_07/3-101:6):1,Met_08/3-101:7):1,Met_09/3-101:8):1,Met_10/3-101:9):1,Met_11/3-101:10):1,Met_12/3-101:11):1,Met_13/3-101:12):1,Met_14/3-101:13):1):1):1):1):1,(((((((((((((((Trp_01/3-101:1,Trp_02a/3-101:1):1,Trp_02b/3-101:2):1,Trp_03/3-101:3):1,Trp_04/3-101:4):1,Trp_05/3-101:5):1,Trp_07/3-101:6):1,Trp_08/3-101:7):1,Trp_09/3-101:8):1,Trp_10/3-101:9):1,Trp_11/3-101:10):1,Trp_12/3-101:11):1,Trp_13/3-101:12):1,Trp_14/3-101:13):1,((((((((((Lys_01/3-101:1,Lys_02/3-101:1):1,Lys_03/3-101:2):1,Lys_04/3-101:3):1,Lys_05/3-101:4):1,Lys_07/3-101:5):1,Lys_08/3-101:6):1,Lys_10/3-101:7):1,Lys_11/3-101:8):1,Lys_13/3-101:9):1,Lys_14/3-101:10):4):1,(((((((((Phe_01/1-99:1,Phe_02/1-99:1):1,Phe_03/1-99:2):1,Phe_05/1-99:3):1,Phe_06/1-99:4):1,Phe_08/1-99:5):1,Phe_10/1-99:6):1,Phe_12/1-99:7):1,Phe_13/1-99:8):1,Phe_14/1-99:9):6):3);'
+    />
+</run>
+
+
+</beast>
