@@ -490,74 +490,89 @@
             </distribution>
             <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="L" spec="TaxonSet">
-		            <taxon id="Leu_01/3-101"/>
-		            <taxon id="Leu_02/3-101"/>
-		            <taxon id="Leu_03/3-101"/>
-		            <taxon id="Leu_04/3-101"/>
-		            <taxon id="Leu_05/3-101"/>
-		            <taxon id="Leu_06/3-101"/>
-		            <taxon id="Leu_07/3-101"/>
-		            <taxon id="Leu_08/3-101"/>
-		            <taxon id="Leu_09/3-101"/>
-		            <taxon id="Leu_10/3-101"/>
-		            <taxon id="Leu_11/3-101"/>
-		            <taxon id="Leu_12/3-101"/>
-		            <taxon id="Leu_13/3-101"/>
-		            <taxon id="Leu_14/3-101"/>
+		            <taxon id="seq_leu_1wz2_p__hori1A-aa1"/>
+                    <taxon id="seq_leu_arch_m_aneyi13A-aa1"/>
+                    <taxon id="seq_leu_arch_m_anium18A-aa1"/>
+                    <taxon id="seq_leu_arch_m_ankai6A-aa1"/>
+                    <taxon id="seq_leu_arch_m_arius15A-aa1"/>
+                    <taxon id="seq_leu_arch_m_dleri9A-aa1"/>
+                    <taxon id="seq_leu_arch_m_gatei7A-aa1"/>
+                    <taxon id="seq_leu_arch_m_gidus3A-aa1"/>
+                    <taxon id="seq_leu_arch_m_hicus10A-aa1"/>
+                    <taxon id="seq_leu_arch_m_hilum12A-aa1"/>
+                    <taxon id="seq_leu_arch_m_hilum17A-aa1"/>
+                    <taxon id="seq_leu_arch_m_itans11A-aa1"/>
+                    <taxon id="seq_leu_arch_m_orans5A-aa1"/>
+                    <taxon id="seq_leu_arch_m_rinus16A-aa1"/>
+                    <taxon id="seq_leu_arch_m_schii8A-aa1"/>
+                    <taxon id="seq_leu_arch_m_ultum14A-aa1"/>
+                    <taxon id="seq_leu_arch_m_um_sp4A-aa1"/>
+                    <taxon id="seq_leu_euk_md_labra20A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="R.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="R" spec="TaxonSet">
-		            <taxon id="Arg_01/3-101"/>
-		            <taxon id="Arg_02/3-101"/>
-		            <taxon id="Arg_03/3-101"/>
-		            <taxon id="Arg_04/3-101"/>
-		            <taxon id="Arg_05/3-101"/>
-		            <taxon id="Arg_06/3-101"/>
-		            <taxon id="Arg_07/3-101"/>
-		            <taxon id="Arg_08/3-101"/>
-		            <taxon id="Arg_09/3-101"/>
-		            <taxon id="Arg_10/3-101"/>
-		            <taxon id="Arg_11/3-101"/>
-		            <taxon id="Arg_12/3-101"/>
-		            <taxon id="Arg_13/3-101"/>
-		            <taxon id="Arg_14/3-101"/>
+		            <taxon id="seq_arg_2zue_p__hori18A-aa1"/>
+                    <taxon id="seq_arg_arch_m_aneyi2A-aa1"/>
+                    <taxon id="seq_arg_arch_m_arius5A-aa1"/>
+                    <taxon id="seq_arg_arch_m_dleri14A-aa1"/>
+                    <taxon id="seq_arg_arch_m_gatei12A-aa1"/>
+                    <taxon id="seq_arg_arch_m_gidus1A-aa1"/>
+                    <taxon id="seq_arg_arch_m_hicus8A-aa1"/>
+                    <taxon id="seq_arg_arch_m_hilum16A-aa1"/>
+                    <taxon id="seq_arg_arch_m_hilum7A-aa1"/>
+                    <taxon id="seq_arg_arch_m_incut4A-aa1"/>
+                    <taxon id="seq_arg_arch_m_itans15A-aa1"/>
+                    <taxon id="seq_arg_arch_m_licus11A-aa1"/>
+                    <taxon id="seq_arg_arch_m_opcut6A-aa1"/>
+                    <taxon id="seq_arg_arch_m_orans10A-aa1"/>
+                    <taxon id="seq_arg_arch_m_schii13A-aa1"/>
+                    <taxon id="seq_arg_arch_m_ultum3A-aa1"/>
+                    <taxon id="seq_arg_arch_m_um_sp9A-aa1"/>
                 </taxonset>
             </distribution>
             <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="T" spec="TaxonSet">
-		            <taxon id="Thr_01/1-99"/>
-		            <taxon id="Thr_02/1-99"/>
-		            <taxon id="Thr_03/1-99"/>
-		            <taxon id="Thr_04/1-99"/>
-		            <taxon id="Thr_05/1-99"/>
-		            <taxon id="Thr_06/1-99"/>
-		            <taxon id="Thr_07/1-99"/>
-		            <taxon id="Thr_08/1-99"/>
-		            <taxon id="Thr_09/1-99"/>
-		            <taxon id="Thr_10/1-99"/>
-		            <taxon id="Thr_11/1-99"/>
-		            <taxon id="Thr_12/1-99"/>
-		            <taxon id="Thr_13/1-99"/>
-		            <taxon id="Thr_14/1-99"/>
+		            <taxon id="seq_thr_3a32_a_ernix20A-aa"/>
+                    <taxon id="seq_thr_arch_m_acter18A-aa"/>
+                    <taxon id="seq_thr_arch_m_anium8A-aa"/>
+                    <taxon id="seq_thr_arch_m_ankai1A-aa"/>
+                    <taxon id="seq_thr_arch_m_arius6A-aa"/>
+                    <taxon id="seq_thr_arch_m_dleri17A-aa"/>
+                    <taxon id="seq_thr_arch_m_gatei15A-aa"/>
+                    <taxon id="seq_thr_arch_m_gidus12A-aa"/>
+                    <taxon id="seq_thr_arch_m_hilum3A-aa"/>
+                    <taxon id="seq_thr_arch_m_hilum7A-aa"/>
+                    <taxon id="seq_thr_arch_m_incut10A-aa"/>
+                    <taxon id="seq_thr_arch_m_incut11A-aa"/>
+                    <taxon id="seq_thr_arch_m_incut9A-aa"/>
+                    <taxon id="seq_thr_arch_m_itans2A-aa"/>
+                    <taxon id="seq_thr_arch_m_orans14A-aa"/>
+                    <taxon id="seq_thr_arch_m_oshii4A-aa"/>
+                    <taxon id="seq_thr_arch_m_rinus5A-aa"/>
+                    <taxon id="seq_thr_arch_m_schii16A-aa"/>
+                    <taxon id="seq_thr_arch_m_um_sp13A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="I.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="I" spec="TaxonSet">
-		            <taxon id="Ile_01/3-101"/>
-		            <taxon id="Ile_02/3-101"/>
-		            <taxon id="Ile_03/3-101"/>
-		            <taxon id="Ile_04/3-101"/>
-		            <taxon id="Ile_05/3-101"/>
-		            <taxon id="Ile_06/3-101"/>
-		            <taxon id="Ile_07/3-101"/>
-		            <taxon id="Ile_08/3-101"/>
-		            <taxon id="Ile_09/3-101"/>
-		            <taxon id="Ile_10/3-101"/>
-		            <taxon id="Ile_11/3-101"/>
-		            <taxon id="Ile_12/3-101"/>
-		            <taxon id="Ile_13/3-101"/>
-		            <taxon id="Ile_14/3-101"/>
+		            <taxon id="seq_ile_arch_m_aneyi3A-aa1"/>
+                    <taxon id="seq_ile_arch_m_anium10A-aa1"/>
+                    <taxon id="seq_ile_arch_m_arius7A-aa1"/>
+                    <taxon id="seq_ile_arch_m_dleri15A-aa1"/>
+                    <taxon id="seq_ile_arch_m_gatei13A-aa1"/>
+                    <taxon id="seq_ile_arch_m_gidus2A-aa1"/>
+                    <taxon id="seq_ile_arch_m_hicus16A-aa1"/>
+                    <taxon id="seq_ile_arch_m_hilum18A-aa1"/>
+                    <taxon id="seq_ile_arch_m_hilum9A-aa1"/>
+                    <taxon id="seq_ile_arch_m_incut17A-aa1"/>
+                    <taxon id="seq_ile_arch_m_opcut4A-aa1"/>
+                    <taxon id="seq_ile_arch_m_orans12A-aa1"/>
+                    <taxon id="seq_ile_arch_m_rinus6A-aa1"/>
+                    <taxon id="seq_ile_arch_m_rinus8A-aa1"/>
+                    <taxon id="seq_ile_arch_m_schii14A-aa1"/>
+                    <taxon id="seq_ile_arch_m_ultum5A-aa1"/>
+                    <taxon id="seq_ile_arch_m_um_sp11A-aa1"/>
                 </taxonset>
             </distribution>
             <distribution id="N.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
