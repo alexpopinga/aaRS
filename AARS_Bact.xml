@@ -400,46 +400,42 @@
 
             <distribution id="V.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="V" spec="TaxonSet">
-		            <taxon id="seq_val_arch_m_aneyi12A-aa1"/>
-                    <taxon id="seq_val_arch_m_anium18A-aa1"/>
-                    <taxon id="seq_val_arch_m_ankai5A-aa1"/>
-                    <taxon id="seq_val_arch_m_arius15A-aa1"/>
-                    <taxon id="seq_val_arch_m_hilum11A-aa1"/>
-                    <taxon id="seq_val_arch_m_hilum17A-aa1"/>
-                    <taxon id="seq_val_arch_m_incut13A-aa1"/>
-                    <taxon id="seq_val_arch_m_incut2A-aa1"/>
-                    <taxon id="seq_val_arch_m_incut3A-aa1"/>
-                    <taxon id="seq_val_arch_m_incut4A-aa1"/>
-                    <taxon id="seq_val_arch_m_incut6A-aa1"/>
-                    <taxon id="seq_val_arch_m_incut8A-aa1"/>
-                    <taxon id="seq_val_arch_m_incut9A-aa1"/>
-                    <taxon id="seq_val_arch_m_itans10A-aa1"/>
-                    <taxon id="seq_val_arch_m_rinus16A-aa1"/>
-                    <taxon id="seq_val_arch_m_schii7A-aa1"/>
-                    <taxon id="seq_val_arch_m_ultum14A-aa1"/>
+                    <taxon id="seq_val_1gax_t_therm17A-aa"/>
+                    <taxon id="seq_val_bact_m__coli14A-aa"/>
+                    <taxon id="seq_val_bact_m_ejuni10A-aa"/>
+                    <taxon id="seq_val_bact_m_ensis9A-aa"/>
+                    <taxon id="seq_val_bact_m_gatus5A-aa"/>
+                    <taxon id="seq_val_bact_m_hilus15A-aa"/>
+                    <taxon id="seq_val_bact_m_hilus7A-aa"/>
+                    <taxon id="seq_val_bact_m_incut8A-aa"/>
+                    <taxon id="seq_val_bact_m_itima6A-aa"/>
+                    <taxon id="seq_val_bact_m_malis11A-aa"/>
+                    <taxon id="seq_val_bact_m_matis3A-aa"/>
+                    <taxon id="seq_val_bact_m_obile2A-aa"/>
+                    <taxon id="seq_val_bact_m_rferi1A-aa"/>
+                    <taxon id="seq_val_bact_m_ticus12A-aa"/>
+                    <taxon id="seq_val_bact_m_urans13A-aa"/>
+                    <taxon id="seq_val_bact_m_ureus4A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="G" spec="TaxonSet">
-		            <taxon id="seq_gly_arch_m_anium1A-aa"/>
-                    <taxon id="seq_gly_arch_m_hilum20A-aa"/>
-                    <taxon id="seq_gly_arch_m_itans12A-aa"/>
-                    <taxon id="seq_gly_arch_m_opcut10A-aa"/>
-                    <taxon id="seq_gly_arch_m_opcut11A-aa"/>
-                    <taxon id="seq_gly_arch_m_opcut13A-aa"/>
-                    <taxon id="seq_gly_arch_m_opcut14A-aa"/>
-                    <taxon id="seq_gly_arch_m_opcut15A-aa"/>
-                    <taxon id="seq_gly_arch_m_opcut16A-aa"/>
-                    <taxon id="seq_gly_arch_m_opcut17A-aa"/>
-                    <taxon id="seq_gly_arch_m_opcut18A-aa"/>
-                    <taxon id="seq_gly_arch_m_opcut19A-aa"/>
-                    <taxon id="seq_gly_arch_m_opcut4A-aa"/>
-                    <taxon id="seq_gly_arch_m_opcut5A-aa"/>
-                    <taxon id="seq_gly_arch_m_opcut6A-aa"/>
-                    <taxon id="seq_gly_arch_m_opcut7A-aa"/>
-                    <taxon id="seq_gly_arch_m_opcut8A-aa"/>
-                    <taxon id="seq_gly_arch_m_opcut9A-aa"/>
-
+                    <taxon id="seq_gly_bact_m_alpha10A-aa"/>
+                    <taxon id="seq_gly_bact_m_alpha18A-aa"/>
+                    <taxon id="seq_gly_bact_m_incut6A-aa"/>
+                    <taxon id="seq_gly_bact_m_incut8A-aa"/>
+                    <taxon id="seq_gly_bact_m_opcut12A-aa"/>
+                    <taxon id="seq_gly_bact_m_opcut13A-aa"/>
+                    <taxon id="seq_gly_bact_m_opcut14A-aa"/>
+                    <taxon id="seq_gly_bact_m_opcut15A-aa"/>
+                    <taxon id="seq_gly_bact_m_opcut16A-aa"/>
+                    <taxon id="seq_gly_bact_m_opcut17A-aa"/>
+                    <taxon id="seq_gly_bact_m_opcut5A-aa"/>
+                    <taxon id="seq_gly_bact_m_opcut7A-aa"/>
+                    <taxon id="seq_gly_bact_m_opcut9A-aa"/>
+                    <taxon id="seq_gly_bact_m_rferi4A-aa"/>
+                    <taxon id="seq_gly_d1atib_therm2A-aa"/>
+                    <taxon id="seq_gly_d1j5wb_itima3A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="A.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
