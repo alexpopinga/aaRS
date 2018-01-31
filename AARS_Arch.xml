@@ -669,53 +669,64 @@
             </distribution>
             <distribution id="W.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="W" spec="TaxonSet">
-		            <taxon id="Trp_01/3-101"/>
-		            <taxon id="Trp_02a/3-101"/>
-		            <taxon id="Trp_02b/3-101"/>
-		            <taxon id="Trp_03/3-101"/>
-		            <taxon id="Trp_04/3-101"/>
-		            <taxon id="Trp_05/3-101"/>
-		            <taxon id="Trp_07/3-101"/>
-		            <taxon id="Trp_08/3-101"/>
-		            <taxon id="Trp_09/3-101"/>
-		            <taxon id="Trp_10/3-101"/>
-		            <taxon id="Trp_11/3-101"/>
-		            <taxon id="Trp_12/3-101"/>
-		            <taxon id="Trp_13/3-101"/>
-		            <taxon id="Trp_14/3-101"/>
+		            <taxon id="seq_trp_arch_m_aneyi12A-aa1"/>
+                    <taxon id="seq_trp_arch_m_arius15A-aa1"/>
+                    <taxon id="seq_trp_arch_m_dleri8A-aa1"/>
+                    <taxon id="seq_trp_arch_m_hicus9A-aa1"/>
+                    <taxon id="seq_trp_arch_m_hilum11A-aa1"/>
+                    <taxon id="seq_trp_arch_m_incut4A-aa1"/>
+                    <taxon id="seq_trp_arch_m_itans10A-aa1"/>
+                    <taxon id="seq_trp_arch_m_opcut17A-aa1"/>
+                    <taxon id="seq_trp_arch_m_opcut18A-aa1"/>
+                    <taxon id="seq_trp_arch_m_opcut2A-aa1"/>
+                    <taxon id="seq_trp_arch_m_opcut6A-aa1"/>
+                    <taxon id="seq_trp_arch_m_oshii13A-aa1"/>
+                    <taxon id="seq_trp_arch_m_rinus16A-aa1"/>
+                    <taxon id="seq_trp_arch_m_schii7A-aa1"/>
+                    <taxon id="seq_trp_arch_m_ultum14A-aa1"/>
+                    <taxon id="seq_trp_arch_m_um_sp3A-aa1"/>
                 </taxonset>
             </distribution>
             <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="K" spec="TaxonSet">
-		            <taxon id="Lys_01/3-101"/>
-		            <taxon id="Lys_02/3-101"/>
-		            <taxon id="Lys_03/3-101"/>
-		            <taxon id="Lys_04/3-101"/>
-		            <taxon id="Lys_05/3-101"/>
-		            <taxon id="Lys_07/3-101"/>
-		            <taxon id="Lys_08/3-101"/>
-		            <taxon id="Lys_10/3-101"/>
-		            <taxon id="Lys_11/3-101"/>
-		            <taxon id="Lys_13/3-101"/>
-		            <taxon id="Lys_14/3-101"/>
+		            <taxon id="seq_lys_arch_m_aneyi11A-aa1"/>
+                    <taxon id="seq_lys_arch_m_anium18A-aa1"/>
+                    <taxon id="seq_lys_arch_m_gidus2A-aa1"/>
+                    <taxon id="seq_lys_arch_m_hicus8A-aa1"/>
+                    <taxon id="seq_lys_arch_m_hilum17A-aa1"/>
+                    <taxon id="seq_lys_arch_m_incut9A-aa1"/>
+                    <taxon id="seq_lys_arch_m_licus5A-aa1"/>
+                    <taxon id="seq_lys_arch_m_opcut3A-aa1"/>
+                    <taxon id="seq_lys_arch_m_opcut7A-aa1"/>
+                    <taxon id="seq_lys_arch_m_orans4A-aa1"/>
+                    <taxon id="seq_lys_arch_m_oshii12A-aa1"/>
+                    <taxon id="seq_lys_arch_m_rinus16A-aa1"/>
+                    <taxon id="seq_lys_arch_m_ultum13A-aa1"/>
+                    <taxon id="seq_lysi_1irx___hori1A-aa1"/>
                 </taxonset>
             </distribution>
             <distribution id="F.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="F" spec="TaxonSet">
-		            <taxon id="Phe_01/1-99"/>
-		            <taxon id="Phe_02/1-99"/>
-		            <taxon id="Phe_03/1-99"/>
-		            <taxon id="Phe_05/1-99"/>
-		            <taxon id="Phe_06/1-99"/>
-		            <taxon id="Phe_08/1-99"/>
-		            <taxon id="Phe_10/1-99"/>
-		            <taxon id="Phe_12/1-99"/>
-		            <taxon id="Phe_13/1-99"/>
-		            <taxon id="Phe_14/1-99"/>
+		            <taxon id="seq_phe_arch_m_incut10A-aa"/>
+                    <taxon id="seq_phe_arch_m_incut11A-aa"/>
+                    <taxon id="seq_phe_arch_m_incut12A-aa"/>
+                    <taxon id="seq_phe_arch_m_incut13A-aa"/>
+                    <taxon id="seq_phe_arch_m_incut14A-aa"/>
+                    <taxon id="seq_phe_arch_m_incut15A-aa"/>
+                    <taxon id="seq_phe_arch_m_incut16A-aa"/>
+                    <taxon id="seq_phe_arch_m_incut17A-aa"/>
+                    <taxon id="seq_phe_arch_m_incut2A-aa"/>
+                    <taxon id="seq_phe_arch_m_incut3A-aa"/>
+                    <taxon id="seq_phe_arch_m_incut4A-aa"/>
+                    <taxon id="seq_phe_arch_m_incut5A-aa"/>
+                    <taxon id="seq_phe_arch_m_incut6A-aa"/>
+                    <taxon id="seq_phe_arch_m_incut7A-aa"/>
+                    <taxon id="seq_phe_arch_m_incut8A-aa"/>
+                    <taxon id="seq_phe_arch_m_incut9A-aa"/>
                 </taxonset>
             </distribution>
 
-            <distribution spec='beast.evolution.substitutionmodel.AARSTreePrior' id='AARSprior'>
+            <!--<distribution spec='beast.evolution.substitutionmodel.AARSTreePrior' id='AARSprior'>
                         <trait id="TraitSet1" spec="beast.evolution.tree.TraitSet" taxa="@allTaxa" traitname="state" units="year">
 Val_01/3-101=0, Val_02/3-101=0, Val_03/3-101=0, Val_04/3-101=0, Val_05/3-101=0, Val_06/3-101=0, Val_07/3-101=0, Val_08/3-101=0, Val_09/3-101=0, Val_10/3-101=0, Val_11/3-101=0, Val_12/3-101=0, Val_13/3-101=0, Val_14/3-101=0, 
 Gly_01/1-99=1, Gly_02/1-99=1, Gly_03/1-99=1, Gly_04/1-99=1, Gly_05/1-99=1, Gly_06/1-99=1, Gly_07/1-99=1, Gly_08/1-99=1, Gly_09/1-99=1, Gly_10/1-99=1, Gly_11/1-99=1, Gly_12/1-99=1, Gly_13/1-99=1, Gly_14/1-99=1, 
@@ -738,7 +749,7 @@ Lys_01/3-101=17, Lys_02/3-101=17, Lys_03/3-101=17, Lys_04/3-101=17, Lys_05/3-101
 Phe_01/1-99=18, Phe_02/1-99=18, Phe_03/1-99=18, Phe_05/1-99=18, Phe_06/1-99=18, Phe_08/1-99=18, Phe_10/1-99=18, Phe_12/1-99=18, Phe_13/1-99=18, Phe_14/1-99=18
                                 </trait>
                     <treeIntervals id='treeIntervals' spec='beast.evolution.tree.coalescent.TreeIntervals' tree='@Tree.t:AARS_Arch_edited'/>
-            </distribution>
+            </distribution>-->
 
             <distribution birthDiffRate="@birthRate.t:AARS_Arch_edited" id="YuleModel.t:AARS_Arch_edited" spec="beast.evolution.speciation.YuleModel" tree="@Tree.t:AARS_Arch_edited"/>
             <prior id="YuleBirthRatePrior.t:AARS_Arch_edited" name="distribution" x="@birthRate.t:AARS_Arch_edited">
