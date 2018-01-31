@@ -577,27 +577,29 @@
             </distribution>
             <distribution id="N.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="N" spec="TaxonSet">
-		            <taxon id="Asn_09/1-99"/>
-		            <taxon id="Asn_10/1-99"/>
-		            <taxon id="Asn_11/1-99"/>
-		            <taxon id="Asn_13/1-99"/>
-		            <taxon id="Asn_14/1-99"/>
+		            <taxon id="seq_asn_1x54a__oshii1A-aa"/>
+                    <taxon id="seq_asn_arch_m_anium9A-aa"/>
+                    <taxon id="seq_asn_arch_m_hilum5A-aa"/>
+                    <taxon id="seq_asn_arch_m_hilum8A-aa"/>
+                    <taxon id="seq_asn_arch_m_itans4A-aa"/>
+                    <taxon id="seq_asn_arch_m_opcut6A-aa"/>
+                    <taxon id="seq_asn_arch_m_rinus7A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="C.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="C" spec="TaxonSet">
-		            <taxon id="Cys_01/3-101"/>
-		            <taxon id="Cys_02/3-101"/>
-		            <taxon id="Cys_03/3-101"/>
-		            <taxon id="Cys_05/3-101"/>
-		            <taxon id="Cys_06/3-101"/>
-		            <taxon id="Cys_08/3-101"/>
-		            <taxon id="Cys_09/3-101"/>
-		            <taxon id="Cys_10/3-101"/>
-		            <taxon id="Cys_11/3-101"/>
-		            <taxon id="Cys_12/3-101"/>
-		            <taxon id="Cys_13/3-101"/>
-		            <taxon id="Cys_14/3-101"/>
+		            <taxon id="seq_cys_arch_m_incut10A-aa1"/>
+                    <taxon id="seq_cys_arch_m_incut11A-aa1"/>
+                    <taxon id="seq_cys_arch_m_incut12A-aa1"/>
+                    <taxon id="seq_cys_arch_m_incut13A-aa1"/>
+                    <taxon id="seq_cys_arch_m_incut14A-aa1"/>
+                    <taxon id="seq_cys_arch_m_incut15A-aa1"/>
+                    <taxon id="seq_cys_arch_m_incut16A-aa1"/>
+                    <taxon id="seq_cys_arch_m_incut17A-aa1"/>
+                    <taxon id="seq_cys_arch_m_incut2A-aa1"/>
+                    <taxon id="seq_cys_arch_m_incut3A-aa1"/>
+                    <taxon id="seq_cys_arch_m_incut6A-aa1"/>
+                    <taxon id="seq_cys_arch_m_incut9A-aa1"/>
                 </taxonset>
             </distribution>
             <distribution id="Y.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
