@@ -467,16 +467,25 @@
             </distribution>
             <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="S" spec="TaxonSet">
-		            <taxon id="Ser_01/1-99"/>
-		            <taxon id="Ser_02/1-99"/>
-		            <taxon id="Ser_05/1-99"/>
-		            <taxon id="Ser_06/1-99"/>
-		            <taxon id="Ser_09/1-99"/>
-		            <taxon id="Ser_10/1-99"/>
-		            <taxon id="Ser_11/1-99"/>
-		            <taxon id="Ser_12/1-99"/>
-		            <taxon id="Ser_13/1-99"/>
-		            <taxon id="Ser_14/1-99"/>
+		            <taxon id="seq_ser_2cjab__rkeri2B-aa"/>
+                    <taxon id="seq_ser_arch_m_aneyi15A-aa"/>
+                    <taxon id="seq_ser_arch_m_anium3A-aa"/>
+                    <taxon id="seq_ser_arch_m_arius19A-aa"/>
+                    <taxon id="seq_ser_arch_m_dleri11A-aa"/>
+                    <taxon id="seq_ser_arch_m_gatei9A-aa"/>
+                    <taxon id="seq_ser_arch_m_gidus5A-aa"/>
+                    <taxon id="seq_ser_arch_m_hicus12A-aa"/>
+                    <taxon id="seq_ser_arch_m_hilum14A-aa"/>
+                    <taxon id="seq_ser_arch_m_hilum4A-aa"/>
+                    <taxon id="seq_ser_arch_m_licus8A-aa"/>
+                    <taxon id="seq_ser_arch_m_opcut13A-aa"/>
+                    <taxon id="seq_ser_arch_m_orans7A-aa"/>
+                    <taxon id="seq_ser_arch_m_oshii16A-aa" />
+                    <taxon id="seq_ser_arch_m_rinus18A-aa"/>
+                    <taxon id="seq_ser_arch_m_rinus20A-aa"/>
+                    <taxon id="seq_ser_arch_m_schii10A-aa"/>
+                    <taxon id="seq_ser_arch_m_ultum17A-aa"/>
+                    <taxon id="seq_ser_arch_m_um_sp6A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
