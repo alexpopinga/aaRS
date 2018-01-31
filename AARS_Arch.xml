@@ -406,75 +406,63 @@
             </distribution>
             <distribution id="D.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="D" spec="TaxonSet">
-		            <taxon id="Asp_01/1-99"/>
-		            <taxon id="Asp_02/1-99"/>
-		            <taxon id="Asp_03/1-99"/>
-		            <taxon id="Asp_04/1-99"/>
-		            <taxon id="Asp_05/1-99"/>
-		            <taxon id="Asp_06/1-99"/>
-		            <taxon id="Asp_07/1-99"/>
-		            <taxon id="Asp_08/1-99"/>
-		            <taxon id="Asp_09/1-99"/>
-		            <taxon id="Asp_10/1-99"/>
-		            <taxon id="Asp_11/1-99"/>
-		            <taxon id="Asp_12/1-99"/>
-		            <taxon id="Asp_13/1-99"/>
-		            <taxon id="Asp_14/1-99"/>
-		            <sequence id="seq_asp_1wydb__odaii1B-aa" taxon="asp_1wydb__odaii1B-aa" totalcount="20" value="IQSLALKAFRETLYKEGFIEIFTPKIIFLAQSPQLYKEERVFEVAPAWRAAEFISMDVEMAYNDVMQLLEKILHSFDLIYEIVSGSTRPPHAGFGMGLARLMVM"/>
-                    <sequence id="seq_asp_arch_m_aneyi13A-aa" taxon="asp_arch_m_aneyi13A-aa" totalcount="20" value="VEAEMARAAREWFYEHGFVEIFTSKIVFLAQSPQLYKQERVFEIGPAFRATEYTSVDLEMGFEDVMDAVEGVVRSFDLLFEIATGGQRPPHGGAGIGLERVAMQ"/>
-                    <sequence id="seq_asp_arch_m_anium19A-aa" taxon="asp_arch_m_anium19A-aa" totalcount="20" value="AESSILWGIREFLHSQGFIEVHTPKIVYLNQSPQLYKEEKVFEVGPAFRANEFTSIDIEMSHNDAMRILENAVKSFDLQYEVTSGAQRPPHAGWGLGLERLTMI"/>
-                    <sequence id="seq_asp_arch_m_arius16A-aa" taxon="asp_arch_m_arius16A-aa" totalcount="20" value="IQNITLKSFRETLYKEGFVEVFTPKIIFLAQSPQLYKEEKVFEIAPAWRAAEFISMDVEMAYEDTMKLLEKLIYSFDLIYEIASGSTRPPHTGFGMGFARLLVM"/>
-                    <sequence id="seq_asp_arch_m_dleri9A-aa" taxon="asp_arch_m_dleri9A-aa" totalcount="20" value="IRNVVTTAIREFLEERGFIEVHTPKIIYLAQSPQLYKQERVYEIGPIFRANEAISVDIEMSEEDVMRVLEELLAAFDLMYELASGAQRPPHGGWGLGLERTLMT"/>
-                    <sequence id="seq_asp_arch_m_gatei7A-aa" taxon="asp_arch_m_gatei7A-aa" totalcount="20" value="IRNAVQHATRNFFFENGFIEINTSKIVFLNQSPQLYKQEKVYEIGPIFRANEATSIDIEVSHLGVMQTLEDLIRAFDMMHELSSGAQRPPHAGWGLGAERLVTT"/>
-                    <sequence id="seq_asp_arch_m_gidus3A-aa" taxon="asp_arch_m_gidus3A-aa" totalcount="20" value="IRHQVMQSVREFLSEEGFIEVHTPKIVFLNQSPQLYKQEKVFEIGPIFRANEAISIDIEMSHNGVMDVLERLVQSFDLMHELSSGAQRPPHAGWGLGAERLIMS"/>
-                    <sequence id="seq_asp_arch_m_hicus10A-aa" taxon="asp_arch_m_hicus10A-aa" totalcount="20" value="IKSRMLHSVRVFLEEQGFLEINTPKLVFLGQSPQLYKQDRVYEIAPIFRANEVISIDIEASHEDVMKILENLVVAFDLMYEISSGAMRPPHAGWGLGAERFNMT"/>
-                    <sequence id="seq_asp_arch_m_hilum12A-aa" taxon="asp_arch_m_hilum12A-aa" totalcount="20" value="VASAMLRSIREVLYGEGFVEVFTPKIIYLSQSPQLYKEERVFEIGPAYRANEFISVDAEAAYNDIMDILEKIMRSYDLIIEVASGATRPPHAGFGLGFNRLVTA"/>
-                    <sequence id="seq_asp_arch_m_hilum18A-aa" taxon="asp_arch_m_hilum18A-aa" totalcount="20" value="IESALLWGIRQYLHSQKFIEVHTPKIVYLNQSPQLYKEDRVFEVGPAFRANEFTSIDIEMSHNDAMAMLEN---SFDLQYEVTSGAQRPPHAGWGLGLERLTMI"/>
-                    <sequence id="seq_asp_arch_m_itans11A-aa" taxon="asp_arch_m_itans11A-aa" totalcount="20" value="LRAKVQKFFRDWFMENGFVEINTPKIVYLTQSPQLYKQPKVFEIAFAYRAAEFTSVDAEMGEYDVINTIKKMLIGFDIIFEIISGAQRPPHGGFGLGLERYLRQ"/>
-                    <sequence id="seq_asp_arch_m_licus6A-aa" taxon="asp_arch_m_licus6A-aa" totalcount="20" value="LRSEVLKSIRNTFHDNGFIDVDTPKLVFLGQSPQLYKQDRVFEIGPIFRANEAISIDCEMSEKDAMEILEKVINAFDLMYEISSGAQRPPHSGWGVGIERLMMI"/>
-                    <sequence id="seq_asp_arch_m_orans5A-aa" taxon="asp_arch_m_orans5A-aa" totalcount="20" value="IRHEALQAIREYFVKNKFIETATPKVVFLNQSPQLFKQDRVFEIGPIFRANEATSIDVEVSHFDVMEILENLVASFDMMHELSSGAQRPPHAGWGMGCERFVMT"/>
-                    <sequence id="seq_asp_arch_m_oshii14A-aa" taxon="asp_arch_m_oshii14A-aa" totalcount="20" value="IRSSVFRAVREFFYSEGFIEIHTPKIIFLAQSPQLYKQDKVFEIAPIFRANEAWSIDAEMAEGEVMDLLERLISAFDLEYEISSGGQRPPHGGFGLGAERLIMR"/>
-                    <sequence id="seq_asp_arch_m_rinus15A-aa" taxon="asp_arch_m_rinus15A-aa" totalcount="20" value="LRHQVYLITRRYFDAHQFVEVETPVLTALPQSPQLYKQDRYFQIVKCFRDPEFTQIDVEMTEEQIFELIEGLIQAYDLVLEIGGGSIRPPHGGIALGLDRIVML"/>
-                    <sequence id="seq_asp_arch_m_rinus17A-aa" taxon="asp_arch_m_rinus17A-aa" totalcount="20" value="IRAGIIEAARQYFNNNGFIEIHTPKIVYLSQSPQLYKQPRVFEITPYFRANESWGIDAEQGVEDVLNTLEDLIVKFDLDYEIASGGQRPPHGGFGLGIERLMMK"/>
-                    <sequence id="seq_asp_arch_m_schii8A-aa" taxon="asp_arch_m_schii8A-aa" totalcount="20" value="IRSEMLKSVRNTLYNEGFIEVNTPKLVFLGQSPQLYKQDRVFEIAPIFRANEATSIDIEMADKDAMDILEKVVYAFDLMYEISSGAQRPPHAGWGLGADRFTMV"/>
-                    <sequence id="seq_asp_arch_m_um_sp4A-aa" taxon="asp_arch_m_um_sp4A-aa" totalcount="20" value="LRSKAMGAMRSWFYDNEFEEVDTPELSYLSQSPQLYKQDRLFEVGHAFRASEIAMFDVELGHHDVMDVQEESLRKFDLLYELSSGGQRPPHGGYGLGIDRLIQQ"/>
-                    <sequence id="seq_asp_d1b8aa_ensis2A-aa" taxon="asp_d1b8aa_ensis2A-aa" totalcount="20" value="IRSSVFKAVRDFFHENGFIEIHTPKIIFLAESPQLYKEDRVYEIAPIFRANEAWSIDSEMAEEEVMSFLERLVAAFDLEYEISSGGQRPPHGGFGLGAERLIKQ"/>
+		            <taxon id="seq_asp_1wydb__odaii1B-aa"/>
+                    <taxon id="seq_asp_arch_m_aneyi13A-aa"/>
+                    <taxon id="seq_asp_arch_m_anium19A-aa"/>
+                    <taxon id="seq_asp_arch_m_arius16A-aa"/>
+                    <taxon id="seq_asp_arch_m_dleri9A-aa"/>
+                    <taxon id="seq_asp_arch_m_gatei7A-aa"/>
+                    <taxon id="seq_asp_arch_m_gidus3A-aa"/>
+                    <taxon id="seq_asp_arch_m_hicus10A-aa"/>
+                    <taxon id="seq_asp_arch_m_hilum12A-aa"/>
+                    <taxon id="seq_asp_arch_m_hilum18A-aa"/>
+                    <taxon id="seq_asp_arch_m_itans11A-aa"/>
+                    <taxon id="seq_asp_arch_m_licus6A-aa"/>
+                    <taxon id="seq_asp_arch_m_orans5A-aa"/>
+                    <taxon id="seq_asp_arch_m_oshii14A-aa"/>
+                    <taxon id="seq_asp_arch_m_rinus15A-aa"/>
+                    <taxon id="seq_asp_arch_m_rinus17A-aa"/>
+                    <taxon id="seq_asp_arch_m_schii8A-aa"/>
+                    <taxon id="seq_asp_arch_m_um_sp4A-aa"/>
+                    <taxon id="seq_asp_d1b8aa_ensis2A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="P.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="P" spec="TaxonSet">
-		            <taxon id="Pro_01/1-99"/>
-		            <taxon id="Pro_02/1-99"/>
-		            <taxon id="Pro_03/1-99"/>
-		            <taxon id="Pro_04/1-99"/>
-		            <taxon id="Pro_05/1-99"/>
-		            <taxon id="Pro_06/1-99"/>
-		            <taxon id="Pro_07/1-99"/>
-		            <taxon id="Pro_08/1-99"/>
-		            <taxon id="Pro_09/1-99"/>
-		            <taxon id="Pro_10/1-99"/>
-		            <taxon id="Pro_11/1-99"/>
-		            <taxon id="Pro_12/1-99"/>
-		            <taxon id="Pro_13/1-99"/>
-		            <taxon id="Pro_14/1-99"/>
+		            <taxon id="seq_pro_arch_m_aneyi7A-aa"/>
+                    <taxon id="seq_pro_arch_m_anium13A-aa"/>
+                    <taxon id="seq_pro_arch_m_gatei15A-aa"/>
+                    <taxon id="seq_pro_arch_m_gidus4A-aa"/>
+                    <taxon id="seq_pro_arch_m_hilum12A-aa"/>
+                    <taxon id="seq_pro_arch_m_hilum18A-aa"/>
+                    <taxon id="seq_pro_arch_m_incut10A-aa"/>
+                    <taxon id="seq_pro_arch_m_incut9A-aa"/>
+                    <taxon id="seq_pro_arch_m_ius_116A-aa"/>
+                    <taxon id="seq_pro_arch_m_licus14A-aa"/>
+                    <taxon id="seq_pro_arch_m_opcut11A-aa"/>
+                    <taxon id="seq_pro_arch_m_oshii19A-aa"/>
+                    <taxon id="seq_pro_arch_m_rinus20A-aa"/>
+                    <taxon id="seq_pro_arch_m_rinus5A-aa"/>
+                    <taxon id="seq_pro_arch_m_ultum6A-aa"/>
+                    <taxon id="seq_pro_d1nj8a_janas1A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="E.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="E" spec="TaxonSet">
-		            <taxon id="Glu_01/3-101"/>
-		            <taxon id="Glu_02/3-101"/>
-		            <taxon id="Glu_03/3-101"/>
-		            <taxon id="Glu_04/3-101"/>
-		            <taxon id="Glu_05/3-101"/>
-		            <taxon id="Glu_06/3-101"/>
-		            <taxon id="Glu_07/3-101"/>
-		            <taxon id="Glu_08/3-101"/>
-		            <taxon id="Glu_09/3-101"/>
-		            <taxon id="Glu_10/3-101"/>
-		            <taxon id="Glu_11/3-101"/>
-		            <taxon id="Glu_12/3-101"/>
-		            <taxon id="Glu_13/3-101"/>
-		            <taxon id="Glu_14/3-101"/>
+		            <taxon id="seq_glu_arch_m_incut10A-aa1"/>
+                    <taxon id="seq_glu_arch_m_incut11A-aa1"/>
+                    <taxon id="seq_glu_arch_m_incut12A-aa1"/>
+                    <taxon id="seq_glu_arch_m_incut13A-aa1"/>
+                    <taxon id="seq_glu_arch_m_incut14A-aa1"/>
+                    <taxon id="seq_glu_arch_m_incut15A-aa1"/>
+                    <taxon id="seq_glu_arch_m_incut1A-aa1"/>
+                    <taxon id="seq_glu_arch_m_incut2A-aa1"/>
+                    <taxon id="seq_glu_arch_m_incut4A-aa1"/>
+                    <taxon id="seq_glu_arch_m_incut5A-aa1"/>
+                    <taxon id="seq_glu_arch_m_incut6A-aa1"/>
+                    <taxon id="seq_glu_arch_m_incut7A-aa1"/>
+                    <taxon id="seq_glu_arch_m_incut9A-aa1"/>
+                    <taxon id="seq_glu_arch_m_rinus3A-aa1"/>
                 </taxonset>
             </distribution>
             <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
