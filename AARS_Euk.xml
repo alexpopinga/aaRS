@@ -2,7 +2,7 @@
 
 
 <data id="AARS_Euk_edited" name="alignment">
-	<userDataType spec='beast.evolution.datatype.NineTeenState' symbolOrder='VGADPESLRTINCYHMWKF'/>
+	<userDataType spec='beast.evolution.datatype.TwentyState' symbolOrder='VGADPESLRTIQNCYHMWKF'/>
                     <sequence id="seq_ala_euk_md__mori2A-aa" taxon="ala_euk_md__mori2A-aa" totalcount="20" value="TGNEIRKTFIDFFIKKGHKYVHSSTIPLFANAGMNQFKYRVVNTQKCIRATFFEMMGNWSFKKEICAWAWELLTCSELHYEIWNLVFITKHIDCGLGERLVSV"/>
                     <sequence id="seq_ala_euk_md_antum12A-aa" taxon="ala_euk_md_antum12A-aa" totalcount="20" value="PVSRVRQEFVDYFKKQGHTFVPSPVCPLFINAGMNQFKKRAANSQMCIRATFFEMLGSWSFKKEAIQWAWELLTCSEVHFEIWNLVFMQKHIDTGMGERLTSI"/>
                     <sequence id="seq_ala_euk_md_gigas3A-aa" taxon="ala_euk_md_gigas3A-aa" totalcount="20" value="TGAEIRNLFVDFFKEKEHLYVHSSVVPLFTNAGMNQFKYRAANSQKCIRATFFEMLGNWSFKTECCGWAWEFLTCTEIHYEIWNLVFIRKHCDCGMGERLVCV"/>
@@ -360,406 +360,431 @@
 
             <distribution id="V.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="V" spec="TaxonSet">
-                    <sequence id="val_euk_md_antum15A-aa"/>
-                    <sequence id="val_euk_md_incut11A-aa"/>
-                    <sequence id="val_euk_md_incut12A-aa"/>
-                    <sequence id="val_euk_md_incut14A-aa"/>
-                    <sequence id="val_euk_md_incut17A-aa"/>
-                    <sequence id="val_euk_md_incut18A-aa"/>
-                    <sequence id="val_euk_md_incut19A-aa"/>
-                    <sequence id="val_euk_md_incut2A-aa"/>
-                    <sequence id="val_euk_md_incut5A-aa"/>
-                    <sequence id="val_euk_md_incut6A-aa"/>
-                    <sequence id="val_euk_md_incut7A-aa"/>
-                    <sequence id="val_euk_md_incut9A-aa"/>
-                    <sequence id="val_euk_md_oidea3A-aa"/>
-                    <sequence id="val_euk_md_phora10A-aa"/>
-                    <sequence id="val_euk_md_wa_ii4A-aa"/>
+                    <taxon id="val_euk_md_antum15A-aa"/>
+                    <taxon id="val_euk_md_incut11A-aa"/>
+                    <taxon id="val_euk_md_incut12A-aa"/>
+                    <taxon id="val_euk_md_incut14A-aa"/>
+                    <taxon id="val_euk_md_incut17A-aa"/>
+                    <taxon id="val_euk_md_incut18A-aa"/>
+                    <taxon id="val_euk_md_incut19A-aa"/>
+                    <taxon id="val_euk_md_incut2A-aa"/>
+                    <taxon id="val_euk_md_incut5A-aa"/>
+                    <taxon id="val_euk_md_incut6A-aa"/>
+                    <taxon id="val_euk_md_incut7A-aa"/>
+                    <taxon id="val_euk_md_incut9A-aa"/>
+                    <taxon id="val_euk_md_oidea3A-aa"/>
+                    <taxon id="val_euk_md_phora10A-aa"/>
+                    <taxon id="val_euk_md_wa_ii4A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="G" spec="TaxonSet">
-                    <sequence id="gly_2zt5_h_h_sap1A-aa"/>
-                    <sequence id="gly_euk_md_incut16A-aa"/>
-                    <sequence id="gly_euk_md_incut3A-aa"/>
-                    <sequence id="gly_euk_md_incut4A-aa"/>
-                    <sequence id="gly_euk_md_incut5A-aa"/>
-                    <sequence id="gly_euk_md_incut6A-aa"/>
-                    <sequence id="gly_euk_md_incut9A-aa"/>
-                    <sequence id="gly_euk_md_opcut10A-aa"/>
-                    <sequence id="gly_euk_md_opcut11A-aa"/>
-                    <sequence id="gly_euk_md_opcut12A-aa"/>
-                    <sequence id="gly_euk_md_opcut13A-aa"/>
-                    <sequence id="gly_euk_md_opcut14A-aa"/>
-                    <sequence id="gly_euk_md_opcut2A-aa"/>
-                    <sequence id="gly_euk_md_opcut7A-aa"/>
-                    <sequence id="gly_euk_md_opcut8A-aa"/>
+                    <taxon id="gly_2zt5_h_h_sap1A-aa"/>
+                    <taxon id="gly_euk_md_incut16A-aa"/>
+                    <taxon id="gly_euk_md_incut3A-aa"/>
+                    <taxon id="gly_euk_md_incut4A-aa"/>
+                    <taxon id="gly_euk_md_incut5A-aa"/>
+                    <taxon id="gly_euk_md_incut6A-aa"/>
+                    <taxon id="gly_euk_md_incut9A-aa"/>
+                    <taxon id="gly_euk_md_opcut10A-aa"/>
+                    <taxon id="gly_euk_md_opcut11A-aa"/>
+                    <taxon id="gly_euk_md_opcut12A-aa"/>
+                    <taxon id="gly_euk_md_opcut13A-aa"/>
+                    <taxon id="gly_euk_md_opcut14A-aa"/>
+                    <taxon id="gly_euk_md_opcut2A-aa"/>
+                    <taxon id="gly_euk_md_opcut7A-aa"/>
+                    <taxon id="gly_euk_md_opcut8A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="A.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="A" spec="TaxonSet">
-                    <sequence id="ala_euk_md__mori2A-aa"/>
-                    <sequence id="ala_euk_md_antum12A-aa"/>
-                    <sequence id="ala_euk_md_gigas3A-aa"/>
-                    <sequence id="ala_euk_md_ideum7A-aa"/>
-                    <sequence id="ala_euk_md_minis1A-aa"/>
-                    <sequence id="ala_euk_md_oidea6A-aa"/>
-                    <sequence id="ala_euk_md_phora15A-aa"/>
-                    <sequence id="ala_euk_md_ranae13A-aa"/>
-                    <sequence id="ala_euk_md_rerio8A-aa"/>
-                    <sequence id="ala_euk_md_rzaki4A-aa"/>
-                    <sequence id="ala_euk_md_setta17A-aa"/>
-                    <sequence id="ala_euk_md_theta11A-aa"/>
-                    <sequence id="ala_euk_md_ttata9A-aa"/>
-                    <sequence id="ala_euk_md_uberi14A-aa"/>
-                    <sequence id="ala_euk_md_wa_ii5A-aa"/>
+                    <taxon id="ala_euk_md__mori2A-aa"/>
+                    <taxon id="ala_euk_md_antum12A-aa"/>
+                    <taxon id="ala_euk_md_gigas3A-aa"/>
+                    <taxon id="ala_euk_md_ideum7A-aa"/>
+                    <taxon id="ala_euk_md_minis1A-aa"/>
+                    <taxon id="ala_euk_md_oidea6A-aa"/>
+                    <taxon id="ala_euk_md_phora15A-aa"/>
+                    <taxon id="ala_euk_md_ranae13A-aa"/>
+                    <taxon id="ala_euk_md_rerio8A-aa"/>
+                    <taxon id="ala_euk_md_rzaki4A-aa"/>
+                    <taxon id="ala_euk_md_setta17A-aa"/>
+                    <taxon id="ala_euk_md_theta11A-aa"/>
+                    <taxon id="ala_euk_md_ttata9A-aa"/>
+                    <taxon id="ala_euk_md_uberi14A-aa"/>
+                    <taxon id="ala_euk_md_wa_ii5A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="D.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="D" spec="TaxonSet">
-                    <sequence id="asp_3i7f_e_ytica1A-aa" totalcount="20" value="IQSACCGLFREFLTSQKFVEIHTPKLIYLAQSPQLYKQRKVFEVGPVFRATEFEGLDIEMEYHECIDVMEKLFTSYDVFVEITSGAQRWPHAGCGIGERITML"/>
-                    <sequence id="asp_euk_md_incut10A-aa" totalcount="20" value="IQCQIENIFRQFLLSEGFVGIHTPKLICLAQSPQLHKQGRVFEIGPVFRACEFTGLDVEMEYSEVMDIVDRLFVSFDVFIEIISGAQRPPHGGFGVGERVVML"/>
-                    <sequence id="asp_euk_md_incut11A-aa" totalcount="20" value="VRSAIAHEFRSFLDKAGFIEINTPKIVCLAQSPQLYKQGRVYEVGPVFRACEFIGLDLEMEYTEILVLLGDLMKSYDMFIEICSGAQRAPHGGAGLGERIVML"/>
-                    <sequence id="asp_euk_md_incut13A-aa" totalcount="20" value="LQSRVCQYFRQFLIDNDFCEIHSPKIIYLAQSPQLYKQPRVFEVGPVFRSTEFVGLDVEMRYYEVLDVAESLFNSYDMFIEISSGAQRWPHGGFGVGERVVML"/>
-                    <sequence id="asp_euk_md_incut17A-aa" totalcount="20" value="MQSGVCRLFRDFLLKEGFTEIHSPKIIFLAQSPQLYKQGKVFEIGPVFRATEFTGLDMEMAYHEVLEVLDRLFISYDIMMEIMSGAQRSPHGGGGVGERVVML"/>
-                    <sequence id="asp_euk_md_incut2A-aa" totalcount="20" value="LQAVVTDLFREHLHKNGFTEIHSPKLQFLAQSPQLAKQERVYEIGPVFRATEFIGLDLEMTYHEVMELLDSLFLSYDFFMEILSGAQRPPHGGGGIGERVLML"/>
-                    <sequence id="asp_euk_md_incut3A-aa" totalcount="20" value="FRSEFLHSLRLSLHSHHFTEVETPLLTALSQSPQQYKQDRYFQIARCFRNLEFTQLDIEMADLEIQSTIQNLLLSCDLVLEVGGGSLRPPHGGFAIGDRLLSL"/>
-                    <sequence id="asp_euk_md_incut4A-aa" totalcount="20" value="IEAGVCRLFRDILTKKGFVEIHTPKIIYLAQSPQLYKQDKVFTVGAVFRATEFVGLDLEMSYHEVLDTIGGTFTSYDMFMEILSGAQRPPHAGGGIGERVVML"/>
-                    <sequence id="asp_euk_md_incut5A-aa" totalcount="20" value="ITAGVCRFFREHLDRQGFIEIHSPKIIFLAQSPQLYKQDKVYTVGAVFRATEFVGLDLEMSYHEVLKVIGDMFISYDMFMEILSGAQRPPHAGGGIGERVTML"/>
-                    <sequence id="asp_euk_md_incut6A-aa" totalcount="20" value="LQSAVCLLFREFLTSQNFIEIHSPKIIYLAQSPQFYKQERVFEIAPVFRATEFVGLDLEMAYHEVLDMLDKLFVSYDLFMEILSGAQRPPHGGGGIGERVLML"/>
-                    <sequence id="asp_euk_md_incut7A-aa" totalcount="20" value="IQSEVCRLLREFLIEREFIEIHTPKLLCLAQSPQLHKQERVFEIGPVFRACEFVGVDIEMNYHELVDVFDAMFRSFDFFMEILSGAQRPPHGGCGIGERVIML"/>
-                    <sequence id="asp_euk_md_incut9A-aa" totalcount="20" value="LQSGVCTLFREQLLGEGFIEIHSPKIIYLAQSPQLYKQNKVFEIGPVFRATEFVGLDLEMTYHEALDTLDRLMTAYDLFMEICSGAQRSQHAGGGVGERVVML"/>
-                    <sequence id="asp_euk_md_oidea8A-aa" totalcount="20" value="LRHRMLRAIRNFLDDREFLEVETPLLCALPQSPQLFKQERYYQIARCFRDPEFSQLDMEMTQNAIMSLVEEMVLAYDLVYEVAGGSLRPPHGGIAFGDRLCML"/>
-                    <sequence id="asp_euk_md_phora16A-aa" totalcount="20" value="LRHNTVKAARRFLENEGFIEIETPLLTALPQSPQIFKQERYYQIARCFRDPEFTQIDMEMSQKEILRLNESLIAAYDLVLELGGGSLRPPHGGIAFGDRLVML"/>
-                    <sequence id="asp_euk_md_ranae14A-aa" totalcount="20" value="ILDAVMFKFRDFLRSNGFIEVKTPKLITLAQSPQLYKQKRVYEIGHVYRASEFIGLDLEMEYISVINFIYDLFKSYDFIIEILSGAERPPHGGCGIGERLVKA"/>
-                    <sequence id="asp_euk_md_theta12A-aa" totalcount="20" value="IQSHVGQAFRNFLAARGFVEIHTPKLQWLAQSPQLHKQERVMEVGPVFRACEFVGLDFEMEYAEAMDIVEGFVVSFDAYLEICSGAQRSPHAGAGLGERLTMT"/>
-                    <sequence id="asp_euk_md_uberi15A-aa" totalcount="20" value="LQSLIGRKFCEYMYSKDFTEIHTPHIVELTTSSHLHQQDRVFEISCAFEKNEKTTLNFGMTYHEVISVVKELLNNFIILIVVGRGCQYQPCGGCSIDELFLMQ"/>
+                    <taxon id="asp_3i7f_e_ytica1A-aa"/>
+                    <taxon id="asp_euk_md_incut10A-aa"/>
+                    <taxon id="asp_euk_md_incut11A-aa"/>
+                    <taxon id="asp_euk_md_incut13A-aa"/>
+                    <taxon id="asp_euk_md_incut17A-aa"/>
+                    <taxon id="asp_euk_md_incut2A-aa"/>
+                    <taxon id="asp_euk_md_incut3A-aa"/>
+                    <taxon id="asp_euk_md_incut4A-aa"/>
+                    <taxon id="asp_euk_md_incut5A-aa"/>
+                    <taxon id="asp_euk_md_incut6A-aa"/>
+                    <taxon id="asp_euk_md_incut7A-aa"/>
+                    <taxon id="asp_euk_md_incut9A-aa"/>
+                    <taxon id="asp_euk_md_oidea8A-aa"/>
+                    <taxon id="asp_euk_md_phora16A-aa"/>
+                    <taxon id="asp_euk_md_ranae14A-aa"/>
+                    <taxon id="asp_euk_md_theta12A-aa"/>
+                    <taxon id="asp_euk_md_uberi15A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="P.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="P" spec="TaxonSet">
-                    <sequence id="pro_3ial_g__lamb1A-aa" totalcount="20" value="MENAIMRLCEEEYAKVGISQILFPTVIALRPTSETAIYLKIHQTCTIFRHREIHWNEAHCCLSDYWKVIDTIFSSEVSDVQTAGIHNLPYLTCAGISTRVLAC"/>
-                    <sequence id="pro_euk_md_incut11A-aa" totalcount="20" value="IWEQIQAFFDAEIKKLDVQNAYFPLLVAIRPTSETIMYLKLNQWVNVVRWREFLWQEGHTAVFTILDLYRRVYETTTIEGQAATSHALAWQNSWGLTTRTIGV"/>
-                    <sequence id="pro_euk_md_incut12A-aa" totalcount="20" value="IWEAIQDYLNVKFKETGHSNMYFPQLIVVRPTSETIVNLMINQWVNVTRWLEFLWQEGHTAALQMIDMYTKFAFTYTIEAQAGTSHNLVWQTSWAISTRFVGG"/>
-                    <sequence id="pro_euk_md_incut14A-aa" totalcount="20" value="VWKCVQRFLGGKIEKLGVEDCYFPMFVAVRPTSETVMYVRLNMWNNVIRWREFLWQEGHCAVLDILECYASVYETTTVETQGATSHNLPWQNSWGLSTRVIGV"/>
-                    <sequence id="pro_euk_md_incut16A-aa" totalcount="20" value="VWEKVQNFFDGHIKKLGVQNVMFPMFVALRPTSETIMYLKLNQWTNVVRWREFYWQEGHSAVYDILELYKRTYETTTIEAQAATSHHLVYQNSWGLSTRSLGV"/>
-                    <sequence id="pro_euk_md_incut18A-aa" totalcount="20" value="MWECIKNFMDEEIKKMGVSNTYFPLFVAVRPTSETIMYLKINQWCNVVRWREFLWQEGHTAVYEILDMYARTYRSTTVEAQGATSHCLVVQNSWGFTTRSIGV"/>
-                    <sequence id="pro_euk_md_incut20A-aa" totalcount="20" value="MHNEIMHLFEVAYSKIGVPMTQFPAFICLRPTSETAMYVMVQQSCNVYRYREIPWNEAHTALGKFWDIVHDILTTDVLDVQSVGAHYLSYMTCIGVSTRCLAA"/>
-                    <sequence id="pro_euk_md_incut4A-aa" totalcount="20" value="IWEVIQEWFNREIKKLGVENAYFPMFVAIRPTSETAMYLKLNQWNSVVRWREFLWQEGHTAVRQILELYRRVYETTTIEGQAATSHCLVWQNSWGLSTRSIGV"/>
-                    <sequence id="pro_euk_md_incut5A-aa" totalcount="20" value="IWERIQEFLDAKIKASGVKNAYFPMFVAIRPTSETIMYLRLNQWTNVVRWREFLWQEGHSAVLEILDYYARVYETTTVEAQAATSHCLVWQNSWGLTTRSIGV"/>
-                    <sequence id="pro_euk_md_incut7A-aa" totalcount="20" value="IWESIKEFFDREIKKIGVENTYFPMFVAIRPTSETVMYLKLNQWCNVVRWREFLWQEGHTAVYVILELYARVYETTTVEAQGATSHHLVYQNSWGLTTRTIGV"/>
-                    <sequence id="pro_euk_md_incut9A-aa" totalcount="20" value="IWETIQSVFDQKIKQHDVQNAYFPIFVAIRPTSETIMYLKINQWTSIVRWREFLWQEGHTAVDIILNEYASIYETKSIEGQAATSHLLAHQTSWGLTTRAIGV"/>
-                    <sequence id="pro_euk_md_oidea10A-aa" totalcount="20" value="IWEGIQSYLDSRFKELGVQNAYFPQLIVVRPTSETMVNMLLNQWANVHRWLEFLWQEGHTAAQQMVEVYADFAITLTIEAQAGTSHDLPQQTSWGASTRLIGG"/>
-                    <sequence id="pro_euk_md_phora17A-aa" totalcount="20" value="VLKKISSCVREEMTSAGAIELLMPQLQALGPTHEEVVTCTLYQIQTKFRDREFVMKDAYSFYDRMDLGYRNIFRSQEFMVEVGHIFRLFWMGCYGIGSRLSQA"/>
-                    <sequence id="pro_euk_md_ranae8A-aa" totalcount="20" value="IWNEIRKWFTNEIEKLGVEECLFPMLIAIRPTSETVMYLKVNQWCNILRWKEILWQEGHTAVLDILDLYYRMYKSTTVEGQAATSHHLVYQNSWGMTTRSLGI"/>
-                    <sequence id="pro_euk_md_rzaki15A-aa" totalcount="20" value="VWDHIRDFFDREIKLLGVENAYFPMFVALRPTSETIMYLKINQWANVVRWREFLWQEGHTAVLQILELYRRVYETTTVEAQGATSHNLVWQNSWGLTTRTIGV"/>
-                    <sequence id="pro_euk_md_setta19A-aa" totalcount="20" value="VVQRLQSLVRAELNAIGSQECVLPAITCLAATHEETVTLYLYQMQPKYRDREFMMKDMYTFYAKVVECYQRILQSHEFQIEVGHAFLLIHMGCYGLGTRMLSA"/>
-                    <sequence id="pro_euk_md_theta13A-aa" totalcount="20" value="VWDELKDELNRRIKETGTQNAYFPLFIIVRPTSETIIWLKVNQWANVVRWAEFLWQEGHTAAREMLDVYAEVAETYTIEAQSGTSHFLVWATSWGVSTRLLGA"/>
+                    <taxon id="pro_3ial_g__lamb1A-aa"/>
+                    <taxon id="pro_euk_md_incut11A-aa"/>
+                    <taxon id="pro_euk_md_incut12A-aa"/>
+                    <taxon id="pro_euk_md_incut14A-aa"/>
+                    <taxon id="pro_euk_md_incut16A-aa"/>
+                    <taxon id="pro_euk_md_incut18A-aa"/>
+                    <taxon id="pro_euk_md_incut20A-aa"/>
+                    <taxon id="pro_euk_md_incut4A-aa"/>
+                    <taxon id="pro_euk_md_incut5A-aa"/>
+                    <taxon id="pro_euk_md_incut7A-aa"/>
+                    <taxon id="pro_euk_md_incut9A-aa"/>
+                    <taxon id="pro_euk_md_oidea10A-aa"/>
+                    <taxon id="pro_euk_md_phora17A-aa"/>
+                    <taxon id="pro_euk_md_ranae8A-aa"/>
+                    <taxon id="pro_euk_md_rzaki15A-aa"/>
+                    <taxon id="pro_euk_md_setta19A-aa"/>
+                    <taxon id="pro_euk_md_theta13A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="E.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="E" spec="TaxonSet">
-		            <taxon id="seq_glu_arch_m_incut10A-aa1"/>
-                    <taxon id="seq_glu_arch_m_incut11A-aa1"/>
-                    <taxon id="seq_glu_arch_m_incut12A-aa1"/>
-                    <taxon id="seq_glu_arch_m_incut13A-aa1"/>
-                    <taxon id="seq_glu_arch_m_incut14A-aa1"/>
-                    <taxon id="seq_glu_arch_m_incut15A-aa1"/>
-                    <taxon id="seq_glu_arch_m_incut1A-aa1"/>
-                    <taxon id="seq_glu_arch_m_incut2A-aa1"/>
-                    <taxon id="seq_glu_arch_m_incut4A-aa1"/>
-                    <taxon id="seq_glu_arch_m_incut5A-aa1"/>
-                    <taxon id="seq_glu_arch_m_incut6A-aa1"/>
-                    <taxon id="seq_glu_arch_m_incut7A-aa1"/>
-                    <taxon id="seq_glu_arch_m_incut9A-aa1"/>
-                    <taxon id="seq_glu_arch_m_rinus3A-aa1"/>
+                    <taxon id="glu_euk_md_incut1A-aa"/>
+                    <taxon id="glu_euk_md_incut2A-aa"/>
+                    <taxon id="glu_euk_md_incut3A-aa"/>
+                    <taxon id="glu_euk_md_incut5A-aa"/>
+                    <taxon id="glu_euk_md_incut6A-aa"/>
+                    <taxon id="glu_euk_md_incut7A-aa"/>
+                    <taxon id="glu_euk_md_incut8A-aa"/>
+                    <taxon id="glu_euk_md_incut9A-aa"/>
+                    <taxon id="glu_euk_md_nalis13A-aa"/>
+                    <taxon id="glu_euk_md_phora10A-aa"/>
+                    <taxon id="glu_euk_md_setta12A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="S" spec="TaxonSet">
-		            <taxon id="seq_ser_2cjab__rkeri2B-aa"/>
-                    <taxon id="seq_ser_arch_m_aneyi15A-aa"/>
-                    <taxon id="seq_ser_arch_m_anium3A-aa"/>
-                    <taxon id="seq_ser_arch_m_arius19A-aa"/>
-                    <taxon id="seq_ser_arch_m_dleri11A-aa"/>
-                    <taxon id="seq_ser_arch_m_gatei9A-aa"/>
-                    <taxon id="seq_ser_arch_m_gidus5A-aa"/>
-                    <taxon id="seq_ser_arch_m_hicus12A-aa"/>
-                    <taxon id="seq_ser_arch_m_hilum14A-aa"/>
-                    <taxon id="seq_ser_arch_m_hilum4A-aa"/>
-                    <taxon id="seq_ser_arch_m_licus8A-aa"/>
-                    <taxon id="seq_ser_arch_m_opcut13A-aa"/>
-                    <taxon id="seq_ser_arch_m_orans7A-aa"/>
-                    <taxon id="seq_ser_arch_m_oshii16A-aa" />
-                    <taxon id="seq_ser_arch_m_rinus18A-aa"/>
-                    <taxon id="seq_ser_arch_m_rinus20A-aa"/>
-                    <taxon id="seq_ser_arch_m_schii10A-aa"/>
-                    <taxon id="seq_ser_arch_m_ultum17A-aa"/>
-                    <taxon id="seq_ser_arch_m_um_sp6A-aa"/>
+                    <taxon id="ser_1wleb__aurus19B-aa"/>
+                    <taxon id="ser_euk_md__mori11A-aa"/>
+                    <taxon id="ser_euk_md_aki_113A-aa"/>
+                    <taxon id="ser_euk_md_antum4A-aa"/>
+                    <taxon id="ser_euk_md_incut10A-aa"/>
+                    <taxon id="ser_euk_md_incut12A-aa"/>
+                    <taxon id="ser_euk_md_incut16A-aa"/>
+                    <taxon id="ser_euk_md_incut1A-aa"/>
+                    <taxon id="ser_euk_md_incut3A-aa"/>
+                    <taxon id="ser_euk_md_incut9A-aa"/>
+                    <taxon id="ser_euk_md_mblia18A-aa"/>
+                    <taxon id="ser_euk_md_oidea15A-aa"/>
+                    <taxon id="ser_euk_md_phora7A-aa"/>
+                    <taxon id="ser_euk_md_ranae5A-aa"/>
+                    <taxon id="ser_euk_md_theta2A-aa"/>
+                    <taxon id="ser_euk_md_ttata17A-aa"/>
+                    <taxon id="ser_euk_md_uberi6A-aa"/>
+                    <taxon id="ser_euk_md_wa_ii14A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="L" spec="TaxonSet">
-		            <taxon id="seq_leu_1wz2_p__hori1A-aa1"/>
-                    <taxon id="seq_leu_arch_m_aneyi13A-aa1"/>
-                    <taxon id="seq_leu_arch_m_anium18A-aa1"/>
-                    <taxon id="seq_leu_arch_m_ankai6A-aa1"/>
-                    <taxon id="seq_leu_arch_m_arius15A-aa1"/>
-                    <taxon id="seq_leu_arch_m_dleri9A-aa1"/>
-                    <taxon id="seq_leu_arch_m_gatei7A-aa1"/>
-                    <taxon id="seq_leu_arch_m_gidus3A-aa1"/>
-                    <taxon id="seq_leu_arch_m_hicus10A-aa1"/>
-                    <taxon id="seq_leu_arch_m_hilum12A-aa1"/>
-                    <taxon id="seq_leu_arch_m_hilum17A-aa1"/>
-                    <taxon id="seq_leu_arch_m_itans11A-aa1"/>
-                    <taxon id="seq_leu_arch_m_orans5A-aa1"/>
-                    <taxon id="seq_leu_arch_m_rinus16A-aa1"/>
-                    <taxon id="seq_leu_arch_m_schii8A-aa1"/>
-                    <taxon id="seq_leu_arch_m_ultum14A-aa1"/>
-                    <taxon id="seq_leu_arch_m_um_sp4A-aa1"/>
-                    <taxon id="seq_leu_euk_md_labra20A-aa"/>
+                    <taxon id="leu_euk_md_antum13A-aa"/>
+                    <taxon id="leu_euk_md_incut11A-aa"/>
+                    <taxon id="leu_euk_md_incut12A-aa"/>
+                    <taxon id="leu_euk_md_incut4A-aa"/>
+                    <taxon id="leu_euk_md_incut5A-aa"/>
+                    <taxon id="leu_euk_md_incut6A-aa"/>
+                    <taxon id="leu_euk_md_incut7A-aa"/>
+                    <taxon id="leu_euk_md_labra2A-aa"/>
+                    <taxon id="leu_euk_md_mblia10A-aa"/>
+                    <taxon id="leu_euk_md_minis3A-aa"/>
+                    <taxon id="leu_euk_md_nalis19A-aa"/>
+                    <taxon id="leu_euk_md_phora16A-aa"/>
+                    <taxon id="leu_euk_md_ranae14A-aa"/>
+                    <taxon id="leu_euk_md_setta18A-aa"/>
+                    <taxon id="leu_euk_md_tatus9A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="R.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="R" spec="TaxonSet">
-		            <taxon id="seq_arg_2zue_p__hori18A-aa1"/>
-                    <taxon id="seq_arg_arch_m_aneyi2A-aa1"/>
-                    <taxon id="seq_arg_arch_m_arius5A-aa1"/>
-                    <taxon id="seq_arg_arch_m_dleri14A-aa1"/>
-                    <taxon id="seq_arg_arch_m_gatei12A-aa1"/>
-                    <taxon id="seq_arg_arch_m_gidus1A-aa1"/>
-                    <taxon id="seq_arg_arch_m_hicus8A-aa1"/>
-                    <taxon id="seq_arg_arch_m_hilum16A-aa1"/>
-                    <taxon id="seq_arg_arch_m_hilum7A-aa1"/>
-                    <taxon id="seq_arg_arch_m_incut4A-aa1"/>
-                    <taxon id="seq_arg_arch_m_itans15A-aa1"/>
-                    <taxon id="seq_arg_arch_m_licus11A-aa1"/>
-                    <taxon id="seq_arg_arch_m_opcut6A-aa1"/>
-                    <taxon id="seq_arg_arch_m_orans10A-aa1"/>
-                    <taxon id="seq_arg_arch_m_schii13A-aa1"/>
-                    <taxon id="seq_arg_arch_m_ultum3A-aa1"/>
-                    <taxon id="seq_arg_arch_m_um_sp9A-aa1"/>
+                    <taxon id="arg_1f7u_s_cerev19A-aa"/>
+                    <taxon id="arg_euk_md__mori8A-aa"/>
+                    <taxon id="arg_euk_md_atica6A-aa"/>
+                    <taxon id="arg_euk_md_ideum12A-aa"/>
+                    <taxon id="arg_euk_md_incut15A-aa"/>
+                    <taxon id="arg_euk_md_incut1A-aa"/>
+                    <taxon id="arg_euk_md_mblia14A-aa"/>
+                    <taxon id="arg_euk_md_oidea11A-aa"/>
+                    <taxon id="arg_euk_md_opcut2A-aa"/>
+                    <taxon id="arg_euk_md_phora5A-aa"/>
+                    <taxon id="arg_euk_md_ranae4A-aa"/>
+                    <taxon id="arg_euk_md_rerio13A-aa"/>
+                    <taxon id="arg_euk_md_rzaki10A-aa"/>
+                    <taxon id="arg_euk_md_setta7A-aa"/>
+                    <taxon id="sarg_euk_md_stica3A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="T" spec="TaxonSet">
-		            <taxon id="seq_thr_3a32_a_ernix20A-aa"/>
-                    <taxon id="seq_thr_arch_m_acter18A-aa"/>
-                    <taxon id="seq_thr_arch_m_anium8A-aa"/>
-                    <taxon id="seq_thr_arch_m_ankai1A-aa"/>
-                    <taxon id="seq_thr_arch_m_arius6A-aa"/>
-                    <taxon id="seq_thr_arch_m_dleri17A-aa"/>
-                    <taxon id="seq_thr_arch_m_gatei15A-aa"/>
-                    <taxon id="seq_thr_arch_m_gidus12A-aa"/>
-                    <taxon id="seq_thr_arch_m_hilum3A-aa"/>
-                    <taxon id="seq_thr_arch_m_hilum7A-aa"/>
-                    <taxon id="seq_thr_arch_m_incut10A-aa"/>
-                    <taxon id="seq_thr_arch_m_incut11A-aa"/>
-                    <taxon id="seq_thr_arch_m_incut9A-aa"/>
-                    <taxon id="seq_thr_arch_m_itans2A-aa"/>
-                    <taxon id="seq_thr_arch_m_orans14A-aa"/>
-                    <taxon id="seq_thr_arch_m_oshii4A-aa"/>
-                    <taxon id="seq_thr_arch_m_rinus5A-aa"/>
-                    <taxon id="seq_thr_arch_m_schii16A-aa"/>
-                    <taxon id="seq_thr_arch_m_um_sp13A-aa"/>
+                    <taxon id="thr_euk_md_incut10A-aa"/>
+                    <taxon id="thr_euk_md_incut11A-aa"/>
+                    <taxon id="thr_euk_md_incut13A-aa"/>
+                    <taxon id="thr_euk_md_incut16A-aa"/>
+                    <taxon id="thr_euk_md_incut18A-aa"/>
+                    <taxon id="thr_euk_md_incut20A-aa"/>
+                    <taxon id="thr_euk_md_incut4A-aa"/>
+                    <taxon id="thr_euk_md_incut5A-aa"/>
+                    <taxon id="thr_euk_md_incut6A-aa"/>
+                    <taxon id="thr_euk_md_incut7A-aa"/>
+                    <taxon id="thr_euk_md_incut9A-aa"/>
+                    <taxon id="thr_euk_md_opcut14A-aa"/>
+                    <taxon id="thr_euk_md_opcut8A-aa"/>
+                    <taxon id="thr_euk_md_phora17A-aa"/>
+                    <taxon id="thr_euk_md_ranae15A-aa"/>
+                    <taxon id="thr_euk_md_setta19A-aa"/>
+                    <taxon id="thr_euk_md_theta12A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="I.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="I" spec="TaxonSet">
-		            <taxon id="seq_ile_arch_m_aneyi3A-aa1"/>
-                    <taxon id="seq_ile_arch_m_anium10A-aa1"/>
-                    <taxon id="seq_ile_arch_m_arius7A-aa1"/>
-                    <taxon id="seq_ile_arch_m_dleri15A-aa1"/>
-                    <taxon id="seq_ile_arch_m_gatei13A-aa1"/>
-                    <taxon id="seq_ile_arch_m_gidus2A-aa1"/>
-                    <taxon id="seq_ile_arch_m_hicus16A-aa1"/>
-                    <taxon id="seq_ile_arch_m_hilum18A-aa1"/>
-                    <taxon id="seq_ile_arch_m_hilum9A-aa1"/>
-                    <taxon id="seq_ile_arch_m_incut17A-aa1"/>
-                    <taxon id="seq_ile_arch_m_opcut4A-aa1"/>
-                    <taxon id="seq_ile_arch_m_orans12A-aa1"/>
-                    <taxon id="seq_ile_arch_m_rinus6A-aa1"/>
-                    <taxon id="seq_ile_arch_m_rinus8A-aa1"/>
-                    <taxon id="seq_ile_arch_m_schii14A-aa1"/>
-                    <taxon id="seq_ile_arch_m_ultum5A-aa1"/>
-                    <taxon id="seq_ile_arch_m_um_sp11A-aa1"/>
+                    <taxon id="ile_euk_md__mori12A-aa"/>
+                    <taxon id="ile_euk_md_gigas13A-aa"/>
+                    <taxon id="ile_euk_md_ideum17A-aa"/>
+                    <taxon id="ile_euk_md_incut14A-aa"/>
+                    <taxon id="ile_euk_md_incut16A-aa"/>
+                    <taxon id="ile_euk_md_incut5A-aa"/>
+                    <taxon id="ile_euk_md_incut9A-aa"/>
+                    <taxon id="ile_euk_md_labra1A-aa"/>
+                    <taxon id="ile_euk_md_mblia2A-aa"/>
+                    <taxon id="ile_euk_md_nalis10A-aa"/>
+                    <taxon id="ile_euk_md_opcut11A-aa"/>
+                    <taxon id="ile_euk_md_opcut18A-aa"/>
+                    <taxon id="ile_euk_md_phora8A-aa"/>
+                    <taxon id="ile_euk_md_piens4A-aa"/>
+                    <taxon id="ile_euk_md_ranae6A-aa"/>
+                    <taxon id="ile_euk_md_theta3A-aa"/>
+                    <taxon id="ile_euk_md_uberi7A-aa"/>
+                    <taxon id="ile_euk_md_wa_ii15A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="Q.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="Q" spec="TaxonSet">
+                    <taxon id="gln_euk_md_antum12A-aa"/>
+                    <taxon id="gln_euk_md_gigas3A-aa"/>
+                    <taxon id="gln_euk_md_incut2A-aa"/>
+                    <taxon id="gln_euk_md_incut5A-aa"/>
+                    <taxon id="gln_euk_md_mblia9A-aa"/>
+                    <taxon id="gln_euk_md_nalis17A-aa"/>
+                    <taxon id="gln_euk_md_oidea6A-aa"/>
+                    <taxon id="gln_euk_md_piens11A-aa"/>
+                    <taxon id="gln_euk_md_ranae14A-aa"/>
+                    <taxon id="gln_euk_md_rerio7A-aa"/>
+                    <taxon id="gln_euk_md_rzaki4A-aa"/>
+                    <taxon id="gln_euk_md_setta16A-aa"/>
+                    <taxon id="gln_euk_md_stica13A-aa"/>
+                    <taxon id="gln_euk_md_theta10A-aa"/>
+                    <taxon id="gln_euk_md_ttata8A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="N.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="N" spec="TaxonSet">
-		            <taxon id="seq_asn_1x54a__oshii1A-aa"/>
-                    <taxon id="seq_asn_arch_m_anium9A-aa"/>
-                    <taxon id="seq_asn_arch_m_hilum5A-aa"/>
-                    <taxon id="seq_asn_arch_m_hilum8A-aa"/>
-                    <taxon id="seq_asn_arch_m_itans4A-aa"/>
-                    <taxon id="seq_asn_arch_m_opcut6A-aa"/>
-                    <taxon id="seq_asn_arch_m_rinus7A-aa"/>
+                    <taxon id="asn_3m4p_e_histo1A-aa"/>
+                    <taxon id="asn_euk_md_incut10A-aa"/>
+                    <taxon id="asn_euk_md_incut11A-aa"/>
+                    <taxon id="asn_euk_md_incut12A-aa"/>
+                    <taxon id="asn_euk_md_incut13A-aa"/>
+                    <taxon id="asn_euk_md_incut14A-aa"/>
+                    <taxon id="asn_euk_md_incut15A-aa"/>
+                    <taxon id="asn_euk_md_incut18A-aa"/>
+                    <taxon id="asn_euk_md_incut2A-aa"/>
+                    <taxon id="asn_euk_md_incut3A-aa"/>
+                    <taxon id="asn_euk_md_incut4A-aa"/>
+                    <taxon id="asn_euk_md_incut5A-aa"/>
+                    <taxon id="asn_euk_md_incut6A-aa"/>
+                    <taxon id="asn_euk_md_incut8A-aa"/>
+                    <taxon id="asn_euk_md_incut9A-aa"/>
+                    <taxon id="asn_euk_md_opcut17A-aa"/>
+                    <taxon id="asn_euk_md_opcut7A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="C.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="C" spec="TaxonSet">
-		            <taxon id="seq_cys_arch_m_incut10A-aa1"/>
-                    <taxon id="seq_cys_arch_m_incut11A-aa1"/>
-                    <taxon id="seq_cys_arch_m_incut12A-aa1"/>
-                    <taxon id="seq_cys_arch_m_incut13A-aa1"/>
-                    <taxon id="seq_cys_arch_m_incut14A-aa1"/>
-                    <taxon id="seq_cys_arch_m_incut15A-aa1"/>
-                    <taxon id="seq_cys_arch_m_incut16A-aa1"/>
-                    <taxon id="seq_cys_arch_m_incut17A-aa1"/>
-                    <taxon id="seq_cys_arch_m_incut2A-aa1"/>
-                    <taxon id="seq_cys_arch_m_incut3A-aa1"/>
-                    <taxon id="seq_cys_arch_m_incut6A-aa1"/>
-                    <taxon id="seq_cys_arch_m_incut9A-aa1"/>
+                    <taxon id="cys_euk_md_incut10A-aa"/>
+                    <taxon id="cys_euk_md_incut11A-aa"/>
+                    <taxon id="cys_euk_md_incut12A-aa"/>
+                    <taxon id="cys_euk_md_incut13A-aa"/>
+                    <taxon id="cys_euk_md_incut14A-aa"/>
+                    <taxon id="cys_euk_md_incut15A-aa"/>
+                    <taxon id="cys_euk_md_incut1A-aa"/>
+                    <taxon id="cys_euk_md_incut3A-aa"/>
+                    <taxon id="cys_euk_md_incut4A-aa"/>
+                    <taxon id="cys_euk_md_incut5A-aa"/>
+                    <taxon id="cys_euk_md_incut6A-aa"/>
+                    <taxon id="cys_euk_md_incut7A-aa"/>
+                    <taxon id="cys_euk_md_incut8A-aa"/>
+                    <taxon id="cys_euk_md_incut9A-aa"/>
+                    <taxon id="cys_euk_md_ranae2A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="Y.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="Y" spec="TaxonSet">
-		            <taxon id="seq_tyr_2cyb_a__fulg20A-aa1"/>
-                    <taxon id="seq_tyr_2cya_a_ernix17A-aa1"/>
-                    <taxon id="seq_tyr_2cyc_p__hori18A-aa1"/>
-                    <taxon id="seq_tyr_2zp1_m_annas19A-aa1"/>
-                    <taxon id="seq_tyr_arch_m_aneyi2A-aa1"/>
-                    <taxon id="seq_tyr_arch_m_anium8A-aa1"/>
-                    <taxon id="seq_tyr_arch_m_dleri9A-aa1"/>
-                    <taxon id="seq_tyr_arch_m_gatei13A-aa1"/>
-                    <taxon id="seq_tyr_arch_m_hicus14A-aa1"/>
-                    <taxon id="seq_tyr_arch_m_hilum1A-aa1"/>
-                    <taxon id="seq_tyr_arch_m_hilum7A-aa1"/>
-                    <taxon id="seq_tyr_arch_m_licus12A-aa1"/>
-                    <taxon id="seq_tyr_arch_m_ndcut15A-aa1"/>
-                    <taxon id="seq_tyr_arch_m_ndcut5A-aa1"/>
-                    <taxon id="seq_tyr_arch_m_orans11A-aa1"/>
-                    <taxon id="seq_tyr_arch_m_rinus6A-aa1"/>
-                    <taxon id="seq_tyr_arch_m_ultum3A-aa1"/>
-                    <taxon id="seq_tyr_arch_m_um_sp10A-aa1"/>
+                    <taxon id="tyr_2dlc_s_cerev18X-aa"/>
+                    <taxon id="tyr_euk_md_antum3A-aa"/>
+                    <taxon id="tyr_euk_md_incut10A-aa"/>
+                    <taxon id="tyr_euk_md_incut12A-aa"/>
+                    <taxon id="tyr_euk_md_incut13A-aa"/>
+                    <taxon id="tyr_euk_md_incut14A-aa"/>
+                    <taxon id="tyr_euk_md_incut16A-aa"/>
+                    <taxon id="tyr_euk_md_incut6A-aa"/>
+                    <taxon id="tyr_euk_md_incut8A-aa"/>
+                    <taxon id="tyr_euk_md_labra1A-aa"/>
+                    <taxon id="tyr_euk_md_minis9A-aa"/>
+                    <taxon id="tyr_euk_md_ndcut15A-aa"/>
+                    <taxon id="tyr_euk_md_phora7A-aa"/>
+                    <taxon id="tyr_euk_md_piens2A-aa"/>
+                    <taxon id="tyr_euk_md_ranae5A-aa"/>
+                    <taxon id="tyr_euk_md_rzaki11A-aa"/>
+                    <taxon id="tyr_euk_md_stica4A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="H.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="H" spec="TaxonSet">
-		            <taxon id="seq_his_arch_m_aneyi12A-aa"/>
-                    <taxon id="seq_his_arch_m_anium17A-aa"/>
-                    <taxon id="seq_his_arch_m_ankai5A-aa"/>
-                    <taxon id="seq_his_arch_m_arius15A-aa"/>
-                    <taxon id="seq_his_arch_m_dleri8A-aa"/>
-                    <taxon id="seq_his_arch_m_erium3A-aa"/>
-                    <taxon id="seq_his_arch_m_gatei6A-aa"/>
-                    <taxon id="seq_his_arch_m_gidus2A-aa"/>
-                    <taxon id="seq_his_arch_m_hicus9A-aa"/>
-                    <taxon id="seq_his_arch_m_hilum11A-aa"/>
-                    <taxon id="seq_his_arch_m_itans10A-aa"/>
-                    <taxon id="seq_his_arch_m_orans4A-aa"/>
-                    <taxon id="seq_his_arch_m_oshii13A-aa"/>
-                    <taxon id="seq_his_arch_m_rinus16A-aa"/>
-                    <taxon id="seq_his_arch_m_schii7A-aa"/>
-                    <taxon id="seq_his_arch_m_ultum14A-aa"/>
+                    <taxon id="his_3hri_t_rucei19A-aa"/>
+                    <taxon id="his_3hri_t_rucei1A-aa"/>
+                    <taxon id="his_3lc0_t_cruzi2A-aa"/>
+                    <taxon id="his_euk_md_incut11A-aa"/>
+                    <taxon id="his_euk_md_incut14A-aa"/>
+                    <taxon id="his_euk_md_incut20A-aa"/>
+                    <taxon id="his_euk_md_incut5A-aa"/>
+                    <taxon id="his_euk_md_incut6A-aa"/>
+                    <taxon id="his_euk_md_incut7A-aa"/>
+                    <taxon id="his_euk_md_opcut12A-aa"/>
+                    <taxon id="his_euk_md_opcut13A-aa"/>
+                    <taxon id="his_euk_md_opcut15A-aa"/>
+                    <taxon id="his_euk_md_opcut16A-aa"/>
+                    <taxon id="his_euk_md_opcut17A-aa"/>
+                    <taxon id="his_euk_md_opcut18A-aa"/>
+                    <taxon id="his_euk_md_opcut3A-aa"/>
+                    <taxon id="his_euk_md_opcut4A-aa"/>
+                    <taxon id="his_euk_md_phora10A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="M.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="M" spec="TaxonSet">
-		            <taxon id="seq_met_1rqg_p_byssi1A-aa1"/>
-                    <taxon id="seq_met_arch_m_alpha3A-aa1"/>
-                    <taxon id="seq_met_arch_m_anium11A-aa1"/>
-                    <taxon id="seq_met_arch_m_arius8A-aa1"/>
-                    <taxon id="seq_met_arch_m_hilum10A-aa1"/>
-                    <taxon id="seq_met_arch_m_incut12A-aa1"/>
-                    <taxon id="seq_met_arch_m_incut13A-aa1"/>
-                    <taxon id="seq_met_arch_m_incut14A-aa1"/>
-                    <taxon id="seq_met_arch_m_incut15A-aa1"/>
-                    <taxon id="seq_met_arch_m_incut16A-aa1"/>
-                    <taxon id="seq_met_arch_m_incut17A-aa1"/>
-                    <taxon id="seq_met_arch_m_incut18A-aa1"/>
-                    <taxon id="seq_met_arch_m_incut19A-aa1"/>
-                    <taxon id="seq_met_arch_m_incut2A-aa1"/>
-                    <taxon id="seq_met_arch_m_incut4A-aa1"/>
-                    <taxon id="seq_met_arch_m_incut5A-aa1"/>
-                    <taxon id="seq_met_arch_m_incut7A-aa1"/>
-                    <taxon id="seq_met_arch_m_rinus9A-aa1"/>
-                    <taxon id="seq_met_arch_m_ultum6A-aa1"/>
+                    <taxon id="met_euk_md_incut11A-aa"/>
+                    <taxon id="met_euk_md_incut12A-aa"/>
+                    <taxon id="met_euk_md_incut13A-aa"/>
+                    <taxon id="met_euk_md_incut14A-aa"/>
+                    <taxon id="met_euk_md_incut16A-aa"/>
+                    <taxon id="met_euk_md_incut17A-aa"/>
+                    <taxon id="met_euk_md_incut18A-aa"/>
+                    <taxon id="met_euk_md_incut19A-aa"/>
+                    <taxon id="met_euk_md_incut2A-aa"/>
+                    <taxon id="met_euk_md_incut5A-aa"/>
+                    <taxon id="met_euk_md_incut6A-aa"/>
+                    <taxon id="met_euk_md_opcut3A-aa"/>
+                    <taxon id="met_euk_md_phora9A-aa"/>
+                    <taxon id="met_euk_md_ranae7A-aa"/>
+                    <taxon id="met_euk_md_uberi8A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="W.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="W" spec="TaxonSet">
-		            <taxon id="seq_trp_arch_m_aneyi12A-aa1"/>
-                    <taxon id="seq_trp_arch_m_arius15A-aa1"/>
-                    <taxon id="seq_trp_arch_m_dleri8A-aa1"/>
-                    <taxon id="seq_trp_arch_m_hicus9A-aa1"/>
-                    <taxon id="seq_trp_arch_m_hilum11A-aa1"/>
-                    <taxon id="seq_trp_arch_m_incut4A-aa1"/>
-                    <taxon id="seq_trp_arch_m_itans10A-aa1"/>
-                    <taxon id="seq_trp_arch_m_opcut17A-aa1"/>
-                    <taxon id="seq_trp_arch_m_opcut18A-aa1"/>
-                    <taxon id="seq_trp_arch_m_opcut2A-aa1"/>
-                    <taxon id="seq_trp_arch_m_opcut6A-aa1"/>
-                    <taxon id="seq_trp_arch_m_oshii13A-aa1"/>
-                    <taxon id="seq_trp_arch_m_rinus16A-aa1"/>
-                    <taxon id="seq_trp_arch_m_schii7A-aa1"/>
-                    <taxon id="seq_trp_arch_m_ultum14A-aa1"/>
-                    <taxon id="seq_trp_arch_m_um_sp3A-aa1"/>
+                    <taxon id="trp_1r6u_h_h_sap19B-aa"/>
+                    <taxon id="trp_2ip1_s_cerev20A-aa"/>
+                    <taxon id="trp_euk_md__mori12A-aa"/>
+                    <taxon id="trp_euk_md_antum4A-aa"/>
+                    <taxon id="trp_euk_md_aurus13A-aa"/>
+                    <taxon id="trp_euk_md_gas_114A-aa"/>
+                    <taxon id="trp_euk_md_ica_15A-aa"/>
+                    <taxon id="trp_euk_md_ideum17A-aa"/>
+                    <taxon id="trp_euk_md_labra11A-aa"/>
+                    <taxon id="trp_euk_md_mblia2A-aa"/>
+                    <taxon id="trp_euk_md_nalis10A-aa"/>
+                    <taxon id="trp_euk_md_opcut15A-aa"/>
+                    <taxon id="trp_euk_md_opcut16A-aa"/>
+                    <taxon id="trp_euk_md_opcut9A-aa"/>
+                    <taxon id="trp_euk_md_phora8A-aa"/>
+                    <taxon id="trp_euk_md_ranae6A-aa"/>
+                    <taxon id="trp_euk_md_rerio18A-aa"/>
+                    <taxon id="trp_euk_md_tatus1A-aa"/>
+                    <taxon id="trp_euk_md_theta3A-aa"/>
+                    <taxon id="trp_euk_md_uberi7A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="K" spec="TaxonSet">
-		            <taxon id="seq_lys_arch_m_aneyi11A-aa1"/>
-                    <taxon id="seq_lys_arch_m_anium18A-aa1"/>
-                    <taxon id="seq_lys_arch_m_gidus2A-aa1"/>
-                    <taxon id="seq_lys_arch_m_hicus8A-aa1"/>
-                    <taxon id="seq_lys_arch_m_hilum17A-aa1"/>
-                    <taxon id="seq_lys_arch_m_incut9A-aa1"/>
-                    <taxon id="seq_lys_arch_m_licus5A-aa1"/>
-                    <taxon id="seq_lys_arch_m_opcut3A-aa1"/>
-                    <taxon id="seq_lys_arch_m_opcut7A-aa1"/>
-                    <taxon id="seq_lys_arch_m_orans4A-aa1"/>
-                    <taxon id="seq_lys_arch_m_oshii12A-aa1"/>
-                    <taxon id="seq_lys_arch_m_rinus16A-aa1"/>
-                    <taxon id="seq_lys_arch_m_ultum13A-aa1"/>
-                    <taxon id="seq_lysi_1irx___hori1A-aa1"/>
+                    <taxon id="lys_3bju___piens1A-aa"/>
+                    <taxon id="lys_euk_md__mori13A-aa"/>
+                    <taxon id="lys_euk_md_antum5A-aa"/>
+                    <taxon id="lys_euk_md_gigas14A-aa"/>
+                    <taxon id="lys_euk_md_ideum18A-aa"/>
+                    <taxon id="lys_euk_md_incut15A-aa"/>
+                    <taxon id="lys_euk_md_labra2A-aa"/>
+                    <taxon id="lys_euk_md_mblia3A-aa"/>
+                    <taxon id="lys_euk_md_minis12A-aa"/>
+                    <taxon id="lys_euk_md_nalis11A-aa"/>
+                    <taxon id="lys_euk_md_oidea17A-aa"/>
+                    <taxon id="lys_euk_md_phora8A-aa"/>
+                    <taxon id="lys_euk_md_ranae6A-aa"/>
+                    <taxon id="lys_euk_md_theta4A-aa"/>
+                    <taxon id="lys_euk_md_uberi7A-aa"/>
+                    <taxon id="lys_euk_md_wa_ii16A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="F.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
                 <taxonset id="F" spec="TaxonSet">
-		            <taxon id="seq_phe_arch_m_incut10A-aa"/>
-                    <taxon id="seq_phe_arch_m_incut11A-aa"/>
-                    <taxon id="seq_phe_arch_m_incut12A-aa"/>
-                    <taxon id="seq_phe_arch_m_incut13A-aa"/>
-                    <taxon id="seq_phe_arch_m_incut14A-aa"/>
-                    <taxon id="seq_phe_arch_m_incut15A-aa"/>
-                    <taxon id="seq_phe_arch_m_incut16A-aa"/>
-                    <taxon id="seq_phe_arch_m_incut17A-aa"/>
-                    <taxon id="seq_phe_arch_m_incut2A-aa"/>
-                    <taxon id="seq_phe_arch_m_incut3A-aa"/>
-                    <taxon id="seq_phe_arch_m_incut4A-aa"/>
-                    <taxon id="seq_phe_arch_m_incut5A-aa"/>
-                    <taxon id="seq_phe_arch_m_incut6A-aa"/>
-                    <taxon id="seq_phe_arch_m_incut7A-aa"/>
-                    <taxon id="seq_phe_arch_m_incut8A-aa"/>
-                    <taxon id="seq_phe_arch_m_incut9A-aa"/>
+                    <taxon id="phe_3l4g_h_h_sap1A-aa"/>
+                    <taxon id="phe_euk_md_incut10A-aa"/>
+                    <taxon id="phe_euk_md_incut11A-aa"/>
+                    <taxon id="phe_euk_md_incut12A-aa"/>
+                    <taxon id="phe_euk_md_incut13A-aa"/>
+                    <taxon id="phe_euk_md_incut14A-aa"/>
+                    <taxon id="phe_euk_md_incut15A-aa"/>
+                    <taxon id="phe_euk_md_incut3A-aa"/>
+                    <taxon id="phe_euk_md_incut4A-aa"/>
+                    <taxon id="phe_euk_md_incut5A-aa"/>
+                    <taxon id="phe_euk_md_incut6A-aa"/>
+                    <taxon id="phe_euk_md_incut7A-aa"/>
+                    <taxon id="phe_euk_md_incut8A-aa"/>
+                    <taxon id="phe_euk_md_incut9A-aa"/>
+                    <taxon id="phe_euk_md_minis2A-aa"/>
                 </taxonset>
             </distribution>
 
-            <!--<distribution spec='beast.evolution.substitutionmodel.AARSTreePrior' id='AARSprior'>
-                        <trait id="TraitSet1" spec="beast.evolution.tree.TraitSet" taxa="@allTaxa" traitname="state" units="year">
-Val_01/3-101=0, Val_02/3-101=0, Val_03/3-101=0, Val_04/3-101=0, Val_05/3-101=0, Val_06/3-101=0, Val_07/3-101=0, Val_08/3-101=0, Val_09/3-101=0, Val_10/3-101=0, Val_11/3-101=0, Val_12/3-101=0, Val_13/3-101=0, Val_14/3-101=0, 
-Gly_01/1-99=1, Gly_02/1-99=1, Gly_03/1-99=1, Gly_04/1-99=1, Gly_05/1-99=1, Gly_06/1-99=1, Gly_07/1-99=1, Gly_08/1-99=1, Gly_09/1-99=1, Gly_10/1-99=1, Gly_11/1-99=1, Gly_12/1-99=1, Gly_13/1-99=1, Gly_14/1-99=1, 
-Ala_01/1-99=2, Ala_02/1-99=2, Ala_03/1-99=2, Ala_04/1-99=2, Ala_05/1-99=2, Ala_06/1-99=2, Ala_07/1-99=2, Ala_09/1-99=2, Ala_10/1-99=2, Ala_11/1-99=2, Ala_12/1-99=2, Ala_13/1-99=2, Ala_14/1-99=2, 
-Asp_01/1-99=3, Asp_02/1-99=3, Asp_03/1-99=3, Asp_04/1-99=3, Asp_05/1-99=3, Asp_06/1-99=3, Asp_07/1-99=3, Asp_08/1-99=3, Asp_09/1-99=3, Asp_10/1-99=3, Asp_11/1-99=3, Asp_12/1-99=3, Asp_13/1-99=3, Asp_14/1-99=3, 
-Pro_01/1-99=4, Pro_02/1-99=4, Pro_03/1-99=4, Pro_04/1-99=4, Pro_05/1-99=4, Pro_06/1-99=4, Pro_07/1-99=4, Pro_08/1-99=4, Pro_09/1-99=4, Pro_10/1-99=4, Pro_11/1-99=4, Pro_12/1-99=4, Pro_13/1-99=4, Pro_14/1-99=4, 
-Glu_01/3-101=5, Glu_02/3-101=5, Glu_03/3-101=5, Glu_04/3-101=5, Glu_05/3-101=5, Glu_06/3-101=5, Glu_07/3-101=5, Glu_08/3-101=5, Glu_09/3-101=5, Glu_10/3-101=5, Glu_11/3-101=5, Glu_12/3-101=5, Glu_13/3-101=5, Glu_14/3-101=5, 
-Ser_01/1-99=6, Ser_02/1-99=6, Ser_05/1-99=6, Ser_06/1-99=6, Ser_09/1-99=6, Ser_10/1-99=6, Ser_11/1-99=6, Ser_12/1-99=6, Ser_13/1-99=6, Ser_14/1-99=6, 
-Leu_01/3-101=7, Leu_02/3-101=7, Leu_03/3-101=7, Leu_04/3-101=7, Leu_05/3-101=7, Leu_06/3-101=7, Leu_07/3-101=7, Leu_08/3-101=7, Leu_09/3-101=7, Leu_10/3-101=7, Leu_11/3-101=7, Leu_12/3-101=7, Leu_13/3-101=7, Leu_14/3-101=7, 
-Arg_01/3-101=8, Arg_02/3-101=8, Arg_03/3-101=8, Arg_04/3-101=8, Arg_05/3-101=8, Arg_06/3-101=8, Arg_07/3-101=8, Arg_08/3-101=8, Arg_09/3-101=8, Arg_10/3-101=8, Arg_11/3-101=8, Arg_12/3-101=8, Arg_13/3-101=8, Arg_14/3-101=8, 
-Thr_01/1-99=9, Thr_02/1-99=9, Thr_03/1-99=9, Thr_04/1-99=9, Thr_05/1-99=9, Thr_06/1-99=9, Thr_07/1-99=9, Thr_08/1-99=9, Thr_09/1-99=9, Thr_10/1-99=9, Thr_11/1-99=9, Thr_12/1-99=9, Thr_13/1-99=9, Thr_14/1-99=9, 
-Ile_01/3-101=10, Ile_02/3-101=10, Ile_03/3-101=10, Ile_04/3-101=10, Ile_05/3-101=10, Ile_06/3-101=10, Ile_07/3-101=10, Ile_08/3-101=10, Ile_09/3-101=10, Ile_10/3-101=10, Ile_11/3-101=10, Ile_12/3-101=10, Ile_13/3-101=10, Ile_14/3-101=10, 
-Asn_09/1-99=11, Asn_10/1-99=11, Asn_11/1-99=11, Asn_13/1-99=11, Asn_14/1-99=11, 
-Cys_01/3-101=12, Cys_02/3-101=12, Cys_03/3-101=12, Cys_05/3-101=12, Cys_06/3-101=12, Cys_08/3-101=12, Cys_09/3-101=12, Cys_10/3-101=12, Cys_11/3-101=12, Cys_12/3-101=12, Cys_13/3-101=12, Cys_14/3-101=12, 
-Tyr_01/3-101=13, Tyr_02/3-101=13, Tyr_04/3-101=13, Tyr_05/3-101=13, Tyr_06/3-101=13, Tyr_07/3-101=13, Tyr_08/3-101=13, Tyr_09a/3-101=13, Tyr_09b/3-101=13, Tyr_10/3-101=13, Tyr_11/3-101=13, Tyr_12/3-101=13, Tyr_13/3-101=13, Tyr_14/3-101=13, 
-His_01/1-99=14, His_02/1-99=14, His_03/1-99=14, His_04/1-99=14, His_05/1-99=14, His_06/1-99=14, His_07/1-99=14, His_08/1-99=14, His_10/1-99=14, His_11/1-99=14, His_12/1-99=14, His_13/1-99=14, His_14/1-99=14, 
-Met_01/3-101=15, Met_02/3-101=15, Met_03/3-101=15, Met_04/3-101=15, Met_05/3-101=15, Met_06/3-101=15, Met_07/3-101=15, Met_08/3-101=15, Met_09/3-101=15, Met_10/3-101=15, Met_11/3-101=15, Met_12/3-101=15, Met_13/3-101=15, Met_14/3-101=15, 
-Trp_01/3-101=16, Trp_02a/3-101=16, Trp_02b/3-101=16, Trp_03/3-101=16, Trp_04/3-101=16, Trp_05/3-101=16, Trp_07/3-101=16, Trp_08/3-101=16, Trp_09/3-101=16, Trp_10/3-101=16, Trp_11/3-101=16, Trp_12/3-101=16, Trp_13/3-101=16, Trp_14/3-101=16, 
-Lys_01/3-101=17, Lys_02/3-101=17, Lys_03/3-101=17, Lys_04/3-101=17, Lys_05/3-101=17, Lys_07/3-101=17, Lys_08/3-101=17, Lys_10/3-101=17, Lys_11/3-101=17, Lys_13/3-101=17, Lys_14/3-101=17, 
-Phe_01/1-99=18, Phe_02/1-99=18, Phe_03/1-99=18, Phe_05/1-99=18, Phe_06/1-99=18, Phe_08/1-99=18, Phe_10/1-99=18, Phe_12/1-99=18, Phe_13/1-99=18, Phe_14/1-99=18
-                                </trait>
-                    <treeIntervals id='treeIntervals' spec='beast.evolution.tree.coalescent.TreeIntervals' tree='@Tree.t:AARS_Euk_edited'/>
-            </distribution>-->
+            <distribution spec='beast.evolution.substitutionmodel.AARSTreePrior' id='AARSprior'>
+                <trait id="TraitSet1" spec="beast.evolution.tree.TraitSet" taxa="@allTaxa" traitname="state" units="year">
+                    val_euk_md_antum15A-aa=0, val_euk_md_incut11A-aa=0, val_euk_md_incut12A-aa=0, val_euk_md_incut14A-aa=0, val_euk_md_incut17A-aa=0, val_euk_md_incut18A-aa=0, val_euk_md_incut19A-aa=0, val_euk_md_incut2A-aa=0, val_euk_md_incut5A-aa=0, val_euk_md_incut6A-aa=0, val_euk_md_incut7A-aa=0, val_euk_md_incut9A-aa=0, val_euk_md_oidea3A-aa=0, val_euk_md_phora10A-aa=0, val_euk_md_wa_ii4A-aa=0, 
+                    gly_2zt5_h_h_sap1A-aa=1, gly_euk_md_incut16A-aa=1, gly_euk_md_incut3A-aa=1, gly_euk_md_incut4A-aa=1, gly_euk_md_incut5A-aa=1, gly_euk_md_incut6A-aa=1, gly_euk_md_incut9A-aa=1, gly_euk_md_opcut10A-aa=1, gly_euk_md_opcut11A-aa=1, gly_euk_md_opcut12A-aa=1, gly_euk_md_opcut13A-aa=1, gly_euk_md_opcut14A-aa=1, gly_euk_md_opcut2A-aa=1, gly_euk_md_opcut7A-aa=1, gly_euk_md_opcut8A-aa=1, 
+                    ala_euk_md__mori2A-aa=2, ala_euk_md_antum12A-aa=2, ala_euk_md_gigas3A-aa=2, ala_euk_md_ideum7A-aa=2, ala_euk_md_minis1A-aa=2, ala_euk_md_oidea6A-aa=2, ala_euk_md_phora15A-aa=2, ala_euk_md_ranae13A-aa=2, ala_euk_md_rerio8A-aa=2, ala_euk_md_rzaki4A-aa=2, ala_euk_md_setta17A-aa=2, ala_euk_md_theta11A-aa=2, ala_euk_md_ttata9A-aa=2, ala_euk_md_uberi14A-aa=2, ala_euk_md_wa_ii5A-aa=2, 
+                    asp_3i7f_e_ytica1A-aa=3, asp_euk_md_incut10A-aa=3, asp_euk_md_incut11A-aa=3, asp_euk_md_incut13A-aa=3, asp_euk_md_incut17A-aa=3, asp_euk_md_incut2A-aa=3, asp_euk_md_incut3A-aa=3, asp_euk_md_incut4A-aa=3, asp_euk_md_incut5A-aa=3, asp_euk_md_incut6A-aa=3, asp_euk_md_incut7A-aa=3, asp_euk_md_incut9A-aa=3, asp_euk_md_oidea8A-aa=3, asp_euk_md_phora16A-aa=3, asp_euk_md_ranae14A-aa=3, asp_euk_md_theta12A-aa=3, asp_euk_md_uberi15A-aa=3, 
+                    pro_3ial_g__lamb1A-aa=4, pro_euk_md_incut11A-aa=4, pro_euk_md_incut12A-aa=4, pro_euk_md_incut14A-aa=4, pro_euk_md_incut16A-aa=4, pro_euk_md_incut18A-aa=4, pro_euk_md_incut20A-aa=4, pro_euk_md_incut4A-aa=4, pro_euk_md_incut5A-aa=4, pro_euk_md_incut7A-aa=4, pro_euk_md_incut9A-aa=4, pro_euk_md_oidea10A-aa=4, pro_euk_md_phora17A-aa=4, pro_euk_md_ranae8A-aa=4, pro_euk_md_rzaki15A-aa=4, pro_euk_md_setta19A-aa=4, pro_euk_md_theta13A-aa=4, 
+                    glu_euk_md_incut1A-aa=5, glu_euk_md_incut2A-aa=5, glu_euk_md_incut3A-aa=5, glu_euk_md_incut5A-aa=5, glu_euk_md_incut6A-aa=5, glu_euk_md_incut7A-aa=5, glu_euk_md_incut8A-aa=5, glu_euk_md_incut9A-aa=5, glu_euk_md_nalis13A-aa=5, glu_euk_md_phora10A-aa=5, glu_euk_md_setta12A-aa=5, 
+                    ser_1wleb__aurus19B-aa=6, ser_euk_md__mori11A-aa=6, ser_euk_md_aki_113A-aa=6, ser_euk_md_antum4A-aa=6, ser_euk_md_incut10A-aa=6, ser_euk_md_incut12A-aa=6, ser_euk_md_incut16A-aa=6, ser_euk_md_incut1A-aa=6, ser_euk_md_incut3A-aa=6, ser_euk_md_incut9A-aa=6, ser_euk_md_mblia18A-aa=6, ser_euk_md_oidea15A-aa=6, ser_euk_md_phora7A-aa=6, ser_euk_md_ranae5A-aa=6, ser_euk_md_theta2A-aa=6, ser_euk_md_ttata17A-aa=6, ser_euk_md_uberi6A-aa=6, ser_euk_md_wa_ii14A-aa=6, 
+                    leu_euk_md_antum13A-aa=7, leu_euk_md_incut11A-aa=7, leu_euk_md_incut12A-aa=7, leu_euk_md_incut4A-aa=7, leu_euk_md_incut5A-aa=7, leu_euk_md_incut6A-aa=7, leu_euk_md_incut7A-aa=7, leu_euk_md_labra2A-aa=7, leu_euk_md_mblia10A-aa=7, leu_euk_md_minis3A-aa=7, leu_euk_md_nalis19A-aa=7, leu_euk_md_phora16A-aa=7, leu_euk_md_ranae14A-aa=7, leu_euk_md_setta18A-aa=7, leu_euk_md_tatus9A-aa=7, 
+                    arg_1f7u_s_cerev19A-aa=8, arg_euk_md__mori8A-aa=8, arg_euk_md_atica6A-aa=8, arg_euk_md_ideum12A-aa=8, arg_euk_md_incut15A-aa=8, arg_euk_md_incut1A-aa=8, arg_euk_md_mblia14A-aa=8, arg_euk_md_oidea11A-aa=8, arg_euk_md_opcut2A-aa=8, arg_euk_md_phora5A-aa=8, arg_euk_md_ranae4A-aa=8, arg_euk_md_rerio13A-aa=8, arg_euk_md_rzaki10A-aa=8, arg_euk_md_setta7A-aa=8, arg_euk_md_stica3A-aa=8, 
+                    thr_euk_md_incut10A-aa=9, thr_euk_md_incut11A-aa=9, thr_euk_md_incut13A-aa=9, thr_euk_md_incut16A-aa=9, thr_euk_md_incut18A-aa=9, thr_euk_md_incut20A-aa=9, thr_euk_md_incut4A-aa=9, thr_euk_md_incut5A-aa=9, thr_euk_md_incut6A-aa=9, thr_euk_md_incut7A-aa=9, thr_euk_md_incut9A-aa=9, thr_euk_md_opcut14A-aa=9, thr_euk_md_opcut8A-aa=9, thr_euk_md_phora17A-aa=9, thr_euk_md_ranae15A-aa=9, thr_euk_md_setta19A-aa=9, thr_euk_md_theta12A-aa=9, 
+                    ile_euk_md__mori12A-aa=10, ile_euk_md_gigas13A-aa=10, ile_euk_md_ideum17A-aa=10, ile_euk_md_incut14A-aa=10, ile_euk_md_incut16A-aa=10, ile_euk_md_incut5A-aa=10, ile_euk_md_incut9A-aa=10, ile_euk_md_labra1A-aa=10, ile_euk_md_mblia2A-aa=10, ile_euk_md_nalis10A-aa=10, ile_euk_md_opcut11A-aa=10, ile_euk_md_opcut18A-aa=10, ile_euk_md_phora8A-aa=10, ile_euk_md_piens4A-aa=10, ile_euk_md_ranae6A-aa=10, ile_euk_md_theta3A-aa=10, ile_euk_md_uberi7A-aa=10, ile_euk_md_wa_ii15A-aa=10, 
+                    gln_euk_md_antum12A-aa=11, gln_euk_md_gigas3A-aa=11, gln_euk_md_incut2A-aa=11, gln_euk_md_incut5A-aa=11, gln_euk_md_mblia9A-aa=11, gln_euk_md_nalis17A-aa=11, gln_euk_md_oidea6A-aa=11, gln_euk_md_piens11A-aa=11, gln_euk_md_ranae14A-aa=11, gln_euk_md_rerio7A-aa=11, gln_euk_md_rzaki4A-aa=11, gln_euk_md_setta16A-aa=11, gln_euk_md_stica13A-aa=11, gln_euk_md_theta10A-aa=11, gln_euk_md_ttata8A-aa=11, 
+                    asn_3m4p_e_histo1A-aa=12, asn_euk_md_incut10A-aa=12, asn_euk_md_incut11A-aa=12, asn_euk_md_incut12A-aa=12, asn_euk_md_incut13A-aa=12, asn_euk_md_incut14A-aa=12, asn_euk_md_incut15A-aa=12, asn_euk_md_incut18A-aa=12, asn_euk_md_incut2A-aa=12, asn_euk_md_incut3A-aa=12, asn_euk_md_incut4A-aa=12, asn_euk_md_incut5A-aa=12, asn_euk_md_incut6A-aa=12, asn_euk_md_incut8A-aa=12, asn_euk_md_incut9A-aa=12, asn_euk_md_opcut17A-aa=12, asn_euk_md_opcut7A-aa=12, 
+                    cys_euk_md_incut10A-aa=13, cys_euk_md_incut11A-aa=13, cys_euk_md_incut12A-aa=13, cys_euk_md_incut13A-aa=13, cys_euk_md_incut14A-aa=13, cys_euk_md_incut15A-aa=13, cys_euk_md_incut1A-aa=13, cys_euk_md_incut3A-aa=13, cys_euk_md_incut4A-aa=13, cys_euk_md_incut5A-aa=13, cys_euk_md_incut6A-aa=13, cys_euk_md_incut7A-aa=13, cys_euk_md_incut8A-aa=13, cys_euk_md_incut9A-aa=13, cys_euk_md_ranae2A-aa=13, 
+                    tyr_2dlc_s_cerev18X-aa=14, tyr_euk_md_antum3A-aa=14, tyr_euk_md_incut10A-aa=14, tyr_euk_md_incut12A-aa=14, tyr_euk_md_incut13A-aa=14, tyr_euk_md_incut14A-aa=14, tyr_euk_md_incut16A-aa=14, tyr_euk_md_incut6A-aa=14, tyr_euk_md_incut8A-aa=14, tyr_euk_md_labra1A-aa=14, tyr_euk_md_minis9A-aa=14, tyr_euk_md_ndcut15A-aa=14, tyr_euk_md_phora7A-aa=14, tyr_euk_md_piens2A-aa=14, tyr_euk_md_ranae5A-aa=14, tyr_euk_md_rzaki11A-aa=14, tyr_euk_md_stica4A-aa=14, 
+                    his_3hri_t_rucei19A-aa=15, his_3hri_t_rucei1A-aa=15, his_3lc0_t_cruzi2A-aa=15, his_euk_md_incut11A-aa=15, his_euk_md_incut14A-aa=15, his_euk_md_incut20A-aa=15, his_euk_md_incut5A-aa=15, his_euk_md_incut6A-aa=15, his_euk_md_incut7A-aa=15, his_euk_md_opcut12A-aa=15, his_euk_md_opcut13A-aa=15, his_euk_md_opcut15A-aa=15, his_euk_md_opcut16A-aa=15, his_euk_md_opcut17A-aa=15, his_euk_md_opcut18A-aa=15, his_euk_md_opcut3A-aa=15, his_euk_md_opcut4A-aa=15, his_euk_md_phora10A-aa=15, 
+                    met_euk_md_incut11A-aa=16, met_euk_md_incut12A-aa=16, met_euk_md_incut13A-aa=16, met_euk_md_incut14A-aa=16, met_euk_md_incut16A-aa=16, met_euk_md_incut17A-aa=16, met_euk_md_incut18A-aa=16, met_euk_md_incut19A-aa=16, met_euk_md_incut2A-aa=16, met_euk_md_incut5A-aa=16, met_euk_md_incut6A-aa=16, met_euk_md_opcut3A-aa=16, met_euk_md_phora9A-aa=16, met_euk_md_ranae7A-aa=16, met_euk_md_uberi8A-aa=16, 
+                    trp_1r6u_h_h_sap19B-aa=17, trp_2ip1_s_cerev20A-aa=17, trp_euk_md__mori12A-aa=17, trp_euk_md_antum4A-aa=17, trp_euk_md_aurus13A-aa=17, trp_euk_md_gas_114A-aa=17, trp_euk_md_ica_15A-aa=17, trp_euk_md_ideum17A-aa=17, trp_euk_md_labra11A-aa=17, trp_euk_md_mblia2A-aa=17, trp_euk_md_nalis10A-aa=17, trp_euk_md_opcut15A-aa=17, trp_euk_md_opcut16A-aa=17, trp_euk_md_opcut9A-aa=17, trp_euk_md_phora8A-aa=17, trp_euk_md_ranae6A-aa=17, trp_euk_md_rerio18A-aa=17, trp_euk_md_tatus1A-aa=17, trp_euk_md_theta3A-aa=17, trp_euk_md_uberi7A-aa=17, 
+                    lys_3bju___piens1A-aa=18, lys_euk_md__mori13A-aa=18, lys_euk_md_antum5A-aa=18, lys_euk_md_gigas14A-aa=18, lys_euk_md_ideum18A-aa=18, lys_euk_md_incut15A-aa=18, lys_euk_md_labra2A-aa=18, lys_euk_md_mblia3A-aa=18, lys_euk_md_minis12A-aa=18, lys_euk_md_nalis11A-aa=18, lys_euk_md_oidea17A-aa=18, lys_euk_md_phora8A-aa=18, lys_euk_md_ranae6A-aa=18, lys_euk_md_theta4A-aa=18, lys_euk_md_uberi7A-aa=18, lys_euk_md_wa_ii16A-aa=18, 
+                    phe_3l4g_h_h_sap1A-aa=19, phe_euk_md_incut10A-aa=19, phe_euk_md_incut11A-aa=19, phe_euk_md_incut12A-aa=19, phe_euk_md_incut13A-aa=19, phe_euk_md_incut14A-aa=19, phe_euk_md_incut15A-aa=19, phe_euk_md_incut3A-aa=19, phe_euk_md_incut4A-aa=19, phe_euk_md_incut5A-aa=19, phe_euk_md_incut6A-aa=19, phe_euk_md_incut7A-aa=19, phe_euk_md_incut8A-aa=19, phe_euk_md_incut9A-aa=19, phe_euk_md_minis2A-aa=19
+                </trait>
+            <treeIntervals id='treeIntervals' spec='beast.evolution.tree.coalescent.TreeIntervals' tree='@Tree.t:AARS_Euk_edited'/>
+            </distribution>
 
             <distribution birthDiffRate="@birthRate.t:AARS_Euk_edited" id="YuleModel.t:AARS_Euk_edited" spec="beast.evolution.speciation.YuleModel" tree="@Tree.t:AARS_Euk_edited"/>
             <prior id="YuleBirthRatePrior.t:AARS_Euk_edited" name="distribution" x="@birthRate.t:AARS_Euk_edited">
@@ -773,7 +798,7 @@ Phe_01/1-99=18, Phe_02/1-99=18, Phe_03/1-99=18, Phe_05/1-99=18, Phe_06/1-99=18, 
                     <parameter estimate="false" id="gammaShape.s:AARS_Euk_edited" name="shape" value="1.0"/>
                     <parameter estimate="false" id="proportionInvariant.s:AARS_Euk_edited" lower="0.0" name="proportionInvariant" upper="1.0" value="0.0"/>
 
-                    <substModel id="substmodel" spec="TriStateAARSSubstitutionModel" tree="@Tree.t:AARS_Euk_edited">
+                    <substModel id="substmodel" spec="AARSSubstitutionModel" tree="@Tree.t:AARS_Euk_edited">
                         <trait idref="TraitSet1"/>
 						<defaultModel spec='GeneralSubstitutionModel' rates='
 	0.18727491	2.0069284065	0.1526315789	0.3144104803	0.8910925915	0.2330935252	1.8004640371	0.2522727273	1.3885245902	7.8164948454		0.1969309463	1	0.3144475921	0.118852459	2.0564102564	0.3680555556	0.3048387097	0.6510416667
@@ -850,6 +875,7 @@ Phe_01/1-99=18, Phe_02/1-99=18, Phe_03/1-99=18, Phe_05/1-99=18, Phe_06/1-99=18, 
 		<clade idref='R'/>
 		<clade idref='T'/>
 		<clade idref='I'/>
+		<clade idref='Q'/>
 		<clade idref='N'/>
 		<clade idref='C'/>
 		<clade idref='Y'/>
@@ -861,7 +887,7 @@ Phe_01/1-99=18, Phe_02/1-99=18, Phe_03/1-99=18, Phe_05/1-99=18, Phe_06/1-99=18, 
 	</operator>
 
 
-    <logger fileName="Arch_edited.AARS.ucln.log" id="tracelog" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+    <logger fileName="Euk_edited.AARS.ucln.log" id="tracelog" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
@@ -880,7 +906,7 @@ Phe_01/1-99=18, Phe_02/1-99=18, Phe_03/1-99=18, Phe_05/1-99=18, Phe_06/1-99=18, 
         <log idref="prior"/>
     </logger>
 
-    <logger fileName="Arch_edited.AARS.ucln.trees" id="treelog.t:AARS_Euk_edited" logEvery="1000" mode="tree">
+    <logger fileName="Euk_edited.AARS.ucln.trees" id="treelog.t:AARS_Euk_edited" logEvery="1000" mode="tree">
         <log id="TreeWithMetaDataLogger.t:AARS_Euk_edited" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS_Euk_edited"/>
     </logger>
     
