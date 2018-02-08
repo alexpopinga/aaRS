@@ -529,7 +529,7 @@
                     <taxon id="arg_euk_md_rerio13A-aa"/>
                     <taxon id="arg_euk_md_rzaki10A-aa"/>
                     <taxon id="arg_euk_md_setta7A-aa"/>
-                    <taxon id="sarg_euk_md_stica3A-aa"/>
+                    <taxon id="arg_euk_md_stica3A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
