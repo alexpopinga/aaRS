@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" version="2.0">
+
+
+<data id="AARS_Euk_edited" name="alignment">
+	<userDataType spec='beast.evolution.datatype.TwentyState' symbolOrder='VGADPESLRTIQNCYHMWKF'/>
+                    <sequence id="seq_ala_euk_md__mori2A-aa" taxon="ala_euk_md__mori2A-aa" totalcount="20" value="TGDEIRKTFIDFFIKKGHKYVHSSTIPLFADAGMDQFKYRVVDTQKCIRATFFEMMGDWSFKKEICAWAWELLTCSELHYEIWDLVFITKHIDCGLGERLVSV"/>
+                    <sequence id="seq_arg_euk_md__mori8A-aa" taxon="arg_euk_md__mori8A-aa" totalcount="20" value="IVDFSPDIAKEMHVGHLRSTIIGDSICRVVRLDHLGDWGEVSRQEFQKIYDRLDIDRGESFTYDTSDMAAIKIYVTDVGQYTHFMTIDACARRAVEHVGFKFK"/>
+                    <sequence id="seq_asp_euk_md_incut10A-aa" taxon="asp_euk_md_incut10A-aa" totalcount="20" value="IQCQIEDIFRQFLLSEGFVGIHTPKLICLAQSPQLHKQGRVFEIGPVFRACEFTGLDVEMEYSEVMDIVDRLFVSFDVFIEIISGAQRPPHGGFGVGERVVML"/>
+                    <sequence id="seq_cys_euk_md_incut10A-aa" taxon="cys_euk_md_incut10A-aa" totalcount="20" value="DWYAGPTVYDSAHLGHARDYVTFDIIRRVYLVMDITDIDREFELEFFDDMKALDVVTRVSEGWHIECSVMASIHSGGIDLRFPHDDELAQSEAHVYFLHSKMS"/>
+                    <sequence id="seq_gln_euk_md_antum12A-aa" taxon="gln_euk_md_antum12A-aa" totalcount="20" value="YFRFPPEPDGFLHIGHAKSMDLDFGSARAKCYLRYDDTDQVYIDAIMEMVDWMDWVTFSSDSYDFTHCLIDSYSLCTLEFETRRESYFWLLDELPYVWEFLLS"/>
+                    <sequence id="seq_glu_euk_md_incut1A-aa" taxon="glu_euk_md_incut1A-aa" totalcount="20" value="VTRFPPEPSGYLHIGHAKAAMLDYYFGKMKFIVRFDDTDDEFEQTILEDLQMLDVITHTSDIYDFACPIVDSHALRTDEYRDRDPQYKWMIDSLVEIWDFLLS"/>
+                    <sequence id="seq_gly_euk_md_incut16A-aa" taxon="gly_euk_md_incut16A-aa" totalcount="20" value="IMDDIQQEWRRHFLEDDLLEISCPAMTFLRPELAQGIVFGGCQIGTAYRDREFPLAEIEYFLAYFLARIYLFLTCWDAELESAACADRPSVIEPTFGGRIIYA"/>
+                    <sequence id="seq_his_euk_md_incut11A-aa" taxon="his_euk_md_incut11A-aa" totalcount="20" value="VREKVFDVIIRCFKRHGAEVIDTPVFESLRYDLTVPFAIKRYHIAKVYRRREFYQCDFDIADAECLKIMCEILSIYEAVLSVAAGGRYVPCVGLSIGERIFSI"/>
+                    <sequence id="seq_ile_euk_md__mori12A-aa" taxon="ile_euk_md__mori12A-aa" totalcount="20" value="SFYDPPFATGLPHYGHILAGTIKDVVTRYERRFGWDCHGMKYAADWEDIITRMDDDYKTLYDCWFESGSMPYFIAEGIDQTRGFYTLIVLSTALFDLIADKMS"/>
+                    <sequence id="seq_leu_euk_md_antum13A-aa" taxon="leu_euk_md_antum13A-aa" totalcount="20" value="LTTFFPYMDGKLHLGHGFSLTKAEFASRFLWPFGFHVTGDYFPPIAMEDLKSFDRSFMTTSDSLSDSTIYMALRCSGKDLIQDLTMFLYDHAAIPAIFCDKMA"/>
+                    <sequence id="seq_lys_euk_md__mori13A-aa" taxon="lys_euk_md__mori13A-aa" totalcount="20" value="TRAKIIAYVRRFLDDMGFLEVETPLMDYMRIAPELYHKDRVYEIGRQFRDPEFTTCEFYMAYDDLMTITESILSRFEVYVEICDAYTEPPTGGWGLGDRLTMF"/>
+                    <sequence id="seq_met_euk_md_incut11A-aa" taxon="met_euk_md_incut11A-aa" totalcount="20" value="LITSLPYVDDVPHLGDIICVLSADVFARFLFICGTDEYGDKYHAIHKEVYDWFDYFGRTSTYVWFDATIGYIYQFMAKDDVLFSIIFPSSLIGTVHLSATQFS"/>
+                    <sequence id="seq_phe_euk_md_incut10A-aa" taxon="phe_euk_md_incut10A-aa" totalcount="20" value="PLLKVRTEFRQIFLEMGFSEMPTDYVELLRTHTTAVSAAKYFSIDKVFRDAEFHQVEGVIALGDLIGTLYEFFRSMEIFCEVGDSGVFVDVIAWGLSERPTMI"/>
+                    <sequence id="seq_pro_euk_md_incut11A-aa" taxon="pro_euk_md_incut11A-aa" totalcount="20" value="IWEQIQAFFDAEIKKLDVQDAYFPLLVAIRPTSETIMYLKLDQWVDVVRWREFLWQEGHTAVFTILDLYRRVYETTTIEGQAATSHALAWQDSWGLTTRTIGV"/>
+                    <sequence id="seq_ser_euk_md__mori11A-aa" taxon="ser_euk_md__mori11A-aa" totalcount="20" value="LEQALVQLSLRMLLEKGYTPLYTPFFMYLIATSEQPIAIKYAGLSTCFRQHQFEKVEQFVLMDEMIDDAEEFCKKLDLEAELVSCSDCVHMLDATMATRVICA"/>
+                    <sequence id="seq_thr_euk_md_incut10A-aa" taxon="thr_euk_md_incut10A-aa" totalcount="20" value="VRHIIEDAWKKIHIQRGYDLLYTPHVAQLRPMDCPYHIIRVAELGTVYRYRGFTQDDAHIFIRGVLDLTEEILLKIDLKIQCSTIQVDPIMIHRAVSERFFGV"/>
+                    <sequence id="seq_trp_euk_md__mori12A-aa" taxon="trp_euk_md__mori12A-aa" totalcount="20" value="YLYTGRGPSSDMHLGHMIPFMFTKWLQDVPLIIQLTDDERKMAYDDAKDIIAITFIFDDLDTFPSIEAAPAFLVPCAIDQDPYFRMTRDVAVRLPSLIHSKMS"/>
+                    <sequence id="seq_tyr_euk_md_antum3A-aa" taxon="tyr_euk_md_antum3A-aa" totalcount="20" value="RCYDGFEPSGRMHIAQIFKAVDVDKCTAAEFVFWVADWALMVGRYLIEVWKAAVLFLWSSELYPLMQCCDIFICQLGLDQRKVDMLAREYCDLIPVILSHKMS"/>
+                    <sequence id="seq_asn_euk_md_incut10A-aa" taxon="asn_euk_md_incut10A-aa" totalcount="20" value="ARGRILRAFRNHFYFKGWTEVTPPTIVYLTQSSQLYLEGDVYCILPSFRASEFTHLETEHPFSELLGIIEDFVISVDLLVEIVGGSMRCPHGGMGLGERFICW"/>
+                    <sequence id="seq_asn_euk_md_incut11A-aa" taxon="asn_euk_md_incut11A-aa" totalcount="20" value="IRSTLAFSVHKYFQEHGFQYVADTCYTFLTVSGQLQVSTTLIALRQKPMLAEFWMIEPEMALQDVMENAEGLLKAMDILFEMVGGSQRVPHAGYGLGDRLVQF"/>
+                    <sequence id="seq_val_euk_md_antum15A-aa" taxon="val_euk_md_antum15A-aa" totalcount="20" value="VIIAPPDVTGYLHLGHALTGAVQDTLIRFLYLPGTDHAGKDHAGMITEQFRRIDRERFTMDDTWFSSGLWPFLMETGHDILFFVARMVMLSLHFYEVFLHKMS"/>
+                </data>
+    
+    
+<map name="Beta">beast.math.distributions.Beta</map>
+<map name="Exponential">beast.math.distributions.Exponential</map>
+<map name="InverseGamma">beast.math.distributions.InverseGamma</map>
+<map name="LogNormal">beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Gamma">beast.math.distributions.Gamma</map>
+<map name="Uniform">beast.math.distributions.Uniform</map>
+<map name="prior">beast.math.distributions.Prior</map>
+<map name="LaplaceDistribution">beast.math.distributions.LaplaceDistribution</map>
+<map name="OneOnX">beast.math.distributions.OneOnX</map>
+<map name="Normal">beast.math.distributions.Normal</map>
+<map name="taxon">beast.evolution.alignment.Taxon</map>
+<map name="taxonset">beast.evolution.alignment.TaxonSet</map>
+
+<taxonset id='allTaxa' alignment='@AARS_Euk_edited'/>
+
+
+<run chainLength="10000000" id="mcmc" spec="MCMC">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:AARS_Euk_edited" name="stateNode">
+            <taxonset id="TaxonSet.AARS_Euk_edited" spec="TaxonSet">
+                <data idref="AARS_Euk_edited" name="alignment"/>
+            </taxonset>
+        </tree>
+        <parameter id="birthRate.t:AARS_Euk_edited" name="stateNode" value="1.0"/>
+		<stateNode idref='ucldStdev.c:AARS_Euk_edited'/>
+		<stateNode idref='rateCategories.c:AARS_Euk_edited'/>
+    </state>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+
+            <distribution id="V.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="V" spec="TaxonSet">
+                    <taxon id="val_euk_md_antum15A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="G" spec="TaxonSet">
+                    <taxon id="gly_euk_md_incut16A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="A.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="A" spec="TaxonSet">
+                    <taxon id="ala_euk_md__mori2A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="D.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="D" spec="TaxonSet">
+                    <taxon id="asp_euk_md_incut10A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="P.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="P" spec="TaxonSet">
+                    <taxon id="pro_euk_md_incut11A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="E.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="E" spec="TaxonSet">
+                    <taxon id="glu_euk_md_incut1A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="S" spec="TaxonSet">
+                    <taxon id="ser_euk_md__mori11A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="L" spec="TaxonSet">
+                    <taxon id="leu_euk_md_antum13A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="R.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="R" spec="TaxonSet">
+                    <taxon id="arg_euk_md__mori8A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="T" spec="TaxonSet">
+                    <taxon id="thr_euk_md_incut10A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="I.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="I" spec="TaxonSet">
+                    <taxon id="ile_euk_md__mori12A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="Q.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="Q" spec="TaxonSet">
+                    <taxon id="gln_euk_md_antum12A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="N.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="N" spec="TaxonSet">
+                    <taxon id="asn_euk_md_incut10A-aa"/>
+                    <taxon id="asn_euk_md_incut11A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="C.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="C" spec="TaxonSet">
+                    <taxon id="cys_euk_md_incut10A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="Y.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="Y" spec="TaxonSet">
+                    <taxon id="tyr_euk_md_antum3A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="H.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="H" spec="TaxonSet">
+                    <taxon id="his_euk_md_incut11A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="M.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="M" spec="TaxonSet">
+                    <taxon id="met_euk_md_incut11A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="W.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="W" spec="TaxonSet">
+                    <taxon id="trp_euk_md__mori12A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="K" spec="TaxonSet">
+                    <taxon id="lys_euk_md__mori13A-aa"/>
+                </taxonset>
+            </distribution>
+            <distribution id="F.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
+                <taxonset id="F" spec="TaxonSet">
+                    <taxon id="phe_euk_md_incut10A-aa"/>
+                </taxonset>
+            </distribution>
+
+            <distribution spec='beast.evolution.substitutionmodel.AARSTreePrior' id='AARSprior'>
+                <trait id="TraitSet1" spec="beast.evolution.tree.TraitSet" taxa="@allTaxa" traitname="state" units="year">
+                    val_euk_md_antum15A-aa=0, gly_euk_md_incut16A-aa=1, ala_euk_md__mori2A-aa=2, asp_euk_md_incut10A-aa=3, pro_euk_md_incut11A-aa=4,  glu_euk_md_incut1A-aa=5, ser_euk_md__mori11A-aa=6, leu_euk_md_antum13A-aa=7, arg_euk_md__mori8A-aa=8, 
+                    thr_euk_md_incut10A-aa=9, 
+                    ile_euk_md__mori12A-aa=10, 
+                    gln_euk_md_antum12A-aa=11, 
+                    asn_euk_md_incut10A-aa=12,
+                    asn_euk_md_incut11A-aa=12,
+                    cys_euk_md_incut10A-aa=13, 
+                    tyr_euk_md_antum3A-aa=14, 
+                    his_euk_md_incut11A-aa=15, 
+                    met_euk_md_incut11A-aa=16, 
+                    trp_euk_md__mori12A-aa=17, 
+                    lys_euk_md__mori13A-aa=18, 
+                    phe_euk_md_incut10A-aa=19
+                </trait>
+            <treeIntervals id='treeIntervals' spec='beast.evolution.tree.coalescent.TreeIntervals' tree='@Tree.t:AARS_Euk_edited'/>
+            </distribution>
+
+            <distribution birthDiffRate="@birthRate.t:AARS_Euk_edited" id="YuleModel.t:AARS_Euk_edited" spec="beast.evolution.speciation.YuleModel" tree="@Tree.t:AARS_Euk_edited"/>
+            <prior id="YuleBirthRatePrior.t:AARS_Euk_edited" name="distribution" x="@birthRate.t:AARS_Euk_edited">
+                <Uniform id="Uniform.0" name="distr" upper="Infinity"/>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution">
+            <distribution data="@AARS_Euk_edited" id="treeLikelihood.AARS_Euk_edited" spec="TreeLikelihood" tree="@Tree.t:AARS_Euk_edited">
+                <siteModel id="SiteModel.s:AARS_Euk_edited" spec="SiteModel">
+                    <parameter estimate="false" id="mutationRate.s:AARS_Euk_edited" name="mutationRate" value="1.0"/>
+                    <parameter estimate="false" id="gammaShape.s:AARS_Euk_edited" name="shape" value="1.0"/>
+                    <parameter estimate="false" id="proportionInvariant.s:AARS_Euk_edited" lower="0.0" name="proportionInvariant" upper="1.0" value="0.0"/>
+
+                    <substModel id="substmodel" spec="TriStateAARSSubstitutionModel" tree="@Tree.t:AARS_Euk_edited">
+                        <trait idref="TraitSet1"/>
+						<defaultModel spec='GeneralSubstitutionModel' rates='
+	0.18727491	2.0069284065	0.1526315789	0.3144104803	0.8910925915	0.2330935252	1.8004640371	0.2522727273	1.3885245902	7.8164948454		0.1969309463	1	0.3144475921	0.118852459	2.0564102564	0.3680555556	0.3048387097	0.6510416667
+0.1875881523		1.4168591224	0.8666666667	0.2423580786	0.8976865031	1.3424460432	0.0614849188	0.5840909091	0.2262295082	0.0309278351		1.1253196931	0.3056994819	0.104815864	0.25	0.1743589744	0.3333333333	0.3741935484	0.0494791667
+2.0056417489	1.4153661465		0.7403508772	1.4366812227	2.4918373377	3.3712230216	0.3979118329	0.5522727273	2.1213114754	0.193814433		0.5089514066	1.0259067358	0.2407932011	0.3155737705	0.8923076923	0.1111111111	0.9064516129	0.2109375
+0.1523272214	0.8655462185	0.7390300231		0.423580786	6.7889244795	1.071942446	0.0846867749	0.1477272727	0.3754098361	0.0391752577		5.4271099744	0.0310880829	0.3257790368	0.9303278689	0.1025641026	0.1319444444	0.4806451613	0.046875
+0.3145275035	0.243697479	1.4387990762	0.4245614035		1.6161883814	1.6143884892	0.4153132251	0.6795454545	0.7950819672	0.0989690722		0.1943734015	0.1088082902	0.2152974504	0.6967213115	0.1692307692	0.1388888889	0.5564516129	0.1614583333
+0.8899858956	0.8979591837	2.4919168591	6.7964912281	1.6135371179		1.7338129496	1.024361949	3.4727272727	1.6803278689	0.2412371134		2.4884910486	0.1191709845	0.4220963173	4.868852459	1.8564102564	0.375	6.4822580645	0.1796875
+0.2327221439	1.3409363745	3.3718244804	1.0719298246	1.6113537118	1.733931444		0.3445475638	1.2227272727	4.3786885246	0.3195876289		3.9744245524	1.4093264249	0.7875354108	0.7418032787	0.4923076923	0.5208333333	0.9677419355	0.546875
+1.7997179126	0.0612244898	0.3983833718	0.0842105263	0.4148471616	1.0241151449	0.345323741		0.4977272727	0.3262295082	3.1690721649		0.1304347826	0.3834196891	0.3994334278	0.5	4.8564102564	0.6666666667	0.2580645161	2.1171875
+0.2524682652	0.5846338535	0.5519630485	0.1473684211	0.6790393013	3.4770455899	1.2244604317	0.4976798144		0.5540983607	0.187628866		0.6342710997	0.5284974093	0.3824362606	2.1393442623	0.6820512821	1.1597222222	5.3532258065	0.1015625
+1.3878702398	0.2256902761	2.1212471132	0.3754385965	0.7947598253	1.6810300759	4.3798561151	0.3271461717	0.5545454545		1.4577319588		2.0306905371	0.5129533679	0.2917847025	0.4754098361	1.5179487179	0.1111111111	1.3870967742	0.171875
+7.8208744711	0.0300120048	0.1928406467	0.0385964912	0.1004366812	0.2418080262	0.3194244604	3.1716937355	0.1863636364	1.4590163934			0.5549872123	0.170984456	0.4192634561	0.1393442623	4.2564102564	0.2152777778	0.3241935484	1.0598958333
+0.1960507757	1.12484994	0.5103926097	5.4333333333	0.1943231441	2.4916028458	3.9755395683	0.1310904872	0.6340909091	2.031147541	0.5546391753			0.2642487047	1.0849858357	3.9631147541	0.2	0.0694444444	3.0129032258	0.0963541667
+1.0014104372	0.306122449	1.0277136259	0.0298245614	0.1091703057	0.1187466878	1.4086330935	0.3839907193	0.5272727273	0.5131147541	0.1690721649		0.2659846547		0.5439093484	0.25	0.3897435897	0.7152777778	0.0741935484	0.3984375
+0.3145275035	0.1032412965	0.2413394919	0.3263157895	0.2161572052	0.4250962589	0.7870503597	0.3990719258	0.3818181818	0.2918032787	0.4206185567		1.0869565217	0.5440414508		3.8770491803	0.4307692308	2.4861111111	0.1338709677	6.4609375
+0.1184767278	0.24969988	0.317551963	0.9315789474	0.6965065502	4.8667101258	0.7410071942	0.5	2.1363636364	0.4737704918	0.1381443299		3.9539641944	0.2487046632	3.8696883853		0.4051282051	0.2638888889	0.8903225806	0.6796875
+2.0578279267	0.1740696279	0.8937644342	0.1035087719	0.1703056769	1.8626581061	0.4935251799	4.8549883991	0.6818181818	1.5163934426	4.2536082474		0.1969309463	0.3886010363	0.4277620397	0.4057377049		0.5138888889	0.935483871	1.1927083333
+0.365303244	0.337334934	0.1131639723	0.1298245614	0.1397379913	0.3718853616	0.5237410072	0.6658932715	1.1636363636	0.1114754098	0.212371134		0.0716112532	0.7150259067	2.4844192635	0.262295082	0.5179487179		0.1370967742	1.53125
+0.3060648801	0.3733493397	0.9064665127	0.4807017544	0.556768559	6.4809381551	0.9669064748	0.2575406032	5.3477272727	1.3868852459	0.3237113402		3.010230179	0.0725388601	0.1331444759	0.893442623	0.9333333333	0.1388888889		0.0885416667
+0.6502115656	0.0504201681	0.2101616628	0.0473684211	0.1615720524	0.1817124473	0.5467625899	2.1148491879	0.1022727273	0.1721311475	1.0577319588		0.0971867008	0.3989637306	6.4504249292	0.6803278689	1.1897435897	1.5277777778	0.0887096774	
+'>
+							<frequencies spec='Frequencies' frequencies='0.0709	0.0833	0.0866	0.057	0.0458	0.0948	0.0695	0.0862	0.044	0.061	0.0485	0.0391	0.0193	0.0353	0.0244	0.0195	0.0144	0.062	0.0384
+'/>
+						</defaultModel>
+                        <frequencies estimate="true" id="AARSFrequencies0" spec="AARSFrequencies">
+                            <parameter dimension="1" estimate="true" id="RealParameter0" name="frequencies" value="1 0 0"/>
+                        </frequencies>
+                    </substModel>
+                </siteModel>
+				<branchRateModel spec='beast.evolution.branchratemodel.UCRelaxedClockModel' id="RelaxedClock.c:AARS_Euk_edited" tree='@Tree.t:AARS_Euk_edited'>
+					<parameter name='clock.rate' id='ucldMean.c:AARS_Euk_edited' value='1.0'/>
+				    <distr id='LogNormalDistributionModel.c:AARS_Euk_edited' name='distr' spec="beast.math.distributions.LogNormalDistributionModel" meanInRealSpace='true'>
+				        <parameter name='M' value="1.0" estimate='false' lower='0' upper='1'/>
+				        <parameter name='S' id='ucldStdev.c:AARS_Euk_edited' value="0.5" lower="0" upper="1" estimate='true'/>
+				    </distr>
+				    <rateCategories spec='parameter.IntegerParameter' id='rateCategories.c:AARS_Euk_edited' value="1" dimension='10' estimate='true'/>
+				</branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id='ucldStdevScaler.c:AARS_Euk_edited' spec='ScaleOperator' scaleAll='false' scaleFactor="0.5" weight="3" parameter="@ucldStdev.c:AARS_Euk_edited"/>
+    <operator id="CategoriesRandomWalk.c:AARS_Euk_edited" spec="IntRandomWalkOperator" windowSize='1' weight="10" parameter="@rateCategories.c:AARS_Euk_edited"/>
+	<operator id='CategoriesSwapOperator.c:AARS_Euk_edited' spec='SwapOperator' howMany="1" weight="10" intparameter='@rateCategories.c:AARS_Euk_edited'/>
+	<operator id='CategoriesUniform.c:AARS_Euk_edited' spec='UniformOperator' weight="10" parameter='@rateCategories.c:AARS_Euk_edited'/>
+
+    <operator id="YuleBirthRateScaler.t:AARS_Euk_edited" parameter="@birthRate.t:AARS_Euk_edited" scaleFactor="0.75" spec="ScaleOperator" weight="3.0"/>
+
+    <operator id="treeScaler.t:AARS_Euk_edited" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS_Euk_edited" weight="3.0"/>
+
+    <operator id="treeRootScaler.t:AARS_Euk_edited" rootOnly="true" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS_Euk_edited" weight="3.0"/>
+
+    <operator id="UniformOperator.t:AARS_Euk_edited" spec="Uniform" tree="@Tree.t:AARS_Euk_edited" weight="30.0"/>
+
+    <operator id="SubtreeSlide.t:AARS_Euk_edited" spec="SubtreeSlide" tree="@Tree.t:AARS_Euk_edited" weight="15.0"/>
+
+    <operator id="narrow.t:AARS_Euk_edited" spec="Exchange" tree="@Tree.t:AARS_Euk_edited" weight="15.0"/>
+
+    <operator id="wide.t:AARS_Euk_edited" isNarrow="false" spec="Exchange" tree="@Tree.t:AARS_Euk_edited" weight="3.0"/>
+
+    <operator id="WilsonBalding.t:AARS_Euk_edited" spec="WilsonBalding" tree="@Tree.t:AARS_Euk_edited" weight="3.0"/>
+
+    <operator id='RestrictedSubtreeSlide' spec='RestrictedSubtreeSlide' weight='60' tree='@Tree.t:AARS_Euk_edited'>
+		<clade idref='V'/>
+		<clade idref='G'/>
+		<clade idref='A'/>
+		<clade idref='D'/>
+		<clade idref='P'/>
+		<clade idref='E'/>
+		<clade idref='S'/>
+		<clade idref='L'/>
+		<clade idref='R'/>
+		<clade idref='T'/>
+		<clade idref='I'/>
+		<clade idref='Q'/>
+		<clade idref='N'/>
+		<clade idref='C'/>
+		<clade idref='Y'/>
+		<clade idref='H'/>
+		<clade idref='M'/>
+		<clade idref='W'/>
+		<clade idref='K'/>
+		<clade idref='F'/>
+	</operator>
+
+
+    <logger fileName="AARS_Euk_TEST.log" id="tracelog" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.AARS_Euk_edited"/>
+        <log id="TreeHeight.t:AARS_Euk_edited" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:AARS_Euk_edited"/>
+        <log idref="YuleModel.t:AARS_Euk_edited"/>
+        <parameter idref="birthRate.t:AARS_Euk_edited" name="log"/>
+		<log id='rate.c:AARS_Euk_edited' spec='beast.evolution.branchratemodel.RateStatistic' tree='@Tree.t:AARS_Euk_edited' branchratemodel='@RelaxedClock.c:AARS_Euk_edited'/>
+		<log idref='ucldStdev.c:AARS_Euk_edited'/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log arg="@posterior" id="ESS.0" spec="util.ESS"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger fileName="AARS_Euk_TEST.trees" id="treelog.t:AARS_Euk_edited" logEvery="1000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:AARS_Euk_edited" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS_Euk_edited"/>
+    </logger>
+    
+    <!--<init estimate="false" id="TreeParser.t:AARS_Euk_edited" initial="@Tree.t:AARS_Euk_edited" spec="beast.util.TreeParser" taxa="@AARS_Euk_edited"
+		IsLabelledNewick="true"
+        newick='((((((((((((((ala_euk_md__mori2A-aa:0.15222446705583828,ala_euk_md_gigas3A-aa:0.15222446705583828):0.015080981374552244,ala_euk_md_rerio8A-aa:0.16730544843039052):0.08533077350055263,(ala_euk_md_ideum7A-aa:0.23509230858680152,(ala_euk_md_setta17A-aa:0.1925877743561435,(ala_euk_md_theta11A-aa:0.09976009054387379,ala_euk_md_ttata9A-aa:0.09976009054387379):0.0928276838122697):0.04250453423065803):0.017543913344141626):0.024377558295392177,ala_euk_md_rzaki4A-aa:0.2770137802263353):0.043747101261473964,ala_euk_md_uberi14A-aa:0.3207608814878093):0.05326552063674589,(ala_euk_md_antum12A-aa:0.18002088729063728,ala_euk_md_wa_ii5A-aa:0.18002088729063728):0.1940055148339179):0.017036004589033427,ala_euk_md_ranae13A-aa:0.3910624067135886):0.1120491680163831,ala_euk_md_minis1A-aa:0.5031115747299717):0.03646492427908088,(ala_euk_md_oidea6A-aa:0.34612215586679884,ala_euk_md_phora15A-aa:0.34612215586679884):0.19345434314225374):1.4495779043041346,((((asn_3m4p_e_histo1A-aa:0.5109539381691157,asn_euk_md_incut14A-aa:0.5109539381691157):0.09870711968370527,((asn_euk_md_incut10A-aa:0.2377505977695487,((((asn_euk_md_incut12A-aa:0.05201065504108275,asn_euk_md_incut3A-aa:0.05201065504108275):0.07578736084610306,asn_euk_md_incut4A-aa:0.1277980158871858):0.05715420281002587,asn_euk_md_incut15A-aa:0.18495221869721168):0.031113242525718038,asn_euk_md_incut8A-aa:0.21606546122292972):0.021685136546618994):0.22852718035025932,(asn_euk_md_incut13A-aa:0.39160990423303366,(asn_euk_md_incut18A-aa:0.3122849147278359,asn_euk_md_incut2A-aa:0.3122849147278359):0.07932498950519773):0.07466787388677437):0.14338327973301296):0.4053516130832935,(((asn_euk_md_incut11A-aa:0.36316396239086873,(asn_euk_md_incut6A-aa:0.268455419869059,(asn_euk_md_incut9A-aa:0.15498452913398564,asn_euk_md_opcut7A-aa:0.15498452913398564):0.11347089073507338):0.09470854252180971):0.19977922302973422,asn_euk_md_opcut17A-aa:0.562943185420603):0.1813815481062061,asn_euk_md_incut5A-aa:0.7443247335268091):0.2706879374093054):0.4958044212007715,(((((((asp_3i7f_e_ytica1A-aa:0.2712296184722333,asp_euk_md_incut13A-aa:0.2712296184722333):0.08905783663626043,(((asp_euk_md_incut17A-aa:0.21843287361141325,asp_euk_md_incut9A-aa:0.21843287361141325):0.04512305978951728,(asp_euk_md_incut4A-aa:0.148711606361926,asp_euk_md_incut5A-aa:0.148711606361926):0.11484432703900452):0.05900711738478431,(asp_euk_md_incut2A-aa:0.18751732672682286,asp_euk_md_incut6A-aa:0.18751732672682286):0.13504572405889198):0.037724404322778904):0.03574548452909537,((asp_euk_md_incut10A-aa:0.213061770139428,asp_euk_md_theta12A-aa:0.213061770139428):0.08206587561581402,asp_euk_md_incut7A-aa:0.29512764575524203):0.10090529388234709):0.11998461207566802,asp_euk_md_ranae14A-aa:0.5160175517132571):0.12319001505918015,asp_euk_md_incut11A-aa:0.6392075667724373):0.07746689033990617,asp_euk_md_uberi15A-aa:0.7166744571123435):0.4277064080137051,((asp_euk_md_incut3A-aa:0.40406633502249695,(asp_euk_md_oidea8A-aa:0.29121244298875504,asp_euk_md_phora16A-aa:0.29121244298875504):0.11285389203374191):0.4315694750361094,(((lys_3bju___piens1A-aa:0.20420859193667035,lys_euk_md__mori13A-aa:0.20420859193667035):0.3673585223094809,(((lys_euk_md_gigas14A-aa:0.3540771105033876,((lys_euk_md_ideum18A-aa:0.17317518498648163,lys_euk_md_nalis11A-aa:0.17317518498648163):0.06632651958897429,lys_euk_md_labra2A-aa:0.23950170457545591):0.11457540592793167):0.04706130081583515,lys_euk_md_wa_ii16A-aa:0.40113841131922273):0.01682495940633788,(lys_euk_md_mblia3A-aa:0.32184448099060126,(((lys_euk_md_minis12A-aa:0.20807524057650456,lys_euk_md_uberi7A-aa:0.20807524057650456):0.05177380227648204,lys_euk_md_oidea17A-aa:0.2598490428529866):0.009716622871821734,lys_euk_md_ranae6A-aa:0.26956566572480833):0.05227881526579292):0.09611888973495936):0.15360374352059064):0.022974505939856504,((lys_euk_md_antum5A-aa:0.43805571057827225,(lys_euk_md_phora8A-aa:0.14030771402822656,lys_euk_md_theta4A-aa:0.14030771402822656):0.2977479965500457):0.12121799027434871,lys_euk_md_incut15A-aa:0.559273700852621):0.0352679193333868):0.24109418987259856):0.3087450550674422):0.36643622701083745):0.4783373111763012):0.18619366537324678,(((((((his_3hri_t_rucei19A-aa:0.003309301600965003,his_3hri_t_rucei1A-aa:0.003309301600965003):0.12254563474943882,(his_3lc0_t_cruzi2A-aa:0.10186362072021894,his_euk_md_incut20A-aa:0.10186362072021894):0.023991315630184876):0.2033174274957729,(his_euk_md_incut5A-aa:0.26156614043633675,his_euk_md_incut6A-aa:0.26156614043633675):0.06760622340983996):0.5500169768300935,((((((his_euk_md_incut11A-aa:0.17097372027988117,(his_euk_md_opcut13A-aa:0.04030906652009514,his_euk_md_opcut18A-aa:0.04030906652009514):0.13066465375978603):0.026063603670838237,his_euk_md_incut7A-aa:0.1970373239507194):0.08841058646124847,(his_euk_md_opcut12A-aa:0.1622218678878872,his_euk_md_opcut4A-aa:0.1622218678878872):0.12322604252408068):0.028616207324150045,his_euk_md_opcut16A-aa:0.3140641177361179):0.16284064056788755,his_euk_md_opcut15A-aa:0.47690475830400547):0.19720746666453404,his_euk_md_opcut3A-aa:0.6741122249685395):0.20507711570773068):0.067223095001263,his_euk_md_opcut17A-aa:0.9464124356775332):0.38218368500080735,(his_euk_md_incut14A-aa:0.6449282783448207,his_euk_md_phora10A-aa:0.6449282783448207):0.6836678423335198):0.32180416469657813,(((((phe_3l4g_h_h_sap1A-aa:0.20634357042152396,phe_euk_md_incut4A-aa:0.20634357042152396):0.07697477887676907,(((phe_euk_md_incut10A-aa:0.1447265395150397,phe_euk_md_incut3A-aa:0.1447265395150397):0.04319165819286763,phe_euk_md_incut14A-aa:0.18791819770790733):0.017421857807278035,((phe_euk_md_incut13A-aa:0.061565201872522235,phe_euk_md_incut5A-aa:0.061565201872522235):0.13211033204294434,phe_euk_md_incut6A-aa:0.19367553391546657):0.011664521599718786):0.07797829378310767):0.05091014035646191,phe_euk_md_incut8A-aa:0.33422848965475493):0.1879420429866283,((phe_euk_md_incut11A-aa:0.24591062587142723,phe_euk_md_incut7A-aa:0.24591062587142723):0.07801849039468942,(phe_euk_md_incut15A-aa:0.22214353314184387,phe_euk_md_incut9A-aa:0.22214353314184387):0.10178558312427277):0.1982414163752666):0.6053214640243587,(phe_euk_md_incut12A-aa:0.5173125591581385,phe_euk_md_minis2A-aa:0.5173125591581385):0.6101794375076035):0.5229082887091767):0.5249477833115153):0.1399856759703666,((((pro_3ial_g__lamb1A-aa:0.5572402452530814,pro_euk_md_incut20A-aa:0.5572402452530814):0.5505688338412107,((((((((pro_euk_md_incut11A-aa:0.1553077736345976,pro_euk_md_incut9A-aa:0.1553077736345976):0.05183784311582529,pro_euk_md_incut4A-aa:0.2071456167504229):0.028631904869278413,pro_euk_md_incut5A-aa:0.2357775216197013):0.049694291635007465,pro_euk_md_incut16A-aa:0.2854718132547088):0.02742695280395585,((pro_euk_md_incut18A-aa:0.1708894558045257,pro_euk_md_incut7A-aa:0.1708894558045257):0.0945492100013241,pro_euk_md_ranae8A-aa:0.2654386658058498):0.04746010025281483):0.06260770062092141,pro_euk_md_rzaki15A-aa:0.37550646667958604):0.05150682462865386,pro_euk_md_incut14A-aa:0.4270132913082399):0.16006020362123247,((pro_euk_md_incut12A-aa:0.1936794607922092,pro_euk_md_oidea10A-aa:0.1936794607922092):0.1831306454124984,pro_euk_md_theta13A-aa:0.3768101062047076):0.21026338872476474):0.5207355841648197):0.2923449446626736,(pro_euk_md_phora17A-aa:0.45380914648314635,pro_euk_md_setta19A-aa:0.45380914648314635):0.9463448772738192):0.4671681003497632,(((((ser_1wleb__aurus19B-aa:0.3227251659162682,ser_euk_md_uberi6A-aa:0.3227251659162682):0.0530797293053446,(ser_euk_md_incut1A-aa:0.27523401466615166,ser_euk_md_oidea15A-aa:0.27523401466615166):0.10057088055546115):0.2695277222266094,((((ser_euk_md__mori11A-aa:0.08835692764405438,ser_euk_md_incut12A-aa:0.08835692764405438):0.07603323247103201,ser_euk_md_incut3A-aa:0.1643901601150864):0.2500017476148029,ser_euk_md_incut9A-aa:0.4143919077298893):0.09720891197754633,(((ser_euk_md_aki_113A-aa:0.3449744341549006,ser_euk_md_incut16A-aa:0.3449744341549006):0.05396759799084366,(((ser_euk_md_incut10A-aa:0.10767170930686418,ser_euk_md_ttata17A-aa:0.10767170930686418):0.17691638298353216,ser_euk_md_ranae5A-aa:0.28458809229039633):0.03487657667423094,ser_euk_md_mblia18A-aa:0.3194646689646273):0.07947736318111698):0.0948983569636751,(ser_euk_md_antum4A-aa:0.2577367150113773,ser_euk_md_wa_ii14A-aa:0.2577367150113773):0.23610367409804206):0.017760430598016297):0.13373179774078658):0.09828358979288354,(ser_euk_md_phora7A-aa:0.42069869779730296,ser_euk_md_theta2A-aa:0.42069869779730296):0.3229175094438028):0.9288679891110098,(((thr_euk_md_incut10A-aa:0.1997370999566294,thr_euk_md_phora17A-aa:0.1997370999566294):0.039610367673495794,thr_euk_md_theta12A-aa:0.23934746763012518):0.6194647830608067,(thr_euk_md_incut11A-aa:0.4807870319003588,((((((thr_euk_md_incut13A-aa:0.08160847442176762,(thr_euk_md_incut5A-aa:0.071480444614675,thr_euk_md_incut6A-aa:0.071480444614675):0.010128029807092626):0.11345917779366933,thr_euk_md_incut7A-aa:0.19506765221543695):0.05592436087608174,(thr_euk_md_incut16A-aa:0.15538264229020204,thr_euk_md_opcut8A-aa:0.15538264229020204):0.09560937080131665):0.027614048949202274,thr_euk_md_incut4A-aa:0.27860606204072097):0.07969151305073574,(((thr_euk_md_incut18A-aa:0.19556443508089055,thr_euk_md_opcut14A-aa:0.19556443508089055):0.08255249732970565,(thr_euk_md_incut20A-aa:0.1367504257717031,thr_euk_md_ranae15A-aa:0.1367504257717031):0.1413665066388931):0.01961824070359952,thr_euk_md_incut9A-aa:0.29773517311419573):0.06056240197726098):0.07837311905427452,thr_euk_md_setta19A-aa:0.43667069414573123):0.04411633775462759):0.378025218790573):0.8136719456611837):0.19483792775461328):0.4480116205500717):0.06116976006751251,((((gly_2zt5_h_h_sap1A-aa:0.37645229383226364,((gly_euk_md_incut4A-aa:0.09720927632075009,gly_euk_md_incut5A-aa:0.09720927632075009):0.21393768548523506,gly_euk_md_incut6A-aa:0.31114696180598517):0.06530533202627847):0.050747872736611854,gly_euk_md_opcut2A-aa:0.4272001665688755):0.08513598933737865,(((gly_euk_md_incut3A-aa:0.2619092302979719,(gly_euk_md_opcut10A-aa:0.22303938385723762,gly_euk_md_opcut13A-aa:0.22303938385723762):0.038869846440734296):0.13411639781825718,gly_euk_md_incut9A-aa:0.3960256281162291):0.08387485562217817,((gly_euk_md_opcut11A-aa:0.304059338211714,gly_euk_md_opcut7A-aa:0.304059338211714):0.06391323467097204,gly_euk_md_opcut8A-aa:0.36797257288268603):0.11192791085572124):0.032435672167846874):0.015141454657336961,((gly_euk_md_incut16A-aa:0.3096678204672152,gly_euk_md_opcut12A-aa:0.3096678204672152):0.05227149997412606,gly_euk_md_opcut14A-aa:0.36193932044134125):0.16553829012224985):1.849025894160722):1.6847969528948652,(((((((arg_1f7u_s_cerev19A-aa:0.18762347753476524,arg_euk_md_incut1A-aa:0.18762347753476524):0.1351140041488064,arg_euk_md_ideum12A-aa:0.32273748168357164):0.15249819042148843,arg_euk_md_rzaki10A-aa:0.47523567210506007):0.22510913043271968,arg_euk_md_ranae4A-aa:0.7003448025377798):0.47728934090854913,((((((arg_euk_md__mori8A-aa:0.19538636989121946,arg_euk_md_stica3A-aa:0.19538636989121946):0.04733782112532678,arg_euk_md_rerio13A-aa:0.24272419101654624):0.037229425558084006,(arg_euk_md_incut15A-aa:0.10081637122528207,arg_euk_md_phora5A-aa:0.10081637122528207):0.17913724534934816):0.13115963171679756,((arg_euk_md_atica6A-aa:0.23563076193329097,arg_euk_md_opcut2A-aa:0.23563076193329097):0.14825928958211432,arg_euk_md_oidea11A-aa:0.3838900515154053):0.02722319677602253):0.16261321815477126,arg_euk_md_mblia14A-aa:0.5737264664461991):0.019058999404703347,arg_euk_md_setta7A-aa:0.5927854658509024):0.5848486775954265):1.2924956551199447,((((((cys_euk_md_incut10A-aa:0.33512240857017994,((cys_euk_md_incut13A-aa:0.2534018629162615,cys_euk_md_incut15A-aa:0.2534018629162615):0.04869282989595175,((cys_euk_md_incut14A-aa:0.1967661297827869,(cys_euk_md_incut4A-aa:0.15255738209621836,cys_euk_md_incut9A-aa:0.15255738209621836):0.044208747686568545):0.0974652710332764,cys_euk_md_incut3A-aa:0.2942314008160633):0.007863291996149935):0.0330277157579667):0.22683632901084305,((cys_euk_md_incut11A-aa:0.3430523565195265,cys_euk_md_incut1A-aa:0.3430523565195265):0.13261522376701873,cys_euk_md_incut6A-aa:0.4756675802865452):0.08629115729447778):0.09390373456464729,(cys_euk_md_incut7A-aa:0.5588545443016979,cys_euk_md_ranae2A-aa:0.5588545443016979):0.09700792784397239):0.021508678205207632,((cys_euk_md_incut12A-aa:0.3370622472964978,cys_euk_md_incut5A-aa:0.3370622472964978):0.19091254865445018,cys_euk_md_incut8A-aa:0.527974795950948):0.14939635439992993):1.3932218626457171,(((((((gln_euk_md_antum12A-aa:0.1816612601043118,gln_euk_md_ttata8A-aa:0.1816612601043118):0.10441149374542733,gln_euk_md_oidea6A-aa:0.2860727538497391):0.1641486873465831,(((((gln_euk_md_gigas3A-aa:0.0734002868216988,(gln_euk_md_piens11A-aa:0.026279929690786446,gln_euk_md_rerio7A-aa:0.026279929690786446):0.04712035713091235):0.08023106544410097,gln_euk_md_rzaki4A-aa:0.15363135226579977):0.020229356936105197,gln_euk_md_stica13A-aa:0.17386070920190497):0.0555443316717005,gln_euk_md_setta16A-aa:0.22940504087360547):0.13707566757081852,gln_euk_md_incut2A-aa:0.366480708444424):0.08374073275189825):0.015248602946784318,gln_euk_md_mblia9A-aa:0.46547004414310655):0.13524384322004845,(((gln_euk_md_incut5A-aa:0.1962097225829619,gln_euk_md_theta10A-aa:0.1962097225829619):0.2975078300906293,gln_euk_md_ranae14A-aa:0.49371755267359124):0.09479687491642069,gln_euk_md_nalis17A-aa:0.5885144275900119):0.012199459773143073):0.2275200358299987,(((glu_euk_md_incut1A-aa:0.32846875955122873,glu_euk_md_incut5A-aa:0.32846875955122873):0.08084883945210003,glu_euk_md_incut9A-aa:0.40931759900332876):0.011321914767480734,((glu_euk_md_incut3A-aa:0.08895665702635451,glu_euk_md_incut6A-aa:0.08895665702635451):0.2686317908817764,(glu_euk_md_incut7A-aa:0.25118023783326104,glu_euk_md_incut8A-aa:0.25118023783326104):0.10640821007486989):0.06305106586267856):0.4075944094223442):0.5722213942762069,(((glu_euk_md_incut2A-aa:0.4499223644821635,glu_euk_md_setta12A-aa:0.4499223644821635):0.1282304662787137,glu_euk_md_nalis13A-aa:0.5781528307608772):0.1841717915203478,glu_euk_md_phora10A-aa:0.762324622281225):0.6381306951881356):0.6701376955272345):0.326201820367261,(((((((((((((ile_euk_md__mori12A-aa:0.06520275882044606,ile_euk_md_piens4A-aa:0.06520275882044606):0.011761039410058086,ile_euk_md_gigas13A-aa:0.07696379823050414):0.0355814369903998,ile_euk_md_uberi7A-aa:0.11254523522090394):0.024870663098676263,ile_euk_md_mblia2A-aa:0.1374158983195802):0.0442287686820407,ile_euk_md_ideum17A-aa:0.1816446670016209):0.09053378613008611,(ile_euk_md_nalis10A-aa:0.20766026858588044,ile_euk_md_theta3A-aa:0.20766026858588044):0.06451818454582658):0.02619739972795876,(ile_euk_md_ranae6A-aa:0.22180917071422218,ile_euk_md_wa_ii15A-aa:0.22180917071422218):0.0765666821454436):0.06913090775720826,ile_euk_md_opcut18A-aa:0.36750676061687404):0.016418573363641775,ile_euk_md_incut5A-aa:0.3839253339805158):0.8864215230682038,((((ile_euk_md_incut14A-aa:0.16163450652557826,ile_euk_md_incut9A-aa:0.16163450652557826):0.01314104478091016,ile_euk_md_phora8A-aa:0.17477555130648842):0.08125526984262893,(ile_euk_md_incut16A-aa:0.22753451528809757,ile_euk_md_labra1A-aa:0.22753451528809757):0.028496305861019783):0.12373613625914182,ile_euk_md_opcut11A-aa:0.37976695740825916):0.8905798996404604):0.06725605754569819,((((((val_euk_md_antum15A-aa:0.3558992300070144,val_euk_md_phora10A-aa:0.3558992300070144):0.03328816799914408,val_euk_md_incut12A-aa:0.3891873980061585):0.025387369530127657,val_euk_md_incut17A-aa:0.41457476753628614):0.03892738361095566,((((val_euk_md_incut14A-aa:0.17987738670346046,val_euk_md_incut9A-aa:0.17987738670346046):0.017808258754600542,(val_euk_md_incut19A-aa:0.1561033584493446,val_euk_md_incut6A-aa:0.1561033584493446):0.04158228700871641):0.17978718015356526,(val_euk_md_incut18A-aa:0.27958481607700997,val_euk_md_oidea3A-aa:0.27958481607700997):0.0978880095346163):0.05021081385805676,val_euk_md_incut2A-aa:0.427683639469683):0.025818511677558775):0.07371325931573136,(val_euk_md_incut11A-aa:0.40399972476139934,(val_euk_md_incut7A-aa:0.2616598646204285,val_euk_md_wa_ii4A-aa:0.2616598646204285):0.14233986014097083):0.12321568570157382):0.010553757945723996,val_euk_md_incut5A-aa:0.5377691684086972):0.7998337461857206):0.19269441545442034,((leu_euk_md_incut11A-aa:0.09767999834050381,leu_euk_md_incut7A-aa:0.09767999834050381):0.5390685627969873,((leu_euk_md_incut6A-aa:0.2069184116247292,leu_euk_md_setta18A-aa:0.2069184116247292):0.1523450403888987,(leu_euk_md_minis3A-aa:0.3188708791881484,leu_euk_md_phora16A-aa:0.3188708791881484):0.040392572825479534):0.2774851091238632):0.8935487689113469):0.40333888955729624,(((((leu_euk_md_antum13A-aa:0.20374646752075062,leu_euk_md_tatus9A-aa:0.20374646752075062):0.08742217841530972,leu_euk_md_labra2A-aa:0.29116864593606034):0.04956204606813275,(((leu_euk_md_incut12A-aa:0.06823444591402467,leu_euk_md_incut4A-aa:0.06823444591402467):0.15277037712624036,leu_euk_md_incut5A-aa:0.22100482304026503):0.11145009457423011,(leu_euk_md_mblia10A-aa:0.31786294558112765,leu_euk_md_nalis19A-aa:0.31786294558112765):0.014591972033367484):0.008275774389697954):0.1105588298086026,leu_euk_md_ranae14A-aa:0.4512895218127957):0.8914838683587833,(((((met_euk_md_incut11A-aa:0.170459504530818,(met_euk_md_incut13A-aa:0.1321550727419765,met_euk_md_incut5A-aa:0.1321550727419765):0.03830443178884152):0.01966773911605496,(met_euk_md_incut14A-aa:0.11945602328753674,met_euk_md_incut2A-aa:0.11945602328753674):0.07067122035933623):0.030604331781894145,(met_euk_md_incut18A-aa:0.1677705123903935,met_euk_md_incut19A-aa:0.1677705123903935):0.05296106303837361):0.2248264563698151,met_euk_md_ranae7A-aa:0.4455580317985822):0.3785769805575395,(((met_euk_md_incut12A-aa:0.5624740201703455,met_euk_md_uberi8A-aa:0.5624740201703455):0.04272865157144368,met_euk_md_opcut3A-aa:0.6052026717417892):0.0774853709028861,((met_euk_md_incut16A-aa:0.49064433659717627,(met_euk_md_incut17A-aa:0.41922970525331493,met_euk_md_phora9A-aa:0.41922970525331493):0.07141463134386133):0.09592389098551463,met_euk_md_incut6A-aa:0.5865682275826909):0.09611981506198441):0.14144696971144644):0.5186383778154573):0.5908628294345553):0.4631586137577217):0.07333496520241756):0.08154972613995781,(((((((((((((trp_1r6u_h_h_sap19B-aa:0.08695875548448925,trp_euk_md_aurus13A-aa:0.08695875548448925):0.024736845499223475,trp_euk_md_rerio18A-aa:0.11169560098371273):0.052025818019015985,((trp_euk_md_antum4A-aa:0.09929263361858523,trp_euk_md_ranae6A-aa:0.09929263361858523):0.052448505495802905,trp_euk_md_gas_114A-aa:0.15174113911438813):0.011980279888340578):0.00563726363323111,trp_euk_md_theta3A-aa:0.16935868263595982):0.0981325630072275,(trp_euk_md__mori12A-aa:0.2205241018401115,trp_euk_md_uberi7A-aa:0.2205241018401115):0.04696714380307582):0.03639094878208471,(trp_euk_md_opcut16A-aa:0.1899293481105734,trp_euk_md_tatus1A-aa:0.1899293481105734):0.11395284631469862):0.048521278260119705,trp_euk_md_ica_15A-aa:0.35240347268539174):0.05500162111289458,trp_2ip1_s_cerev20A-aa:0.4074050937982863):0.10345949146194516,trp_euk_md_opcut9A-aa:0.5108645852602315):0.08385247482266556,(trp_euk_md_mblia2A-aa:0.4505045958022934,trp_euk_md_nalis10A-aa:0.4505045958022934):0.14421246428060364):0.49378711634631944,((trp_euk_md_ideum17A-aa:0.3716797950493919,(trp_euk_md_labra11A-aa:0.3228725853110403,trp_euk_md_opcut15A-aa:0.3228725853110403):0.04880720973835162):0.04649275246094953,trp_euk_md_phora8A-aa:0.41817254751034144):0.670331628918875):0.2641654031691396,(((tyr_2dlc_s_cerev18X-aa:0.3875727796591511,((((tyr_euk_md_incut10A-aa:0.045058891507943885,tyr_euk_md_piens2A-aa:0.045058891507943885):0.010632622591285605,tyr_euk_md_stica4A-aa:0.05569151409922949):0.14983317818266587,tyr_euk_md_rzaki11A-aa:0.20552469228189535):0.1064337754425137,tyr_euk_md_labra1A-aa:0.31195846772440905):0.07561431193474205):0.6221956935754651,tyr_euk_md_ranae5A-aa:1.0097684732346162):0.1423678660915184,(((tyr_euk_md_antum3A-aa:0.10516402895027036,tyr_euk_md_incut14A-aa:0.10516402895027036):0.09243638296048648,(tyr_euk_md_incut12A-aa:0.11882896114942362,tyr_euk_md_ndcut15A-aa:0.11882896114942362):0.07877145076133321):0.05008689483758258,tyr_euk_md_incut6A-aa:0.24768730674833941):0.9044490325777952):0.20053324027222152):0.33451738836591804,((((tyr_euk_md_incut13A-aa:0.2850043466008625,tyr_euk_md_incut16A-aa:0.2850043466008625):0.05314116555256554,tyr_euk_md_incut8A-aa:0.33814551215342803):0.21431915859892947,tyr_euk_md_minis9A-aa:0.5524646707523575):0.2088350015340621,tyr_euk_md_phora7A-aa:0.7612996722864196):0.9258872956778545):0.8644925567419572):1.5096209329129469):0.0;'
+    />-->
+</run>
+
+
+</beast>
