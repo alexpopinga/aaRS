@@ -43,6 +43,19 @@
                     <sequence id="seq_asn_euk_md_incut11A-aa" taxon="asn_euk_md_incut11A-aa" totalcount="20" value="IRSTLAFSVHKYFQEHGFQYVADTCYTFLTVSGQLQVSTTLIALRQKPMLAEFWMIEPEMALQDVMENAEGLLKAMDILFEMVGGSQRVPHAGYGLGDRLVQF"/>
 					<sequence id="seq_val_euk_md_incut11A-aa" taxon="val_euk_md_incut11A-aa" totalcount="20" value="TILLPPNVTGSLHIGHALTASIQDSLCRYLWVPGVDHAGEEYGNRIDNQMKAMDRKVFTMDDTWFSSGLYPLVMETGSDILFFVARMVMLCTYLFEIYLHKMS"/>
 					<sequence id="seq_val_euk_md_antum15A-aa" taxon="val_euk_md_antum15A-aa" totalcount="20" value="VIIAPPDVTGYLHLGHALTGAVQDTLIRFLYLPGTDHAGKDHAGMITEQFRRIDRERFTMDDTWFSSGLWPFLMETGHDILFFVARMVMLSLHFYEVFLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut12A-aa" taxon="val_euk_md_incut12A-aa" totalcount="20" value="VMCMPPNITGSLHIGHSMMIAIQDAICRYLYLPGTDHAGENYGSRILDQFKRLDRQKFTMDDTWFSSGLWPFLLETGKDILFFVGRMVMMSLELFKVLLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut14A-aa" taxon="val_euk_md_incut14A-aa" totalcount="20" value="VMVIPPNVTGSLHLGHALTNAIEDAITRYLWVPGCDHAGREKGVRIYDQLKCLDRVAFTMDDTWFSSGLFPFLLETGHDILFFVARMVFFGQKLFEVYLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut17A-aa" taxon="val_euk_md_incut17A-aa" totalcount="20" value="TLLIPPNVTGSLHIGHALTNSIQDALVRWLYLPGLDHAGEQFGGRILSQLRILDRSVFTLDDTWFSSGLFPFVLETGNDIIFFVARMVMLSLELFEVYLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut18A-aa" taxon="val_euk_md_incut18A-aa" totalcount="20" value="VIVLPPNVTGPLHIGHALTAAIQDTIIRWLWVPGTDHAGNLYRDAILRQLRCLDRECYTMDDTWFSSGIFPLVLETGPDILFLVARMVMLGMKLFKVYLHEMS"/>
+                    <sequence id="seq_val_euk_md_incut19A-aa" taxon="val_euk_md_incut19A-aa" totalcount="20" value="MMCIPPNVTGSLHLGHALTNAIQDCLTRWLWNPGCDHAGNEKGDRIYHQLKKLDRACFTMDDTWFSSGIFPFLLETGHDILFFVARMVMMGLKLFEVYLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut2A-aa" taxon="val_euk_md_incut2A-aa" totalcount="20" value="VIVIPPNVTGSLHLGHALTNSIQDAVVRYLWVPGTDHAGGEYGARIQGQLKKMDREVFTMDDTWFSSGLFPFLLETGSDILFFVARMVMMGQQLFQVFLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut5A-aa" taxon="val_euk_md_incut5A-aa" totalcount="20" value="MICIPPNVTGALHIGHALTNAVQDTLVRWLWNPGTDHAGEQYGDRICTQLRRLDRNVFTMDDTWFSSALFPFLLETGADILFFVARMVFFSLALFDVYLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut6A-aa" taxon="val_euk_md_incut6A-aa" totalcount="20" value="VMCLPPNVTGTLHLGHAITNTIQDALVRWLWLPGCDHAGERKGETIYDQLKKLDRACFTLDDTWFSSGLFPFLMETGSDILFFVARMVMLGMKLFKVLLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut7A-aa" taxon="val_euk_md_incut7A-aa" totalcount="20" value="TMVLPPNVTGHLHLGHALTVAIEDAAVRFNWIPGMDHAGQEHRNHIRGQLQSLNQEFYTLDDTWFSSGLVPFLMETGKDILFFVCRMSWLYESLFAIALHKMS"/>
+                    <sequence id="seq_val_euk_md_incut9A-aa" taxon="val_euk_md_incut9A-aa" totalcount="20" value="TLVIPPNVTGSLHMGHALTNSIEDTLTRWLWNPGCDHAGEEKGGFIYKQIKYLDREAFTMSDTWFSSGIFPILLETGYDILFFVARMVMMCTYLFDVYLHKMS"/>
+                    <sequence id="seq_val_euk_md_oidea3A-aa" taxon="val_euk_md_oidea3A-aa" totalcount="20" value="VIVIPPNVTGSLHLGHALMVAVEDTLTRWLWVPGTDHAGDTYGGKILAQLRRMDRLAFTMDDTWFSSGLFPFLLETGHDILFFVARMVMMGMKLFQIYLHKMS"/>
+                    <sequence id="seq_val_euk_md_phora10A-aa" taxon="val_euk_md_phora10A-aa" totalcount="20" value="SVVIPPNVTGSLHMGHAFNSALIDTIVRFLCLPGTDHASVQSGGIIVNQMRRLDRERFTLDDTWFSSGLWPFTLVTGFDIIFFVARMTMMASSFFEVYIHKMS"/>
+                    <sequence id="seq_val_euk_md_wa_ii4A-aa" taxon="val_euk_md_wa_ii4A-aa" totalcount="20" value="VIALPPNVTGRLHLGHTLTAAIQDSLCRYLWIPGTDHAGEKHGSAICSQFRRLDREFFTLDDTWFSSGLIPFLLETGSDILFFVARMVMLSFACFTIYLHKMS"/>
                 </data>
     
     
@@ -81,6 +94,19 @@
                 <taxonset id="V" spec="TaxonSet">
                     <taxon id="val_euk_md_antum15A-aa"/>
                     <taxon id="val_euk_md_incut11A-aa"/>
+                    <taxon id="val_euk_md_incut12A-aa"/>
+                    <taxon id="val_euk_md_incut14A-aa"/>
+                    <taxon id="val_euk_md_incut17A-aa"/>
+                    <taxon id="val_euk_md_incut18A-aa"/>
+                    <taxon id="val_euk_md_incut19A-aa"/>
+                    <taxon id="val_euk_md_incut2A-aa"/>
+                    <taxon id="val_euk_md_incut5A-aa"/>
+                    <taxon id="val_euk_md_incut6A-aa"/>
+                    <taxon id="val_euk_md_incut7A-aa"/>
+                    <taxon id="val_euk_md_incut9A-aa"/>
+                    <taxon id="val_euk_md_oidea3A-aa"/>
+                    <taxon id="val_euk_md_phora10A-aa"/>
+                    <taxon id="val_euk_md_wa_ii4A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
@@ -200,7 +226,7 @@
 
             <distribution spec='beast.evolution.substitutionmodel.AARSTreePrior' id='AARSprior'>
                 <trait id="TraitSet1" spec="beast.evolution.tree.TraitSet" taxa="@allTaxa" traitname="state" units="year">
-                    val_euk_md_antum15A-aa=0, val_euk_md_incut11A-aa=0, 
+                    val_euk_md_antum15A-aa=0, val_euk_md_incut11A-aa=0, val_euk_md_incut12A-aa=0, val_euk_md_incut14A-aa=0, val_euk_md_incut17A-aa=0, val_euk_md_incut18A-aa=0, val_euk_md_incut19A-aa=0, val_euk_md_incut2A-aa=0, val_euk_md_incut5A-aa=0, val_euk_md_incut6A-aa=0, val_euk_md_incut7A-aa=0, val_euk_md_incut9A-aa=0, val_euk_md_oidea3A-aa=0, val_euk_md_phora10A-aa=0, val_euk_md_wa_ii4A-aa=0, 
                     gly_euk_md_incut16A-aa=1, gly_euk_md_incut3A-aa=1, 
                     ala_euk_md__mori2A-aa=2, ala_euk_md_antum12A-aa=2, 
                     asp_euk_md_incut10A-aa=3, asp_euk_md_incut11A-aa=3, 
@@ -351,7 +377,7 @@
     
     <init estimate="false" id="TreeParser.t:AARS_Euk_edited" initial="@Tree.t:AARS_Euk_edited" spec="beast.util.TreeParser" taxa="@AARS_Euk_edited"
 		IsLabelledNewick="true"
-        newick='((((((val_euk_md_antum15A-aa:0.1, val_euk_md_incut11A-aa:0.1):100, (gly_euk_md_incut16A-aa:0.1, gly_euk_md_incut3A-aa:0.1):100):100, ((ala_euk_md__mori2A-aa:0.1, ala_euk_md_antum12A-aa:0.1):100, (asp_euk_md_incut10A-aa:0.1, asp_euk_md_incut11A-aa:0.1):100):100):100, (((pro_euk_md_incut11A-aa:0.1, pro_euk_md_incut12A-aa:0.1):100, (glu_euk_md_incut1A-aa:0.1, glu_euk_md_incut2A-aa:0.1):100):100, ((ser_euk_md__mori11A-aa:0.1, ser_euk_md_aki_113A-aa:0.1):100, (leu_euk_md_antum13A-aa:0.1, leu_euk_md_incut11A-aa:0.1):100):100):100):100, ((((arg_euk_md__mori8A-aa:0.1, arg_euk_md_atica6A-aa:0.1):100, (thr_euk_md_incut10A-aa:0.1, thr_euk_md_incut13A-aa:0.1):100):100, ((ile_euk_md__mori12A-aa:0.1, ile_euk_md_gigas13A-aa:0.1):100, (gln_euk_md_antum12A-aa:0.1, gln_euk_md_gigas3A-aa:0.1):100):100):100, (((asn_euk_md_incut10A-aa:0.1, asn_euk_md_incut11A-aa:0.1):100, (cys_euk_md_incut10A-aa:0.1, cys_euk_md_incut11A-aa:0.1):100):100, ((tyr_euk_md_antum3A-aa:0.1, tyr_euk_md_incut10A-aa:0.1):100, (his_euk_md_incut11A-aa:0.1, his_euk_md_incut14A-aa:0.1):100):100):100):100):100, (((met_euk_md_incut11A-aa:0.1, met_euk_md_incut12A-aa:0.1):100, (trp_euk_md__mori12A-aa:0.1, trp_euk_md_antum4A-aa:0.1):100):100, ((lys_euk_md__mori13A-aa:0.1, lys_euk_md_antum5A-aa:0.1):100, (phe_euk_md_incut10A-aa:0.1, phe_euk_md_incut11A-aa:0.1):100):100):300);'
+        newick='((((((val_euk_md_antum15A-aa:0.1, val_euk_md_incut11A-aa:0.1, val_euk_md_incut12A-aa:0.1, val_euk_md_incut14A-aa:0.1, val_euk_md_incut17A-aa:0.1, val_euk_md_incut18A-aa:0.1, val_euk_md_incut19A-aa:0.1, val_euk_md_incut2A-aa:0.1, val_euk_md_incut5A-aa:0.1, val_euk_md_incut6A-aa:0.1, val_euk_md_incut7A-aa:0.1, val_euk_md_incut9A-aa:0.1, val_euk_md_oidea3A-aa:0.1, val_euk_md_phora10A-aa:0.1, val_euk_md_wa_ii4A-aa:0.1):100, (gly_euk_md_incut16A-aa:0.1, gly_euk_md_incut3A-aa:0.1):100):100, ((ala_euk_md__mori2A-aa:0.1, ala_euk_md_antum12A-aa:0.1):100, (asp_euk_md_incut10A-aa:0.1, asp_euk_md_incut11A-aa:0.1):100):100):100, (((pro_euk_md_incut11A-aa:0.1, pro_euk_md_incut12A-aa:0.1):100, (glu_euk_md_incut1A-aa:0.1, glu_euk_md_incut2A-aa:0.1):100):100, ((ser_euk_md__mori11A-aa:0.1, ser_euk_md_aki_113A-aa:0.1):100, (leu_euk_md_antum13A-aa:0.1, leu_euk_md_incut11A-aa:0.1):100):100):100):100, ((((arg_euk_md__mori8A-aa:0.1, arg_euk_md_atica6A-aa:0.1):100, (thr_euk_md_incut10A-aa:0.1, thr_euk_md_incut13A-aa:0.1):100):100, ((ile_euk_md__mori12A-aa:0.1, ile_euk_md_gigas13A-aa:0.1):100, (gln_euk_md_antum12A-aa:0.1, gln_euk_md_gigas3A-aa:0.1):100):100):100, (((asn_euk_md_incut10A-aa:0.1, asn_euk_md_incut11A-aa:0.1):100, (cys_euk_md_incut10A-aa:0.1, cys_euk_md_incut11A-aa:0.1):100):100, ((tyr_euk_md_antum3A-aa:0.1, tyr_euk_md_incut10A-aa:0.1):100, (his_euk_md_incut11A-aa:0.1, his_euk_md_incut14A-aa:0.1):100):100):100):100):100, (((met_euk_md_incut11A-aa:0.1, met_euk_md_incut12A-aa:0.1):100, (trp_euk_md__mori12A-aa:0.1, trp_euk_md_antum4A-aa:0.1):100):100, ((lys_euk_md__mori13A-aa:0.1, lys_euk_md_antum5A-aa:0.1):100, (phe_euk_md_incut10A-aa:0.1, phe_euk_md_incut11A-aa:0.1):100):100):300);'
     />
 </run>
 
