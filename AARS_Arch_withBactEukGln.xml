@@ -906,7 +906,7 @@ phe_arch_m_incut8A_aa=19, phe_arch_m_incut9A_aa=19
 	</operator>
 
 
-    <logger fileName="Arch_edited.AARS.ucln.log" id="tracelog" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+    <logger fileName="AARS_Arch.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
@@ -925,7 +925,7 @@ phe_arch_m_incut8A_aa=19, phe_arch_m_incut9A_aa=19
         <log idref="prior"/>
     </logger>
 
-    <logger fileName="Arch_edited.AARS.ucln.trees" id="treelog.t:AARS_Arch_edited" logEvery="1000" mode="tree">
+    <logger fileName="AARS_Arch.trees" id="treelog.t:AARS_Arch_edited" logEvery="10000" mode="tree">
         <log id="TreeWithMetaDataLogger.t:AARS_Arch_edited" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS_Arch_edited"/>
     </logger>
     

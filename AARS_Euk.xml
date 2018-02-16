@@ -888,7 +888,7 @@
 	</operator>
 
 
-    <logger fileName="AARS_Euk.log" id="tracelog" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+    <logger fileName="AARS_Euk.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
@@ -907,7 +907,7 @@
         <log idref="prior"/>
     </logger>
 
-    <logger fileName="AARS_Euk.trees" id="treelog.t:AARS_Euk" logEvery="1000" mode="tree">
+    <logger fileName="AARS_Euk.trees" id="treelog.t:AARS_Euk" logEvery="10000" mode="tree">
         <log id="TreeWithMetaDataLogger.t:AARS_Euk" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS_Euk"/>
     </logger>
     
