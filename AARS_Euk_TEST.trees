@@ -1,0 +1,169 @@
+#NEXUS
+
+Begin taxa;
+	Dimensions ntax=79;
+		Taxlabels
+			ala_euk_md__mori2A-aa 
+			ala_euk_md_antum12A-aa 
+			ala_euk_md_gigas3A-aa 
+			ala_euk_md_ideum7A-aa 
+			ala_euk_md_minis1A-aa 
+			ala_euk_md_oidea6A-aa 
+			ala_euk_md_phora15A-aa 
+			ala_euk_md_ranae13A-aa 
+			ala_euk_md_rerio8A-aa 
+			ala_euk_md_rzaki4A-aa 
+			ala_euk_md_setta17A-aa 
+			ala_euk_md_theta11A-aa 
+			ala_euk_md_ttata9A-aa 
+			ala_euk_md_uberi14A-aa 
+			ala_euk_md_wa_ii5A-aa 
+			arg_euk_md__mori8A-aa 
+			arg_euk_md_atica6A-aa 
+			asp_euk_md_incut10A-aa 
+			asp_euk_md_incut11A-aa 
+			cys_euk_md_incut10A-aa 
+			cys_euk_md_incut11A-aa 
+			gln_euk_md_antum12A-aa 
+			gln_euk_md_gigas3A-aa 
+			glu_euk_md_incut1A-aa 
+			glu_euk_md_incut2A-aa 
+			gly_2zt5_h_h_sap1A-aa 
+			gly_euk_md_incut16A-aa 
+			gly_euk_md_incut3A-aa 
+			gly_euk_md_incut4A-aa 
+			gly_euk_md_incut5A-aa 
+			gly_euk_md_incut6A-aa 
+			gly_euk_md_incut9A-aa 
+			gly_euk_md_opcut10A-aa 
+			gly_euk_md_opcut11A-aa 
+			gly_euk_md_opcut12A-aa 
+			gly_euk_md_opcut13A-aa 
+			gly_euk_md_opcut14A-aa 
+			gly_euk_md_opcut2A-aa 
+			gly_euk_md_opcut7A-aa 
+			gly_euk_md_opcut8A-aa 
+			his_euk_md_incut11A-aa 
+			his_euk_md_incut14A-aa 
+			ile_euk_md__mori12A-aa 
+			ile_euk_md_gigas13A-aa 
+			leu_euk_md_antum13A-aa 
+			leu_euk_md_incut11A-aa 
+			lys_euk_md__mori13A-aa 
+			lys_euk_md_antum5A-aa 
+			met_euk_md_incut11A-aa 
+			met_euk_md_incut12A-aa 
+			phe_euk_md_incut10A-aa 
+			phe_euk_md_incut11A-aa 
+			pro_euk_md_incut11A-aa 
+			pro_euk_md_incut12A-aa 
+			ser_euk_md__mori11A-aa 
+			ser_euk_md_aki_113A-aa 
+			thr_euk_md_incut10A-aa 
+			thr_euk_md_incut13A-aa 
+			trp_euk_md__mori12A-aa 
+			trp_euk_md_antum4A-aa 
+			tyr_euk_md_antum3A-aa 
+			tyr_euk_md_incut10A-aa 
+			asn_euk_md_incut10A-aa 
+			asn_euk_md_incut11A-aa 
+			val_euk_md_incut11A-aa 
+			val_euk_md_antum15A-aa 
+			val_euk_md_incut12A-aa 
+			val_euk_md_incut14A-aa 
+			val_euk_md_incut17A-aa 
+			val_euk_md_incut18A-aa 
+			val_euk_md_incut19A-aa 
+			val_euk_md_incut2A-aa 
+			val_euk_md_incut5A-aa 
+			val_euk_md_incut6A-aa 
+			val_euk_md_incut7A-aa 
+			val_euk_md_incut9A-aa 
+			val_euk_md_oidea3A-aa 
+			val_euk_md_phora10A-aa 
+			val_euk_md_wa_ii4A-aa
+			;
+End;
+Begin trees;
+	Translate
+		   1 ala_euk_md__mori2A-aa,
+		   2 ala_euk_md_antum12A-aa,
+		   3 ala_euk_md_gigas3A-aa,
+		   4 ala_euk_md_ideum7A-aa,
+		   5 ala_euk_md_minis1A-aa,
+		   6 ala_euk_md_oidea6A-aa,
+		   7 ala_euk_md_phora15A-aa,
+		   8 ala_euk_md_ranae13A-aa,
+		   9 ala_euk_md_rerio8A-aa,
+		  10 ala_euk_md_rzaki4A-aa,
+		  11 ala_euk_md_setta17A-aa,
+		  12 ala_euk_md_theta11A-aa,
+		  13 ala_euk_md_ttata9A-aa,
+		  14 ala_euk_md_uberi14A-aa,
+		  15 ala_euk_md_wa_ii5A-aa,
+		  16 arg_euk_md__mori8A-aa,
+		  17 arg_euk_md_atica6A-aa,
+		  18 asp_euk_md_incut10A-aa,
+		  19 asp_euk_md_incut11A-aa,
+		  20 cys_euk_md_incut10A-aa,
+		  21 cys_euk_md_incut11A-aa,
+		  22 gln_euk_md_antum12A-aa,
+		  23 gln_euk_md_gigas3A-aa,
+		  24 glu_euk_md_incut1A-aa,
+		  25 glu_euk_md_incut2A-aa,
+		  26 gly_2zt5_h_h_sap1A-aa,
+		  27 gly_euk_md_incut16A-aa,
+		  28 gly_euk_md_incut3A-aa,
+		  29 gly_euk_md_incut4A-aa,
+		  30 gly_euk_md_incut5A-aa,
+		  31 gly_euk_md_incut6A-aa,
+		  32 gly_euk_md_incut9A-aa,
+		  33 gly_euk_md_opcut10A-aa,
+		  34 gly_euk_md_opcut11A-aa,
+		  35 gly_euk_md_opcut12A-aa,
+		  36 gly_euk_md_opcut13A-aa,
+		  37 gly_euk_md_opcut14A-aa,
+		  38 gly_euk_md_opcut2A-aa,
+		  39 gly_euk_md_opcut7A-aa,
+		  40 gly_euk_md_opcut8A-aa,
+		  41 his_euk_md_incut11A-aa,
+		  42 his_euk_md_incut14A-aa,
+		  43 ile_euk_md__mori12A-aa,
+		  44 ile_euk_md_gigas13A-aa,
+		  45 leu_euk_md_antum13A-aa,
+		  46 leu_euk_md_incut11A-aa,
+		  47 lys_euk_md__mori13A-aa,
+		  48 lys_euk_md_antum5A-aa,
+		  49 met_euk_md_incut11A-aa,
+		  50 met_euk_md_incut12A-aa,
+		  51 phe_euk_md_incut10A-aa,
+		  52 phe_euk_md_incut11A-aa,
+		  53 pro_euk_md_incut11A-aa,
+		  54 pro_euk_md_incut12A-aa,
+		  55 ser_euk_md__mori11A-aa,
+		  56 ser_euk_md_aki_113A-aa,
+		  57 thr_euk_md_incut10A-aa,
+		  58 thr_euk_md_incut13A-aa,
+		  59 trp_euk_md__mori12A-aa,
+		  60 trp_euk_md_antum4A-aa,
+		  61 tyr_euk_md_antum3A-aa,
+		  62 tyr_euk_md_incut10A-aa,
+		  63 asn_euk_md_incut10A-aa,
+		  64 asn_euk_md_incut11A-aa,
+		  65 val_euk_md_incut11A-aa,
+		  66 val_euk_md_antum15A-aa,
+		  67 val_euk_md_incut12A-aa,
+		  68 val_euk_md_incut14A-aa,
+		  69 val_euk_md_incut17A-aa,
+		  70 val_euk_md_incut18A-aa,
+		  71 val_euk_md_incut19A-aa,
+		  72 val_euk_md_incut2A-aa,
+		  73 val_euk_md_incut5A-aa,
+		  74 val_euk_md_incut6A-aa,
+		  75 val_euk_md_incut7A-aa,
+		  76 val_euk_md_incut9A-aa,
+		  77 val_euk_md_oidea3A-aa,
+		  78 val_euk_md_phora10A-aa,
+		  79 val_euk_md_wa_ii4A-aa
+;
+tree STATE_0 = ((((((1:0.10000000000002274,(2:0.10000000000002274,(3:0.10000000000002274,(4:0.10000000000002274,(5:0.10000000000002274,(6:0.10000000000002274,(7:0.10000000000002274,(8:0.10000000000002274,(9:0.10000000000002274,(10:0.10000000000002274,(11:0.10000000000002274,(12:0.10000000000002274,(13:0.10000000000002274,(14:0.10000000000002274,15:0.10000000000002274):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):100.0,(18:0.10000000000002274,19:0.10000000000002274):100.0):100.0,((((26:0.10000000000002274,(29:0.10000000000002274,(30:0.10000000000002274,(31:0.10000000000002274,(32:0.10000000000002274,(33:0.10000000000002274,(34:0.10000000000002274,(35:0.10000000000002274,(36:0.10000000000002274,(37:0.10000000000002274,(38:0.10000000000002274,(39:0.10000000000002274,40:0.10000000000002274):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0,28:0.10000000000002274):0.0,27:0.10000000000002274):100.0,((65:0.10000000000002274,(67:0.10000000000002274,(68:0.10000000000002274,(69:0.10000000000002274,(70:0.10000000000002274,(71:0.10000000000002274,(72:0.10000000000002274,(73:0.10000000000002274,(74:0.10000000000002274,(75:0.10000000000002274,(76:0.10000000000002274,(77:0.10000000000002274,(78:0.10000000000002274,79:0.10000000000002274):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0):0.0,66:0.10000000000002274):100.0):100.0):100.0,(((24:0.10000000000002274,25:0.10000000000002274):100.0,(53:0.10000000000002274,54:0.10000000000002274):100.0):100.0,((45:0.10000000000002274,46:0.10000000000002274):100.0,(55:0.10000000000002274,56:0.10000000000002274):100.0):100.0):100.0):100.0,((((16:0.10000000000002274,17:0.10000000000002274):100.0,(57:0.10000000000002274,58:0.10000000000002274):100.0):100.0,((22:0.10000000000002274,23:0.10000000000002274):100.0,(43:0.10000000000002274,44:0.10000000000002274):100.0):100.0):100.0,(((20:0.10000000000002274,21:0.10000000000002274):100.0,(63:0.10000000000002274,64:0.10000000000002274):100.0):100.0,((41:0.10000000000002274,42:0.10000000000002274):100.0,(61:0.10000000000002274,62:0.10000000000002274):100.0):100.0):100.0):100.0):100.0,(((47:0.10000000000002274,48:0.10000000000002274):100.0,(51:0.10000000000002274,52:0.10000000000002274):100.0):100.0,((49:0.10000000000002274,50:0.10000000000002274):100.0,(59:0.10000000000002274,60:0.10000000000002274):100.0):100.0):300.0):0.0;

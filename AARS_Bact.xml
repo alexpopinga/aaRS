@@ -557,24 +557,25 @@
             </distribution>
             <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="L" spec="TaxonSet">
-		            <taxon id="seq_leu_1wz2_p__hori1A-aa1"/>
-                    <taxon id="seq_leu_arch_m_aneyi13A-aa1"/>
-                    <taxon id="seq_leu_arch_m_anium18A-aa1"/>
-                    <taxon id="seq_leu_arch_m_ankai6A-aa1"/>
-                    <taxon id="seq_leu_arch_m_arius15A-aa1"/>
-                    <taxon id="seq_leu_arch_m_dleri9A-aa1"/>
-                    <taxon id="seq_leu_arch_m_gatei7A-aa1"/>
-                    <taxon id="seq_leu_arch_m_gidus3A-aa1"/>
-                    <taxon id="seq_leu_arch_m_hicus10A-aa1"/>
-                    <taxon id="seq_leu_arch_m_hilum12A-aa1"/>
-                    <taxon id="seq_leu_arch_m_hilum17A-aa1"/>
-                    <taxon id="seq_leu_arch_m_itans11A-aa1"/>
-                    <taxon id="seq_leu_arch_m_orans5A-aa1"/>
-                    <taxon id="seq_leu_arch_m_rinus16A-aa1"/>
-                    <taxon id="seq_leu_arch_m_schii8A-aa1"/>
-                    <taxon id="seq_leu_arch_m_ultum14A-aa1"/>
-                    <taxon id="seq_leu_arch_m_um_sp4A-aa1"/>
-                    <taxon id="seq_leu_euk_md_labra20A-aa"/>
+                    <taxon id="leu_2v0c_T_thermophilus"/>
+                    <taxon id="leu_bact_A_aeolicus_ALPHA"/>
+                    <taxon id="leu_bact_B_burgdorferi"/>
+                    <taxon id="leu_bact_B_licheniformis"/>
+                    <taxon id="leu_bact_B_thailandensis"/>
+                    <taxon id="leu_bact_C_Amoebophilus_asiaticus"/>
+                    <taxon id="leu_bact_C_aggregans"/>
+                    <taxon id="leu_bact_C_jejuni"/>
+                    <taxon id="leu_bact_C_thermalis"/>
+                    <taxon id="leu_bact_D_radiodurans"/>
+                    <taxon id="leu_bact_E_coli"/>
+                    <taxon id="leu_bact_G_obscuriglobus"/>
+                    <taxon id="leu_bact_G_stearothermophilus"/>
+                    <taxon id="leu_bact_M_mobile"/>
+                    <taxon id="leu_bact_M_smegmatis"/>
+                    <taxon id="leu_bact_S_aureus"/>
+                    <taxon id="leu_bact_S_elongatus"/>
+                    <taxon id="leu_bact_T_maritima"/>
+                    <taxon id="leu_bact_T_thermophilus"/>
                 </taxonset>
             </distribution>
             <distribution id="R.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
