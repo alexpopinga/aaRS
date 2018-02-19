@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="Euk_READY"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_ala_euk_md__mori2A-aa" taxon="ala_euk_md__mori2A-aa" totalcount="20" value="TGNEIRKTFIDFFIKKGHKYVHSSTIPLFANAGMNQFKYRVVNTQKCIRATFFEMMGNWSFKKEICAWAWELLTCSELHYEIWNLVFITKHIDCGLGERLVSV"/>
+                    <sequence id="seq_ala_euk_md_antum12A-aa" taxon="ala_euk_md_antum12A-aa" totalcount="20" value="PVSRVRQEFVDYFKKQGHTFVPSPVCPLFINAGMNQFKKRAANSQMCIRATFFEMLGSWSFKKEAIQWAWELLTCSEVHFEIWNLVFMQKHIDTGMGERLTSI"/>
+                    <sequence id="seq_ala_euk_md_gigas3A-aa" taxon="ala_euk_md_gigas3A-aa" totalcount="20" value="TGAEIRNLFVDFFKEKEHLYVHSSVVPLFTNAGMNQFKYRAANSQKCIRATFFEMLGNWSFKTECCGWAWEFLTCTEIHYEIWNLVFIRKHCDCGMGERLVCV"/>
+                    <sequence id="seq_ala_euk_md_ideum7A-aa" taxon="ala_euk_md_ideum7A-aa" totalcount="20" value="DVNQIRKTFIDFFREKEHTFVPSAVIPLFANAGMNQFKLRAVNSQKCIRATFFEMLGNWSFKKEAITWAWELLTCSEIHYEIWNLVFIQKHVDTGMGERLTSI"/>
+                    <sequence id="seq_ala_euk_md_minis1A-aa" taxon="ala_euk_md_minis1A-aa" totalcount="20" value="TAKELRDQFLQYFASKNHTIVPSSVIPLFVNAGMNQFKRRVTTSQLCIRATMFEMLGNFSLKDEAISMAYEFVSCSELFFEIWNLVFMGGWIDTGMGERMLSV"/>
+                    <sequence id="seq_ala_euk_md_oidea6A-aa" taxon="ala_euk_md_oidea6A-aa" totalcount="20" value="MASEIREKFLSFYESRGHTRMQASLIPLLTIAGMLQFKRRATTTQKCVRVTFFEMLGNFSFKAEAIQMAWELSTCSELYYEFYNLVFMNKNIDTGMGERVAQI"/>
+                    <sequence id="seq_ala_euk_md_phora15A-aa" taxon="ala_euk_md_phora15A-aa" totalcount="20" value="TGAEIREAFLDFFAKRGHQRMAALLIPLLTIAGMLPFKLSATSSQKCIRTTFFEMLGNFSFKEQAIIWAWELSTCSEIYYEFYNLVFMNKNIDTGMGERMAQI"/>
+                    <sequence id="seq_ala_euk_md_ranae13A-aa" taxon="ala_euk_md_ranae13A-aa" totalcount="20" value="TVKKLKRAFFSYFKSKGHEIIKSSVIPLFTNSGMVQFKKRACSIQRCIRATFFEMMGNWSFKKEAIEYAWDFLVCTEIHYEIWNIVFIRKCIDTGIGERLLSI"/>
+                    <sequence id="seq_ala_euk_md_rerio8A-aa" taxon="ala_euk_md_rerio8A-aa" totalcount="20" value="TAAQIREKFIDFFRRHEHQYVHSATIPLFANAGMNQFKRRAANTQKCIRATFFEMLGSWSFKHLACKMALELLTCSEIHYDIWNLVFIKKSIDTGMGERLVSV"/>
+                    <sequence id="seq_ala_euk_md_rzaki4A-aa" taxon="ala_euk_md_rzaki4A-aa" totalcount="20" value="PASAVRQQFVDFFVSKGHEFVPSSVIPLFANAGMNQFKYRTANSQKCIRATFFEMLGNWSFKKEAISWAWELLTCSEIHFEIWNLVFIRCHVDTGMGERIVSV"/>
+                    <sequence id="seq_ala_euk_md_setta17A-aa" taxon="ala_euk_md_setta17A-aa" totalcount="20" value="TADKVRGKFISYFEERGHKFWPSSTIPLFANAGMNQYKTRAVNSQKCIRATFFEMLGNWSFKEEAIDFSWDLLTCTEIHYEIWNLVFMAQHVDTGMGERILSV"/>
+                    <sequence id="seq_ala_euk_md_theta11A-aa" taxon="ala_euk_md_theta11A-aa" totalcount="20" value="PVSRVRKTFIEFFQSKGHTFWANSVVPLFTNAGMNQFKNRACNSQKCIRATFFEMLGNWSFKKEATAWAWELLTCTELHYEIWNVVFIGKHVDTGMGERITSI"/>
+                    <sequence id="seq_ala_euk_md_ttata9A-aa" taxon="ala_euk_md_ttata9A-aa" totalcount="20" value="PANRVRDTFIKFFEDKAHVNWKSPVVPLFANAGMNQFKLRACNTQKCIRATFFEMLGNWSFKNEAIEWAWELLTCTEIHFEIWNLVFIAKHVDTGMGERLTSI"/>
+                    <sequence id="seq_ala_euk_md_uberi14A-aa" taxon="ala_euk_md_uberi14A-aa" totalcount="20" value="TSKEIRKQFVEFFEKKEHTFVPSSVVPLFTNAGMNQFKKRAANSQKCIRATFFEMLGNWSFKREAITWAWELLTCSEIHYEIWNNVFMAKHVDTGMGERLVSI"/>
+                    <sequence id="seq_ala_euk_md_wa_ii5A-aa" taxon="ala_euk_md_wa_ii5A-aa" totalcount="20" value="TGDEVRRQFVKYFEGLDHTFYRSPVIPLFINAGMNQFKLRVANSQKCIRATFFEMLGSWSFKEEAIEWAFKLLTCSEIHYEIWNLVFMKKCVDTGMGERLVSI"/>
+                    <sequence id="seq_arg_1f7u_s_cerev19A-aa" taxon="arg_1f7u_s_cerev19A-aa" totalcount="20" value="IIEFSPNIAKPFHAGHLRSTIIGGFLANLIRMNYLGDWGEFSIEKYIDTYARLDVYSGESQLYLTRDVGAAMIYVIASQQDLHAAQFFEILKQMLQHVNFGMV"/>
+                    <sequence id="seq_arg_euk_md__mori8A-aa" taxon="arg_euk_md__mori8A-aa" totalcount="20" value="IVDFSPNIAKEMHVGHLRSTIIGDSICRVVRLNHLGDWGEVSRQEFQKIYDRLDIDRGESFTYDTSDMAAIKIYVTDVGQYTHFMTIDACARRAVEHVGFKFK"/>
+                    <sequence id="seq_arg_euk_md_atica6A-aa" taxon="arg_euk_md_atica6A-aa" totalcount="20" value="VVDFSPNIAKEMHVGHLRSTIIGDTLASMLRRNHVGDWGDISRREFDQVYQRLGEEKGESFNYASTDMTALWIYVTDVGQQQHFDMVFKAAKRAASHVGFRFR"/>
+                    <sequence id="seq_arg_euk_md_ideum12A-aa" taxon="arg_euk_md_ideum12A-aa" totalcount="20" value="IVEFSPNIAKPFHAGHLRSTIIGNFMVNLVSMNYLGDWGDLSIVKYKDIYNRLDIYAGESLLYITRDIAAAVYYVVASQQDFHFRQLFDILGKMLTHINYGMS"/>
+                    <sequence id="seq_arg_euk_md_incut15A-aa" taxon="arg_euk_md_incut15A-aa" totalcount="20" value="IVDFSPNIAKEMHVGHLRSTIIGDTLCRLLRLNHVGDWGEASRKEFQVVYDMLNEERGESFLYSTTDLAAIRLYVTDAGQSTHFDQARCIARQALEHVPFKFK"/>
+                    <sequence id="seq_arg_euk_md_incut1A-aa" taxon="arg_euk_md_incut1A-aa" totalcount="20" value="VLEYSPNIAKQFHVGHLRSTILGGFLANLISLNYLGDWGELSIKQYAQEYALLDEYVGESTLYLTRDLGGAIIYVVSSQQDRHLAQFFKLLALMLEHVSFGMS"/>
+                    <sequence id="seq_arg_euk_md_mblia14A-aa" taxon="arg_euk_md_mblia14A-aa" totalcount="20" value="VVDFSPNVAKSMHVGHLRSTIIGDSICRLHRINHVGDWGDISRHEFQRIYDRLDDEFGESSTYDTTDMAAIYVYVVDAGQSSHFDLVFKAAEKAAVHVPFRLK"/>
+                    <sequence id="seq_arg_euk_md_oidea11A-aa" taxon="arg_euk_md_oidea11A-aa" totalcount="20" value="VVDFSPNVAKEMHVGHLRSTIIGDTIARTLRINHVGDWGEASRNEFDAIYHRLDLWRGESWGYGTTDMATLAIYVTDEGQSGHFKLVFGAGKRAIDHVGFRIR"/>
+                    <sequence id="seq_arg_euk_md_opcut2A-aa" taxon="arg_euk_md_opcut2A-aa" totalcount="20" value="LVDFAPNIAKEMHVGHLRSTIIGESISRLARINHIGDWGDVSREEFDKVYTRLGEERGESFTYDTTDVTATYIYCTDLGQYEHFRMCMQTAKDMWDHAGFKIK"/>
+                    <sequence id="seq_arg_euk_md_phora5A-aa" taxon="arg_euk_md_phora5A-aa" totalcount="20" value="IIDFSPNIAKDMHVGHLRSTLIGDCLARILRLNHVGDWGDQSRREFQVIYDRLDTERGESFNYATTDLAAIRVYVTDSGQANHFAGIFQIARRALEHVPFKLK"/>
+                    <sequence id="seq_arg_euk_md_ranae4A-aa" taxon="arg_euk_md_ranae4A-aa" totalcount="20" value="VIDYSPNIAKIFHMGHFRTTILGNFVKKIVGINYLGDWGELSINKYKELYSKLEEYSGESFLYLTRDFSAAKIYVVSSEQKEHFEDLFATLRKALEHVQYGMS"/>
+                    <sequence id="seq_arg_euk_md_rerio13A-aa" taxon="arg_euk_md_rerio13A-aa" totalcount="20" value="IVDFSPNIAKEMHVGHLRSTIIGDSMCRLLRLNHVGDWGDVSRKEFQKVYNCLDKERGESYTYDTSDLAAIRIYVTDSGQAMHFQVIFAAAQLIVEHAGFKFK"/>
+                    <sequence id="seq_arg_euk_md_rzaki10A-aa" taxon="arg_euk_md_rzaki10A-aa" totalcount="20" value="VLDFSPNIAKPFHAGHLRSAIIGNVLRNLVAINYLGDWGSLSEVEYRSMYARLDVYDGESLTYLTRDIAAAVLYVVGPEQALHFEQLFELLRVLCRHVAFGMS"/>
+                    <sequence id="seq_arg_euk_md_setta7A-aa" taxon="arg_euk_md_setta7A-aa" totalcount="20" value="IVDFSPNIAKEMHVGHLRSTIIGESISRVHRVNHVGDWGDVSRREFQDIYNRLDEEKGESFTYDTSDLATLRVYVVGQSQGQSQCSAKAEMQSRLLTLGSRML"/>
+                    <sequence id="seq_arg_euk_md_stica3A-aa" taxon="arg_euk_md_stica3A-aa" totalcount="20" value="LVDFSPNIAKEMHVGHLRSTIIGESICRLLRVNHVGDWGDVSRREFQKIYDRLGKEKGESFTYDTSDMAAIRIYVVDAGQNTHLKNIYLAAERCAEHVQFKFK"/>
+                    <sequence id="seq_asn_3m4p_e_histo1A-aa" taxon="asn_3m4p_e_histo1A-aa" totalcount="20" value="LRSEIQWYFRKYYHDNHFTEIQPPTIVYLTQSSQLYLEGKSFCMLSSYRAAEYLHLEAELPFEDLLNHLEDLVCSVDLLMEIVGGSMRCPHGGYGLGERLVMW"/>
+                    <sequence id="seq_asn_euk_md_incut10A-aa" taxon="asn_euk_md_incut10A-aa" totalcount="20" value="ARGRILRAFRNHFYFKGWTEVTPPTIVYLTQSSQLYLEGDVYCILPSFRASEFTHLETEHPFSELLGIIEDFVISVDLLVEIVGGSMRCPHGGMGLGERFICW"/>
+                    <sequence id="seq_asn_euk_md_incut11A-aa" taxon="asn_euk_md_incut11A-aa" totalcount="20" value="IRSTLAFSVHKYFQEHGFQYVADTCYTFLTVSGQLQVSTTLIALRQKPMLAEFWMIEPEMALQDVMENAEGLLKAMDILFEMVGGSQRVPHAGYGLGDRLVQF"/>
+                    <sequence id="seq_asn_euk_md_incut12A-aa" taxon="asn_euk_md_incut12A-aa" totalcount="20" value="ARSMVTRCFRDHFFDRGYYEVTPPTLVFLTQSSQLYLEGDVFCIAQSYRAAEYTHVEAECPFDDLLNRLEDLVCSVDVLMEIVGGSMRCPHGGYGLGERFLTW"/>
+                    <sequence id="seq_asn_euk_md_incut13A-aa" taxon="asn_euk_md_incut13A-aa" totalcount="20" value="VRHELLRVFREHFWSHQYYEVTPPTLVYLTQSSQLYLEGNVYCCMPSYRASEFTHLEAEYDFEDLLNHLEGMFCSVDVLAEVLGGSMRAPHGGFGLGERLLVW"/>
+                    <sequence id="seq_asn_euk_md_incut14A-aa" taxon="asn_euk_md_incut14A-aa" totalcount="20" value="ARSSLLKIIRDIFYEGNFIEITPPTIVYLTQSSQLYLEYRAYCIASSYRASEYTHVEAELAFEDLINNIEHLVTSFDLLYEIVGGSMRCSHGGYGLGERLLMA"/>
+                    <sequence id="seq_asn_euk_md_incut15A-aa" taxon="asn_euk_md_incut15A-aa" totalcount="20" value="MRSIILQCFREHYYSRGYTEITPPTMVYLTQSSQLYLEGDSFCIAQSYRASEFTHVEAERPFEDLLNTLEDLVCSVDVLLEVIGGSMRCPHGGYGLGERYMLW"/>
+                    <sequence id="seq_asn_euk_md_incut18A-aa" taxon="asn_euk_md_incut18A-aa" totalcount="20" value="VRDHLTRIIRENFYKHDCTEVVCPCLVYLTQSSQLYLEGDVFCIEPSFRACEFTHIEAEYPFDELMSRIEDMVISCDLLVEIVGGSMRFPHGGFGLGERLVRW"/>
+                    <sequence id="seq_asn_euk_md_incut2A-aa" taxon="asn_euk_md_incut2A-aa" totalcount="20" value="LRAHLLTAFRATLIKHQLIEVTPPCLVFLTQSSQLYLEGDVFCIQESFRASEYTHLEGELAFDELMDHIETLICSCDLLMEIVGGSMRCEHGGYGLGERLLAW"/>
+                    <sequence id="seq_asn_euk_md_incut3A-aa" taxon="asn_euk_md_incut3A-aa" totalcount="20" value="ARAAVTRAFREHFASRRYTEVTPPTLVYLTQSSQLYLEGDVYCIAQSYRAAEYSHVEAECPFEDLLSRLEDLVVSVDVLMEIVGGSMRVPHGGYGLGERFLCW"/>
+                    <sequence id="seq_asn_euk_md_incut4A-aa" taxon="asn_euk_md_incut4A-aa" totalcount="20" value="MRSVIMQAFRDHFINRGYYEVTPPTLVYLTQSSQLYLEGDVFSIAQSYRAAEYTHIEAECPFDDLLNKLEDLVCSVDVLMEIVGGSMRCPHGGYGLGERFMCW"/>
+                    <sequence id="seq_asn_euk_md_incut5A-aa" taxon="asn_euk_md_incut5A-aa" totalcount="20" value="VRNALTMAIHRHFQDKDFLNVNTPIITYLTCSGQLHAESRVYVLGPTFRAAEFYMLEAEQFQMDLLDLTSDCVKAMDLLVELVGGSLRAPHGGFGMGERLMMY"/>
+                    <sequence id="seq_asn_euk_md_incut6A-aa" taxon="asn_euk_md_incut6A-aa" totalcount="20" value="IRNSLAIAIHEYFQKNGFMYIHTPIITYLTVSGQLALESDVYTFGPTFRAAEFWMIEPEMALSDNMKLGEGLLKAMDILVEVIGGSQRVPHSGFGLGERLIMM"/>
+                    <sequence id="seq_asn_euk_md_incut8A-aa" taxon="asn_euk_md_incut8A-aa" totalcount="20" value="IRSLCLFAFRQHFFENHYMEVTPPTLVYLTQSSQLYLEGDNFTITQSYRATEFLHLEAECPYEELQDRIEFLVVSLDLLMEIVGGSMRTQHGGYGLGERFLTW"/>
+                    <sequence id="seq_asn_euk_md_incut9A-aa" taxon="asn_euk_md_incut9A-aa" totalcount="20" value="IRNALAYATHTFFQKHGFLYVHTPIITVLTVSGQLQVESSVYTFGPTFRAAEFWMVEPEIAIQDDMNCAEAYVRAMDVLVELVGGSQRVKHSGFGLGERMILF"/>
+                    <sequence id="seq_asn_euk_md_opcut17A-aa" taxon="asn_euk_md_opcut17A-aa" totalcount="20" value="VRSCLTQLTHRIFAEWDFASVHTPILTHLTVSGQLHAEPRVYTFGPTFRAAEFYMLEAEMALDDCLDLQDDFISAADLIVELTGGSARVPHAGFGLGERLLLA"/>
+                    <sequence id="seq_asn_euk_md_opcut7A-aa" taxon="asn_euk_md_opcut7A-aa" totalcount="20" value="IRNALAVATHDFFQSHGFLYVHTPLITYLGESGQMNAESNVYTFGPTFRRAEFWMIEPEMALEDDMRCAEDYVQAMDVLVELIGGSQRVPHSGFGLGERLILL"/>
+                    <sequence id="seq_asp_3i7f_e_ytica1A-aa" taxon="asp_3i7f_e_ytica1A-aa" totalcount="20" value="IQSACCGLFREFLTSQKFVEIHTPKLIYLAQSPQLYKQRKVFEVGPVFRATEFEGLDIEMEYHECIDVMEKLFTSYDVFVEITSGAQRWPHAGCGIGERITML"/>
+                    <sequence id="seq_asp_euk_md_incut10A-aa" taxon="asp_euk_md_incut10A-aa" totalcount="20" value="IQCQIENIFRQFLLSEGFVGIHTPKLICLAQSPQLHKQGRVFEIGPVFRACEFTGLDVEMEYSEVMDIVDRLFVSFDVFIEIISGAQRPPHGGFGVGERVVML"/>
+                    <sequence id="seq_asp_euk_md_incut11A-aa" taxon="asp_euk_md_incut11A-aa" totalcount="20" value="VRSAIAHEFRSFLDKAGFIEINTPKIVCLAQSPQLYKQGRVYEVGPVFRACEFIGLDLEMEYTEILVLLGDLMKSYDMFIEICSGAQRAPHGGAGLGERIVML"/>
+                    <sequence id="seq_asp_euk_md_incut13A-aa" taxon="asp_euk_md_incut13A-aa" totalcount="20" value="LQSRVCQYFRQFLIDNDFCEIHSPKIIYLAQSPQLYKQPRVFEVGPVFRSTEFVGLDVEMRYYEVLDVAESLFNSYDMFIEISSGAQRWPHGGFGVGERVVML"/>
+                    <sequence id="seq_asp_euk_md_incut17A-aa" taxon="asp_euk_md_incut17A-aa" totalcount="20" value="MQSGVCRLFRDFLLKEGFTEIHSPKIIFLAQSPQLYKQGKVFEIGPVFRATEFTGLDMEMAYHEVLEVLDRLFISYDIMMEIMSGAQRSPHGGGGVGERVVML"/>
+                    <sequence id="seq_asp_euk_md_incut2A-aa" taxon="asp_euk_md_incut2A-aa" totalcount="20" value="LQAVVTDLFREHLHKNGFTEIHSPKLQFLAQSPQLAKQERVYEIGPVFRATEFIGLDLEMTYHEVMELLDSLFLSYDFFMEILSGAQRPPHGGGGIGERVLML"/>
+                    <sequence id="seq_asp_euk_md_incut3A-aa" taxon="asp_euk_md_incut3A-aa" totalcount="20" value="FRSEFLHSLRLSLHSHHFTEVETPLLTALSQSPQQYKQDRYFQIARCFRNLEFTQLDIEMADLEIQSTIQNLLLSCDLVLEVGGGSLRPPHGGFAIGDRLLSL"/>
+                    <sequence id="seq_asp_euk_md_incut4A-aa" taxon="asp_euk_md_incut4A-aa" totalcount="20" value="IEAGVCRLFRDILTKKGFVEIHTPKIIYLAQSPQLYKQDKVFTVGAVFRATEFVGLDLEMSYHEVLDTIGGTFTSYDMFMEILSGAQRPPHAGGGIGERVVML"/>
+                    <sequence id="seq_asp_euk_md_incut5A-aa" taxon="asp_euk_md_incut5A-aa" totalcount="20" value="ITAGVCRFFREHLDRQGFIEIHSPKIIFLAQSPQLYKQDKVYTVGAVFRATEFVGLDLEMSYHEVLKVIGDMFISYDMFMEILSGAQRPPHAGGGIGERVTML"/>
+                    <sequence id="seq_asp_euk_md_incut6A-aa" taxon="asp_euk_md_incut6A-aa" totalcount="20" value="LQSAVCLLFREFLTSQNFIEIHSPKIIYLAQSPQFYKQERVFEIAPVFRATEFVGLDLEMAYHEVLDMLDKLFVSYDLFMEILSGAQRPPHGGGGIGERVLML"/>
+                    <sequence id="seq_asp_euk_md_incut7A-aa" taxon="asp_euk_md_incut7A-aa" totalcount="20" value="IQSEVCRLLREFLIEREFIEIHTPKLLCLAQSPQLHKQERVFEIGPVFRACEFVGVDIEMNYHELVDVFDAMFRSFDFFMEILSGAQRPPHGGCGIGERVIML"/>
+                    <sequence id="seq_asp_euk_md_incut9A-aa" taxon="asp_euk_md_incut9A-aa" totalcount="20" value="LQSGVCTLFREQLLGEGFIEIHSPKIIYLAQSPQLYKQNKVFEIGPVFRATEFVGLDLEMTYHEALDTLDRLMTAYDLFMEICSGAQRSQHAGGGVGERVVML"/>
+                    <sequence id="seq_asp_euk_md_oidea8A-aa" taxon="asp_euk_md_oidea8A-aa" totalcount="20" value="LRHRMLRAIRNFLDDREFLEVETPLLCALPQSPQLFKQERYYQIARCFRDPEFSQLDMEMTQNAIMSLVEEMVLAYDLVYEVAGGSLRPPHGGIAFGDRLCML"/>
+                    <sequence id="seq_asp_euk_md_phora16A-aa" taxon="asp_euk_md_phora16A-aa" totalcount="20" value="LRHNTVKAARRFLENEGFIEIETPLLTALPQSPQIFKQERYYQIARCFRDPEFTQIDMEMSQKEILRLNESLIAAYDLVLELGGGSLRPPHGGIAFGDRLVML"/>
+                    <sequence id="seq_asp_euk_md_ranae14A-aa" taxon="asp_euk_md_ranae14A-aa" totalcount="20" value="ILDAVMFKFRDFLRSNGFIEVKTPKLITLAQSPQLYKQKRVYEIGHVYRASEFIGLDLEMEYISVINFIYDLFKSYDFIIEILSGAERPPHGGCGIGERLVKA"/>
+                    <sequence id="seq_asp_euk_md_theta12A-aa" taxon="asp_euk_md_theta12A-aa" totalcount="20" value="IQSHVGQAFRNFLAARGFVEIHTPKLQWLAQSPQLHKQERVMEVGPVFRACEFVGLDFEMEYAEAMDIVEGFVVSFDAYLEICSGAQRSPHAGAGLGERLTMT"/>
+                    <sequence id="seq_asp_euk_md_uberi15A-aa" taxon="asp_euk_md_uberi15A-aa" totalcount="20" value="LQSLIGRKFCEYMYSKDFTEIHTPHIVELTTSSHLHQQDRVFEISCAFEKNEKTTLNFGMTYHEVISVVKELLNNFIILIVVGRGCQYQPCGGCSIDELFLMQ"/>
+                    <sequence id="seq_cys_euk_md_incut10A-aa" taxon="cys_euk_md_incut10A-aa" totalcount="20" value="NWYAGPTVYDSAHLGHARNYVTFDIIRRVYLVMNITDIDREFELEFFDDMKALDVVTRVSEGWHIECSVMASIHSGGIDLRFPHDNELAQSEAHVYFLHSKMS"/>
+                    <sequence id="seq_cys_euk_md_incut11A-aa" taxon="cys_euk_md_incut11A-aa" totalcount="20" value="SWYTGPTVYSSSHIGHARNYMTVDIIQRIIHVMGLTDIDKKFEQEFFEDLKSLMFTTRVSEGWHIECSAMIDVHSGGVDLEFPHQNEIAQCEGHAYFFHIKMS"/>
+                    <sequence id="seq_cys_euk_md_incut12A-aa" taxon="cys_euk_md_incut12A-aa" totalcount="20" value="GMYIGVTSYDLSHIGHARAYVAFDVLYRYVYVRNFTDVDWRFCEEFLSDMADLTHQPRVTDGWHIECSAMSAIHGGGMDLIFPHENEIAQSCAAVYWIHNKMS"/>
+                    <sequence id="seq_cys_euk_md_incut13A-aa" taxon="cys_euk_md_incut13A-aa" totalcount="20" value="LAYIGPTVYDSTHLGHARTYVTFDVVRRIRYQCNITDVDRKYEQEFLSDMHTLTVVTRVTEGWHIECSAMAALHLGGCDLQFPHDNELIQLETWICFLHSVMS"/>
+                    <sequence id="seq_cys_euk_md_incut14A-aa" taxon="cys_euk_md_incut14A-aa" totalcount="20" value="RWYIGPTVYDSSHLGHARTYVAFDVIRRIFCVMNITDVDAFYEQEYHEDMKSLDVLTRVTEGWHIECSVMASIHGGGIDLCFPHDNELAQAEAYVYFLHSKMS"/>
+                    <sequence id="seq_cys_euk_md_incut15A-aa" taxon="cys_euk_md_incut15A-aa" totalcount="20" value="RWYTGPTVYDLSHMGHARAYLTFDIIRRVIYQMNITDIDRKYERAFFEDMQRLDIVTRVTEGWHIECSVMASIHSGGWDLKFPHDNECAQSEACVYFLHCKMS"/>
+                    <sequence id="seq_cys_euk_md_incut1A-aa" taxon="cys_euk_md_incut1A-aa" totalcount="20" value="SWYSGPTVYDSSHVGHARTYVQIDLLQRIHSAMGITNIDSRYEEEFINDMQRLMSVVRVSDGWHIECSVNCHVHAGGIDLRFPHCNEIAQCEAYCMMLHIKMS"/>
+                    <sequence id="seq_cys_euk_md_incut3A-aa" taxon="cys_euk_md_incut3A-aa" totalcount="20" value="TWYTGPTVYDWSHMGHARTYVGFDIVRRIIYIENITDIDRYYEHLFWEDMKQLTVLVRVTEGWHIECSAMACVHCGGIDLKFPHDNELAQSEAYVYFLHTSMS"/>
+                    <sequence id="seq_cys_euk_md_incut4A-aa" taxon="cys_euk_md_incut4A-aa" totalcount="20" value="KWYCGPTVYDASHMGHARSYISFDILRRVFYCMNITDIDKFWEEEYHKDMAALDVLTRVSEGWHIECSAMAGIHGGGFDLRFPHDNELAQSEAYVYFLHTKMS"/>
+                    <sequence id="seq_cys_euk_md_incut5A-aa" taxon="cys_euk_md_incut5A-aa" totalcount="20" value="SIYCGVTVYDLCHLGHARSYIAWDVLRRYTFVQNFTDIDDRNIEAFKSDMALLDRMPRATKGWHIECSTMVRIHLGGADLIFPHENEIAQSEMAAYWLHNKMS"/>
+                    <sequence id="seq_cys_euk_md_incut6A-aa" taxon="cys_euk_md_incut6A-aa" totalcount="20" value="TWYQGPTVYDHSHIGHAVCFQRFDILRRVLQVWGMTDIDRQYEESFFQDMAALAHITRVTEGWHIECSAMASIHTGGIDLLYPHTNELAQCESHVHFWHTKMS"/>
+                    <sequence id="seq_cys_euk_md_incut7A-aa" taxon="cys_euk_md_incut7A-aa" totalcount="20" value="RCYTGPTVYSTSHLGHARTYLSFDMIRRIQWSMNVTDIDADREKAFFAELDTLDALLRVSEGWHIECSTMSGLHAGGIDLRFPHSNEIAQSQARVNWMHTKMS"/>
+                    <sequence id="seq_cys_euk_md_incut8A-aa" taxon="cys_euk_md_incut8A-aa" totalcount="20" value="KIYSGPTVYDFPHIGNYRSFLFSDLLHRTKLVMNITDIDDRYTQAFLQDLKDLSHYPRATDGWHIECSAMSRIHTGGTDNRFPHENEIAQSECFVYWLHVKMS"/>
+                    <sequence id="seq_cys_euk_md_incut9A-aa" taxon="cys_euk_md_incut9A-aa" totalcount="20" value="NAYIGPTVYDASHMGHASTYIQFDVIRRVRWVMNITDVDRYWEEQFNIDMKALDRLTRVSDGWHIECSAMAGIHGGGIDLKFPHDNEIAQSEAFIYFMHTKMS"/>
+                    <sequence id="seq_cys_euk_md_ranae2A-aa" taxon="cys_euk_md_ranae2A-aa" totalcount="20" value="KIYIGPTVYDHSHIGHARTYVSFDVIRNITFVMNITDIDVKYTNLFLEDMALLTVLTKVTEGWHIECSVMANIHAGGVDLKFPHENEIAQCQARVYFMHTKMS"/>
+                    <sequence id="seq_gln_euk_md_antum12A-aa" taxon="gln_euk_md_antum12A-aa" totalcount="20" value="YFRFPPEPNGFLHIGHAKSMNLNFGSARAKCYLRYDDTNQVYIDAIMEMVDWMDWVTFSSDSYDFTHCLIDSYSLCTLEFETRRESYFWLLNELPYVWEFLLS"/>
+                    <sequence id="seq_gln_euk_md_gigas3A-aa" taxon="gln_euk_md_gigas3A-aa" totalcount="20" value="HTRFPPEPNGILHIGHAKAINFNFGYAKKNTYLRYDDTNEKFFTAIKNMVEWLFQVTHASDTYDYTHCLCDSHSLCTKEFQSRRSSYYWLCNALPVQWEYVVS"/>
+                    <sequence id="seq_gln_euk_md_incut2A-aa" taxon="gln_euk_md_incut2A-aa" totalcount="20" value="FTRFPPEPNGFLHIGHSKAIFVNFGYAAHKCYLRYDDTNAKYFESILEIVRWLFRITYSSDTYDFTHCLCDSHSLCTTEFIDSRESYEWLCDQLPRQSEYVMS"/>
+                    <sequence id="seq_gln_euk_md_incut5A-aa" taxon="gln_euk_md_incut5A-aa" totalcount="20" value="VTRFPPEPNGFLHLGHAKSICLNYGIAKIRFHLRYDDTNQQYIDAIEEDVRWLGEKYYASDMYDFAHGQSDSHSICTLEFELHRPLYDWLQSELTRQIEFVLS"/>
+                    <sequence id="seq_gln_euk_md_mblia9A-aa" taxon="gln_euk_md_mblia9A-aa" totalcount="20" value="LTRFPPEPNGYLHLGHAKAMFISFNYALLKTYLRMDDTNKEYIDSILASIEWLFKFTHTSDSYDFSHCLIDAHSLCTLEFGIRRESYDWVTHNVPMQWEFVMS"/>
+                    <sequence id="seq_gln_euk_md_nalis17A-aa" taxon="gln_euk_md_nalis17A-aa" totalcount="20" value="MTRFPPEPNGWIHIGHAKAMILDFGLAATHCYMRFDDTNVEFIEGIKKDVHWLWKITHTSDTYDYSHCVIDSHSLCTLEFQNRRDSYYWVLDALPVVWEFVMS"/>
+                    <sequence id="seq_gln_euk_md_oidea6A-aa" taxon="gln_euk_md_oidea6A-aa" totalcount="20" value="VTRFPPEPNGYLHIGHAKAMFVDFGFAERDCYLRFDDTNQEYIDHIQDIVAWLWKVTYSSDSYDYTHCLVDAHSLCTLEFESRRASYYWLLHVLPVVWEYVLS"/>
+                    <sequence id="seq_gln_euk_md_piens11A-aa" taxon="gln_euk_md_piens11A-aa" totalcount="20" value="RTRFPPEPNGILHIGHAKAINFNFGYAKAICFLRFDDTNAKFFTAICDMVAWLYKVTYASDTYDYTHCLCDSHSLCTKEFQARRSSYFWLCNALPVQWEYVVS"/>
+                    <sequence id="seq_gln_euk_md_ranae14A-aa" taxon="gln_euk_md_ranae14A-aa" totalcount="20" value="VTRFPPEPNGILHIGHAKAINLDFGYAEKICYLRFDDTNDYYFESIIEDVKWLYAITSSSKSYEFALCVSDSHSFCTREFFTRQESYKWLLDALPVQWEFVLS"/>
+                    <sequence id="seq_gln_euk_md_rerio7A-aa" taxon="gln_euk_md_rerio7A-aa" totalcount="20" value="RTRFPPEPNGILHIGHAKAINFNFGFAKAICFLRYDDTNEKYFTAIKDMVEWLYAVTHASDTYDYTHCLCDSHSLCTKEFQARRSSYFWLCNALPVQWEYVVS"/>
+                    <sequence id="seq_gln_euk_md_rzaki4A-aa" taxon="gln_euk_md_rzaki4A-aa" totalcount="20" value="HTRFPPEPNGILHIGHAKAMHINFTFARVKCIFRYDDTNERFFVGIRQMVDWLAAVTHTSDTYDYSHCLIDSHSMCTKEFQNRRMSYYWLCNALPVQWEYVMS"/>
+                    <sequence id="seq_gln_euk_md_setta16A-aa" taxon="gln_euk_md_setta16A-aa" totalcount="20" value="HTRFPPEPNGILHIGHAKAITFNFAYARDNCYLRYDDTNEEFFRGILRDVTWLFKITHSSDTYDFTHCLCDSHSLCTKEFQNRRSSYYWLCNALPVQWEYLVS"/>
+                    <sequence id="seq_gln_euk_md_stica13A-aa" taxon="gln_euk_md_stica13A-aa" totalcount="20" value="QTRFPPEPNGILHIGHAKAININFGYAAAVCYLRYDDTNEKFFVGIKDMVEWLYKITHSSDTYDYTHCLCDSHSLCTKEFQSRRSSYYWLCNALPVQWEYLVS"/>
+                    <sequence id="seq_gln_euk_md_theta10A-aa" taxon="gln_euk_md_theta10A-aa" totalcount="20" value="RTRFPPEPNGYLHIGHAKSICLNFGVAKERTNMRFDDTNEEYVRSILKDVRWLDNTRYASDMYDFAHCISDAHSLCTLEFEDHRPLYDWVLDELPQQTEFVLS"/>
+                    <sequence id="seq_gln_euk_md_ttata8A-aa" taxon="gln_euk_md_ttata8A-aa" totalcount="20" value="LTRFPPEPNGYLHIGHAKAMFVNFGLAKECCYLRYDDTNKEYIDHIEEIVGWMFKITYTSDSYDYAHCIVDSHSLCTLEFETRRASYYWLLDALPYVWEYMMS"/>
+                    <sequence id="seq_glu_euk_md_incut1A-aa" taxon="glu_euk_md_incut1A-aa" totalcount="20" value="VTRFPPEPSGYLHIGHAKAAMLNYYFGKMKFIVRFDDTNDEFEQTILEDLQMLDVITHTSDIYDFACPIVDSHALRTNEYRDRNPQYKWMIDSLVEIWDFLLS"/>
+                    <sequence id="seq_glu_euk_md_incut2A-aa" taxon="glu_euk_md_incut2A-aa" totalcount="20" value="RVRFAPSPTGFMHLGGLRMALINYLIAKKKFILRIEDTDKGSADNIIRTLCDFDGPYVQSSTYHLASVVDDHLVIRGEEWISSVPKHLQLYSAFPDFIHLKIS"/>
+                    <sequence id="seq_glu_euk_md_incut3A-aa" taxon="glu_euk_md_incut3A-aa" totalcount="20" value="VVRFPPEASGYLHIGHAKAALLNQYYQQAKLVMRFDDTNADFEKVILEDVAMLDMFTHTSQTYDFACPIVDSHVLRTMEYHDRDPQFYWFIEALPYIWEYVLS"/>
+                    <sequence id="seq_glu_euk_md_incut5A-aa" taxon="glu_euk_md_incut5A-aa" totalcount="20" value="VTRFPPEPSGYLHIGHAKAALLNYYYANKKLLLRFDDTNEEFQESIEADLKILFNVSFTSDTYDFACPIVDSHALRTNEYSDRIEQYNWVINALVEIYEFVLS"/>
+                    <sequence id="seq_glu_euk_md_incut6A-aa" taxon="glu_euk_md_incut6A-aa" totalcount="20" value="VVRFPPEASGYLHIGHAKAALLNQHYQVTKLIMRFDDTNEDFEKVILEDVAMLDQFTYTSDTYDFACPIVDSHALRTTEYHDRDEQFYWVIEALPYIWEYVLS"/>
+                    <sequence id="seq_glu_euk_md_incut7A-aa" taxon="glu_euk_md_incut7A-aa" totalcount="20" value="KLRFAPEPSGYLHIGHAKAALLNQYFAEREVIIRFDDTNNEFVDNLLIDIATLTAVTYTSDTYDFCCPFVDAHALRSSEYHDRNEQYYRIQTDMVHLYEFLLS"/>
+                    <sequence id="seq_glu_euk_md_incut8A-aa" taxon="glu_euk_md_incut8A-aa" totalcount="20" value="VTRFPPEASGFLHIGHAKAALINRMLADAKMLFRFDDTNEHFEVAIEEDLKTLDGPTYSSDTYDFCCPLVDSHALRTNEYHDRNAQYYWFCDAMPTIEDFVMS"/>
+                    <sequence id="seq_glu_euk_md_incut9A-aa" taxon="glu_euk_md_incut9A-aa" totalcount="20" value="VTRFAPEPSGCLHIGHLKALLVNYNLAEKTLLLRFDDTNEKYEKEILRDLDTLLKISHSSDTYDFVCPIVDSVVCRANEYKDRNEQYKWFLENLPEFNDFVLS"/>
+                    <sequence id="seq_glu_euk_md_nalis13A-aa" taxon="glu_euk_md_nalis13A-aa" totalcount="20" value="KLRFAPSPTGYLHIGGLRTALYNYLFAKKKFVLRIEDTDEGAIENLIESLEWADGVYIQSQTYHMAVIVDDHHIVRGEEWLPSTPKHVYLYECLPEFVHLKLS"/>
+                    <sequence id="seq_glu_euk_md_phora10A-aa" taxon="glu_euk_md_phora10A-aa" totalcount="20" value="RVRLAPSPTGTLHIGTARTALFNWLFARQAFLLRIEDTDEEFTDNILEGLQWIDDPVIQSHLYNLAVVVDDAHVIRGEDHIANTAKQLQLYKALPQFAHTKLS"/>
+                    <sequence id="seq_glu_euk_md_setta12A-aa" taxon="glu_euk_md_setta12A-aa" totalcount="20" value="RVRFAPSPTGFLHLGGLRTALFNYLFAVKTFILRLEDTDTGAAEALQRDLAWAHGPYVQSETYHLANVVDDHHVLRGEEWLISTAKHELLYRAFPTFVHLKLS"/>
+                    <sequence id="seq_gly_2zt5_h_h_sap1A-aa" taxon="gly_2zt5_h_h_sap1A-aa" totalcount="20" value="LKNNIIQTWRQHFQEEQILEIDCTMLTYLRPETAQGIFFAAAQIGNSFRNREFTMAEIEHFLGYFIGRIYLYLTCWDAESEIVGCADRPNVIEPSFGGRIMYT"/>
+                    <sequence id="seq_gly_euk_md_incut16A-aa" taxon="gly_euk_md_incut16A-aa" totalcount="20" value="IMNNIQQEWRRHFLEDNLLEISCPAMTFLRPELAQGIVFGGCQIGTAYRNREFPLAEIEYFLAYFLARIYLFLTCWDAELESAACADRPSVIEPTFGGRIIYA"/>
+                    <sequence id="seq_gly_euk_md_incut3A-aa" taxon="gly_euk_md_incut3A-aa" totalcount="20" value="LKSNFINLWKQHFLEEDMLEVECTNLTFLRPETAQGMFFAAAQVGTGFRNREFPMAEIEHFLGYFMARTYLFLKCWDCEIECVGIADRPSVVEPSFGGRLIYS"/>
+                    <sequence id="seq_gly_euk_md_incut4A-aa" taxon="gly_euk_md_incut4A-aa" totalcount="20" value="LKSNMIHLWKKFFLQEQMLEVECSILTFLRPETAQGILFAAAQIGNSFRNREFTMCEIEHFLGYFMARIHMYMLCWDAECECVGCADRGSVIEPSFGGRILYC"/>
+                    <sequence id="seq_gly_euk_md_incut5A-aa" taxon="gly_euk_md_incut5A-aa" totalcount="20" value="VKANILQTWRNFFLEEQMLEVDCSMLTFLRPETAQGIFFAAAQIGNAFRNREFTMAEIEHFLGYFMGRIQMFMLCWDAECECVGCADRPSVIEPSFGGRVMYS"/>
+                    <sequence id="seq_gly_euk_md_incut6A-aa" taxon="gly_euk_md_incut6A-aa" totalcount="20" value="IKANLLSLWRSHFFEEQMLEVDCSMLTYLRPETAQGIFFAAAQIGSSFRNREFTMAEIEHFLGYFIGRIYLFMTCWDAECECIGCADRSNVIEPSFGGRIIYS"/>
+                    <sequence id="seq_gly_euk_md_incut9A-aa" taxon="gly_euk_md_incut9A-aa" totalcount="20" value="VKANLINLWRQHFLNEDMSEVDCVSVTYLRPETAQGIFFAAAQIGNAFRNREFTMAEIEHFLAYFMARTQQFLHCWDAEIECVGHADRSHVIEPSFGGRIIYS"/>
+                    <sequence id="seq_gly_euk_md_opcut10A-aa" taxon="gly_euk_md_opcut10A-aa" totalcount="20" value="LRNNFLSMWRQHFVAEDMLEIMCTNIVYLRPETAQGIFFAMAQVGTVFRNREFEQCEIEHFMAYFIGRTYLFLLCWDCDCEIVGIADRPHVIEPSFGGRILYS"/>
+                    <sequence id="seq_gly_euk_md_opcut11A-aa" taxon="gly_euk_md_opcut11A-aa" totalcount="20" value="IKNNIVDAWRKFFVSDGMLEVACPSITFLRPETAQGIFMTIAQIGKSFRNREFEMAEIEHFLAYFLGKTQKFLRCWDAEVEVVGHADRTRVVEPSFGDRLFYC"/>
+                    <sequence id="seq_gly_euk_md_opcut12A-aa" taxon="gly_euk_md_opcut12A-aa" totalcount="20" value="MKSNMLHFWRQHFIEESMCEVDTTCLTYMRPELAQGIIFAGACIGTAFRNREFTLAEIEHFLGYFIGRVALFLTCWDAELECVGIADRSSVIEPSFGGRILYC"/>
+                    <sequence id="seq_gly_euk_md_opcut13A-aa" taxon="gly_euk_md_opcut13A-aa" totalcount="20" value="IKQNFTSEWRKHFYYDKLYEVESSILLFLRPETAQGQFFGSATIGKAFRNREFEQAEIEYFLGYFMGRTYLFLACWDCEIECVGIADRSDVIEPSFGGRILYI"/>
+                    <sequence id="seq_gly_euk_md_opcut14A-aa" taxon="gly_euk_md_opcut14A-aa" totalcount="20" value="IKANILDLWRRHFNEENMLEVDCSSLTYLRPETAQGIFFASAQIGQAFRNREFTLAEIEHFHAYYIARVKLFMDCWDCELEVVGIANRYSVIEPSFGGRIIYC"/>
+                    <sequence id="seq_gly_euk_md_opcut2A-aa" taxon="gly_euk_md_opcut2A-aa" totalcount="20" value="LQANIIGEWRKHFVEEGMHELDTTIMTYLRPETAQGHFFASACIGRSFRNREFTMAEIEHFLGYFLARISLFLLCWDAEIECVGCADRPNVIEPSFGGRILYC"/>
+                    <sequence id="seq_gly_euk_md_opcut7A-aa" taxon="gly_euk_md_opcut7A-aa" totalcount="20" value="LKSEVESFWRRHFLAEDMLEISATCLTFMRPETAQGIFFSVAQIGLGFRNREFQMAEIEHFLAYFLSRTYDFLICWDAEVECAGHADRPGVIEPSFGGRIIYC"/>
+                    <sequence id="seq_gly_euk_md_opcut8A-aa" taxon="gly_euk_md_opcut8A-aa" totalcount="20" value="IKQNVTQLWRQHFLEESMLEVECPAVTYLRPETAQGIFFAAAQIGQSYRNREFTQAEIEHFLAYFIGRTYLFLVCWDAEVECVGLADRSSVIEPSFGGRIIYC"/>
+                    <sequence id="seq_his_3hri_t_rucei19A-aa" taxon="his_3hri_t_rucei19A-aa" totalcount="20" value="LRKYLFDVFHSTARKFGFEEYDSPVLEALRPEMTPSLAAKWYSIPQCWRYREHYQWNMDIIEVELVCAACTAMQVFEGFDALCGGGRYVPCVGFGFGCVIVEL"/>
+                    <sequence id="seq_his_3hri_t_rucei1A-aa" taxon="his_3hri_t_rucei1A-aa" totalcount="20" value="LRKYLFDVFHSTARKFGFEEYDSPVLEALRPEMTPSLAAKWYSIPQCWRYREHYQWNMDIIEVELVCAACTAMQVFEGFDALCGGGRYVPCVGFGFGCVIVEL"/>
+                    <sequence id="seq_his_3lc0_t_cruzi2A-aa" taxon="his_3lc0_t_cruzi2A-aa" totalcount="20" value="CRRHLFDVFHATAKTFGFEEYDAPVLEALRPEMTPSLAAKWYSIPQCWRYREHYQWNMDIVEVELVCAACWAMRVFEGFDALCGGGRYIPCAGFGFGCVIVEL"/>
+                    <sequence id="seq_his_euk_md_incut11A-aa" taxon="his_euk_md_incut11A-aa" totalcount="20" value="VREKVFDVIIRCFKRHGAEVIDTPVFESLRYDLTVPFAIKRYHIAKVYRRREFYQCDFDIADAECLKIMCEILSIYEAVLSVAAGGRYVPCVGLSIGERIFSI"/>
+                    <sequence id="seq_his_euk_md_incut14A-aa" taxon="his_euk_md_incut14A-aa" totalcount="20" value="SQARVTQTFGEVTANLGFGEVETPIVECLRPEGTAGVMASLCYTGPMFRRRQFLQCGVEYLDGLVLYAAWRLIRVFEIVATVLAGGRYVPAVGWAAGERLSLA"/>
+                    <sequence id="seq_his_euk_md_incut20A-aa" taxon="his_euk_md_incut20A-aa" totalcount="20" value="VRRHLFGVFHDTARRFGFEEYDAPVLETLRPEMTPSLVAKWYSIPQCWRYREHYQWNMDIVEVELVCAACAAMEVFEAFDAICGGGRYVSCVGFGFGCVIVEL"/>
+                    <sequence id="seq_his_euk_md_incut5A-aa" taxon="his_euk_md_incut5A-aa" totalcount="20" value="MRNWLFGHWKDVARLHGFEEYDAPVLESLRPEMTPSLAVKWFSIPQCWRYREHYQWNMDIWEAELLSAIVTFFKVFEGFDAICGGGRYLPAVGFGFGAVIAEL"/>
+                    <sequence id="seq_his_euk_md_incut6A-aa" taxon="his_euk_md_incut6A-aa" totalcount="20" value="LRSWLFHNFREVSHSFGFEEVDFPVLEALRPELTPSLALKWFAIGQCWRYREHYQWNMDIIEAELISSIITFFKVFEGFDAICGGGRYIPACGFGFGAVIIEL"/>
+                    <sequence id="seq_his_euk_md_incut7A-aa" taxon="his_euk_md_incut7A-aa" totalcount="20" value="QRQNVLDKIVGVFKKHGGEAIDTPVFEALRYDLTVPLALKRYHIAKVYRRREFYQCDFDIADAECVKIVSEILDIYECVLSVAGGGRYVPCVGVSIGERIFSV"/>
+                    <sequence id="seq_his_euk_md_opcut12A-aa" taxon="his_euk_md_opcut12A-aa" totalcount="20" value="VRQEVIQLVTSIFKRHGGVAIDTPVFESLRYDLTVPFAIKRYHIAKVYRRREFYQCDFDVADAEVISIVSELLTIYEAGTSIAGGGRYVPAVGVSLGERIFAL"/>
+                    <sequence id="seq_his_euk_md_opcut13A-aa" taxon="his_euk_md_opcut13A-aa" totalcount="20" value="IREGVFNTIIKCFKRHGAETIDTPVFESLRYDLTVPFAVKRYHIAKVYRRREFYQCDFDIADAECVKLVSEILNIYEAILSVAGGGRYVPCVGVSIGERVFAI"/>
+                    <sequence id="seq_his_euk_md_opcut15A-aa" taxon="his_euk_md_opcut15A-aa" totalcount="20" value="IKNLVFGMIREVYRAHGAVEIDTPVFESLRYDLTVPLALKRYQIGKVYRRREFYQCDLDIVDSEIIKIATQVLSIYEAVLSIAAGGRYIPAVGFSVGERIMSI"/>
+                    <sequence id="seq_his_euk_md_opcut16A-aa" taxon="his_euk_md_opcut16A-aa" totalcount="20" value="IREQVFDGIKQVFKRHGAVTIETPVFESLRYDLTVPFAIKRYHIARVYRRREFYQCDFDIADAECLVMICEILEIYEAVLSIAAGGRYVPAVGFSIGERIFTI"/>
+                    <sequence id="seq_his_euk_md_opcut17A-aa" taxon="his_euk_md_opcut17A-aa" totalcount="20" value="RREHLRSHLSALLRSWGYRGVDLPALEALRSEYTTALGLRLQYGGRLWLRREFNQVGAELIDAELLALAHAALGTFRAYVPVLGGGRYLPGAGFAIGERLAAV"/>
+                    <sequence id="seq_his_euk_md_opcut18A-aa" taxon="his_euk_md_opcut18A-aa" totalcount="20" value="IREKVFNIIINCFKRHGAETIDSPVFESLRYDLTVPFAIKRYHIAKVYRRREFYQCDFDIADAECLKLVYEILSIYEAILSVAGGGRYVPCVGVSIGERVFSI"/>
+                    <sequence id="seq_his_euk_md_opcut3A-aa" taxon="his_euk_md_opcut3A-aa" totalcount="20" value="CREHIERIVKDVFQTFGGSCLDTPVFEALRYDHTVPLAQKLWQVGKVYRRREFMQADFDLADAELIAIISTILSTVEAIVSIAGGGRYVPCVGASIGDRIFAL"/>
+                    <sequence id="seq_his_euk_md_opcut4A-aa" taxon="his_euk_md_opcut4A-aa" totalcount="20" value="LRQAALSLITSVFQQHGAVCIETPVMESLRYDLTVPFAIKRYSIGRVYRRREFYQCDLDIVDAEVVVIVFEILHVFEAKLSIAGGGRYLCAVGGSIGERIFAI"/>
+                    <sequence id="seq_his_euk_md_phora10A-aa" taxon="his_euk_md_phora10A-aa" totalcount="20" value="LWQFIEETARTHFRRSGVNEIRTPLLETLRPEGTASIVQRFWYSGPMFRYRQFHQIGLELHDVEAISIAWDLLMAFEIISTVCGGGRYTPAIGWALGERLLLI"/>
+                    <sequence id="seq_ile_euk_md__mori12A-aa" taxon="ile_euk_md__mori12A-aa" totalcount="20" value="SFYDPPFATGLPHYGHILAGTIKDVVTRYERRFGWDCHGMKYAADWENIITRMDNDYKTLYDCWFESGSMPYFIAEGIDQTRGFYTLIVLSTALFNLIANKMS"/>
+                    <sequence id="seq_ile_euk_md_gigas13A-aa" taxon="ile_euk_md_gigas13A-aa" totalcount="20" value="TFYDPPFATGLPHYGHILAGTIKDVVTRWERRFGWDCHGMRYSTEWEEIVTRLDNDYKTMYDCWFESGSMPYFIAEGIDQTRGFYTLLVLSTLLFNLIVNKMS"/>
+                    <sequence id="seq_ile_euk_md_ideum17A-aa" taxon="ile_euk_md_ideum17A-aa" totalcount="20" value="SFYDPPFATGLPHYGHILAGTIKDTITRYERRFGWDCHGMKYSHEWEIVVNRMDNNYKTMDDCWFESGSMPYFIAEGLDQTRGFYTLLVLSTALFNLIVNKMS"/>
+                    <sequence id="seq_ile_euk_md_incut14A-aa" taxon="ile_euk_md_incut14A-aa" totalcount="20" value="WQLSPPYANGQLHLGHAMNKILKDIVVRHHFVPGWDCHGREAMEMQRKEFMSWDHPYLTMTDVWFDSGTSWMLVLEGSDQHRGFQSSLLTSVIAFTIVTHKMS"/>
+                    <sequence id="seq_ile_euk_md_incut16A-aa" taxon="ile_euk_md_incut16A-aa" totalcount="20" value="TLHDPPYANGDTHLGHALNKILKSIIVNYRYVPGWDCHGLKTVKAQREQFKRYDAPYLTLEDVWFDSGTSWALYLEGSDQHRGFQSSLLTAAAAYAVLTHKMS"/>
+                    <sequence id="seq_ile_euk_md_incut5A-aa" taxon="ile_euk_md_incut5A-aa" totalcount="20" value="SFYDPPFATGLPHYGHILAGTIKDMVTRFIRRFGWDCHGTRYVDEWRKTVERVDNDYKTMHDCWFESGSMPYFVSEGLDQTRGFYTLLVLGVALFNVAVSKMS"/>
+                    <sequence id="seq_ile_euk_md_incut9A-aa" taxon="ile_euk_md_incut9A-aa" totalcount="20" value="ILHDPPFANGNLHMGHVLNKALKDMIVRYSFVPGWDCHGEGAIKEQKTDFVRLDHPYLTLHDVWFDSGTSWNVYLEGSDQHRGFQSSLLTKITTFTIITHKMS"/>
+                    <sequence id="seq_ile_euk_md_labra1A-aa" taxon="ile_euk_md_labra1A-aa" totalcount="20" value="VLQDPPYANGSLHMGHALNKILKDIILRFQYIPGWDCHGLREVDNQREQMKVFNDGYRTIEDVWFDSGTAWTVVLEGSDQHRGFQSLLLTSLGAYTVVTHKMA"/>
+                    <sequence id="seq_ile_euk_md_mblia2A-aa" taxon="ile_euk_md_mblia2A-aa" totalcount="20" value="NFYDPPFATGLPHYGHLLAGTIKDVVCRYNRRFGWDCHGMRYSQEWEAIVKRSDRDYKTMNDCWFESGSMPYFIAEGLDQTRGFYTLLILSTALSNCIVNKMS"/>
+                    <sequence id="seq_ile_euk_md_nalis10A-aa" taxon="ile_euk_md_nalis10A-aa" totalcount="20" value="IFYDPPFATGTPHYGHILAGTIKDVVTRYPRRFGWDTHGMKHQQDWERVVRRCDNSYKSMDDCWFESGSMPFFIAEGLDQTRGFYTMTILSSLLFNVIVNKMS"/>
+                    <sequence id="seq_ile_euk_md_opcut11A-aa" taxon="ile_euk_md_opcut11A-aa" totalcount="20" value="ITHDPPYANGDLHMGHFENKILKDIINRHEYKPGWDCHGSDTIKRQKKSINEWSIVTILLQDVWIDSGVSWFSYLEGSDQHRGFQSSIFTSQVHFNLVTHKVQ"/>
+                    <sequence id="seq_ile_euk_md_opcut18A-aa" taxon="ile_euk_md_opcut18A-aa" totalcount="20" value="IFYDPPFATGLPHYGHILAGTIKDIVTRYTRRFGWDCHGQRYVDEWEKTVVRMDNDYKTMDDCWFESGSMPYFVAEGLDQTRGFYTLMVLSTALFNLICNKMS"/>
+                    <sequence id="seq_ile_euk_md_phora8A-aa" taxon="ile_euk_md_phora8A-aa" totalcount="20" value="VLHDPPYANGDLHMGHVLNKVLKDIINKYCFVPGWDCHGKKQIKIQKAGFIRWEKPYLTFNDVWFDSGSSWALYLEGSDQHRGFQSSLLTSTAVYKVITHKMS"/>
+                    <sequence id="seq_ile_euk_md_piens4A-aa" taxon="ile_euk_md_piens4A-aa" totalcount="20" value="TFYDPPFATGLPHYGHILAGTIKDIVTRYDRRFGWDCHGMRYSAEWKSTVSRLDNDYKTLYDCWFESGSMPYFIAEGIDQTRGFYTLLVLATALFNVIVNKMS"/>
+                    <sequence id="seq_ile_euk_md_ranae6A-aa" taxon="ile_euk_md_ranae6A-aa" totalcount="20" value="TFYDPPFATGLPHFGHILAGTVKDVITRYDRRFGWDCHGMKHSSEWKDTVEKMDNSYKTMDDCWFESGCMPYFIGEGIDQTRGFYTLHVISTLLFNVIVNKMS"/>
+                    <sequence id="seq_ile_euk_md_theta3A-aa" taxon="ile_euk_md_theta3A-aa" totalcount="20" value="TFYDPPFATGMPHYGHILAGTIKDCITRYERKWGWDTHGMRYASEWKRVVRRLDNDYKTLDDCWFESGSMPYFIAEGLDQTRGFYTLMVIGTALFNVIVNKMS"/>
+                    <sequence id="seq_ile_euk_md_uberi7A-aa" taxon="ile_euk_md_uberi7A-aa" totalcount="20" value="SFYDPPFATGLPHYGHILAGTIKDVVTRYERRFGWDCHGMKYSSEWEQIITRLDNDYKTMNDCWFESGSMPYFIAEGLDQTRGFYTLLVLGTALFNVIVNKMS"/>
+                    <sequence id="seq_ile_euk_md_wa_ii15A-aa" taxon="ile_euk_md_wa_ii15A-aa" totalcount="20" value="SFYDPPFATGLPHYGHILAGTVKDVVTRYERRFGWDCHGLRYTQEWKSTVERVDNGYKTMDDCWFESGSMPYFVGEGLDQTRGFYTLMVLSTALFNIIVNKMS"/>
+                    <sequence id="seq_leu_euk_md_antum13A-aa" taxon="leu_euk_md_antum13A-aa" totalcount="20" value="LTTFFPYMNGKLHLGHGFSLTKAEFASRFLWPFGFHVTGDYFPPIAMEDLKSFDRSFMTTSDSLSDSTIYMALRCSGKDLIQNLTMFLYNHAAIPAIFCNKMA"/>
+                    <sequence id="seq_leu_euk_md_incut11A-aa" taxon="leu_euk_md_incut11A-aa" totalcount="20" value="YVLDFPYPSGALHVGHPEGYTATDILSRYMHPMGWDAFGKKNIDRFREQLQSLDREVSTTDPQWAGSCWYYLLYLGGAEHAVLLLYARFWHKVLFRLVNQKMS"/>
+                    <sequence id="seq_leu_euk_md_incut12A-aa" taxon="leu_euk_md_incut12A-aa" totalcount="20" value="FVTFYPYMNGRLHLGHTFSLSKCEFAVGYLFPFGLHCTGDYFPPLAIQDLKRMDRSFITTDESLSDSTIYMALRVSGKDLVPNLSYYLYNHVAMPAVRANKMS"/>
+                    <sequence id="seq_leu_euk_md_incut4A-aa" taxon="leu_euk_md_incut4A-aa" totalcount="20" value="FVTFYPYMNGRLHLGHTFSLSKCEFAVGYLFPFGLHCTGEYFPPLAVQDLKRMDRSFITTDESLSDSTIYMALRASGKDLIPNLSYFLYNHVAMPAVRANKMS"/>
+                    <sequence id="seq_leu_euk_md_incut5A-aa" taxon="leu_euk_md_incut5A-aa" totalcount="20" value="IVTFYPYMNGRLHLGHTFSLSKAEFGVGYLFPFGLHCSGKYFPPHCKEDLRKMDRSFLTTDESLSDSTIYMALRVSGKDLVPNLTYYIYNHVAIPSIRANKMS"/>
+                    <sequence id="seq_leu_euk_md_incut6A-aa" taxon="leu_euk_md_incut6A-aa" totalcount="20" value="YILAFPYPSGHLHMGHVRVYTLSDCLARFLHPMGWDAFGIKNIEYMRKQLQRLDKEVTTCADTFVDSSWYFAIYVGGVEHAILLLYARFLTRFFFRLLTQKMS"/>
+                    <sequence id="seq_leu_euk_md_incut7A-aa" taxon="leu_euk_md_incut7A-aa" totalcount="20" value="YILDFPYPSGALHVGHPAGYTATDILARLLHPIGWDAFGERNVNRFRQQLQSLDREVSTTDPQWAGSCWYYLLYVGGAEHAVLLLYARFWHKVLFRLVSQKMS"/>
+                    <sequence id="seq_leu_euk_md_labra2A-aa" taxon="leu_euk_md_labra2A-aa" totalcount="20" value="MGTVFAYMNGSLHAGHGFSISKIEFNAGFLFPVGFHCTGSYYPHITKDDNIAFDRQFITTDESLSDSTIYMSIRSSGKDLIPNLTFCLYNHAAIPSMRANKMS"/>
+                    <sequence id="seq_leu_euk_md_mblia10A-aa" taxon="leu_euk_md_mblia10A-aa" totalcount="20" value="FVTFYPYMNGRLHLGHLFSATRAEFAVGYLFPFGFHVTGKHFPALCYKDMCKFDRSMITTDESLSDSTIYNALRCSGKDLIPNLTMMLYNHTAIPGMRANKMS"/>
+                    <sequence id="seq_leu_euk_md_minis3A-aa" taxon="leu_euk_md_minis3A-aa" totalcount="20" value="YVLPFPYPSGKMHMGHVRVFSISDCISRYIHPMGWDAFGKNNVEEMRKQISGLNREVNTSTDTFMDSSWYFYYYVGGSEHSIMLLFARFVARFLFHLITQKMS"/>
+                    <sequence id="seq_leu_euk_md_nalis19A-aa" taxon="leu_euk_md_nalis19A-aa" totalcount="20" value="MITFFPYMNGRLHLGHLFTISKAEFAVRYLFPFAFHCTGHYFPPYGVKDMKQFDRSFITTDDSLSDSTIYTACRVSGKDLVTNLTMWLYNHAAVPAVRANKMS"/>
+                    <sequence id="seq_leu_euk_md_phora16A-aa" taxon="leu_euk_md_phora16A-aa" totalcount="20" value="YALSFPYPSGKLHMGHVRNYVITDVIARALHPMGWDAFGNTNIQQMRKQLDQLDREISTCNDTFMCSSWYFLHYVGGIEHAILLLYSRFFTKVLFRLLPQKMS"/>
+                    <sequence id="seq_leu_euk_md_ranae14A-aa" taxon="leu_euk_md_ranae14A-aa" totalcount="20" value="FITFYPYMNGKLHLGHLYSISKADFMSYYLFPLAFHCTGKTFPKLCISSLKTFDRSFVTTDDSLSDSTIYMALRVSGKDLIKNLLFFMFNHVALPRIFTNKMS"/>
+                    <sequence id="seq_leu_euk_md_setta18A-aa" taxon="leu_euk_md_setta18A-aa" totalcount="20" value="YALAFPYPSGALHMGHVRVYTISDSVARFIHPMGWDAFGIRNIAYMKEQLDALDREVTTCSDTFVDSAWYFLLYIGGIEHAVLLLYARFVNMAAFKLLAQKMS"/>
+                    <sequence id="seq_leu_euk_md_tatus9A-aa" taxon="leu_euk_md_tatus9A-aa" totalcount="20" value="YGNFFPYMNGYLHLGHAFSLSKLEFAAAYLLPFAFHCTGTFFPPLAVEDLKAFDRTFVTTDESLSDSTLYMALRVSGKDLIQNLTFSIYNHTALPGFRCNKMS"/>
+                    <sequence id="seq_lys_3bju___piens1A-aa" taxon="lys_3bju___piens1A-aa" totalcount="20" value="IRSKIITYIRSFLDELGFLEIETPMMNYMRIAPELYHKDRVYEIGRQFRNPEFTTCEFYMAYHDLMEITEKMVSRFELFVEICNAYTEPPTAGWGMGDRVAMF"/>
+                    <sequence id="seq_lys_euk_md__mori13A-aa" taxon="lys_euk_md__mori13A-aa" totalcount="20" value="TRAKIIAYVRRFLDNMGFLEVETPLMNYMRIAPELYHKDRVYEIGRQFRNPEFTTCEFYMAYNDLMTITESILSRFEVYVEICNAYTEPPTGGWGLGDRLTMF"/>
+                    <sequence id="seq_lys_euk_md_antum5A-aa" taxon="lys_euk_md_antum5A-aa" totalcount="20" value="KRHAITRALRDFLDARSFVEVETPVLHFLRVAPELHLKERVYEIGRVFRNPEFTTCEFYAAYKDLMTMTEEILRRFELFIEYCNAYSEPPTAGWGMGDRVAML"/>
+                    <sequence id="seq_lys_euk_md_gigas14A-aa" taxon="lys_euk_md_gigas14A-aa" totalcount="20" value="VRAKIINYVRKFLDEMGFLEVETPLMNYMRVAPELYLKDRVYEIGRLFRNPEFTTCEFYMAYNDLMKITETLLSRFELFVEICNAYTELNDPVVQREFEQQAK"/>
+                    <sequence id="seq_lys_euk_md_ideum18A-aa" taxon="lys_euk_md_ideum18A-aa" totalcount="20" value="IRSKVIQGVRRYLDNLGFIEVETPMMNFMRIAPELYLKDRVYEIGKQFRNPEFTTCEFYMAYNDLYTMTEQLLQRFELFVEICNAYTELNNPFVQIEFAEQAK"/>
+                    <sequence id="seq_lys_euk_md_incut15A-aa" taxon="lys_euk_md_incut15A-aa" totalcount="20" value="TRHAIFRSIRRMMDAQGFIEVETPSLCNLRIAPELYLKDRVYEIGKQFRNPEFTTMEMYQAFDDLFDFTESLLVRFELFVEICNAYAEPPTVGWGMGDRLVML"/>
+                    <sequence id="seq_lys_euk_md_labra2A-aa" taxon="lys_euk_md_labra2A-aa" totalcount="20" value="TRSRVLNYVRRFLDNLGFLEVETPMMSYLRIAPELYLKDRVYEIGRVFRNPEFTICEFYMAMYDLMDLTESMVERFEGFLEICNAYTELNDPFEQREFEEQLR"/>
+                    <sequence id="seq_lys_euk_md_mblia3A-aa" taxon="lys_euk_md_mblia3A-aa" totalcount="20" value="QRSGIINFIRRMIDQRNYLEVETPMLQYLRIAPELFLKNRVFEINKNFRNPEFTMMEAYSALEDMCDLIEGLVSRFEVFIEVSNAYTELNNPIIQREFQAQIR"/>
+                    <sequence id="seq_lys_euk_md_minis12A-aa" taxon="lys_euk_md_minis12A-aa" totalcount="20" value="TRSKIIQLIRSFLTAEGFLDVETSILSALRISPELALKDRVFEMGKVFRNFEFTSVEAYMAYTDWMRLTEKLLHRFELFVEIVNAYTEQNDPVKQEMFAKQGE"/>
+                    <sequence id="seq_lys_euk_md_nalis11A-aa" taxon="lys_euk_md_nalis11A-aa" totalcount="20" value="TRCKVVKMIRGFLDDLDFTEVETPIMWWLRVAPELFLKNRVYELGKQFRNPEFTSCEFYMAYNDLMDLTEKLYQRFEVFIEYANAYTELNCPMVQREFLDQLK"/>
+                    <sequence id="seq_lys_euk_md_oidea17A-aa" taxon="lys_euk_md_oidea17A-aa" totalcount="20" value="ARARMMGALRRTLEARGFLEVETPVLEVLRIATELHLKERIYEIGRVFRNPEFTTLELYQAYHDMMDLTEDLVRRFELFIELANAYSELTDPVDQRQLEAQLT"/>
+                    <sequence id="seq_lys_euk_md_phora8A-aa" taxon="lys_euk_md_phora8A-aa" totalcount="20" value="RRAQVVSGIRRWLDEREFLEIETPVLHYLRIATELHLKERVYELGRIFRNPEFTSVEIYQAYTDMMDLTEQLIDRFELFIETANAFSEPPTGGLGIGDRLTML"/>
+                    <sequence id="seq_lys_euk_md_ranae6A-aa" taxon="lys_euk_md_ranae6A-aa" totalcount="20" value="QRTNIIKFIRKYLDDKDFVEVETPLLNFLRIAPELYLKDRVYEIGKLFRNPEFTACEFYMAYNDMMNMAEEMLNRFELFIEICNAYTELNNPIEQRMFKMQAQ"/>
+                    <sequence id="seq_lys_euk_md_theta4A-aa" taxon="lys_euk_md_theta4A-aa" totalcount="20" value="RRAKIIQGIRDYLNQREYLEIETPILTYMRIATELHLKERVYELGRIFRNPEFTSVELYQAYEDMMNLVEEMICRFELFVELANAFSEPPTAGLGIGDRLIML"/>
+                    <sequence id="seq_lys_euk_md_uberi7A-aa" taxon="lys_euk_md_uberi7A-aa" totalcount="20" value="IRNKTMSFIRNFFTNKGFLEVETPILSKLRIAPELYLKDRVFELSKVFRNPEFTSCEAYQAYNEMMDMTEEFFRRFELFIELCNAYTELNDPEDQREFRKQQE"/>
+                    <sequence id="seq_lys_euk_md_wa_ii16A-aa" taxon="lys_euk_md_wa_ii16A-aa" totalcount="20" value="LRSRAIKYIRNYFDRLGFLEVETPMLNYMRIAPELYLKDKVYEIGKNFRNPEFTAMEFYMAYYDLMDLTEELISRFELFVELCNAYTELNEPLQQRKFEQQAD"/>
+                    <sequence id="seq_met_euk_md_incut11A-aa" taxon="met_euk_md_incut11A-aa" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADVFARFLFICGTDEYGDKYHAIHKEVYDWFDYFGRTSTYVWFDATIGYIYQFMAKDNVLFSIIFPSSLIGTVHLSATQFS"/>
+                    <sequence id="seq_met_euk_md_incut12A-aa" taxon="met_euk_md_incut12A-aa" totalcount="20" value="KVSTIYYVNGEPHLGHIYSTALADAICRWFLTTGTDEHGDSIASVFQSELSHYGRFIRTTDYVWIDALTNYLLHVFGKDIAKFCYFYPCLLLALPRMICHKMS"/>
+                    <sequence id="seq_met_euk_md_incut13A-aa" taxon="met_euk_md_incut13A-aa" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADIFARYLYICGTDEYGDKYFEIHNNVYRWFDYFGRTSTYVWFDAPIGYMYQFMAKDNVPFVVMFPATVLGVVHLFATKFS"/>
+                    <sequence id="seq_met_euk_md_incut14A-aa" taxon="met_euk_md_incut14A-aa" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADVFSRYLYICGTDEYGDKYNKIHAEIYDWFDKFSRTSIYVWFDAPIGYIYNFLGKDNVPFSVIFPCSLLGAVHMSATKFS"/>
+                    <sequence id="seq_met_euk_md_incut16A-aa" taxon="met_euk_md_incut16A-aa" totalcount="20" value="YFTTINYTNGTPHMGHAYEIVTSDILVRIRFQTGTDEHGDENVKQFKNMNEKLDRFIRTTDYVWFDALTNYIVHIVGKDITWFSVIWPAMLLSVPTIFAHKMS"/>
+                    <sequence id="seq_met_euk_md_incut17A-aa" taxon="met_euk_md_incut17A-aa" totalcount="20" value="RLRTGTRVNAEPHMGSAYTTMAADAITRFSFVTGTDEHGDGVVASFKGLWEEMDSFIRTTDYVWFDALLGYMVHLVGKDILRFALYWPGMLLSAPKIFAHKMS"/>
+                    <sequence id="seq_met_euk_md_incut18A-aa" taxon="met_euk_md_incut18A-aa" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADVYARYIYICGTDEYGDKYHEIHKEIYEWFDKFGRTSTYVWFDAPIGYIVQFMGKDNVPFTVIFPASLIGSLNLSTTKMS"/>
+                    <sequence id="seq_met_euk_md_incut19A-aa" taxon="met_euk_md_incut19A-aa" totalcount="20" value="LITSLPYVNNIPHLGNIICVLSADVFARYIYICGTDEYGDKYHAIHKEVYKWFDEFGRTSSYVWFDAPIGYVYQFMGKDNVPFTVMFPSTLLGTMTISVTKFS"/>
+                    <sequence id="seq_met_euk_md_incut2A-aa" taxon="met_euk_md_incut2A-aa" totalcount="20" value="LITSLPYCNNVPHLGNLISLLSADVFSRYLYVCGTDEYGDKYNALHRETYDWFDLFGRTSTYVWFDACIGYVYQFMGKDNTYFSVLFPSSQLGDLHLSTTKFS"/>
+                    <sequence id="seq_met_euk_md_incut5A-aa" taxon="met_euk_md_incut5A-aa" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADVFARYLYLCGTDEYGDKYHIIHADIYRWFDIFGRTTTYVWFDATIGYLYQFMAKDNVPFSLVFPCSALGAVHLIATKFS"/>
+                    <sequence id="seq_met_euk_md_incut6A-aa" taxon="met_euk_md_incut6A-aa" totalcount="20" value="FATTIYYVNASPHIGHVYSTLIVDVLGRYFVMTGTDEHGTSVSSEFKQCFKEMNYFIRTTNYVWLDALFNYYVHVVGKDILKFAIYWPAFLMSAPRLVSHKIS"/>
+                    <sequence id="seq_met_euk_md_opcut3A-aa" taxon="met_euk_md_opcut3A-aa" totalcount="20" value="YLTTIYYVNGKPHIGHVFTTLLADTLKRFYLMTGTDEHGDNMAKTFETFLENFDVFMRTTMYVWIDALAIYLVQFLGKDIARFCVYWLAFLMGAPRFFIHKIG"/>
+                    <sequence id="seq_met_euk_md_phora9A-aa" taxon="met_euk_md_phora9A-aa" totalcount="20" value="VTTPLYYVNDRPHLGSAYTTLACDALARYQRLIGCDEHGQQVSEEYHHLWSRWDRFIRTTDYVWFDALIGYLVHVIGKDILRFAVYWPAMLMSAPMVFGHKMG"/>
+                    <sequence id="seq_met_euk_md_ranae7A-aa" taxon="met_euk_md_ranae7A-aa" totalcount="20" value="IITSLPYVNNQPHLGNIICVLSADMYARFVFLSGTDEYGEENRIIHKKIYDWFDFFGHTTSYVWFDAVIGYFVQFMGKDNVFFTIVFPSLIFATIKLSVTKFS"/>
+                    <sequence id="seq_met_euk_md_uberi8A-aa" taxon="met_euk_md_uberi8A-aa" totalcount="20" value="ITTPIYYVNGPPHIGHLFTTILSDSIYLYIFSTGTDEHGEKISETFKTMMKDFTHYLRTSAYVWLDALTNYLVQIIGKDILKFGIYWPAFLMALPTILVHKMS"/>
+                    <sequence id="seq_phe_3l4g_h_h_sap1A-aa" taxon="phe_3l4g_h_h_sap1A-aa" totalcount="20" value="PLLKVRSQFRQIFLEMGFTEMPTNFIELLRTHTTSASAVKYFSIDRVFRNAEFHQIEGVVALGHLMGVLREFFTSMEVFSEVGNSGVFVSVIAWGLSERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut10A-aa" taxon="phe_euk_md_incut10A-aa" totalcount="20" value="PLLKVRTEFRQIFLEMGFSEMPTNYVELLRTHTTAVSAAKYFSIDKVFRNAEFHQVEGVIALGDLIGTLYEFFRSMEIFCEVGNSGVFVNVIAWGLSERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut11A-aa" taxon="phe_euk_md_incut11A-aa" totalcount="20" value="TLLKVRTEFRKVFLELGFEEMATNFVELLRTHTTAVSTRKYFSIDRVFRNCEFHQIEGMVILGDMIGLFRVFFASMEIFGEVGNSGMFVTVLAWGLSERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut12A-aa" taxon="phe_euk_md_incut12A-aa" totalcount="20" value="PLVKTTEDIVDIFCGLGYRVVEGPEIELLRTHTSPVQITRIIAPGRVYRRPVFHQVEVLAIFSHLRGTVMTFLKSAEVDVEVMGCGMVWSGFAAGLGERFCMV"/>
+                    <sequence id="seq_phe_euk_md_incut13A-aa" taxon="phe_euk_md_incut13A-aa" totalcount="20" value="PLMKMRNEMRKILLEMGFEEMPTNFVELLRTHTTAISSMKYFSIDRVFRNAEFHQVEGLIALGHLIGVISQFFQSMEIFGEVGNSGVFVQVIAWGLGERPCMI"/>
+                    <sequence id="seq_phe_euk_md_incut14A-aa" taxon="phe_euk_md_incut14A-aa" totalcount="20" value="PLMKVRTEYRQIFLEMGFEEMPTRFVEILRTHTTAVSAVKYFSIDRVFRNAEFHQIEGVIALGDLIGTLESFFKSMEVFSEIGNSGIFVVVIAWGLSERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut15A-aa" taxon="phe_euk_md_incut15A-aa" totalcount="20" value="PLLKVRAEFRNIFFQMGFEEMDTKWVEIMRTHTTAVSSRKFFSIDRVYRNAEFHQVEGFIILGDLMRNIREFFSSMEIFAEIGNSGMFYTVIAWGFGERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut3A-aa" taxon="phe_euk_md_incut3A-aa" totalcount="20" value="PLLKVRSEFREIFLEMGFTEMPTKYVELLRTHTTAVSAQKYFSIDKVFRNAEFHQVEGVVALADLITVLDAFFKSMEIFAEIGNSGVFVNVIAWGLSERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut4A-aa" taxon="phe_euk_md_incut4A-aa" totalcount="20" value="PLLKVRAQYRQIFLEMGFTEMPTNFVEILRTHTTANSAVKYFSIDRVFRNAEFHQIEGSVALGDLMGIIQEFFKSMEIFSEIGNSGIFVSVIAWGLSERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut5A-aa" taxon="phe_euk_md_incut5A-aa" totalcount="20" value="PLNKVKNEFKQIFLDMGFEEMPTNFVEILRTHTTAVSAKKYFSIDRVFRNAEFHQVEGVIALGHLIGVISEFFKSMEIFGELGNSGIFVRVAAWGLSERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut6A-aa" taxon="phe_euk_md_incut6A-aa" totalcount="20" value="PLLKVKRQIQLIFLQMGFEEMATNFVELLRTHTTAVSSKKYYSIDRVFRNAEFHQIEGLICLGHLIGVLEDFFSSMEIFSEIGNSGMFVQVIAWGLSERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut7A-aa" taxon="phe_euk_md_incut7A-aa" totalcount="20" value="PLMEMRRLFVEAFVGMGFEQMKTKLVEVLRTHTTAVSARRFFSIDRVYRNCEFNQVEGMVILGNLIATLRAFFASMEIFAEVGNSGLFVQVLAWGLSERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut8A-aa" taxon="phe_euk_md_incut8A-aa" totalcount="20" value="PLLKVRAQFREIFLEMGFEEMPTRFVELLRTHTTAISAKKFFSIDRVFRNAEFHQIEGLVVLGDLMGMIQAFFESMEIFHEVGNSGMFVTCIAWGLSERPTMI"/>
+                    <sequence id="seq_phe_euk_md_incut9A-aa" taxon="phe_euk_md_incut9A-aa" totalcount="20" value="PLLKVRQEFREILMELGFQEMDTHWAEVLRTHTTGSSAGRYYSIDRVFRNCEFHQVEGFVILAKMMHTFDSFFRSMEIFGEVGNSGLFVTVMAWGLSERPTMI"/>
+                    <sequence id="seq_phe_euk_md_minis2A-aa" taxon="phe_euk_md_minis2A-aa" totalcount="20" value="PICILKKTILSYFLNKEFSVYEDSPIVVLRPHTSAHQVNSFIVVGDVYRRPAFTQMEIVRVINDMKGVVEGLIKSLEVEVELLGSGVIDCGWALGIGERLAMS"/>
+                    <sequence id="seq_pro_3ial_g__lamb1A-aa" taxon="pro_3ial_g__lamb1A-aa" totalcount="20" value="MENAIMRLCEEEYAKVGISQILFPTVIALRPTSETAIYLKIHQTCTIFRHREIHWNEAHCCLSDYWKVIDTIFSSEVSDVQTAGIHNLPYLTCAGISTRVLAC"/>
+                    <sequence id="seq_pro_euk_md_incut11A-aa" taxon="pro_euk_md_incut11A-aa" totalcount="20" value="IWEQIQAFFDAEIKKLDVQNAYFPLLVAIRPTSETIMYLKLNQWVNVVRWREFLWQEGHTAVFTILDLYRRVYETTTIEGQAATSHALAWQNSWGLTTRTIGV"/>
+                    <sequence id="seq_pro_euk_md_incut12A-aa" taxon="pro_euk_md_incut12A-aa" totalcount="20" value="IWEAIQDYLNVKFKETGHSNMYFPQLIVVRPTSETIVNLMINQWVNVTRWLEFLWQEGHTAALQMIDMYTKFAFTYTIEAQAGTSHNLVWQTSWAISTRFVGG"/>
+                    <sequence id="seq_pro_euk_md_incut14A-aa" taxon="pro_euk_md_incut14A-aa" totalcount="20" value="VWKCVQRFLGGKIEKLGVEDCYFPMFVAVRPTSETVMYVRLNMWNNVIRWREFLWQEGHCAVLDILECYASVYETTTVETQGATSHNLPWQNSWGLSTRVIGV"/>
+                    <sequence id="seq_pro_euk_md_incut16A-aa" taxon="pro_euk_md_incut16A-aa" totalcount="20" value="VWEKVQNFFDGHIKKLGVQNVMFPMFVALRPTSETIMYLKLNQWTNVVRWREFYWQEGHSAVYDILELYKRTYETTTIEAQAATSHHLVYQNSWGLSTRSLGV"/>
+                    <sequence id="seq_pro_euk_md_incut18A-aa" taxon="pro_euk_md_incut18A-aa" totalcount="20" value="MWECIKNFMDEEIKKMGVSNTYFPLFVAVRPTSETIMYLKINQWCNVVRWREFLWQEGHTAVYEILDMYARTYRSTTVEAQGATSHCLVVQNSWGFTTRSIGV"/>
+                    <sequence id="seq_pro_euk_md_incut20A-aa" taxon="pro_euk_md_incut20A-aa" totalcount="20" value="MHNEIMHLFEVAYSKIGVPMTQFPAFICLRPTSETAMYVMVQQSCNVYRYREIPWNEAHTALGKFWDIVHDILTTDVLDVQSVGAHYLSYMTCIGVSTRCLAA"/>
+                    <sequence id="seq_pro_euk_md_incut4A-aa" taxon="pro_euk_md_incut4A-aa" totalcount="20" value="IWEVIQEWFNREIKKLGVENAYFPMFVAIRPTSETAMYLKLNQWNSVVRWREFLWQEGHTAVRQILELYRRVYETTTIEGQAATSHCLVWQNSWGLSTRSIGV"/>
+                    <sequence id="seq_pro_euk_md_incut5A-aa" taxon="pro_euk_md_incut5A-aa" totalcount="20" value="IWERIQEFLDAKIKASGVKNAYFPMFVAIRPTSETIMYLRLNQWTNVVRWREFLWQEGHSAVLEILDYYARVYETTTVEAQAATSHCLVWQNSWGLTTRSIGV"/>
+                    <sequence id="seq_pro_euk_md_incut7A-aa" taxon="pro_euk_md_incut7A-aa" totalcount="20" value="IWESIKEFFDREIKKIGVENTYFPMFVAIRPTSETVMYLKLNQWCNVVRWREFLWQEGHTAVYVILELYARVYETTTVEAQGATSHHLVYQNSWGLTTRTIGV"/>
+                    <sequence id="seq_pro_euk_md_incut9A-aa" taxon="pro_euk_md_incut9A-aa" totalcount="20" value="IWETIQSVFDQKIKQHDVQNAYFPIFVAIRPTSETIMYLKINQWTSIVRWREFLWQEGHTAVDIILNEYASIYETKSIEGQAATSHLLAHQTSWGLTTRAIGV"/>
+                    <sequence id="seq_pro_euk_md_oidea10A-aa" taxon="pro_euk_md_oidea10A-aa" totalcount="20" value="IWEGIQSYLDSRFKELGVQNAYFPQLIVVRPTSETMVNMLLNQWANVHRWLEFLWQEGHTAAQQMVEVYADFAITLTIEAQAGTSHDLPQQTSWGASTRLIGG"/>
+                    <sequence id="seq_pro_euk_md_phora17A-aa" taxon="pro_euk_md_phora17A-aa" totalcount="20" value="VLKKISSCVREEMTSAGAIELLMPQLQALGPTHEEVVTCTLYQIQTKFRDREFVMKDAYSFYDRMDLGYRNIFRSQEFMVEVGHIFRLFWMGCYGIGSRLSQA"/>
+                    <sequence id="seq_pro_euk_md_ranae8A-aa" taxon="pro_euk_md_ranae8A-aa" totalcount="20" value="IWNEIRKWFTNEIEKLGVEECLFPMLIAIRPTSETVMYLKVNQWCNILRWKEILWQEGHTAVLDILDLYYRMYKSTTVEGQAATSHHLVYQNSWGMTTRSLGI"/>
+                    <sequence id="seq_pro_euk_md_rzaki15A-aa" taxon="pro_euk_md_rzaki15A-aa" totalcount="20" value="VWDHIRDFFDREIKLLGVENAYFPMFVALRPTSETIMYLKINQWANVVRWREFLWQEGHTAVLQILELYRRVYETTTVEAQGATSHNLVWQNSWGLTTRTIGV"/>
+                    <sequence id="seq_pro_euk_md_setta19A-aa" taxon="pro_euk_md_setta19A-aa" totalcount="20" value="VVQRLQSLVRAELNAIGSQECVLPAITCLAATHEETVTLYLYQMQPKYRDREFMMKDMYTFYAKVVECYQRILQSHEFQIEVGHAFLLIHMGCYGLGTRMLSA"/>
+                    <sequence id="seq_pro_euk_md_theta13A-aa" taxon="pro_euk_md_theta13A-aa" totalcount="20" value="VWDELKDELNRRIKETGTQNAYFPLFIIVRPTSETIIWLKVNQWANVVRWAEFLWQEGHTAAREMLDVYAEVAETYTIEAQSGTSHFLVWATSWGVSTRLLGA"/>
+                    <sequence id="seq_ser_1wleb__aurus19B-aa" taxon="ser_1wleb__aurus19B-aa" totalcount="20" value="LQHGLVNFTLNKLIHRGFTPMTVPDLLNLAGTAEVGLAIRMVCSSTCYRAHHFTKVEMFGVLEEFLSLQMEILTKFDIEAEVTSASNCAHTVNATGAPRLLIA"/>
+                    <sequence id="seq_ser_euk_md__mori11A-aa" taxon="ser_euk_md__mori11A-aa" totalcount="20" value="LEQALVQLSLRMLLEKGYTPLYTPFFMYLIATSEQPIAIKYAGLSTCFRQHQFEKVEQFVLMDEMINNAEEFCKKLDLEAELVSCSNCVHMLNATMATRVICA"/>
+                    <sequence id="seq_ser_euk_md_aki_113A-aa" taxon="ser_euk_md_aki_113A-aa" totalcount="20" value="LEFALIQYAFTMLVQRDFTPLTTPFFMYLIATSEQPIAKRYAGYSSCFRQHQFEKIEQFCIMEQMLKNATDFYQKYDVEGELVSCSNCVHMLNSTMATRVICI"/>
+                    <sequence id="seq_ser_euk_md_antum4A-aa" taxon="ser_euk_md_antum4A-aa" totalcount="20" value="LQFALISYALNFLIARGYEPFYPPFFLYLIATSEAPIAIKYAGVSSCFRKHQFDKLEQFVVLEEMIQTSQDFNEKYDLEAELVSCSNCCHMLNGTLATRTMCC"/>
+                    <sequence id="seq_ser_euk_md_incut10A-aa" taxon="ser_euk_md_incut10A-aa" totalcount="20" value="LNQALFRYGLDFLQAHGYTAIHTPFFMFLIATSEQTLCKKYCGFSSCFRKHQFEKVEQFCIHEQMVHNSCEFIKKVDIEAELVSASNCVHMLNATLAERTLCC"/>
+                    <sequence id="seq_ser_euk_md_incut12A-aa" taxon="ser_euk_md_incut12A-aa" totalcount="20" value="LEQALINLAMQSLYTKGYVPLYTPFFMYLIATSEQPIAIKYLGYSTCFRQHQFEKIEQFVLFDEMINNAEEFNKKLDLEAELVSCSNCVHMLNATMATRTICA"/>
+                    <sequence id="seq_ser_euk_md_incut16A-aa" taxon="ser_euk_md_incut16A-aa" totalcount="20" value="LNQAIINFALMHMTKRGSVPLQTPFFMYLIATSEQPISKKYVGYSTCFRKHQFEKIEQFCIMEEMINNSEQFYQKYDLEGELVSCSNCVHMLNSTLATRVICC"/>
+                    <sequence id="seq_ser_euk_md_incut1A-aa" taxon="ser_euk_md_incut1A-aa" totalcount="20" value="LELALTNYAFSVALKRGFRPALTPDVVVLTGTAEIPLAVRVAGLGRAFRSHQFSKVELFAVLDELKQVQIELFSKYDMEAEISSTSNCAHTLNGTAAPRLIIA"/>
+                    <sequence id="seq_ser_euk_md_incut3A-aa" taxon="ser_euk_md_incut3A-aa" totalcount="20" value="LEQALIQYALRTLGSRGYIPIYTPFFMYLIATSEQPIAIKYAGLSTCFRQHQFEKIEQFVYFEEMITTAEEFYQKLDLEAELVSCSNCVHMLNATMATRTICA"/>
+                    <sequence id="seq_ser_euk_md_incut9A-aa" taxon="ser_euk_md_incut9A-aa" totalcount="20" value="LEMALVSYALQFLMARKFTALSPPLFMYLIATAEQPIALRYVGVSECFRQHQFKKIEQFVIMDEMLTNAEDFLKKLDIEAELVSCSNCVHMLNSTLATRTICC"/>
+                    <sequence id="seq_ser_euk_md_mblia18A-aa" taxon="ser_euk_md_mblia18A-aa" totalcount="20" value="LNQALIQYALKFLTDRGYQAMQTPFFMYLIATSEQPLCIRYAGMSTCFRKHQFEKIEQIVVMEYMIDNCRAFFDKYDLEAELVSCSNCVHLLNSTLAERTLCC"/>
+                    <sequence id="seq_ser_euk_md_oidea15A-aa" taxon="ser_euk_md_oidea15A-aa" totalcount="20" value="LELALCNYAMQKVASKGFLPMTTPDLVCLTGTAEVPLAIRLAAFGHCFRTHQFSKVEMFVLLQELCDIEEEIFTKIDIEAEVSSASNCLHTLNATAAPRLIVA"/>
+                    <sequence id="seq_ser_euk_md_phora7A-aa" taxon="ser_euk_md_phora7A-aa" totalcount="20" value="LERALINFMLDFHTKKGYCEILPPILAWLIPTSEVPITLKYVAYSPCFRRHQFNKVELYWFHIQITADAEAVLQTYDLEVEISSSSNCVHTLNASGAGRTMAA"/>
+                    <sequence id="seq_ser_euk_md_ranae5A-aa" taxon="ser_euk_md_ranae5A-aa" totalcount="20" value="LGMALSRYAIDFLEKQGYTFIQTPVMMYLIATSEQPLSKLYCGQSLCFRKHQFEKIEQFVIFYKMIGLSEEFYKKYDLEAELVSCSNCVHMLNSTLAQRTLCC"/>
+                    <sequence id="seq_ser_euk_md_theta2A-aa" taxon="ser_euk_md_theta2A-aa" totalcount="20" value="LHRALAQFMLDTHVEKGYSEVYVPYIVYLIPTAEVPVTIKYTAHTPCFRSHQFEKVELVQILEELTGHAEAILKTYDLEVEISSCSNCVHTLNGSGAGRTLVA"/>
+                    <sequence id="seq_ser_euk_md_ttata17A-aa" taxon="ser_euk_md_ttata17A-aa" totalcount="20" value="LNQALINFGLDFLEKRGFTALHTPFFMYLIATAEQPLCLRYAGYSSCFRKHQFEKIEQFCIHEEMLKNSEDFYKKYDLEGELVSCSNCVHMLNSTLAERTMCC"/>
+                    <sequence id="seq_ser_euk_md_uberi6A-aa" taxon="ser_euk_md_uberi6A-aa" totalcount="20" value="LEVALQNFAISKLLKRGFKIIMPPELMCLIGTSEIGLALKYAGLSHCFRTHQFTKVEMFVYLDEIVSIQEEIFSKIDMEAEVSSASNCPHTLNGTAAPRAIIT"/>
+                    <sequence id="seq_ser_euk_md_wa_ii14A-aa" taxon="ser_euk_md_wa_ii14A-aa" totalcount="20" value="MSMALSHYAMGFLLKKGYLAIQPPYFMFLIATSEQPIAIKYAGISTCFRKHQFEKVEQFCVHEEMISISEEFYQKYDLEAELVSCSNCCHFLNGTLAQRTMCC"/>
+                    <sequence id="seq_thr_euk_md_incut10A-aa" taxon="thr_euk_md_incut10A-aa" totalcount="20" value="VRHIIEDAWKKIHIQRGYDLLYTPHVAQLRPMNCPYHIIRVAELGTVYRYRGFTQDDAHIFIRGVLDLTEEILLKIDLKIQCSTIQVDPIMIHRAVSERFFGV"/>
+                    <sequence id="seq_thr_euk_md_incut11A-aa" taxon="thr_euk_md_incut11A-aa" totalcount="20" value="IYRKLEAFIRELLHEFDYEEVMTPTFLGLKPMNCPCHCIRMAEFGVVHRNVRFEQDDAHIFMTGLIEFIKRVYTKIDVHLQCGTIQLDPVMIHRAISERFMAI"/>
+                    <sequence id="seq_thr_euk_md_incut13A-aa" taxon="thr_euk_md_incut13A-aa" totalcount="20" value="IYNALIEFIRSEYRKRGFQEVVTPNIFALKPMNCPGHCLRLADFGVLHRNRRFQQDDAHIFIKGCLDFLRTVYSKIDIQIQCATIQLDPVIVHRAISERMIAI"/>
+                    <sequence id="seq_thr_euk_md_incut16A-aa" taxon="thr_euk_md_incut16A-aa" totalcount="20" value="LFNSIQSLMRNEYWHRGYSEVQTPNVFSLKPMNCPSHCIRFADFGVLHRNRKFQQDDAHIFIMGALRMMQDIYKKIDILIQCATVQLDPVIVHRAISERFLAI"/>
+                    <sequence id="seq_thr_euk_md_incut18A-aa" taxon="thr_euk_md_incut18A-aa" totalcount="20" value="IYNKLQQFISGCYRDRGFTEVISPNVYGLKPMNCPGHCLRFADFGALHRNRRFQQDDAHIFVSNCLHFLDYVYGKVDIHVQCATIQLDPVIVHRAISERFIAI"/>
+                    <sequence id="seq_thr_euk_md_incut20A-aa" taxon="thr_euk_md_incut20A-aa" totalcount="20" value="MYRRLMSMIRQQYLKRQFVEVITPNIFGMKPMNCPGHCIRMAEFGVLHRNRRFVQDDAHIFISDGLDFMTEVYGKIDVLVQLATIQLDPVMIHRAVSERFIAI"/>
+                    <sequence id="seq_thr_euk_md_incut4A-aa" taxon="thr_euk_md_incut4A-aa" totalcount="20" value="IYNTLVEFVRSEYWKRGYQEVISPNLFAMKPMNCPGHCIRMAEFAILHRNRRFVQDDAHIFIAGVIDFLQSVYGKIDITIQCATIQLDPVMIHRAISERFMGI"/>
+                    <sequence id="seq_thr_euk_md_incut5A-aa" taxon="thr_euk_md_incut5A-aa" totalcount="20" value="IYNTLVNFIKEQYRSRGFHEVVTPNMYALKPMNCPGHCLRLADFGVLHRNRRFQQDDAHIFIVGCLEFLKCVYSKIDITIQCATIQLDPVIIHRAVSERMVAI"/>
+                    <sequence id="seq_thr_euk_md_incut6A-aa" taxon="thr_euk_md_incut6A-aa" totalcount="20" value="IYNTLIDLIKSEYRKRGFQEVVSPNIYALKPMNCPGHCLRMADFGVLHRNRRFQQDDAHIFIAGCLDFLKAVYDKIDIIIQCATIQLDPVMIHRAISERMIAI"/>
+                    <sequence id="seq_thr_euk_md_incut7A-aa" taxon="thr_euk_md_incut7A-aa" totalcount="20" value="IYNTLMEFIRSEYWARGFTEVITPNMYALKPMNCPGHCIRFADFGVLHRNRRFQQDDAHIFIDNALAFLKAVYTKIDITIQCATIQLDPVIIHRAISERMIAI"/>
+                    <sequence id="seq_thr_euk_md_incut9A-aa" taxon="thr_euk_md_incut9A-aa" totalcount="20" value="IYNKLLQFLRLEYRKRGYQEVISPNIYSLKPMNCPGHCMRIADFGVLHRNRRFQQDDAHIFIKQCLDFMKYVYTKIDIHLQCATIQLDPVMIHRALSERMMAI"/>
+                    <sequence id="seq_thr_euk_md_opcut14A-aa" taxon="thr_euk_md_opcut14A-aa" totalcount="20" value="IYNTLVEFLRKKYRRCGFQEVISPNMYGLKPMNCPGHCIRYADFGVLHRNRRFQQDDAHIFMEGQMQFLSDVYGKIDIVVQCATIQLDPVMIHRAISERSIAI"/>
+                    <sequence id="seq_thr_euk_md_opcut8A-aa" taxon="thr_euk_md_opcut8A-aa" totalcount="20" value="IYNNLVELIREKYWEYEYEEVVTPNLYGLKPMNCPGHCIRMADFGVLHRNRRFQQDDAHVFVSSCLRMLDEVYAKIDITVQCATIQLDPVIVHRAISERMLAI"/>
+                    <sequence id="seq_thr_euk_md_phora17A-aa" taxon="thr_euk_md_phora17A-aa" totalcount="20" value="IRLLIEDFWRQSHLEAGYELLYTPHIAQLKPMNCPFHVIRWAELGTVYRYRGFTQDDAHIFVLEVLNLTERILSKIDLKIQCSTIQLDPIMIHRAISERFFGV"/>
+                    <sequence id="seq_thr_euk_md_ranae15A-aa" taxon="thr_euk_md_ranae15A-aa" totalcount="20" value="LYNKLCDLMRSEYLKRGFQEVITPNIFAMKPMNCPGHCIRYADFGVLHRNRRFQQDDAHIFISNCLDFLKHIYGKIDIILQCGTIQLDPVIIHRAISERFIAI"/>
+                    <sequence id="seq_thr_euk_md_setta19A-aa" taxon="thr_euk_md_setta19A-aa" totalcount="20" value="LLHRLTDLIRRQFRIRGYEEVMTPLVFGLKPMNCPAHCLRLGEFSALHRNRQFHQDDAHIFVAGCLDFVRTVYDKIDVYLQSATIQLDPVIIHRAISERMTAV"/>
+                    <sequence id="seq_thr_euk_md_theta12A-aa" taxon="thr_euk_md_theta12A-aa" totalcount="20" value="MRNIIESFWKDLHMRSGYELVYSPHIAQIKPMNCPFHVIRWAELGTVYRYRGFTQDDAHVFILKILDLTESVLSKIDLKIQCSTIQCDPIMIHRAISERFFGI"/>
+                    <sequence id="seq_trp_1r6u_h_h_sap19B-aa" taxon="trp_1r6u_h_h_sap19B-aa" totalcount="20" value="YLYTGRGPSSE?HVGHLIPFIFTKWLQDVPLVIQ?TDDEYGDAVENAKDIIACTFIFSDLDSFPAIQAAPSFLIPCAIDQDPYFRTRDVAPRIGYPALLHSTF"/>
+                    <sequence id="seq_trp_2ip1_s_cerev20A-aa" taxon="trp_2ip1_s_cerev20A-aa" totalcount="20" value="FLYTGRGPSSSMHLGHMIPFVFTKWLQEPLVIELTDDEVKNFARENAKDIIAVTFIFSDLQHFASIQIATAFLIPCAIDQDPYFRVCRDVADKLKPALLHSRF"/>
+                    <sequence id="seq_trp_euk_md__mori12A-aa" taxon="trp_euk_md__mori12A-aa" totalcount="20" value="YLYTGRGPSSDMHLGHMIPFMFTKWLQDVPLIIQLTDDERKMAYNNAKDIIAITFIFNDLDTFPSIEAAPAFLVPCAIDQDPYFRMTRDVAVRLPSLIHSKMS"/>
+                    <sequence id="seq_trp_euk_md_antum4A-aa" taxon="trp_euk_md_antum4A-aa" totalcount="20" value="YLYTGRGPSSEMHVGHLIPFMFTKWLQDTPLVIQLTDDEDKMTTENLKDIIAFTFIFRDFEMFPAIQAAPSFMIPQAIDQDPYFRLTRDVAPRMPAVIHSKMS"/>
+                    <sequence id="seq_trp_euk_md_aurus13A-aa" taxon="trp_euk_md_aurus13A-aa" totalcount="20" value="YLYTGRGPSSEMHVGHLIPFIFTKWLQDVPLVIQMTDDEYGYAVENAKDIINKTFIFSDLDSFPAIQAAPSFLIPCAIDQDPYFRMTRDVAPRIPALLHSKMS"/>
+                    <sequence id="seq_trp_euk_md_gas_114A-aa" taxon="trp_euk_md_gas_114A-aa" totalcount="20" value="YLYTGRGPSSEMHMGHLIPFIFTKWLQDTPLVIQLTDDENHLAFENAKDIIACTFIFSDLDSFPAIQAAPSFLIPCAIDQDPYFRMTRDVAPRMPALLHSKMS"/>
+                    <sequence id="seq_trp_euk_md_ica_15A-aa" taxon="trp_euk_md_ica_15A-aa" totalcount="20" value="YLYTGRGPSSELHLGHLIPFIMTKYLQEAPLVIQMSDDEIKLAHENAKDIIAMTFIFNNLTGFPAVQAAPALLIPCAIDQDPYFRMCRDVAPRLCALIHSKMS"/>
+                    <sequence id="seq_trp_euk_md_ideum17A-aa" taxon="trp_euk_md_ideum17A-aa" totalcount="20" value="TVFSGMQPTSSLHLGNYLAMGNWLKIQDLKLIFSIVDLHQSNTISVAINYLACVILFNQSMSYPVLMAADILHVPVGEDQTQHLEFTRDIAQAFPSIITSKMS"/>
+                    <sequence id="seq_trp_euk_md_labra11A-aa" taxon="trp_euk_md_labra11A-aa" totalcount="20" value="IVFSGIQPTGIPHLGNYLALRNWVDLQNNTVIYSVVGLHRRSKLDAAASLLAISILFHQDEAYPVLQAADVLHVPVGEDQLQHIELMRHIASSFPEVISPKMS"/>
+                    <sequence id="seq_trp_euk_md_mblia2A-aa" taxon="trp_euk_md_mblia2A-aa" totalcount="20" value="YIYTGRGPSSGLHLGHLLPFIFTKYLQDAYVVIQITDDEDSYTRENIKDIIACTFIFINSQAFPPKQMLPVYLIASGIEQDPYFRLARDLAPRMNAYLLGKMS"/>
+                    <sequence id="seq_trp_euk_md_nalis10A-aa" taxon="trp_euk_md_nalis10A-aa" totalcount="20" value="YIYTGRGPSSDLHLGHITSFIINKYIQDAWFIIQITDDEHKYTEANIRDIIAQTFIMRESKLFPVRQIAPAFLIPCGREQDPYFRFAREVAGKMVSTIYGKMT"/>
+                    <sequence id="seq_trp_euk_md_opcut15A-aa" taxon="trp_euk_md_opcut15A-aa" totalcount="20" value="RIVSGIQPTGVPHLGNYLAIKSWVQLQDPDVLYMIVDLHRRNITDMTIALLACSVLFQQSKSYPILMAADVLHVPVGDDQQQHLELASTLANTFPVPMYNKMS"/>
+                    <sequence id="seq_trp_euk_md_opcut16A-aa" taxon="trp_euk_md_opcut16A-aa" totalcount="20" value="YLYTGRGPSSELHVGHLVPFLFTKYLQDTPLVIQLTDDEHNYAYENMKDIIACTFIFTNLEAFPAVQAAPAFLVPHAIDQDPYFRMVRDVAPRLPSSIHSKMS"/>
+                    <sequence id="seq_trp_euk_md_opcut9A-aa" taxon="trp_euk_md_opcut9A-aa" totalcount="20" value="YLYTGRGPSSEMHLGHTVPFIINKHLQEAPLVIQITDDEYRLARENAKDIIAMTFIFIDTDAYPPIQTVPAFLIPCAIDQDPYFRLCRDVAPKLPSCLYSKMS"/>
+                    <sequence id="seq_trp_euk_md_phora8A-aa" taxon="trp_euk_md_phora8A-aa" totalcount="20" value="RILSGVQPTGSLHIGNLGAIRNWVNLQNTETYVCVVDLHAEDTRNTAALYLACSTVFVQSHDYPIMMAADILLVPVGEDQKQHLELARDIAQQRPEPLIMKMS"/>
+                    <sequence id="seq_trp_euk_md_ranae6A-aa" taxon="trp_euk_md_ranae6A-aa" totalcount="20" value="YLYTGRGPSSKMHLGHVIPFQLCKYFQDTPLVIQMTDDETKYCAENIKDIIAFTYIFSNVEGFPAKEIAPCFLIPCAVDQDPYFRLARDKASVMPTTLYVKMS"/>
+                    <sequence id="seq_trp_euk_md_rerio18A-aa" taxon="trp_euk_md_rerio18A-aa" totalcount="20" value="YLYTGRGPSSQIHVGHLIPFIFTKWLQDVPLVIQLTDDERRFTVENARDIIACTFIFSDLESFPAIQAAPSFLIPCAIDQDPYFRMTRDVAPRIPALLHSKMS"/>
+                    <sequence id="seq_trp_euk_md_tatus1A-aa" taxon="trp_euk_md_tatus1A-aa" totalcount="20" value="YLYTGRGPSSELHLGHLVPFMFTKYLQDAPLVIQLTDDEQRLARENAKDIIACTFIFSDFDSFPPVQAAPSFLIPCAIDQDPYFRMTRDVAPRIPALIESKMS"/>
+                    <sequence id="seq_trp_euk_md_theta3A-aa" taxon="trp_euk_md_theta3A-aa" totalcount="20" value="YLYTGRGPSSDLHMGHLIPFMFTKWLQDTPLVIQMTDDEYELGKENAKDIIACTFIFSNLESFPAIQAAPSFLIPCAIDQDPYFRMTRDVAPRLPALLHSKMS"/>
+                    <sequence id="seq_trp_euk_md_uberi7A-aa" taxon="trp_euk_md_uberi7A-aa" totalcount="20" value="YLYTGRGPSSEMHLGHLIPFMFTKYLQDVPLVVQMTDDEHRLTYENAKDIIACTFIFSNLDSFPAIQAAPSFLIPCAIDQDPYFRVTRDVAPKLPALIHSKMS"/>
+                    <sequence id="seq_tyr_2dlc_s_cerev18X-aa" taxon="tyr_2dlc_s_cerev18X-aa" totalcount="20" value="KLYWGTAPTGRPHCGYFVPMTKLADFLKAEVTVLLADLAFLRAKYYELTIKAILKFVVGSSIYPLMQALDEQCQFGGVDQRKIFVLAEENLPSLRAHLMNPMV"/>
+                    <sequence id="seq_tyr_euk_md_antum3A-aa" taxon="tyr_euk_md_antum3A-aa" totalcount="20" value="RCYDGFEPSGRMHIAQIFKAVNVNKCTAAEFVFWVADWALMVGRYLIEVWKAAVLFLWSSELYPLMQCCDIFICQLGLDQRKVNMLAREYCDLIPVILSHKMS"/>
+                    <sequence id="seq_tyr_euk_md_incut10A-aa" taxon="tyr_euk_md_incut10A-aa" totalcount="20" value="KVYWGTATTGKPHVAYFVPMSKIADFLRAEVTILFADLAYLRVQYYERAIKAMLKFVKGSDLYPGLQALDEEAQFGGVDQRKIFTFAEKYLPHLRIHLMNKMS"/>
+                    <sequence id="seq_tyr_euk_md_incut12A-aa" taxon="tyr_euk_md_incut12A-aa" totalcount="20" value="ICYDGFEPSGRMHIAQILKTINVNKLTECVFVFYVADWALLVGEYFVHIWKAAVRFVWASDFYPCMQCADIFICQLGMDQRKVNMLAREYCDAAPVILSHKML"/>
+                    <sequence id="seq_tyr_euk_md_incut13A-aa" taxon="tyr_euk_md_incut13A-aa" totalcount="20" value="TVYCGFDPTESLHLGNLLGIIVLTWFQRCQPVALLGGAGRVNVQGIRRILESLPQILNNLDTYQLLQGYDFVMQIGGSDQMGNIITGLDLIRRMCFGLTFKMG"/>
+                    <sequence id="seq_tyr_euk_md_incut14A-aa" taxon="tyr_euk_md_incut14A-aa" totalcount="20" value="RCYDGFEPSGRMHIAQILKSINVNRMTKATFIFWVADWAMLVGQYMIEIWKATVEFLWSSDLYPCMQCADIFICQLGMDQRKVNMLAIEYCDKVPIIVSHKMS"/>
+                    <sequence id="seq_tyr_euk_md_incut16A-aa" taxon="tyr_euk_md_incut16A-aa" totalcount="20" value="KAYLGFDATKSLHVGSLLQIMILRHLQQCKPIVLLGGGTKVNVNGIKTVFEKFALLVNNDENYMILQAYDFLLQLGGSDQWGNMVNGVELTRRAVFAMTAKMG"/>
+                    <sequence id="seq_tyr_euk_md_incut6A-aa" taxon="tyr_euk_md_incut6A-aa" totalcount="20" value="ICYDGFEPSGRIHIAQVMKAINVNKLTKAKFIFLVADWALMVGKYMIEVWKSIVEFVWSSEFYPCMQCADIFICQLGMDQRKVNMLAREYSELKPIILSHKMA"/>
+                    <sequence id="seq_tyr_euk_md_incut8A-aa" taxon="tyr_euk_md_incut8A-aa" totalcount="20" value="TVYCGFDPTRTLHIGNLLAIMGLVHCVRANVIALVGGAARINIAGITEVLHRIVKVVNNAETYQVLQGHDFLVQLGGSDQWGNITAGIDLVRRVVYGVTMKFG"/>
+                    <sequence id="seq_tyr_euk_md_labra1A-aa" taxon="tyr_euk_md_labra1A-aa" totalcount="20" value="KCYWGSATTGRPHIGYYVPLTKIADFLTAEVTILLADVAFLRTKYYEFLLRTVLKFVVGSSLYPGLQALDEQFQFGGVDQRKIFTYAKEYLPKLRAHLMNKMS"/>
+                    <sequence id="seq_tyr_euk_md_minis9A-aa" taxon="tyr_euk_md_minis9A-aa" totalcount="20" value="SIYLGVDPTKGLHIGHLMACRILKRFHDAKCIALVGGAALINVKEIQNDLKRVLLFVNNYDAYQCLQANDFLCQIGGSDQWGNITSGIDFVKRKVHGITVKFG"/>
+                    <sequence id="seq_tyr_euk_md_ndcut15A-aa" taxon="tyr_euk_md_ndcut15A-aa" totalcount="20" value="TCYDGFEPSGRIHIAQIAKAINVNRLLRSDCVFYVADWALLLGRYFVEVWKACVRFVWASELYPSMQCADIFLVEMGLDQRKVNALARDYCDKSPVILMHKMS"/>
+                    <sequence id="seq_tyr_euk_md_phora7A-aa" taxon="tyr_euk_md_phora7A-aa" totalcount="20" value="RVKLGIDPTGDIHLGHSILFRKLRAFQDAIAVLIIGDFARINAQTYLQQLGKDLEVYQNSTLYPLLQGYDSVVELGGTDQRFNVAIGRDLQRYYQFCLLLKMS"/>
+                    <sequence id="seq_tyr_euk_md_piens2A-aa" taxon="tyr_euk_md_piens2A-aa" totalcount="20" value="KIYWGTATTGKPHVAYFVPMSKIADFLKAEVTILFADLAYLRVSYYENVIKAMLKFIKGTDLYPGLQALDEEAQFGGIDQRKIFTFAEKYLPALRVHLMNKMS"/>
+                    <sequence id="seq_tyr_euk_md_ranae5A-aa" taxon="tyr_euk_md_ranae5A-aa" totalcount="20" value="SIGWRVVVGDNLHLGHVSSLLKIIMVKDVAVRILIDDLYSLNREAIKKIIIKIVSFFLSSDLQPVLKTLDFLIIVHCNDKVSLVEKSKQFINLDIKYINNKNN"/>
+                    <sequence id="seq_tyr_euk_md_rzaki11A-aa" taxon="tyr_euk_md_rzaki11A-aa" totalcount="20" value="VLYWGTATTGRPHIGYFVPMTKIADFLKAQVTILFADLAYLRTEYYEAVIKALLKFVRGTSLYPGLQALDEEAQFGGVDQRKIFTFAEKYMPALRIHLMNKMS"/>
+                    <sequence id="seq_tyr_euk_md_stica4A-aa" taxon="tyr_euk_md_stica4A-aa" totalcount="20" value="KIYWGTATTGKPHVAYFVPMSKIADFLKAEVTILFADLAYLRTKYYEAVIKAMLKFVKGTDLYPGLQALDEEAQFGGVDQRKIFTFSEKYLPQLRIHFMNKMS"/>
+                    <sequence id="seq_val_euk_md_antum15A-aa" taxon="val_euk_md_antum15A-aa" totalcount="20" value="VIIAPPNVTGYLHLGHALTGAVQDTLIRFLYLPGTDHAGKNHAGMITEQFRRIDRERFTMDDTWFSSGLWPFLMETGHDILFFVARMVMLSLHFYEVFLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut11A-aa" taxon="val_euk_md_incut11A-aa" totalcount="20" value="TILLPPNVTGSLHIGHALTASIQDSLCRYLWVPGVDHAGEEYGNRIDNQMKAMDRKVFTMDDTWFSSGLYPLVMETGSDILFFVARMVMLCTYLFEIYLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut12A-aa" taxon="val_euk_md_incut12A-aa" totalcount="20" value="VMCMPPNITGSLHIGHSMMIAIQDAICRYLYLPGTDHAGENYGSRILDQFKRLDRQKFTMDDTWFSSGLWPFLLETGKDILFFVGRMVMMSLELFKVLLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut14A-aa" taxon="val_euk_md_incut14A-aa" totalcount="20" value="VMVIPPNVTGSLHLGHALTNAIEDAITRYLWVPGCDHAGREKGVRIYDQLKCLDRVAFTMDDTWFSSGLFPFLLETGHDILFFVARMVFFGQKLFEVYLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut17A-aa" taxon="val_euk_md_incut17A-aa" totalcount="20" value="TLLIPPNVTGSLHIGHALTNSIQDALVRWLYLPGLDHAGEQFGGRILSQLRILDRSVFTLDDTWFSSGLFPFVLETGNDIIFFVARMVMLSLELFEVYLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut18A-aa" taxon="val_euk_md_incut18A-aa" totalcount="20" value="VIVLPPNVTGPLHIGHALTAAIQDTIIRWLWVPGTDHAGNLYRDAILRQLRCLDRECYTMDDTWFSSGIFPLVLETGPDILFLVARMVMLGMKLFKVYLHEMS"/>
+                    <sequence id="seq_val_euk_md_incut19A-aa" taxon="val_euk_md_incut19A-aa" totalcount="20" value="MMCIPPNVTGSLHLGHALTNAIQDCLTRWLWNPGCDHAGNEKGDRIYHQLKKLDRACFTMDDTWFSSGIFPFLLETGHDILFFVARMVMMGLKLFEVYLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut2A-aa" taxon="val_euk_md_incut2A-aa" totalcount="20" value="VIVIPPNVTGSLHLGHALTNSIQDAVVRYLWVPGTDHAGGEYGARIQGQLKKMDREVFTMDDTWFSSGLFPFLLETGSDILFFVARMVMMGQQLFQVFLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut5A-aa" taxon="val_euk_md_incut5A-aa" totalcount="20" value="MICIPPNVTGALHIGHALTNAVQDTLVRWLWNPGTDHAGEQYGDRICTQLRRLDRNVFTMDDTWFSSALFPFLLETGADILFFVARMVFFSLALFDVYLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut6A-aa" taxon="val_euk_md_incut6A-aa" totalcount="20" value="VMCLPPNVTGTLHLGHAITNTIQDALVRWLWLPGCDHAGERKGETIYDQLKKLDRACFTLDDTWFSSGLFPFLMETGSDILFFVARMVMLGMKLFKVLLHKMS"/>
+                    <sequence id="seq_val_euk_md_incut7A-aa" taxon="val_euk_md_incut7A-aa" totalcount="20" value="TMVLPPNVTGHLHLGHALTVAIEDAAVRFNWIPGMDHAGQEHRNHIRGQLQSLNQEFYTLDDTWFSSGLVPFLMETGKDILFFVCRMSWLYESLFAIALHKMS"/>
+                    <sequence id="seq_val_euk_md_incut9A-aa" taxon="val_euk_md_incut9A-aa" totalcount="20" value="TLVIPPNVTGSLHMGHALTNSIEDTLTRWLWNPGCDHAGEEKGGFIYKQIKYLDREAFTMSDTWFSSGIFPILLETGYDILFFVARMVMMCTYLFDVYLHKMS"/>
+                    <sequence id="seq_val_euk_md_oidea3A-aa" taxon="val_euk_md_oidea3A-aa" totalcount="20" value="VIVIPPNVTGSLHLGHALMVAVEDTLTRWLWVPGTDHAGDTYGGKILAQLRRMDRLAFTMDDTWFSSGLFPFLLETGHDILFFVARMVMMGMKLFQIYLHKMS"/>
+                    <sequence id="seq_val_euk_md_phora10A-aa" taxon="val_euk_md_phora10A-aa" totalcount="20" value="SVVIPPNVTGSLHMGHAFNSALIDTIVRFLCLPGTDHASVQSGGIIVNQMRRLDRERFTLDDTWFSSGLWPFTLVTGFDIIFFVARMTMMASSFFEVYIHKMS"/>
+                    <sequence id="seq_val_euk_md_wa_ii4A-aa" taxon="val_euk_md_wa_ii4A-aa" totalcount="20" value="VIALPPNVTGRLHLGHTLTAAIQDSLCRYLWIPGTDHAGEKHGSAICSQFRRLDREFFTLDDTWFSSGLIPFLLETGSDILFFVARMVMLSFACFTIYLHKMS"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="100000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:Euk_READY" name="stateNode">
+            <taxonset id="TaxonSet.Euk_READY" spec="TaxonSet">
+                <alignment idref="Euk_READY"/>
+            </taxonset>
+        </tree>
+        <parameter id="ucldStdev.c:Euk_READY" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:Euk_READY" spec="parameter.IntegerParameter" dimension="640">1</stateNode>
+        <parameter id="birthRate2.t:Euk_READY" lower="0.0" name="stateNode" upper="10000.0">1.0</parameter>
+        <parameter id="relativeDeathRate2.t:Euk_READY" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+    </state>
+
+    <init id="RandomTree.t:Euk_READY" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Euk_READY" taxa="@Euk_READY">
+        <populationModel id="ConstantPopulation0.t:Euk_READY" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Euk_READY" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BirthDeath.t:Euk_READY" spec="beast.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@birthRate2.t:Euk_READY" relativeDeathRate="@relativeDeathRate2.t:Euk_READY" tree="@Tree.t:Euk_READY"/>
+            <prior id="BirthRatePrior.t:Euk_READY" name="distribution" x="@birthRate2.t:Euk_READY">
+                <Uniform id="Uniform.4" name="distr" upper="1000.0"/>
+            </prior>
+            <prior id="DeathRatePrior.t:Euk_READY" name="distribution" x="@relativeDeathRate2.t:Euk_READY">
+                <Uniform id="Uniform.5" name="distr"/>
+            </prior>
+            <prior id="ucldStdevPrior.c:Euk_READY" name="distribution" x="@ucldStdev.c:Euk_READY">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.Euk_READY" spec="ThreadedTreeLikelihood" data="@Euk_READY" tree="@Tree.t:Euk_READY">
+                <siteModel id="SiteModel.s:Euk_READY" spec="SiteModel" gammaCategoryCount="4">
+                    <parameter id="mutationRate.s:Euk_READY" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:Euk_READY" estimate="false" name="shape">1.0</parameter>
+                    <parameter id="proportionInvariant.s:Euk_READY" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:Euk_READY" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:Euk_READY" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:Euk_READY" tree="@Tree.t:Euk_READY">
+                    <LogNormal id="LogNormalDistributionModel.c:Euk_READY" S="@ucldStdev.c:Euk_READY" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.1" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:Euk_READY" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="ucldStdevScaler.c:Euk_READY" spec="ScaleOperator" parameter="@ucldStdev.c:Euk_READY" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:Euk_READY" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Euk_READY" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:Euk_READY" spec="SwapOperator" intparameter="@rateCategories.c:Euk_READY" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:Euk_READY" spec="UniformOperator" parameter="@rateCategories.c:Euk_READY" weight="10.0"/>
+
+    <operator id="BirthDeathTreeScaler.t:Euk_READY" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:Euk_READY" weight="3.0"/>
+
+    <operator id="BirthDeathTreeRootScaler.t:Euk_READY" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Euk_READY" weight="3.0"/>
+
+    <operator id="BirthDeathUniformOperator.t:Euk_READY" spec="Uniform" tree="@Tree.t:Euk_READY" weight="30.0"/>
+
+    <operator id="BirthDeathSubtreeSlide.t:Euk_READY" spec="SubtreeSlide" tree="@Tree.t:Euk_READY" weight="15.0"/>
+
+    <operator id="BirthDeathNarrow.t:Euk_READY" spec="Exchange" tree="@Tree.t:Euk_READY" weight="15.0"/>
+
+    <operator id="BirthDeathWide.t:Euk_READY" spec="Exchange" isNarrow="false" tree="@Tree.t:Euk_READY" weight="3.0"/>
+
+    <operator id="BirthDeathWilsonBalding.t:Euk_READY" spec="WilsonBalding" tree="@Tree.t:Euk_READY" weight="3.0"/>
+
+    <operator id="BirthRateScaler.t:Euk_READY" spec="ScaleOperator" parameter="@birthRate2.t:Euk_READY" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="DeathRateScaler.t:Euk_READY" spec="ScaleOperator" parameter="@relativeDeathRate2.t:Euk_READY" scaleFactor="0.75" weight="3.0"/>
+
+    <logger id="tracelog" fileName="Euk_READY.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.Euk_READY"/>
+        <log id="TreeHeight.t:Euk_READY" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Euk_READY"/>
+        <log idref="ucldStdev.c:Euk_READY"/>
+        <log id="rate.c:Euk_READY" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Euk_READY" tree="@Tree.t:Euk_READY"/>
+        <log idref="BirthDeath.t:Euk_READY"/>
+        <log idref="birthRate2.t:Euk_READY"/>
+        <log idref="relativeDeathRate2.t:Euk_READY"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:Euk_READY" fileName="Euk_READY.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Euk_READY" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:Euk_READY" tree="@Tree.t:Euk_READY"/>
+    </logger>
+
+</run>
+
+</beast>
