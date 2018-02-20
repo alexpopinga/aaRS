@@ -581,13 +581,13 @@
             </distribution>
             <distribution id="Q.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
                 <taxonset id="Q" spec="TaxonSet">
-                    <taxon id="gln_1qtq_e__coli1A_aa"/>
+                    <!--<taxon id="gln_1qtq_e__coli1A_aa"/>
                     <taxon id="gln_2hz7_d_radio2A_aa"/>
                     <taxon id="gln_bact_m_ensis12A_aa"/>
                     <taxon id="gln_bact_m_ensis5A_aa"/>
                     <taxon id="gln_bact_m_gatus14A_aa"/>
                     <taxon id="gln_bact_m_hilus15A_aa"/>
-                    <taxon id="gln_bact_m_incut3A_aa"/>
+                    <taxon id="gln_bact_m_incut3A_aa"/>-->
                     <taxon id="gln_euk_md_antum12A-aa"/>
                     <taxon id="gln_euk_md_gigas3A-aa"/>
                     <taxon id="gln_euk_md_incut2A-aa"/>
