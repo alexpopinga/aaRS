@@ -2,7 +2,7 @@
 
 
 <data id="AARS_Bact" name="alignment">
-	<userDataType spec='beast.evolution.datatype.NineTeenState' symbolOrder='VGADPESLRTINCYHMWKF'/>
+	<userDataType spec='beast.evolution.datatype.TwentyState' symbolOrder='VGADPESLRTIQNCYHMWKF'/>
                     <sequence id="seq_ala_1yfsa__licus19A-aa" taxon="ala_1yfsa__licus19A-aa" totalcount="20" value="SAHEIRELFLSFFEKKGHTRVKAPLVVNAGMVPFKKRATSCQKCLRVTFFEMLGNFSFKKEAIEYAWEFVTSSEIYVEIWNLVFMHPNIDTGMGLERIAS"/>
                     <sequence id="seq_ala_3hxv_e__coli2A-aa" taxon="ala_3hxv_e__coli2A-aa" totalcount="20" value="STAEIRQAFLDFFHSKGHQVVASSLVTNAGMNQFKSRATTSQRCVRATFFEMLGNFSFKLDAILFAWLLLTCTEIFYEIWNIVFMKPSVDTGMGLERIAA"/>
                     <sequence id="seq_ala_bact_m_ans_111A-aa" taxon="ala_bact_m_ans_111A-aa" totalcount="20" value="TTAEIRERYLYFFETKGHLRLPHSTITVAGMQPFKKRVTTAQKCVRVSLFEMMGNFSFKRDAIHWAWEFLTCSEIYYEVWNLVFPFKNIDTGMGLERVAS"/>
