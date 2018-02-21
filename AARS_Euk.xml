@@ -900,7 +900,7 @@
 		<log idref='ucldStdev.c:AARS_Euk'/>
     </logger>
 
-    <logger id="screenlog" logEvery="1000">
+    <logger id="screenlog" logEvery="10000">
         <log idref="posterior"/>
         <log arg="@posterior" id="ESS.0" spec="util.ESS"/>
         <log idref="likelihood"/>
