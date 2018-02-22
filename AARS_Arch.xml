@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" version="2.0">
 
 
-<data id="AARS_Arch_edited" name="alignment">
+<data id="AARS_Arch" name="alignment">
 	<userDataType spec='beast.evolution.datatype.NineTeenState' symbolOrder='VGADPESLRTINCYHMWKF'/>
                     <sequence id="seq_ala_arch_m_aneyi12A_aa" taxon="ala_arch_m_aneyi12A_aa" totalcount="20" value="SVAEARRKFIRFFERGHEFIERPVVAYLTIASIVVFENPLVIVEPSIRLTSFEMGGHHAFKEETVRLAFEFFTSFEVTVELATLVFMLRVVDTGYGERLA"/>
                     <sequence id="seq_ala_arch_m_anium17A_aa" taxon="ala_arch_m_anium17A_aa" totalcount="20" value="TLSEMRKAFFDFFEKGHKLLEYPVVPLLVNASIYDFENPIVMSEPSIRMTSFEMLCHDAFKEETVRYSYEFLTALEVFVEVATLVFMMEIVDTGYGERLT"/>
@@ -320,25 +320,25 @@
 <map name="taxon">beast.evolution.alignment.Taxon</map>
 <map name="taxonset">beast.evolution.alignment.TaxonSet</map>
 
-<taxonset id='allTaxa' alignment='@AARS_Arch_edited'/>
+<taxonset id='allTaxa' alignment='@AARS_Arch'/>
 
 
 <run chainLength="10000000" id="mcmc" spec="MCMC">
     <state id="state" storeEvery="5000">
-        <tree id="Tree.t:AARS_Arch_edited" name="stateNode">
-            <taxonset id="TaxonSet.AARS_Arch_edited" spec="TaxonSet">
-                <data idref="AARS_Arch_edited" name="alignment"/>
+        <tree id="Tree.t:AARS_Arch" name="stateNode">
+            <taxonset id="TaxonSet.AARS_Arch" spec="TaxonSet">
+                <data idref="AARS_Arch" name="alignment"/>
             </taxonset>
         </tree>
-        <parameter id="birthRate.t:AARS_Arch_edited" name="stateNode" value="1.0"/>
-		<stateNode idref='ucldStdev.c:AARS_Arch_edited'/>
-		<stateNode idref='rateCategories.c:AARS_Arch_edited'/>
+        <parameter id="birthRate.t:AARS_Arch" name="stateNode" value="1.0"/>
+		<stateNode idref='ucldStdev.c:AARS_Arch'/>
+		<stateNode idref='rateCategories.c:AARS_Arch'/>
     </state>
 
     <distribution id="posterior" spec="util.CompoundDistribution">
         <distribution id="prior" spec="util.CompoundDistribution">
 
-            <distribution id="V.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="V.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="V" spec="TaxonSet">
 		            <taxon id="val_arch_m_aneyi12A_aa"/>
                     <taxon id="val_arch_m_anium18A_aa"/>
@@ -359,7 +359,7 @@
                     <taxon id="val_arch_m_ultum14A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="G" spec="TaxonSet">
 		            <taxon id="gly_arch_m_anium1A_aa"/>
                     <taxon id="gly_arch_m_hilum20A_aa"/>
@@ -381,7 +381,7 @@
                     <taxon id="gly_arch_m_opcut9A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="A.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="A.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="A" spec="TaxonSet">
                     <taxon id="ala_arch_m_aneyi12A_aa"/>
                     <taxon id="ala_arch_m_anium17A_aa"/>
@@ -396,7 +396,7 @@
                     <taxon id="ala_arch_m_ultum13A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="D.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="D.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="D" spec="TaxonSet">
 		            <taxon id="asp_1wydb__odaii1B_aa"/>
                     <taxon id="asp_arch_m_aneyi13A_aa"/>
@@ -419,7 +419,7 @@
                     <taxon id="asp_d1b8aa_ensis2A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="P.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="P.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="P" spec="TaxonSet">
 		            <taxon id="pro_arch_m_aneyi7A_aa"/>
                     <taxon id="pro_arch_m_anium13A_aa"/>
@@ -439,7 +439,7 @@
                     <taxon id="pro_d1nj8a_janas1A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="E.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="E.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="E" spec="TaxonSet">
 		            <taxon id="glu_arch_m_incut10A_aa"/>
                     <taxon id="glu_arch_m_incut11A_aa"/>
@@ -457,7 +457,7 @@
                     <taxon id="glu_arch_m_rinus3A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="S" spec="TaxonSet">
                     <taxon id="ser_arch_m_aneyi15A_aa"/>
                     <taxon id="ser_arch_m_anium3A_aa"/>
@@ -479,7 +479,7 @@
                     <taxon id="ser_arch_m_um_sp6A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="L" spec="TaxonSet">
 		            <taxon id="leu_1wz2_p__hori1A_aa"/>
                     <taxon id="leu_arch_m_aneyi13A_aa"/>
@@ -500,7 +500,7 @@
                     <taxon id="leu_euk_md_labra20A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="R.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="R.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="R" spec="TaxonSet">
 		            <taxon id="arg_2zue_p__hori18A_aa"/>
                     <taxon id="arg_arch_m_aneyi2A_aa"/>
@@ -521,7 +521,7 @@
                     <taxon id="arg_arch_m_um_sp9A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="T" spec="TaxonSet">
 		            <taxon id="thr_3a32_a_ernix20A_aa"/>
                     <taxon id="thr_arch_m_acter18A_aa"/>
@@ -544,7 +544,7 @@
                     <taxon id="thr_arch_m_um_sp13A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="I.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="I.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="I" spec="TaxonSet">
 		            <taxon id="ile_arch_m_aneyi3A_aa"/>
                     <taxon id="ile_arch_m_anium10A_aa"/>
@@ -565,7 +565,7 @@
                     <taxon id="ile_arch_m_um_sp11A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="N.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="N.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="N" spec="TaxonSet">
 		            <taxon id="asn_1x54a__oshii1A_aa"/>
                     <taxon id="asn_arch_m_anium9A_aa"/>
@@ -576,7 +576,7 @@
                     <taxon id="asn_arch_m_rinus7A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="C.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="C.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="C" spec="TaxonSet">
 		            <taxon id="cys_arch_m_incut10A_aa"/>
                     <taxon id="cys_arch_m_incut11A_aa"/>
@@ -591,7 +591,7 @@
                     <taxon id="cys_arch_m_incut9A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="Y.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="Y.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="Y" spec="TaxonSet">
 		            <taxon id="tyr_2cyb_a__fulg20A_aa"/>
                     <taxon id="tyr_2cya_a_ernix17A_aa"/>
@@ -613,7 +613,7 @@
                     <taxon id="tyr_arch_m_um_sp10A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="H.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="H.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="H" spec="TaxonSet">
 		            <taxon id="his_arch_m_aneyi12A_aa"/>
                     <taxon id="his_arch_m_anium17A_aa"/>
@@ -633,7 +633,7 @@
                     <taxon id="his_arch_m_ultum14A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="M.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="M.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="M" spec="TaxonSet">
 		            <taxon id="met_1rqg_p_byssi1A_aa"/>
                     <taxon id="met_arch_m_alpha3A_aa"/>
@@ -656,7 +656,7 @@
                     <taxon id="met_arch_m_ultum6A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="W.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="W.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="W" spec="TaxonSet">
 		            <taxon id="trp_arch_m_aneyi12A_aa"/>
                     <taxon id="trp_arch_m_arius15A_aa"/>
@@ -676,7 +676,7 @@
                     <taxon id="trp_arch_m_um_sp3A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="K" spec="TaxonSet">
 		            <taxon id="lys_arch_m_aneyi11A_aa"/>
                     <taxon id="lys_arch_m_anium18A_aa"/>
@@ -694,7 +694,7 @@
                     <taxon id="lysi_1irx___hori1A_aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="F.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch_edited">
+            <distribution id="F.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Arch">
                 <taxonset id="F" spec="TaxonSet">
 		            <taxon id="phe_arch_m_incut10A_aa"/>
                     <taxon id="phe_arch_m_incut11A_aa"/>
@@ -758,22 +758,22 @@ lys_arch_m_ultum13A_aa=17, lysi_1irx___hori1A_aa=17, phe_arch_m_incut10A_aa=18, 
 phe_arch_m_incut16A_aa=18, phe_arch_m_incut17A_aa=18, phe_arch_m_incut2A_aa=18, phe_arch_m_incut3A_aa=18, phe_arch_m_incut4A_aa=18, phe_arch_m_incut5A_aa=18, phe_arch_m_incut6A_aa=18, phe_arch_m_incut7A_aa=18, 
 phe_arch_m_incut8A_aa=19, phe_arch_m_incut9A_aa=19
                                 </trait>
-                    <treeIntervals id='treeIntervals' spec='beast.evolution.tree.coalescent.TreeIntervals' tree='@Tree.t:AARS_Arch_edited'/>
+                    <treeIntervals id='treeIntervals' spec='beast.evolution.tree.coalescent.TreeIntervals' tree='@Tree.t:AARS_Arch'/>
             </distribution>
 
-            <distribution birthDiffRate="@birthRate.t:AARS_Arch_edited" id="YuleModel.t:AARS_Arch_edited" spec="beast.evolution.speciation.YuleModel" tree="@Tree.t:AARS_Arch_edited"/>
-            <prior id="YuleBirthRatePrior.t:AARS_Arch_edited" name="distribution" x="@birthRate.t:AARS_Arch_edited">
+            <distribution birthDiffRate="@birthRate.t:AARS_Arch" id="YuleModel.t:AARS_Arch" spec="beast.evolution.speciation.YuleModel" tree="@Tree.t:AARS_Arch"/>
+            <prior id="YuleBirthRatePrior.t:AARS_Arch" name="distribution" x="@birthRate.t:AARS_Arch">
                 <Uniform id="Uniform.0" name="distr" upper="Infinity"/>
             </prior>
         </distribution>
         <distribution id="likelihood" spec="util.CompoundDistribution">
-            <distribution data="@AARS_Arch_edited" id="treeLikelihood.AARS_Arch_edited" spec="ThreadedTreeLikelihood" tree="@Tree.t:AARS_Arch_edited">
-                <siteModel id="SiteModel.s:AARS_Arch_edited" spec="SiteModel">
-                    <parameter estimate="false" id="mutationRate.s:AARS_Arch_edited" name="mutationRate" value="1.0"/>
-                    <parameter estimate="false" id="gammaShape.s:AARS_Arch_edited" name="shape" value="1.0"/>
-                    <parameter estimate="false" id="proportionInvariant.s:AARS_Arch_edited" lower="0.0" name="proportionInvariant" upper="1.0" value="0.0"/>
+            <distribution data="@AARS_Arch" id="treeLikelihood.AARS_Arch" spec="ThreadedTreeLikelihood" tree="@Tree.t:AARS_Arch">
+                <siteModel id="SiteModel.s:AARS_Arch" spec="SiteModel">
+                    <parameter estimate="false" id="mutationRate.s:AARS_Arch" name="mutationRate" value="1.0"/>
+                    <parameter estimate="false" id="gammaShape.s:AARS_Arch" name="shape" value="1.0"/>
+                    <parameter estimate="false" id="proportionInvariant.s:AARS_Arch" lower="0.0" name="proportionInvariant" upper="1.0" value="0.0"/>
 
-                    <substModel id="substmodel" spec="TriStateAARSSubstitutionModel" tree="@Tree.t:AARS_Arch_edited">
+                    <substModel id="substmodel" spec="TriStateAARSSubstitutionModel" tree="@Tree.t:AARS_Arch">
                         <trait idref="TraitSet1"/>
 						<defaultModel spec='GeneralSubstitutionModel' rates='
 	0.18727491	2.0069284065	0.1526315789	0.3144104803	0.8910925915	0.2330935252	1.8004640371	0.2522727273	1.3885245902	7.8164948454		0.1969309463	1	0.3144475921	0.118852459	2.0564102564	0.3680555556	0.3048387097	0.6510416667
@@ -805,40 +805,40 @@ phe_arch_m_incut8A_aa=19, phe_arch_m_incut9A_aa=19
                         </frequencies>
                     </substModel>
                 </siteModel>
-				<branchRateModel spec='beast.evolution.branchratemodel.UCRelaxedClockModel' id="RelaxedClock.c:AARS_Arch_edited" tree='@Tree.t:AARS_Arch_edited'>
-					<parameter name='clock.rate' id='ucldMean.c:AARS_Arch_edited' value='1.0'/>
-				    <distr id='LogNormalDistributionModel.c:AARS_Arch_edited' name='distr' spec="beast.math.distributions.LogNormalDistributionModel" meanInRealSpace='true'>
+				<branchRateModel spec='beast.evolution.branchratemodel.UCRelaxedClockModel' id="RelaxedClock.c:AARS_Arch" tree='@Tree.t:AARS_Arch'>
+					<parameter name='clock.rate' id='ucldMean.c:AARS_Arch' value='1.0'/>
+				    <distr id='LogNormalDistributionModel.c:AARS_Arch' name='distr' spec="beast.math.distributions.LogNormalDistributionModel" meanInRealSpace='true'>
 				        <parameter name='M' value="1.0" estimate='false' lower='0' upper='1'/>
-				        <parameter name='S' id='ucldStdev.c:AARS_Arch_edited' value="0.5" lower="0" upper="1" estimate='true'/>
+				        <parameter name='S' id='ucldStdev.c:AARS_Arch' value="0.5" lower="0" upper="1" estimate='true'/>
 				    </distr>
-				    <rateCategories spec='parameter.IntegerParameter' id='rateCategories.c:AARS_Arch_edited' value="1" dimension='10' estimate='true'/>
+				    <rateCategories spec='parameter.IntegerParameter' id='rateCategories.c:AARS_Arch' value="1" dimension='10' estimate='true'/>
 				</branchRateModel>
             </distribution>
         </distribution>
     </distribution>
 
-    <operator id='ucldStdevScaler.c:AARS_Arch_edited' spec='ScaleOperator' scaleAll='false' scaleFactor="0.5" weight="3" parameter="@ucldStdev.c:AARS_Arch_edited"/>
-    <operator id="CategoriesRandomWalk.c:AARS_Arch_edited" spec="IntRandomWalkOperator" windowSize='1' weight="10" parameter="@rateCategories.c:AARS_Arch_edited"/>
-	<operator id='CategoriesSwapOperator.c:AARS_Arch_edited' spec='SwapOperator' howMany="1" weight="10" intparameter='@rateCategories.c:AARS_Arch_edited'/>
-	<operator id='CategoriesUniform.c:AARS_Arch_edited' spec='UniformOperator' weight="10" parameter='@rateCategories.c:AARS_Arch_edited'/>
+    <operator id='ucldStdevScaler.c:AARS_Arch' spec='ScaleOperator' scaleAll='false' scaleFactor="0.5" weight="3" parameter="@ucldStdev.c:AARS_Arch"/>
+    <operator id="CategoriesRandomWalk.c:AARS_Arch" spec="IntRandomWalkOperator" windowSize='1' weight="10" parameter="@rateCategories.c:AARS_Arch"/>
+	<operator id='CategoriesSwapOperator.c:AARS_Arch' spec='SwapOperator' howMany="1" weight="10" intparameter='@rateCategories.c:AARS_Arch'/>
+	<operator id='CategoriesUniform.c:AARS_Arch' spec='UniformOperator' weight="10" parameter='@rateCategories.c:AARS_Arch'/>
 
-    <operator id="YuleBirthRateScaler.t:AARS_Arch_edited" parameter="@birthRate.t:AARS_Arch_edited" scaleFactor="0.75" spec="ScaleOperator" weight="3.0"/>
+    <operator id="YuleBirthRateScaler.t:AARS_Arch" parameter="@birthRate.t:AARS_Arch" scaleFactor="0.75" spec="ScaleOperator" weight="3.0"/>
 
-    <operator id="treeScaler.t:AARS_Arch_edited" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS_Arch_edited" weight="3.0"/>
+    <operator id="treeScaler.t:AARS_Arch" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS_Arch" weight="3.0"/>
 
-    <operator id="treeRootScaler.t:AARS_Arch_edited" rootOnly="true" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS_Arch_edited" weight="3.0"/>
+    <operator id="treeRootScaler.t:AARS_Arch" rootOnly="true" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS_Arch" weight="3.0"/>
 
-    <operator id="UniformOperator.t:AARS_Arch_edited" spec="Uniform" tree="@Tree.t:AARS_Arch_edited" weight="30.0"/>
+    <operator id="UniformOperator.t:AARS_Arch" spec="Uniform" tree="@Tree.t:AARS_Arch" weight="30.0"/>
 
-    <operator id="SubtreeSlide.t:AARS_Arch_edited" spec="SubtreeSlide" tree="@Tree.t:AARS_Arch_edited" weight="15.0"/>
+    <operator id="SubtreeSlide.t:AARS_Arch" spec="SubtreeSlide" tree="@Tree.t:AARS_Arch" weight="15.0"/>
 
-    <operator id="narrow.t:AARS_Arch_edited" spec="Exchange" tree="@Tree.t:AARS_Arch_edited" weight="15.0"/>
+    <operator id="narrow.t:AARS_Arch" spec="Exchange" tree="@Tree.t:AARS_Arch" weight="15.0"/>
 
-    <operator id="wide.t:AARS_Arch_edited" isNarrow="false" spec="Exchange" tree="@Tree.t:AARS_Arch_edited" weight="3.0"/>
+    <operator id="wide.t:AARS_Arch" isNarrow="false" spec="Exchange" tree="@Tree.t:AARS_Arch" weight="3.0"/>
 
-    <operator id="WilsonBalding.t:AARS_Arch_edited" spec="WilsonBalding" tree="@Tree.t:AARS_Arch_edited" weight="3.0"/>
+    <operator id="WilsonBalding.t:AARS_Arch" spec="WilsonBalding" tree="@Tree.t:AARS_Arch" weight="3.0"/>
 
-    <operator id='RestrictedSubtreeSlide' spec='RestrictedSubtreeSlide' weight='60' tree='@Tree.t:AARS_Arch_edited'>
+    <operator id='RestrictedSubtreeSlide' spec='RestrictedSubtreeSlide' weight='60' tree='@Tree.t:AARS_Arch'>
 		<clade idref='V'/>
 		<clade idref='G'/>
 		<clade idref='A'/>
@@ -865,12 +865,12 @@ phe_arch_m_incut8A_aa=19, phe_arch_m_incut9A_aa=19
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
-        <log idref="treeLikelihood.AARS_Arch_edited"/>
-        <log id="TreeHeight.t:AARS_Arch_edited" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:AARS_Arch_edited"/>
-        <log idref="YuleModel.t:AARS_Arch_edited"/>
-        <parameter idref="birthRate.t:AARS_Arch_edited" name="log"/>
-		<log id='rate.c:AARS_Arch_edited' spec='beast.evolution.branchratemodel.RateStatistic' tree='@Tree.t:AARS_Arch_edited' branchratemodel='@RelaxedClock.c:AARS_Arch_edited'/>
-		<log idref='ucldStdev.c:AARS_Arch_edited'/>
+        <log idref="treeLikelihood.AARS_Arch"/>
+        <log id="TreeHeight.t:AARS_Arch" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:AARS_Arch"/>
+        <log idref="YuleModel.t:AARS_Arch"/>
+        <parameter idref="birthRate.t:AARS_Arch" name="log"/>
+		<log id='rate.c:AARS_Arch' spec='beast.evolution.branchratemodel.RateStatistic' tree='@Tree.t:AARS_Arch' branchratemodel='@RelaxedClock.c:AARS_Arch'/>
+		<log idref='ucldStdev.c:AARS_Arch'/>
     </logger>
 
     <logger id="screenlog" logEvery="1000">
@@ -880,11 +880,11 @@ phe_arch_m_incut8A_aa=19, phe_arch_m_incut9A_aa=19
         <log idref="prior"/>
     </logger>
 
-    <logger fileName="AARS_Arch.trees" id="treelog.t:AARS_Arch_edited" logEvery="10000" mode="tree">
-        <log id="TreeWithMetaDataLogger.t:AARS_Arch_edited" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS_Arch_edited"/>
+    <logger fileName="AARS_Arch.trees" id="treelog.t:AARS_Arch" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:AARS_Arch" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS_Arch"/>
     </logger>
     
-    <init estimate="false" id="TreeParser.t:AARS_Arch_edited" initial="@Tree.t:AARS_Arch_edited" spec="beast.util.TreeParser" taxa="@AARS_Arch_edited"
+    <init estimate="false" id="TreeParser.t:AARS_Arch" initial="@Tree.t:AARS_Arch" spec="beast.util.TreeParser" taxa="@AARS_Arch"
 		IsLabelledNewick="true"
         newick='((((((val_arch_m_aneyi12A_aa:0.1, val_arch_m_anium18A_aa:0.1, val_arch_m_ankai5A_aa:0.1, val_arch_m_arius15A_aa:0.1, val_arch_m_hilum11A_aa:0.1, val_arch_m_hilum17A_aa:0.1, val_arch_m_incut13A_aa:0.1, val_arch_m_incut2A_aa:0.1, val_arch_m_incut3A_aa:0.1, val_arch_m_incut4A_aa:0.1, val_arch_m_incut6A_aa:0.1, val_arch_m_incut8A_aa:0.1, val_arch_m_incut9A_aa:0.1, val_arch_m_itans10A_aa:0.1, val_arch_m_rinus16A_aa:0.1, val_arch_m_schii7A_aa:0.1, val_arch_m_ultum14A_aa:0.1), (gly_arch_m_anium1A_aa:0.1, gly_arch_m_hilum20A_aa:0.1, gly_arch_m_itans12A_aa:0.1, gly_arch_m_opcut10A_aa:0.1, gly_arch_m_opcut11A_aa:0.1, gly_arch_m_opcut13A_aa:0.1, gly_arch_m_opcut14A_aa:0.1, gly_arch_m_opcut15A_aa:0.1, gly_arch_m_opcut16A_aa:0.1, gly_arch_m_opcut17A_aa:0.1, gly_arch_m_opcut18A_aa:0.1, gly_arch_m_opcut19A_aa:0.1, gly_arch_m_opcut4A_aa:0.1, gly_arch_m_opcut5A_aa:0.1, gly_arch_m_opcut6A_aa:0.1, gly_arch_m_opcut7A_aa:0.1, gly_arch_m_opcut8A_aa:0.1, gly_arch_m_opcut9A_aa:0.1):100):100, ((ala_arch_m_aneyi12A_aa:0.1, ala_arch_m_anium17A_aa:0.1, ala_arch_m_arius14A_aa:0.1, ala_arch_m_dleri8A_aa:0.1, ala_arch_m_gatei6A_aa:0.1, ala_arch_m_hicus9A_aa:0.1, ala_arch_m_licus5A_aa:0.1, ala_arch_m_orans4A_aa:0.1, ala_arch_m_rinus15A_aa:0.1, ala_arch_m_schii7A_aa:0.1, ala_arch_m_ultum13A_aa:0.1):100, (asp_1wydb__odaii1B_aa:0.1, asp_arch_m_aneyi13A_aa:0.1, asp_arch_m_anium19A_aa:0.1, asp_arch_m_arius16A_aa:0.1, asp_arch_m_dleri9A_aa:0.1, asp_arch_m_gatei7A_aa:0.1, asp_arch_m_gidus3A_aa:0.1, asp_arch_m_hicus10A_aa:0.1, asp_arch_m_hilum12A_aa:0.1, asp_arch_m_hilum18A_aa:0.1, asp_arch_m_itans11A_aa:0.1, asp_arch_m_licus6A_aa:0.1, asp_arch_m_orans5A_aa:0.1, asp_arch_m_oshii14A_aa:0.1, asp_arch_m_rinus15A_aa:0.1, asp_arch_m_rinus17A_aa:0.1, asp_arch_m_schii8A_aa:0.1, asp_arch_m_um_sp4A_aa:0.1, asp_d1b8aa_ensis2A_aa:0.1):100):100):100, (((pro_arch_m_aneyi7A_aa:0.1, pro_arch_m_anium13A_aa:0.1, pro_arch_m_gatei15A_aa:0.1, pro_arch_m_gidus4A_aa:0.1, pro_arch_m_hilum12A_aa:0.1, pro_arch_m_hilum18A_aa:0.1, pro_arch_m_incut10A_aa:0.1, pro_arch_m_incut9A_aa:0.1, pro_arch_m_ius_116A_aa:0.1, pro_arch_m_licus14A_aa:0.1, pro_arch_m_opcut11A_aa:0.1, pro_arch_m_oshii19A_aa:0.1, pro_arch_m_rinus20A_aa:0.1, pro_arch_m_rinus5A_aa:0.1, pro_arch_m_ultum6A_aa:0.1, pro_d1nj8a_janas1A_aa:0.1):100, (glu_arch_m_incut10A_aa:0.1, glu_arch_m_incut11A_aa:0.1, glu_arch_m_incut12A_aa:0.1, glu_arch_m_incut13A_aa:0.1, glu_arch_m_incut14A_aa:0.1, glu_arch_m_incut15A_aa:0.1, glu_arch_m_incut1A_aa:0.1, glu_arch_m_incut2A_aa:0.1, glu_arch_m_incut4A_aa:0.1, glu_arch_m_incut5A_aa:0.1, glu_arch_m_incut6A_aa:0.1, glu_arch_m_incut7A_aa:0.1, glu_arch_m_incut9A_aa:0.1, glu_arch_m_rinus3A_aa:0.1):100):100, ((ser_arch_m_aneyi15A_aa:0.1, ser_arch_m_anium3A_aa:0.1, ser_arch_m_arius19A_aa:0.1, ser_arch_m_dleri11A_aa:0.1, ser_arch_m_gatei9A_aa:0.1, ser_arch_m_gidus5A_aa:0.1, ser_arch_m_hicus12A_aa:0.1, ser_arch_m_hilum14A_aa:0.1, ser_arch_m_hilum4A_aa:0.1, ser_arch_m_licus8A_aa:0.1, ser_arch_m_opcut13A_aa:0.1, ser_arch_m_orans7A_aa:0.1, ser_arch_m_oshii16A_aa:0.1, ser_arch_m_rinus18A_aa:0.1, ser_arch_m_rinus20A_aa:0.1, ser_arch_m_schii10A_aa:0.1, ser_arch_m_ultum17A_aa:0.1, ser_arch_m_um_sp6A_aa:0.1):100, (leu_1wz2_p__hori1A_aa:0.1, leu_arch_m_aneyi13A_aa:0.1, leu_arch_m_anium18A_aa:0.1, leu_arch_m_ankai6A_aa:0.1, leu_arch_m_arius15A_aa:0.1, leu_arch_m_dleri9A_aa:0.1, leu_arch_m_gatei7A_aa:0.1, leu_arch_m_gidus3A_aa:0.1, leu_arch_m_hicus10A_aa:0.1, leu_arch_m_hilum12A_aa:0.1, leu_arch_m_hilum17A_aa:0.1, leu_arch_m_orans5A_aa:0.1, leu_arch_m_rinus16A_aa:0.1, leu_arch_m_schii8A_aa:0.1, leu_arch_m_ultum14A_aa:0.1, leu_arch_m_um_sp4A_aa:0.1, leu_euk_md_labra20A_aa:0.1):100):100):100):100, ((((arg_2zue_p__hori18A_aa:0.1, arg_arch_m_aneyi2A_aa:0.1, arg_arch_m_arius5A_aa:0.1, arg_arch_m_dleri14A_aa:0.1, arg_arch_m_gatei12A_aa:0.1, arg_arch_m_gidus1A_aa:0.1, arg_arch_m_hicus8A_aa:0.1, arg_arch_m_hilum16A_aa:0.1, arg_arch_m_hilum7A_aa:0.1, arg_arch_m_incut4A_aa:0.1, arg_arch_m_itans15A_aa:0.1, arg_arch_m_licus11A_aa:0.1, arg_arch_m_opcut6A_aa:0.1, arg_arch_m_orans10A_aa:0.1, arg_arch_m_schii13A_aa:0.1, arg_arch_m_ultum3A_aa:0.1, arg_arch_m_um_sp9A_aa:0.1):100, (thr_3a32_a_ernix20A_aa:0.1, thr_arch_m_acter18A_aa:0.1, thr_arch_m_anium8A_aa:0.1, thr_arch_m_ankai1A_aa:0.1, thr_arch_m_arius6A_aa:0.1, thr_arch_m_dleri17A_aa:0.1, thr_arch_m_gatei15A_aa:0.1, thr_arch_m_gidus12A_aa:0.1, thr_arch_m_hilum3A_aa:0.1, thr_arch_m_hilum7A_aa:0.1, thr_arch_m_incut10A_aa:0.1, thr_arch_m_incut11A_aa:0.1, thr_arch_m_incut9A_aa:0.1, thr_arch_m_itans2A_aa:0.1, thr_arch_m_orans14A_aa:0.1, thr_arch_m_oshii4A_aa:0.1, thr_arch_m_rinus5A_aa:0.1, thr_arch_m_schii16A_aa:0.1, thr_arch_m_um_sp13A_aa:0.1):100):100, ((ile_arch_m_aneyi3A_aa:0.1, ile_arch_m_anium10A_aa:0.1, ile_arch_m_arius7A_aa:0.1, ile_arch_m_dleri15A_aa:0.1, ile_arch_m_gatei13A_aa:0.1, ile_arch_m_gidus2A_aa:0.1, ile_arch_m_hicus16A_aa:0.1, ile_arch_m_hilum18A_aa:0.1, ile_arch_m_hilum9A_aa:0.1, ile_arch_m_incut17A_aa:0.1, ile_arch_m_opcut4A_aa:0.1, ile_arch_m_orans12A_aa:0.1, ile_arch_m_rinus6A_aa:0.1, ile_arch_m_rinus8A_aa:0.1, ile_arch_m_schii14A_aa:0.1, ile_arch_m_ultum5A_aa:0.1, ile_arch_m_um_sp11A_aa:0.1):100):100):100, (((asn_1x54a__oshii1A_aa:0.1, asn_arch_m_anium9A_aa:0.1, asn_arch_m_hilum5A_aa:0.1, asn_arch_m_hilum8A_aa:0.1, asn_arch_m_itans4A_aa:0.1, asn_arch_m_opcut6A_aa:0.1, asn_arch_m_rinus7A_aa:0.1):100, (cys_arch_m_incut10A_aa:0.1, cys_arch_m_incut11A_aa:0.1, cys_arch_m_incut12A_aa:0.1, cys_arch_m_incut13A_aa:0.1, cys_arch_m_incut15A_aa:0.1, cys_arch_m_incut16A_aa:0.1, cys_arch_m_incut17A_aa:0.1, cys_arch_m_incut2A_aa:0.1, cys_arch_m_incut3A_aa:0.1, cys_arch_m_incut6A_aa:0.1, cys_arch_m_incut9A_aa:0.1):100):100, ((tyr_2cyb_a__fulg20A_aa:0.1, tyr_2cya_a_ernix17A_aa:0.1, tyr_2cyc_p__hori18A_aa:0.1, tyr_2zp1_m_annas19A_aa:0.1, tyr_arch_m_aneyi2A_aa:0.1, tyr_arch_m_anium8A_aa:0.1, tyr_arch_m_dleri9A_aa:0.1, tyr_arch_m_gatei13A_aa:0.1, tyr_arch_m_hicus14A_aa:0.1, tyr_arch_m_hilum1A_aa:0.1, tyr_arch_m_hilum7A_aa:0.1, tyr_arch_m_licus12A_aa:0.1, tyr_arch_m_ndcut15A_aa:0.1, tyr_arch_m_ndcut5A_aa:0.1, tyr_arch_m_orans11A_aa:0.1, tyr_arch_m_rinus6A_aa:0.1, tyr_arch_m_ultum3A_aa:0.1, tyr_arch_m_um_sp10A_aa:0.1):100, (his_arch_m_aneyi12A_aa:0.1, his_arch_m_anium17A_aa:0.1, his_arch_m_ankai5A_aa:0.1, his_arch_m_arius15A_aa:0.1, his_arch_m_dleri8A_aa:0.1, his_arch_m_erium3A_aa:0.1, his_arch_m_gatei6A_aa:0.1, his_arch_m_gidus2A_aa:0.1, his_arch_m_hicus9A_aa:0.1, his_arch_m_hilum11A_aa:0.1, his_arch_m_itans10A_aa:0.1, his_arch_m_orans4A_aa:0.1, his_arch_m_oshii13A_aa:0.1, his_arch_m_rinus16A_aa:0.1, his_arch_m_schii7A_aa:0.1, his_arch_m_ultum14A_aa:0.1):100):100):100):100):100, (((met_1rqg_p_byssi1A_aa:0.1, met_arch_m_alpha3A_aa:0.1, met_arch_m_anium11A_aa:0.1, met_arch_m_arius8A_aa:0.1, met_arch_m_hilum10A_aa:0.1, met_arch_m_incut12A_aa:0.1, met_arch_m_incut13A_aa:0.1, met_arch_m_incut14A_aa:0.1, met_arch_m_incut15A_aa:0.1, met_arch_m_incut16A_aa:0.1, met_arch_m_incut17A_aa:0.1, met_arch_m_incut18A_aa:0.1, met_arch_m_incut19A_aa:0.1, met_arch_m_incut2A_aa:0.1, met_arch_m_incut4A_aa:0.1, met_arch_m_incut5A_aa:0.1, met_arch_m_incut7A_aa:0.1, met_arch_m_rinus9A_aa:0.1, met_arch_m_ultum6A_aa:0.1):100, (trp_arch_m_aneyi12A_aa:0.1, trp_arch_m_arius15A_aa:0.1, trp_arch_m_dleri8A_aa:0.1, trp_arch_m_hicus9A_aa:0.1, trp_arch_m_hilum11A_aa:0.1, trp_arch_m_incut4A_aa:0.1, trp_arch_m_itans10A_aa:0.1, trp_arch_m_opcut17A_aa:0.1, trp_arch_m_opcut18A_aa:0.1, trp_arch_m_opcut2A_aa:0.1, trp_arch_m_opcut6A_aa:0.1, trp_arch_m_oshii13A_aa:0.1, trp_arch_m_rinus16A_aa:0.1, trp_arch_m_schii7A_aa:0.1, trp_arch_m_ultum14A_aa:0.1, trp_arch_m_um_sp3A_aa:0.1):100):100, ((lys_arch_m_aneyi11A_aa:0.1, lys_arch_m_anium18A_aa:0.1, lys_arch_m_gidus2A_aa:0.1, lys_arch_m_hicus8A_aa:0.1, lys_arch_m_hilum17A_aa:0.1, lys_arch_m_incut9A_aa:0.1, lys_arch_m_licus5A_aa:0.1, lys_arch_m_opcut3A_aa:0.1, lys_arch_m_opcut7A_aa:0.1, lys_arch_m_orans4A_aa:0.1, lys_arch_m_oshii12A_aa:0.1, lys_arch_m_rinus16A_aa:0.1, lys_arch_m_ultum13A_aa:0.1, lysi_1irx___hori1A_aa:0.1):100, (phe_arch_m_incut10A_aa:0.1, phe_arch_m_incut11A_aa:0.1, phe_arch_m_incut12A_aa:0.1, phe_arch_m_incut13A_aa:0.1, phe_arch_m_incut14A_aa:0.1, phe_arch_m_incut15A_aa:0.1, phe_arch_m_incut16A_aa:0.1, phe_arch_m_incut17A_aa:0.1, phe_arch_m_incut2A_aa:0.1, phe_arch_m_incut3A_aa:0.1, phe_arch_m_incut4A_aa:0.1, phe_arch_m_incut5A_aa:0.1, phe_arch_m_incut6A_aa:0.1, phe_arch_m_incut7A_aa:0.1, phe_arch_m_incut8A_aa:0.1, phe_arch_m_incut9A_aa:0.1):100):100):300);'
     />
