@@ -1073,6 +1073,24 @@
             </distribution>
             <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
                 <taxonset id="G" spec="TaxonSet">
+		            <taxon id="gly_arch_m_anium1A_aa"/>
+                    <taxon id="gly_arch_m_hilum20A_aa"/>
+                    <taxon id="gly_arch_m_itans12A_aa"/>
+                    <taxon id="gly_arch_m_opcut10A_aa"/>
+                    <taxon id="gly_arch_m_opcut11A_aa"/>
+                    <taxon id="gly_arch_m_opcut13A_aa"/>
+                    <taxon id="gly_arch_m_opcut14A_aa"/>
+                    <taxon id="gly_arch_m_opcut15A_aa"/>
+                    <taxon id="gly_arch_m_opcut16A_aa"/>
+                    <taxon id="gly_arch_m_opcut17A_aa"/>
+                    <taxon id="gly_arch_m_opcut18A_aa"/>
+                    <taxon id="gly_arch_m_opcut19A_aa"/>
+                    <taxon id="gly_arch_m_opcut4A_aa"/>
+                    <taxon id="gly_arch_m_opcut5A_aa"/>
+                    <taxon id="gly_arch_m_opcut6A_aa"/>
+                    <taxon id="gly_arch_m_opcut7A_aa"/>
+                    <taxon id="gly_arch_m_opcut8A_aa"/>
+                    <taxon id="gly_arch_m_opcut9A_aa"/>
                     <taxon id="gly_bact_m_alpha10A-aa"/>
                     <taxon id="gly_bact_m_alpha18A-aa"/>
                     <taxon id="gly_bact_m_incut6A-aa"/>
@@ -1089,10 +1107,36 @@
                     <taxon id="gly_bact_m_rferi4A-aa"/>
                     <taxon id="gly_d1atib_therm2A-aa"/>
                     <taxon id="gly_d1j5wb_itima3A-aa"/>
+                    <taxon id="gly_2zt5_h_h_sap1A-aa"/>
+                    <taxon id="gly_euk_md_incut16A-aa"/>
+                    <taxon id="gly_euk_md_incut3A-aa"/>
+                    <taxon id="gly_euk_md_incut4A-aa"/>
+                    <taxon id="gly_euk_md_incut5A-aa"/>
+                    <taxon id="gly_euk_md_incut6A-aa"/>
+                    <taxon id="gly_euk_md_incut9A-aa"/>
+                    <taxon id="gly_euk_md_opcut10A-aa"/>
+                    <taxon id="gly_euk_md_opcut11A-aa"/>
+                    <taxon id="gly_euk_md_opcut12A-aa"/>
+                    <taxon id="gly_euk_md_opcut13A-aa"/>
+                    <taxon id="gly_euk_md_opcut14A-aa"/>
+                    <taxon id="gly_euk_md_opcut2A-aa"/>
+                    <taxon id="gly_euk_md_opcut7A-aa"/>
+                    <taxon id="gly_euk_md_opcut8A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="A.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
                 <taxonset id="A" spec="TaxonSet">
+                    <taxon id="ala_arch_m_aneyi12A_aa"/>
+                    <taxon id="ala_arch_m_anium17A_aa"/>
+                    <taxon id="ala_arch_m_arius14A_aa"/>
+                    <taxon id="ala_arch_m_dleri8A_aa"/>
+                    <taxon id="ala_arch_m_gatei6A_aa"/>
+                    <taxon id="ala_arch_m_hicus9A_aa"/>
+                    <taxon id="ala_arch_m_licus5A_aa"/>
+                    <taxon id="ala_arch_m_orans4A_aa"/>
+                    <taxon id="ala_arch_m_rinus15A_aa"/>
+                    <taxon id="ala_arch_m_schii7A_aa"/>
+                    <taxon id="ala_arch_m_ultum13A_aa"/>
                     <taxon id="ala_1yfsa__licus19A-aa"/>
                     <taxon id="ala_3hxv_e__coli2A-aa"/>
                     <taxon id="ala_bact_m_ans_111A-aa"/>
@@ -1112,10 +1156,44 @@
                     <taxon id="ala_bact_m_rferi3A-aa"/>
                     <taxon id="ala_bact_m_ticus10A-aa"/>
                     <taxon id="ala_bact_m_ureus18A-aa"/>
+                    <taxon id="ala_euk_md__mori2A-aa"/>
+                    <taxon id="ala_euk_md_antum12A-aa"/>
+                    <taxon id="ala_euk_md_gigas3A-aa"/>
+                    <taxon id="ala_euk_md_ideum7A-aa"/>
+                    <taxon id="ala_euk_md_minis1A-aa"/>
+                    <taxon id="ala_euk_md_oidea6A-aa"/>
+                    <taxon id="ala_euk_md_phora15A-aa"/>
+                    <taxon id="ala_euk_md_ranae13A-aa"/>
+                    <taxon id="ala_euk_md_rerio8A-aa"/>
+                    <taxon id="ala_euk_md_rzaki4A-aa"/>
+                    <taxon id="ala_euk_md_setta17A-aa"/>
+                    <taxon id="ala_euk_md_theta11A-aa"/>
+                    <taxon id="ala_euk_md_ttata9A-aa"/>
+                    <taxon id="ala_euk_md_uberi14A-aa"/>
+                    <taxon id="ala_euk_md_wa_ii5A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="D.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
                 <taxonset id="D" spec="TaxonSet">
+		            <taxon id="asp_1wydb__odaii1B_aa"/>
+                    <taxon id="asp_arch_m_aneyi13A_aa"/>
+                    <taxon id="asp_arch_m_anium19A_aa"/>
+                    <taxon id="asp_arch_m_arius16A_aa"/>
+                    <taxon id="asp_arch_m_dleri9A_aa"/>
+                    <taxon id="asp_arch_m_gatei7A_aa"/>
+                    <taxon id="asp_arch_m_gidus3A_aa"/>
+                    <taxon id="asp_arch_m_hicus10A_aa"/>
+                    <taxon id="asp_arch_m_hilum12A_aa"/>
+                    <taxon id="asp_arch_m_hilum18A_aa"/>
+                    <taxon id="asp_arch_m_itans11A_aa"/>
+                    <taxon id="asp_arch_m_licus6A_aa"/>
+                    <taxon id="asp_arch_m_orans5A_aa"/>
+                    <taxon id="asp_arch_m_oshii14A_aa"/>
+                    <taxon id="asp_arch_m_rinus15A_aa"/>
+                    <taxon id="asp_arch_m_rinus17A_aa"/>
+                    <taxon id="asp_arch_m_schii8A_aa"/>
+                    <taxon id="asp_arch_m_um_sp4A_aa"/>
+                    <taxon id="asp_d1b8aa_ensis2A_aa"/>
                     <taxon id="asp_bact_m_egans8A-aa"/>
                     <taxon id="asp_bact_m_ejuni9A-aa"/>
                     <taxon id="asp_bact_m_ensis7A-aa"/>
@@ -1136,10 +1214,43 @@
                     <taxon id="asp_d1b8aa_ensis2A-aa"/>
                     <taxon id="asp_d1c0aa__coli1A-aa"/>
                     <taxon id="asp_d1efwa_therm2A-aa"/>
+                    <taxon id="asp_3i7f_e_ytica1A-aa"/>
+                    <taxon id="asp_euk_md_incut10A-aa"/>
+                    <taxon id="asp_euk_md_incut11A-aa"/>
+                    <taxon id="asp_euk_md_incut13A-aa"/>
+                    <taxon id="asp_euk_md_incut17A-aa"/>
+                    <taxon id="asp_euk_md_incut2A-aa"/>
+                    <taxon id="asp_euk_md_incut3A-aa"/>
+                    <taxon id="asp_euk_md_incut4A-aa"/>
+                    <taxon id="asp_euk_md_incut5A-aa"/>
+                    <taxon id="asp_euk_md_incut6A-aa"/>
+                    <taxon id="asp_euk_md_incut7A-aa"/>
+                    <taxon id="asp_euk_md_incut9A-aa"/>
+                    <taxon id="asp_euk_md_oidea8A-aa"/>
+                    <taxon id="asp_euk_md_phora16A-aa"/>
+                    <taxon id="asp_euk_md_ranae14A-aa"/>
+                    <taxon id="asp_euk_md_theta12A-aa"/>
+                    <taxon id="asp_euk_md_uberi15A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="P.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
                 <taxonset id="P" spec="TaxonSet">
+		            <taxon id="pro_arch_m_aneyi7A_aa"/>
+                    <taxon id="pro_arch_m_anium13A_aa"/>
+                    <taxon id="pro_arch_m_gatei15A_aa"/>
+                    <taxon id="pro_arch_m_gidus4A_aa"/>
+                    <taxon id="pro_arch_m_hilum12A_aa"/>
+                    <taxon id="pro_arch_m_hilum18A_aa"/>
+                    <taxon id="pro_arch_m_incut10A_aa"/>
+                    <taxon id="pro_arch_m_incut9A_aa"/>
+                    <taxon id="pro_arch_m_ius_116A_aa"/>
+                    <taxon id="pro_arch_m_licus14A_aa"/>
+                    <taxon id="pro_arch_m_opcut11A_aa"/>
+                    <taxon id="pro_arch_m_oshii19A_aa"/>
+                    <taxon id="pro_arch_m_rinus20A_aa"/>
+                    <taxon id="pro_arch_m_rinus5A_aa"/>
+                    <taxon id="pro_arch_m_ultum6A_aa"/>
+                    <taxon id="pro_d1nj8a_janas1A_aa"/>
                     <taxon id="pro_2i4la__stris20A-aa"/>
                     <taxon id="pro_2j3mb__calis19B-aa"/>
                     <taxon id="pro_bact_m__coli3A-aa"/>
@@ -1161,10 +1272,41 @@
                     <taxon id="pro_bact_m_ureus10A-aa"/>
                     <taxon id="pro_d1hc7a_therm18A-aa"/>
                     <taxon id="pro_d1nj1a_therm2A-aa"/>
+                    <taxon id="pro_3ial_g__lamb1A-aa"/>
+                    <taxon id="pro_euk_md_incut11A-aa"/>
+                    <taxon id="pro_euk_md_incut12A-aa"/>
+                    <taxon id="pro_euk_md_incut14A-aa"/>
+                    <taxon id="pro_euk_md_incut16A-aa"/>
+                    <taxon id="pro_euk_md_incut18A-aa"/>
+                    <taxon id="pro_euk_md_incut20A-aa"/>
+                    <taxon id="pro_euk_md_incut4A-aa"/>
+                    <taxon id="pro_euk_md_incut5A-aa"/>
+                    <taxon id="pro_euk_md_incut7A-aa"/>
+                    <taxon id="pro_euk_md_incut9A-aa"/>
+                    <taxon id="pro_euk_md_oidea10A-aa"/>
+                    <taxon id="pro_euk_md_phora17A-aa"/>
+                    <taxon id="pro_euk_md_ranae8A-aa"/>
+                    <taxon id="pro_euk_md_rzaki15A-aa"/>
+                    <taxon id="pro_euk_md_setta19A-aa"/>
+                    <taxon id="pro_euk_md_theta13A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="E.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
                 <taxonset id="E" spec="TaxonSet">
+		            <taxon id="glu_arch_m_incut10A_aa"/>
+                    <taxon id="glu_arch_m_incut11A_aa"/>
+                    <taxon id="glu_arch_m_incut12A_aa"/>
+                    <taxon id="glu_arch_m_incut13A_aa"/>
+                    <taxon id="glu_arch_m_incut14A_aa"/>
+                    <taxon id="glu_arch_m_incut15A_aa"/>
+                    <taxon id="glu_arch_m_incut1A_aa"/>
+                    <taxon id="glu_arch_m_incut2A_aa"/>
+                    <taxon id="glu_arch_m_incut4A_aa"/>
+                    <taxon id="glu_arch_m_incut5A_aa"/>
+                    <taxon id="glu_arch_m_incut6A_aa"/>
+                    <taxon id="glu_arch_m_incut7A_aa"/>
+                    <taxon id="glu_arch_m_incut9A_aa"/>
+                    <taxon id="glu_arch_m_rinus3A_aa"/>
                     <taxon id="glu_1j09_t_therm1A-aa"/>
                     <taxon id="glu_1nzj_e__coli2A-aa"/>
                     <taxon id="glu_2cfo_t_elong3A-aa"/>
@@ -1183,10 +1325,39 @@
                     <taxon id="glu_bact_m_ormis8A-aa"/>
                     <taxon id="glu_bact_m_rferi6A-aa"/>
                     <taxon id="glu_bact_m_ureus19A-aa"/>
+                    <taxon id="glu_euk_md_incut1A-aa"/>
+                    <taxon id="glu_euk_md_incut2A-aa"/>
+                    <taxon id="glu_euk_md_incut3A-aa"/>
+                    <taxon id="glu_euk_md_incut5A-aa"/>
+                    <taxon id="glu_euk_md_incut6A-aa"/>
+                    <taxon id="glu_euk_md_incut7A-aa"/>
+                    <taxon id="glu_euk_md_incut8A-aa"/>
+                    <taxon id="glu_euk_md_incut9A-aa"/>
+                    <taxon id="glu_euk_md_nalis13A-aa"/>
+                    <taxon id="glu_euk_md_phora10A-aa"/>
+                    <taxon id="glu_euk_md_setta12A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
                 <taxonset id="S" spec="TaxonSet">
+                    <taxon id="ser_arch_m_aneyi15A_aa"/>
+                    <taxon id="ser_arch_m_anium3A_aa"/>
+                    <taxon id="ser_arch_m_arius19A_aa"/>
+                    <taxon id="ser_arch_m_dleri11A_aa"/>
+                    <taxon id="ser_arch_m_gatei9A_aa"/>
+                    <taxon id="ser_arch_m_gidus5A_aa"/>
+                    <taxon id="ser_arch_m_hicus12A_aa"/>
+                    <taxon id="ser_arch_m_hilum14A_aa"/>
+                    <taxon id="ser_arch_m_hilum4A_aa"/>
+                    <taxon id="ser_arch_m_licus8A_aa"/>
+                    <taxon id="ser_arch_m_opcut13A_aa"/>
+                    <taxon id="ser_arch_m_orans7A_aa"/>
+                    <taxon id="ser_arch_m_oshii16A_aa" />
+                    <taxon id="ser_arch_m_rinus18A_aa"/>
+                    <taxon id="ser_arch_m_rinus20A_aa"/>
+                    <taxon id="ser_arch_m_schii10A_aa"/>
+                    <taxon id="ser_arch_m_ultum17A_aa"/>
+                    <taxon id="ser_arch_m_um_sp6A_aa"/>
                     <taxon id="ser_bact_m__coli9A-aa"/>
                     <taxon id="ser_bact_m_egans17A-aa"/>
                     <taxon id="ser_bact_m_ejuni8A-aa"/>
@@ -1206,10 +1377,45 @@
                     <taxon id="ser_bact_m_urans5A-aa"/>
                     <taxon id="ser_bact_m_ureus14A-aa"/>
                     <taxon id="ser_d1sera_therm20A-aa"/>
+                    <taxon id="ser_1wleb__aurus19B-aa"/>
+                    <taxon id="ser_euk_md__mori11A-aa"/>
+                    <taxon id="ser_euk_md_aki_113A-aa"/>
+                    <taxon id="ser_euk_md_antum4A-aa"/>
+                    <taxon id="ser_euk_md_incut10A-aa"/>
+                    <taxon id="ser_euk_md_incut12A-aa"/>
+                    <taxon id="ser_euk_md_incut16A-aa"/>
+                    <taxon id="ser_euk_md_incut1A-aa"/>
+                    <taxon id="ser_euk_md_incut3A-aa"/>
+                    <taxon id="ser_euk_md_incut9A-aa"/>
+                    <taxon id="ser_euk_md_mblia18A-aa"/>
+                    <taxon id="ser_euk_md_oidea15A-aa"/>
+                    <taxon id="ser_euk_md_phora7A-aa"/>
+                    <taxon id="ser_euk_md_ranae5A-aa"/>
+                    <taxon id="ser_euk_md_theta2A-aa"/>
+                    <taxon id="ser_euk_md_ttata17A-aa"/>
+                    <taxon id="ser_euk_md_uberi6A-aa"/>
+                    <taxon id="ser_euk_md_wa_ii14A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
                 <taxonset id="L" spec="TaxonSet">
+		            <taxon id="leu_1wz2_p__hori1A_aa"/>
+                    <taxon id="leu_arch_m_aneyi13A_aa"/>
+                    <taxon id="leu_arch_m_anium18A_aa"/>
+                    <taxon id="leu_arch_m_ankai6A_aa"/>
+                    <taxon id="leu_arch_m_arius15A_aa"/>
+                    <taxon id="leu_arch_m_dleri9A_aa"/>
+                    <taxon id="leu_arch_m_gatei7A_aa"/>
+                    <taxon id="leu_arch_m_gidus3A_aa"/>
+                    <taxon id="leu_arch_m_hicus10A_aa"/>
+                    <taxon id="leu_arch_m_hilum12A_aa"/>
+                    <taxon id="leu_arch_m_hilum17A_aa"/>
+                    <taxon id="leu_arch_m_orans5A_aa"/>
+                    <taxon id="leu_arch_m_rinus16A_aa"/>
+                    <taxon id="leu_arch_m_schii8A_aa"/>
+                    <taxon id="leu_arch_m_ultum14A_aa"/>
+                    <taxon id="leu_arch_m_um_sp4A_aa"/>
+                    <taxon id="leu_euk_md_labra20A_aa"/>
                     <taxon id="leu_2v0c_T_thermophilus"/>
                     <taxon id="leu_bact_A_aeolicus_ALPHA"/>
                     <taxon id="leu_bact_B_burgdorferi"/>
@@ -1229,10 +1435,42 @@
                     <taxon id="leu_bact_S_elongatus"/>
                     <taxon id="leu_bact_T_maritima"/>
                     <taxon id="leu_bact_T_thermophilus"/>
+                    <taxon id="leu_euk_md_antum13A-aa"/>
+                    <taxon id="leu_euk_md_incut11A-aa"/>
+                    <taxon id="leu_euk_md_incut12A-aa"/>
+                    <taxon id="leu_euk_md_incut4A-aa"/>
+                    <taxon id="leu_euk_md_incut5A-aa"/>
+                    <taxon id="leu_euk_md_incut6A-aa"/>
+                    <taxon id="leu_euk_md_incut7A-aa"/>
+                    <taxon id="leu_euk_md_labra2A-aa"/>
+                    <taxon id="leu_euk_md_mblia10A-aa"/>
+                    <taxon id="leu_euk_md_minis3A-aa"/>
+                    <taxon id="leu_euk_md_nalis19A-aa"/>
+                    <taxon id="leu_euk_md_phora16A-aa"/>
+                    <taxon id="leu_euk_md_ranae14A-aa"/>
+                    <taxon id="leu_euk_md_setta18A-aa"/>
+                    <taxon id="leu_euk_md_tatus9A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="R.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
                 <taxonset id="R" spec="TaxonSet">
+		            <taxon id="arg_2zue_p__hori18A_aa"/>
+                    <taxon id="arg_arch_m_aneyi2A_aa"/>
+                    <taxon id="arg_arch_m_arius5A_aa"/>
+                    <taxon id="arg_arch_m_dleri14A_aa"/>
+                    <taxon id="arg_arch_m_gatei12A_aa"/>
+                    <taxon id="arg_arch_m_gidus1A_aa"/>
+                    <taxon id="arg_arch_m_hicus8A_aa"/>
+                    <taxon id="arg_arch_m_hilum16A_aa"/>
+                    <taxon id="arg_arch_m_hilum7A_aa"/>
+                    <taxon id="arg_arch_m_incut4A_aa"/>
+                    <taxon id="arg_arch_m_itans15A_aa"/>
+                    <taxon id="arg_arch_m_licus11A_aa"/>
+                    <taxon id="arg_arch_m_opcut6A_aa"/>
+                    <taxon id="arg_arch_m_orans10A_aa"/>
+                    <taxon id="arg_arch_m_schii13A_aa"/>
+                    <taxon id="arg_arch_m_ultum3A_aa"/>
+                    <taxon id="arg_arch_m_um_sp9A_aa"/>
                     <taxon id="arg_1iq0_t_therm19A-aa"/>
                     <taxon id="arg_3fnr_c_pyl_j20A-aa"/>
                     <taxon id="arg_bact_m__coli3A-aa"/>
@@ -1252,6 +1490,21 @@
                     <taxon id="arg_bact_m_rferi11A-aa"/>
                     <taxon id="arg_bact_m_ticus17A-aa"/>
                     <taxon id="arg_bact_m_urans2A-aa"/>
+                    <taxon id="arg_1f7u_s_cerev19A-aa"/>
+                    <taxon id="arg_euk_md__mori8A-aa"/>
+                    <taxon id="arg_euk_md_atica6A-aa"/>
+                    <taxon id="arg_euk_md_ideum12A-aa"/>
+                    <taxon id="arg_euk_md_incut15A-aa"/>
+                    <taxon id="arg_euk_md_incut1A-aa"/>
+                    <taxon id="arg_euk_md_mblia14A-aa"/>
+                    <taxon id="arg_euk_md_oidea11A-aa"/>
+                    <taxon id="arg_euk_md_opcut2A-aa"/>
+                    <taxon id="arg_euk_md_phora5A-aa"/>
+                    <taxon id="arg_euk_md_ranae4A-aa"/>
+                    <taxon id="arg_euk_md_rerio13A-aa"/>
+                    <taxon id="arg_euk_md_rzaki10A-aa"/>
+                    <taxon id="arg_euk_md_setta7A-aa"/>
+                    <taxon id="arg_euk_md_stica3A-aa"/>
                 </taxonset>
             </distribution>
             <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
