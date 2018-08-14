@@ -1,0 +1,1028 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=504;
+	taxlabels
+	arg_arch_m_gidus1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_arch_m_orans10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_arch_m_licus11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_arch_m_gatei12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_arch_m_schii13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_arch_m_dleri14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_arch_m_itans15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_arch_m_hilum16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_2zue_p__hori18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_arch_m_aneyi2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_arch_m_ultum3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_arch_m_incut4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_arch_m_arius5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_arch_m_opcut6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_arch_m_hilum7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_arch_m_hicus8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_arch_m_um_sp9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_incut1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_gatus10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_rferi11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_incut12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_gilis13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_incut14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_incut15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_egans16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_ticus17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_malis18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_1iq0_t_therm19A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_urans2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_3fnr_c_pyl_j20A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m__coli3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_lobus4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_incut5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_iacus6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_ensis8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_bact_m_incut9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_euk_md_incut1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_euk_md_rzaki10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_euk_md_oidea11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_euk_md_ideum12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_euk_md_rerio13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_euk_md_mblia14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_euk_md_incut15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_1f7u_s_cerev19A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_euk_md_opcut2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_euk_md_stica3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_euk_md_ranae4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_euk_md_phora5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_euk_md_atica6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_euk_md_setta7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	arg_euk_md__mori8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_1li5_e__coli1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_arch_m_incut10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_arch_m_incut11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_arch_m_incut12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_arch_m_incut13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_arch_m_incut14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_arch_m_incut15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_arch_m_incut16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_arch_m_incut17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_arch_m_incut2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_arch_m_incut3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_arch_m_incut6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_arch_m_incut9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_incut10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_incut11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_rferi12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_incut13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_incut14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_incut15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_incut16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_egans17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_incut18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_incut19A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_ticus20A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_incut3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_incut4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_lobus5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_cus_16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_obile7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_incut8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_bact_m_incut9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_euk_md_incut1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_euk_md_incut10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_euk_md_incut11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_euk_md_incut12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_euk_md_incut13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_euk_md_incut14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_euk_md_incut15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_3c8z_m__smeg17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_euk_md_ranae2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_euk_md_incut3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_euk_md_incut4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_euk_md_incut5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_euk_md_incut6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_euk_md_incut7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_euk_md_incut8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	cys_euk_md_incut9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_1qtq_e__coli1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_bact_m_ensis12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_bact_m_gatus14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_bact_m_hilus15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_2hz7_d_radio2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_bact_m_incut3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_bact_m_ensis5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_bact_m_ejuni7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_bact_m_lobus9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_euk_md_theta10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_euk_md_piens11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_euk_md_antum12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_euk_md_stica13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_euk_md_ranae14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_euk_md_setta16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_euk_md_nalis17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_euk_md_incut2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_euk_md_gigas3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_euk_md_rzaki4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_euk_md_incut5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_euk_md_oidea6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_euk_md_rerio7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_euk_md_ttata8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	gln_euk_md_mblia9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_arch_m_incut1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_arch_m_incut10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_arch_m_incut11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_arch_m_incut12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_arch_m_incut13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_arch_m_incut14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_arch_m_incut15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_1j09_t_therm16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_2cfo_t_elong18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_arch_m_incut2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_arch_m_rinus3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_arch_m_incut4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_arch_m_incut5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_arch_m_incut6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_arch_m_incut7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_arch_m_incut9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_euk_md_incut1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_euk_md_phora10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_euk_md_setta12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_euk_md_nalis13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_1j09_t_therm14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_1nzj_e__coli15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_2cfo_t_elong16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_euk_md_incut2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_euk_md_incut3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_euk_md_incut5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_euk_md_incut6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_euk_md_incut7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_euk_md_incut8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_euk_md_incut9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_1j09_t_therm1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_bact_m_egans10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_bact_m_ejuni11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_bact_m_incut14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_bact_m_lobus15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_bact_m_hilus16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_bact_m_iacus17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_bact_m_ensis18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_bact_m_ureus19A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_1nzj_e__coli2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_bact_m_obile20A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_2cfo_t_elong3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_2o5r_t_itima4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_bact_m_licus5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_bact_m_rferi6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_bact_m_gilis7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_bact_m_ormis8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	glu_bact_m_ensis9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_anium10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_um_sp11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_orans12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_gatei13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_schii14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_dleri15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_hicus16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_incut17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_hilum18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_gidus2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_aneyi3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_opcut4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_ultum5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_rinus6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_arius7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_rinus8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_arch_m_hilum9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_labra1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_nalis10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_opcut11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md__mori12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_gigas13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_incut14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_wa_ii15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_incut16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_ideum17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_opcut18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_1ile_t_therm19A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_mblia2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_theta3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_piens4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_incut5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_ranae6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_uberi7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_phora8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_euk_md_incut9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_ensis10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_ormis11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_gatus12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_rferi13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_itima14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_gilis15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_ensis16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_egans17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_ejuni18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_opcut19A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_1qu2_s_ureus2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_opcut20A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_licus3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_urans4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m__coli5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_opcut6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_hilus7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_iacus8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	ile_bact_m_obile9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_1wz2_p__hori1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_arch_m_hicus10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_arch_m_itans11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_arch_m_hilum12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_arch_m_aneyi13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_arch_m_ultum14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_arch_m_arius15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_r_marinus[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_arch_m_hilum17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_arch_m_anium18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_labra20A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_arch_m_gidus3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_arch_m_um_sp4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_arch_m_orans5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_arch_m_ankai6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_arch_m_gatei7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_arch_m_schii8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_arch_m_dleri9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_2v0c_T_thermophilus[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_C_thermalis[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_C_Amoebophilus_asiaticus[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_D_radiodurans[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_E_coli[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_G_obscuriglobus[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_G_stearothermophilus[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_M_mobile[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_M_smegmatis[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_S_aureus[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_S_elongatus[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_T_maritima[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_T_thermophilus[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_A_aeolicus_ALPHA[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_B_burgdorferi[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_B_licheniformis[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_B_thailandensis[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_C_aggregans[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_bact_C_jejuni[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_mblia10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_incut11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_incut12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_antum13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_ranae14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_phora16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_setta18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_nalis19A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_labra2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_minis3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_incut4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_incut5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_incut6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_incut7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	leu_euk_md_tatus9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_1rqg_p_byssi1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_hilum10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_anium11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_incut12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_incut13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_incut14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_incut15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_incut16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_incut17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_incut18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_incut19A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_incut2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_alpha3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_incut4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_incut5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_ultum6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_incut7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_arius8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_arch_m_rinus9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_1pfv_e__coli1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_incut11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_incut12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_incut13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_incut14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_incut16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_incut17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_incut18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_incut19A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_incut2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_opcut3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_opcut4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_incut5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_incut6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_ranae7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_uberi8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_euk_md_phora9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_incut10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_gatus11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_incut12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_incut13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_incut14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_incut15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_incut16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_egans17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_ejuni18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_malis19A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_1woy_t_therm2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_ticus20A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_2csx_a__aeol3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_2x1l_m_matis4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_incut5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_lobus6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_incut7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_iacus8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	met_bact_m_ensis9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_tatus1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_nalis10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_labra11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md__mori12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_aurus13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_gas_114A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_opcut15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_opcut16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_ideum17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_rerio18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_1r6u_h_h_sap19B_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_mblia2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_theta3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_antum4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_ica_15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_ranae6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_uberi7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_phora8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_euk_md_opcut9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_1i6m_b_stear1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m_egans10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m_ejuni11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m_malis12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m_ticus13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m_urans14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m__coli15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m_lobus16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m_iacus17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m_gatus18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m_ensis19A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_2el7_t_therm2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m_ureus20A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_2g36_t_itima4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m_opcut5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m_rferi6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m_gilis7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m_ormis8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_m_opcut9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_opcut1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_itans10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_hilum11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_aneyi12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_oshii13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_ultum14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_arius15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_bact_r_marinus[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_opcut17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_opcut18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_opcut2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_2ip1_s_cerev20A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_um_sp3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_incut4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_opcut6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_schii7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_dleri8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	trp_arch_m_hicus9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_licus1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_itima10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_gilis11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_mis_112A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_egans13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_ejuni14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_malis15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_ticus16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_urans17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_1h3f_t_therm18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_1jil_s_ureus19A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_lobus2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_1wq4_e__coli20A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_hilus3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_iacus4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_ensis6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_obile7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_gatus8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_bact_m_rferi9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_arch_m_hilum1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_arch_m_um_sp10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_arch_m_orans11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_arch_m_licus12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_arch_m_gatei13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_arch_m_hicus14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_arch_m_ndcut15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_2cya_a_ernix17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_2cyc_p__hori18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_2zp1_m_annas19A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_arch_m_aneyi2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_2cyb_a__fulg20A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_arch_m_ultum3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_arch_m_ndcut5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_arch_m_rinus6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_arch_m_hilum7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_arch_m_anium8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_arch_m_dleri9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_labra1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_incut10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_rzaki11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_incut12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_incut13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_incut14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_ndcut15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_incut16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_2dlc_s_cerev18X_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_piens2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_antum3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_stica4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_ranae5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_incut6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_phora7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_incut8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	tyr_euk_md_minis9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_itans10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_hilum11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_aneyi12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_incut13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_ultum14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_arius15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_rinus16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_hilum17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_anium18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_incut2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_incut3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_incut4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_ankai5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_incut6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_schii7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_incut8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_arch_m_incut9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_bact_m_rferi1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_bact_m_ejuni10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_bact_m_malis11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_bact_m_ticus12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_bact_m_urans13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_bact_m__coli14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_bact_m_hilus15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_1gax_t_therm17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_bact_m_obile2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_bact_m_matis3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_bact_m_ureus4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_bact_m_gatus5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_bact_m_itima6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_bact_m_hilus7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_bact_m_incut8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_bact_m_ensis9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_euk_md_phora10A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_euk_md_incut11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_euk_md_incut12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_euk_md_incut14A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_euk_md_antum15A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_euk_md_incut17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_euk_md_incut18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_euk_md_incut19A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_euk_md_incut2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_euk_md_oidea3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_euk_md_wa_ii4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_euk_md_incut5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_euk_md_incut6A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_euk_md_incut7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	val_euk_md_incut9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	lysi_1irx___hori1A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	lys_arch_m_aneyi11A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	lys_arch_m_oshii12A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	lys_arch_m_ultum13A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	lys_arch_m_rinus16A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	lys_arch_m_hilum17A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	lys_arch_m_anium18A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	lys_arch_m_gidus2A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	lys_arch_m_opcut3A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	lys_arch_m_orans4A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	lys_arch_m_licus5A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	lys_arch_m_opcut7A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	lys_arch_m_hicus8A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+	lys_arch_m_incut9A_aa[&Created=Fri Jul 20 14:34:54 NZST 2018]
+;
+end;
+
+begin characters;
+	dimensions nchar=112;
+	format datatype=protein missing=? gap=-;
+	matrix
+	arg_arch_m_gidus1A_aa	LIEHSANPDGPLHIGHIRNSIIGDTIARI-KTHYYVNDMG-ETALEGIKQTLKTID-EFVWESE-LYITRDLAYHM-INVLGADHKLYGAQLSKILELL-IIFFEF-SMSTR
+	arg_arch_m_orans10A_aa	LLEHSANPNGPLHVGHIRNSIIGDTLARI-EVQYYVNDMG-SLAIAGIKETLLRLD-KFVNESR-LYTTRDLAYHE-IDVFGADHKLISGQLRATLNAI-VVIFEF-SMSTR
+	arg_arch_m_licus11A_aa	IIEHSANPNGPLHIGHSRNAIVGDSLKRI-EAQYYVNDMG-NYALSGFKETLNNLD-KFVWESS-LYSTRDIAYHI-INILGADHKLTAEMVNASLKLL-VVFYEY-SMSTR
+	arg_arch_m_gatei12A_aa	VLEHSANPNGPLHVGHIRNTIIGDTLARC-EVQYYVNDMG-IPVLDGFKDTLAAMD-RFIYESD-VYAARDIAFHI-IDVLGADHKLIGTQLQATLEIL-IVFFEF-SMSTR
+	arg_arch_m_schii13A_aa	ILEHSANPNGPLHIGHLRNAIIGDCLKRI-ETHYYVNDMG-NYALDGIKETLKNLD-TFVWESS-LYSTRDIAYHL-IDVLGADHKLTAEMVKAALKLL-VIFYEY-SMSTR
+	arg_arch_m_dleri14A_aa	ILEHSANPNGPLHIGHGRNAVIGDILARC-EVQYYVNDMG-TVVERGHIQTLERLD-RFVYESE-LYTTRDIAYHL-VDVLGADHKLAVEQLRAVLDML-IDVYEF-SMSTR
+	arg_arch_m_itans15A_aa	VLDYSPNIGKPPHVGNLRSAIIGNPLKNI-ISINWWGDFG-EITIKYMRQFYPKLD-EESGESF-LYLTRDLAAAI-IYVVANEQSQHFNQLIYIAKKA-NYVKKF-KFSTR
+	arg_arch_m_hilum16A_aa	LVEHSANPVHPLHIGHGRNAILGDSLARL-ETHFYVDDCG-DLVLKGQRETLARLD-KWDYESE-LYVTRDVAYAL-IRVISTEQTHEQAHVRIILYAL-IVHYAY-KMSAR
+	arg_2zue_p__hori18A_aa	IVEHSVNPTKPLHMGHARNAILGDVMARI-EVQNYIDDLG-EEVVRAQMVTTYKLD-LLVWESD-TYTGKDIAYHL-INVIGAEQKHPQLAIKYALQLL-LYHLAY------
+	arg_arch_m_aneyi2A_aa	VVEHSANPVHPLHIGHARNASLGDSLARL-QTRFYINDMG-QLCLQGFRETLSRLE-KWDWESE-LYTTRDIAYSI-FNVIAAEQRLEQLQVRLALIAL-MIHYAY-KMSGR
+	arg_arch_m_ultum3A_aa	VVEHSANPVHPLHIGHARNASLGDTLARL-QTRFYINDMG-NLCLQGFRETLGRLD-KWDWESE-LYTTRDIAYSI-FNVIAAEQRLEQLQVRLALIAL-MIHYAY-KMSGR
+	arg_arch_m_incut4A_aa	IVEYSANPTGPLTVGHGRNAVLGDTIANL-TREYYYNDAG-KVIFEDIRRTLARLD-SYFNEHT-TYRLPDIAYHI-VDVFGADHIATYPDVLRALEVL-VDVVIY-KMSTR
+	arg_arch_m_arius5A_aa	VVEHSANPIHPLHIGHLRNSILGDTISRM-NRRFYVNDAG-NLNLDGFRESLDKLD-VYDYESE-LYTTRDIAYTV-INVIAEQQSIPQMQLRASLYLL-LVHYSY-RMSGR
+	arg_arch_m_opcut6A_aa	VVEHSANPVHPLHVGSGRNAVIGNTYANL-EERFYVNDMG-EQTLKGFRETLSRLD-SYDWESS-LYTTRDIAYSI-YNVIAVEQTREQKQVKATLYLL-LVTILY-RMSGR
+	arg_arch_m_hilum7A_aa	SVEHSANPTGPLHIGRARNSIIGDSIYRI-VRQYFVNDSG-KIAGDGIASTLKRID-EFDWESD-LYFARDIAYHL-IDVLGEDHKDHAKSLNHVLKEM-VSELQY-SMSTR
+	arg_arch_m_hicus8A_aa	ILEHSANPNGPLHIGHIRNAIIGDSLARI-ETQYYVNDMG-EYCLSGMEETMKRLD-RFVWEGQ-LYSTRDIAYHL-IDVLGSDHKLAAEQVGIAVELL-VIFYEF-SMSTR
+	arg_arch_m_um_sp9A_aa	VVEHSANPTGPVHVGRARNPILGDAVSRV-TREYYVNDAG-EGVLGGMRQTLERLD-EFVRETE-LYTTRDLAHHE-ITVLGEDQELHANKLRAALDIR-LEFLQY-SMSTR
+	arg_bact_m_incut1A_aa	QLEYSANPTGPLHLGHGRGAVVGDTLARL-TREYYINDAG-DLMMKEIREDLSLMD-VWFSERS-TYFASDIAYHY-INVWGADHHGYIPRVKAALKML-LEILLV-KMSKR
+	arg_bact_m_gatus10A_aa	IVDFSPNIAKEMHVGHLRSTIIGDSIARV-LRLNHVGDWG-DQSRREFQKIYDRLD-EERGESF-NYATTDLAALR-IYVTDSGQANHFAQVFQVAQRA-IEHVPF-KLKTR
+	arg_bact_m_rferi11A_aa	ILEFSPNTNKPLHVGHLRNDVIGESLSRI-TKINLINDRG-KWAIEGIKETYEITN-KIYLESE-IYLTQDLGNIA-IYVVGSEQIQHFKSLFFVAEKL-LIHLSH-KMKSR
+	arg_bact_m_incut12A_aa	LLEFSANPTGPLHVGHGRQAALGDALANV-HREFYYNDAG-AYLRREQDMDLKAFD-QYYLESS-TYFVPDVAYHV-INIQGSDHHGTIARVRAGLQGI-PDYVLH-KISKR
+	arg_bact_m_gilis13A_aa	MIEYSPNTNKPLHLGHVRNNLLGNALANI-VKTNIVNDRG-NWVYAGFDETYRKMD-KIYYESN-VYMTQDIGTAK-IYVVGNEQNYHFQVLSILLDKL-LVHFSY-KMKSR
+	arg_bact_m_incut14A_aa	QVEFSANPTGNLHLGHARGAAVGDSLCNV-SREYYINDAG-KYELGKLREDLENFD-VWYSETS-TYLLPDIAYHK-INVWGADHHGYIPRMKAAIEAL-LEVEII-KMSKR
+	arg_bact_m_incut15A_aa	QFEYSANPTGPFTVGHGRQIIIGDVLSEV-TREMYINDAG-NRILSSMKDTLEKID-VYFSEKS-TYFMTDIAYHY-YDIWGSDHHGHIPRMKAAMKAL-FNVILH-RMSTR
+	arg_bact_m_egans16A_aa	VIDYSPNIAKRMHVGHIRSTIIGQALVHI-IGDNHLGDWG-DLSLRAAQRNYDRLG-YAYGESF-VYMTRDIATIK-IYVVDARQELHFRQLFAIVRAM-LVHVPF-PLSTK
+	arg_bact_m_ticus17A_aa	VVEYSPNTNKPLHLGHLRNNFLGHAVSEI-YKVNLVNDRG-GWVYDGFDITYQKLD-KVYYESQ-VYITQDLGTAD-VYVVGNEQDYHFEVLAKIMARL-LYHLSY-KMKSR
+	arg_bact_m_malis18A_aa	IVDYSPNIAKEMHVGHLRPAVIGDCLSRI-VRLSHVGDWG-QLSSRAYRVIYDLMG-IERGESF-NYATTDLAAIR-IYPVGAEQTNHFAQIFQVGKRA-FFHAPF-KLKTR
+	arg_1iq0_t_therm19A_aa	LVEHSVNPNKELHVGHLRNIALGDAIARI-LVLNYIDDTG-NRILLAQMATMHALD-LLVWESD-TYYAKDIAFQF-INVVDVRQSHPQALVRAALALA-AHHLAY------
+	arg_bact_m_urans2A_aa	VIEHSVNPNKELHVGHLRNVVLGDSMARI-EVQNYIDDTG-EQTVKAQLQTCFRLD-LLNWESD-MYAAKDIGYQF-INVIDSRQDHPQTVVRSALGVA-SIHLSY-TISGR
+	arg_3fnr_c_pyl_j20A_aa	LLEYSANPTGPLHIGHARGAVFGDTLTRL-NTEYYVNDAG-DKMLVLIKQNLEQAD-SYVSERS-TYLAADIVYHK-INIWGADHHGYIPRMKAAMEFL-LEIILA------
+	arg_bact_m__coli3A_aa	VVDYAPNVAKEMHVGHLRSTIIGDAAVRT-IRANHVGDWG-DITMTQNQITYDRLN-DVMGESL-LYTTTDIACAK-LYYIDSRQHQHLMQAWAIVRKA-LEHHMF-PFKTR
+	arg_bact_m_lobus4A_aa	VIDLGPNVAKPLHVGHLRSTIIGDALVRI-IGDNHLGDWG-PACMEMLRPIYERLD-HALGESF-TYTTTDLATIK-LYVVGAPQALHFKTVFAQAKRW-FQHVQF-IFGTR
+	arg_bact_m_incut5A_aa	QVEFSANPTGDLHLGHARGAAVGDSLCNI-TREYYINDAG-RYELDKIKQDLAAFD-VWYSETS-TYLLPDIAYHQ-INVWGADHHGYIPRMKAAIAAL-LEVEII-KMSKR
+	arg_bact_m_iacus6A_aa	VVDYSPNIAKRMRVDHIRSTMIGQAIVNI-IRMNHWGDYD-DLSLTANQANYRRLG-VQHCESF-LYITRDIAAIK-IYVVKQAQELHFRQAFTISKTL-LSHVAC-PSGAR
+	arg_bact_m_ensis8A_aa	VVDYSPNLAKEMHVGHLRSSVIGDALCRV-IRQNHIGDWG-GESLRHMNEVFARLG-DDKPESA-GYATTDLAAAA-VYVVDSRQREHFQKFFAAARDA-MDHAAF-PFKTR
+	arg_bact_m_incut9A_aa	LLEYSANPTGDLHIGHARNAAVGDALANI-TREYYINDAG-EYEMAKLKNDLAEFD-NWFSETS-TYFLPDIAYHF-IDLFGADHHGYINRLKASLETF-LEIQIM-KMSKR
+	arg_euk_md_incut1A_aa	VLEYSPNIAKQFHVGHLRSTILGGFLANL-ISLNYLGDWG-ELSIKQYAQEYALLD-EYVGEST-LYLTRDLGGAI-IYVVSSQQDRHLAQFFKLLALM-LEHVSF-GMSTR
+	arg_euk_md_rzaki10A_aa	VLDFSPNIAKPFHAGHLRSAIIGNVLRNL-VAINYLGDWG-SLSEVEYRSMYARLD-VYDGESL-TYLTRDIAAAV-LYVVGPEQALHFEQLFELLRVL-CRHVAF-GMSSR
+	arg_euk_md_oidea11A_aa	VVDFSPNVAKEMHVGHLRSTIIGDTIART-LRINHVGDWG-EASRNEFDAIYHRLD-LWRGESW-GYGTTDMATLA-IYVTDEGQSGHFKLVFGAGKR--IDHVGF-RIRTR
+	arg_euk_md_ideum12A_aa	IVEFSPNIAKPFHAGHLRSTIIGNFMVNL-VSMNYLGDWG-DLSIVKYKDIYNRLD-IYAGESL-LYITRDIAAAV-YYVVASQQDFHFRQLFDILGKM-LTHINY-GMSTR
+	arg_euk_md_rerio13A_aa	IVDFSPNIAKEMHVGHLRSTIIGDSMCRL-LRLNHVGDWG-DVSRKEFQKVYNCLD-KERGESY-TYDTSDLAAIR-IYVTDSGQAMHFQVIFAAAQLI-VEHAGF-KFKTR
+	arg_euk_md_mblia14A_aa	VVDFSPNVAKSMHVGHLRSTIIGDSICRL-HRINHVGDWG-DISRHEFQRIYDRLD-DEFGESS-TYDTTDMAAIY-VYVVDAGQSSHFDLVFKAAEKA-AVHVPF-RLKTR
+	arg_euk_md_incut15A_aa	IVDFSPNIAKEMHVGHLRSTIIGDTLCRL-LRLNHVGDWG-EASRKEFQVVYDMLN-EERGESF-LYSTTDLAAIR-LYVTDAGQSTHFDQARCIARQA-LEHVPF-KFKTR
+	arg_1f7u_s_cerev19A_aa	IIEFSPNIAKPFHAGHLRSTIIGGFLANL-IRMNYLGDWG-EFSIEKYIDTYARLD-VYSGESQ-LYLTRDVGAAM-IYVIASQQDLHAAQFFEILKQM-LQHVNF------
+	arg_euk_md_opcut2A_aa	LVDFAPNIAKEMHVGHLRSTIIGESISRL-ARINHIGDWG-DVSREEFDKVYTRLG-EERGESF-TYDTTDVTATY-IYCTDLGQYEHFRMCMQTAKDM-WDHAGF-KIKTR
+	arg_euk_md_stica3A_aa	LVDFSPNIAKEMHVGHLRSTIIGESICRL-LRVNHVGDWG-DVSRREFQKIYDRLG-KEKGESF-TYDTSDMAAIR-IYVVDAGQNTHLKNIYLAAERC-AEHVQF-KFKTR
+	arg_euk_md_ranae4A_aa	VIDYSPNIAKIFHMGHFRTTILGNFVKKI-VGINYLGDWG-ELSINKYKELYSKLE-EYSGESF-LYLTRDFSAAK-IYVVSSEQKEHFEDLFATLRKA-LEHVQY-GMSTR
+	arg_euk_md_phora5A_aa	IIDFSPNIAKDMHVGHLRSTLIGDCLARI-LRLNHVGDWG-DQSRREFQVIYDRLD-TERGESF-NYATTDLAAIR-VYVTDSGQANHFAGIFQIARRA-LEHVPF-KLKTR
+	arg_euk_md_atica6A_aa	VVDFSPNIAKEMHVGHLRSTIIGDTLASM-LRRNHVGDWG-DISRREFDQVYQRLG-EEKGESF-NYASTDMTALW-IYVTDVGQQQHFDMVFKAAKRA-ASHVGF-RFRTR
+	arg_euk_md_setta7A_aa	IVDFSPNIAKEMHVGHLRSTIIGESISRV-HRVNHVGDWG-DVSRREFQDIYNRLD-EEKGESF-TYDTSDLATLR-VYVVGQSQGQSQCSAKAEMQSR-LLTLGS-RMLAS
+	arg_euk_md__mori8A_aa	IVDFSPNIAKEMHVGHLRSTIIGDSICRV-VRLNHLGDWG-EVSRQEFQKIYDRLD-IDRGESF-TYDTSDMAAIK-IYVTDVGQYTHFMTIDACARRA-VEHVGF-KFKTR
+	cys_1li5_e__coli1A_aa	GMYVGITVYDLCHIGHGRTFVAFDVVARY-KYVRNITDID-DRMIAEMHKDFDALD-MEPRATH-GWHIECSAMNC-IHGGGSDLMFPHENEIAQSTCA-VYWMHS------
+	cys_arch_m_incut10A_aa	RGYVGITPYDHVHVGHGRVYVFFDMFRRY-RLVINFTDID-ERYIAEFFEMSNKLH-AYPRVTE-GWHLECVVMST-FHGGGADLIFPHENEIAIAKAY-AYWIHV-KMSKS
+	cys_arch_m_incut11A_aa	RMYVGPTVYDYTHIGHARTYVAFDAIKRY-IHVQNITDID-DEYSRDYFDMLKKLH-IHPRVTE-GWHIECSVMSS-IHGGGQDLIFPHENEKAQSEAY-VYWLHT-KMSKS
+	cys_arch_m_incut12A_aa	RMYVGPTVYDYPHLGHARTYIAFDVIRRY-LMVMNFTDID-EKFIKVFLEDMKALD-IYPRVTE-GWHIECSVMSS-IHGGGNDLIFPHENEIAQSEAC-VYWLHT-KMSKS
+	cys_arch_m_incut13A_aa	RMYVGPTVYDYTHLGHARTYVAFDAIKRY-IHVQNITDID-DTYSRDYFEMLQKLH-IHPRVTD-GWHIECSVMSS-IHGGGQDLVFPHENERAQSEAF-VYWLHT-KMSKS
+	cys_arch_m_incut14A_aa	RLYAGPTVYTYAHIGNFRSFLTADLIVRV-VYVCIW-DLA-RYYTQAFLEDWQALD-VRPRATE-GWHIECSVMSM-LHLGGEDLIFPHECEIAQAESL-AYWVHT-KMSKS
+	cys_arch_m_incut15A_aa	KMYVGPTVYDYVHIGHGRAFVGFDGIVRY-IRVQNITDID-DYYTKDYMESLKALD-QHPRVTS-GWHIECSTMST-IHGGGVDLVFPHENERAQSEAL-VYWVHV-KMSKS
+	cys_arch_m_incut16A_aa	KMYVGPTVYDYNHIGHGRVYVVYDALKRY-LHVMNITDID-ETYTRDYLESLGKLD-LHPRVTE-GWHIECSVMSS-IHGGGTDLIFPHENERAQSEAA-VYWVHT-KMSKS
+	cys_arch_m_incut17A_aa	NMFVGPTVQDHFHIGHARTYIFFDAVAKL-FYLQNITDID-DMYLREFLEDMSALN-YFAKSTL-GWHIEDTAITE-IHGGGSDLIFPHEAEIAQMRAI-SYWIHT-KMSKS
+	cys_arch_m_incut2A_aa	KMYVGITAYDYSHIGHARSAVFFDVFRRY-VYVQNFTDVD-EKFIEEYLKDMEALT-YQPKVTE-GWHIECSVMSA-IHGGGKDLIFPHENERAQSFAR-VIWVHN-KMSKS
+	cys_arch_m_incut3A_aa	LVYTGLTVSDDAHLGHARLWVQSDVVVRW-RHVQNFTDVN-RHYIESVIEDMRALE-VYPRVSE-GWHIECSAMSM-VHVGGQDLVFPHENEIAQSEAA-AYWLHV-KMSSS
+	cys_arch_m_incut6A_aa	SLFVGPTVYNYPHLGHARTYVVFDVLAKY-LYIQNITDVD-RKFEREYIKDMLSLS-YHARATT-GWHIEDTAITE-IHGGGLDLIFPHEAEIAQMESL-VYWMHT-KMSKS
+	cys_arch_m_incut9A_aa	KMYTGVTPYDKAHVGHLRTYLVTDLLRRI-IAVTNFTDID-EENIKYVFDVLKELY-VYPRVTY-GWHIECSVMSS-IHLGGSDLIFPHENEIAQSETL-VYWVHI-KMSKS
+	cys_bact_m_incut10A_aa	SLYCGVTVYDYCHLGHARSYIVWDTLRRY-RYVQNFTDID-DRYTQAYFEDMARLD-DYPRATH-GWHIECSAMVR-IHVGGADLVFPHENEIAQSEAV-AYWLHN-KMSKS
+	cys_bact_m_incut11A_aa	RMYVGPTVYDLIHVGNARPALVFDVFRRY-IMVQNFTDID-DTFIAEYWRDAHALN-FHPRTTD-GWHIECTVMSV-IHAGGEDLVFPHENEKAQAEAL-AYWMHN-KMSKS
+	cys_bact_m_rferi12A_aa	KVYAGPTVYNYAHIGNFRTYIFGDLLIKT-NYAMNITDIG-EFFTEAFFNDCRKLD-KVLVASK-SWHLECAAMNL-IHLGGVDHIGVHINEIAIAECF-CVFVHG-KMSKS
+	cys_bact_m_incut13A_aa	GIYVGPTVYADPHLGHARGPVVYDVLRRY-RFVSNITDVE-EKYTWSYFDAMQALS-IAPRASG-GWHIECTAMSL-LHAGGIDLQFPHECEIAQAEAA-AHWMHH-KMAKS
+	cys_bact_m_incut14A_aa	GMYVGPTVYGDAHLGHARPAITFDVLFRY-RYVRNITDVE-QYYLNRYHKAMEALS-IEPHASG-GWHAECTAMGR-IHGGGMDLIFPHECEIAQSVAS-VYWMHN-KMGKS
+	cys_bact_m_incut15A_aa	KMYVGPTVYNYIHIGNARPAIVYDTVRKY-QYVSNFTDVD-ERFIKAYFEDVGSLD-CHPRVTE-GWHIECSAMAK-IHAGGQDLTFPHENEIAQSEAL-AYWLHN-KMSKS
+	cys_bact_m_incut16A_aa	RMYVGITVYDYCHIGHARMVVVFDIVQRW-TYVRNITDID-RRFIDAMNADFDALD-IEPRATD-GWHIECSAMGC-IHGGGQDLQFPHENEIAQSEGA-VYWMHN-KMSKS
+	cys_bact_m_egans17A_aa	TLYVGVTPYDTTHMGHARTFIVFDVLVRY-TYCQNITDVD-ERQIAQLRADCADLT-FAPRVSE-GWHIECSAMSI-IHGGGADLIFPHSCEIAQSESA-AIWMHV-KMSKS
+	cys_bact_m_incut18A_aa	SIYLGPTVYDDAHLGHARSSVCFDLLRRV-KFARNYTDID-EFYIKSYEEDMRVLD-FKPRATH-GWHTECVAMID-IHAGGIDLLFPHENEAAQCRCG-AIWLHN-KMSKS
+	cys_bact_m_incut19A_aa	KMYYGVTVYDYCHLGHARACIIWDVVRRY-TYIQNFTDID-ERYIQAYFEDMTRLD-AYPRATH-GWHIECSAMVR-IHAGGADLIFPHENEIAQSEAV-SYWMHN-KMSKS
+	cys_bact_m_ticus20A_aa	GMYVGPTVYGPAHLGHARCYVTFDVIQRY-RYVRNITDVG-QRYMNSFHRDMALLN-IEPQASG-GWHIECTALAT-IHGGGMDLLFPHECELAQSQAA-AYWLHN-KMSKS
+	cys_bact_m_incut3A_aa	LIYTGVTVYDDSHVGHGRSLIVFDVFRRF-KFVRNFTDVD-DRYIARYYVDMENID-VEPRVTE-GWHTECVAMVF-IHGGGLDLVFPHENEIAQAEAI-AYWMHN-KMSKS
+	cys_bact_m_incut4A_aa	GMYLGPTVYSDAHLGHAKKEVAFDVIRRA-RYVSNITDVE-DKYFWSFFRDMDALS-INPRATG-GWHIECSAMSL-IHGGGLDLQFPHEAEIAQAEAA-AYWMHN-KMSKS
+	cys_bact_m_lobus5A_aa	TMYVGPTVYKPSHIGHMVGPVIFDTVKRY-KWIVNITDVD-AKMTEDYFACLKSLD-HFPKATD-GWHIECTCMAI-IHGGGLDLQFPHENELAQSESW-AIWMHN-KMAGS
+	cys_bact_m_cus_16A_aa	RMYVGVTPYDTTHMGHARTYVVYDTIRRY-LYVQNVTDID-RQETERFLRDMDALN-HYVKATD-GWHIECTAMVL-IHGGGSDLQFPHACELAQAENF-VAWSHI-KMSKS
+	cys_bact_m_obile7A_aa	YIYVGPTVYNKVHIGNMKPIMTFDLFLRG-LFLHNLTDID-ELYSDFYLKMLDEYD-YIEKVTD-GWHTECSALIN-IHGGGIDLIFPNENENIQNIAL-AKWLHV-KMSKS
+	cys_bact_m_incut8A_aa	SMYSGPTV--FAHIGNFRTFLFADVLRRF-HHVMNLTDVG-AFYIAAFKEDAAKLD-GLPRATE-GWHIECSAMAR-IHTGGEDNIFPHECEIAQSRCG-ALWLHS-KMSKS
+	cys_bact_m_incut9A_aa	KMYVGPTVYNYIHIGNARPAINYDVVRRY-EYVSNFTDVD-EKYIAAFHEDVGALT-SNPRVMD-GWHIECSVMAF-IHAGGSDLQFPHENEIAQSEAH-AYWMHN-KMSKS
+	cys_euk_md_incut1A_aa	SWYSGPTVYDSSHVGHARTYVQIDLLQRI-HSAMGITNID-SRYEEEFINDMQRLM-SVVRVSD-GWHIECSVNCH-VHAGGIDLRFPHCNEIAQCEAY-CMMLHI-KMSKS
+	cys_euk_md_incut10A_aa	NWYAGPTVYDSAHLGHARNYVTFDIIRRV-YLVMNITDID-REFELEFFDDMKALD-VVTRVSE-GWHIECSVMAS-IHSGGIDLRFPHDNELAQSEAH-VYFLHS-KMSKS
+	cys_euk_md_incut11A_aa	SWYTGPTVYSSSHIGHARNYMTVDIIQRI-IHVMGLTDID-KKFEQEFFEDLKSLM-FTTRVSE-GWHIECSAMID-VHSGGVDLEFPHQNEIAQCEGH-AYFFHI-KMSKS
+	cys_euk_md_incut12A_aa	GMYIGVTSYDLSHIGHARAYVAFDVLYRY-VYVRNFTDVD-WRFCEEFLSDMADLT-HQPRVTD-GWHIECSAMSA-IHGGGMDLIFPHENEIAQSCAA-VYWIHN-KMSKS
+	cys_euk_md_incut13A_aa	LAYIGPTVYDSTHLGHARTYVTFDVVRRI-RYQCNITDVD-RKYEQEFLSDMHTLT-VVTRVTE-GWHIECSAMAA-LHLGGCDLQFPHDNELIQLETW-ICFLHS-VMSKS
+	cys_euk_md_incut14A_aa	RWYIGPTVYDSSHLGHARTYVAFDVIRRI-FCVMNITDVD-AFYEQEYHEDMKSLD-VLTRVTE-GWHIECSVMAS-IHGGGIDLCFPHDNELAQAEAY-VYFLHS-KMSKS
+	cys_euk_md_incut15A_aa	RWYTGPTVYDLSHMGHARAYLTFDIIRRV-IYQMNITDID-RKYERAFFEDMQRLD-IVTRVTE-GWHIECSVMAS-IHSGGWDLKFPHDNECAQSEAC-VYFLHC-KMSKS
+	cys_3c8z_m__smeg17A_aa	TMYVGITPYDATHLGHAATYLTFDLVHRL-QYVQNVTDVD-DRETQLFREDMAALH-DYVAATD-GWHVECSAIAL-IQGGGSDLIFPHEYSAAHAESV-AHYVHT------
+	cys_euk_md_ranae2A_aa	KIYIGPTVYDHSHIGHARTYVSFDVIRNI-TFVMNITDID-VKYTNLFLEDMALLT-VLTKVTE-GWHIECSVMAN-IHAGGVDLKFPHENEIAQCQAR-VYFMHT-KMSKS
+	cys_euk_md_incut3A_aa	TWYTGPTVYDWSHMGHARTYVGFDIVRRI-IYIENITDID-RYYEHLFWEDMKQLT-VLVRVTE-GWHIECSAMAC-VHCGGIDLKFPHDNELAQSEAY-VYFLHT-SMSKS
+	cys_euk_md_incut4A_aa	KWYCGPTVYDASHMGHARSYISFDILRRV-FYCMNITDID-KFWEEEYHKDMAALD-VLTRVSE-GWHIECSAMAG-IHGGGFDLRFPHDNELAQSEAY-VYFLHT-KMSKS
+	cys_euk_md_incut5A_aa	SIYCGVTVYDLCHLGHARSYIAWDVLRRY-TFVQNFTDID-DRNIEAFKSDMALLD-RMPRATK-GWHIECSTMVR-IHLGGADLIFPHENEIAQSEMA-AYWLHN-KMSKS
+	cys_euk_md_incut6A_aa	TWYQGPTVYDHSHIGHAVCFQRFDILRRV-LQVWGMTDID-RQYEESFFQDMAALA-HITRVTE-GWHIECSAMAS-IHTGGIDLLYPHTNELAQCESH-VHFWHT-KMSKS
+	cys_euk_md_incut7A_aa	RCYTGPTVYSTSHLGHARTYLSFDMIRRI-QWSMNVTDID-ADREKAFFAELDTLD-ALLRVSE-GWHIECSTMSG-LHAGGIDLRFPHSNEIAQSQAR-VNWMHT-KMSKS
+	cys_euk_md_incut8A_aa	KIYSGPTVYDFPHIGNYRSFLFSDLLHRT-KLVMNITDID-DRYTQAFLQDLKDLS-HYPRATD-GWHIECSAMSR-IHTGGTDNRFPHENEIAQSECF-VYWLHV-KMSKS
+	cys_euk_md_incut9A_aa	NAYIGPTVYDASHMGHASTYIQFDVIRRV-RWVMNITDVD-RYWEEQFNIDMKALD-RLTRVSD-GWHIECSAMAG-IHGGGIDLKFPHDNEIAQSEAF-IYFMHT-KMSKS
+	gln_1qtq_e__coli1A_aa	HTRFPPEPNGYLHIGHAKSICLNFGIAQD-QCNLRFDDTN-IEYVESIKNDVEWLS-NVRYSSD-MYDFTHCISDA-HSLCTLEFQDNRRLYDWVLDNI-PRQYEF------
+	gln_bact_m_ensis12A_aa	RTRFPPEPNGFLHVGHAKAICIDFGVARA-PCLLRFDDTN-ARYADAIRTDLAWLS-EITHTSD-TYDFAHGQCDA-HSLCSLEFEDHRPLYDWFIEKL-SRQIEF-ITSKR
+	gln_bact_m_gatus14A_aa	RVRIAPSPTGNLHIGTARTAVFNWLFARR-QFILRIEDTD-SEYTDNILTGLQWLD-GPFYQTQ-LYNLAVVVDDI-HVIRGEDHIANTAKQILLYEAL-PEFAHT-KLSKR
+	gln_bact_m_hilus15A_aa	VTRFPPEPNGYLHIGHARSIVLNFGLAQD-ECNLRFDDTN-EEYARAIEEDVRWLT-RVLYASD-MYDFAHPLEDF-HSLCTLEFENNRTVYDWVIENL-PHQYEF-VLSKR
+	gln_2hz7_d_radio2A_aa	VTRFPPDPSGYAHLGHVFASLLDFNTARQ-QFNLRMDDTN-QEYVDSIADDLKWLG-HFYYASD-AYDFEHPLQDA-HSMCSLEFVDNRAIYDWLMEKL-PHQYEF------
+	gln_bact_m_incut3A_aa	QTRFPPEPNGYLHIGHAKAICLDFGIAAA-VCNLRFDDTN-MEYVEAIQEDIRWLG-NVYYASD-MYDFAHGQSDY-HSLCTLEFVPHRPLYDLFIDWL-PRQTEF-LMSKR
+	gln_bact_m_ensis5A_aa	ETRFPPEPNGYLHIGHAKSICLNFSVARD-VCHLRFDDTN-VEYVNSIVDAVRWLQ-HQYFASD-MYDYTHCISDA-HSLCTLEFEDHRPLYDWVLNEL-PQQIEF-ITSKR
+	gln_bact_m_ejuni7A_aa	MYRFAPSPTGDMHIGNLRAAIFNYICARQ-DFILRIEDTD-AGKEEEIKEILNLFQ-Y-YIQSE-TYNFACAVDDM-CIIRGEDHVSNTPKQEHIRASL-MTYAHL-KMSKR
+	gln_bact_m_lobus9A_aa	TGRLAPSPTGAQHVGNARTYLVAWLAARA-TVRVRIEDID-PGAAEQALDDLRWLD-E-VTQTT-AYQLAVVVDDA-EVVRGDDLIPSTPRQLLLYRAL-PAFAHV-RLAKR
+	gln_euk_md_theta10A_aa	RTRFPPEPNGYLHIGHAKSICLNFGVAKE-RTNMRFDDTN-EEYVRSILKDVRWLD-NTRYASD-MYDFAHCISDA-HSLCTLEFEDHRPLYDWVLDEL-PQQTEF-VLSKR
+	gln_euk_md_piens11A_aa	RTRFPPEPNGILHIGHAKAINFNFGYAKA-ICFLRFDDTN-AKFFTAICDMVAWLY-KVTYASD-TYDYTHCLCDS-HSLCTKEFQARRSSYFWLCNAL-PVQWEY-VVSKR
+	gln_euk_md_antum12A_aa	YFRFPPEPNGFLHIGHAKSMNLNFGSARA-KCYLRYDDTN-QVYIDAIMEMVDWMD-WVTFSSD-SYDFTHCLIDS-YSLCTLEFETRRESYFWLLNEL-PYVWEF-LLSKR
+	gln_euk_md_stica13A_aa	QTRFPPEPNGILHIGHAKAININFGYAAA-VCYLRYDDTN-EKFFVGIKDMVEWLY-KITHSSD-TYDYTHCLCDS-HSLCTKEFQSRRSSYYWLCNAL-PVQWEY-LVSKR
+	gln_euk_md_ranae14A_aa	VTRFPPEPNGILHIGHAKAINLDFGYAEK-ICYLRFDDTN-DYYFESIIEDVKWLY-AITSSSK-SYEFALCVSDS-HSFCTREFFTRQESYKWLLDAL-PVQWEF-VLSKR
+	gln_euk_md_setta16A_aa	HTRFPPEPNGILHIGHAKAITFNFAYARD-NCYLRYDDTN-EEFFRGILRDVTWLF-KITHSSD-TYDFTHCLCDS-HSLCTKEFQNRRSSYYWLCNAL-PVQWEY-LVSKR
+	gln_euk_md_nalis17A_aa	MTRFPPEPNGWIHIGHAKAMILDFGLAAT-HCYMRFDDTN-VEFIEGIKKDVHWLW-KITHTSD-TYDYSHCVIDS-HSLCTLEFQNRRDSYYWVLDAL-PVVWEF-VMSKR
+	gln_euk_md_incut2A_aa	FTRFPPEPNGFLHIGHSKAIFVNFGYAAH-KCYLRYDDTN-AKYFESILEIVRWLF-RITYSSD-TYDFTHCLCDS-HSLCTTEFIDSRESYEWLCDQL-PRQSEY-VMSKR
+	gln_euk_md_gigas3A_aa	HTRFPPEPNGILHIGHAKAINFNFGYAKK-NTYLRYDDTN-EKFFTAIKNMVEWLF-QVTHASD-TYDYTHCLCDS-HSLCTKEFQSRRSSYYWLCNAL-PVQWEY-VVSKR
+	gln_euk_md_rzaki4A_aa	HTRFPPEPNGILHIGHAKAMHINFTFARV-KCIFRYDDTN-ERFFVGIRQMVDWLA-AVTHTSD-TYDYSHCLIDS-HSMCTKEFQNRRMSYYWLCNAL-PVQWEY-VMSKR
+	gln_euk_md_incut5A_aa	VTRFPPEPNGFLHLGHAKSICLNYGIAKI-RFHLRYDDTN-QQYIDAIEEDVRWLG-EKYYASD-MYDFAHGQSDS-HSICTLEFELHRPLYDWLQSEL-TRQIEF-VLSKR
+	gln_euk_md_oidea6A_aa	VTRFPPEPNGYLHIGHAKAMFVDFGFAER-DCYLRFDDTN-QEYIDHIQDIVAWLW-KVTYSSD-SYDYTHCLVDA-HSLCTLEFESRRASYYWLLHVL-PVVWEY-VLSKR
+	gln_euk_md_rerio7A_aa	RTRFPPEPNGILHIGHAKAINFNFGFAKA-ICFLRYDDTN-EKYFTAIKDMVEWLY-AVTHASD-TYDYTHCLCDS-HSLCTKEFQARRSSYFWLCNAL-PVQWEY-VVSKR
+	gln_euk_md_ttata8A_aa	LTRFPPEPNGYLHIGHAKAMFVNFGLAKE-CCYLRYDDTN-KEYIDHIEEIVGWMF-KITYTSD-SYDYAHCIVDS-HSLCTLEFETRRASYYWLLDAL-PYVWEY-MMSKR
+	gln_euk_md_mblia9A_aa	LTRFPPEPNGYLHLGHAKAMFISFNYALL-KTYLRMDDTN-KEYIDSILASIEWLF-KFTHTSD-SYDFSHCLIDA-HSLCTLEFGIRRESYDWVTHNV-PMQWEF-VMSKR
+	glu_arch_m_incut1A_aa	VMRFAPNPNGPPTLGSARGIIVNGEYARM-KYIIRFDDTD-PEAYDWYLEDIEWLD-V-IYASK-TLDFESAIEDH-HIIRGKDLIDSERRQRYIYEYF-PITKHW-KLSTS
+	glu_arch_m_incut10A_aa	VMRFAPNPSGPLHLGHARAAFLNDEYIRR-KYILRIEDTD-PDAYDMVREDIAWMA-T-IFQSD-LMNLSVAVDDH-HVIRGKDHIANTKRQEFIFRYM-PVYRHY-VLSTS
+	glu_arch_m_incut11A_aa	VMRFAPNPSGPLHIGHARAAVLNDYFVKK-KLILRLEDTD-PEAYDMIKEDLDWLD-V-VIQSD-LMNFSVPVDDH-HVLRGKDHIVNTEKQAYIYKYF-PEFIHY-VLSTS
+	glu_arch_m_incut12A_aa	RLRFAPNPSGPLHIGHARAAVLNDEYARR-TLVLRIEDTD-PEAYDMIEEDLEWLD-R-YVQSN-TMNFAVAVDDH-HVLRGKDHESNTRRQKYVFEHL-PEYVHY-VLSTS
+	glu_arch_m_incut13A_aa	-LRFAPNPSGPLHIGHARAAILNHEYARK-RLILRIEDTD-PEAYDMIPADLEWLD-T-VIQSD-MMNFSVAVDDH-HVLRGKDHLANREKQEYLYRHL-PEFIHY-VLSTS
+	glu_arch_m_incut14A_aa	VVRFAPNPDFVLHLGSARPAILNYAYRIK-KFILRFEDTD-PNAYESIREDLRWLD-E-YIQSQ-TYNFAVSIDDH-HVLRAQEHSVNTIKQSYVFRHF-PVTIHF-TLSKS
+	glu_arch_m_incut15A_aa	VTRFAPNPDFVIHLGNARPAILSYEYKVI-KMILRFEDTD-PEAYELIKQDLEWLD-E-YIQSL-TYNFAAGVDDW-HILRAKEHMQNTIKQKYVYEYM-PHVVHF-IMSKS
+	glu_1j09_t_therm16A_aa	VTRIAPSPTGDPHVGTAYIALFNYAWARR-RFIVRIEDTD-PGAEERILAALKWLD-GPYRQSE-TYHLANVVDDH-DVIRAEEWLVSTPIHVLLYRAF-PRFYHM------
+	glu_2cfo_t_elong18A_aa	RVRLAPSPTGNLHIGTARTAVFNWLYARH-KFILRIEDTD-PEYTENILEGLQWLD-GPYFQSD-LYNLVVVVDDI-DVIRGEDHIGNTPKQILLYEAL-PNFAHT------
+	glu_arch_m_incut2A_aa	VTRFAPNPDFIIHLGNARPAILSYEYKVM-RMILRFEDTD-PEAYELIKQDLKWLD-E-YIQSL-TYNLAAAVDDH-HILRAKEHMQNTIKQKYIYGYM-PNVIHF-IMSKS
+	glu_arch_m_rinus3A_aa	RVRFAPSPTGFLHIGGLRTALYNFLFARK-QFILRIEDTD-PGAEEDIIESLRWAD-GPYRQSE-TYHMANVVDDH-HVIRGEEWLSSTPKHVLLYRYL-PQMAHL-KLSKR
+	glu_arch_m_incut4A_aa	VTRFAPNPDGPLHLGNARAAIISHEYARI-KFILRFDDTD-PEAYDWIKEDLKWLD-E-VRASA-TYNFASAIDDY-HIFRGKEHAVNAGKQKWIYNYM-PYVREF-MMSKS
+	glu_arch_m_incut5A_aa	VTRFAPNPDYTIHLGNARPALLSYWYAEM-KMILRFEDTD-PEAYDRIRNDLKWLN-E-YIQSL-TYNLAAAIDDH-HILRAKEHVSNTIKQKFLYDHM-PETIHF-ILSKS
+	glu_arch_m_incut6A_aa	VMRMAPSPSGPLHIGHTRMAILNDEYVKR-ELILRIEDTN-PDAYHMIPEDLEWLT-I-VIQSD-MMSFSVAVDDH-HVLRGKDQLTNTDKQRYIFDYN-PYYYHY-KLKTS
+	glu_arch_m_incut7A_aa	VMRLAPSPSGPLHIGHTRMAILNDEYVKR-DLILRIEDTN-PEAYAMIPEDLEWLT-T-VIQSE-MMSFSVAVDDH-HVLRGKDQLTNTEKQRYVFEYN-PYYYHY-RLKTS
+	glu_arch_m_incut9A_aa	-MRCAPNPNGPWHIGHSRMPAVIGTYAEE-EFIVRFDDTD-PWAYDEILDEIGYLA-V-YRASD-MLDFQSGVDDH-HIIRGIDLQDSAKRQQFVYDYF-PEVIHW-KMSTS
+	glu_euk_md_incut1A_aa	VTRFPPEPSGYLHIGHAKAAMLNYYFGKM-KFIVRFDDTN-DEFEQTILEDLQMLD-VITHTSD-IYDFACPIVDS-HALRTNEYRDRNPQYKWMIDSL-VEIWDF-LLSKR
+	glu_euk_md_phora10A_aa	RVRLAPSPTGTLHIGTARTALFNWLFARQ-AFLLRIEDTD-EEFTDNILEGLQWID-DPVIQSH-LYNLAVVVDDA-HVIRGEDHIANTAKQLQLYKAL-PQFAHT-KLSKR
+	glu_euk_md_setta12A_aa	RVRFAPSPTGFLHLGGLRTALFNYLFAVK-TFILRLEDTD-TGAAEALQRDLAWAH-GPYVQSE-TYHLANVVDDH-HVLRGEEWLISTAKHELLYRAF-PTFVHL-KLSKR
+	glu_euk_md_nalis13A_aa	KLRFAPSPTGYLHIGGLRTALYNYLFAKK-KFVLRIEDTD-EGAIENLIESLEWAD-GVYIQSQ-TYHMAVIVDDH-HIVRGEEWLPSTPKHVYLYECL-PEFVHL-KLSKR
+	glu_1j09_t_therm14A_aa	VTRIAPSPTGDPHVGTAYIALFNYAWARR-RFIVRIEDTD-PGAEERILAALKWLD-GPYRQSE-TYHLANVVDDH-DVIRAEEWLVSTPIHVLLYRAF-PRFYHM------
+	glu_1nzj_e__coli15A_aa	IGRFAPSPSGELHFGSLIAALGSYLQARA-RWLVRIEDID-PGAAETILRQLEHYD-DVLWQSQ-AYNLAVVVDDH-EIVRGADLIEPTVRQISLYQLF-PDYIHL------
+	glu_2cfo_t_elong16A_aa	RVRLAPSPTGNLHIGTARTAVFNWLYARH-KFILRIEDTD-PEYTENILEGLQWLD-GPYFQSD-LYNLVVVVDDI-DVIRGEDHIGNTPKQILLYEAL-PNFAHT------
+	glu_euk_md_incut2A_aa	-VRFAPSPTGFMHLGGLRMALINYLIAKK-KFILRIEDTD-KGSADNIIRTLCDFD-GPYVQSS-TYHLASVVDDH-LVIRGEEWISSVPKHLQLYSAF-PDFIHL-KISKR
+	glu_euk_md_incut3A_aa	VVRFPPEASGYLHIGHAKAALLNQYYQQA-KLVMRFDDTN-ADFEKVILEDVAMLD-MFTHTSQ-TYDFACPIVDS-HVLRTMEYHDRDPQFYWFIEAL-PYIWEY-VLSKR
+	glu_euk_md_incut5A_aa	VTRFPPEPSGYLHIGHAKAALLNYYYANK-KLLLRFDDTN-EEFQESIEADLKILF-NVSFTSD-TYDFACPIVDS-HALRTNEYSDRIEQYNWVINAL-VEIYEF-VLSKR
+	glu_euk_md_incut6A_aa	VVRFPPEASGYLHIGHAKAALLNQHYQVT-KLIMRFDDTN-EDFEKVILEDVAMLD-QFTYTSD-TYDFACPIVDS-HALRTTEYHDRDEQFYWVIEAL-PYIWEY-VLSKR
+	glu_euk_md_incut7A_aa	KLRFAPEPSGYLHIGHAKAALLNQYFAER-EVIIRFDDTN-NEFVDNLLIDIATLT-AVTYTSD-TYDFCCPFVDA-HALRSSEYHDRNEQYYRIQTDM-VHLYEF-LLSKR
+	glu_euk_md_incut8A_aa	VTRFPPEASGFLHIGHAKAALINRMLADA-KMLFRFDDTN-EHFEVAIEEDLKTLD-GPTYSSD-TYDFCCPLVDS-HALRTNEYHDRNAQYYWFCDAM-PTIEDF-VMSKR
+	glu_euk_md_incut9A_aa	VTRFAPEPSGCLHIGHLKALLVNYNLAEK-TLLLRFDDTN-EKYEKEILRDLDTLL-KISHSSD-TYDFVCPIVDS-VVCRANEYKDRNEQYKWFLENL-PEFNDF-VLSKR
+	glu_1j09_t_therm1A_aa	VTRIAPSPTGDPHVGTAYIALFNYAWARR-RFIVRIEDTD-PGAEERILAALKWLD-GPYRQSE-TYHLANVVDDH-DVIRAEEWLVSTPIHVLLYRAF-PRFYHM------
+	glu_bact_m_egans10A_aa	RVRFAPSPTGSLHIGGVRTALFNWLCARH-QFILRIEDTD-PGAADDISISLRWVD-GPYVQSQ-VYHFAHLVDDH-LVMRGEEWVPSTPYHVLLYDYF-PIFAHL-KLSKR
+	glu_bact_m_ejuni11A_aa	TTRFAPSPTGYLHIGGLRTALYNYLYARK-NFLLRIEDTD-KEATKAIIEAFKWCD-EVTYQSE-TYNFTVVIDDA-DVIRGDDHLSNTPKQIVLYEAL-PKFFHV-KLSKR
+	glu_bact_m_incut14A_aa	VTRFPPDPSGYAHLGHVFASLLDFNTARQ-QFNLRMDDTN-QEYVDSIADDLKWLG--FYYASD-AYDFEHPLQDA-HSMCSLEFVDNRAIYDWLMEKL-PHQYEF-KRKLR
+	glu_bact_m_lobus15A_aa	RTRFAPSPTGYLHIGGVRTALFNWLYARR-QFVLRIDDTD-AEAVKPILDGFDWLD-GPYFQGQ-LYAFATVVDEV-HVIRAEEHLANTPVQILIYNAL-PEFAHV-KISKR
+	glu_bact_m_hilus16A_aa	RVRYAPSPTGHLHIGGARTALFNYLFARH-KMIVRIEDTD-EGGEQSQLENLQWLD-SVYRQTE-TYNFAVVIDDH-HVFRGEEHLSNTPKQLMVYEYF-PQFAHL-KLSKR
+	glu_bact_m_iacus17A_aa	RTRFAPSPTGYLHIGSLRTVLFSWLWARH-QFLLRIEDTD-EGAEEQLTSSLQAID-GPYKQSE-TYALAAMVDDH-HVLRADEWIPTWPIHHQIYEAF-PVWVHV-KLSKR
+	glu_bact_m_ensis18A_aa	VTRFAPSPTGELHVGGARTALYSWALARR-RFLLRFEDTD-AAAADRIRADLAWFD-EGPRQSE-TFHLAVVVDDH-HVVRGQEHLSNTPKHAALCDAL-PVWAHT-KMSKR
+	glu_bact_m_ureus19A_aa	RVRYAPSPTGYLHIGNARTALFNYLYAKH-DFVIRIEDTD-EDGETSQFDNLKWLD-SVYRQSE-TYNFAVAIDDH-DVIRGDDHISNTPKQIMIYEAF-PRFGHM-KLSKR
+	glu_1nzj_e__coli2A_aa	IGRFAPSPSGELHFGSLIAALGSYLQARA-RWLVRIEDID-PGAAETILRQLEHYD-DVLWQSQ-AYNLAVVVDDH-EIVRGADLIEPTVRQISLYQLF-PDYIHL------
+	glu_bact_m_obile20A_aa	RTRYAPSPTGYLHIGGARTALFNYLFAKH-DFIVRIEDTD-AGGEESQLDNLEWLD-SPYRQSE-TYNFAVVVDDF-HVLRGEEHITNTPKQLAVYEAM-PVFGHL-KLSKR
+	glu_2cfo_t_elong3A_aa	RVRLAPSPTGNLHIGTARTAVFNWLYARH-KFILRIEDTD-PEYTENILEGLQWLD-GPYFQSD-LYNLVVVVDDI-DVIRGEDHIGNTPKQILLYEAL-PNFAHT------
+	glu_2o5r_t_itima4A_aa	RVRFAPSPTGFLHVGGARTALFNFLFARK-EFILRIEDTD-REYEEKLXESLRWLD-GPYRQSE-TYNFACVVDDX-HVIRGDDHLSNTLRQLALYEAF-PVFAHV------
+	glu_bact_m_licus5A_aa	KTRFAPSPTGYLHLGNARTAIFSYLFARH-GFVLRIEDTD-KEYEEMLIEDLKWLD--FYRQSE-TYNFVVVVDDA-HVIRGEDHIPNTPKQILIYEAL-PKFAHL-KLSKR
+	glu_bact_m_rferi6A_aa	RVRYAPSPTGLQHIGGIRTALFNYFFAKS-KFLLRIEDTD-PEAENDLYSSLKWLD-GPYVQSQ-TYHLANVVDDY-HVLRAQEWVSSGPLHVLLYKAF-PIYCHL-KLSKR
+	glu_bact_m_gilis7A_aa	RVRFAPSPTGALHIGGVRTALYNYLFARQ-DLIFRIEDTD-PGAEEYILESFKWLD-GVYRQSE-TYHLANIVDDH-HVIRGEEWLPSAPLHVLLYRAF-PAFAHL-KLSKR
+	glu_bact_m_ormis8A_aa	RVRYAPSPTGHLHIGNARTALFNYLFARS-KFIIRIEDTD-EGGEQSQLNYLKWLD-SVYRQSE-TYNFAVAVDDY-HVLRGEDHISNTPKQIMIYNAL-PAFGHM-KLSKR
+	glu_bact_m_ensis9A_aa	RTRFAPSPTGFIHLGNIRSALYPWAFARK-TFVLRIEDTD-QEAVDAILEGMAWLD-GPYYQMQ-MYNFCVVVDDL-HVIRGDDHVNNTPRQINILRAL-PVYAHL-KMSKR
+	ile_arch_m_anium10A_aa	VFLEPPTANGRPHIGHAMTRTIKDIVLRY-YRRYGWDCHG-FRYIDEWKTVDQIID-GDYITLR-DTWFDSGSATY-FITEAIDQTRGFYVLHVISTIM-YSALSI-KMSKS
+	ile_arch_m_um_sp11A_aa	FFVDPPYTSGAAHMGHAWNKSLKDAYIRY-TDRPGYDMHG-EESLAQLQSDFQSFD-NPYRTID-DVWLDSSVASW-LIIEAHDQTRGFWSQLGMGTAA-YNVVMH-SMSKS
+	ile_arch_m_orans12A_aa	FFVDPPYTTGHIHLGTAWNKIIKDTILRY-LERPGWDMHG-ITQKQAMTEQFQRLQ-EPYMTLK-DVWFDSAVASW-FVTEGHDQTRGFYSQLGASMVG-YSVLMH-KMSKS
+	ile_arch_m_gatei13A_aa	FFVDPPYTTGHIHLGTAWNKILKDSILRY-IDRAGYDMHG-LSHKDIMSEQFKSLN-DPYQTIM-DVWFDSAMASW-FITEGQDQTRGFYSQLGASTIA-YSVLMH-KMSKS
+	ile_arch_m_schii14A_aa	YFVDPPYCSGAIHLGTAWNKIIKDTYLRF-LDKAGWDMHG-LKHKEIMEKQFKNLD-NAYMPIT-DVWFDSGLAPY-FITEGHDQVTKFYSQHALSAIV-YKCLMH-KMSKS
+	ile_arch_m_dleri15A_aa	YFLDPPYASGSIHLGTAWNKIIKDAVNRY-RLQPGWDCHG-LKHVEIMTEQFKRLD-NPYMTLD-DVWVDSGVAAW-FITEGHDQTRGFYSQLGCGVVT-YTVLMH-KMSKS
+	ile_arch_m_hicus16A_aa	SFLDPPYCSGRIHLGTAWNKIMKDTYLRF-RRQPGWDTHG-VENKAVMTGQFQRLD-DPYVTFD-DVWIDSGVAGW-FITEGHDQTRGFYSQLGCGVIA-YRVLMH-KMSKS
+	ile_arch_m_incut17A_aa	SYLDPPFANDDIHVGHAWGRALRDSEIRY-YVRPGFDTHG-YKNINKQISSFKRLD-NPYFTYD-DVWLDSGGAFY-FILEGWDQIRGFYSLLGEGVLY-YNVYVS-KMSKS
+	ile_arch_m_hilum18A_aa	TFLEPPTTNGMPHVGHIRGRTYKDVVIRF-WVQGGWDMQG-EEYLAYWREGTKRLD-NAYETRQ-DVWLDSGIAWI-FVTEGIDQTRGFYSLLATSVLY-YNVLIQ-KMSKS
+	ile_arch_m_gidus2A_aa	YFVDPPYTTGRIHLGTAWNKVLKDTILRY-TDTPGWDMHG-LANKDAMTEQFKSLD-NPYMTIK-DVWFDSGVASW-FITEGHDQTRGFYSQLGTSVVC-YAVLMH-KMSKS
+	ile_arch_m_aneyi3A_aa	AFLEPPTANGFMHVGHARGRTLKDVKLRY-WDQAGWDTQG-DYYLGHWERASKRLD-HAYQTRD-DVWMDSGVAHT-WITEAADQTRGFYTLLVTGVVW-YSVLLQ-KMSKS
+	ile_arch_m_opcut4A_aa	YFLDPPYVSGAIHLGTAWNKIIKDMIIRF-WRQPGFDMHG-LNNLKIMTEQFKMLD-DPYMTIK-DVWFDSGIASW-FIVEGEDQVTKFYSQQAASVIA-YRVAMH-KMSKS
+	ile_arch_m_ultum5A_aa	AFLEPPTANGFMHVGHARGRTLKDVKLRY-WDQAGWDTQG-DYYIEHWERASKRLD-HAYQTRH-DVWMDSGVAHT-WITEAADQTRGFYTLLVTGVVW-YSVLLQ-KMSKS
+	ile_arch_m_rinus6A_aa	SFYEPPTANGKPGIHHVLARTIKDIFCRY-ERKAGWDTHG-LRYKELWDQLTERID-HPYITFE-DVWFDSGAMPF-FIAEGVDQTRGFYTLHAIATMV-FHVVVN-KMSKS
+	ile_arch_m_arius7A_aa	LFIDPPYPSSIPHIGTVWNKTIKDCILRY-KDQPGYDTHG-INNSKSLTQNFRNLD-NPYFTFN-DVWFDSGVAFF-LVLEGHDQLRGFFSLLRTGVIL-YAVLVH-EMHKS
+	ile_arch_m_rinus8A_aa	NFIDPPYPSGVPHIGTAWNKTLKDIVLRY-FDRPGYDCHG-FNNIKSLTKWFKELD-NPYLTLR-DVWFDSAISFY-FIVEGHDQIRGFFSLLRAGVLG-YTVLVH-EMHKS
+	ile_arch_m_hilum9A_aa	VFLEPPTANGRPHIGHAMTRTIKDIVLRY-YRRVGWDCHG-FRYIDEWKQVDDLID-GDYITLR-DTWFDSGSATY-FITEAIDQTRGFYVLHVIATIM-YSALSI-KMSKS
+	ile_euk_md_labra1A_aa	VLQDPPYANGSLHMGHALNKILKDIILRF-QYIPGWDCHG-LREVDNQREQMKVFN-DGYRTIE-DVWFDSGTAWT-VVLEGSDQHRGFQSLLLTSLGA-YTVVTH-KMAKS
+	ile_euk_md_nalis10A_aa	IFYDPPFATGTPHYGHILAGTIKDVVTRY-PRRFGWDTHG-MKHQQDWERVVRRCD-NSYKSMD-DCWFESGSMPF-FIAEGLDQTRGFYTMTILSSLL-FNVIVN-KMSKK
+	ile_euk_md_opcut11A_aa	ITHDPPYANGDLHMGHFENKILKDIINRH-EYKPGWDCHG-SDTIKRQKKSINEWS-IVTIL---DVWIDSGVSWF-SYLEGSDQHRGFQSSIFTSQVH-FNLVTH-KMSKS
+	ile_euk_md__mori12A_aa	SFYDPPFATGLPHYGHILAGTIKDVVTRY-ERRFGWDCHG-MKYAADWENIITRMD-NDYKTLY-DCWFESGSMPY-FIAEGIDQTRGFYTLIVLSTAL-FNLIAN-KMSKR
+	ile_euk_md_gigas13A_aa	TFYDPPFATGLPHYGHILAGTIKDVVTRW-ERRFGWDCHG-MRYSTEWEEIVTRLD-NDYKTMY-DCWFESGSMPY-FIAEGIDQTRGFYTLLVLSTLL-FNLIVN-KMSKR
+	ile_euk_md_incut14A_aa	WQLSPPYANGQLHLGHAMNKILKDIVVRH-HFVPGWDCHG-REAMEMQRKEFMSWD-HPYLTMT-DVWFDSGTSWM-LVLEGSDQHRGFQSSLLTSVIA-FTIVTH-KMSKS
+	ile_euk_md_wa_ii15A_aa	SFYDPPFATGLPHYGHILAGTVKDVVTRY-ERRFGWDCHG-LRYTQEWKSTVERVD-NGYKTMD-DCWFESGSMPY-FVGEGLDQTRGFYTLMVLSTAL-FNIIVN-KMSKR
+	ile_euk_md_incut16A_aa	TLHDPPYANGDTHLGHALNKILKSIIVNY-RYVPGWDCHG-LKTVKAQREQFKRYD-APYLTLE-DVWFDSGTSWA-LYLEGSDQHRGFQSSLLTAAAA-YAVLTH-KMSKS
+	ile_euk_md_ideum17A_aa	SFYDPPFATGLPHYGHILAGTIKDTITRY-ERRFGWDCHG-MKYSHEWEIVVNRMD-NNYKTMD-DCWFESGSMPY-FIAEGLDQTRGFYTLLVLSTAL-FNLIVN-KMSKR
+	ile_euk_md_opcut18A_aa	IFYDPPFATGLPHYGHILAGTIKDIVTRY-TRRFGWDCHG-QRYVDEWEKTVVRMD-NDYKTMD-DCWFESGSMPY-FVAEGLDQTRGFYTLMVLSTAL-FNLICN-KMSKR
+	ile_1ile_t_therm19A_aa	TVYEPPTANGLPHVGHAQARSYKDLFPRY-PRRAGWDTHG-FTYEKEWEAFTERID-DAYATLE-DVWYDSGAMPF-FIAEGIDQTRGFNSLHQLGVML-FNVICH------
+	ile_euk_md_mblia2A_aa	NFYDPPFATGLPHYGHLLAGTIKDVVCRY-NRRFGWDCHG-MRYSQEWEAIVKRSD-RDYKTMN-DCWFESGSMPY-FIAEGLDQTRGFYTLLILSTAL-SNCIVN-KMSKR
+	ile_euk_md_theta3A_aa	TFYDPPFATGMPHYGHILAGTIKDCITRY-ERKWGWDTHG-MRYASEWKRVVRRLD-NDYKTLD-DCWFESGSMPY-FIAEGLDQTRGFYTLMVIGTAL-FNVIVN-KMSKR
+	ile_euk_md_piens4A_aa	TFYDPPFATGLPHYGHILAGTIKDIVTRY-DRRFGWDCHG-MRYSAEWKSTVSRLD-NDYKTLY-DCWFESGSMPY-FIAEGIDQTRGFYTLLVLATAL-FNVIVN-KMSKR
+	ile_euk_md_incut5A_aa	SFYDPPFATGLPHYGHILAGTIKDMVTRF-IRRFGWDCHG-TRYVDEWRKTVERVD-NDYKTMH-DCWFESGSMPY-FVSEGLDQTRGFYTLLVLGVAL-FNVAVS-KMSKR
+	ile_euk_md_ranae6A_aa	TFYDPPFATGLPHFGHILAGTVKDVITRY-DRRFGWDCHG-MKHSSEWKDTVEKMD-NSYKTMD-DCWFESGCMPY-FIGEGIDQTRGFYTLHVISTLL-FNVIVN-KMSKK
+	ile_euk_md_uberi7A_aa	SFYDPPFATGLPHYGHILAGTIKDVVTRY-ERRFGWDCHG-MKYSSEWEQIITRLD-NDYKTMN-DCWFESGSMPY-FIAEGLDQTRGFYTLLVLGTAL-FNVIVN-KMSKS
+	ile_euk_md_phora8A_aa	VLHDPPYANGDLHMGHVLNKVLKDIINKY-CFVPGWDCHG-KKQIKIQKAGFIRWE-KPYLTFN-DVWFDSGSSWA-LYLEGSDQHRGFQSSLLTSTAV-YKVITH-KMSKS
+	ile_euk_md_incut9A_aa	ILHDPPFANGNLHMGHVLNKALKDMIVRY-SFVPGWDCHG-EGAIKEQKTDFVRLD-HPYLTLH-DVWFDSGTSWN-VYLEGSDQHRGFQSSLLTKITT-FTIITH-KMSKS
+	ile_bact_m_ensis10A_aa	VAHDPPYANGDIHLGHLLNKVLKDLVVRS-PYTPGWDCHG-GKHVKTQRQQMERLD-NPYLTMD-DVWFESGSSWH-LYLEGSDQHRGFQHSLLPALAV-FGVLTH-KMSKS
+	ile_bact_m_ormis11A_aa	VLHDPPYANGDIHMGHALNKVLKDFIVRS-PYVPGWDTHG-WQQIEGQKTQFKRLD-NPYVTLK-DVWFDSGSSHQ-LYLEGSDQYRGFNSSISTAVAV-YGVLSH-KMSKS
+	ile_bact_m_gatus12A_aa	VLHDPPYANGALHMGHALNKTLKDIINKY-RYVPGWDCHG-LAQVEQQSQSFQRYD-APYLTLT-DVWFDSGSSWA-LYLEGSDQHRGFQSSLLTSVAC-YRVLTH-KMSKS
+	ile_bact_m_rferi13A_aa	TFYDPPFATGLPHFGHFVPNTIKDIIPRY-KRNFGWDTHG-LRYTEEWKNIILRLD-KGYKTMD-DCWFESGAMPY-FIAEGLDQTRGFYTLTILGTAL-FNVIVN-KMSKS
+	ile_bact_m_itima14A_aa	VLHDPPYANGHIHIGTALNKILKDIVVKY-PYVPGWDTHG-LRFVDIQREEFKRLD-NPYITLK-DVWIDSGASFE-MYLEGSDQHRGFHSSIFLAVAK-YEVLTH-KMSKS
+	ile_bact_m_gilis15A_aa	VFFEPPSANGMPGIHHVMARSIKDIFCRY-KRKAGWDTHG-MKFTKEWEDLTHKMD-HPYITYD-DVWFDSGAMPY-FIAEGVDQTRGFFTLHAIATMV-YAVISN-KMSKR
+	ile_bact_m_ensis16A_aa	ILHDPPYANGDIHLGHAVNKILKDMVVKS-PYVPGWDCHG-TEQIEKQKAGFKRLE-NPYKTMN-DVWFDSGTTHW-LYLEGSDQHRGFHSSLLTASML-YGLLTH-KMSKS
+	ile_bact_m_egans17A_aa	VFYEPPTANGRPGLHHTISRSFKDVILRY-GRREGWDTHG-WEYIQEWKAFTKRIS-DAYITYE-DCWFDSGSMPV-YICEAVDQTRGFYTLHAVSTLL-FNVICL-KMSKS
+	ile_bact_m_ejuni18A_aa	TLHDPPYANGHIHIGHALNKILKETIIKT-RFTPGWDCHG-SEFVDIQREEFKDLD-KPYLTMK-DVWFDSGSTFN-MYLEGSDQHRGFQSSLLVGTAI-YSILTH-KMSKS
+	ile_bact_m_opcut19A_aa	TLHDPPYANGSLHIGHALNKILKDIINRY-RCIHGWDCHG-LKAMQEQCASLKRWD-NSYLTLK-DVWFDSGSSWA-LYLEGSDQHRGFQSSLLTSVAT-YTVLTH-KMSKS
+	ile_1qu2_s_ureus2A_aa	ILHDPPYANGNLHMGHALNKILKDFIVRY-PYVPGWDTHG-LEQIELQKKDFRRLD-DPYITLK-DVWFDSGSSHR-MYLEGSDQYRGFNSSITTSVAT-YFLLSH------
+	ile_bact_m_opcut20A_aa	TFYEPPSANGEPGIHHVLSRALKDLFCRY-KRKSGWDTHG-MRYTDQWEKLTTELD-NPYITYD-DVWFDSGAMPY-FIAEGVDQTRGFFTLHAIAVML-FNVVSN-KMSKR
+	ile_bact_m_licus3A_aa	VLHDPPYANGHIHVGHALNKILKDVINKY-NFIPGWDCHG-KKYVNIQREDFVRLD-HPYLTMD-DVWFDSGCSHA-LYLEGSDQHRGFQASLLESVGS-YAVLTH-KMSKS
+	ile_bact_m_urans4A_aa	VFYEPPTANGKPALHHVLARSFKDLFPRF-TRKGGWDTHG-WETIQDWNELTERMD-DPYITYQ-DVWFDSGSMPY-YICEAIDQTRGFYSLHAISTML-YNVICL-KMSKS
+	ile_bact_m__coli5A_aa	ILHDPPYANGSIHIGHSVNKILKDIIIKS-PYVPGWDCHG-ATQVDGQRKDFIRLD-HPYLTMD-DVWFDSGSTHS-MYLEGSDQHRGFMSSLMISTAM-YQVLTH-KMSKS
+	ile_bact_m_opcut6A_aa	SFLDPITANNPMGVHHAWGRTYKDVYNRY-RYQQGFDCQG-NKFARVQTDQSIRLN-RTYFTMS-NPWLDAGIVAF-FITESFGQFRNFYALLAMSTMM-FTLLGH-EMHKT
+	ile_bact_m_hilus7A_aa	VLHDPPYANGDIHMGHALNKILKDIIVRY-PYVPGWDTHG-YEQIDNQRRQFKRLD-NPYITLK-DVWFDSGSSHQ-LYLEGSDQYRGFNSSLSTAVAV-YGVLSH-KMSKS
+	ile_bact_m_iacus8A_aa	VFFEPPTANGRPGIHHVEARSSKDIMVRF-GARGGWDTHG-WDYIQEWEKLTQRID-DPYITYD-DCWFDSGAMPV-FISEAIDQTRGFYTLHAVSTLL-YNVICL-KMSKS
+	ile_bact_m_obile9A_aa	ILHDPPYANGDLHIGHALNKILKDIVVRY-PFVPGWDTHG-LSQIKNQKKQFLTMD-DYYQTLD-DVWFDSGTTSM-VYLEGSDQYRGFNSSLINSVVY-FKLVSH-KMSKS
+	leu_1wz2_p__hori1A_aa	YITVFPYLSGHLHVGHARTYTIPDVIARF-LFPMAWHITG-KYFMKAAKETFIRAD-REFYTTS-ESLSDSTIYMA-WRCSGKDLIPNLTFFIFNHVAI-PGIAVN------
+	leu_arch_m_hicus10A_aa	FLTVYPYPSGAMHIGHGRTYTVPDVYARF-LFPMAWHVTG-EYFSREYRSVMEDMD-REFKTTD-EPLTDSTIYMA-WRLSAKDLIGNLTFHIFHHSAI-PGAVVF-KMSSS
+	leu_arch_m_itans11A_aa	FVTAFPYVNGYLHLGHLVTYIKAEITARY-LFPMGFHATG-EYFSKAAKEDLSKLE-RSF-TTV-ESLSDSTIYTA-IRFSAQDLIANLVFYIFHHVAI-PGIAVS-KMSKS
+	leu_arch_m_hilum12A_aa	FVTAYPYPNGAIHIGHGRTYLIADVLARF-LFPMGFHYTG-RYFHEQSKRAMQKFD-REFTTID-ESLSDSTIYMA-SRNSGKDLIPNLTFFIFNHVAI-PQIVAN-KMSKS
+	leu_arch_m_aneyi13A_aa	FITAFPYPNSPLHLGHSRTYTITDVYARY-LFPMGFHYTG-RYFHNDAKMAMIESD-REFTTID-ESLSDSTIYMA-SRHSGRDLVPNLTFFIFNHAAI-PQIVVN-KMSKS
+	leu_arch_m_ultum14A_aa	FITAFPYPNSPLHLGHSRTYTITDAYARF-LFPMGFHFTG-RYFSRDAKQAMIESD-REFTTID-ESLSDSTIYMA-SRHSGRDLVPNLTFFIFNHAAI-PQIVVN-KMSKS
+	leu_arch_m_arius15A_aa	FITVFPYTNSPLHIGHGRTYITADIYARY-LFPFAFQFTG-AYFKEDMRNTALTLD-REFTTID-DSLSDSTIYTV-SRHSGRDLVQNIPYYLYHHVGV-PRIVLN-KMSKS
+	leu_bact_r_marinus		FITVYPYTNAPLHIGHGRTYTIGDIIARY-LFPMAFHITG-VFFAERVHMDFDALD-RRFHTGE-ESLSDSTIYMA-QRHTGIAHISNLSFFIYHHIAI-PMITLN-KMSKS
+	leu_arch_m_hilum17A_aa	MITVWPYTNGSLHVGHGRTYTLGDIIARY-LFPMGFHQSG-DYFSNAIINDFKHLD-RRFTSAD-ESLSDSTIYPA-IRLTAIPHISNLSFYVLNHAAI-PGLIIS-KISKS
+	leu_arch_m_anium18A_aa	MITVWPYTNGSLHVGHGRTYTLGDIIARY-LFPMGFHQSG-DYFSNAIINDFKHLD-RKFTSAD-ESLSDSTIYPA-IRLTAVPHISNLSFYVMNHAAI-PGLIIS-KISKS
+	leu_euk_md_labra20A_aa	MGTVFAYMNGSLHAGHGFSISKIEFNAGF-LFPVGFHCTG-SYYPHITKDDNIAFD-RQFITTD-ESLSDSTIYMS-IRSSGKDLIPNLTFCLYNHAAI-PSMRAN-KMSKS
+	leu_arch_m_gidus3A_aa	FLTIYPYLNGNLHAGHTRTFTIGDAFARY-LFPLGFHVTG-EYFSREALQALKSID-RVFTTTD-ESLSDSTIYMA-LRSSGKDLVANLLFYLFHHVAI-PAIAVN-KMSKS
+	leu_arch_m_um_sp4A_aa	FVTVYPYPSGGMHIGHARTYTVPDVYARY-LFPIAWHVTG-RYFIENYKENMQSLD-REFTTND-EPLSDSTVYMS-YRISGNDLISNLTFYLFHHTDL-PGIAVA-AMSSS
+	leu_arch_m_orans5A_aa	FITIYPYLNGNLHAGHTRTFTIGDVVARH-LYPMGFHVTG-DYFKREAEKAMRMID-RKFTTTD-ESLGDSTIYMS-LRSSGKDLVPNLLFFLFHHVAL-PALAVN-KMSKS
+	leu_arch_m_ankai6A_aa	FITAFPYLNGVLHAGHLRTFTIPEITARY-LWTFGFHVSG-NYFSKKATESFKKMD-RNFKTDD-ESLSDSTLYMA-WRCSAKDLVPNLTFMIFNHVAL-PGIVVN-KLSKS
+	leu_arch_m_gatei7A_aa	YLTVYPYPSGAMHVGHGRTYIVPDVVARF-LYPMAFHVTG-NHFSNEYERVMTQAD-RRFTTVE-EPLSDSTIYMA-FRFSAKDLISNLTFQLFHHCTI-PGMVVF-KMSSS
+	leu_arch_m_schii8A_aa	FITAFPYLNGVLHAGHLRTFTIPEVVARF-LWTFGYHVTG-EYFSKKAEEAFKRMD-RNFKTDD-ESLSDSTIYPA-WRCSAKDLIPNLTFYIFNHVAI-PGIVVN-KLSKS
+	leu_arch_m_dleri9A_aa	YITVYPYPSGSMHVGHARTYLVPDIYARF-LFPMAFHVTG-EYFAREYEENMKRMD-RKFTTVD-EPLSDSTVYMA-WRLSAKDLVTNLTFFIFHHAAL-PGIVVF-KMSSS
+	leu_2v0c_T_thermophilus	YVLVFPYPSGDLHMGHLKNYTMGDVLARF-LHPMGWDAFG-YANIRQAKESLRLMD-REVTTCE-DTFFDSSWYYL-QYIGGVEHAVLLLYSRFFTKFL-FGLFTQ------
+	leu_bact_C_thermalis	YALSFPYPSGSLHMGHVRNYVITDVIARL-LHPMGWDAFG-QRNIAQMRDQLKRLD-KELATCS-DTFIDSSWYFL-QYVGGIEHAILLLYSRFFTKVL-FRLLTQ-TMSKS
+	leu_bact_C_Amoebophilus_asiaticus	YILDFPYPSGELHVGHPLGYIASDIVARY-LHPMGFDAFG-AKNIGRYKQQLCQLD-RCISTCE-PGWAGSSWYFF-LYLGGAEHATGLLYARFWTQFL-FELIHQ-KMSKS
+	leu_bact_D_radiodurans	YALTFPYPSGNLHIGHWYANVAPDARARW-LFPMAFDAFG-YANIERMTGQFSRMD-RKFATCD-DTFVDSSWYMY-LYTGGIEHAILLLYSRFWTKVM-FRLRNQ-KMSKS
+	leu_bact_E_coli	YCLSLPYPSGRLHMGHVRNYTIGDVIARY-LQPIGWDAFG-YDNIAYMKNQLKMLD-RELATCT-DTFMESSWYYA-IYIGGIEHAIMLLYFRFFHKLM-AQLLCQ-KMSKS
+	leu_bact_G_obscuriglobus	YILDFPYPSGGLHVGHPEGYTATDILARF-LHPMGWDAYG-QQNINTFRRQIKALD-REVDTTD-PQWAGSCWYFL-LYVGGAEHAVLLLYARFWHKVL-FRLVNQ-KMSKS
+	leu_bact_G_stearothermophilus	YVLDFPYPSGGLHVGHPEGYTATDILARM-LHPMGWDAFG-QKNIDNFRRQIKSLD-REINTTD-PQWAGSCWYYL-VYIGGAEHAVLLLYARFWHKFL-FKLFNQ-KMSKS
+	leu_bact_M_mobile	YALDFPYPSGGLHVGHPEGYTATDIISRY-LHPIGWDAFG-LKNIENFRRQLKSLD-KEVNTTD-PQWAGSCWYYL-LYIGGQEHAVLLLYARFWHKIL-FKLINQ-KMSKS
+	leu_bact_M_smegmatis	FVQDFPYPSGGLHVGHPLGYIATDVYARY-LHALGFDAFG-EANIVNFRRQLGRLD-RSFSTTD-PQWAGSSWYEL-LYVGGVEHAVLLLYSRFWHKVL-YRLVNQ-KIGKS
+	leu_bact_S_aureus	YALDFPYPSGGLHVGHPEGYTATDIISRY-LHPMGWDAFG-KKNIQTFKRQIKELD-REVNTTD-PQWAGSCWYYL-LYIGGVEHAVLLLYARFWHKVL-FKLFNQ-KMSKS
+	leu_bact_S_elongatus	YALSFPYPSGNLHMGHVRNYTITDAIARV-LHPMGWDAFG-YQNVAQMREQLKQLD-REVTTCS-DTFMCSSWYYL-QYVGGIEHAILLLYSRFFTKVL-FRLLTQ-KMSKS
+	leu_bact_T_maritima	YALVFPYPSGTLHVGHVKNYVIGDIVARY-LHPFGYDAFG-RKNIATIRQQVKKLD-REIATCD-DTFVDSSWYFL-QYIGGVEHAVLLLYSRFVTKVL-FNLFTQ-KMSKS
+	leu_bact_T_thermophilus	YVLVFPYPSGDLHMGHLKNYTMGDVLARF-LHPMGWDAFG-YENIRQAKESLRLMD-REVTTCE-DTFFDSSWYYL-QYIGGVEHAVLLLYSRFFTKFL-FGLFTQ-VMSKS
+	leu_bact_A_aeolicus_ALPHA	YVLEFPYPSGRIHMGHVRNYTIGDAIARY-LHPMGWDAFG-EYNIDYMKKQLKILD-REIATCD-DTFFDSSWYFL-VYIGGIEHAVLLLYARFFQKFL-FKLITQ-KMSKS
+	leu_bact_B_burgdorferi	YILDFPYPSANLHVGHPEGYTATDIFGRY-LHPIGFDSFG-EENINKFKKQIKALD-REIRTHE-PQWAGSCWYYL-LYIGGAEHTVLLLYSRFWHKVL-FKLINQ-KMSKS
+	leu_bact_B_licheniformis	YALDFPYPSGGLHVGHPEGYTATDILSRM-LHPMGWDAFG-EQNIDNFRRQIRALD-REVNTTD-PQWAGSCWYFL-MYIGGAEHAVLLLYARFWHKFL-FQLYNQ-KMSKS
+	leu_bact_B_thailandensis	YCVSLPYPSGKLHMGHVRNYTINDVMYRY-LMPMGWDAFG-YDNIAYMKKQMQSMD-REVTTCK-DTFVDSAWYFS-QYIGGIEHAILLLYSRFWAKVM-ANLLTQ-KMSKS
+	leu_bact_C_aggregans	YVLDYPYPSGDLSVGHCRNYVPTDVVARY-LHPMGWDAFG-RRYSANYKRQMNMLD-REITSSE-GTFACSSWYFL-MYVGGAEHAVMLLYARFWTKVL-FCLRNQ-KMSKS
+	leu_bact_C_jejuni	YILSFPYPSGRIHMGHVRNYTIGDALARY-LHPIGFDSFG-YENIAYMKKELFSLS-RMLATSD-DTFFESSWYFA-QYIGGIEHAILLLYARFFQKAL-FRLLTQ-KMSKS
+	leu_euk_md_mblia10A_aa	FVTFYPYMNGRLHLGHLFSATRAEFAVGY-LFPFGFHVTG-KHFPALCYKDMCKFD-RSMITTD-ESLSDSTIYNA-LRCSGKDLIPNLTMMLYNHTAI-PGMRAN-KMSKA
+	leu_euk_md_incut11A_aa	YVLDFPYPSGALHVGHPEGYTATDILSRY-MHPMGWDAFG-KKNIDRFREQLQSLD-REVSTTD-PQWAGSCWYYL-LYLGGAEHAVLLLYARFWHKVL-FRLVNQ-KMSKS
+	leu_euk_md_incut12A_aa	FVTFYPYMNGRLHLGHTFSLSKCEFAVGY-LFPFGLHCTG-DYFPPLAIQDLKRMD-RSFITTD-ESLSDSTIYMA-LRVSGKDLVPNLSYYLYNHVAM-PAVRAN-KMSKS
+	leu_euk_md_antum13A_aa	LTTFFPYMNGKLHLGHGFSLTKAEFASRF-LWPFGFHVTG-DYFPPIAMEDLKSFD-RSFMTTS-DSLSDSTIYMA-LRCSGKDLIQNLTMFLYNHAAI-PAIFCN-KMAKS
+	leu_euk_md_ranae14A_aa	FITFYPYMNGKLHLGHLYSISKADFMSYY-LFPLAFHCTG-KTFPKLCISSLKTFD-RSFVTTD-DSLSDSTIYMA-LRVSGKDLIKNLLFFMFNHVAL-PRIFTN-KMSKS
+	leu_euk_md_phora16A_aa	YALSFPYPSGKLHMGHVRNYVITDVIARA-LHPMGWDAFG-NTNIQQMRKQLDQLD-REISTCN-DTFMCSSWYFL-HYVGGIEHAILLLYSRFFTKVL-FRLLPQ-KMSKS
+	leu_euk_md_setta18A_aa	YALAFPYPSGALHMGHVRVYTISDSVARF-IHPMGWDAFG-IRNIAYMKEQLDALD-REVTTCS-DTFVDSAWYFL-LYIGGIEHAVLLLYARFVNMAA-FKLLAQ-KMSKS
+	leu_euk_md_nalis19A_aa	MITFFPYMNGRLHLGHLFTISKAEFAVRY-LFPFAFHCTG-HYFPPYGVKDMKQFD-RSFITTD-DSLSDSTIYTA-CRVSGKDLVTNLTMWLYNHAAV-PAVRAN-KMSKS
+	leu_euk_md_labra2A_aa	MGTVFAYMNGSLHAGHGFSISKIEFNAGF-LFPVGFHCTG-SYYPHITKDDNIAFD-RQFITTD-ESLSDSTIYMS-IRSSGKDLIPNLTFCLYNHAAI-PSMRAN-KMSKS
+	leu_euk_md_minis3A_aa	YVLPFPYPSGKMHMGHVRVFSISDCISRY-IHPMGWDAFG-KNNVEEMRKQISGLN-REVNTST-DTFMDSSWYFY-YYVGGSEHSIMLLFARFVARFL-FHLITQ-KMSKS
+	leu_euk_md_incut4A_aa	FVTFYPYMNGRLHLGHTFSLSKCEFAVGY-LFPFGLHCTG-EYFPPLAVQDLKRMD-RSFITTD-ESLSDSTIYMA-LRASGKDLIPNLSYFLYNHVAM-PAVRAN-KMSKS
+	leu_euk_md_incut5A_aa	IVTFYPYMNGRLHLGHTFSLSKAEFGVGY-LFPFGLHCSG-KYFPPHCKEDLRKMD-RSFLTTD-ESLSDSTIYMA-LRVSGKDLVPNLTYYIYNHVAI-PSIRAN-KMSKQ
+	leu_euk_md_incut6A_aa	YILAFPYPSGHLHMGHVRVYTLSDCLARF-LHPMGWDAFG-IKNIEYMRKQLQRLD-KEVTTCA-DTFVDSSWYFA-IYVGGVEHAILLLYARFLTRFF-FRLLTQ-KMSKS
+	leu_euk_md_incut7A_aa	YILDFPYPSGALHVGHPAGYTATDILARL-LHPIGWDAFG-ERNVNRFRQQLQSLD-REVSTTD-PQWAGSCWYYL-LYVGGAEHAVLLLYARFWHKVL-FRLVSQ-KMSKS
+	leu_euk_md_tatus9A_aa	YGNFFPYMNGYLHLGHAFSLSKLEFAAAY-LLPFAFHCTG-TFFPPLAVEDLKAFD-RTFVTTD-ESLSDSTLYMA-LRVSGKDLIQNLTFSIYNHTAL-PGFRCN-KMSKS
+	met_1rqg_p_byssi1A_aa	MVTSLPYANGPIHAGHLAAYLPADIFVRY-VFICGTDEHG-DEFHEQIKITFQRAD-FFGRTEL-YVWFEAPIGYI-IHFIGKDNIPFAIFWPAFLMAY-PDIPAN------
+	met_arch_m_hilum10A_aa	LVNCLPYANGPLHIGHIAAYLGADVFVRY-LYVSGSDEYG-DIYYEEHLRTFENLD-IFMRTTW-YVWFEALIGYI-YYFIGKDNIPFAIIWPAMLMGY-PDIPAN-QFSKS
+	met_arch_m_anium11A_aa	LVNCLPYANGPLHVGHIAAYLGADVFVRF-LYVSGSDEYG-DRYYAEHIETFKKLD-IFMRTTY-YVWFEALIGYI-YYFIGKDNIPFSIIWPAMLLGY-PDIPAN-QFSKS
+	met_arch_m_incut12A_aa	VVTALPYANGDLHIGHLRSYVSADAFTRA-VYVCGSDMHG-LRHHKQYRETFPKFD-QYGHTHD-YVWVDAPIEYV-VHVIGRDIIQHTVYWPAMLEAY-PAVCAA-GLSTS
+	met_arch_m_incut13A_aa	LVTCLPYANGKAHIGHLRTYVPADIFARS-TFVCGSDTHG-EIYHKHFDETFKQLD-AFGTTDD-YVWVDAPIGYI-VHFIGGDITYHCIFWPAMLNGY-PAVVAS-KFSKT
+	met_arch_m_incut14A_aa	LLTTLAYTNGPLHLGHARTYIPADIIKRY-IHVGGTDNHG-NKYHNEIKRDLDNLD-SYGKTHS-YVWLEAPIGYI-WHFIGKDITVHAVFWPGMLLGY-PSIFSG-KMSTS
+	met_arch_m_incut15A_aa	LVTCLPYTNGPCHLGHLRTYVPADFYVRF-VFICGSDNHG-ERYHTHFSDTFTKMD-HFGMTDD-YVWVDAPIGYI-THFIGQDITYHCVFWPAMLHGY-PAVVAS-KFSKS
+	met_arch_m_incut16A_aa	LITTLAYTNGPLHLGHARTYIPADIIYKY-IHVGGTDNHG-EKYHNEIKEDLDLLD-AFGKTHS-YVWLEAPIGYI-YHFIGKDITVHAVFWPGMLIAL-PAVVSG-KMSTS
+	met_arch_m_incut17A_aa	LVTTLAYTNGPLHIGHVRTYLPADVYTRF-IHIGGTDNHG-EKYHEMIKEDLERLD-EFSREFN-YVWFDAPIGYV-VHFIGKDIIVHALFWPAMLMGL-PTIVAG-KMSTS
+	met_arch_m_incut18A_aa	FITCLPYANGPTHLGHLRTYIPADIYARY-LFVCATDEHG-TRYHEMIRGDLERCD-SFTRTTD-YVWGEAFLGYI-IHFIGKDIIYHAIFWPALLMAY-PNIIAG-KMSTS
+	met_arch_m_incut19A_aa	LVTALPYSNGPIHLGHIAAYLPADIFYRF-LYICGSDQYG-SFYRKIQEEIFKKFD-IYSGTES-YVWFDAPIGYI-VHFIGKDNIPFTIFWPALIIGY-PQVFGN-KFSKS
+	met_arch_m_incut2A_aa	LVTCLPYANGKAHVGHLRTYVPADVYVRY-VFVCGSDCHG-DIYHEHFIKIFDALD-FYGRTDS-YVWVDAPIGYI-IHFIGLDIVYHCIFWPAMLKGY-PAVVAS-TFSKS
+	met_arch_m_alpha3A_aa	VIGSWPYVQTVPHLGNMISVLSADVYARY-VFVSGSDVHG-MKMHAIVAELFKKWD-LYTHTHS-YVWFEAVLGYI-VFFVGKDNVPFVIILPALLLAY-PTTAST-KFSKS
+	met_arch_m_incut4A_aa	VVTSWPYVNNVPHLGNLISILSADVFARY-VFVSGSDEHG-DQAHEYVSKLFQEYD-NYTRTES-YVWFDALLGYV-VYFIGKDNIPFAIILPAMFMAY-PYISST-QFSKS
+	met_arch_m_incut5A_aa	MVTSLPYANGPIHAGHLAAYLPADIFVRY-VFICGTDEHG-DEFHEHIKITFQRAD-FFGRTEL-YVWFEAPIGYI-IHFIGKDNIPFAIFWPAFLMAY-PDIPAN-KFSTS
+	met_arch_m_ultum6A_aa	VVASWPYVNNVPHLGNLISVLSADVFARY-VFVSGSDEHG-DQAHEYVSRLFREFD-NYTRTES-YVWFDALLGYI-VYFIGKDNIPFAIIFPAMLMAL-PYIAST-QFSKS
+	met_arch_m_incut7A_aa	LVTALPYANGPIHIGHLAAYLPADLYCRY-LFICGSDELG-DRYHPMIRDSFARFD-YYGRTTS-YVWFDAPIGYI-IHFIGKDNIVFCLMFPAMLMAH-PNVPAN-KLSTS
+	met_arch_m_arius8A_aa	LVTSWPYVNAVPHLGNLISILSADVFARY-VFVSGSDEHG-DQAHAYDKKLFDTWD-NYSRTES-YVWFEALLGYL-YYFIGKDNIPFAVILPAMLMAS-PVIAAT-KFSKS
+	met_arch_m_rinus9A_aa	YITTIYYPNAPPHIGHAYTTVFADVLARY-FFMTGNDEHG-DEMADVYKKYWELLD-YFIRTTD-YVWFDALLNYI-HHVIGKDILWFTVVWFSILKAL-PKLLVH-KIGKS
+	met_1pfv_e__coli1A_aa	LVTCLPYANGSIHLGHMLEHIQADVWVRY-NFICADDAHG-GEMSQEHQTDFAGFD-NYHSTHS-YVWLDAPIGYM-YHFIGKDIVYFSLFWPAMLEGS-PNLFVH------
+	met_euk_md_incut11A_aa	LITSLPYVNNVPHLGNIICVLSADVFARF-LFICGTDEYG-DKYHAIHKEVYDWFD-YFGRTST-YVWFDATIGYI-YQFMAKDNVLFSIIFPSSLIGT-VHLSAT-QFSKS
+	met_euk_md_incut12A_aa	KVSTIYYVNGEPHLGHIYSTALADAICRW-FLTTGTDEHG-DSIASVFQSELSHYG-RFIRTTD-YVWIDALTNYL-LHVFGKDIAKFCYFYPCLLLAL-PRMICH-KMSKS
+	met_euk_md_incut13A_aa	LITSLPYVNNVPHLGNIICVLSADIFARY-LYICGTDEYG-DKYFEIHNNVYRWFD-YFGRTST-YVWFDAPIGYM-YQFMAKDNVPFVVMFPATVLGV-VHLFAT-KFSKS
+	met_euk_md_incut14A_aa	LITSLPYVNNVPHLGNIICVLSADVFSRY-LYICGTDEYG-DKYNKIHAEIYDWFD-KFSRTSI-YVWFDAPIGYI-YNFLGKDNVPFSVIFPCSLLGA-VHMSAT-KFSKS
+	met_euk_md_incut16A_aa	YFTTINYTNGTPHMGHAYEIVTSDILVRI-RFQTGTDEHG-DENVKQFKNMNEKLD-RFIRTTD-YVWFDALTNYI-VHIVGKDITWFSVIWPAMLLSV-PTIFAH-KMSKS
+	met_euk_md_incut17A_aa	RLRTGTRVNAEPHMGSAYTTMAADAITRF-SFVTGTDEHG-DGVVASFKGLWEEMD-SFIRTTD-YVWFDALLGYM-VHLVGKDILRFALYWPGMLLSA-PKIFAH-KMSKS
+	met_euk_md_incut18A_aa	LITSLPYVNNVPHLGNIICVLSADVYARY-IYICGTDEYG-DKYHEIHKEIYEWFD-KFGRTST-YVWFDAPIGYI-VQFMGKDNVPFTVIFPASLIGS-LNLSTT-KMSKS
+	met_euk_md_incut19A_aa	LITSLPYVNNIPHLGNIICVLSADVFARY-IYICGTDEYG-DKYHAIHKEVYKWFD-EFGRTSS-YVWFDAPIGYV-YQFMGKDNVPFTVMFPSTLLGT-MTISVT-KFSKS
+	met_euk_md_incut2A_aa	LITSLPYCNNVPHLGNLISLLSADVFSRY-LYVCGTDEYG-DKYNALHRETYDWFD-LFGRTST-YVWFDACIGYV-YQFMGKDNTYFSVLFPSSQLGD-LHLSTT-KFSKS
+	met_euk_md_opcut3A_aa	YLTTIYYVNGKPHIGHVFTTLLADTLKRF-YLMTGTDEHG-DNMAKTFETFLENFD-VFMRTTM-YVWIDALAIYL-VQFLGKDIARFCVYWLAFLMGA-PRFFIH-KIGKS
+	met_euk_md_opcut4A_aa	LLALESSSAFHTAMGSAYPTIAADILADY-VFVTGSDEHG-DAMVGEFKQLWDKLD-SFIRTTD-YVWFDALLGYI-VHIIGKDILRFAVYWPAMLMSA-PYIHSH-KMGKS
+	met_euk_md_incut5A_aa	-ITSLPYVNNVPHLGNIICVLSADVFARY-LYLCGTDEYG-DKYHIIHADIYRWFD-IFGRTTT-YVWFDATIGYL-YQFMAKDNVPFSLVFPCSALGA-VHLIAT-KFSKS
+	met_euk_md_incut6A_aa	FATTIYYVNASPHIGHVYSTLIVDVLGRY-FVMTGTDEHG-TSVSSEFKQCFKEMN-YFIRTTN-YVWLDALFNYY-VHVVGKDILKFAIYWPAFLMSA-PRLVSH-KISKS
+	met_euk_md_ranae7A_aa	IITSLPYVNNQPHLGNIICVLSADMYARF-VFLSGTDEYG-EENRIIHKKIYDWFD-FFGHTTS-YVWFDAVIGYF-VQFMGKDNVFFTIVFPSLIFAT-IKLSVT-KFSKS
+	met_euk_md_uberi8A_aa	ITTPIYYVNGPPHIGHLFTTILSDSIYLY-IFSTGTDEHG-EKISETFKTMMKDFT-HYLRTSA-YVWLDALTNYL-VQIIGKDILKFGIYWPAFLMAL-PTILVH-KMSKS
+	met_euk_md_phora9A_aa	VTTPLYYVNDRPHLGSAYTTLACDALARY-QRLIGCDEHG-QQVSEEYHHLWSRWD-RFIRTTD-YVWFDALIGYL-VHVIGKDILRFAVYWPAMLMSA-PMVFGH-KMGKS
+	met_bact_m_incut10A_aa	YITTIYYPSGNLHIGHAYSTVAGDVIARY-RYLTGTDEHG-DEMIAGIKQLWAKLD-DFIRTTE-YVWIDALVNYI-IHLMAKEIVRFSIIWPILLMAL-PKVFAH-KMSKS
+	met_bact_m_gatus11A_aa	ALTTLYYVNDVPHIGSAYTTIAADAIARF-LMITGSDEHG-NAIVARFQDLWQLLD-RFSRTTD-YVWFDALLGYV-LHLIGKDILRFAVYWPAMLLSA-PRVFGH-KMGKS
+	met_bact_m_incut12A_aa	YITTIYYVNSEPHIGSAYTTIVADIIARY-FFLTGTDEHG-DELAEKFKRLWKELD-YFIRTTD-YVWVDALINYI-LHLIGKEINRFSIIWPAMLMSV-PKVFAH-KISKS
+	met_bact_m_incut13A_aa	LVTALPYVNNIPHLGNLVQVLSADAFARY-LYVCGTDEYG-NKYYEIHKSIYKWFD-IFGRTTN-YVWFDAPIGYI-VQFIGKDNILFTIIFPCIEIGS-LQLSSS-KFSKS
+	met_bact_m_incut14A_aa	TVTSLPYANGPVHIGHLAVYVPADIYVRY-LFIGGSDEHG-DRYHFLIKKSFEEFD-VYSRTSS-YVWFDAPIGYI-VHFIGKDNIVFCIVFPAMLKAE-PNVPSN-KISTS
+	met_bact_m_incut15A_aa	YITTIYYPSGKLHIGHAYTTVAGDAMARY-RYLTGTDEHG-DRAAEDIQQLWKKLD-DFIRTTE-YVWIDALFNYI-VHLVGKEIVRFTIYWPIMLMAL-PKVFAH-KMSKS
+	met_bact_m_incut16A_aa	LVTSLPYANGQIHIGHLVEYIQTDIWART-YYIGADDTHG-ERVWREHKRDFDSFD-NFYTTDS-YVWLDAPVGYY-YHFIGKDILYFTLFWPAMLEFS-PNVFAH-KMSKS
+	met_bact_m_egans17A_aa	LVAVWPYANGPRHIGHVAFGVPADIFARY-LMVSGTDEHG-DRYNKIIGDDLYNLD-TFTRTTT-YVWFDAVIGYL-FYFMGKDNIVFTVIWPAMLLGY-PNVVSS-KFSSS
+	met_bact_m_ejuni18A_aa	YITTPIYYVNDVHLGHAYTTIIADTLARF-RFLTGTDEHG-DKISFEFKKLWDEFD-IYARTTD-YVWLDALFIYV-VHLVGKDILRFAIYWPAFLMSV-PFIGAH-KMSKS
+	met_bact_m_malis19A_aa	AVTTLYYVNDLPHIGSAYPTMAADALARF-LMITGTDEHG-DRISSSFVSLWELLD-RFSRTTA-YVWFDALLGYV-IHIIGKDILRFAVYWPAMLMSA-PRVFGH-KMGKT
+	met_1woy_t_therm2A_aa	YVTTIYYVNAEPHLGHAYTTVVADFLARW-FFLTGTDEHG-DRVSGRFKRAWDLLD-DFIRTTE-FVWFDALLNYV-WHLIGKDILKPAVFWPTMLKAA-YHLNVG------
+	met_bact_m_ticus20A_aa	TITALPYANGPIHIGHLAVYIPADIYARY-IFISGSDEHG-DKYHHLNKQNLQDLD-IFSRTSS-YVWFDAPIGYI-VHFVGKDNIVFCIIFPVMLQAH-PQVPAN-KISTS
+	met_2csx_a__aeol3A_aa	YVTTIYYVNDVPHLGHAYTTIAADTIARY-FFLTGTDEHG-DRNAERFKKLWEFLT-KFIRTTD-YVWFDALFNYI-LHLVGKDILRFTVYWPAFLMSL-PKVFAH------
+	met_2x1l_m_matis4A_aa	YITTIAYPNGVPHIGHAYEYIATDAIARF-RYLTGTDVHG-RRNSDVFQRLQEKLD-RFIRTSD-YVWVDALTNYL-LHMIGKDIIRFTVYWPAFLMSA-PRIFAH------
+	met_bact_m_incut5A_aa	FITAIDYANGTPHIGHVYEKILADAIARY-TFVMGTDEHG-DDLSEAFQGLWKKLD-FFIRTTS-YVWFDALLSYL-WHVIGKDILKPAVFWPTMLRAA-YRLVVH-KMSKS
+	met_bact_m_lobus6A_aa	FQTTIDYPNSRPHIGTAFEKLGADVQARY-FFLMGNDENT-DDMARQFREVWAALD-TFVQTSS-YVWFDALLTYI-THFIGKDITRFCALWPAMLWAA-PKVFSH-KIGKS
+	met_bact_m_incut7A_aa	YLTTIYYPSDKLHIGHAYTTVAGDAMARY-MYLTGTDEHG-DDIVAGIQELWRKLD-DFIRTTQ-YVWIDALANYI-VHLVGKEIVRFTIYWPIMLMAL-PKVFGH-KMSKS
+	met_bact_m_iacus8A_aa	LVAVWPYASGARHLGHVAFGVPSDVFARY-LMVSGTDDHG-DFYNAEIRNNLRDLD-LFTRTST-YVWFDAVIGYL-YYFMGKDNIVFSVIWPAMLIGH-PEVVSS-KISSS
+	met_bact_m_ensis9A_aa	YVTTIYYVNDRPHLGHVYTTLVADVAARF-FFLTGVDEHA-DRNALAFRETFDKLD-DFVRTSS-YVWIDALFNYL-THYIAKDILWFAAIWPALLLAL-PTVFTH-KMSKS
+	trp_euk_md_tatus1A_aa	YLYTGRGPSSELHLGHLVPFMFTKYLQDA-PLVIQLTDDE-QRLARENAKDIIACT-FIFSDFD-SFPPVQAAPSF-LIPCAIDQDPYFRMTRDVAPRI-PALIES-KMSAS
+	trp_euk_md_nalis10A_aa	YIYTGRGPSSDLHLGHITSFIINKYIQDA-WFIIQITDDE-HKYTEANIRDIIAQT-FIMRESK-LFPVRQIAPAF-LIPCGREQDPYFRFAREVAGKM-VSTIYG-KMTAS
+	trp_euk_md_labra11A_aa	IVFSGIQPTGI-HLGNYLALRNWVDLQNN-TVIYSVVGLH-RRSKLDAAASLLAIS-ILFHQDE-AYPVLQAADVL-HVPVGEDQLQHIELMRHIASSF-PEVISP-KMSKS
+	trp_euk_md__mori12A_aa	YLYTGRGPSSDMHLGHMIPFMFTKWLQDV-PLIIQLTDDE-RKMAYNNAKDIIAIT-FIFNDLD-TFPSIEAAPAF-LVPCAIDQDPYFRMTRDVAVRL-PSLIHS-KMSAS
+	trp_euk_md_aurus13A_aa	YLYTGRGPSSEMHVGHLIPFIFTKWLQDV-PLVIQMTDDE-YGYAVENAKDI-TCT-FIFSDLD-SFPAIQAAPSF-LIPCAIDQDPYFRMTRDVAPRI-PALLHS-KMSAS
+	trp_euk_md_gas_114A_aa	YLYTGRGPSSEMHMGHLIPFIFTKWLQDT-PLVIQLTDDE-NHLAFENAKDIIACT-FIFSDLD-SFPAIQAAPSF-LIPCAIDQDPYFRMTRDVAPRM-PALLHS-KMSAS
+	trp_euk_md_opcut15A_aa	RIVSGIQPTGV-HLGNYLAIKSWVQLQDP-DVLYMIVDLH-RRNITDMTIALLACS-VLFQQSK-SYPILMAADVL-HVPVGDDQQQHLELASTLANTF-PVPMYN-KMSKS
+	trp_euk_md_opcut16A_aa	YLYTGRGPSSELHVGHLVPFLFTKYLQDT-PLVIQLTDDE-HNYAYENMKDIIACT-FIFTNLE-AFPAVQAAPAF-LVPHAIDQDPYFRMVRDVAPRL-PSSIHS-KMSAS
+	trp_euk_md_ideum17A_aa	TVFSGMQPTSSLHLGNYLAMGNWLKIQDL-KLIFSIVDLH-QSNTISVAINYLACV-ILFNQSM-SYPVLMAADIL-HVPVGEDQTQHLEFTRDIAQAF-PSIITS-KMSKS
+	trp_euk_md_rerio18A_aa	YLYTGRGPSSQIHVGHLIPFIFTKWLQDV-PLVIQLTDDE-RRFTVENARDIIACT-FIFSDLE-SFPAIQAAPSF-LIPCAIDQDPYFRMTRDVAPRI-PALLHS-KMSAS
+	trp_1r6u_h_h_sap19B_aa	YLYTGRGPSSEXHVGHLIPFIFTKWLQDV-PLVIQXTDDE-YGDAVENAKDIIACT-FIFSDLD-SFPAIQAAPSF-LIPCAIDQDPYFRXTRDVAPRI-PALLHS------
+	trp_euk_md_mblia2A_aa	YIYTGRGPSSGLHLGHLLPFIFTKYLQDA-YVVIQITDDE-DSYTRENIKDIIACT-FIFINSQ-AFPPKQMLPVY-LIASGIEQDPYFRLARDLAPRM-NAYLLG-KMSAS
+	trp_euk_md_theta3A_aa	YLYTGRGPSSDLHMGHLIPFMFTKWLQDT-PLVIQMTDDE-YELGKENAKDIIACT-FIFSNLE-SFPAIQAAPSF-LIPCAIDQDPYFRMTRDVAPRL-PALLHS-KMSAS
+	trp_euk_md_antum4A_aa	YLYTGRGPSSEMHVGHLIPFMFTKWLQDT-PLVIQLTDDE-DKMTTENLKDIIAFT-FIFRDFE-MFPAIQAAPSF-MIPQAIDQDPYFRLTRDVAPRM-PAVIHS-KMSSS
+	trp_euk_md_ica_15A_aa	YLYTGRGPSSELHLGHLIPFIMTKYLQEA-PLVIQMSDDE-IKLAHENAKDIIAMT-FIFNNLT-GFPAVQAAPAL-LIPCAIDQDPYFRMCRDVAPRL-CALIHS-KMSAS
+	trp_euk_md_ranae6A_aa	YLYTGRGPSSKMHLGHVIPFQLCKYFQDT-PLVIQMTDDE-TKYCAENIKDIIAFT-YIFSNVE-GFPAKEIAPCF-LIPCAVDQDPYFRLARDKASVM-PTTLYV-KMSAS
+	trp_euk_md_uberi7A_aa	YLYTGRGPSSEMHLGHLIPFMFTKYLQDV-PLVVQMTDDE-HRLTYENAKDIIACT-FIFSNLD-SFPAIQAAPSF-LIPCAIDQDPYFRVTRDVAPKL-PALIHS-KMSSS
+	trp_euk_md_phora8A_aa	RILSGVQPTG-LHIGNWLAIRNWVNLQNT-ETYVCVVDLH-AEDTRNTAALYLACS-TVFVQSH-DYPIMMAADIL-LVPVGEDQKQHLELARDIAQQR-PEPLIM-KMSKS
+	trp_euk_md_opcut9A_aa	YLYTGRGPSSEMHLGHTVPFIINKHLQEA-PLVIQITDDE-YRLARENAKDIIAMT-FIFIDTD-AYPPIQTVPAF-LIPCAIDQDPYFRLCRDVAPKL-PSCLYS-KMSAS
+	trp_1i6m_b_stear1A_aa	TIFSGIQPSGVITIGNYIALRQFVELQHE-NCYFCIVDQH-RQNIRRLAALYLAVA-TLFIQSE-TYPPLMAADIL-IVPVGEDQKQHIELTRDLAERF-PEARIP------
+	trp_bact_m_egans10A_aa	RVFSGIQPSGNLHIGNYLAIQQWVAGQGQ-TNFICIVDLH-HRQTRELAALLLACT-TLFVQSH-TYPVLMAADIL-EVPVGEDQKQHIELTRDLAQRF-PEPVIR-KMSKS
+	trp_bact_m_ejuni11A_aa	RVLTGLQPSGDLHIGNYFAIKQMVDAQEK-QMFMFIANYH-KQNSLKAAAAFLSLS-VFWLQSD-SYPVLMAADIL-IVPVGKDQIQHVEIARDIALKV-PEARVN-KMSKS
+	trp_bact_m_malis12A_aa	RVLSGIQSTGNLHLGNYLAIRNWVEGQSQ-ENYLFVADLH-AANTYTLAALYLACS-TIFIQSH-DYPVLMASDIL-KVPVGEDQKQHLEITRDIAARF-PEPLIR-KMSKS
+	trp_bact_m_ticus13A_aa	RILTGIQCTGRPHLGNVLAMLPTLELAAT-DTFIFLADLH-RNYVYAAAAAWLALV-TFYRQSK-TYPILMAADIL-IVPVGKDQLQHLEITRDIATSF-PQALID-KMSKS
+	trp_bact_m_urans14A_aa	RVFSGIQPTGDPHIGNYFAMQNYVRLGEQ-QSLYCVVDLH-AQKTFDMAVANFAIV-VFFVQSH-MYPALMAADIL-IVPVGEDQTQHIELTREIARKF-PKAVYN-KMSKS
+	trp_bact_m__coli15A_aa	IVFSGAQPSGELTIGNYMALRQWVNMQDD-HCIYCIVDQH-RKATLDTLALYLACS-TIFVQSH-DYPVLMAADIL-LVPVGEDQKQHLELSRDIAQRF-PEPFIP-KMSKS
+	trp_bact_m_lobus16A_aa	RILSGVQPSGKLHLGNYFAIKQHIERQDT-ECFYFIADYH-AENVRDVALDYLALA-SFFRQSD-TYPLLMAADIL-LVPVGKDQEQHLEMTRDVAGAF-PDGVYN-KMSKS
+	trp_bact_m_iacus17A_aa	RVFSGIQPSGNLHLGNYLAIHTWVQEQNQ-DNFFCIVDLH-RKNVRDLAALYLAAA-TIFVQSH-NYPTLMAADIL-VVPVGDDQRQHIELTRDIAERF-PEALIR-KMSKS
+	trp_bact_m_gatus18A_aa	RVLSGVQPTGNLHLGNYLAIRNWVEGQQQ-DNFFCVVDLH-AENTYRTAALYLACS-TIFVQSH-DYPVLMAADIL-RVPVGEDQKQHLELTRDIAVRI-PEPLIP-KMSKS
+	trp_bact_m_ensis19A_aa	RILTGLQPSGQLHLGNYCAIQPLLGLQEA-KLFVFVASYH-RANCRRVVIDYLAFI-NLYLQQD-TYPVLQAADIL-AVPVGADQTQNVEYARDLAGRF-PELLVR-KMSKS
+	trp_2el7_t_therm2A_aa	RVLSGIQPSGEIHIGNYLAIKQWVAIGEK-DAFFCIVDYH-AQRTFEAALVNIAAV-TLFVQSH-MYPVLQAADIL-TVPVGEDQVQHIELTREIARRF-PQALLN------
+	trp_bact_m_ureus20A_aa	TLFSGIQPSGIPTIGNYIALKQFVDVQND-DCYFCIVDQH-RKQTRQLAAIYLASA-TLFIQSE-TYPPLMAADIV-IVPVGDDQKQHIELTRNLVDRF-PEIRMP-KMSKS
+	trp_2g36_t_itima4A_aa	RILSGMRPTGKLHIGHLVALENWVKLQEE-ECFYFVADWH-KEYTRDLVRGFLACS-VIFVQSG-IYPVLQAADIL-GVPVGEDQVYHIELTREIARRF-PEAILS------
+	trp_bact_m_opcut5A_aa	RIVSGMRPTGKLHLGHYFVIRNWVKLQEE-ECFFFIADWH-RQNIREVMIDWLALS-VLFIQSL-GYPVLQAADIL-GVPVGEDQLPHIELSREIARRF-PKALLT-KMSKS
+	trp_bact_m_rferi6A_aa	VMLTGDRPTGALHLGHYVSVVNRLKFQEE-ETYFIIADLH-PSNVREMVLDYLACV-SIYLQSA-GYPVLMSADIL-LVPVGRDNESHIEFARELARRF-PESVFT-KMSKS
+	trp_bact_m_gilis7A_aa	IILTGDRPTGKLHIGHYVSLKRRVELQNS-DKFIFIADAQ-RQNVIEVALDYLACS-TIFIQSQ-TYPISQAADIT-TVPVGEDQEPMIEQAREIVRRF-PEILLP-KMSKS
+	trp_bact_m_ormis8A_aa	TIFSGIQPSGSVTLGNYIAMKQFVDLQDD-NCYFCIVDQH-RKNIRNLAALYLAIA-TLFIQSE-TYPPLMAADIL-VVPVGEDQKQHLELTRNLAERF-PEVKIP-KMSKS
+	trp_bact_m_opcut9A_aa	RIFSGMRPTGSLHLGHYHVLKNWVKLQSE-PCFFCVVDWH-EKNVWDVLIDWLASA-TLFIQSK-GYPVLMAADIL-LVPVGEDQVPHVEMTREIARRF-PQALLT-KMSKS
+	trp_arch_m_opcut1A_aa	RIVSGMRPTGKLHLGHYFVIRNWVKLQEE-CFFFIADWHL-RQNIREVMIDWLALS-VLFIQSL-GYPVLQAADIL-GVPVGEDQLPHIELSREIARRF-PKALLT-KMSKS
+	trp_arch_m_itans10A_aa	FLYTGIAPSKKMHIGHLVPFILTRWFQEN-VYIMFPDEEV-RRKIKEMHAKIAALT-FMFINSE-FYTVLQIVPTF-LIPAGIDQDPYFRLQRDIAPKL-KAAEIL-KMSSS
+	trp_arch_m_hilum11A_aa	ALYTGRGPS-PVHIGHMVPWILLKWFSDE-VYFQITDDEA-TNWAYENALDVIALL-HLIIDTK-FYPSLQIAVAF-LIPCAIDQDPYFRLARDIADAL-KPSTLY-KMSAS
+	trp_arch_m_aneyi12A_aa	ALVTGFMPSGKFHFGHKMVADQIIYYQKE-VFIVIADAEV-IEIGLYYVANLIALT-HIYFQTN-VAALTQAADIL-LVPVGADQDPHIRFTRDIADRF-RPASTY-KMSSS
+	trp_arch_m_oshii13A_aa	FLYTGRGPSGPMHIGHIIPFFATKWLQEN-LYIQITDDET-KRWAYDNILDIIAVT-FIFQNSE-FFPAIQIAPTF-LIPAAIDQDPYWRLQRDFAESL-KTAALH-KMSAS
+	trp_arch_m_ultum14A_aa	ALVTGFMPSGRFHFGHKMVADQIIYYQKE-IFIVIADAEV-IETGLYYVANLIALT-HIYFQTN-MAALTQAADIL-LVPVGADQDPHIRLARDIADRF-RPASTY-KMSSS
+	trp_arch_m_arius15A_aa	FLYTGRAPSLGMHIGHLIPFIFTKWLQEN-VYIEITDDET-KEWSYENILDIIAVT-FIFQDTE-FYPALQIVPTM-LIPAGIDQDPYWRLQRDIAESL-KAAQIH-KMSSS
+	trp_bact_r_marinus		IVVSGIQPSGELHLGNYFAIRQHLELHEE-SYFFIVNYHL-RRYTFEAAVTYLALA-ALFVQSD-NYPVLQAADIL-LVPVGADQKQNIEICRDIAQRF-PEPLIR-KMSKS
+	trp_arch_m_opcut17A_aa	NVMTGLMPSGEMHLGNKSAIDQVIFFQKR-VSIAVADLEA-REVAIEYILNYIAMC-EIYFQSR-NAPLIQAADVL-VVPVGFDQDPHLRLMRDLAK---APSATY-KMSSS
+	trp_arch_m_opcut18A_aa	NVMTGLMPSGEMHLGNKSAIDQVIYFQKS-VSIAVADLEA-REIAIEYILNYIAMC-EIYFQSK-NAPLIQAADVL-VVPVGFDQDPHIRLMRDLAKRM-PPSATY-KMSSS
+	trp_arch_m_opcut2A_aa	AVMSGFMPSGLPHFGHKMTMDEIVWHQSK-AFVAIADMET-RELGM-YIKSIIALA-VIYFQSK-FVTAIQAADIL-VVPVGADQDPHMRLTRDLAARI-PPSSTY-KMSSS
+	trp_2ip1_s_cerev20A_aa	FLYTGRGPSSSMHLGHMIPFVFTKWLQEP-LVIELTDDEV-KNFARENAKDIIAVT-FIFSDLQ-HFASIQIATAF-LIPCAIDQDPYFRVCRDVADKL-KPALLH------
+	trp_arch_m_um_sp3A_aa	SIVTGIGPSGPMHLGHAMVFYFAKRLQDR-VYVPLSDDET-GDYLRENLRDLLAVT-RFVVDTK-FYPAVQTAHLL-LVPIAVDQDPHVRVSRDVAAKA-KPGALL-KMSSS
+	trp_arch_m_incut4A_aa	SVMDGFMPSGKVHLGHKMVMDQIVWHQES-AFVGIADREC-REIGVEYILSLIALG-LIYFQSG-LSVATQAADIL-VVPVGPDQDPHLRLTRGLAG---PPASTY-KMSSS
+	trp_arch_m_opcut6A_aa	NVMTGFMPSGHPHLGHLMVMKEVVWHVQR-GYICIADREC-RKYGD-YLSCLYALG-ETYEQSS-MSVLTQVADIL-IVPVGLDQDPHIRLTRGVAHKL-TPSATF-KMSSS
+	trp_arch_m_schii7A_aa	AVVSGMMPSGKMHFGHKMIIDQLLYYQKE-IYIPIADLET-KNLAIEYITNYIALI-NIYLQSK-FAPIVQVADIL-IVPVGIDQDPHLRLTRDIASRA-PPSSTY-KMSSS
+	trp_arch_m_dleri8A_aa	SVLSGMMPSGRMHLGHKTVVDQLVFYQQK-VYVPIADLEA-HRIAVEYVLNYAALC-EIYLQSE-FAPIVQAADIL-LVPVGVDQDPHLRLTRDIAEKE-KPASTY-KMSKS
+	trp_arch_m_hicus9A_aa	AVVTGMMPSGRMHIGHKMIVDQLRWYDRE-IFIPIADMES-RRIAIEYIAGYIALI-HVYLQSE-YAPIIQVSDIL-IVPVGPDQDPHIRLTRDIAARF-LPSSTY-KMSSN
+	tyr_bact_m_licus1A_aa	RVKAGFDPTPDLHLGHVVLLQKLRQFQQL-EVFFIIGD-F-LENAKTYEHQVFKVT-TVVFNST-IYPLLQAYDSV-VEIGGTDQKFNLLIGRDIQREY-QVCITL-KMSKS
+	tyr_bact_m_itima10A_aa	RVKLGVDPSPDLHLGHAVVLRKLREFQDL-TVVLIIGD-F-LENAKTYQEQAFKIT-ELRFNGE-LYPLAQAYDSV-VELGGTDQLFNLLVGRKIQEEY-QIVMTM-KMSKS
+	tyr_bact_m_gilis11A_aa	TAYVGIDPTDSLHIGHLCGVMILRHFQRC-KPLALIGG-A-RHNQACIKKQLAKFA-ELVNNYD-TYQLLQGYDFL-LQMGGSDQWGNITTGTELIRRT-AYALTC-KFGKT
+	tyr_bact_m_mis_112A_aa	SLYSGFDPTDSLHIGHLLPILMLRRFQLA-RPIALVGG-A-REWSQKIKNQLSRFA-IMANNYD-SYMILQSLDFL-LQIGGSDQWGNITSGLELIRKS-AFGLTI-KFGKT
+	tyr_bact_m_egans13A_aa	RLKQGFDPTPDMHIGHAVGLRKLRAFQEL-QVVLIVGD-W-RANAETYMEQFFRVT-EVRWQSE-MYPMLQAYDSV-VEFGGTDQKFNILAGRELMAQL-QQVFLV-KMSKT
+	tyr_bact_m_ejuni14A_aa	FIKAGFDPTPDLHLGHSVVLTKMAFLQKH-IVQFLIGD-F-LINAKTYKTQVFKVT-QIKFNST-LYPLLQGYDSV-IEMGGTDQKFNLLMGRQLQRVY-QAVIMM-KMSKS
+	tyr_bact_m_malis15A_aa	RIKFGIDPTAEIHLGHSIPVRKLRAFQDA-KAVLLIGD-F-AENAKNYLDQVRPIL-EVRYNSE-LYPLVQGYDSV-VELGGTDQKFNIAVGRDLQRHF-QFGVLL-KMSKS
+	tyr_bact_m_ticus16A_aa	TGYIGFDPTPSLHVGNLATIMLLKHFQLA-KPIAVVGG-A-LHNQSCIMKQLKCFA-ELLNNID-SYQLLQGYDFY-LQMGGADQWGNLTTGIELIRRK-AFALTA-KFGKS
+	tyr_bact_m_urans17A_aa	RVKLGADPTPDLHLGHAVILRKMRQFQDL-KVIMLIGD-F-RANAESYLAQCRLIL-EIRYNSE-LYPLTQGYDSV-VELGGTDQLFNNLVGRALQRDY-QVVLTL-KMSKS
+	tyr_1h3f_t_therm18A_aa	TVKLGADPTPDLHLGHAVVLRKMRQFQEL-KVVLIIGD-F-RENAKTYVAQAGKIF-ELRYNSE-LYPFAQAYDSV-VEMGGTDQRFNLLVGREVQRAY-QVCFLM-KMGKS
+	tyr_1jil_s_ureus19A_aa	TLYCGADPTDSLHIGHLLPFLTLRRFQEH-RPIVLIGG-G-DKNIEGISKQMHNIA-VLVNNRD-TYTILQAIDFG-IQVGGSDQWGNITSGIELMRRM-AYGLTI-KFGKS
+	tyr_bact_m_lobus2A_aa	RVKYGIDPTFDVHLGHTVPLRKLRQFQEF-TAVLIIGT-A-DKNAQTYLTQIAKVA-EVRPNGE-LYPLMQGHDSV-VELGGTEQLYNLMVGRDLQRAA-QICLTM-KMGKS
+	tyr_1wq4_e__coli20A_aa	ALVCGFDPTDSLHLGHLVPLLCLKRFQQA-KPVALVGG-A-QEWVDKIRKQVAPFA-IAANNYD-SYNLLQGYDFA-LCIGGSDQWGNITSGIDLTRRL-VFGLTV-KFGKT
+	tyr_bact_m_hilus3A_aa	TLYCGFDPTDSLHIGHLVTIMTLRRFQQA-QPIALVGG-A-ETWSARIKAQLERFA-KIKNNYD-SYMMLQAYDFL-LQIGGSDQWGNITAGLELIRRT-AFGLTV-KFGKT
+	tyr_bact_m_iacus4A_aa	RLKLGIDPTSDIHIGHAVALRKMRQFQEL-TVVLIVGD-W-KSNAKYYMDQVFKVT-EVRWQSE-MYPMLQAYDSI-IEFGGTDQKFNILAGRQLMEQM-QDVILV-KMSKS
+	tyr_bact_m_ensis6A_aa	TLYCGFDPTDSLHLGHLVPVMALAHAQRC-KPLALVGG-A-DANALAIGEQIGRIA-KLVNNLD-SYMLLQAYDFA-VQIGGQDQWGNIVFGTELGRKM-LAALTM-KFGKT
+	tyr_bact_m_obile7A_aa	GIYVGFDPSKSIHLGNFVVINVLLIAKKH-PTVALIGG-A-KKNTEAIKKQIKHFA-KIVNNSD-AYSLIQANDFH-IQFGGSDQWGNITTGLELIRKR-SGGFTI-KFGKS
+	tyr_bact_m_gatus8A_aa	RIKLGIDPTSDIHLGHSIIFRKLRQFQDA-TAVLIIGD-F-QRNAETYLDQLRPIL-EIRYNSE-LYPLMQGYDSV-VELGGTDQKFNIAVGRDLQRHF-QFGLLL-KMSKS
+	tyr_bact_m_rferi9A_aa	VFYAGVDATSSLHIGHLIPFLAMMHLRQH-MPIVLIGD-S-GNNALLIKNQLQRIE-CFIHNSN-NYQLLQSYDYY-LQIGGDDQWGNIISGVDLIRKK-TFGLTF-KMGKS
+	tyr_arch_m_hilum1A_aa	SAYLGFEPLWPIHIGWLIWAYKLAELKEA-DVIVLVAT-W-HAHGERVRAVLDRIF-KYVYGDD-MYPLMQVADIF-VAVGGMDQRRAHMLARDVAEKL-PIALHT-KMSKS
+	tyr_arch_m_um_sp10A_aa	RAYVGYEPSGVLHLGHLLTANKLIDLQDA-EVVVLLAD-V-HETAEQMKAQFLAYT-EFVLGSD-VYPLMQALDIE-LAIGGLDQRKVHMLAREELPSL-RPALHT-KMSSS
+	tyr_arch_m_orans11A_aa	RAYVGYEPSGKIHMGHVLTVNKLIDLQKA-KITVLLAD-V-HKIADYNRRCFIALT-DFVYGSD-VYPLMQAIDIA-VAVGGIDQRKIHMLARENLKSL-PICIHT-KMASS
+	tyr_arch_m_licus12A_aa	IAYIGFEPSGRIHLGHYLQIKKMIDLQNA-KIIILLAD-L-HELAEQNKKVFDAIA-TYIYGSE-VYPLMQVIDIK-VAVGGMEQRKIHMLAREILPSM-PVCIHN-KMSSS
+	tyr_arch_m_gatei13A_aa	KVYAGYEPSGEIHLGHLVTINKLIDLRDA-EVTVLLAD-L-HKLAEYNRRCFEGLI-KYVLGSS-VYPIMQMADIA-AALGGIDQRKIHMLAREYLPSK-PVCIHV-KMSSS
+	tyr_arch_m_hicus14A_aa	VVYTGYEPSGRIHLGHALTVRKLRELQDA-RVKILLAD-Y-HELADYNQKCFLALT-EFILGSS-IYPLMQVIDMV-VALGGMEQRKIHMLARENLPRL-PVCIHT-KMSSS
+	tyr_arch_m_ndcut15A_aa	NHYIGFEISGFVHLGTIISMLKVRDFQKA-KTTLFLAD-Y-HKVAKYFAEALKVSV-KVVLGSE-LYVPMQVADIY-LAHGGIDQRKAHVIAIEVSDAF-PIAVHH-KMSKS
+	tyr_2cya_a_ernix17A_aa	KGYIGYEPSGVAHIGWLVWMYKVKDLVEA-DFSVLEAT-W-HAAARIVRRVMEAAV-RFVDAEE-IYPLMQVSDIF-IALGGMDQRKAHMLARDVAEKL-PVAIHT------
+	tyr_2cyc_p__hori18A_aa	QHYIGFEISGYIHLGTLMAGAKIADFQKA-KTRVFLAD-W-HEVALYFKVGMEKSV-EFVLASE-IYPMMQVADIF-IAHAGMDQRKAHVIAIEVAQK--PVAVHH------
+	tyr_2zp1_m_annas19A_aa	SAYIGFEPSGKIHLGHYLQIKKMIDLQNA-DIIILLAD-L-AKIGDYNKKVFEAMA-KYVYGSE-IYPIMQVNTSH-VAVGGMEQRKIHMLARELLP---VVCIHN------
+	tyr_arch_m_aneyi2A_aa	KGYLGFEPSGLFHIGWLVWANKVKDLVDA-EFYLLAAT-W-HKAARHVVDVLEAIL-KVVDAED-IYPAMQVTDIF-IALGGLDQRKAHMLARDTAEKL-PIAIHT-KMSKS
+	tyr_2cyb_a__fulg20A_aa	RAYVGYEPSGEIHLGHMMTVQKLMDLQEA-EIIVLLAD-I-AEVADYNKKVFIALA-KFVLGSE-IYPLMQALDIA-LAVGGIDQRKIHMLARENLPRL-PVCLHT------
+	tyr_arch_m_ultum3A_aa	KGYIGFEPSGLFHIGWLVWANKVRDMIDA-EFYLLAAT-W-HKAARHVIDVLEAIL-KVVDAED-IYPAMQVTDIF-IALGGTDQRKAHMLARDTAEKL-PIAIHT-KMSKS
+	tyr_arch_m_ndcut5A_aa	KGYIGFEPSGLFHIGWLIWAQKLKDLIKA-DMSILVAT-W-HLAGKYALEVLEGFL-KVVYAED-IYPAMQVSDIF-IALGGTDQRKAHMLARDVAEKL-VIAIHT-KMSKS
+	tyr_arch_m_rinus6A_aa	RGYIGFEPSGLVHVGWLVWMNKVRDLLEA-DFYILEAT-W-HKAARLVRKVMEGFI-KFVDAEE-IYPLMQVSDIF-IALGGTDQRKAHMLARDIAEKI-PVAIHT-KMSKS
+	tyr_arch_m_hilum7A_aa	KSYIGIEPSGIPHIATVMWPRKLAEIQD--KVTVLLAD-W-HKGGEILRKTFQAEA-DYVWASD-LYPIMQVTDIF-MAFGGMDQRHAHMLARDIAEKM-VVSVHG-KMSKS
+	tyr_arch_m_anium8A_aa	KSYIGIEPSGIPHVATVMWPRKLAELQD--KIYVLLAD-W-HKGGELLKRSFMAEA-EYLWASQ-IYPIMQVTDIF-IAFGGMDQRHAHMLARDIADKM-AVSVHG-KMSKS
+	tyr_arch_m_dleri9A_aa	VAYVGFEPSGKVHLGHKLVIDKMIDLQEA-HVIILLAD-L-HELADYNRRCFLAMT-EFVLGSE-VYPLMQALDIV-LAVGGLEQRKIHMLARDVLPKL-PTCLHT-KMSKS
+	tyr_euk_md_labra1A_aa	KCYWGSATTGRPHIGYYVPLTKIADFLTA-EVTILLAD-V-AHRTKYYEFLLRTVL-KFVVGSS-LYPGLQALDEQ-FQFGGVDQRKIFTYAKEYLPKL-RAHLMN-KMSSS
+	tyr_euk_md_incut10A_aa	KVYWGTATTGKPHVAYFVPMSKIADFLRA-EVTILFAD-L-ALRVQYYERAIKAML-KFVKGSD-LYPGLQALDEE-AQFGGVDQRKIFTFAEKYLPHL-RIHLMN-KMSSS
+	tyr_euk_md_rzaki11A_aa	VLYWGTATTGRPHIGYFVPMTKIADFLKA-QVTILFAD-L-KLRTEYYEAVIKALL-KFVRGTS-LYPGLQALDEE-AQFGGVDQRKIFTFAEKYMPAL-RIHLMN-KMSSS
+	tyr_euk_md_incut12A_aa	ICYDGFEPSGRMHIAQILKTINVNKLTEC-VFVFYVAD-W-KIVGEYFVHIWKAAV-RFVWASD-FYPCMQCADIF-ICQLGMDQRKVNMLAREYCDAA-PVILSH-KML--
+	tyr_euk_md_incut13A_aa	TVYCGFDPTESLHLGNLLGIIVLTWFQRC-QPVALLGG-AGRVNVQGIRRILE-SP-QILNNLD-TYQLLQGYDFV-MQIGGSDQMGNIITGLDLIRRM-CFGLTF-KMGKS
+	tyr_euk_md_incut14A_aa	RCYDGFEPSGRMHIAQILKSINVNRMTKA-TFIFWVAD-W-RKVGQYMIEIWKATV-EFLWSSD-LYPCMQCADIF-ICQLGMDQRKVNMLAIEYCDKV-PIIVSH-KMS--
+	tyr_euk_md_ndcut15A_aa	TCYDGFEPSGRIHIAQIAKAINVNRLLRS-DCVFYVAD-W-QILGRYFVEVWKACV-RFVWASE-LYPSMQCADIF-LVEMGLDQRKVNALARDYCDKS-PVILMH-KMSKS
+	tyr_euk_md_incut16A_aa	KAYLGFDATKSLHVGSLLQIMILRHLQQC-KPIVLLGGGT-KVNVNGIKTVFEKFA-LLVNNDE-NYMILQAYDFL-LQLGGSDQWGNMVNGVELTRRA-VFAMTA-KMGKS
+	tyr_2dlc_s_cerev18X_aa	KLYWGTAPTGRPHCGYFVPMTKLADFLKA-EVTVLLAD-L-NYRAKYYELTIKAIL-KFVVGSS-IYPLMQALDEQ-CQFGGVDQRKIFVLAEENLPSL-RAHLMN------
+	tyr_euk_md_piens2A_aa	KIYWGTATTGKPHVAYFVPMSKIADFLKA-EVTILFAD-L-ELRVSYYENVIKAML-KFIKGTD-LYPGLQALDEE-AQFGGIDQRKIFTFAEKYLPAL-RVHLMN-KMSSS
+	tyr_euk_md_antum3A_aa	RCYDGFEPSGRMHIAQIFKAVNVNKCTAA-EFVFWVAD-W-EKIRIVGRYLIEVWV-LFLWSSE-LYPLMQCCDIF-ICQLGLDQRKVNMLAREYCDLI-PVILSH-KMSKS
+	tyr_euk_md_stica4A_aa	KIYWGTATTGKPHVAYFVPMSKIADFLKA-EVTILFAD-L-ELRTKYYEAVIKAML-KFVKGTD-LYPGLQALDEE-AQFGGVDQRKIFTFSEKYLPQL-RIHFMN-KMSSS
+	tyr_euk_md_ranae5A_aa	SIGWRVVVGDNLHLGHVSSLLKIIMVKDV-AVRILIDD-L-NKNREAIKKIIIKIV-SFFLSSD-LQPVLKTLDFL-IIVHCNDKVSLVEKSKQFI-NL-IKYINN-KNNKI
+	tyr_euk_md_incut6A_aa	ICYDGFEPSGRIHIAQVMKAINVNKLTKA-KFIFLVAD-W-QTVGKYMIEVWKSIV-EFVWSSE-FYPCMQCADIF-ICQLGMDQRKVNMLAREYSELK-PIILSH-KMAKS
+	tyr_euk_md_phora7A_aa	RVKLGIDPTGDIHLGHSILFRKLRAFQDA-IAVLIIGDFA-RINAQTYLQQLGKDL-EVYQNST-LYPLLQGYDSV-VELGGTDQRFNVAIGRDLQRYY-QFCLLL-KMSKS
+	tyr_euk_md_incut8A_aa	TVYCGFDPTRTLHIGNLLAIMGLVHCVRA-NVIALVGGAA-RINIAGITEVLHRIV-KVVNNAE-TYQVLQGHDFL-VQLGGSDQWGNITAGIDLVRRV-VYGVTM-KFGKS
+	tyr_euk_md_minis9A_aa	SIYLGVDPTKGLHIGHLMACRILKRFHDA-KCIALVGGAA-LINVKEIQNDLKRVL-LFVNNYD-AYQCLQANDFL-CQIGGSDQWGNITSGIDFVKRK-VHGITV-KFGKS
+	val_arch_m_itans10A_aa	IIDTPPYPAPLWHIGAALSYALQDFIARG-IFPEGFDGNG-DSWREKMDKILKDLD-HRYNTDD-DTWMDSSITIY-LRPQGYEIIRTLYYTLLRVYQL-FFVVIN-KMSKR
+	val_arch_m_hilum11A_aa	VIDTPPYLSNRPHIGQTASYAHFDMIARF-IFPFYLDRNG-DSYEGEFVSSLRRWD-P-NGTDS-DTWFDSSISWM-MRPQGYDIIRTLYYSLLRAYLL-FYVRIN-AMHKS
+	val_arch_m_aneyi12A_aa	IIDTPPYPSGKWHVGGAAHYAQIDMIARY-FVPWYADRNG-DKIEEELVRIWSRLT-Q-NGTDS-DTWFDSSISVL-MRPQGLDIIRTLYFTMLRVYQL-FWIRVT-TMHKS
+	val_arch_m_incut13A_aa	AIDTPPFTSGTLHLGHVLSHTWIDIIARY-LFPQGFDNHG-WQAIEAMRKQFIRID-LEYHTMD-DCWVDSSITPL-LRPQGTDIIRTAFYTILRTYVL-WDIVIN-KMSKS
+	val_arch_m_ultum14A_aa	VIDTPPYPSGKWHVGGAAHYAQIDMIARY-FVPWYADRNG-DRVEEELVRIWRGLT-R-NGTDS-DTWFDSSISVL-LRPQGVDIIRTLYFSVLRVYQL-FWVRVT-AMHKS
+	val_arch_m_arius15A_aa	VIDTPPFTSGELHMGHAYWVTISDTIGRF-LLPQGWDTQG-EDMIRSMRTAMIRLE-REYRTYE-DVWVDSSVTVL-LRLQGTDIIRTLFYTYYRTLAL-FEVLIN-RMSKS
+	val_arch_m_rinus16A_aa	VIMMPPNVTGRLHMGHALQDTIQDALTRI-LWLPGIDHAG-EEYGDIILQQKRRLD-R-RFTMD-DTWFSSWLWPF-VLVSGYDILFFIARMIMAGIHF-FDVFIT-WMSKS
+	val_arch_m_hilum17A_aa	AIDTPPTVSGKMHMGHSFSYPHIDFIARY-FFPWGFDDNG-ESSEKSLLEGWKRIY-DYYVTSS-DTWATSSLTPR-LRGQGHDIISFAFTTIARSKIH-WRIMIS-KMSKS
+	val_arch_m_anium18A_aa	TIDTPPTVSGKMHMGHSFSYSHIDFIARY-FFPWGFDDNG-QASEKALIEGWKRMY-DYYVTSS-DTWATSSLTPR-LRGQGHDIISFAFTTIARSKIH-WTLMIS-KMSKS
+	val_arch_m_incut2A_aa	IIDTPPYPTGSFHIGHALNWCIIDFIARY-MFPQGWDCHG-EENIAKMRETARRMD-KEYITMY-DTWMDSSITPL-LRPQGHDIIRTAFYTILRSLAL-WEIVIN-KMSKS
+	val_arch_m_incut3A_aa	IVDTPPYPTGNLHLGHGLQWSYIDFVARF-LFPQGWDCHG-EERIDGMKQTMRELD-AEYRTMD-DTWMDSSITPL-LRPQGHDIIRTAFYTLLRTGAL-WDALIN-KMSKS
+	val_arch_m_incut4A_aa	IIDTPPYPTGNFHIGNALNWCYIDYIARY-MFPQGWDCHG-AGNIEKMRKTMLRLD-NEFVTME-DTWMDSSITAL-IRPQGHDIIRTAFYTILRSLAL-WSIVIN-KMSKS
+	val_arch_m_ankai5A_aa	IIDTPPYPTGRMHLGHALNWTYMDIIARF-LFPQGWDCHG-DENIEKMREQINSLD-REYITMS-DTWMDSSITPM-LRPQGHDIIRTAFYTIIKSIAL-WEIVIN-KMSKS
+	val_arch_m_incut6A_aa	VIDTPPYPTGEFHIGNAFNWCYIDFLARY-MFPQGWDCHG-IGNIRKMRASMRRMD-HEYITMM-DTWMDSSISVM-IRPQGHDIIRTAFYTILRAVSL-WQILVN-KMSKS
+	val_arch_m_schii7A_aa	IIDTPPYPTGRLHLGHALNWTYMDIIARY-LFPQGWDCHG-KENIEKMRRQIKSLD-KEYITMT-DTWMDSSITPM-LRPQGHDIIRTAFYTIVKSVAL-WEIVIN-KMSKS
+	val_arch_m_incut8A_aa	VIDTPPYPTGELHMGHVLNWTYMDVVARY-FFPQGWDCHG-LENIRKMREQLIQLD-TEYVTMD-DTWMDSSITPL-LRPQGHDIIRTLYYTTVRALVH-FEILIN-KMSKS
+	val_arch_m_incut9A_aa	IIDTPPYPTGSIHMGHVLNWVYMDIIARF-LFPQGWDCHG-QENIRMMKEQMQRLD-HEFVTMT-DTWMDSSISPL-LRPQGHDIIRTAFYTILRCMAL-FEIVIN-KMSKS
+	val_bact_m_rferi1A_aa	SMVAPPNVTGVLHMGHALNFVLQDVLVRY-LWLFGTDHAG-DRHRGIIVNQINKLD-RERFTLD-DTWFSSWLWPF-TLITAYDIIFFVARMVMAGLEF-FDVYIT-KMSKS
+	val_bact_m_ejuni10A_aa	CIMMPPNVTGVLHIGHALTFTLQDIMTRY-LYQPGLDHAG-EQSGGKILDQMRTLA-RLRFTMD-DTWFSSGLWAM-LLITGFDILFFVARMMFQSTNV-FDIYLH-KMSKS
+	val_bact_m_malis11A_aa	CIVIPPNVTGSLHMGHAFDNTLIDSLIRY-LYLPGTDHAS-DSSKGTIVGQLRRLD-RERFTMD-DTWFSSGLWPF-TLVTGFDIIFFVARMTMLGGHF-FDVYIH-KMSKS
+	val_bact_m_ticus12A_aa	TIVLPPNITGVLHMGHVLNTTLQDVLIRK-CWVPGIDHAS-EKYGSIILEQIKQLD-RLHFTMD-DTWFSSWLWPI-VLVTAPEIIFFVARMIMAGYAF-FHVYFT-KMSKS
+	val_bact_m_urans13A_aa	TIVIPPNVTGNLHLGHALDNTLIDTLIRY-LYLPGMDHAG-GKSGGMILDQLTRLD-RERFTMD-DTWFSSNLWPF-VLVTGYDILFFVARMQMAGYGL-FTVMLH-KMSKS
+	val_bact_m__coli14A_aa	CIMIPPNVTGSLHMGHAFQQTIMDTMIRY-LWQVGTDHAG-AESGGTITRQMRRLD-RERFTMD-DTWFSSALWTF-VMVSGFDIIFFIARMIMMTMHF-FTVYMT-KMSKS
+	val_bact_m_hilus15A_aa	TIVIPPNVTGKLHLGHAWDTTLQDIITRM-LWLPGMDHAG-EEYAGHIRSQWAKLD-RERFTLD-DTWFSSALWPF-VLVTGYDIIFFVSRMIFQGLEF-FDVLIH-KMSKS
+	val_1gax_t_therm17A_aa	VIFMPPNVTGSLHMGHALDNSLQDALIRY-VWLPGTDHAG-EESGGTILKQLKRLD-REAFTMD-DTWFSSALWPL-VLVTGYDILFLVSRMEVSGYHF-FTVLLH------
+	val_bact_m_obile2A_aa	SILLPPNVTGKLHIGHAWNTTLQDFLIRL-LWLPGTDHAG-NEYANEIKKQWSKLD-KERFTLD-DTWFSSGIAPF-VIVTAYDIIFFVARMYFMGIYS-FKALIH-KMSKS
+	val_bact_m_matis3A_aa	SIVLPPNVTGSLHMGHALDHTLMDVLTRR-LWLPGMDHAG-RESGGTIGGQMRRLD-RDRFTMD-DTWFSSALWPF-VLVTGYDILFFVARMMMFGTFV-FNVFLH-KMSKS
+	val_bact_m_ureus4A_aa	TIVIPPNVTGKLHLGHAWDTTLQDIITRM-LYLPGMDHAG-EEYASFIRAQWAKLD-RERFTLD-DTWFSSALWPF-ALVTGYDIIFFVARMIFQGLEF-FDVLLH-KMSKS
+	val_bact_m_gatus5A_aa	CIVIPPNVTGSLHMGHAFEASLIDVLIRF-LWLPGTDHAS-AESGGTIVGQLRRLD-RERFTMD-DTWFSSGLWPF-TLVTGFDIIFFVARMTMMAGHF-FDVYIH-KMSKS
+	val_bact_m_itima6A_aa	SIVIPPNITGRIHMGHALNITLQDIVVRY-LWVPGEDHAG-NKYRREIREQIKALD-RERFTLD-DTWFSSALWPF-LLVTGFDIIFFVARMIMMGYEF-FHVYIH-KMSKS
+	val_bact_m_hilus7A_aa	VIFMPPNVTGSLHMGHALDNSLQDALIRY-VWLPGTDHAG-EESGGTILKQLKRLD-REAFTMD-DTWFSSALWPL-VLVTGYDILFLVSRMEVSGYHF-FTVLLH-KMSKS
+	val_bact_m_incut8A_aa	TVVIPPNVTGKLHLGHAWDSTLQDIVTRM-LWLPGMDHAG-EEYADFIRSQWAKID-RERFTLD-DTWFSSALWPF-VLVTGYDIIFFVSRMIFQGIEF-FDVLIH-KMSKS
+	val_bact_m_ensis9A_aa	SIQLPPNVTGTLHMGHAFNQTIMDGLVRY-LWVPGTDHAG-EQSGSTITGQVRRID-REYFTMN-DTWFSSALVPF-VLVTGFDIIFFVARMVMMTTHF-FTVYVH-KMSKS
+	val_euk_md_phora10A_aa	SVVIPPNVTGSLHMGHAFNSALIDTIVRF-LCLPGTDHAS-VQSGGIIVNQMRRLD-RERFTLD-DTWFSSGLWPF-TLVTGFDIIFFVARMTMMASSF-FEVYIH-KMSKS
+	val_euk_md_incut11A_aa	TILLPPNVTGSLHIGHALTASIQDSLCRY-LWVPGVDHAG-EEYGNRIDNQMKAMD-RKVFTMD-DTWFSSGLYPL-VMETGSDILFFVARMVMLCTYL-FEIYLH-KMSKS
+	val_euk_md_incut12A_aa	VMCMPPNITGSLHIGHSMMIAIQDAICRY-LYLPGTDHAG-ENYGSRILDQFKRLD-RQKFTMD-DTWFSSGLWPF-LLETGKDILFFVGRMVMMSLEL-FKVLLH-KMSKS
+	val_euk_md_incut14A_aa	VMVIPPNVTGSLHLGHALTNAIEDAITRY-LWVPGCDHAG-REKGVRIYDQLKCLD-RVAFTMD-DTWFSSGLFPF-LLETGHDILFFVARMVFFGQKL-FEVYLH-KMSKS
+	val_euk_md_antum15A_aa	VIIAPPNVTGYLHLGHALTGAVQDTLIRF-LYLPGTDHAG-KNHAGMITEQFRRID-RERFTMD-DTWFSSGLWPF-LMETGHDILFFVARMVMLSLHF-YEVFLH-KMSKS
+	val_euk_md_incut17A_aa	TLLIPPNVTGSLHIGHALTNSIQDALVRW-LYLPGLDHAG-EQFGGRILSQLRILD-RSVFTLD-DTWFSSGLFPF-VLETGNDIIFFVARMVMLSLEL-FEVYLH-KMSKS
+	val_euk_md_incut18A_aa	VIVLPPNVTGPLHIGHALTAAIQDTIIRW-LWVPGTDHAG-NLYRDAILRQLRCLD-RECYTMD-DTWFSSGIFPL-VLETGPDILFLVARMVMLGMKL-FKVYLH-EMSKL
+	val_euk_md_incut19A_aa	MMCIPPNVTGSLHLGHALTNAIQDCLTRW-LWNPGCDHAG-NEKGDRIYHQLKKLD-RACFTMD-DTWFSSGIFPF-LLETGHDILFFVARMVMMGLKL-FEVYLH-KMSKS
+	val_euk_md_incut2A_aa	VIVIPPNVTGSLHLGHALTNSIQDAVVRY-LWVPGTDHAG-GEYGARIQGQLKKMD-REVFTMD-DTWFSSGLFPF-LLETGSDILFFVARMVMMGQQL-FQVFLH-KMSKS
+	val_euk_md_oidea3A_aa	VIVIPPNVTGSLHLGHALMVAVEDTLTRW-LWVPGTDHAG-DTYGGKILAQLRRMD-RLAFTMD-DTWFSSGLFPF-LLETGHDILFFVARMVMMGMKL-FQIYLH-KMSKS
+	val_euk_md_wa_ii4A_aa	VIALPPNVTGRLHLGHTLTAAIQDSLCRY-LWIPGTDHAG-EKHGSAICSQFRRLD-REFFTLD-DTWFSSGLIPF-LLETGSDILFFVARMVMLSFAC-FTIYLH-KMSKS
+	val_euk_md_incut5A_aa	MICIPPNVTGALHIGHALTNAVQDTLVRW-LWNPGTDHAG-EQYGDRICTQLRRLD-RNVFTMD-DTWFSSALFPF-LLETGADILFFVARMVFFSLAL-FDVYLH-KMSKT
+	val_euk_md_incut6A_aa	VMCLPPNVTGTLHLGHAITNTIQDALVRW-LWLPGCDHAG-ERKGETIYDQLKKLD-RACFTLD-DTWFSSGLFPF-LMETGSDILFFVARMVMLGMKL-FKVLLH-KMSKS
+	val_euk_md_incut7A_aa	TMVLPPNVTGHLHLGHALTVAIEDAAVRF-NWIPGMDHAG-QEHRNHIRGQLQSLN-QEFYTLD-DTWFSSGLVPF-LMETGKDILFFVCRMSWLYESL-FAIALH-KMSKS
+	val_euk_md_incut9A_aa	TLVIPPNVTGSLHMGHALTNSIEDTLTRW-LWNPGCDHAG-EEKGGFIYKQIKYLD-REAFTMS-DTWFSSGIFPI-LLETGYDILFFVARMVMMCTYL-FDVYLH-KMSKS
+	lysi_1irx___hori1A_aa	VVESGITPSGYVHVGNFRELFTAYIVGHA-RHIHMWDDYD-AEHFMRKFEEEVEKL-DLLYASE-RWRVDWPMRWS-FEPAGKDHLGSYDTGKEIIKEV-PLSLMY------
+	lys_arch_m_aneyi11A_aa	VVNGGLSVSGLQHVGRLREVVIPEVVRRI-RQYLTLYTQD-IDRFWADFGPYIKDF-EVVTTTD-NWRIEWVGVWW-FEPYGKDHAGSRDSANELAVKV-PEGLPY-KMSGS
+	lys_arch_m_oshii12A_aa	VVESGITPSGYVHVGNFRELFTAYIVGHA-RHIHMWDDYD-AEHFMRKFEEEVEKL-DFLYASE-RWRVDWPMRWS-FEPAGKDHLGSYDTGKEIIKEV-PLSLMY-DMSSS
+	lys_arch_m_ultum13A_aa	VFNGGLSVSGLQHVGRLREVVIPEVVRRI-KQYLTLYTQD-VDRFWADFGPYLGEF-EVVKTTD-NWRIEWVGVWW-FEPYGKDHAGSRDSANELALKV-PEGLPY-DMTSS
+	lys_arch_m_rinus16A_aa	IFNGGLSVSGLQHVGRLREIIIPEVLRRI-KQYITLYTQD-VEHYWEDFGPYLEEF-EVVTTTD-NWRIEWVGVWW-FEPYGKDHAGSRDSCVDLAVNV-PEGIPY-AMHSS
+	lys_arch_m_hilum17A_aa	RVSTGISPSGPIHVGNMREILTGDILFKA-DFIYLCDDMD-SDYYLEPFVRVMKEA-RVIKTSD-PWRVEWPAKWF-VEPFGKDHGGSYDTGRRIAREV-PVPLMY-AMHSS
+	lys_arch_m_anium18A_aa	RISTGISPSGPIHVGNMREILTGDILYKA-DFIYLCDDMD-SDHFLNPFIEVMRKT-RVIKTSD-PWRIEWPAKWY-IEPFGKDHGGSYDTGKRIAREI-PLPLVY-AMKSS
+	lys_arch_m_gidus2A_aa	RIATGISPSGHIHLGNLREMVTADAIRRA-KIVYIADDFD-SEHFLQPFLESLEIL-EVRRAYQ-TWRVDWAARWQ-CEPFGKDHAGSYDTGVRIAREI-PYPVPY-AMKSS
+	lys_arch_m_opcut3A_aa	VIKGGISPSGVPHLGNMNEIVRGYFVAEA-RQVFTSDDRD-GDHFSNLIEESAALL-EMVSNTA-PWRFEWPAQWR-FEPFGKDHA-SWPSGVDIARNV-PVPMVY-AFSSS
+	lys_arch_m_orans4A_aa	LVATGITPSGHIHIGNMREVVTADAAYRA-RLIYIADNYD-AEHFLKPFIEALRRL-EVLRADE-TWRVDWPARWA-VEPFGKDHAGSYDTGKRIVREI-PFPIVY-AMSSS
+	lys_arch_m_licus5A_aa	LISSGITPSGHIHVGNARETLTADGIYKG-ELIFIADNYD-ADHFLNPFINSLDDL-TVYKADE-PWRVDWPARWK-AEPMGKDHGGSYDTGIKISQMV-PEKIIY-PMSSS
+	lys_arch_m_opcut7A_aa	VVASGASTSGRLHVGNARDVLTADAVARV-RVVWISDDVD-SDRWARNFVEELREF-EWISSAE-GWKIEWPTRWV-CEPFGKDHYGSYEVGSAIAEEF-PVPVPY-AMSSS
+	lys_arch_m_hicus8A_aa	VVASGTSISGSIHIGNSCDVFIASSIAKS-RTVWIADDHD-VEHFQRPFLEALERF-EHYSGAR-TWRVEWAARWK-CEPFGKDHAGSYDVSSIISEEI-PYPVPY-AMSKS
+	lys_arch_m_incut9A_aa	TVRCANTPTGVLHIGNANDVIRAYFIAKV-RLVFTSDDRD-SEHFISIYFKEFELL-EYYSPSI-DWYVEWAMDWA-VEPMGKDHY-SWKISPKIAKEV-PIPVVY-KMSGS
+
+;
+end;
+
+begin assumptions;
+	charset Partition1 = 1-40;
+	charset Partition2 = 41-64;
+	charset Partition3 = 65-111;
+end;
