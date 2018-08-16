@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="ClassI_FULL"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_leu_1wz2_p__hori1A_aa" taxon="leu_1wz2_p__hori1A_aa" totalcount="20" value="YITVFPYLSGHLHVGHARTYTIPDVIARF-LFPMAWHITG-KYFMKAAKETFIRAD-REFYTTS-ESLSDSTIYMA-WRCSGKDLIPNLTFFIFNHVAI-PGIAVN------"/>
+                    <sequence id="seq_leu_2v0c_T_thermophilus" taxon="leu_2v0c_T_thermophilus" totalcount="20" value="YVLVFPYPSGDLHMGHLKNYTMGDVLARF-LHPMGWDAFG-YANIRQAKESLRLMD-REVTTCE-DTFFDSSWYYL-QYIGGVEHAVLLLYSRFFTKFL-FGLFTQ------"/>
+                    <sequence id="seq_leu_arch_m_aneyi13A_aa" taxon="leu_arch_m_aneyi13A_aa" totalcount="20" value="FITAFPYPNSPLHLGHSRTYTITDVYARY-LFPMGFHYTG-RYFHNDAKMAMIESD-REFTTID-ESLSDSTIYMA-SRHSGRDLVPNLTFFIFNHAAI-PQIVVN-KMSKS"/>
+                    <sequence id="seq_leu_arch_m_anium18A_aa" taxon="leu_arch_m_anium18A_aa" totalcount="20" value="MITVWPYTNGSLHVGHGRTYTLGDIIARY-LFPMGFHQSG-DYFSNAIINDFKHLD-RKFTSAD-ESLSDSTIYPA-IRLTAVPHISNLSFYVMNHAAI-PGLIIS-KISKS"/>
+                    <sequence id="seq_leu_arch_m_ankai6A_aa" taxon="leu_arch_m_ankai6A_aa" totalcount="20" value="FITAFPYLNGVLHAGHLRTFTIPEITARY-LWTFGFHVSG-NYFSKKATESFKKMD-RNFKTDD-ESLSDSTLYMA-WRCSAKDLVPNLTFMIFNHVAL-PGIVVN-KLSKS"/>
+                    <sequence id="seq_leu_arch_m_arius15A_aa" taxon="leu_arch_m_arius15A_aa" totalcount="20" value="FITVFPYTNSPLHIGHGRTYITADIYARY-LFPFAFQFTG-AYFKEDMRNTALTLD-REFTTID-DSLSDSTIYTV-SRHSGRDLVQNIPYYLYHHVGV-PRIVLN-KMSKS"/>
+                    <sequence id="seq_leu_arch_m_dleri9A_aa" taxon="leu_arch_m_dleri9A_aa" totalcount="20" value="YITVYPYPSGSMHVGHARTYLVPDIYARF-LFPMAFHVTG-EYFAREYEENMKRMD-RKFTTVD-EPLSDSTVYMA-WRLSAKDLVTNLTFFIFHHAAL-PGIVVF-KMSSS"/>
+                    <sequence id="seq_leu_arch_m_gatei7A_aa" taxon="leu_arch_m_gatei7A_aa" totalcount="20" value="YLTVYPYPSGAMHVGHGRTYIVPDVVARF-LYPMAFHVTG-NHFSNEYERVMTQAD-RRFTTVE-EPLSDSTIYMA-FRFSAKDLISNLTFQLFHHCTI-PGMVVF-KMSSS"/>
+                    <sequence id="seq_leu_arch_m_gidus3A_aa" taxon="leu_arch_m_gidus3A_aa" totalcount="20" value="FLTIYPYLNGNLHAGHTRTFTIGDAFARY-LFPLGFHVTG-EYFSREALQALKSID-RVFTTTD-ESLSDSTIYMA-LRSSGKDLVANLLFYLFHHVAI-PAIAVN-KMSKS"/>
+                    <sequence id="seq_leu_arch_m_hicus10A_aa" taxon="leu_arch_m_hicus10A_aa" totalcount="20" value="FLTVYPYPSGAMHIGHGRTYTVPDVYARF-LFPMAWHVTG-EYFSREYRSVMEDMD-REFKTTD-EPLTDSTIYMA-WRLSAKDLIGNLTFHIFHHSAI-PGAVVF-KMSSS"/>
+                    <sequence id="seq_leu_arch_m_hilum12A_aa" taxon="leu_arch_m_hilum12A_aa" totalcount="20" value="FVTAYPYPNGAIHIGHGRTYLIADVLARF-LFPMGFHYTG-RYFHEQSKRAMQKFD-REFTTID-ESLSDSTIYMA-SRNSGKDLIPNLTFFIFNHVAI-PQIVAN-KMSKS"/>
+                    <sequence id="seq_leu_arch_m_hilum17A_aa" taxon="leu_arch_m_hilum17A_aa" totalcount="20" value="MITVWPYTNGSLHVGHGRTYTLGDIIARY-LFPMGFHQSG-DYFSNAIINDFKHLD-RRFTSAD-ESLSDSTIYPA-IRLTAIPHISNLSFYVLNHAAI-PGLIIS-KISKS"/>
+                    <sequence id="seq_leu_arch_m_itans11A_aa" taxon="leu_arch_m_itans11A_aa" totalcount="20" value="FVTAFPYVNGYLHLGHLVTYIKAEITARY-LFPMGFHATG-EYFSKAAKEDLSKLE-RSF-TTV-ESLSDSTIYTA-IRFSAQDLIANLVFYIFHHVAI-PGIAVS-KMSKS"/>
+                    <sequence id="seq_leu_arch_m_orans5A_aa" taxon="leu_arch_m_orans5A_aa" totalcount="20" value="FITIYPYLNGNLHAGHTRTFTIGDVVARH-LYPMGFHVTG-DYFKREAEKAMRMID-RKFTTTD-ESLGDSTIYMS-LRSSGKDLVPNLLFFLFHHVAL-PALAVN-KMSKS"/>
+                    <sequence id="seq_leu_arch_m_schii8A_aa" taxon="leu_arch_m_schii8A_aa" totalcount="20" value="FITAFPYLNGVLHAGHLRTFTIPEVVARF-LWTFGYHVTG-EYFSKKAEEAFKRMD-RNFKTDD-ESLSDSTIYPA-WRCSAKDLIPNLTFYIFNHVAI-PGIVVN-KLSKS"/>
+                    <sequence id="seq_leu_arch_m_ultum14A_aa" taxon="leu_arch_m_ultum14A_aa" totalcount="20" value="FITAFPYPNSPLHLGHSRTYTITDAYARF-LFPMGFHFTG-RYFSRDAKQAMIESD-REFTTID-ESLSDSTIYMA-SRHSGRDLVPNLTFFIFNHAAI-PQIVVN-KMSKS"/>
+                    <sequence id="seq_leu_arch_m_um_sp4A_aa" taxon="leu_arch_m_um_sp4A_aa" totalcount="20" value="FVTVYPYPSGGMHIGHARTYTVPDVYARY-LFPIAWHVTG-RYFIENYKENMQSLD-REFTTND-EPLSDSTVYMS-YRISGNDLISNLTFYLFHHTDL-PGIAVA-AMSSS"/>
+                    <sequence id="seq_leu_bact_A_aeolicus_ALPHA" taxon="leu_bact_A_aeolicus_ALPHA" totalcount="20" value="YVLEFPYPSGRIHMGHVRNYTIGDAIARY-LHPMGWDAFG-EYNIDYMKKQLKILD-REIATCD-DTFFDSSWYFL-VYIGGIEHAVLLLYARFFQKFL-FKLITQ-KMSKS"/>
+                    <sequence id="seq_leu_bact_B_burgdorferi" taxon="leu_bact_B_burgdorferi" totalcount="20" value="YILDFPYPSANLHVGHPEGYTATDIFGRY-LHPIGFDSFG-EENINKFKKQIKALD-REIRTHE-PQWAGSCWYYL-LYIGGAEHTVLLLYSRFWHKVL-FKLINQ-KMSKS"/>
+                    <sequence id="seq_leu_bact_B_licheniformis" taxon="leu_bact_B_licheniformis" totalcount="20" value="YALDFPYPSGGLHVGHPEGYTATDILSRM-LHPMGWDAFG-EQNIDNFRRQIRALD-REVNTTD-PQWAGSCWYFL-MYIGGAEHAVLLLYARFWHKFL-FQLYNQ-KMSKS"/>
+                    <sequence id="seq_leu_bact_B_thailandensis" taxon="leu_bact_B_thailandensis" totalcount="20" value="YCVSLPYPSGKLHMGHVRNYTINDVMYRY-LMPMGWDAFG-YDNIAYMKKQMQSMD-REVTTCK-DTFVDSAWYFS-QYIGGIEHAILLLYSRFWAKVM-ANLLTQ-KMSKS"/>
+                    <sequence id="seq_leu_bact_C_Amoebophilus_asiaticus" taxon="leu_bact_C_Amoebophilus_asiaticus" totalcount="20" value="YILDFPYPSGELHVGHPLGYIASDIVARY-LHPMGFDAFG-AKNIGRYKQQLCQLD-RCISTCE-PGWAGSSWYFF-LYLGGAEHATGLLYARFWTQFL-FELIHQ-KMSKS"/>
+                    <sequence id="seq_leu_bact_C_aggregans" taxon="leu_bact_C_aggregans" totalcount="20" value="YVLDYPYPSGDLSVGHCRNYVPTDVVARY-LHPMGWDAFG-RRYSANYKRQMNMLD-REITSSE-GTFACSSWYFL-MYVGGAEHAVMLLYARFWTKVL-FCLRNQ-KMSKS"/>
+                    <sequence id="seq_leu_bact_C_jejuni" taxon="leu_bact_C_jejuni" totalcount="20" value="YILSFPYPSGRIHMGHVRNYTIGDALARY-LHPIGFDSFG-YENIAYMKKELFSLS-RMLATSD-DTFFESSWYFA-QYIGGIEHAILLLYARFFQKAL-FRLLTQ-KMSKS"/>
+                    <sequence id="seq_leu_bact_C_thermalis" taxon="leu_bact_C_thermalis" totalcount="20" value="YALSFPYPSGSLHMGHVRNYVITDVIARL-LHPMGWDAFG-QRNIAQMRDQLKRLD-KELATCS-DTFIDSSWYFL-QYVGGIEHAILLLYSRFFTKVL-FRLLTQ-TMSKS"/>
+                    <sequence id="seq_leu_bact_D_radiodurans" taxon="leu_bact_D_radiodurans" totalcount="20" value="YALTFPYPSGNLHIGHWYANVAPDARARW-LFPMAFDAFG-YANIERMTGQFSRMD-RKFATCD-DTFVDSSWYMY-LYTGGIEHAILLLYSRFWTKVM-FRLRNQ-KMSKS"/>
+                    <sequence id="seq_leu_bact_E_coli" taxon="leu_bact_E_coli" totalcount="20" value="YCLSLPYPSGRLHMGHVRNYTIGDVIARY-LQPIGWDAFG-YDNIAYMKNQLKMLD-RELATCT-DTFMESSWYYA-IYIGGIEHAIMLLYFRFFHKLM-AQLLCQ-KMSKS"/>
+                    <sequence id="seq_leu_bact_G_obscuriglobus" taxon="leu_bact_G_obscuriglobus" totalcount="20" value="YILDFPYPSGGLHVGHPEGYTATDILARF-LHPMGWDAYG-QQNINTFRRQIKALD-REVDTTD-PQWAGSCWYFL-LYVGGAEHAVLLLYARFWHKVL-FRLVNQ-KMSKS"/>
+                    <sequence id="seq_leu_bact_G_stearothermophilus" taxon="leu_bact_G_stearothermophilus" totalcount="20" value="YVLDFPYPSGGLHVGHPEGYTATDILARM-LHPMGWDAFG-QKNIDNFRRQIKSLD-REINTTD-PQWAGSCWYYL-VYIGGAEHAVLLLYARFWHKFL-FKLFNQ-KMSKS"/>
+                    <sequence id="seq_leu_bact_M_mobile" taxon="leu_bact_M_mobile" totalcount="20" value="YALDFPYPSGGLHVGHPEGYTATDIISRY-LHPIGWDAFG-LKNIENFRRQLKSLD-KEVNTTD-PQWAGSCWYYL-LYIGGQEHAVLLLYARFWHKIL-FKLINQ-KMSKS"/>
+                    <sequence id="seq_leu_bact_M_smegmatis" taxon="leu_bact_M_smegmatis" totalcount="20" value="FVQDFPYPSGGLHVGHPLGYIATDVYARY-LHALGFDAFG-EANIVNFRRQLGRLD-RSFSTTD-PQWAGSSWYEL-LYVGGVEHAVLLLYSRFWHKVL-YRLVNQ-KIGKS"/>
+                    <sequence id="seq_leu_bact_S_aureus" taxon="leu_bact_S_aureus" totalcount="20" value="YALDFPYPSGGLHVGHPEGYTATDIISRY-LHPMGWDAFG-KKNIQTFKRQIKELD-REVNTTD-PQWAGSCWYYL-LYIGGVEHAVLLLYARFWHKVL-FKLFNQ-KMSKS"/>
+                    <sequence id="seq_leu_bact_S_elongatus" taxon="leu_bact_S_elongatus" totalcount="20" value="YALSFPYPSGNLHMGHVRNYTITDAIARV-LHPMGWDAFG-YQNVAQMREQLKQLD-REVTTCS-DTFMCSSWYYL-QYVGGIEHAILLLYSRFFTKVL-FRLLTQ-KMSKS"/>
+                    <sequence id="seq_leu_bact_T_maritima" taxon="leu_bact_T_maritima" totalcount="20" value="YALVFPYPSGTLHVGHVKNYVIGDIVARY-LHPFGYDAFG-RKNIATIRQQVKKLD-REIATCD-DTFVDSSWYFL-QYIGGVEHAVLLLYSRFVTKVL-FNLFTQ-KMSKS"/>
+                    <sequence id="seq_leu_bact_T_thermophilus" taxon="leu_bact_T_thermophilus" totalcount="20" value="YVLVFPYPSGDLHMGHLKNYTMGDVLARF-LHPMGWDAFG-YENIRQAKESLRLMD-REVTTCE-DTFFDSSWYYL-QYIGGVEHAVLLLYSRFFTKFL-FGLFTQ-VMSKS"/>
+                    <sequence id="seq_leu_bact_r_marinus" taxon="leu_bact_r_marinus" totalcount="20" value="FITVYPYTNAPLHIGHGRTYTIGDIIARY-LFPMAFHITG-VFFAERVHMDFDALD-RRFHTGE-ESLSDSTIYMA-QRHTGIAHISNLSFFIYHHIAI-PMITLN-KMSKS"/>
+                    <sequence id="seq_leu_euk_md_antum13A_aa" taxon="leu_euk_md_antum13A_aa" totalcount="20" value="LTTFFPYMNGKLHLGHGFSLTKAEFASRF-LWPFGFHVTG-DYFPPIAMEDLKSFD-RSFMTTS-DSLSDSTIYMA-LRCSGKDLIQNLTMFLYNHAAI-PAIFCN-KMAKS"/>
+                    <sequence id="seq_leu_euk_md_incut11A_aa" taxon="leu_euk_md_incut11A_aa" totalcount="20" value="YVLDFPYPSGALHVGHPEGYTATDILSRY-MHPMGWDAFG-KKNIDRFREQLQSLD-REVSTTD-PQWAGSCWYYL-LYLGGAEHAVLLLYARFWHKVL-FRLVNQ-KMSKS"/>
+                    <sequence id="seq_leu_euk_md_incut12A_aa" taxon="leu_euk_md_incut12A_aa" totalcount="20" value="FVTFYPYMNGRLHLGHTFSLSKCEFAVGY-LFPFGLHCTG-DYFPPLAIQDLKRMD-RSFITTD-ESLSDSTIYMA-LRVSGKDLVPNLSYYLYNHVAM-PAVRAN-KMSKS"/>
+                    <sequence id="seq_leu_euk_md_incut4A_aa" taxon="leu_euk_md_incut4A_aa" totalcount="20" value="FVTFYPYMNGRLHLGHTFSLSKCEFAVGY-LFPFGLHCTG-EYFPPLAVQDLKRMD-RSFITTD-ESLSDSTIYMA-LRASGKDLIPNLSYFLYNHVAM-PAVRAN-KMSKS"/>
+                    <sequence id="seq_leu_euk_md_incut5A_aa" taxon="leu_euk_md_incut5A_aa" totalcount="20" value="IVTFYPYMNGRLHLGHTFSLSKAEFGVGY-LFPFGLHCSG-KYFPPHCKEDLRKMD-RSFLTTD-ESLSDSTIYMA-LRVSGKDLVPNLTYYIYNHVAI-PSIRAN-KMSKQ"/>
+                    <sequence id="seq_leu_euk_md_incut6A_aa" taxon="leu_euk_md_incut6A_aa" totalcount="20" value="YILAFPYPSGHLHMGHVRVYTLSDCLARF-LHPMGWDAFG-IKNIEYMRKQLQRLD-KEVTTCA-DTFVDSSWYFA-IYVGGVEHAILLLYARFLTRFF-FRLLTQ-KMSKS"/>
+                    <sequence id="seq_leu_euk_md_incut7A_aa" taxon="leu_euk_md_incut7A_aa" totalcount="20" value="YILDFPYPSGALHVGHPAGYTATDILARL-LHPIGWDAFG-ERNVNRFRQQLQSLD-REVSTTD-PQWAGSCWYYL-LYVGGAEHAVLLLYARFWHKVL-FRLVSQ-KMSKS"/>
+                    <sequence id="seq_leu_euk_md_labra20A_aa" taxon="leu_euk_md_labra20A_aa" totalcount="20" value="MGTVFAYMNGSLHAGHGFSISKIEFNAGF-LFPVGFHCTG-SYYPHITKDDNIAFD-RQFITTD-ESLSDSTIYMS-IRSSGKDLIPNLTFCLYNHAAI-PSMRAN-KMSKS"/>
+                    <sequence id="seq_leu_euk_md_labra2A_aa" taxon="leu_euk_md_labra2A_aa" totalcount="20" value="MGTVFAYMNGSLHAGHGFSISKIEFNAGF-LFPVGFHCTG-SYYPHITKDDNIAFD-RQFITTD-ESLSDSTIYMS-IRSSGKDLIPNLTFCLYNHAAI-PSMRAN-KMSKS"/>
+                    <sequence id="seq_leu_euk_md_mblia10A_aa" taxon="leu_euk_md_mblia10A_aa" totalcount="20" value="FVTFYPYMNGRLHLGHLFSATRAEFAVGY-LFPFGFHVTG-KHFPALCYKDMCKFD-RSMITTD-ESLSDSTIYNA-LRCSGKDLIPNLTMMLYNHTAI-PGMRAN-KMSKA"/>
+                    <sequence id="seq_leu_euk_md_minis3A_aa" taxon="leu_euk_md_minis3A_aa" totalcount="20" value="YVLPFPYPSGKMHMGHVRVFSISDCISRY-IHPMGWDAFG-KNNVEEMRKQISGLN-REVNTST-DTFMDSSWYFY-YYVGGSEHSIMLLFARFVARFL-FHLITQ-KMSKS"/>
+                    <sequence id="seq_leu_euk_md_nalis19A_aa" taxon="leu_euk_md_nalis19A_aa" totalcount="20" value="MITFFPYMNGRLHLGHLFTISKAEFAVRY-LFPFAFHCTG-HYFPPYGVKDMKQFD-RSFITTD-DSLSDSTIYTA-CRVSGKDLVTNLTMWLYNHAAV-PAVRAN-KMSKS"/>
+                    <sequence id="seq_leu_euk_md_phora16A_aa" taxon="leu_euk_md_phora16A_aa" totalcount="20" value="YALSFPYPSGKLHMGHVRNYVITDVIARA-LHPMGWDAFG-NTNIQQMRKQLDQLD-REISTCN-DTFMCSSWYFL-HYVGGIEHAILLLYSRFFTKVL-FRLLPQ-KMSKS"/>
+                    <sequence id="seq_leu_euk_md_ranae14A_aa" taxon="leu_euk_md_ranae14A_aa" totalcount="20" value="FITFYPYMNGKLHLGHLYSISKADFMSYY-LFPLAFHCTG-KTFPKLCISSLKTFD-RSFVTTD-DSLSDSTIYMA-LRVSGKDLIKNLLFFMFNHVAL-PRIFTN-KMSKS"/>
+                    <sequence id="seq_leu_euk_md_setta18A_aa" taxon="leu_euk_md_setta18A_aa" totalcount="20" value="YALAFPYPSGALHMGHVRVYTISDSVARF-IHPMGWDAFG-IRNIAYMKEQLDALD-REVTTCS-DTFVDSAWYFL-LYIGGIEHAVLLLYARFVNMAA-FKLLAQ-KMSKS"/>
+                    <sequence id="seq_leu_euk_md_tatus9A_aa" taxon="leu_euk_md_tatus9A_aa" totalcount="20" value="YGNFFPYMNGYLHLGHAFSLSKLEFAAAY-LLPFAFHCTG-TFFPPLAVEDLKAFD-RTFVTTD-ESLSDSTLYMA-LRVSGKDLIQNLTFSIYNHTAL-PGFRCN-KMSKS"/>
+                </data>
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="10000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:ClassI_FULL" name="stateNode">
+            <taxonset id="TaxonSet.ClassI_FULL" spec="TaxonSet">
+                <alignment idref="ClassI_FULL"/>
+            </taxonset>
+        </tree>
+        <parameter id="gammaShape.s:ClassI_FULL" name="stateNode">1.0</parameter>
+        <parameter id="mutationRate.s:ClassI_FULL" name="stateNode">1.0</parameter>
+        <parameter id="ucldStdev.c:ClassI_FULL" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:ClassI_FULL" spec="parameter.IntegerParameter" dimension="1006">1</stateNode>
+        <parameter id="birthRate2.t:ClassI_FULL" lower="0.0" name="stateNode" upper="10000.0">1.0</parameter>
+        <parameter id="relativeDeathRate2.t:ClassI_FULL" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+    </state>
+
+    <init id="RandomTree.t:ClassI_FULL" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:ClassI_FULL" taxa="@ClassI_FULL">
+        <populationModel id="ConstantPopulation0.t:ClassI_FULL" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:ClassI_FULL" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BirthDeath.t:ClassI_FULL" spec="beast.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@birthRate2.t:ClassI_FULL" relativeDeathRate="@relativeDeathRate2.t:ClassI_FULL" tree="@Tree.t:ClassI_FULL"/>
+            <prior id="BirthRatePrior.t:ClassI_FULL" name="distribution" x="@birthRate2.t:ClassI_FULL">
+                <LogNormal id="LogNormalDistributionModel.1" name="distr">
+                    <parameter id="RealParameter.6" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.7" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="GammaShapePrior.s:ClassI_FULL" name="distribution" x="@gammaShape.s:ClassI_FULL">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="DeathRatePrior.t:ClassI_FULL" name="distribution" x="@relativeDeathRate2.t:ClassI_FULL">
+                <LogNormal id="LogNormalDistributionModel.2" name="distr">
+                    <parameter id="RealParameter.8" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.9" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="ucldStdevPrior.c:ClassI_FULL" name="distribution" x="@ucldStdev.c:ClassI_FULL">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.ClassI_FULL" spec="ThreadedTreeLikelihood" data="@ClassI_FULL" tree="@Tree.t:ClassI_FULL">
+                <siteModel id="SiteModel.s:ClassI_FULL" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:ClassI_FULL" shape="@gammaShape.s:ClassI_FULL">
+                    <parameter id="proportionInvariant.s:ClassI_FULL" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:ClassI_FULL" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:ClassI_FULL" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:ClassI_FULL" tree="@Tree.t:ClassI_FULL">
+                    <LogNormal id="LogNormalDistributionModel.c:ClassI_FULL" S="@ucldStdev.c:ClassI_FULL" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.1" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:ClassI_FULL" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="gammaShapeScaler.s:ClassI_FULL" spec="ScaleOperator" parameter="@gammaShape.s:ClassI_FULL" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+        <parameter idref="mutationRate.s:ClassI_FULL"/>
+        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">112</weightvector>
+    </operator>
+
+    <operator id="ucldStdevScaler.c:ClassI_FULL" spec="ScaleOperator" parameter="@ucldStdev.c:ClassI_FULL" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:ClassI_FULL" spec="IntRandomWalkOperator" parameter="@rateCategories.c:ClassI_FULL" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:ClassI_FULL" spec="SwapOperator" intparameter="@rateCategories.c:ClassI_FULL" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:ClassI_FULL" spec="UniformOperator" parameter="@rateCategories.c:ClassI_FULL" weight="10.0"/>
+
+    <operator id="BirthDeathTreeScaler.t:ClassI_FULL" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:ClassI_FULL" weight="3.0"/>
+
+    <operator id="BirthDeathTreeRootScaler.t:ClassI_FULL" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:ClassI_FULL" weight="3.0"/>
+
+    <operator id="BirthDeathUniformOperator.t:ClassI_FULL" spec="Uniform" tree="@Tree.t:ClassI_FULL" weight="30.0"/>
+
+    <operator id="BirthDeathSubtreeSlide.t:ClassI_FULL" spec="SubtreeSlide" tree="@Tree.t:ClassI_FULL" weight="15.0"/>
+
+    <operator id="BirthDeathNarrow.t:ClassI_FULL" spec="Exchange" tree="@Tree.t:ClassI_FULL" weight="15.0"/>
+
+    <operator id="BirthDeathWide.t:ClassI_FULL" spec="Exchange" isNarrow="false" tree="@Tree.t:ClassI_FULL" weight="3.0"/>
+
+    <operator id="BirthDeathWilsonBalding.t:ClassI_FULL" spec="WilsonBalding" tree="@Tree.t:ClassI_FULL" weight="3.0"/>
+
+    <operator id="BirthRateScaler.t:ClassI_FULL" spec="ScaleOperator" parameter="@birthRate2.t:ClassI_FULL" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="DeathRateScaler.t:ClassI_FULL" spec="ScaleOperator" parameter="@relativeDeathRate2.t:ClassI_FULL" scaleFactor="0.75" weight="3.0"/>
+
+    <logger id="tracelog" fileName="Leu_betterPriors.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.ClassI_FULL"/>
+        <log id="TreeHeight.t:ClassI_FULL" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:ClassI_FULL"/>
+        <log idref="gammaShape.s:ClassI_FULL"/>
+        <log idref="mutationRate.s:ClassI_FULL"/>
+        <log idref="ucldStdev.c:ClassI_FULL"/>
+        <log id="rate.c:ClassI_FULL" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:ClassI_FULL" tree="@Tree.t:ClassI_FULL"/>
+        <log idref="BirthDeath.t:ClassI_FULL"/>
+        <log idref="birthRate2.t:ClassI_FULL"/>
+        <log idref="relativeDeathRate2.t:ClassI_FULL"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:ClassI_FULL" fileName="Leu_betterPriors.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:ClassI_FULL" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:ClassI_FULL" tree="@Tree.t:ClassI_FULL"/>
+    </logger>
+
+</run>
+
+</beast>
