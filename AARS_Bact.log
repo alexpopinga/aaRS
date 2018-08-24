@@ -1,0 +1,589 @@
+#
+#model:
+#
+#<?xml version="1.0" encoding="UTF-8" standalone="no"?><input id="posterior" spec="beast.core.util.CompoundDistribution">
+#    <distribution id="prior" spec="beast.core.util.CompoundDistribution">
+#        <distribution id="V.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior">
+#            <tree id="Tree.t:AARS_Bact">
+#                <taxonset id="TaxonSet.AARS_Bact">
+#                </taxonset>
+#            </tree>
+#            <taxonset id="V">
+#                <taxon id="val_1gax_t_therm17A-aa"/>
+#                <taxon id="val_bact_m__coli14A-aa"/>
+#                <taxon id="val_bact_m_ejuni10A-aa"/>
+#                <taxon id="val_bact_m_ensis9A-aa"/>
+#                <taxon id="val_bact_m_gatus5A-aa"/>
+#                <taxon id="val_bact_m_hilus15A-aa"/>
+#                <taxon id="val_bact_m_hilus7A-aa"/>
+#                <taxon id="val_bact_m_incut8A-aa"/>
+#                <taxon id="val_bact_m_itima6A-aa"/>
+#                <taxon id="val_bact_m_malis11A-aa"/>
+#                <taxon id="val_bact_m_matis3A-aa"/>
+#                <taxon id="val_bact_m_obile2A-aa"/>
+#                <taxon id="val_bact_m_rferi1A-aa"/>
+#                <taxon id="val_bact_m_ticus12A-aa"/>
+#                <taxon id="val_bact_m_urans13A-aa"/>
+#                <taxon id="val_bact_m_ureus4A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="G">
+#                <taxon id="gly_bact_m_alpha10A-aa"/>
+#                <taxon id="gly_bact_m_alpha18A-aa"/>
+#                <taxon id="gly_bact_m_incut6A-aa"/>
+#                <taxon id="gly_bact_m_incut8A-aa"/>
+#                <taxon id="gly_bact_m_opcut12A-aa"/>
+#                <taxon id="gly_bact_m_opcut13A-aa"/>
+#                <taxon id="gly_bact_m_opcut14A-aa"/>
+#                <taxon id="gly_bact_m_opcut15A-aa"/>
+#                <taxon id="gly_bact_m_opcut16A-aa"/>
+#                <taxon id="gly_bact_m_opcut17A-aa"/>
+#                <taxon id="gly_bact_m_opcut5A-aa"/>
+#                <taxon id="gly_bact_m_opcut7A-aa"/>
+#                <taxon id="gly_bact_m_opcut9A-aa"/>
+#                <taxon id="gly_bact_m_rferi4A-aa"/>
+#                <taxon id="gly_d1atib_therm2A-aa"/>
+#                <taxon id="gly_d1j5wb_itima3A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="A.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="A">
+#                <taxon id="ala_1yfsa__licus19A-aa"/>
+#                <taxon id="ala_3hxv_e__coli2A-aa"/>
+#                <taxon id="ala_bact_m_ans_111A-aa"/>
+#                <taxon id="ala_bact_m_egans7A-aa"/>
+#                <taxon id="ala_bact_m_ensis17A-aa"/>
+#                <taxon id="ala_bact_m_ensis6A-aa"/>
+#                <taxon id="ala_bact_m_gatus19A-aa"/>
+#                <taxon id="ala_bact_m_gilis4A-aa"/>
+#                <taxon id="ala_bact_m_hilus13A-aa"/>
+#                <taxon id="ala_bact_m_hilus16A-aa"/>
+#                <taxon id="ala_bact_m_iacus14A-aa"/>
+#                <taxon id="ala_bact_m_ima_120A-aa"/>
+#                <taxon id="ala_bact_m_incut12A-aa"/>
+#                <taxon id="ala_bact_m_malis9A-aa"/>
+#                <taxon id="ala_bact_m_obile15A-aa"/>
+#                <taxon id="ala_bact_m_ormis5A-aa"/>
+#                <taxon id="ala_bact_m_rferi3A-aa"/>
+#                <taxon id="ala_bact_m_ticus10A-aa"/>
+#                <taxon id="ala_bact_m_ureus18A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="D.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="D">
+#                <taxon id="asp_bact_m_egans8A-aa"/>
+#                <taxon id="asp_bact_m_ejuni9A-aa"/>
+#                <taxon id="asp_bact_m_ensis7A-aa"/>
+#                <taxon id="asp_bact_m_gatus18A-aa"/>
+#                <taxon id="asp_bact_m_gilis5A-aa"/>
+#                <taxon id="asp_bact_m_hilus12A-aa"/>
+#                <taxon id="asp_bact_m_iacus13A-aa"/>
+#                <taxon id="asp_bact_m_incut11A-aa"/>
+#                <taxon id="asp_bact_m_incut16A-aa"/>
+#                <taxon id="asp_bact_m_itima19A-aa"/>
+#                <taxon id="asp_bact_m_licus3A-aa"/>
+#                <taxon id="asp_bact_m_matis15A-aa"/>
+#                <taxon id="asp_bact_m_obile14A-aa"/>
+#                <taxon id="asp_bact_m_ormis6A-aa"/>
+#                <taxon id="asp_bact_m_rferi4A-aa"/>
+#                <taxon id="asp_bact_m_ticus10A-aa"/>
+#                <taxon id="asp_bact_m_ureus17A-aa"/>
+#                <taxon id="asp_d1b8aa_ensis2A-aa"/>
+#                <taxon id="asp_d1c0aa__coli1A-aa"/>
+#                <taxon id="asp_d1efwa_therm2A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="P.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="P">
+#                <taxon id="pro_2i4la__stris20A-aa"/>
+#                <taxon id="pro_2j3mb__calis19B-aa"/>
+#                <taxon id="pro_bact_m__coli3A-aa"/>
+#                <taxon id="pro_bact_m_egans17A-aa"/>
+#                <taxon id="pro_bact_m_ensis16A-aa"/>
+#                <taxon id="pro_bact_m_ensis9A-aa"/>
+#                <taxon id="pro_bact_m_gatus11A-aa"/>
+#                <taxon id="pro_bact_m_gilis14A-aa"/>
+#                <taxon id="pro_bact_m_hilus5A-aa"/>
+#                <taxon id="pro_bact_m_iacus6A-aa"/>
+#                <taxon id="pro_bact_m_itima13A-aa"/>
+#                <taxon id="pro_bact_m_licus1A-aa"/>
+#                <taxon id="pro_bact_m_lobus4A-aa"/>
+#                <taxon id="pro_bact_m_malis8A-aa"/>
+#                <taxon id="pro_bact_m_ormis15A-aa"/>
+#                <taxon id="pro_bact_m_rferi12A-aa"/>
+#                <taxon id="pro_bact_m_ticus7A-aa"/>
+#                <taxon id="pro_bact_m_urans2A-aa"/>
+#                <taxon id="pro_bact_m_ureus10A-aa"/>
+#                <taxon id="pro_d1hc7a_therm18A-aa"/>
+#                <taxon id="pro_d1nj1a_therm2A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="E.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="E">
+#                <taxon id="glu_1j09_t_therm1A-aa"/>
+#                <taxon id="glu_1nzj_e__coli2A-aa"/>
+#                <taxon id="glu_2cfo_t_elong3A-aa"/>
+#                <taxon id="glu_2o5r_t_itima4A-aa"/>
+#                <taxon id="glu_bact_m_egans10A-aa"/>
+#                <taxon id="glu_bact_m_ejuni11A-aa"/>
+#                <taxon id="glu_bact_m_ensis18A-aa"/>
+#                <taxon id="glu_bact_m_ensis9A-aa"/>
+#                <taxon id="glu_bact_m_gilis7A-aa"/>
+#                <taxon id="glu_bact_m_hilus16A-aa"/>
+#                <taxon id="glu_bact_m_iacus17A-aa"/>
+#                <taxon id="glu_bact_m_incut14A-aa"/>
+#                <taxon id="glu_bact_m_licus5A-aa"/>
+#                <taxon id="glu_bact_m_lobus15A-aa"/>
+#                <taxon id="glu_bact_m_obile20A-aa"/>
+#                <taxon id="glu_bact_m_ormis8A-aa"/>
+#                <taxon id="glu_bact_m_rferi6A-aa"/>
+#                <taxon id="glu_bact_m_ureus19A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="S">
+#                <taxon id="ser_bact_m__coli9A-aa"/>
+#                <taxon id="ser_bact_m_egans17A-aa"/>
+#                <taxon id="ser_bact_m_ejuni8A-aa"/>
+#                <taxon id="ser_bact_m_ensis7A-aa"/>
+#                <taxon id="ser_bact_m_gatus1A-aa"/>
+#                <taxon id="ser_bact_m_gilis2A-aa"/>
+#                <taxon id="ser_bact_m_hilus10A-aa"/>
+#                <taxon id="ser_bact_m_iacus18A-aa"/>
+#                <taxon id="ser_bact_m_itima12A-aa"/>
+#                <taxon id="ser_bact_m_licus3A-aa"/>
+#                <taxon id="ser_bact_m_malis15A-aa"/>
+#                <taxon id="ser_bact_m_matis11A-aa"/>
+#                <taxon id="ser_bact_m_obile13A-aa"/>
+#                <taxon id="ser_bact_m_ormis6A-aa"/>
+#                <taxon id="ser_bact_m_rferi4A-aa"/>
+#                <taxon id="ser_bact_m_ticus16A-aa"/>
+#                <taxon id="ser_bact_m_urans5A-aa"/>
+#                <taxon id="ser_bact_m_ureus14A-aa"/>
+#                <taxon id="ser_d1sera_therm20A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="L">
+#                <taxon id="leu_2v0c_T_thermophilus"/>
+#                <taxon id="leu_bact_A_aeolicus_ALPHA"/>
+#                <taxon id="leu_bact_B_burgdorferi"/>
+#                <taxon id="leu_bact_B_licheniformis"/>
+#                <taxon id="leu_bact_B_thailandensis"/>
+#                <taxon id="leu_bact_C_Amoebophilus_asiaticus"/>
+#                <taxon id="leu_bact_C_aggregans"/>
+#                <taxon id="leu_bact_C_jejuni"/>
+#                <taxon id="leu_bact_C_thermalis"/>
+#                <taxon id="leu_bact_D_radiodurans"/>
+#                <taxon id="leu_bact_E_coli"/>
+#                <taxon id="leu_bact_G_obscuriglobus"/>
+#                <taxon id="leu_bact_G_stearothermophilus"/>
+#                <taxon id="leu_bact_M_mobile"/>
+#                <taxon id="leu_bact_M_smegmatis"/>
+#                <taxon id="leu_bact_S_aureus"/>
+#                <taxon id="leu_bact_S_elongatus"/>
+#                <taxon id="leu_bact_T_maritima"/>
+#                <taxon id="leu_bact_T_thermophilus"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="R.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="R">
+#                <taxon id="arg_1iq0_t_therm19A-aa"/>
+#                <taxon id="arg_3fnr_c_pyl_j20A-aa"/>
+#                <taxon id="arg_bact_m__coli3A-aa"/>
+#                <taxon id="arg_bact_m_egans16A-aa"/>
+#                <taxon id="arg_bact_m_ensis8A-aa"/>
+#                <taxon id="arg_bact_m_gatus10A-aa"/>
+#                <taxon id="arg_bact_m_gilis13A-aa"/>
+#                <taxon id="arg_bact_m_iacus6A-aa"/>
+#                <taxon id="arg_bact_m_incut12A-aa"/>
+#                <taxon id="arg_bact_m_incut14A-aa"/>
+#                <taxon id="arg_bact_m_incut15A-aa"/>
+#                <taxon id="arg_bact_m_incut1A-aa"/>
+#                <taxon id="arg_bact_m_incut5A-aa"/>
+#                <taxon id="arg_bact_m_incut9A-aa"/>
+#                <taxon id="arg_bact_m_lobus4A-aa"/>
+#                <taxon id="arg_bact_m_malis18A-aa"/>
+#                <taxon id="arg_bact_m_rferi11A-aa"/>
+#                <taxon id="arg_bact_m_ticus17A-aa"/>
+#                <taxon id="arg_bact_m_urans2A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="T">
+#                <taxon id="thr_bact_m_aceae18A-aa"/>
+#                <taxon id="thr_bact_m_egans17A-aa"/>
+#                <taxon id="thr_bact_m_ejuni16A-aa"/>
+#                <taxon id="thr_bact_m_ensis10A-aa"/>
+#                <taxon id="thr_bact_m_gatus9A-aa"/>
+#                <taxon id="thr_bact_m_gilis14A-aa"/>
+#                <taxon id="thr_bact_m_hilus8A-aa"/>
+#                <taxon id="thr_bact_m_iacus7A-aa"/>
+#                <taxon id="thr_bact_m_itima1A-aa"/>
+#                <taxon id="thr_bact_m_licus11A-aa"/>
+#                <taxon id="thr_bact_m_lis_15A-aa"/>
+#                <taxon id="thr_bact_m_lobus6A-aa"/>
+#                <taxon id="thr_bact_m_ormis2A-aa"/>
+#                <taxon id="thr_bact_m_rferi13A-aa"/>
+#                <taxon id="thr_bact_m_ticus3A-aa"/>
+#                <taxon id="thr_bact_m_urans4A-aa"/>
+#                <taxon id="thr_bact_m_ureus12A-aa"/>
+#                <taxon id="thr_d1evka__coli20A-aa"/>
+#                <taxon id="thr_d1nyra_ureus19A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="I.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="I">
+#                <taxon id="ile_1ile_t_therm19A-aa"/>
+#                <taxon id="ile_1qu2_s_ureus2A-aa"/>
+#                <taxon id="ile_bact_m__coli5A-aa"/>
+#                <taxon id="ile_bact_m_egans17A-aa"/>
+#                <taxon id="ile_bact_m_ejuni18A-aa"/>
+#                <taxon id="ile_bact_m_ensis10A-aa"/>
+#                <taxon id="ile_bact_m_ensis16A-aa"/>
+#                <taxon id="ile_bact_m_gatus12A-aa"/>
+#                <taxon id="ile_bact_m_gilis15A-aa"/>
+#                <taxon id="ile_bact_m_hilus7A-aa"/>
+#                <taxon id="ile_bact_m_iacus8A-aa"/>
+#                <taxon id="ile_bact_m_itima14A-aa"/>
+#                <taxon id="ile_bact_m_licus3A-aa"/>
+#                <taxon id="ile_bact_m_obile9A-aa"/>
+#                <taxon id="ile_bact_m_opcut19A-aa"/>
+#                <taxon id="ile_bact_m_opcut20A-aa"/>
+#                <taxon id="ile_bact_m_opcut6A-aa"/>
+#                <taxon id="ile_bact_m_ormis11A-aa"/>
+#                <taxon id="ile_bact_m_rferi13A-aa"/>
+#                <taxon id="ile_bact_m_urans4A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="Q.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="Q">
+#                <taxon id="gln_1qtq_e__coli1A-aa"/>
+#                <taxon id="gln_2hz7_d_radio2A-aa"/>
+#                <taxon id="gln_bact_m_ejuni7A-aa"/>
+#                <taxon id="gln_bact_m_ensis12A-aa"/>
+#                <taxon id="gln_bact_m_ensis5A-aa"/>
+#                <taxon id="gln_bact_m_gatus14A-aa"/>
+#                <taxon id="gln_bact_m_hilus15A-aa"/>
+#                <taxon id="gln_bact_m_incut3A-aa"/>
+#                <taxon id="gln_bact_m_lobus9A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="N.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="N">
+#                <taxon id="asn_bact_m__coli9A-aa"/>
+#                <taxon id="asn_bact_m_egans5A-aa"/>
+#                <taxon id="asn_bact_m_gatus14A-aa"/>
+#                <taxon id="asn_bact_m_gilis3A-aa"/>
+#                <taxon id="asn_bact_m_iacus11A-aa"/>
+#                <taxon id="asn_bact_m_lobus10A-aa"/>
+#                <taxon id="asn_bact_m_malis6A-aa"/>
+#                <taxon id="asn_bact_m_obile12A-aa"/>
+#                <taxon id="asn_bact_m_rferi2A-aa"/>
+#                <taxon id="asn_bact_m_ticus7A-aa"/>
+#                <taxon id="asn_bact_m_urans8A-aa"/>
+#                <taxon id="asn_bact_m_ureus13A-aa"/>
+#                <taxon id="asn_d1asza_therm1A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="C.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="C">
+#                <taxon id="cys_3c8z_m__smeg17A-aa"/>
+#                <taxon id="cys_bact_m_cus_16A-aa"/>
+#                <taxon id="cys_bact_m_egans17A-aa"/>
+#                <taxon id="cys_bact_m_incut10A-aa"/>
+#                <taxon id="cys_bact_m_incut11A-aa"/>
+#                <taxon id="cys_bact_m_incut13A-aa"/>
+#                <taxon id="cys_bact_m_incut14A-aa"/>
+#                <taxon id="cys_bact_m_incut15A-aa"/>
+#                <taxon id="cys_bact_m_incut16A-aa"/>
+#                <taxon id="cys_bact_m_incut18A-aa"/>
+#                <taxon id="cys_bact_m_incut19A-aa"/>
+#                <taxon id="cys_bact_m_incut3A-aa"/>
+#                <taxon id="cys_bact_m_incut4A-aa"/>
+#                <taxon id="cys_bact_m_incut8A-aa"/>
+#                <taxon id="cys_bact_m_incut9A-aa"/>
+#                <taxon id="cys_bact_m_lobus5A-aa"/>
+#                <taxon id="cys_bact_m_obile7A-aa"/>
+#                <taxon id="cys_bact_m_rferi12A-aa"/>
+#                <taxon id="cys_bact_m_ticus20A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="Y.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="Y">
+#                <taxon id="tyr_1h3f_t_therm18A-aa"/>
+#                <taxon id="tyr_1jil_s_ureus19A-aa"/>
+#                <taxon id="tyr_1wq4_e__coli20A-aa"/>
+#                <taxon id="tyr_bact_m_egans13A-aa"/>
+#                <taxon id="tyr_bact_m_ejuni14A-aa"/>
+#                <taxon id="tyr_bact_m_ensis6A-aa"/>
+#                <taxon id="tyr_bact_m_gatus8A-aa"/>
+#                <taxon id="tyr_bact_m_gilis11A-aa"/>
+#                <taxon id="tyr_bact_m_hilus3A-aa"/>
+#                <taxon id="tyr_bact_m_iacus4A-aa"/>
+#                <taxon id="tyr_bact_m_itima10A-aa"/>
+#                <taxon id="tyr_bact_m_licus1A-aa"/>
+#                <taxon id="tyr_bact_m_lobus2A-aa"/>
+#                <taxon id="tyr_bact_m_malis15A-aa"/>
+#                <taxon id="tyr_bact_m_mis_112A-aa"/>
+#                <taxon id="tyr_bact_m_obile7A-aa"/>
+#                <taxon id="tyr_bact_m_rferi9A-aa"/>
+#                <taxon id="tyr_bact_m_ticus16A-aa"/>
+#                <taxon id="tyr_bact_m_urans17A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="H.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="H">
+#                <taxon id="his_1htt_e__coli1A-aa"/>
+#                <taxon id="his_bact_m_egans9A-aa"/>
+#                <taxon id="his_bact_m_ejuni10A-aa"/>
+#                <taxon id="his_bact_m_ensis19A-aa"/>
+#                <taxon id="his_bact_m_gatus18A-aa"/>
+#                <taxon id="his_bact_m_gilis6A-aa"/>
+#                <taxon id="his_bact_m_hilus15A-aa"/>
+#                <taxon id="his_bact_m_iacus16A-aa"/>
+#                <taxon id="his_bact_m_incut8A-aa"/>
+#                <taxon id="his_bact_m_itima20A-aa"/>
+#                <taxon id="his_bact_m_licus4A-aa"/>
+#                <taxon id="his_bact_m_lobus14A-aa"/>
+#                <taxon id="his_bact_m_malis11A-aa"/>
+#                <taxon id="his_bact_m_obile17A-aa"/>
+#                <taxon id="his_bact_m_ormis7A-aa"/>
+#                <taxon id="his_bact_m_rferi5A-aa"/>
+#                <taxon id="his_bact_m_ticus12A-aa"/>
+#                <taxon id="his_bact_m_urans13A-aa"/>
+#                <taxon id="his_d1adjc_therm2A-aa"/>
+#                <taxon id="his_d1qe0a_aureu3A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="M.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="M">
+#                <taxon id="met_1pfv_e__coli1A-aa"/>
+#                <taxon id="met_1woy_t_therm2A-aa"/>
+#                <taxon id="met_2csx_a__aeol3A-aa"/>
+#                <taxon id="met_2x1l_m_matis4A-aa"/>
+#                <taxon id="met_bact_m_egans17A-aa"/>
+#                <taxon id="met_bact_m_ejuni18A-aa"/>
+#                <taxon id="met_bact_m_ensis9A-aa"/>
+#                <taxon id="met_bact_m_gatus11A-aa"/>
+#                <taxon id="met_bact_m_iacus8A-aa"/>
+#                <taxon id="met_bact_m_incut10A-aa"/>
+#                <taxon id="met_bact_m_incut12A-aa"/>
+#                <taxon id="met_bact_m_incut13A-aa"/>
+#                <taxon id="met_bact_m_incut14A-aa"/>
+#                <taxon id="met_bact_m_incut15A-aa"/>
+#                <taxon id="met_bact_m_incut16A-aa"/>
+#                <taxon id="met_bact_m_incut5A-aa"/>
+#                <taxon id="met_bact_m_incut7A-aa"/>
+#                <taxon id="met_bact_m_lobus6A-aa"/>
+#                <taxon id="met_bact_m_malis19A-aa"/>
+#                <taxon id="met_bact_m_ticus20A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="W.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="W">
+#                <taxon id="trp_1i6m_b_stear1A-aa"/>
+#                <taxon id="trp_2el7_t_therm2A-aa"/>
+#                <taxon id="trp_2g36_t_itima4A-aa"/>
+#                <taxon id="trp_bact_m__coli15A-aa"/>
+#                <taxon id="trp_bact_m_egans10A-aa"/>
+#                <taxon id="trp_bact_m_ejuni11A-aa"/>
+#                <taxon id="trp_bact_m_ensis19A-aa"/>
+#                <taxon id="trp_bact_m_gatus18A-aa"/>
+#                <taxon id="trp_bact_m_gilis7A-aa"/>
+#                <taxon id="trp_bact_m_iacus17A-aa"/>
+#                <taxon id="trp_bact_m_lobus16A-aa"/>
+#                <taxon id="trp_bact_m_malis12A-aa"/>
+#                <taxon id="trp_bact_m_opcut5A-aa"/>
+#                <taxon id="trp_bact_m_opcut9A-aa"/>
+#                <taxon id="trp_bact_m_ormis8A-aa"/>
+#                <taxon id="trp_bact_m_rferi6A-aa"/>
+#                <taxon id="trp_bact_m_ticus13A-aa"/>
+#                <taxon id="trp_bact_m_urans14A-aa"/>
+#                <taxon id="trp_bact_m_ureus20A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="K">
+#                <taxon id="lys_3e9h_b_stear3A-aa"/>
+#                <taxon id="lys_3g1z_s_urium2A-aa"/>
+#                <taxon id="lys_bact_m_egans10A-aa"/>
+#                <taxon id="lys_bact_m_ejuni11A-aa"/>
+#                <taxon id="lys_bact_m_ensis17A-aa"/>
+#                <taxon id="lys_bact_m_ensis9A-aa"/>
+#                <taxon id="lys_bact_m_gatus19A-aa"/>
+#                <taxon id="lys_bact_m_gilis6A-aa"/>
+#                <taxon id="lys_bact_m_hilus7A-aa"/>
+#                <taxon id="lys_bact_m_iacus15A-aa"/>
+#                <taxon id="lys_bact_m_itima5A-aa"/>
+#                <taxon id="lys_bact_m_lobus14A-aa"/>
+#                <taxon id="lys_bact_m_obile16A-aa"/>
+#                <taxon id="lys_bact_m_ormis8A-aa"/>
+#                <taxon id="lys_bact_m_ticus12A-aa"/>
+#                <taxon id="lys_bact_m_urans13A-aa"/>
+#                <taxon id="lys_bact_m_ureus18A-aa"/>
+#                <taxon id="lys_d1e1oa__coli1A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="F.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+#            <taxonset id="F">
+#                <taxon id="phe_2alya__therm1A-aa"/>
+#                <taxon id="phe_2rhq_s_cus_a2A-aa"/>
+#                <taxon id="phe_bact_m_incut10A-aa"/>
+#                <taxon id="phe_bact_m_incut11A-aa"/>
+#                <taxon id="phe_bact_m_incut12A-aa"/>
+#                <taxon id="phe_bact_m_incut13A-aa"/>
+#                <taxon id="phe_bact_m_incut14A-aa"/>
+#                <taxon id="phe_bact_m_incut15A-aa"/>
+#                <taxon id="phe_bact_m_incut16A-aa"/>
+#                <taxon id="phe_bact_m_incut17A-aa"/>
+#                <taxon id="phe_bact_m_incut19A-aa"/>
+#                <taxon id="phe_bact_m_incut20A-aa"/>
+#                <taxon id="phe_bact_m_incut5A-aa"/>
+#                <taxon id="phe_bact_m_incut6A-aa"/>
+#                <taxon id="phe_bact_m_incut7A-aa"/>
+#                <taxon id="phe_bact_m_incut8A-aa"/>
+#                <taxon id="phe_bact_m_incut9A-aa"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="AARSprior" spec="beast.evolution.substitutionmodel.AARSTreePrior">
+#            <trait id="TraitSet1" spec="beast.evolution.tree.TraitSet" traitname="state">
+#                    val_1gax_t_therm17A-aa=0, val_bact_m__coli14A-aa=0, val_bact_m_ejuni10A-aa=0, val_bact_m_ensis9A-aa=0, val_bact_m_gatus5A-aa=0, val_bact_m_hilus15A-aa=0, val_bact_m_hilus7A-aa=0, val_bact_m_incut8A-aa=0, val_bact_m_itima6A-aa=0, val_bact_m_malis11A-aa=0, val_bact_m_matis3A-aa=0, val_bact_m_obile2A-aa=0, val_bact_m_rferi1A-aa=0, val_bact_m_ticus12A-aa=0, val_bact_m_urans13A-aa=0, val_bact_m_ureus4A-aa=0, gly_bact_m_alpha10A-aa=1, gly_bact_m_alpha18A-aa=1, gly_bact_m_incut6A-aa=1, gly_bact_m_incut8A-aa=1, gly_bact_m_opcut12A-aa=1, gly_bact_m_opcut13A-aa=1, gly_bact_m_opcut14A-aa=1, gly_bact_m_opcut15A-aa=1, gly_bact_m_opcut16A-aa=1, gly_bact_m_opcut17A-aa=1, gly_bact_m_opcut5A-aa=1, gly_bact_m_opcut7A-aa=1, gly_bact_m_opcut9A-aa=1, gly_bact_m_rferi4A-aa=1, gly_d1atib_therm2A-aa=1, gly_d1j5wb_itima3A-aa=1, ala_1yfsa__licus19A-aa=2, ala_3hxv_e__coli2A-aa=2, ala_bact_m_ans_111A-aa=2, ala_bact_m_egans7A-aa=2, ala_bact_m_ensis17A-aa=2, ala_bact_m_ensis6A-aa=2, ala_bact_m_gatus19A-aa=2, ala_bact_m_gilis4A-aa=2, ala_bact_m_hilus13A-aa=2, ala_bact_m_hilus16A-aa=2, ala_bact_m_iacus14A-aa=2, ala_bact_m_ima_120A-aa=2, ala_bact_m_incut12A-aa=2, ala_bact_m_malis9A-aa=2, ala_bact_m_obile15A-aa=2, ala_bact_m_ormis5A-aa=2, ala_bact_m_rferi3A-aa=2, ala_bact_m_ticus10A-aa=2, ala_bact_m_ureus18A-aa=2, asp_bact_m_egans8A-aa=3, asp_bact_m_ejuni9A-aa=3, asp_bact_m_ensis7A-aa=3, asp_bact_m_gatus18A-aa=3, asp_bact_m_gilis5A-aa=3, asp_bact_m_hilus12A-aa=3, asp_bact_m_iacus13A-aa=3, asp_bact_m_incut11A-aa=3, asp_bact_m_incut16A-aa=3, asp_bact_m_itima19A-aa=3, asp_bact_m_licus3A-aa=3, asp_bact_m_matis15A-aa=3, asp_bact_m_obile14A-aa=3, asp_bact_m_ormis6A-aa=3, asp_bact_m_rferi4A-aa=3, asp_bact_m_ticus10A-aa=3, asp_bact_m_ureus17A-aa=3, asp_d1b8aa_ensis2A-aa=3, asp_d1c0aa__coli1A-aa=3, asp_d1efwa_therm2A-aa=3, pro_2i4la__stris20A-aa=4, pro_2j3mb__calis19B-aa=4, pro_bact_m__coli3A-aa=4, pro_bact_m_egans17A-aa=4, pro_bact_m_ensis16A-aa=4, pro_bact_m_ensis9A-aa=4, pro_bact_m_gatus11A-aa=4, pro_bact_m_gilis14A-aa=4, pro_bact_m_hilus5A-aa=4, pro_bact_m_iacus6A-aa=4, pro_bact_m_itima13A-aa=4, pro_bact_m_licus1A-aa=4, pro_bact_m_lobus4A-aa=4, pro_bact_m_malis8A-aa=4, pro_bact_m_ormis15A-aa=4, pro_bact_m_rferi12A-aa=4, pro_bact_m_ticus7A-aa=4, pro_bact_m_urans2A-aa=4, pro_bact_m_ureus10A-aa=4, pro_d1hc7a_therm18A-aa=4, pro_d1nj1a_therm2A-aa=4, glu_1j09_t_therm1A-aa=5, glu_1nzj_e__coli2A-aa=5, glu_2cfo_t_elong3A-aa=5, glu_2o5r_t_itima4A-aa=5, glu_bact_m_egans10A-aa=5, glu_bact_m_ejuni11A-aa=5, glu_bact_m_ensis18A-aa=5, glu_bact_m_ensis9A-aa=5, glu_bact_m_gilis7A-aa=5, glu_bact_m_hilus16A-aa=5, glu_bact_m_iacus17A-aa=5, glu_bact_m_incut14A-aa=5, glu_bact_m_licus5A-aa=5, glu_bact_m_lobus15A-aa=5, glu_bact_m_obile20A-aa=5, glu_bact_m_ormis8A-aa=5, glu_bact_m_rferi6A-aa=5, glu_bact_m_ureus19A-aa=5, ser_bact_m__coli9A-aa=6, ser_bact_m_egans17A-aa=6, ser_bact_m_ejuni8A-aa=6, ser_bact_m_ensis7A-aa=6, ser_bact_m_gatus1A-aa=6, ser_bact_m_gilis2A-aa=6, ser_bact_m_hilus10A-aa=6, ser_bact_m_iacus18A-aa=6, ser_bact_m_itima12A-aa=6, ser_bact_m_licus3A-aa=6, ser_bact_m_malis15A-aa=6, ser_bact_m_matis11A-aa=6, ser_bact_m_obile13A-aa=6, ser_bact_m_ormis6A-aa=6, ser_bact_m_rferi4A-aa=6, ser_bact_m_ticus16A-aa=6, ser_bact_m_urans5A-aa=6, ser_bact_m_ureus14A-aa=6, ser_d1sera_therm20A-aa=6, leu_2v0c_T_thermophilus=7, leu_bact_A_aeolicus_ALPHA=7, leu_bact_B_burgdorferi=7, leu_bact_B_licheniformis=7, leu_bact_B_thailandensis=7, leu_bact_C_Amoebophilus_asiaticus=7, leu_bact_C_aggregans=7, leu_bact_C_jejuni=7, leu_bact_C_thermalis=7, leu_bact_D_radiodurans=7, leu_bact_E_coli=7, leu_bact_G_obscuriglobus=7, leu_bact_G_stearothermophilus=7, leu_bact_M_mobile=7, leu_bact_M_smegmatis=7, leu_bact_S_aureus=7, leu_bact_S_elongatus=7, leu_bact_T_maritima=7, leu_bact_T_thermophilus=7, arg_1iq0_t_therm19A-aa=8, arg_3fnr_c_pyl_j20A-aa=8, arg_bact_m__coli3A-aa=8, arg_bact_m_egans16A-aa=8, arg_bact_m_ensis8A-aa=8, arg_bact_m_gatus10A-aa=8, arg_bact_m_gilis13A-aa=8, arg_bact_m_iacus6A-aa=8, arg_bact_m_incut12A-aa=8, arg_bact_m_incut14A-aa=8, arg_bact_m_incut15A-aa=8, arg_bact_m_incut1A-aa=8, arg_bact_m_incut5A-aa=8, arg_bact_m_incut9A-aa=8, arg_bact_m_lobus4A-aa=8, arg_bact_m_malis18A-aa=8, arg_bact_m_rferi11A-aa=8, arg_bact_m_ticus17A-aa=8, arg_bact_m_urans2A-aa=8, thr_bact_m_aceae18A-aa=9, thr_bact_m_egans17A-aa=9, thr_bact_m_ejuni16A-aa=9, thr_bact_m_ensis10A-aa=9, thr_bact_m_gatus9A-aa=9, thr_bact_m_gilis14A-aa=9, thr_bact_m_hilus8A-aa=9, thr_bact_m_iacus7A-aa=9, thr_bact_m_itima1A-aa=9, thr_bact_m_licus11A-aa=9, thr_bact_m_lis_15A-aa=9, thr_bact_m_lobus6A-aa=9, thr_bact_m_ormis2A-aa=9, thr_bact_m_rferi13A-aa=9, thr_bact_m_ticus3A-aa=9, thr_bact_m_urans4A-aa=9, thr_bact_m_ureus12A-aa=9, thr_d1evka__coli20A-aa=9, thr_d1nyra_ureus19A-aa=9, ile_1ile_t_therm19A-aa=10, ile_1qu2_s_ureus2A-aa=10, ile_bact_m__coli5A-aa=10, ile_bact_m_egans17A-aa=10, ile_bact_m_ejuni18A-aa=10, ile_bact_m_ensis10A-aa=10, ile_bact_m_ensis16A-aa=10, ile_bact_m_gatus12A-aa=10, ile_bact_m_gilis15A-aa=10, ile_bact_m_hilus7A-aa=10, ile_bact_m_iacus8A-aa=10, ile_bact_m_itima14A-aa=10, ile_bact_m_licus3A-aa=10, ile_bact_m_obile9A-aa=10, ile_bact_m_opcut19A-aa=10, ile_bact_m_opcut20A-aa=10, ile_bact_m_opcut6A-aa=10, ile_bact_m_ormis11A-aa=10, ile_bact_m_rferi13A-aa=10, ile_bact_m_urans4A-aa=10, gln_1qtq_e__coli1A-aa=11, gln_2hz7_d_radio2A-aa=11, gln_bact_m_ejuni7A-aa=11, gln_bact_m_ensis12A-aa=11, gln_bact_m_ensis5A-aa=11, gln_bact_m_gatus14A-aa=11, gln_bact_m_hilus15A-aa=11, gln_bact_m_incut3A-aa=11, gln_bact_m_lobus9A-aa=11, asn_bact_m__coli9A-aa=12, asn_bact_m_egans5A-aa=12, asn_bact_m_gatus14A-aa=12, asn_bact_m_gilis3A-aa=12, asn_bact_m_iacus11A-aa=12, asn_bact_m_lobus10A-aa=12, asn_bact_m_malis6A-aa=12, asn_bact_m_obile12A-aa=12, asn_bact_m_rferi2A-aa=12, asn_bact_m_ticus7A-aa=12, asn_bact_m_urans8A-aa=12, asn_bact_m_ureus13A-aa=12, asn_d1asza_therm1A-aa=12, cys_3c8z_m__smeg17A-aa=13, cys_bact_m_cus_16A-aa=13, cys_bact_m_egans17A-aa=13, cys_bact_m_incut10A-aa=13, cys_bact_m_incut11A-aa=13, cys_bact_m_incut13A-aa=13, cys_bact_m_incut14A-aa=13, cys_bact_m_incut15A-aa=13, cys_bact_m_incut16A-aa=13, cys_bact_m_incut18A-aa=13, cys_bact_m_incut19A-aa=13, cys_bact_m_incut3A-aa=13, cys_bact_m_incut4A-aa=13, cys_bact_m_incut8A-aa=13, cys_bact_m_incut9A-aa=13, cys_bact_m_lobus5A-aa=13, cys_bact_m_obile7A-aa=13, cys_bact_m_rferi12A-aa=13, cys_bact_m_ticus20A-aa=13, tyr_1h3f_t_therm18A-aa=14, tyr_1jil_s_ureus19A-aa=14, tyr_1wq4_e__coli20A-aa=14, tyr_bact_m_egans13A-aa=14, tyr_bact_m_ejuni14A-aa=14, tyr_bact_m_ensis6A-aa=14, tyr_bact_m_gatus8A-aa=14, tyr_bact_m_gilis11A-aa=14, tyr_bact_m_hilus3A-aa=14, tyr_bact_m_iacus4A-aa=14, tyr_bact_m_itima10A-aa=14, tyr_bact_m_licus1A-aa=14, tyr_bact_m_lobus2A-aa=14, tyr_bact_m_malis15A-aa=14, tyr_bact_m_mis_112A-aa=14, tyr_bact_m_obile7A-aa=14, tyr_bact_m_rferi9A-aa=14, tyr_bact_m_ticus16A-aa=14, tyr_bact_m_urans17A-aa=14, his_1htt_e__coli1A-aa=15, his_bact_m_egans9A-aa=15, his_bact_m_ejuni10A-aa=15, his_bact_m_ensis19A-aa=15, his_bact_m_gatus18A-aa=15, his_bact_m_gilis6A-aa=15, his_bact_m_hilus15A-aa=15, his_bact_m_iacus16A-aa=15, his_bact_m_incut8A-aa=15, his_bact_m_itima20A-aa=15, his_bact_m_licus4A-aa=15, his_bact_m_lobus14A-aa=15, his_bact_m_malis11A-aa=15, his_bact_m_obile17A-aa=15, his_bact_m_ormis7A-aa=15, his_bact_m_rferi5A-aa=15, his_bact_m_ticus12A-aa=15, his_bact_m_urans13A-aa=15, his_d1adjc_therm2A-aa=15, his_d1qe0a_aureu3A-aa=15, met_1pfv_e__coli1A-aa=16, met_1woy_t_therm2A-aa=16, met_2csx_a__aeol3A-aa=16, met_2x1l_m_matis4A-aa=16, met_bact_m_egans17A-aa=16, met_bact_m_ejuni18A-aa=16, met_bact_m_ensis9A-aa=16, met_bact_m_gatus11A-aa=16, met_bact_m_iacus8A-aa=16, met_bact_m_incut10A-aa=16, met_bact_m_incut12A-aa=16, met_bact_m_incut13A-aa=16, met_bact_m_incut14A-aa=16, met_bact_m_incut15A-aa=16, met_bact_m_incut16A-aa=16, met_bact_m_incut5A-aa=16, met_bact_m_incut7A-aa=16, met_bact_m_lobus6A-aa=16, met_bact_m_malis19A-aa=16, met_bact_m_ticus20A-aa=16, trp_1i6m_b_stear1A-aa=17, trp_2el7_t_therm2A-aa=17, trp_2g36_t_itima4A-aa=17, trp_bact_m__coli15A-aa=17, trp_bact_m_egans10A-aa=17, trp_bact_m_ejuni11A-aa=17, trp_bact_m_ensis19A-aa=17, trp_bact_m_gatus18A-aa=17, trp_bact_m_gilis7A-aa=17, trp_bact_m_iacus17A-aa=17, trp_bact_m_lobus16A-aa=17, trp_bact_m_malis12A-aa=17, trp_bact_m_opcut5A-aa=17, trp_bact_m_opcut9A-aa=17, trp_bact_m_ormis8A-aa=17, trp_bact_m_rferi6A-aa=17, trp_bact_m_ticus13A-aa=17, trp_bact_m_urans14A-aa=17, trp_bact_m_ureus20A-aa=17, lys_3e9h_b_stear3A-aa=18, lys_3g1z_s_urium2A-aa=18, lys_bact_m_egans10A-aa=18, lys_bact_m_ejuni11A-aa=18, lys_bact_m_ensis17A-aa=18, lys_bact_m_ensis9A-aa=18, lys_bact_m_gatus19A-aa=18, lys_bact_m_gilis6A-aa=18, lys_bact_m_hilus7A-aa=18, lys_bact_m_iacus15A-aa=18, lys_bact_m_itima5A-aa=18, lys_bact_m_lobus14A-aa=18, lys_bact_m_obile16A-aa=18, lys_bact_m_ormis8A-aa=18, lys_bact_m_ticus12A-aa=18, lys_bact_m_urans13A-aa=18, lys_bact_m_ureus18A-aa=18, lys_d1e1oa__coli1A-aa=18, phe_2alya__therm1A-aa=19, phe_2rhq_s_cus_a2A-aa=19, phe_bact_m_incut10A-aa=19, phe_bact_m_incut11A-aa=19, phe_bact_m_incut12A-aa=19, phe_bact_m_incut13A-aa=19, phe_bact_m_incut14A-aa=19, phe_bact_m_incut15A-aa=19, phe_bact_m_incut16A-aa=19, phe_bact_m_incut17A-aa=19, phe_bact_m_incut19A-aa=19, phe_bact_m_incut20A-aa=19, phe_bact_m_incut5A-aa=19, phe_bact_m_incut6A-aa=19, phe_bact_m_incut7A-aa=19, phe_bact_m_incut8A-aa=19, phe_bact_m_incut9A-aa=19
+#				                <taxonset alignment="@AARS_Bact" id="allTaxa" name="taxa"/>
+#            </trait>
+#            <treeIntervals id="treeIntervals" spec="beast.evolution.tree.coalescent.TreeIntervals" tree="@Tree.t:AARS_Bact"/>
+#        </distribution>
+#        <distribution id="YuleModel.t:AARS_Bact" spec="beast.evolution.speciation.YuleModel" tree="@Tree.t:AARS_Bact">
+#            <parameter id="birthRate.t:AARS_Bact" name="birthDiffRate">1.0</parameter>
+#        </distribution>
+#        <prior id="YuleBirthRatePrior.t:AARS_Bact" name="distribution" x="@birthRate.t:AARS_Bact">
+#            <Uniform id="Uniform.0" name="distr" upper="Infinity"/>
+#        </prior>
+#    </distribution>
+#    <distribution id="likelihood" spec="beast.core.util.CompoundDistribution">
+#        <distribution data="@AARS_Bact" id="treeLikelihood.AARS_Bact" spec="beast.evolution.likelihood.TreeLikelihood" tree="@Tree.t:AARS_Bact">
+#            <siteModel id="SiteModel.s:AARS_Bact" spec="beast.evolution.sitemodel.SiteModel">
+#                <parameter estimate="false" id="mutationRate.s:AARS_Bact" name="mutationRate">1.0</parameter>
+#                <parameter estimate="false" id="gammaShape.s:AARS_Bact" name="shape">1.0</parameter>
+#                <parameter estimate="false" id="proportionInvariant.s:AARS_Bact" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+#                <substModel id="substmodel" spec="beast.evolution.substitutionmodel.TriStateAARSSubstitutionModel" trait="@TraitSet1" tree="@Tree.t:AARS_Bact">
+#                    <defaultModel id="GeneralSubstitutionModel" spec="beast.evolution.substitutionmodel.GeneralSubstitutionModel">
+#                        <parameter dimension="380" id="RealParameter" lower="0.0" name="rates" upper="0.0">0.18727491 2.0069284065 0.1526315789 0.5886402754 1.8004640371 0.3144104803 0.2330935252 1.3885245902 0.2522727273 7.8164948454 0.3024523161 1.0 0.3144475921 0.1969309463 2.0564102564 0.118852459 0.3680555556 0.3048387097 0.6510416667 0.1875881523 1.4168591224 0.8666666667 0.5679862306 0.0614849188 0.2423580786 1.3424460432 0.2262295082 0.5840909091 0.0309278351 0.3297002725 0.3056994819 0.104815864 1.1253196931 0.1743589744 0.25 0.3333333333 0.3741935484 0.0494791667 2.0056417489 1.4153661465 0.7403508772 1.5817555938 0.3979118329 1.4366812227 3.3712230216 2.1213114754 0.5522727273 0.193814433 0.9100817439 1.0259067358 0.2407932011 0.5089514066 0.8923076923 0.3155737705 0.1111111111 0.9064516129 0.2109375 0.1523272214 0.8655462185 0.7390300231 6.1703958692 0.0846867749 0.423580786 1.071942446 0.3754098361 0.1477272727 0.0391752577 0.6185286104 0.0310880829 0.3257790368 5.4271099744 0.1025641026 0.9303278689 0.1319444444 0.4806451613 0.046875 0.5881523272 0.5678271309 1.5831408776 6.1789473684 0.1542923434 0.6812227074 0.7050359712 0.8229508197 0.4386363636 0.1278350515 5.4741144414 0.0207253886 0.1954674221 0.9462915601 0.3128205128 0.5696721311 0.1597222222 2.585483871 0.0807291667 1.7997179126 0.0612244898 0.3983833718 0.0842105263 0.1549053356 0.4148471616 0.345323741 0.3262295082 0.4977272727 3.1690721649 0.8692098093 0.3834196891 0.3994334278 0.1304347826 4.8564102564 0.5 0.6666666667 0.2580645161 2.1171875 0.3145275035 0.243697479 1.4387990762 0.4245614035 0.6815834768 0.4153132251 1.6143884892 0.7950819672 0.6795454545 0.0989690722 0.9346049046 0.1088082902 0.2152974504 0.1943734015 0.1692307692 0.6967213115 0.1388888889 0.5564516129 0.1614583333 0.2327221439 1.3409363745 3.3718244804 1.0719298246 0.7039586919 0.3445475638 1.6113537118 4.3786885246 1.2227272727 0.3195876289 1.029972752 1.4093264249 0.7875354108 3.9744245524 0.4923076923 0.7418032787 0.5208333333 0.9677419355 0.546875 1.3878702398 0.2256902761 2.1212471132 0.3754385965 0.8227194492 0.3271461717 0.7947598253 4.3798561151 0.5545454545 1.4577319588 0.8583106267 0.5129533679 0.2917847025 2.0306905371 1.5179487179 0.4754098361 0.1111111111 1.3870967742 0.171875 0.2524682652 0.5846338535 0.5519630485 0.1473684211 0.4388984509 0.4976798144 0.6790393013 1.2244604317 0.5540983607 0.187628866 3.038147139 0.5284974093 0.3824362606 0.6342710997 0.6820512821 2.1393442623 1.1597222222 5.3532258065 0.1015625 7.8208744711 0.0300120048 0.1928406467 0.0385964912 0.1273666093 3.1716937355 0.1004366812 0.3194244604 1.4590163934 0.1863636364 0.1144414169 0.170984456 0.4192634561 0.5549872123 4.2564102564 0.1393442623 0.2152777778 0.3241935484 1.0598958333 0.3018335684 0.3301320528 0.9087759815 0.6175438596 5.4664371773 0.8700696056 0.9323144105 1.0287769784 0.8573770492 3.0340909091 0.1134020619 0.0984455959 0.2266288952 1.5421994885 1.5435897436 4.2991803279 0.2152777778 3.8967741935 0.0989583333 1.0014104372 0.306122449 1.0277136259 0.0298245614 0.0206540448 0.3839907193 0.1091703057 1.4086330935 0.5131147541 0.5272727273 0.1690721649 0.0980926431 0.5439093484 0.2659846547 0.3897435897 0.25 0.7152777778 0.0741935484 0.3984375 0.3145275035 0.1032412965 0.2413394919 0.3263157895 0.1962134251 0.3990719258 0.2161572052 0.7870503597 0.2918032787 0.3818181818 0.4206185567 0.2288828338 0.5440414508 1.0869565217 0.4307692308 3.8770491803 2.4861111111 0.1338709677 6.4609375 0.1960507757 1.12484994 0.5103926097 5.4333333333 0.9466437177 0.1310904872 0.1943231441 3.9755395683 2.031147541 0.6340909091 0.5546391753 1.5449591281 0.2642487047 1.0849858357 0.2 3.9631147541 0.0694444444 3.0129032258 0.0963541667 2.0578279267 0.1740696279 0.8937644342 0.1035087719 0.3149741824 4.8549883991 0.1703056769 0.4935251799 1.5163934426 0.6818181818 4.2536082474 1.5476839237 0.3886010363 0.4277620397 0.1969309463 0.4057377049 0.5138888889 0.935483871 1.1927083333 0.1184767278 0.24969988 0.317551963 0.9315789474 0.569707401 0.5 0.6965065502 0.7410071942 0.4737704918 2.1363636364 0.1381443299 4.2970027248 0.2487046632 3.8696883853 3.9539641944 0.4051282051 0.2638888889 0.8903225806 0.6796875 0.365303244 0.337334934 0.1131639723 0.1298245614 0.156626506 0.6658932715 0.1397379913 0.5237410072 0.1114754098 1.1636363636 0.212371134 0.2152588556 0.7150259067 2.4844192635 0.0716112532 0.5179487179 0.262295082 0.1370967742 1.53125 0.3060648801 0.3733493397 0.9064665127 0.4807017544 2.5817555938 0.2575406032 0.556768559 0.9669064748 1.3868852459 5.3477272727 0.3237113402 3.8991825613 0.0725388601 0.1331444759 3.010230179 0.9333333333 0.893442623 0.1388888889 0.0885416667 0.6502115656 0.0504201681 0.2101616628 0.0473684211 0.0808950086 2.1148491879 0.1615720524 0.5467625899 0.1721311475 0.1022727273 1.0577319588 0.1008174387 0.3989637306 6.4504249292 0.0971867008 1.1897435897 0.6803278689 1.5277777778 0.0887096774</parameter>
+#                        <frequencies id="Frequencies" spec="beast.evolution.substitutionmodel.Frequencies">
+#                            <parameter dimension="20" id="RealParameter1" lower="0.0" name="frequencies" upper="0.0">0.0709 0.0833 0.0866 0.057 0.0581 0.0862 0.0458 0.0695 0.061 0.044 0.0485 0.0367 0.0193 0.0353 0.0391 0.0195 0.0244 0.0144 0.062 0.0384</parameter>
+#                        </frequencies>
+#                    </defaultModel>
+#                    <frequencies id="AARSFrequencies0" spec="beast.evolution.substitutionmodel.AARSFrequencies">
+#                        <parameter dimension="3" id="RealParameter0" name="frequencies">1.0 0.0 0.0</parameter>
+#                    </frequencies>
+#                </substModel>
+#            </siteModel>
+#            <branchRateModel id="RelaxedClock.c:AARS_Bact" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" tree="@Tree.t:AARS_Bact">
+#                <LogNormal id="LogNormalDistributionModel.c:AARS_Bact" meanInRealSpace="true" name="distr">
+#                    <parameter estimate="false" id="RealParameter2" lower="0.0" name="M" upper="1.0">1.0</parameter>
+#                    <parameter id="ucldStdev.c:AARS_Bact" lower="0.0" name="S" upper="1.0">0.5</parameter>
+#                </LogNormal>
+#                <rateCategories dimension="718" id="rateCategories.c:AARS_Bact" spec="beast.core.parameter.IntegerParameter">1</rateCategories>
+#                <parameter id="ucldMean.c:AARS_Bact" name="clock.rate">1.0</parameter>
+#            </branchRateModel>
+#        </distribution>
+#    </distribution>
+#</input>
+#
+Sample	posterior	likelihood	prior	treeLikelihood	TreeHeight	YuleModel	birthRate	rate.mean	rate.variance	rate.coefficientOfVariation	ucldStdev
+0	-87478.29812137858	-83442.2981213786	-4035.9999999999845	-83442.2981213786	500.1	-4035.9999999999845	1.0	1.0949905405615736	0.3196065215844111	0.5530623573511788	0.5
+10000	-69427.77229692844	-67899.45503001875	-1528.3172669096823	-67899.45503001875	992.0949042200906	-1528.3172669096823	0.03623780885909941	1.028241723081818	1.2023332789925778	1.0547013528455982	0.8775776443232159
+20000	-65502.503968471756	-64256.08181512127	-1246.4221533504838	-64256.08181512127	605.3205505207305	-1246.4221533504838	0.08314096993368743	1.0002283642050827	1.2136852056038613E-5	0.003483964361230157	0.0034158200289118317
+30000	-62933.68802387261	-62036.12463410912	-897.5633897634933	-62036.12463410912	203.83711657323659	-897.5633897634933	0.21860329093119257	1.0090686506209523	0.007996172180715421	0.08936129556844474	0.08595627084355487
+40000	-60939.622825176586	-60344.16813615378	-595.4546890228115	-60344.16813615378	73.22787225509583	-595.4546890228115	0.4829854019983283	0.9660841777527327	0.07144915458360449	0.2683637216188585	0.2581559212925935
+50000	-59758.78050687639	-59326.48745485032	-432.29305202607134	-59326.48745485032	55.187124017024345	-432.29305202607134	0.826576178802627	0.8934080462495086	0.669707548853795	0.7996475953273903	0.6891827636906889
+60000	-59208.38285560798	-58985.835266787835	-222.54758882014704	-58985.835266787835	16.52489754243006	-222.54758882014704	1.3666376738184618	1.0115867576288762	0.0066833301940752154	0.08138006735929872	0.0818259893932101
+70000	-58786.225726485005	-58651.69724600288	-134.52848048212888	-58651.69724600288	9.093176124284852	-134.52848048212888	1.8821851832425933	1.1083430892545942	1.1589199972055364	1.0749903459623598	0.8551961762390065
+80000	-58544.897883364676	-58455.4774354543	-89.42044791037947	-58455.4774354543	4.718754496162767	-89.42044791037947	2.1092970234880615	1.0040371264382788	0.006380172430421625	0.07982296429785862	0.07757493385415273
+90000	-58468.64189445278	-58387.29176225492	-81.35013219785917	-58387.29176225492	4.255439258810325	-81.35013219785917	2.2753919072295963	0.999579503503896	0.18348352592529366	0.42564427428311813	0.3875976098723848
+100000	-58271.35253391308	-58205.15245969794	-66.20007421513569	-58205.15245969794	3.0903566813578385	-66.20007421513569	2.22881191552359	0.9971329600222317	0.07055564952796524	0.2668886035823263	0.26056690169321517
+110000	-58124.165380994884	-58065.22639258935	-58.938988405537344	-58065.22639258935	3.3723916324768757	-58.938988405537344	2.1687722699946517	0.9846559274072036	1.0397348142532299	1.039169965620941	0.9393727106346038
+120000	-57952.528770139135	-57905.518229021145	-47.0105411179917	-57905.518229021145	2.5733290182022834	-47.0105411179917	2.2156149034509465	1.043131030056883	0.5466227386010815	0.7170206162283953	0.6415017392777054
+130000	-57877.361548764005	-57839.58204234944	-37.77950641456678	-57839.58204234944	2.5181242912269037	-37.77950641456678	2.2696974739080993	1.0201682092397406	1.4992068189676226	1.1644442117694414	0.9171209757883311
+140000	-57831.392904257016	-57792.47993427154	-38.91296998547785	-57792.47993427154	2.519689573252614	-38.91296998547785	2.581160639687479	1.0128794618180672	0.2326449177681073	0.47794554939104295	0.4691278973412093
+150000	-57798.198034163586	-57762.94140303545	-35.25663112813448	-57762.94140303545	2.8097976166090812	-35.25663112813448	2.400083874068948	1.0000144549367855	0.06622716968444531	0.2556984563208382	0.2476278734897914
+160000	-57748.531612244595	-57713.08404543954	-35.44756680505749	-57713.08404543954	2.7320271447103686	-35.44756680505749	2.3746534057560122	0.9678306606128039	0.4849635033367054	0.6946493974885117	0.632104074794452
+170000	-57743.487064216446	-57703.43821395934	-40.04885025710149	-57703.43821395934	3.0073826177488407	-40.04885025710149	2.588262804584379	0.9753996350298916	1.1222980881493416	1.0911007760964277	0.9103855486209532
+180000	-57698.90650350613	-57675.745648468976	-23.16085503715292	-57675.745648468976	2.2585030977699887	-23.16085503715292	2.76840005877878	1.0089719053184933	0.3853171278135685	0.6192375066919107	0.5707213088761787
+190000	-57704.94152516823	-57667.314400171446	-37.627124996784964	-57667.314400171446	2.8915211088964576	-37.627124996784964	2.665931879219764	1.0006150400585923	5.6534090309782775E-5	0.007515820143037986	0.0075760329772406355
+200000	-57708.0561319682	-57680.562320241355	-27.493811726848577	-57680.562320241355	2.1831033786908995	-27.493811726848577	2.608811046504221	0.9948533686694795	1.3186548361181964	1.1538289967298394	0.97892885466456
+210000	-57689.88634138564	-57657.2510890711	-32.63525231453869	-57657.2510890711	2.343241189206392	-32.63525231453869	2.673191095330509	1.0158039444430251	0.06091136047415306	0.24794871664650625	0.24032313577587208
+220000	-57643.447215722575	-57627.564534851466	-15.882680871108768	-57627.564534851466	1.9537164222544763	-15.882680871108768	2.745425025165913	1.014685677421056	1.211247245554694	1.0927154962954233	0.9132731738198852
+230000	-57645.7526707523	-57625.83908505423	-19.913585698071152	-57625.83908505423	2.3188105821882097	-19.913585698071152	2.5266066981368365	1.0032711966234844	1.1819756846395906	1.089995238212014	0.8806875181528125
+240000	-57624.77046542257	-57612.187617185424	-12.582848237144486	-57612.187617185424	2.0735081358536984	-12.582848237144486	2.522570948499642	0.9824294779054439	0.3377543657579435	0.5948923427811696	0.5834466199913755
+250000	-57627.67506189851	-57609.02882381301	-18.646238085498773	-57609.02882381301	1.912239437323209	-18.646238085498773	2.855533564924341	0.9469711080025461	0.9487136083058996	1.0136011715525528	0.8739260083511953
+260000	-57652.34324938741	-57632.71454380048	-19.628705586933506	-57632.71454380048	2.0747125427864805	-19.628705586933506	2.484061402717048	0.9965061088249221	0.0023188135273533553	0.04823067091238359	0.049795095481563516
+270000	-57599.855963138485	-57584.86634012778	-14.989623010707344	-57584.86634012778	1.9338419905342474	-14.989623010707344	2.672516498382497	1.0166280702641228	0.2232262918596073	0.4683829408600418	0.44443874220970364
+280000	-57582.46555207152	-57571.506802103395	-10.958749968119506	-57571.506802103395	1.9183941993887108	-10.958749968119506	2.4804015286868633	1.0113153236197936	0.5896265309054872	0.7745348378236582	0.7326033634282166
+290000	-57572.963345598066	-57565.28356750552	-7.679778092551095	-57565.28356750552	1.737701839711134	-7.679778092551095	2.7225466827469202	1.0008431490435274	4.1086120457959214E-4	0.02025004099964351	0.021835572321939598
+300000	-57569.24204090466	-57559.684049521355	-9.557991383306991	-57559.684049521355	1.7238208183937511	-9.557991383306991	3.0109329932679603	0.9983433832478805	0.00939946250139225	0.09684141450965522	0.09890129230206363
+310000	-57535.19278379778	-57522.7360169516	-12.456766846174222	-57522.7360169516	1.9268306572938314	-12.456766846174222	2.7113951317032106	0.9667125095554601	0.12079008391591749	0.3510778603685827	0.3463397082420418
+320000	-57549.228996776925	-57545.51842570496	-3.7105710719599028	-57545.51842570496	1.8363483907944356	-3.7105710719599028	2.63997416481183	0.9975955294729989	0.006929868111103638	0.08352461032412556	0.08785875285552097
+330000	-57524.77797759107	-57514.43971408092	-10.338263510146527	-57514.43971408092	1.7752002187204003	-10.338263510146527	2.499445451469727	1.030402321680355	0.6423609059949389	0.7958267058642189	0.7084443982249414
+340000	-57512.035302240256	-57506.505450004974	-5.529852235283882	-57506.505450004974	1.8890538174296025	-5.529852235283882	2.8496460759661915	0.9889472847917385	0.6073021570319129	0.7968047914863936	0.7388026966043465
+350000	-57482.535246208325	-57482.76050645978	0.2252602514588613	-57482.76050645978	1.5695192607448458	0.2252602514588613	2.670460201802895	1.0335391162349075	1.4368492737569325	1.190317044878331	0.88317870089057
+360000	-57490.98795738165	-57483.90370681516	-7.084250566488937	-57483.90370681516	1.6368631543995138	-7.084250566488937	2.587548617843862	1.0043450900989834	0.096447087305675	0.3100986746403021	0.2929211317804029
+370000	-57492.123502813396	-57485.147409830905	-6.976092982490922	-57485.147409830905	1.6045350971502634	-6.976092982490922	2.445464052979987	0.9849852069079346	0.9888405232965128	0.9912651752297917	0.7923702079737597
+380000	-57477.25859549044	-57477.276567293084	0.01797180263833731	-57477.276567293084	1.5011658203081268	0.01797180263833731	2.702817447437017	0.9975353587651037	0.057446581282646625	0.24057488480782926	0.23512306093148833
+390000	-57461.21039438942	-57462.23888450799	1.0284901185739876	-57462.23888450799	1.884151417150935	1.0284901185739876	2.801018419058839	0.9915816774186632	0.015617979643954543	0.12510903084203545	0.12609719013118842
+400000	-57460.175141467495	-57457.409121726254	-2.7660197412416974	-57457.409121726254	1.5684193879031836	-2.7660197412416974	2.6680449087435907	0.9723849411750641	0.1491635048116412	0.38719012073407055	0.38639757490744137
+410000	-57466.80086984266	-57461.23126057995	-5.569609262706617	-57461.23126057995	1.9058244695221558	-5.569609262706617	2.5994940326412816	0.9935764419207727	0.08683287754771557	0.29203218468615366	0.2806832176213861
+420000	-57484.63700214375	-57482.28184700979	-2.355155133958525	-57482.28184700979	1.8312221974328253	-2.355155133958525	2.8080674689732725	0.9993917430892697	0.12504696131571974	0.3474384990860687	0.33468016606847645
+430000	-57467.47572394458	-57470.1878011756	2.712077231014888	-57470.1878011756	1.4886990134956548	2.712077231014888	2.705311939306355	1.0442724384647453	0.40576905109949024	0.6141453766972962	0.5551301752530614
+440000	-57428.8069796477	-57424.85844503846	-3.9485346092406717	-57424.85844503846	1.7866149918186032	-3.9485346092406717	2.8167812780392025	0.9995306836465617	0.004375535772443383	0.06618004179639599	0.06637950972393208
+450000	-57458.41694852793	-57456.43805019411	-1.9788983338125856	-57456.43805019411	1.6838747389482078	-1.9788983338125856	3.1668197389614785	1.0307015140436144	0.5494684510224633	0.7440978786514159	0.6878769381432914
+460000	-57441.85864351918	-57444.693977844014	2.8353343248315204	-57444.693977844014	1.4119243379236739	2.8353343248315204	2.772174702237664	1.0886520572045038	0.9022156119651744	0.9126575988958302	0.7908228287561837
+470000	-57448.79118629931	-57441.2994209238	-7.491765375508223	-57441.2994209238	1.8886399074785196	-7.491765375508223	2.576542157362682	0.9857785141933594	0.5977150857623441	0.7734821347358702	0.7306174692321216
+480000	-57437.05714133973	-57434.28645228081	-2.7706890589173208	-57434.28645228081	1.70034056731668	-2.7706890589173208	2.674255782350713	1.0190616208472627	0.6284143385825519	0.7785592601359117	0.74734982588688
+490000	-57461.94386724379	-57458.263645001	-3.6802222427868596	-57458.263645001	1.5266340379616814	-3.6802222427868596	2.842590595839464	0.9911118819840233	0.8634891919056141	0.9191803862595765	0.8231931630159146
+500000	-57452.52951610838	-57455.8943922199	3.3648761115267813	-57455.8943922199	1.4425272668415663	3.3648761115267813	2.7805860064924937	1.020094015513861	1.0704966010131036	0.980890673543939	0.8118769272290896
+510000	-57435.64162012401	-57433.04667061405	-2.5949495099648043	-57433.04667061405	1.3879878254321691	-2.5949495099648043	3.0062533908109192	0.9690897390317033	1.1552381082662808	1.0495763499657755	0.821175211738257
+520000	-57431.68922675002	-57432.48394207855	0.7947153285301809	-57432.48394207855	1.6436454128853597	0.7947153285301809	2.7829556496572634	1.0071044292788387	0.0073340490122620625	0.08544698762374708	0.08432401634828551
+530000	-57456.96819606001	-57459.28967489773	2.321478837720834	-57459.28967489773	1.5005299951780238	2.321478837720834	2.788504132383579	1.042155627874653	0.15443059349564717	0.3831604075332895	0.35751325660434535
+540000	-57422.533788384135	-57430.07464150177	7.540853117638376	-57430.07464150177	1.554626464181603	7.540853117638376	2.863339725749431	1.0020862162580486	0.23610692102087957	0.472834814709374	0.43696384383718645
+550000	-57459.85348110171	-57452.76492755857	-7.088553543139744	-57452.76492755857	1.7751945750961085	-7.088553543139744	2.6946135511773894	0.9998387437106855	8.103139637412951E-5	0.009000557837348721	0.008817679808531192
+560000	-57450.429563664504	-57449.5401318442	-0.8894318202987321	-57449.5401318442	1.881588050257517	-0.8894318202987321	2.920991749891093	0.9752329148948217	0.6351474593999041	0.8301739132259522	0.8073931553576028
+570000	-57426.77060451106	-57425.38234088395	-1.3882636271059816	-57425.38234088395	1.4678524655679555	-1.3882636271059816	2.9269296812016847	1.0132704068399867	0.2213264144125568	0.46357126121489417	0.45248861557010955
+580000	-57421.837144997844	-57415.47427765357	-6.362867344274641	-57415.47427765357	1.527016662015272	-6.362867344274641	2.706343351183773	1.0036220742247859	0.15471873637349548	0.39758529129893266	0.39112337944443354
+590000	-57433.12475321284	-57431.22445806688	-1.9002951459658277	-57431.22445806688	1.8733031716981903	-1.9002951459658277	2.6603407159018975	0.910753405276224	0.5771168407389478	0.803319917365604	0.7191410029785215
+600000	-57441.74329360643	-57439.8650040708	-1.8782895356296123	-57439.8650040708	1.4881586431299634	-1.8782895356296123	2.570487212302426	0.9538384025290234	0.9330725822513846	1.0004352662906977	0.8762400715019154
+610000	-57446.14650246285	-57449.912308272484	3.7658058096345073	-57449.912308272484	1.6179246033545354	3.7658058096345073	2.8773501429456076	0.9069461967793461	1.2371020078571526	1.1579069721571127	0.9662190837136951
+620000	-57478.935982999064	-57476.69904845097	-2.236934548090751	-57476.69904845097	1.4812831404756546	-2.236934548090751	2.9867244332382796	1.0198967200825513	0.5977296608357996	0.7419952241428738	0.6608994349364246
+630000	-57433.843393490395	-57432.80109828845	-1.042295201946689	-57432.80109828845	1.58601969160861	-1.042295201946689	2.6254286025025704	1.0472017730951706	1.019008866329575	0.9269188801529437	0.7739717944644108
+640000	-57468.6514372457	-57471.82040805097	3.1689708052685646	-57471.82040805097	1.6687055671962996	3.1689708052685646	2.5555092152189047	1.105849820264697	0.5893814887997129	0.718926948972892	0.6218275383505414
+650000	-57462.582478064	-57465.5069837439	2.9245056798985436	-57465.5069837439	1.3816704068149201	2.9245056798985436	2.532105730468455	1.016021226450999	0.22343641650416918	0.4578883116571208	0.43156429390380063
+660000	-57461.59763861865	-57465.31227002191	3.7146314032547902	-57465.31227002191	1.541713420227329	3.7146314032547902	2.848815956147632	1.0361288006912965	0.40708067841206647	0.6284739607190307	0.5638276433483866
+670000	-57451.586915517066	-57442.06238630374	-9.524529213327725	-57442.06238630374	1.6313153518780141	-9.524529213327725	2.6507772564257586	1.0384050910306255	1.7943889289786317	1.2981992187690208	0.9327716327917005
+680000	-57447.49841956447	-57445.823686109165	-1.674733455310787	-57445.823686109165	1.6881660196285841	-1.674733455310787	2.7546348948721815	1.02147987843127	0.3649083219280367	0.6013529491740242	0.5639503796089241
+690000	-57447.71952592532	-57450.90275552138	3.183229596064038	-57450.90275552138	1.6772492369966026	3.183229596064038	2.6963671531919835	1.0202904792047238	0.7820902258607454	0.8821092731381597	0.7384902187198581
+700000	-57452.71510870068	-57453.16038847972	0.4452797790427301	-57453.16038847972	1.600138708630831	0.4452797790427301	2.901618080992437	1.0035303571893868	0.24969993191706277	0.5097776860173189	0.49965421919291003
+710000	-57453.61284647375	-57454.16636486389	0.5535183901412566	-57454.16636486389	1.53857689458265	0.5535183901412566	2.8701905645352856	1.0264528537148958	0.07146567811130784	0.2617884244085128	0.2528335665672025
+720000	-57469.02447723842	-57473.513798490625	4.489321252208397	-57473.513798490625	1.5479266561642626	4.489321252208397	2.7350795921237925	1.0400655763448194	0.22547800765804285	0.47228047914925114	0.473352131891698
+730000	-57462.08164181665	-57462.43768470101	0.3560428843666017	-57462.43768470101	1.5597826544632203	0.3560428843666017	2.7670162233684543	1.0287788416276964	0.5589838618341615	0.726352326394432	0.6998191437277734
+740000	-57453.48512287093	-57458.01316959703	4.528046726097516	-57458.01316959703	1.614472377846607	4.528046726097516	2.9229588958683412	1.0020617495459352	0.0011624044441250509	0.034067617665152844	0.0339133473162204
+750000	-57451.06249282861	-57444.39344046021	-6.669052368397464	-57444.39344046021	1.8637906571484306	-6.669052368397464	2.599295092206473	1.0154248203305363	0.2918675971934454	0.528933899850489	0.49065371608597147
+760000	-57463.42811565602	-57468.918953292115	5.490837636098192	-57468.918953292115	1.5301193882293422	5.490837636098192	2.7211964083824345	1.028315152114695	0.33218422959360144	0.5807026505649581	0.5083370294144108
+770000	-57464.99639077622	-57468.66330724029	3.666916464069563	-57468.66330724029	1.413035863445814	3.666916464069563	2.5866131720510506	0.9867635610411016	0.03687806574824156	0.19442722542707752	0.18883585228265798
+780000	-57449.11412907469	-57456.027264297285	6.913135222593098	-57456.027264297285	1.4011280882311716	6.913135222593098	2.9044865639667226	0.9994797929552909	0.6936107878705519	0.8278885966630867	0.6861716873727715
+790000	-57483.190997021455	-57482.84964823232	-0.3413487891390705	-57482.84964823232	1.6757001768403237	-0.3413487891390705	2.7851958529108476	1.0027319670263037	0.21669832943657483	0.4611208153384161	0.42315678500447906
+800000	-57448.74880537087	-57449.95777358103	1.2089682101603199	-57449.95777358103	1.6531186129699986	1.2089682101603199	2.7977946946561105	0.9315905188936258	1.2135263675597863	1.1405323855214153	0.9664429300846646
+810000	-57462.081145528275	-57459.382609606546	-2.698535921730457	-57459.382609606546	1.518314159518295	-2.698535921730457	2.6151369814733783	1.0000567421168347	0.13911249529424674	0.37145292136206165	0.35248583008084083
+820000	-57463.150189736465	-57466.02000751839	2.869817781927459	-57466.02000751839	1.7836822966381942	2.869817781927459	3.0283722556578203	0.9886215477201182	0.16269783705775073	0.4018084914965128	0.3928385499052559
+830000	-57477.259221744316	-57477.87813613801	0.6189143936920747	-57477.87813613801	1.5081306916559596	0.6189143936920747	2.6724871105114656	1.0321398970219247	0.13219402647009315	0.3525066071619977	0.33505404662902744
+840000	-57473.87779503112	-57471.93879809622	-1.9389969348986096	-57471.93879809622	1.5776271954510481	-1.9389969348986096	2.728253136260665	1.0321532346638331	0.8491511167084905	0.8782723500552804	0.7870690343011043
+850000	-57465.41819155804	-57466.74463273216	1.3264411741207898	-57466.74463273216	1.7616876839414481	1.3264411741207898	2.556383741100142	1.0128009530705981	0.06450444433507484	0.24898210391774528	0.2449753495699891
+860000	-57475.07507165357	-57476.38432321058	1.309251557010902	-57476.38432321058	1.4202995826437335	1.309251557010902	2.781118993736518	1.0137260180537686	0.5331699924470159	0.740833750404352	0.6706091318845046
+870000	-57437.04811731022	-57433.17934925204	-3.8687680581871255	-57433.17934925204	1.8170371205569125	-3.8687680581871255	2.632583846951612	1.0194609383774929	0.2423721293802444	0.49475023028717796	0.4864818778458594
+880000	-57466.70117291642	-57475.4710742091	8.769901292677584	-57475.4710742091	1.396515829873988	8.769901292677584	2.889748503568462	1.035355622153295	0.4191558334426258	0.6282565310421497	0.5737418191392429
+890000	-57435.20572029455	-57439.74038979531	4.534669500760037	-57439.74038979531	1.521564556578557	4.534669500760037	2.637124399730034	1.0335640449194046	0.21766815662610367	0.454486079789224	0.4114988276708964
+900000	-57466.28720363826	-57461.865950972024	-4.421252666234626	-57461.865950972024	2.2509262989372294	-4.421252666234626	2.778257691337465	1.002024585753754	0.43491025160681834	0.6495959457222648	0.5554166076983654
+910000	-57460.624038513226	-57449.964741964905	-10.659296548320764	-57449.964741964905	2.0101279661898768	-10.659296548320764	2.8614323963554797	1.0322381872140565	0.21326436204579854	0.45279089880359735	0.41459213752139434
+920000	-57447.714518857094	-57441.42164387279	-6.292874984301814	-57441.42164387279	1.727432310164459	-6.292874984301814	2.652406117563803	1.1350860636976876	1.6798470095234666	1.2429159590509138	0.9852925554581594
+930000	-57432.41262256409	-57430.73531198701	-1.6773105770738743	-57430.73531198701	1.6702585757627424	-1.6773105770738743	2.55281580687537	1.0111408786944458	1.3282943481699667	1.1850514585836425	0.9520634333735177
+940000	-57421.00812272081	-57425.27795142525	4.269828704437797	-57425.27795142525	1.72715021977462	4.269828704437797	2.7823488964103857	0.9911497477577877	0.03741365269307426	0.19506614379557546	0.20633096181939814
