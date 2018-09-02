@@ -3,7 +3,7 @@
 
 <data id="AARS_Bact" name="alignment">
 	<userDataType spec='beast.evolution.datatype.TwentyState' symbolOrder='VGADPESLRTIQNCYHMWKF'/>
-                    <!--<sequence id="seq_arg_euk_1f7u_S_cerevisiae" taxon="arg_euk_1f7u_S_cerevisiae" totalcount="20" value="IIEFSPNIAKPFHAGHLRSTIIGGFLANL-IRMNYLGDWG-EFSIEKYIDTYARLD-VYSGESQ-LYLTRDVGAAM-IYVIASQQDLHAAQFFEILKQM-LQHVNF-"/>-->
+                    <sequence id="seq_arg_euk_1f7u_S_cerevisiae" taxon="arg_euk_1f7u_S_cerevisiae" totalcount="20" value="IIEFSPNIAKPFHAGHLRSTIIGGFLANL-IRMNYLGDWG-EFSIEKYIDTYARLD-VYSGESQ-LYLTRDVGAAM-IYVIASQQDLHAAQFFEILKQM-LQHVNF-GMSTR"/>
                     <sequence id="seq_arg_bact_1iq0_T_thermophilus" taxon="arg_bact_1iq0_T_thermophilus" totalcount="20" value="LVEHSVNPNKELHVGHLRNIALGDAIARI-LVLNYIDDTG-NRILLAQMATMHALD-LLVWESD-TYYAKDIAFQF-INVVDVRQSHPQALVRAALALA-AHHLAY-QMSGR"/>
                     <sequence id="seq_arg_arch_2zue_P_horikoshii" taxon="arg_arch_2zue_P_horikoshii" totalcount="20" value="IVEHSVNPTKPLHMGHARNAILGDVMARI-EVQNYIDDLG-EEVVRAQMVTTYKLD-LLVWESD-TYTGKDIAYHL-INVIGAEQKHPQLAIKYALQLL-LYHLAY-KFSGR"/>
                     <sequence id="seq_arg_bact_3fnr_C_jejuni" taxon="arg_bact_3fnr_C_jejuni" totalcount="20" value="LLEYSANPTGPLHIGHARGAVFGDTLTRL-NTEYYVNDAG-DKMLVLIKQNLEQAD-SYVSERS-TYLAADIVYHK-INIWGADHHGYIPRMKAAMEFL-LEIILA-KMSKR"/>
@@ -127,7 +127,7 @@
                     <sequence id="seq_gln_euk_E_guttata" taxon="gln_euk_E_guttata" totalcount="20" value="LTRFPPEPNGYLHIGHAKAMFVNFGLAKE-CCYLRYDDTN-KEYIDHIEEIVGWMF-KITYTSD-SYDYAHCIVDS-HSLCTLEFETRRASYYWLLDAL-PYVWEY-MMSKR"/>
                     <sequence id="seq_glu_bact_1j09_T_thermophilus" taxon="glu_bact_1j09_T_thermophilus" totalcount="20" value="VTRIAPSPTGDPHVGTAYIALFNYAWARR-RFIVRIEDTD-PGAEERILAALKWLD-GPYRQSE-TYHLANVVDDH-DVIRAEEWLVSTPIHVLLYRAF-PRFYHM-KISKR"/>
                     <sequence id="seq_glu_bact_1nzj_E_coli" taxon="glu_bact_1nzj_E_coli" totalcount="20" value="IGRFAPSPSGELHFGSLIAALGSYLQARA-RWLVRIEDID-PGAAETILRQLEHYD-DVLWQSQ-AYNLAVVVDDH-EIVRGADLIEPTVRQISLYQLF-PDYIHL-KLSKR"/>
-                    <!--<sequence id="seq_glu_euk_2cfo_T_elongatus" taxon="glu_euk_2cfo_T_elongatus" totalcount="20" value="RVRLAPSPTGNLHIGTARTAVFNWLYARH-KFILRIEDTD-PEYTENILEGLQWLD-GPYFQSD-LYNLVVVVDDI-DVIRGEDHIGNTPKQILLYEAL-PNFAHT-"/>-->
+                    <sequence id="seq_glu_bact_2cfo_T_elongatus" taxon="glu_euk_2cfo_T_elongatus" totalcount="20" value="RVRLAPSPTGNLHIGTARTAVFNWLYARH-KFILRIEDTD-PEYTENILEGLQWLD-GPYFQSD-LYNLVVVVDDI-DVIRGEDHIGNTPKQILLYEAL-PNFAHT-KLSKR"/>
                     <sequence id="seq_glu_bact_2o5r_T_maritima" taxon="glu_bact_2o5r_T_maritima" totalcount="20" value="RVRFAPSPTGFLHVGGARTALFNFLFARK-EFILRIEDTD-REYEEKLXESLRWLD-GPYRQSE-TYNFACVVDDX-HVIRGDDHLSNTLRQLALYEAF-PVFAHV-KLSKR"/>
                     <sequence id="seq_glu_arch_M_hungatei" taxon="glu_arch_M_hungatei" totalcount="20" value="VMRFAPNPSGPLHLGHARAAFLNDEYIRR-KYILRIEDTD-PDAYDMVREDIAWMA-T-IFQSD-LMNLSVAVDDH-HVIRGKDHIANTKRQEFIFRYM-PVYRHY-VLSTS"/>
                     <sequence id="seq_glu_arch_M_jannaschii" taxon="glu_arch_M_jannaschii" totalcount="20" value="VMRFAPNPSGPLHIGHARAAVLNDYFVKK-KLILRLEDTD-PEAYDMIKEDLDWLD-V-VIQSD-LMNFSVPVDDH-HVLRGKDHIVNTEKQAYIYKYF-PEFIHY-VLSTS"/>
@@ -347,7 +347,7 @@
                     <sequence id="seq_trp_euk_1r6u_H_sapiens" taxon="trp_euk_1r6u_H_sapiens" totalcount="20" value="YLYTGRGPSSEXHVGHLIPFIFTKWLQDV-PLVIQXTDDE-YGDAVENAKDIIACT-FIFSDLD-SFPAIQAAPSF-LIPCAIDQDPYFRXTRDVAPRI-PALLHS-KFSKS"/>
                     <sequence id="seq_trp_bact_2el7_T_thermophilus" taxon="trp_bact_2el7_T_thermophilus" totalcount="20" value="RVLSGIQPSGEIHIGNYLAIKQWVAIGEK-DAFFCIVDYH-AQRTFEAALVNIAAV-TLFVQSH-MYPVLQAADIL-TVPVGEDQVQHIELTREIARRF-PQALLN-KMSKS"/>
                     <sequence id="seq_trp_bact_2g36_T_maritima" taxon="trp_bact_2g36_T_maritima" totalcount="20" value="RILSGMRPTGKLHIGHLVALENWVKLQEE-ECFYFVADWH-KEYTRDLVRGFLACS-VIFVQSG-IYPVLQAADIL-GVPVGEDQVYHIELTREIARRF-PEAILS-KMSKS"/>
-                    <!--><sequence id="seq_trp_euk_2ip1_S_cerevisiae" taxon="trp_euk_2ip1_S_cerevisiae" totalcount="20" value="FLYTGRGPSSSMHLGHMIPFVFTKWLQEP-LVIELTDDEV-KNFARENAKDIIAVT-FIFSDLQ-HFASIQIATAF-LIPCAIDQDPYFRVCRDVADKL-KPALLH-"/>-->
+                    <sequence id="seq_trp_euk_2ip1_S_cerevisiae" taxon="trp_euk_2ip1_S_cerevisiae" totalcount="20" value="FLYTGRGPSSSMHLGHMIPFVFTKWLQEP-LVIELTDDEV-KNFARENAKDIIAVT-FIFSDLQ-HFASIQIATAF-LIPCAIDQDPYFRVCRDVADKL-KPALLH-KMSAS"/>
                     <sequence id="seq_trp_arch_P_delaneyi" taxon="trp_arch_P_delaneyi" totalcount="20" value="ALVTGFMPSGKFHFGHKMVADQIIYYQKE-VFIVIADAEV-IEIGLYYVANLIALT-HIYFQTN-VAALTQAADIL-LVPVGADQDPHIRFTRDIADRF-RPASTY-KMSSS"/>
                     <sequence id="seq_trp_arch_S_acidocaldarius" taxon="trp_arch_S_acidocaldarius" totalcount="20" value="FLYTGRAPSLGMHIGHLIPFIFTKWLQEN-VYIEITDDET-KEWSYENILDIIAVT-FIFQDTE-FYPALQIVPTM-LIPAGIDQDPYWRLQRDIAESL-KAAQIH-KMSSS"/>
                     <sequence id="seq_trp_arch_M_kandleri" taxon="trp_arch_M_kandleri" totalcount="20" value="SVLSGMMPSGRMHLGHKTVVDQLVFYQQK-VYVPIADLEA-HRIAVEYVLNYAALC-EIYLQSE-FAPIVQAADIL-LVPVGVDQDPHLRLTRDIAEKE-KPASTY-KMSKS"/>
@@ -404,7 +404,7 @@
                     <sequence id="seq_tyr_arch_2cya_A_pernix" taxon="tyr_arch_2cya_A_pernix" totalcount="20" value="KGYIGYEPSGVAHIGWLVWMYKVKDLVEA-DFSVLEAT-W-HAAARIVRRVMEAAV-RFVDAEE-IYPLMQVSDIF-IALGGMDQRKAHMLARDVAEKL-PVAIHT-KMSKS"/>
                     <sequence id="seq_tyr_arch_2cyb_A_fulgidus" taxon="tyr_arch_2cyb_A_fulgidus" totalcount="20" value="RAYVGYEPSGEIHLGHMMTVQKLMDLQEA-EIIVLLAD-I-AEVADYNKKVFIALA-KFVLGSE-IYPLMQALDIA-LAVGGIDQRKIHMLARENLPRL-PVCLHT-KMSSS"/>
                     <sequence id="seq_tyr_arch_2cyc_P_horikoshii" taxon="tyr_arch_2cyc_P_horikoshii" totalcount="20" value="QHYIGFEISGYIHLGTLMAGAKIADFQKA-KTRVFLAD-W-HEVALYFKVGMEKSV-EFVLASE-IYPMMQVADIF-IAHAGMDQRKAHVIAIEVAQK--PVAVHH-KMSKS"/>
-                    <!--<sequence id="seq_tyr_euk_2dlc_S_cerevisiae" taxon="tyr_euk_2dlc_S_cerevisiae" totalcount="20" value="KLYWGTAPTGRPHCGYFVPMTKLADFLKA-EVTVLLAD-L-NYRAKYYELTIKAIL-KFVVGSS-IYPLMQALDEQ-CQFGGVDQRKIFVLAEENLPSL-RAHLMN-"/>-->
+                    <sequence id="seq_tyr_euk_2dlc_S_cerevisiae" taxon="tyr_euk_2dlc_S_cerevisiae" totalcount="20" value="KLYWGTAPTGRPHCGYFVPMTKLADFLKA-EVTVLLAD-L-NYRAKYYELTIKAIL-KFVVGSS-IYPLMQALDEQ-CQFGGVDQRKIFVLAEENLPSL-RAHLMN-KMSAS"/>
                     <sequence id="seq_tyr_arch_2zp1_M_jannaschii" taxon="tyr_arch_2zp1_M_jannaschii" totalcount="20" value="SAYIGFEPSGKIHLGHYLQIKKMIDLQNA-DIIILLAD-L-AKIGDYNKKVFEAMA-KYVYGSE-IYPIMQVNTSH-VAVGGMEQRKIHMLARELLP---VVCIHN-KMSSS"/>
                     <sequence id="seq_tyr_arch_P_delaneyi" taxon="tyr_arch_P_delaneyi" totalcount="20" value="KGYLGFEPSGLFHIGWLVWANKVKDLVDA-EFYLLAAT-W-HKAARHVVDVLEAIL-KVVDAED-IYPAMQVTDIF-IALGGLDQRKAHMLARDTAEKL-PIAIHT-KMSKS"/>
                     <sequence id="seq_tyr_arch_T_volcanium" taxon="tyr_arch_T_volcanium" totalcount="20" value="KSYIGIEPSGIPHVATVMWPRKLAELQD--KIYVLLAD-W-HKGGELLKRSFMAEA-EYLWASQ-IYPIMQVTDIF-IAFGGMDQRHAHMLARDIADKM-AVSVHG-KMSKS"/>
