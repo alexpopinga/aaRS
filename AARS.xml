@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" version="2.0">
 
 
-<data id="AARS_Bact" name="alignment">
+<data id="AARS" name="alignment">
 	<userDataType spec='beast.evolution.datatype.TwentyState' symbolOrder='VGADPESLRTIQNCYHMWKF'/>
                     <sequence id="seq_arg_euk_1f7u_S_cerevisiae" taxon="arg_euk_1f7u_S_cerevisiae" totalcount="20" value="IIEFSPNIAKPFHAGHLRSTIIGGFLANL-IRMNYLGDWG-EFSIEKYIDTYARLD-VYSGESQ-LYLTRDVGAAM-IYVIASQQDLHAAQFFEILKQM-LQHVNF-GMSTR"/>
                     <sequence id="seq_arg_bact_1iq0_T_thermophilus" taxon="arg_bact_1iq0_T_thermophilus" totalcount="20" value="LVEHSVNPNKELHVGHLRNIALGDAIARI-LVLNYIDDTG-NRILLAQMATMHALD-LLVWESD-TYYAKDIAFQF-INVVDVRQSHPQALVRAALALA-AHHLAY-QMSGR"/>
@@ -829,7 +829,7 @@
                     <sequence id="seq_pro_arch_A_fulgidus" taxon="pro_arch_A_fulgidus" totalcount="20" value="IRQLVYSKLREIMDR-EHDEVYFPALI-ALRPTSETAMY-LKVYQIVNTFRY-REISFKEAHTV-VKKAIGFYKEFYD-TIAFDT-QIGTVHHL-AHQTCYGISERCIAALI"/>
                     <sequence id="seq_pro_arch_T_acidophilum" taxon="pro_arch_T_acidophilum" totalcount="20" value="IMSLIDSIVRRAVDKRNFQEVNFPILI-ALRPTSESAMY-LKIYQIVSVYRY-REIHFFEAHTA-MDQYKEIWREISS-TIAFDT-QIGTIHQY-AHQTTYGMSERLLAAII"/>
                     <sequence id="seq_pro_arch_P_aerophilum" taxon="pro_arch_P_aerophilum" totalcount="20" value="IRRNVENLIRKFHDETGHEEVLFPVFI-VLRPTSETAIM-LRVYQIVSVFRA-REIMFKEAHTV-VREAVEIYKRIFD-TIAFDT-QIGTVHYL-AHTTSYGISERSIAAML"/>
-		    <sequence id="seq_pro_arch_M_kandleri" taxon="pro_arch_M_kandleri" totalcount="20" value="IRQRVVEKLRRKLRETGHEEVLFPTLI-ALRPTSETAIY-LKIFQIVNTFRY-REITFKEAHTA-VKEAVEIYSSFFD-TVAFDT-QIGTVHML-VYMTCYGISDRVVASMI"/>
+		    		<sequence id="seq_pro_arch_M_kandleri" taxon="pro_arch_M_kandleri" totalcount="20" value="IRQRVVEKLRRKLRETGHEEVLFPTLI-ALRPTSETAIY-LKIFQIVNTFRY-REITFKEAHTA-VKEAVEIYSSFFD-TVAFDT-QIGTVHML-VYMTCYGISDRVVASMI"/>
                     <sequence id="seq_pro_arch_M_acetivorans" taxon="pro_arch_M_acetivorans" totalcount="20" value="IRRSTYNIIREILDNSGHQETLFPLLI-ALRPTSETAIY-IKLYQIVNTFRY-REISFKEAHTV-VKEAVELYTEIYR-TDAIDA-QIGTVHHL-AHQTCYGISERSIAATI"/>
                     <sequence id="seq_pro_arch_S_acidocaldarius" taxon="pro_arch_S_acidocaldarius" totalcount="20" value="IRQAAVDLIRKLLDAKGHEEVLFPLLV-ALRPTSETAIT-KKYYQIVSVFRY-REVTFKEAHTL-VKEAIEIYKNFFE-TIAFDT-QIGTVHHL-PHQTSYGISDRVIAVVV"/>
                     <sequence id="seq_pro_arch_M_aeolicus_Nankai" taxon="pro_arch_M_aeolicus_Nankai" totalcount="20" value="IRRYAFEAIRDMLDESNHDEALFPMLI-ALRPTSETPIY-IKIYQIVNSFRY-REITFKEAHTA-VQTALNIYKTFFD-TMAFDT-QIGTVHNL-AYQTCYGISDRIIASII"/>
@@ -1000,130 +1000,126 @@
 <map name="taxon">beast.evolution.alignment.Taxon</map>
 <map name="taxonset">beast.evolution.alignment.TaxonSet</map>
 
-<taxonset id='allTaxa' alignment='@AARS_Bact'/>
+<taxonset id='allTaxa' alignment='@AARS'/>
 
 
 <run chainLength="10000000" id="mcmc" spec="MCMC">
     <state id="state" storeEvery="5000">
-        <tree id="Tree.t:AARS_Bact" name="stateNode">
-            <taxonset id="TaxonSet.AARS_Bact" spec="TaxonSet">
-                <data idref="AARS_Bact" name="alignment"/>
+        <tree id="Tree.t:AARS" name="stateNode">
+            <taxonset id="TaxonSet.AARS" spec="TaxonSet">
+                <data idref="AARS" name="alignment"/>
             </taxonset>
         </tree>
-        <parameter id="birthRate.t:AARS_Bact" name="stateNode" value="1.0"/>
-		<stateNode idref='ucldStdev.c:AARS_Bact'/>
-		<stateNode idref='rateCategories.c:AARS_Bact'/>
+        <parameter id="birthRate.t:AARS" name="stateNode" value="1.0"/>
+		<stateNode idref='ucldStdev.c:AARS'/>
+		<stateNode idref='rateCategories.c:AARS'/>
     </state>
 
     <distribution id="posterior" spec="util.CompoundDistribution">
         <distribution id="prior" spec="util.CompoundDistribution">
 
-            <distribution id="V.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="V.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="V" spec="TaxonSet">
-		            <taxon id="val_arch_m_aneyi12A_aa"/>
-                    <taxon id="val_arch_m_anium18A_aa"/>
-                    <taxon id="val_arch_m_ankai5A_aa"/>
-                    <taxon id="val_arch_m_arius15A_aa"/>
-                    <taxon id="val_arch_m_hilum11A_aa"/>
-                    <taxon id="val_arch_m_hilum17A_aa"/>
-                    <taxon id="val_arch_m_incut13A_aa"/>
-                    <taxon id="val_arch_m_incut2A_aa"/>
-                    <taxon id="val_arch_m_incut3A_aa"/>
-                    <taxon id="val_arch_m_incut4A_aa"/>
-                    <taxon id="val_arch_m_incut6A_aa"/>
-                    <taxon id="val_arch_m_incut8A_aa"/>
-                    <taxon id="val_arch_m_incut9A_aa"/>
-                    <taxon id="val_arch_m_itans10A_aa"/>
-                    <taxon id="val_arch_m_rinus16A_aa"/>
-                    <taxon id="val_arch_m_schii7A_aa"/>
-                    <taxon id="val_arch_m_ultum14A_aa"/>
-                    <taxon id="val_1gax_t_therm17A-aa"/>
-                    <taxon id="val_bact_m__coli14A-aa"/>
-                    <taxon id="val_bact_m_ejuni10A-aa"/>
-                    <taxon id="val_bact_m_ensis9A-aa"/>
-                    <taxon id="val_bact_m_gatus5A-aa"/>
-                    <taxon id="val_bact_m_hilus15A-aa"/>
-                    <taxon id="val_bact_m_hilus7A-aa"/>
-                    <taxon id="val_bact_m_incut8A-aa"/>
-                    <taxon id="val_bact_m_itima6A-aa"/>
-                    <taxon id="val_bact_m_malis11A-aa"/>
-                    <taxon id="val_bact_m_matis3A-aa"/>
-                    <taxon id="val_bact_m_obile2A-aa"/>
-                    <taxon id="val_bact_m_rferi1A-aa"/>
-                    <taxon id="val_bact_m_ticus12A-aa"/>
-                    <taxon id="val_bact_m_urans13A-aa"/>
-                    <taxon id="val_bact_m_ureus4A-aa"/>
-                    <taxon id="val_euk_md_antum15A-aa"/>
-                    <taxon id="val_euk_md_incut11A-aa"/>
-                    <taxon id="val_euk_md_incut12A-aa"/>
-                    <taxon id="val_euk_md_incut14A-aa"/>
-                    <taxon id="val_euk_md_incut17A-aa"/>
-                    <taxon id="val_euk_md_incut18A-aa"/>
-                    <taxon id="val_euk_md_incut19A-aa"/>
-                    <taxon id="val_euk_md_incut2A-aa"/>
-                    <taxon id="val_euk_md_incut5A-aa"/>
-                    <taxon id="val_euk_md_incut6A-aa"/>
-                    <taxon id="val_euk_md_incut7A-aa"/>
-                    <taxon id="val_euk_md_incut9A-aa"/>
-                    <taxon id="val_euk_md_oidea3A-aa"/>
-                    <taxon id="val_euk_md_phora10A-aa"/>
-                    <taxon id="val_euk_md_wa_ii4A-aa"/>
+                    <taxon id="seq_val_bact_1gax_T_thermophilus"/>
+                    <taxon id="seq_val_arch_P_delaneyi"/>
+                    <taxon id="seq_val_arch_T_volcanium"/>
+                    <taxon id="seq_val_arch_M_aeolicus_Nankai"/>
+                    <taxon id="seq_val_arch_S_acidocaldarius"/>
+                    <taxon id="seq_val_arch_P_aerophilum"/>
+                    <taxon id="seq_val_arch_T_acidophilum"/>
+                    <taxon id="seq_val_arch_P_horikoshii"/>
+                    <taxon id="seq_val_arch_A_fulgidus"/>
+                    <taxon id="seq_val_arch_Halobacterium"/>
+                    <taxon id="seq_val_arch_M_acetivorans"/>
+                    <taxon id="seq_val_arch_M_hungatei"/>
+                    <taxon id="seq_val_arch_M_thermautotrophicus"/>
+                    <taxon id="seq_val_arch_M_kandleri"/>
+                    <taxon id="seq_val_arch_N_equitans"/>
+                    <taxon id="seq_val_bact_R_marinus"/>
+                    <taxon id="seq_val_arch_M_jannaschii"/>
+                    <taxon id="seq_val_arch_P_occultum"/>
+                    <taxon id="seq_val_bact_E_coli"/>
+                    <taxon id="seq_val_bact_C_jejuni"/>
+                    <taxon id="seq_val_bact_B_thailandensis"/>
+                    <taxon id="seq_val_bact_S_elongatus"/>
+                    <taxon id="seq_val_bact_G_stearothermophilus"/>
+                    <taxon id="seq_val_bact_T_thermophilus"/>
+                    <taxon id="seq_val_bact_B_licheniformis"/>
+                    <taxon id="seq_val_bact_T_maritima"/>
+                    <taxon id="seq_val_bact_C_thermalis"/>
+                    <taxon id="seq_val_bact_M_smegmatis"/>
+                    <taxon id="seq_val_bact_M_mobile"/>
+                    <taxon id="seq_val_bact_B_burgdorferi"/>
+                    <taxon id="seq_val_bact_C_A_asiaticus"/>
+                    <taxon id="seq_val_bact_D_radiodurans"/>
+                    <taxon id="seq_val_bact_S_aureus"/>
+                    <taxon id="seq_val_euk_L_infantum"/>
+                    <taxon id="seq_val_euk_N_gruberi"/>
+                    <taxon id="seq_val_euk_N_ceranae"/>
+                    <taxon id="seq_val_euk_M_domestica"/>
+                    <taxon id="seq_val_euk_G_lamblia"/>
+                    <taxon id="seq_val_euk_E_guttata"/>
+                    <taxon id="seq_val_euk_D_rerio"/>
+                    <taxon id="seq_val_euk_D_discoideum"/>
+                    <taxon id="seq_val_euk_C_owczarzaki"/>
+                    <taxon id="seq_val_euk_C_gigas"/>
+                    <taxon id="seq_val_euk_B_hominis"/>
+                    <taxon id="seq_val_euk_S_rosetta"/>
+                    <taxon id="seq_val_euk_C_subellipsoidea"/>
+                    <taxon id="seq_val_euk_P_chromatophora"/>
+                    <taxon id="seq_val_euk_C_parvum_Iowa_II"/>
                 </taxonset>
             </distribution>
-            <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="G" spec="TaxonSet">
-		            <taxon id="gly_arch_m_anium1A_aa"/>
-                    <taxon id="gly_arch_m_hilum20A_aa"/>
-                    <taxon id="gly_arch_m_itans12A_aa"/>
-                    <taxon id="gly_arch_m_opcut10A_aa"/>
-                    <taxon id="gly_arch_m_opcut11A_aa"/>
-                    <taxon id="gly_arch_m_opcut13A_aa"/>
-                    <taxon id="gly_arch_m_opcut14A_aa"/>
-                    <taxon id="gly_arch_m_opcut15A_aa"/>
-                    <taxon id="gly_arch_m_opcut16A_aa"/>
-                    <taxon id="gly_arch_m_opcut17A_aa"/>
-                    <taxon id="gly_arch_m_opcut18A_aa"/>
-                    <taxon id="gly_arch_m_opcut19A_aa"/>
-                    <taxon id="gly_arch_m_opcut4A_aa"/>
-                    <taxon id="gly_arch_m_opcut5A_aa"/>
-                    <taxon id="gly_arch_m_opcut6A_aa"/>
-                    <taxon id="gly_arch_m_opcut7A_aa"/>
-                    <taxon id="gly_arch_m_opcut8A_aa"/>
-                    <taxon id="gly_arch_m_opcut9A_aa"/>
-                    <taxon id="gly_bact_m_alpha10A-aa"/>
-                    <taxon id="gly_bact_m_alpha18A-aa"/>
-                    <taxon id="gly_bact_m_incut6A-aa"/>
-                    <taxon id="gly_bact_m_incut8A-aa"/>
-                    <taxon id="gly_bact_m_opcut12A-aa"/>
-                    <taxon id="gly_bact_m_opcut13A-aa"/>
-                    <taxon id="gly_bact_m_opcut14A-aa"/>
-                    <taxon id="gly_bact_m_opcut15A-aa"/>
-                    <taxon id="gly_bact_m_opcut16A-aa"/>
-                    <taxon id="gly_bact_m_opcut17A-aa"/>
-                    <taxon id="gly_bact_m_opcut5A-aa"/>
-                    <taxon id="gly_bact_m_opcut7A-aa"/>
-                    <taxon id="gly_bact_m_opcut9A-aa"/>
-                    <taxon id="gly_bact_m_rferi4A-aa"/>
-                    <taxon id="gly_d1atib_therm2A-aa"/>
-                    <taxon id="gly_d1j5wb_itima3A-aa"/>
-                    <taxon id="gly_2zt5_h_h_sap1A-aa"/>
-                    <taxon id="gly_euk_md_incut16A-aa"/>
-                    <taxon id="gly_euk_md_incut3A-aa"/>
-                    <taxon id="gly_euk_md_incut4A-aa"/>
-                    <taxon id="gly_euk_md_incut5A-aa"/>
-                    <taxon id="gly_euk_md_incut6A-aa"/>
-                    <taxon id="gly_euk_md_incut9A-aa"/>
-                    <taxon id="gly_euk_md_opcut10A-aa"/>
-                    <taxon id="gly_euk_md_opcut11A-aa"/>
-                    <taxon id="gly_euk_md_opcut12A-aa"/>
-                    <taxon id="gly_euk_md_opcut13A-aa"/>
-                    <taxon id="gly_euk_md_opcut14A-aa"/>
-                    <taxon id="gly_euk_md_opcut2A-aa"/>
-                    <taxon id="gly_euk_md_opcut7A-aa"/>
-                    <taxon id="gly_euk_md_opcut8A-aa"/>
+                    <taxon id="seq_gly_euk_2zt5_H_sapiens"/>
+                    <taxon id="seq_gly_arch_T_volcanium"/>
+                    <taxon id="seq_gly_arch_T_acidophilum"/>
+                    <taxon id="seq_gly_arch_N_equitans"/>
+                    <taxon id="seq_gly_arch_M_kandleri"/>
+                    <taxon id="seq_gly_arch_M_thermautotrophicus"/>
+                    <taxon id="seq_gly_arch_P_aerophilum"/>
+                    <taxon id="seq_gly_arch_P_delaneyi"/>
+                    <taxon id="seq_gly_arch_P_horikoshii"/>
+                    <taxon id="seq_gly_arch_P_occultum"/>
+                    <taxon id="seq_gly_bact_R_marinus"/>
+                    <taxon id="seq_gly_arch_S_acidocaldarius"/>
+                    <taxon id="seq_gly_arch_S_marinus"/>
+                    <taxon id="seq_gly_arch_A_fulgidus"/>
+                    <taxon id="seq_gly_arch_Halobacterium"/>
+                    <taxon id="seq_gly_arch_M_acetivorans"/>
+                    <taxon id="seq_gly_arch_M_aeolicus_Nankai"/>
+                    <taxon id="seq_gly_arch_M_hungatei"/>
+                    <taxon id="seq_gly_arch_M_jannaschii"/>
+                    <taxon id="seq_gly_bact_C_A_asiaticus"/>
+                    <taxon id="seq_gly_bact_G_obscuriglobus"/>
+                    <taxon id="seq_gly_bact_G_stearothermophilus"/>
+                    <taxon id="seq_gly_bact_H_aurantiacus"/>
+                    <taxon id="seq_gly_bact_M_mobile"/>
+                    <taxon id="seq_gly_bact_P_mikurensis"/>
+                    <taxon id="seq_gly_bact_S_aureus"/>
+                    <taxon id="seq_gly_bact_B_fragilis"/>
+                    <taxon id="seq_gly_bact_C_aggregans"/>
+                    <taxon id="seq_gly_bact_D_radiodurans"/>
+                    <taxon id="seq_gly_bact_B_burgdorferi"/>
+                    <taxon id="seq_gly_bact_d1atib_T_thermophilus"/>
+                    <taxon id="seq_gly_euk_S_rosetta"/>
+                    <taxon id="seq_gly_euk_B_hominis"/>
+                    <taxon id="seq_gly_euk_B_mori"/>
+                    <taxon id="seq_gly_euk_C_gigas"/>
+                    <taxon id="seq_gly_euk_C_owczarzaki"/>
+                    <taxon id="seq_gly_euk_D_discoideum"/>
+                    <taxon id="seq_gly_euk_G_lamblia"/>
+                    <taxon id="seq_gly_euk_G_theta"/>
+                    <taxon id="seq_gly_euk_L_infantum"/>
+                    <taxon id="seq_gly_euk_N_ceranae"/>
+                    <taxon id="seq_gly_euk_N_gruberi"/>
+                    <taxon id="seq_gly_euk_A_subglabra"/>
+                    <taxon id="seq_gly_euk_C_parvum_Iowa_II"/>
+                    <taxon id="seq_gly_euk_C_subellipsoidea"/>
                 </taxonset>
             </distribution>
-            <distribution id="A.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="A.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="A" spec="TaxonSet">
                     <taxon id="ala_arch_m_aneyi12A_aa"/>
                     <taxon id="ala_arch_m_anium17A_aa"/>
@@ -1172,7 +1168,7 @@
                     <taxon id="ala_euk_md_wa_ii5A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="D.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="D.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="D" spec="TaxonSet">
 		            <taxon id="asp_1wydb__odaii1B_aa"/>
                     <taxon id="asp_arch_m_aneyi13A_aa"/>
@@ -1232,7 +1228,7 @@
                     <taxon id="asp_euk_md_uberi15A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="P.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="P.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="P" spec="TaxonSet">
 		            <taxon id="pro_arch_m_aneyi7A_aa"/>
                     <taxon id="pro_arch_m_anium13A_aa"/>
@@ -1290,7 +1286,7 @@
                     <taxon id="pro_euk_md_theta13A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="E.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="E.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="E" spec="TaxonSet">
 		            <taxon id="glu_arch_m_incut10A_aa"/>
                     <taxon id="glu_arch_m_incut11A_aa"/>
@@ -1337,7 +1333,7 @@
                     <taxon id="glu_euk_md_setta12A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="S" spec="TaxonSet">
                     <taxon id="ser_arch_m_aneyi15A_aa"/>
                     <taxon id="ser_arch_m_anium3A_aa"/>
@@ -1396,7 +1392,7 @@
                     <taxon id="ser_euk_md_wa_ii14A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="L" spec="TaxonSet">
 		            <taxon id="leu_1wz2_p__hori1A_aa"/>
                     <taxon id="leu_arch_m_aneyi13A_aa"/>
@@ -1451,7 +1447,7 @@
                     <taxon id="leu_euk_md_tatus9A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="R.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="R.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="R" spec="TaxonSet">
 		            <taxon id="arg_2zue_p__hori18A_aa"/>
                     <taxon id="arg_arch_m_aneyi2A_aa"/>
@@ -1506,7 +1502,7 @@
                     <taxon id="arg_euk_md_stica3A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="T" spec="TaxonSet">
 		            <taxon id="thr_3a32_a_ernix20A_aa"/>
                     <taxon id="thr_arch_m_acter18A_aa"/>
@@ -1565,7 +1561,7 @@
                     <taxon id="thr_euk_md_theta12A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="I.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="I.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="I" spec="TaxonSet">
 		            <taxon id="ile_arch_m_aneyi3A_aa"/>
                     <taxon id="ile_arch_m_anium10A_aa"/>
@@ -1624,7 +1620,7 @@
                     <taxon id="ile_euk_md_wa_ii15A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="Q.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="Q.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="Q" spec="TaxonSet">
                     <taxon id="gln_1qtq_e__coli1A-aa"/>
                     <taxon id="gln_2hz7_d_radio2A-aa"/>
@@ -1652,7 +1648,7 @@
                     <taxon id="gln_euk_md_ttata8A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="N.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="N.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="N" spec="TaxonSet">
 		            <taxon id="asn_1x54a__oshii1A_aa"/>
                     <taxon id="asn_arch_m_anium9A_aa"/>
@@ -1693,7 +1689,7 @@
                     <taxon id="asn_euk_md_opcut7A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="C.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="C.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="C" spec="TaxonSet">
 		            <taxon id="cys_arch_m_incut10A_aa"/>
                     <taxon id="cys_arch_m_incut11A_aa"/>
@@ -1742,7 +1738,7 @@
                     <taxon id="cys_euk_md_ranae2A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="Y.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="Y.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="Y" spec="TaxonSet">
 		            <taxon id="tyr_2cyb_a__fulg20A_aa"/>
                     <taxon id="tyr_2cya_a_ernix17A_aa"/>
@@ -1800,7 +1796,7 @@
                     <taxon id="tyr_euk_md_stica4A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="H.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="H.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="H" spec="TaxonSet">
 		            <taxon id="his_arch_m_aneyi12A_aa"/>
                     <taxon id="his_arch_m_anium17A_aa"/>
@@ -1858,7 +1854,7 @@
                     <taxon id="his_euk_md_phora10A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="M.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="M.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="M" spec="TaxonSet">
 		            <taxon id="met_1rqg_p_byssi1A_aa"/>
                     <taxon id="met_arch_m_alpha3A_aa"/>
@@ -1916,7 +1912,7 @@
                     <taxon id="met_euk_md_uberi8A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="W.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="W.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="W" spec="TaxonSet">
 		            <taxon id="trp_arch_m_aneyi12A_aa"/>
                     <taxon id="trp_arch_m_arius15A_aa"/>
@@ -1975,7 +1971,7 @@
                     <taxon id="trp_euk_md_uberi7A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="K" spec="TaxonSet">
                     <taxon id="lys_3e9h_b_stear3A-aa"/>
                     <taxon id="lys_3g1z_s_urium2A-aa"/>
@@ -2013,7 +2009,7 @@
                     <taxon id="lys_euk_md_wa_ii16A-aa"/>
                 </taxonset>
             </distribution>
-            <distribution id="F.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Bact">
+            <distribution id="F.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="F" spec="TaxonSet">
 		            <taxon id="phe_arch_m_incut10A_aa"/>
                     <taxon id="phe_arch_m_incut11A_aa"/>
@@ -2070,22 +2066,22 @@
                 <trait id="TraitSet1" spec="beast.evolution.tree.TraitSet" taxa="@allTaxa" traitname="state" units="year">
                     val_1gax_t_therm17A-aa=0, val_bact_m__coli14A-aa=0, val_bact_m_ejuni10A-aa=0, val_bact_m_ensis9A-aa=0, val_bact_m_gatus5A-aa=0, val_bact_m_hilus15A-aa=0, val_bact_m_hilus7A-aa=0, val_bact_m_incut8A-aa=0, val_bact_m_itima6A-aa=0, val_bact_m_malis11A-aa=0, val_bact_m_matis3A-aa=0, val_bact_m_obile2A-aa=0, val_bact_m_rferi1A-aa=0, val_bact_m_ticus12A-aa=0, val_bact_m_urans13A-aa=0, val_bact_m_ureus4A-aa=0, gly_bact_m_alpha10A-aa=1, gly_bact_m_alpha18A-aa=1, gly_bact_m_incut6A-aa=1, gly_bact_m_incut8A-aa=1, gly_bact_m_opcut12A-aa=1, gly_bact_m_opcut13A-aa=1, gly_bact_m_opcut14A-aa=1, gly_bact_m_opcut15A-aa=1, gly_bact_m_opcut16A-aa=1, gly_bact_m_opcut17A-aa=1, gly_bact_m_opcut5A-aa=1, gly_bact_m_opcut7A-aa=1, gly_bact_m_opcut9A-aa=1, gly_bact_m_rferi4A-aa=1, gly_d1atib_therm2A-aa=1, gly_d1j5wb_itima3A-aa=1, ala_1yfsa__licus19A-aa=2, ala_3hxv_e__coli2A-aa=2, ala_bact_m_ans_111A-aa=2, ala_bact_m_egans7A-aa=2, ala_bact_m_ensis17A-aa=2, ala_bact_m_ensis6A-aa=2, ala_bact_m_gatus19A-aa=2, ala_bact_m_gilis4A-aa=2, ala_bact_m_hilus13A-aa=2, ala_bact_m_hilus16A-aa=2, ala_bact_m_iacus14A-aa=2, ala_bact_m_ima_120A-aa=2, ala_bact_m_incut12A-aa=2, ala_bact_m_malis9A-aa=2, ala_bact_m_obile15A-aa=2, ala_bact_m_ormis5A-aa=2, ala_bact_m_rferi3A-aa=2, ala_bact_m_ticus10A-aa=2, ala_bact_m_ureus18A-aa=2, asp_bact_m_egans8A-aa=3, asp_bact_m_ejuni9A-aa=3, asp_bact_m_ensis7A-aa=3, asp_bact_m_gatus18A-aa=3, asp_bact_m_gilis5A-aa=3, asp_bact_m_hilus12A-aa=3, asp_bact_m_iacus13A-aa=3, asp_bact_m_incut11A-aa=3, asp_bact_m_incut16A-aa=3, asp_bact_m_itima19A-aa=3, asp_bact_m_licus3A-aa=3, asp_bact_m_matis15A-aa=3, asp_bact_m_obile14A-aa=3, asp_bact_m_ormis6A-aa=3, asp_bact_m_rferi4A-aa=3, asp_bact_m_ticus10A-aa=3, asp_bact_m_ureus17A-aa=3, asp_d1b8aa_ensis2A-aa=3, asp_d1c0aa__coli1A-aa=3, asp_d1efwa_therm2A-aa=3, pro_2i4la__stris20A-aa=4, pro_2j3mb__calis19B-aa=4, pro_bact_E_coli=4, pro_bact_m_egans17A-aa=4, pro_bact_m_ensis16A-aa=4, pro_bact_m_ensis9A-aa=4, pro_bact_m_gatus11A-aa=4, pro_bact_m_gilis14A-aa=4, pro_bact_m_hilus5A-aa=4, pro_bact_m_iacus6A-aa=4, pro_bact_m_itima13A-aa=4, pro_bact_m_licus1A-aa=4, pro_bact_m_lobus4A-aa=4, pro_bact_C_thermalis=4, pro_bact_B_licheniformis=4, pro_bact_B_burgdorferi=4, pro_bact_m_ticus7A-aa=4, pro_bact_D_radiodurans=4, pro_bact_S_aureus=4, pro_d1hc7a_therm18A-aa=4, pro_d1nj1a_therm2A-aa=4, glu_1j09_t_therm1A-aa=5, glu_1nzj_e__coli2A-aa=5, glu_2cfo_t_elong3A-aa=5, glu_2o5r_t_itima4A-aa=5, glu_bact_m_egans10A-aa=5, glu_bact_m_ejuni11A-aa=5, glu_bact_m_ensis18A-aa=5, glu_bact_m_ensis9A-aa=5, glu_bact_m_gilis7A-aa=5, glu_bact_m_hilus16A-aa=5, glu_bact_m_iacus17A-aa=5, glu_bact_m_incut14A-aa=5, glu_bact_m_licus5A-aa=5, glu_bact_m_lobus15A-aa=5, glu_bact_m_obile20A-aa=5, glu_bact_m_ormis8A-aa=5, glu_bact_m_rferi6A-aa=5, glu_bact_m_ureus19A-aa=5, ser_bact_m__coli9A-aa=6, ser_bact_m_egans17A-aa=6, ser_bact_m_ejuni8A-aa=6, ser_bact_m_ensis7A-aa=6, ser_bact_m_gatus1A-aa=6, ser_bact_m_gilis2A-aa=6, ser_bact_m_hilus10A-aa=6, ser_bact_m_iacus18A-aa=6, ser_bact_m_itima12A-aa=6, ser_bact_m_licus3A-aa=6, ser_bact_m_malis15A-aa=6, ser_bact_m_matis11A-aa=6, ser_bact_m_obile13A-aa=6, ser_bact_m_ormis6A-aa=6, ser_bact_m_rferi4A-aa=6, ser_bact_m_ticus16A-aa=6, ser_bact_m_urans5A-aa=6, ser_bact_m_ureus14A-aa=6, ser_d1sera_therm20A-aa=6, leu_2v0c_T_thermophilus=7, leu_bact_A_aeolicus_ALPHA=7, leu_bact_B_burgdorferi=7, leu_bact_B_licheniformis=7, leu_bact_B_thailandensis=7, leu_bact_C_Amoebophilus_asiaticus=7, leu_bact_C_aggregans=7, leu_bact_C_jejuni=7, leu_bact_C_thermalis=7, leu_bact_D_radiodurans=7, leu_bact_E_coli=7, leu_bact_G_obscuriglobus=7, leu_bact_G_stearothermophilus=7, leu_bact_M_mobile=7, leu_bact_M_smegmatis=7, leu_bact_S_aureus=7, leu_bact_S_elongatus=7, leu_bact_T_maritima=7, leu_bact_T_thermophilus=7, arg_1iq0_t_therm19A-aa=8, arg_3fnr_c_pyl_j20A-aa=8, arg_bact_E_coli=8, arg_bact_m_egans16A-aa=8, arg_bact_m_ensis8A-aa=8, arg_bact_m_gatus10A-aa=8, arg_bact_m_gilis13A-aa=8, arg_bact_m_iacus6A-aa=8, arg_bact_m_incut12A-aa=8, arg_bact_m_incut14A-aa=8, arg_bact_m_incut15A-aa=8, arg_bact_m_incut1A-aa=8, arg_bact_m_incut5A-aa=8, arg_bact_m_incut9A-aa=8, arg_bact_m_lobus4A-aa=8, arg_bact_m_malis18A-aa=8, arg_bact_m_rferi11A-aa=8, arg_bact_m_ticus17A-aa=8, arg_bact_D_radiodurans=8, thr_bact_m_aceae18A-aa=9, thr_bact_m_egans17A-aa=9, thr_bact_m_ejuni16A-aa=9, thr_bact_m_ensis10A-aa=9, thr_bact_m_gatus9A-aa=9, thr_bact_m_gilis14A-aa=9, thr_bact_m_hilus8A-aa=9, thr_bact_m_iacus7A-aa=9, thr_bact_m_itima1A-aa=9, thr_bact_m_licus11A-aa=9, thr_bact_m_lis_15A-aa=9, thr_bact_m_lobus6A-aa=9, thr_bact_m_ormis2A-aa=9, thr_bact_m_rferi13A-aa=9, thr_bact_m_ticus3A-aa=9, thr_bact_m_urans4A-aa=9, thr_bact_m_ureus12A-aa=9, thr_d1evka__coli20A-aa=9, thr_d1nyra_ureus19A-aa=9, ile_1ile_t_therm19A-aa=10, ile_1qu2_s_ureus2A-aa=10, ile_bact_m__coli5A-aa=10, ile_bact_m_egans17A-aa=10, ile_bact_m_ejuni18A-aa=10, ile_bact_m_ensis10A-aa=10, ile_bact_m_ensis16A-aa=10, ile_bact_m_gatus12A-aa=10, ile_bact_m_gilis15A-aa=10, ile_bact_m_hilus7A-aa=10, ile_bact_m_iacus8A-aa=10, ile_bact_m_itima14A-aa=10, ile_bact_m_licus3A-aa=10, ile_bact_m_obile9A-aa=10, ile_bact_m_opcut19A-aa=10, ile_bact_m_opcut20A-aa=10, ile_bact_m_opcut6A-aa=10, ile_bact_m_ormis11A-aa=10, ile_bact_m_rferi13A-aa=10, ile_bact_m_urans4A-aa=10, gln_1qtq_e__coli1A-aa=11, gln_2hz7_d_radio2A-aa=11, gln_bact_m_ejuni7A-aa=11, gln_bact_m_ensis12A-aa=11, gln_bact_m_ensis5A-aa=11, gln_bact_m_gatus14A-aa=11, gln_bact_m_hilus15A-aa=11, gln_bact_m_incut3A-aa=11, gln_bact_m_lobus9A-aa=11, asn_bact_m__coli9A-aa=12, asn_bact_m_egans5A-aa=12, asn_bact_m_gatus14A-aa=12, asn_bact_m_gilis3A-aa=12, asn_bact_m_iacus11A-aa=12, asn_bact_m_lobus10A-aa=12, asn_bact_m_malis6A-aa=12, asn_bact_m_obile12A-aa=12, asn_bact_m_rferi2A-aa=12, asn_bact_m_ticus7A-aa=12, asn_bact_m_urans8A-aa=12, asn_bact_m_ureus13A-aa=12, asn_d1asza_therm1A-aa=12, cys_3c8z_m__smeg17A-aa=13, cys_bact_m_cus_16A-aa=13, cys_bact_m_egans17A-aa=13, cys_bact_m_incut10A-aa=13, cys_bact_m_incut11A-aa=13, cys_bact_m_incut13A-aa=13, cys_bact_m_incut14A-aa=13, cys_bact_m_incut15A-aa=13, cys_bact_m_incut16A-aa=13, cys_bact_m_incut18A-aa=13, cys_bact_m_incut19A-aa=13, cys_bact_m_incut3A-aa=13, cys_bact_m_incut4A-aa=13, cys_bact_m_incut8A-aa=13, cys_bact_m_incut9A-aa=13, cys_bact_m_lobus5A-aa=13, cys_bact_m_obile7A-aa=13, cys_bact_B_burgdorferi=13, cys_bact_m_ticus20A-aa=13, tyr_1h3f_t_therm18A-aa=14, tyr_1jil_s_ureus19A-aa=14, tyr_1wq4_e__coli20A-aa=14, tyr_bact_m_egans13A-aa=14, tyr_bact_m_ejuni14A-aa=14, tyr_bact_m_ensis6A-aa=14, tyr_bact_m_gatus8A-aa=14, tyr_bact_m_gilis11A-aa=14, tyr_bact_m_hilus3A-aa=14, tyr_bact_m_iacus4A-aa=14, tyr_bact_m_itima10A-aa=14, tyr_bact_m_licus1A-aa=14, tyr_bact_m_lobus2A-aa=14, tyr_bact_m_malis15A-aa=14, tyr_bact_m_mis_112A-aa=14, tyr_bact_m_obile7A-aa=14, tyr_bact_m_rferi9A-aa=14, tyr_bact_m_ticus16A-aa=14, tyr_bact_m_urans17A-aa=14, his_1htt_e__coli1A-aa=15, his_bact_m_egans9A-aa=15, his_bact_m_ejuni10A-aa=15, his_bact_m_ensis19A-aa=15, his_bact_m_gatus18A-aa=15, his_bact_m_gilis6A-aa=15, his_bact_m_hilus15A-aa=15, his_bact_m_iacus16A-aa=15, his_bact_m_incut8A-aa=15, his_bact_m_itima20A-aa=15, his_bact_m_licus4A-aa=15, his_bact_m_lobus14A-aa=15, his_bact_m_malis11A-aa=15, his_bact_m_obile17A-aa=15, his_bact_m_ormis7A-aa=15, his_bact_m_rferi5A-aa=15, his_bact_m_ticus12A-aa=15, his_bact_m_urans13A-aa=15, his_d1adjc_therm2A-aa=15, his_d1qe0a_aureu3A-aa=15, met_1pfv_e__coli1A-aa=16, met_1woy_t_therm2A-aa=16, met_2csx_a__aeol3A-aa=16, met_2x1l_m_matis4A-aa=16, met_bact_m_egans17A-aa=16, met_bact_m_ejuni18A-aa=16, met_bact_m_ensis9A-aa=16, met_bact_m_gatus11A-aa=16, met_bact_m_iacus8A-aa=16, met_bact_m_incut10A-aa=16, met_bact_m_incut12A-aa=16, met_bact_m_incut13A-aa=16, met_bact_m_incut14A-aa=16, met_bact_m_incut15A-aa=16, met_bact_m_incut16A-aa=16, met_bact_m_incut5A-aa=16, met_bact_m_incut7A-aa=16, met_bact_m_lobus6A-aa=16, met_bact_m_malis19A-aa=16, met_bact_m_ticus20A-aa=16, trp_1i6m_b_stear1A-aa=17, trp_2el7_t_therm2A-aa=17, trp_2g36_t_itima4A-aa=17, trp_bact_m__coli15A-aa=17, trp_bact_m_egans10A-aa=17, trp_bact_m_ejuni11A-aa=17, trp_bact_m_ensis19A-aa=17, trp_bact_m_gatus18A-aa=17, trp_bact_m_gilis7A-aa=17, trp_bact_m_iacus17A-aa=17, trp_bact_m_lobus16A-aa=17, trp_bact_m_malis12A-aa=17, trp_bact_m_opcut5A-aa=17, trp_bact_m_opcut9A-aa=17, trp_bact_m_ormis8A-aa=17, trp_bact_m_rferi6A-aa=17, trp_bact_m_ticus13A-aa=17, trp_bact_m_urans14A-aa=17, trp_bact_m_ureus20A-aa=17, lys_3e9h_b_stear3A-aa=18, lys_3g1z_s_urium2A-aa=18, lys_bact_m_egans10A-aa=18, lys_bact_m_ejuni11A-aa=18, lys_bact_m_ensis17A-aa=18, lys_bact_m_ensis9A-aa=18, lys_bact_m_gatus19A-aa=18, lys_bact_m_gilis6A-aa=18, lys_bact_m_hilus7A-aa=18, lys_bact_m_iacus15A-aa=18, lys_bact_m_itima5A-aa=18, lys_bact_m_lobus14A-aa=18, lys_bact_m_obile16A-aa=18, lys_bact_m_ormis8A-aa=18, lys_bact_m_ticus12A-aa=18, lys_bact_m_urans13A-aa=18, lys_bact_m_ureus18A-aa=18, lys_d1e1oa__coli1A-aa=18, phe_2alya__therm1A-aa=19, phe_2rhq_s_cus_a2A-aa=19, phe_bact_m_incut10A-aa=19, phe_bact_m_incut11A-aa=19, phe_bact_m_incut12A-aa=19, phe_bact_m_incut13A-aa=19, phe_bact_m_incut14A-aa=19, phe_bact_m_incut15A-aa=19, phe_bact_m_incut16A-aa=19, phe_bact_m_incut17A-aa=19, phe_bact_m_incut19A-aa=19, phe_bact_m_incut20A-aa=19, phe_bact_m_incut5A-aa=19, phe_bact_m_incut6A-aa=19, phe_bact_m_incut7A-aa=19, phe_bact_m_incut8A-aa=19, phe_bact_m_incut9A-aa=19
 				</trait>
-				<treeIntervals id='treeIntervals' spec='beast.evolution.tree.coalescent.TreeIntervals' tree='@Tree.t:AARS_Bact'/>
+				<treeIntervals id='treeIntervals' spec='beast.evolution.tree.coalescent.TreeIntervals' tree='@Tree.t:AARS'/>
             </distribution>
 
-            <distribution birthDiffRate="@birthRate.t:AARS_Bact" id="YuleModel.t:AARS_Bact" spec="beast.evolution.speciation.YuleModel" tree="@Tree.t:AARS_Bact"/>
-            <prior id="YuleBirthRatePrior.t:AARS_Bact" name="distribution" x="@birthRate.t:AARS_Bact">
+            <distribution birthDiffRate="@birthRate.t:AARS" id="YuleModel.t:AARS" spec="beast.evolution.speciation.YuleModel" tree="@Tree.t:AARS"/>
+            <prior id="YuleBirthRatePrior.t:AARS" name="distribution" x="@birthRate.t:AARS">
                 <Uniform id="Uniform.0" name="distr" upper="Infinity"/>
             </prior>
         </distribution>
         <distribution id="likelihood" spec="util.CompoundDistribution">
-            <distribution data="@AARS_Bact" id="treeLikelihood.AARS_Bact" spec="ThreadedTreeLikelihood" tree="@Tree.t:AARS_Bact">
-                <siteModel id="SiteModel.s:AARS_Bact" spec="SiteModel">
-                    <parameter estimate="false" id="mutationRate.s:AARS_Bact" name="mutationRate" value="1.0"/>
-                    <parameter estimate="false" id="gammaShape.s:AARS_Bact" name="shape" value="1.0"/>
-                    <parameter estimate="false" id="proportionInvariant.s:AARS_Bact" lower="0.0" name="proportionInvariant" upper="1.0" value="0.0"/>
+            <distribution data="@AARS" id="treeLikelihood.AARS" spec="ThreadedTreeLikelihood" tree="@Tree.t:AARS">
+                <siteModel id="SiteModel.s:AARS" spec="SiteModel">
+                    <parameter estimate="false" id="mutationRate.s:AARS" name="mutationRate" value="1.0"/>
+                    <parameter estimate="false" id="gammaShape.s:AARS" name="shape" value="1.0"/>
+                    <parameter estimate="false" id="proportionInvariant.s:AARS" lower="0.0" name="proportionInvariant" upper="1.0" value="0.0"/>
 
-                    <substModel id="substmodel" spec="TriStateAARSSubstitutionModel" tree="@Tree.t:AARS_Bact">
+                    <substModel id="substmodel" spec="TriStateAARSSubstitutionModel" tree="@Tree.t:AARS">
                         <trait idref="TraitSet1"/>
 						<defaultModel spec='GeneralSubstitutionModel' rates='
 	0.18727491	2.0069284065	0.1526315789	0.5886402754	1.8004640371	0.3144104803	0.2330935252	1.3885245902	0.2522727273	7.8164948454	0.3024523161	1	0.3144475921	0.1969309463	2.0564102564	0.118852459	0.3680555556	0.3048387097	0.6510416667
@@ -2117,40 +2113,40 @@
                         </frequencies>
                     </substModel>
                 </siteModel>
-				<branchRateModel spec='beast.evolution.branchratemodel.UCRelaxedClockModel' id="RelaxedClock.c:AARS_Bact" tree='@Tree.t:AARS_Bact'>
-					<parameter name='clock.rate' id='ucldMean.c:AARS_Bact' value='1.0'/>
-				    <distr id='LogNormalDistributionModel.c:AARS_Bact' name='distr' spec="beast.math.distributions.LogNormalDistributionModel" meanInRealSpace='true'>
+				<branchRateModel spec='beast.evolution.branchratemodel.UCRelaxedClockModel' id="RelaxedClock.c:AARS" tree='@Tree.t:AARS'>
+					<parameter name='clock.rate' id='ucldMean.c:AARS' value='1.0'/>
+				    <distr id='LogNormalDistributionModel.c:AARS' name='distr' spec="beast.math.distributions.LogNormalDistributionModel" meanInRealSpace='true'>
 				        <parameter name='M' value="1.0" estimate='false' lower='0' upper='1'/>
-				        <parameter name='S' id='ucldStdev.c:AARS_Bact' value="0.5" lower="0" upper="1" estimate='true'/>
+				        <parameter name='S' id='ucldStdev.c:AARS' value="0.5" lower="0" upper="1" estimate='true'/>
 				    </distr>
-				    <rateCategories spec='parameter.IntegerParameter' id='rateCategories.c:AARS_Bact' value="1" dimension='10' estimate='true'/>
+				    <rateCategories spec='parameter.IntegerParameter' id='rateCategories.c:AARS' value="1" dimension='10' estimate='true'/>
 				</branchRateModel>
             </distribution>
         </distribution>
     </distribution>
 
-    <operator id='ucldStdevScaler.c:AARS_Bact' spec='ScaleOperator' scaleAll='false' scaleFactor="0.5" weight="3" parameter="@ucldStdev.c:AARS_Bact"/>
-    <operator id="CategoriesRandomWalk.c:AARS_Bact" spec="IntRandomWalkOperator" windowSize='1' weight="10" parameter="@rateCategories.c:AARS_Bact"/>
-	<operator id='CategoriesSwapOperator.c:AARS_Bact' spec='SwapOperator' howMany="1" weight="10" intparameter='@rateCategories.c:AARS_Bact'/>
-	<operator id='CategoriesUniform.c:AARS_Bact' spec='UniformOperator' weight="10" parameter='@rateCategories.c:AARS_Bact'/>
+    <operator id='ucldStdevScaler.c:AARS' spec='ScaleOperator' scaleAll='false' scaleFactor="0.5" weight="3" parameter="@ucldStdev.c:AARS"/>
+    <operator id="CategoriesRandomWalk.c:AARS" spec="IntRandomWalkOperator" windowSize='1' weight="10" parameter="@rateCategories.c:AARS"/>
+	<operator id='CategoriesSwapOperator.c:AARS' spec='SwapOperator' howMany="1" weight="10" intparameter='@rateCategories.c:AARS'/>
+	<operator id='CategoriesUniform.c:AARS' spec='UniformOperator' weight="10" parameter='@rateCategories.c:AARS'/>
 
-    <operator id="YuleBirthRateScaler.t:AARS_Bact" parameter="@birthRate.t:AARS_Bact" scaleFactor="0.75" spec="ScaleOperator" weight="3.0"/>
+    <operator id="YuleBirthRateScaler.t:AARS" parameter="@birthRate.t:AARS" scaleFactor="0.75" spec="ScaleOperator" weight="3.0"/>
 
-    <operator id="treeScaler.t:AARS_Bact" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS_Bact" weight="3.0"/>
+    <operator id="treeScaler.t:AARS" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS" weight="3.0"/>
 
-    <operator id="treeRootScaler.t:AARS_Bact" rootOnly="true" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS_Bact" weight="3.0"/>
+    <operator id="treeRootScaler.t:AARS" rootOnly="true" scaleFactor="0.5" spec="ScaleOperator" tree="@Tree.t:AARS" weight="3.0"/>
 
-    <operator id="UniformOperator.t:AARS_Bact" spec="Uniform" tree="@Tree.t:AARS_Bact" weight="30.0"/>
+    <operator id="UniformOperator.t:AARS" spec="Uniform" tree="@Tree.t:AARS" weight="30.0"/>
 
-    <operator id="SubtreeSlide.t:AARS_Bact" spec="SubtreeSlide" tree="@Tree.t:AARS_Bact" weight="15.0"/>
+    <operator id="SubtreeSlide.t:AARS" spec="SubtreeSlide" tree="@Tree.t:AARS" weight="15.0"/>
 
-    <operator id="narrow.t:AARS_Bact" spec="Exchange" tree="@Tree.t:AARS_Bact" weight="15.0"/>
+    <operator id="narrow.t:AARS" spec="Exchange" tree="@Tree.t:AARS" weight="15.0"/>
 
-    <operator id="wide.t:AARS_Bact" isNarrow="false" spec="Exchange" tree="@Tree.t:AARS_Bact" weight="3.0"/>
+    <operator id="wide.t:AARS" isNarrow="false" spec="Exchange" tree="@Tree.t:AARS" weight="3.0"/>
 
-    <operator id="WilsonBalding.t:AARS_Bact" spec="WilsonBalding" tree="@Tree.t:AARS_Bact" weight="3.0"/>
+    <operator id="WilsonBalding.t:AARS" spec="WilsonBalding" tree="@Tree.t:AARS" weight="3.0"/>
 
-    <operator id='RestrictedSubtreeSlide' spec='RestrictedSubtreeSlide' weight='60' tree='@Tree.t:AARS_Bact'>
+    <operator id='RestrictedSubtreeSlide' spec='RestrictedSubtreeSlide' weight='60' tree='@Tree.t:AARS'>
 		<clade idref='V'/>
 		<clade idref='G'/>
 		<clade idref='A'/>
@@ -2174,16 +2170,16 @@
 	</operator>
 
 
-    <logger fileName="AARS_Bact.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+    <logger fileName="AARS.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
-        <log idref="treeLikelihood.AARS_Bact"/>
-        <log id="TreeHeight.t:AARS_Bact" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:AARS_Bact"/>
-        <log idref="YuleModel.t:AARS_Bact"/>
-        <parameter idref="birthRate.t:AARS_Bact" name="log"/>
-		<log id='rate.c:AARS_Bact' spec='beast.evolution.branchratemodel.RateStatistic' tree='@Tree.t:AARS_Bact' branchratemodel='@RelaxedClock.c:AARS_Bact'/>
-		<log idref='ucldStdev.c:AARS_Bact'/>
+        <log idref="treeLikelihood.AARS"/>
+        <log id="TreeHeight.t:AARS" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:AARS"/>
+        <log idref="YuleModel.t:AARS"/>
+        <parameter idref="birthRate.t:AARS" name="log"/>
+		<log id='rate.c:AARS' spec='beast.evolution.branchratemodel.RateStatistic' tree='@Tree.t:AARS' branchratemodel='@RelaxedClock.c:AARS'/>
+		<log idref='ucldStdev.c:AARS'/>
     </logger>
 
     <logger id="screenlog" logEvery="1000">
@@ -2193,11 +2189,11 @@
         <log idref="prior"/>
     </logger>
 
-    <logger fileName="AARS_Bact.trees" id="treelog.t:AARS_Bact" logEvery="10000" mode="tree">
-        <log id="TreeWithMetaDataLogger.t:AARS_Bact" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS_Bact"/>
+    <logger fileName="AARS.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:AARS" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS"/>
     </logger>
     
-    <init estimate="false" id="TreeParser.t:AARS_Bact" initial="@Tree.t:AARS_Bact" spec="beast.util.TreeParser" taxa="@AARS_Bact"
+    <init estimate="false" id="TreeParser.t:AARS" initial="@Tree.t:AARS" spec="beast.util.TreeParser" taxa="@AARS"
 		IsLabelledNewick="true"
         newick='((((((val_1gax_t_therm17A-aa:0.1, val_bact_m__coli14A-aa:0.1, val_bact_m_ejuni10A-aa:0.1, val_bact_m_ensis9A-aa:0.1, val_bact_m_gatus5A-aa:0.1, val_bact_m_hilus15A-aa:0.1, val_bact_m_hilus7A-aa:0.1, val_bact_m_incut8A-aa:0.1, val_bact_m_itima6A-aa:0.1, val_bact_m_malis11A-aa:0.1, val_bact_m_matis3A-aa:0.1, val_bact_m_obile2A-aa:0.1, val_bact_m_rferi1A-aa:0.1, val_bact_m_ticus12A-aa:0.1, val_bact_m_urans13A-aa:0.1, val_bact_m_ureus4A-aa:0.1):100, (gly_bact_m_alpha10A-aa:0.1, gly_bact_m_alpha18A-aa:0.1, gly_bact_m_incut6A-aa:0.1, gly_bact_m_incut8A-aa:0.1, gly_bact_m_opcut12A-aa:0.1, gly_bact_m_opcut13A-aa:0.1, gly_bact_m_opcut14A-aa:0.1, gly_bact_m_opcut15A-aa:0.1, gly_bact_m_opcut16A-aa:0.1, gly_bact_m_opcut17A-aa:0.1, gly_bact_m_opcut5A-aa:0.1, gly_bact_m_opcut7A-aa:0.1, gly_bact_m_opcut9A-aa:0.1, gly_bact_m_rferi4A-aa:0.1, gly_d1atib_therm2A-aa:0.1, gly_d1j5wb_itima3A-aa:0.1):100):100, ((ala_1yfsa__licus19A-aa:0.1, ala_3hxv_e__coli2A-aa:0.1, ala_bact_m_ans_111A-aa:0.1, ala_bact_m_egans7A-aa:0.1, ala_bact_m_ensis17A-aa:0.1, ala_bact_m_ensis6A-aa:0.1, ala_bact_m_gatus19A-aa:0.1, ala_bact_m_gilis4A-aa:0.1, ala_bact_m_hilus13A-aa:0.1, ala_bact_m_hilus16A-aa:0.1, ala_bact_m_iacus14A-aa:0.1, ala_bact_m_ima_120A-aa:0.1, ala_bact_m_incut12A-aa:0.1, ala_bact_m_malis9A-aa:0.1, ala_bact_m_obile15A-aa:0.1, ala_bact_m_ormis5A-aa:0.1, ala_bact_m_rferi3A-aa:0.1, ala_bact_m_ticus10A-aa:0.1, ala_bact_m_ureus18A-aa:0.1):100, (asp_bact_m_egans8A-aa:0.1, asp_bact_m_ejuni9A-aa:0.1, asp_bact_m_ensis7A-aa:0.1, asp_bact_m_gatus18A-aa:0.1, asp_bact_m_gilis5A-aa:0.1, asp_bact_m_hilus12A-aa:0.1, asp_bact_m_iacus13A-aa:0.1, asp_bact_m_incut11A-aa:0.1, asp_bact_m_incut16A-aa:0.1, asp_bact_m_itima19A-aa:0.1, asp_bact_m_licus3A-aa:0.1, asp_bact_m_matis15A-aa:0.1, asp_bact_m_obile14A-aa:0.1, asp_bact_m_ormis6A-aa:0.1, asp_bact_m_rferi4A-aa:0.1, asp_bact_m_ticus10A-aa:0.1, asp_bact_m_ureus17A-aa:0.1, asp_d1b8aa_ensis2A-aa:0.1, asp_d1c0aa__coli1A-aa:0.1, asp_d1efwa_therm2A-aa:0.1):100):100):100, (((pro_2i4la__stris20A-aa:0.1, pro_2j3mb__calis19B-aa:0.1, pro_bact_E_coli:0.1, pro_bact_m_egans17A-aa:0.1, pro_bact_m_ensis16A-aa:0.1, pro_bact_m_ensis9A-aa:0.1, pro_bact_m_gatus11A-aa:0.1, pro_bact_m_gilis14A-aa:0.1, pro_bact_m_hilus5A-aa:0.1, pro_bact_m_iacus6A-aa:0.1, pro_bact_m_itima13A-aa:0.1, pro_bact_m_licus1A-aa:0.1, pro_bact_m_lobus4A-aa:0.1, pro_bact_C_thermalis:0.1, pro_bact_B_licheniformis:0.1, pro_bact_B_burgdorferi:0.1, pro_bact_m_ticus7A-aa:0.1, pro_bact_D_radiodurans:0.1, pro_bact_S_aureus:0.1, pro_d1hc7a_therm18A-aa:0.1, pro_d1nj1a_therm2A-aa:0.1):100, (glu_1j09_t_therm1A-aa:0.1, glu_1nzj_e__coli2A-aa:0.1, glu_2cfo_t_elong3A-aa:0.1, glu_2o5r_t_itima4A-aa:0.1, glu_bact_m_egans10A-aa:0.1, glu_bact_m_ejuni11A-aa:0.1, glu_bact_m_ensis18A-aa:0.1, glu_bact_m_ensis9A-aa:0.1, glu_bact_m_gilis7A-aa:0.1, glu_bact_m_hilus16A-aa:0.1, glu_bact_m_iacus17A-aa:0.1, glu_bact_m_incut14A-aa:0.1, glu_bact_m_licus5A-aa:0.1, glu_bact_m_lobus15A-aa:0.1, glu_bact_m_obile20A-aa:0.1, glu_bact_m_ormis8A-aa:0.1, glu_bact_m_rferi6A-aa:0.1, glu_bact_m_ureus19A-aa:0.1):100):100, ((ser_bact_m__coli9A-aa:0.1, ser_bact_m_egans17A-aa:0.1, ser_bact_m_ejuni8A-aa:0.1, ser_bact_m_ensis7A-aa:0.1, ser_bact_m_gatus1A-aa:0.1, ser_bact_m_gilis2A-aa:0.1, ser_bact_m_hilus10A-aa:0.1, ser_bact_m_iacus18A-aa:0.1, ser_bact_m_itima12A-aa:0.1, ser_bact_m_licus3A-aa:0.1, ser_bact_m_malis15A-aa:0.1, ser_bact_m_matis11A-aa:0.1, ser_bact_m_obile13A-aa:0.1, ser_bact_m_ormis6A-aa:0.1, ser_bact_m_rferi4A-aa:0.1, ser_bact_m_ticus16A-aa:0.1, ser_bact_m_urans5A-aa:0.1, ser_bact_m_ureus14A-aa:0.1, ser_d1sera_therm20A-aa:0.1):100, (leu_2v0c_T_thermophilus:0.1, leu_bact_A_aeolicus_ALPHA:0.1, leu_bact_B_burgdorferi:0.1, leu_bact_B_licheniformis:0.1, leu_bact_B_thailandensis:0.1, leu_bact_C_Amoebophilus_asiaticus:0.1, leu_bact_C_aggregans:0.1, leu_bact_C_jejuni:0.1, leu_bact_C_thermalis:0.1, leu_bact_D_radiodurans:0.1, leu_bact_E_coli:0.1, leu_bact_G_obscuriglobus:0.1, leu_bact_G_stearothermophilus:0.1, leu_bact_M_mobile:0.1, leu_bact_M_smegmatis:0.1, leu_bact_S_aureus:0.1, leu_bact_S_elongatus:0.1, leu_bact_T_maritima:0.1, leu_bact_T_thermophilus:0.1):100):100):100):100, ((((arg_1iq0_t_therm19A-aa:0.1, arg_3fnr_c_pyl_j20A-aa:0.1, arg_bact_E_coli:0.1, arg_bact_m_egans16A-aa:0.1, arg_bact_m_ensis8A-aa:0.1, arg_bact_m_gatus10A-aa:0.1, arg_bact_m_gilis13A-aa:0.1, arg_bact_m_iacus6A-aa:0.1, arg_bact_m_incut12A-aa:0.1, arg_bact_m_incut14A-aa:0.1, arg_bact_m_incut15A-aa:0.1, arg_bact_m_incut1A-aa:0.1, arg_bact_m_incut5A-aa:0.1, arg_bact_m_incut9A-aa:0.1, arg_bact_m_lobus4A-aa:0.1, arg_bact_m_malis18A-aa:0.1, arg_bact_m_rferi11A-aa:0.1, arg_bact_m_ticus17A-aa:0.1, arg_bact_D_radiodurans:0.1):100, (thr_bact_m_aceae18A-aa:0.1, thr_bact_m_egans17A-aa:0.1, thr_bact_m_ejuni16A-aa:0.1, thr_bact_m_ensis10A-aa:0.1, thr_bact_m_gatus9A-aa:0.1, thr_bact_m_gilis14A-aa:0.1, thr_bact_m_hilus8A-aa:0.1, thr_bact_m_iacus7A-aa:0.1, thr_bact_m_itima1A-aa:0.1, thr_bact_m_licus11A-aa:0.1, thr_bact_m_lis_15A-aa:0.1, thr_bact_m_lobus6A-aa:0.1, thr_bact_m_ormis2A-aa:0.1, thr_bact_m_rferi13A-aa:0.1, thr_bact_m_ticus3A-aa:0.1, thr_bact_m_urans4A-aa:0.1, thr_bact_m_ureus12A-aa:0.1, thr_d1evka__coli20A-aa:0.1, thr_d1nyra_ureus19A-aa:0.1):100):100, ((ile_1ile_t_therm19A-aa:0.1, ile_1qu2_s_ureus2A-aa:0.1, ile_bact_m__coli5A-aa:0.1, ile_bact_m_egans17A-aa:0.1, ile_bact_m_ejuni18A-aa:0.1, ile_bact_m_ensis10A-aa:0.1, ile_bact_m_ensis16A-aa:0.1, ile_bact_m_gatus12A-aa:0.1, ile_bact_m_gilis15A-aa:0.1, ile_bact_m_hilus7A-aa:0.1, ile_bact_m_iacus8A-aa:0.1, ile_bact_m_itima14A-aa:0.1, ile_bact_m_licus3A-aa:0.1, ile_bact_m_obile9A-aa:0.1, ile_bact_m_opcut19A-aa:0.1, ile_bact_m_opcut20A-aa:0.1, ile_bact_m_opcut6A-aa:0.1, ile_bact_m_ormis11A-aa:0.1, ile_bact_m_rferi13A-aa:0.1, ile_bact_m_urans4A-aa:0.1):100, (gln_1qtq_e__coli1A-aa:0.1, gln_2hz7_d_radio2A-aa:0.1, gln_bact_m_ejuni7A-aa:0.1, gln_bact_m_ensis12A-aa:0.1, gln_bact_m_ensis5A-aa:0.1, gln_bact_m_gatus14A-aa:0.1, gln_bact_m_hilus15A-aa:0.1, gln_bact_m_incut3A-aa:0.1, gln_bact_m_lobus9A-aa:0.1):100):100):100, (((asn_bact_m__coli9A-aa:0.1, asn_bact_m_egans5A-aa:0.1, asn_bact_m_gatus14A-aa:0.1, asn_bact_m_gilis3A-aa:0.1, asn_bact_m_iacus11A-aa:0.1, asn_bact_m_lobus10A-aa:0.1, asn_bact_m_malis6A-aa:0.1, asn_bact_m_obile12A-aa:0.1, asn_bact_m_rferi2A-aa:0.1, asn_bact_m_ticus7A-aa:0.1, asn_bact_m_urans8A-aa:0.1, asn_bact_m_ureus13A-aa:0.1, asn_d1asza_therm1A-aa:0.1):100, (cys_3c8z_m__smeg17A-aa:0.1, cys_bact_m_cus_16A-aa:0.1, cys_bact_m_egans17A-aa:0.1, cys_bact_m_incut10A-aa:0.1, cys_bact_m_incut11A-aa:0.1, cys_bact_m_incut13A-aa:0.1, cys_bact_m_incut14A-aa:0.1, cys_bact_m_incut15A-aa:0.1, cys_bact_m_incut16A-aa:0.1, cys_bact_m_incut18A-aa:0.1, cys_bact_m_incut19A-aa:0.1, cys_bact_m_incut3A-aa:0.1, cys_bact_m_incut4A-aa:0.1, cys_bact_m_incut8A-aa:0.1, cys_bact_m_incut9A-aa:0.1, cys_bact_m_lobus5A-aa:0.1, cys_bact_m_obile7A-aa:0.1, cys_bact_B_burgdorferi:0.1, cys_bact_m_ticus20A-aa:0.1):100):100, ((tyr_1h3f_t_therm18A-aa:0.1, tyr_1jil_s_ureus19A-aa:0.1, tyr_1wq4_e__coli20A-aa:0.1, tyr_bact_m_egans13A-aa:0.1, tyr_bact_m_ejuni14A-aa:0.1, tyr_bact_m_ensis6A-aa:0.1, tyr_bact_m_gatus8A-aa:0.1, tyr_bact_m_gilis11A-aa:0.1, tyr_bact_m_hilus3A-aa:0.1, tyr_bact_m_iacus4A-aa:0.1, tyr_bact_m_itima10A-aa:0.1, tyr_bact_m_licus1A-aa:0.1, tyr_bact_m_lobus2A-aa:0.1, tyr_bact_m_malis15A-aa:0.1, tyr_bact_m_mis_112A-aa:0.1, tyr_bact_m_obile7A-aa:0.1, tyr_bact_m_rferi9A-aa:0.1, tyr_bact_m_ticus16A-aa:0.1, tyr_bact_m_urans17A-aa:0.1):100, (his_1htt_e__coli1A-aa:0.1, his_bact_m_egans9A-aa:0.1, his_bact_m_ejuni10A-aa:0.1, his_bact_m_ensis19A-aa:0.1, his_bact_m_gatus18A-aa:0.1, his_bact_m_gilis6A-aa:0.1, his_bact_m_hilus15A-aa:0.1, his_bact_m_iacus16A-aa:0.1, his_bact_m_incut8A-aa:0.1, his_bact_m_itima20A-aa:0.1, his_bact_m_licus4A-aa:0.1, his_bact_m_lobus14A-aa:0.1, his_bact_m_malis11A-aa:0.1, his_bact_m_obile17A-aa:0.1, his_bact_m_ormis7A-aa:0.1, his_bact_m_rferi5A-aa:0.1, his_bact_m_ticus12A-aa:0.1, his_bact_m_urans13A-aa:0.1, his_d1adjc_therm2A-aa:0.1, his_d1qe0a_aureu3A-aa:0.1):100):100):100):100):100, (((met_1pfv_e__coli1A-aa:0.1, met_1woy_t_therm2A-aa:0.1, met_2csx_a__aeol3A-aa:0.1, met_2x1l_m_matis4A-aa:0.1, met_bact_m_egans17A-aa:0.1, met_bact_m_ejuni18A-aa:0.1, met_bact_m_ensis9A-aa:0.1, met_bact_m_gatus11A-aa:0.1, met_bact_m_iacus8A-aa:0.1, met_bact_m_incut10A-aa:0.1, met_bact_m_incut12A-aa:0.1, met_bact_m_incut13A-aa:0.1, met_bact_m_incut14A-aa:0.1, met_bact_m_incut15A-aa:0.1, met_bact_m_incut16A-aa:0.1, met_bact_m_incut5A-aa:0.1, met_bact_m_incut7A-aa:0.1, met_bact_m_lobus6A-aa:0.1, met_bact_m_malis19A-aa:0.1, met_bact_m_ticus20A-aa:0.1):100, (trp_1i6m_b_stear1A-aa:0.1, trp_2el7_t_therm2A-aa:0.1, trp_2g36_t_itima4A-aa:0.1, trp_bact_m__coli15A-aa:0.1, trp_bact_m_egans10A-aa:0.1, trp_bact_m_ejuni11A-aa:0.1, trp_bact_m_ensis19A-aa:0.1, trp_bact_m_gatus18A-aa:0.1, trp_bact_m_gilis7A-aa:0.1, trp_bact_m_iacus17A-aa:0.1, trp_bact_m_lobus16A-aa:0.1, trp_bact_m_malis12A-aa:0.1, trp_bact_m_opcut5A-aa:0.1, trp_bact_m_opcut9A-aa:0.1, trp_bact_m_ormis8A-aa:0.1, trp_bact_m_rferi6A-aa:0.1, trp_bact_m_ticus13A-aa:0.1, trp_bact_m_urans14A-aa:0.1, trp_bact_m_ureus20A-aa:0.1):100):100, ((lys_3e9h_b_stear3A-aa:0.1, lys_3g1z_s_urium2A-aa:0.1, lys_bact_m_egans10A-aa:0.1, lys_bact_m_ejuni11A-aa:0.1, lys_bact_m_ensis17A-aa:0.1, lys_bact_m_ensis9A-aa:0.1, lys_bact_m_gatus19A-aa:0.1, lys_bact_m_gilis6A-aa:0.1, lys_bact_m_hilus7A-aa:0.1, lys_bact_m_iacus15A-aa:0.1, lys_bact_m_itima5A-aa:0.1, lys_bact_m_lobus14A-aa:0.1, lys_bact_m_obile16A-aa:0.1, lys_bact_m_ormis8A-aa:0.1, lys_bact_m_ticus12A-aa:0.1, lys_bact_m_urans13A-aa:0.1, lys_bact_m_ureus18A-aa:0.1, lys_d1e1oa__coli1A-aa:0.1):100, (phe_2alya__therm1A-aa:0.1, phe_2rhq_s_cus_a2A-aa:0.1, phe_bact_m_incut10A-aa:0.1, phe_bact_m_incut11A-aa:0.1, phe_bact_m_incut12A-aa:0.1, phe_bact_m_incut13A-aa:0.1, phe_bact_m_incut14A-aa:0.1, phe_bact_m_incut15A-aa:0.1, phe_bact_m_incut16A-aa:0.1, phe_bact_m_incut17A-aa:0.1, phe_bact_m_incut19A-aa:0.1, phe_bact_m_incut20A-aa:0.1, phe_bact_m_incut5A-aa:0.1, phe_bact_m_incut6A-aa:0.1, phe_bact_m_incut7A-aa:0.1, phe_bact_m_incut8A-aa:0.1, phe_bact_m_incut9A-aa:0.1):100):100):300);'
     />
