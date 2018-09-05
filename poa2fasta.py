@@ -1,4 +1,4 @@
-"""Read POA data and wrtie FASTA file using all alignments"""
+"""Read POA data and write FASTA file using all alignments"""
 import os.path
 import sys
 
