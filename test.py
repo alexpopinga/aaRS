@@ -1,6 +1,6 @@
 x = 0
-with open("AARS.xml", 'r') as file:
-	for x in range(6,980):
+with open("blah.txt", 'r') as file:
+	for x in range(0,7):
 		data = file.readline()
 		seq = data[data.find("value")+6:]	
 		print (len(seq)-1)
