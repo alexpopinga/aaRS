@@ -27,8 +27,9 @@ with open('AARS.xml', 'r') as file:
 					curTreeIndex = newTreeIndex+1
 					# why isn't there "seqCount" number of taxa in tree?
 					if treeNames[x] == 'phe_euk_B_hominis':
-						print treeNames
 						if len(taxonNames) != len(treeNames):
-							print("These taxa missing in the initial tree: ")
+							print("These taxa are missing in the initial tree: ")
 							print set(taxonNames) - set(treeNames)
+						else:
+							print treeNames
 					x += 1
