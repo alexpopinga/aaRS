@@ -6,7 +6,7 @@ treeNames = []
 curTreeIndex = 0
 
 def findnth(string, substring, n):
-    parts = string.split(substring, n + 1)
+    parts = string.split(substring, n+1)
     if len(parts) <= n + 1:
         return -1
     return len(string) - len(parts[-1]) - len(substring)
@@ -21,11 +21,14 @@ with open('AARS.xml', 'r') as file:
 				tree = line[line.find('newick=')+15:line.find('):100):100):300);')]
 				# kludge-y replace method for parsing
 				tree = tree.replace(':0.1, ','|').replace(':0.1):100, (','|').replace(':0.1):100):100, ((','|').replace(':0.1):100):100):100, (((','|').replace(':0.1):100):100):100):100, ((((','|').replace(':0.1):100):100):100):100):100, (((','|').replace(':0.1','|')
-				# why isn't there "seqCount" number of taxa in tree?
-				for x in range(0,961):
+				for x in range(0,seqCount):
 					newTreeIndex = findnth(tree, '|', x)
-					#print newTreeIndex
 					treeNames.append(tree[curTreeIndex:newTreeIndex])
 					curTreeIndex = newTreeIndex+1
+					# why isn't there "seqCount" number of taxa in tree?
+					if treeNames[x] == 'phe_euk_B_hominis':
+						print treeNames
+						if len(taxonNames) != len(treeNames):
+							print("These taxa missing in the initial tree: ")
+							print set(taxonNames) - set(treeNames)
 					x += 1
-print treeNames
