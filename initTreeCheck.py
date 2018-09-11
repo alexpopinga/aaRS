@@ -30,6 +30,8 @@ with open('AARS.xml', 'r') as file:
 						if len(taxonNames) != len(treeNames):
 							print("These taxa are missing in the initial tree: ")
 							print set(taxonNames) - set(treeNames)
+							print("These sequence taxa are missing: ")
+							print set(treeNames) - set(taxonNames)
 						else:
 							print treeNames
 					x += 1
