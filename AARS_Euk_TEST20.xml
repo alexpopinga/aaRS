@@ -43,6 +43,7 @@
                     <sequence id="seq_asn_euk_md_incut11A-aa" taxon="asn_euk_md_incut11A-aa" totalcount="20" value="IRSTLAFSVHKYFQEHGFQYVADTCYTFLTVSGQLQVSTTLIALRQKPMLAEFWMIEPEMALQDVMENAEGLLKAMDILFEMVGGSQRVPHAGYGLGDRLVQF"/>
 					<sequence id="seq_val_euk_md_incut11A-aa" taxon="val_euk_md_incut11A-aa" totalcount="20" value="TILLPPNVTGSLHIGHALTASIQDSLCRYLWVPGVDHAGEEYGNRIDNQMKAMDRKVFTMDDTWFSSGLYPLVMETGSDILFFVARMVMLCTYLFEIYLHKMS"/>
 					<sequence id="seq_val_euk_md_antum15A-aa" taxon="val_euk_md_antum15A-aa" totalcount="20" value="VIIAPPDVTGYLHLGHALTGAVQDTLIRFLYLPGTDHAGKDHAGMITEQFRRIDRERFTMDDTWFSSGLWPFLMETGHDILFFVARMVMLSLHFYEVFLHKMS"/>
+					<sequence id="seq_val_euk_TEST" taxon="val_euk_TEST" totalcount="20" value="VIIAPPDVTGYLHLGHALTGAVQDTLIRFLYLPGTDHAGKDHAGMITEQFRRIVLERFTMDDTWFSSGLWPFLMETGHDILFFVARMVMLSLHFYEVFLHKMS"/>
                 </data>
     
     
@@ -81,6 +82,7 @@
                 <taxonset id="V" spec="TaxonSet">
                     <taxon id="val_euk_md_antum15A-aa"/>
                     <taxon id="val_euk_md_incut11A-aa"/>
+                    <taxon id="val_euk_TEST"/>
                 </taxonset>
             </distribution>
             <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS_Euk_edited">
@@ -351,7 +353,7 @@
     
     <init estimate="false" id="TreeParser.t:AARS_Euk_edited" initial="@Tree.t:AARS_Euk_edited" spec="beast.util.TreeParser" taxa="@AARS_Euk_edited"
 		IsLabelledNewick="true"
-        newick='((((((val_euk_md_antum15A-aa:0.1, val_euk_md_incut11A-aa:0.1):100, (gly_euk_md_incut16A-aa:0.1, gly_euk_md_incut3A-aa:0.1):100):100, ((ala_euk_md__mori2A-aa:0.1, ala_euk_md_antum12A-aa:0.1):100, (asp_euk_md_incut10A-aa:0.1, asp_euk_md_incut11A-aa:0.1):100):100):100, (((pro_euk_md_incut11A-aa:0.1, pro_euk_md_incut12A-aa:0.1):100, (glu_euk_md_incut1A-aa:0.1, glu_euk_md_incut2A-aa:0.1):100):100, ((ser_euk_md__mori11A-aa:0.1, ser_euk_md_aki_113A-aa:0.1):100, (leu_euk_md_antum13A-aa:0.1, leu_euk_md_incut11A-aa:0.1):100):100):100):100, ((((arg_euk_md__mori8A-aa:0.1, arg_euk_md_atica6A-aa:0.1):100, (thr_euk_md_incut10A-aa:0.1, thr_euk_md_incut13A-aa:0.1):100):100, ((ile_euk_md__mori12A-aa:0.1, ile_euk_md_gigas13A-aa:0.1):100, (gln_euk_md_antum12A-aa:0.1, gln_euk_md_gigas3A-aa:0.1):100):100):100, (((asn_euk_md_incut10A-aa:0.1, asn_euk_md_incut11A-aa:0.1):100, (cys_euk_md_incut10A-aa:0.1, cys_euk_md_incut11A-aa:0.1):100):100, ((tyr_euk_md_antum3A-aa:0.1, tyr_euk_md_incut10A-aa:0.1):100, (his_euk_md_incut11A-aa:0.1, his_euk_md_incut14A-aa:0.1):100):100):100):100):100, (((met_euk_md_incut11A-aa:0.1, met_euk_md_incut12A-aa:0.1):100, (trp_euk_md__mori12A-aa:0.1, trp_euk_md_antum4A-aa:0.1):100):100, ((lys_euk_md__mori13A-aa:0.1, lys_euk_md_antum5A-aa:0.1):100, (phe_euk_md_incut10A-aa:0.1, phe_euk_md_incut11A-aa:0.1):100):100):300);'
+        newick='((((((val_euk_md_antum15A-aa:0.1, val_euk_md_incut11A-aa:0.1, val_euk_TEST:0.1):100, (gly_euk_md_incut16A-aa:0.1, gly_euk_md_incut3A-aa:0.1):100):100, ((ala_euk_md__mori2A-aa:0.1, ala_euk_md_antum12A-aa:0.1):100, (asp_euk_md_incut10A-aa:0.1, asp_euk_md_incut11A-aa:0.1):100):100):100, (((pro_euk_md_incut11A-aa:0.1, pro_euk_md_incut12A-aa:0.1):100, (glu_euk_md_incut1A-aa:0.1, glu_euk_md_incut2A-aa:0.1):100):100, ((ser_euk_md__mori11A-aa:0.1, ser_euk_md_aki_113A-aa:0.1):100, (leu_euk_md_antum13A-aa:0.1, leu_euk_md_incut11A-aa:0.1):100):100):100):100, ((((arg_euk_md__mori8A-aa:0.1, arg_euk_md_atica6A-aa:0.1):100, (thr_euk_md_incut10A-aa:0.1, thr_euk_md_incut13A-aa:0.1):100):100, ((ile_euk_md__mori12A-aa:0.1, ile_euk_md_gigas13A-aa:0.1):100, (gln_euk_md_antum12A-aa:0.1, gln_euk_md_gigas3A-aa:0.1):100):100):100, (((asn_euk_md_incut10A-aa:0.1, asn_euk_md_incut11A-aa:0.1):100, (cys_euk_md_incut10A-aa:0.1, cys_euk_md_incut11A-aa:0.1):100):100, ((tyr_euk_md_antum3A-aa:0.1, tyr_euk_md_incut10A-aa:0.1):100, (his_euk_md_incut11A-aa:0.1, his_euk_md_incut14A-aa:0.1):100):100):100):100):100, (((met_euk_md_incut11A-aa:0.1, met_euk_md_incut12A-aa:0.1):100, (trp_euk_md__mori12A-aa:0.1, trp_euk_md_antum4A-aa:0.1):100):100, ((lys_euk_md__mori13A-aa:0.1, lys_euk_md_antum5A-aa:0.1):100, (phe_euk_md_incut10A-aa:0.1, phe_euk_md_incut11A-aa:0.1):100):100):300);'
     />
 </run>
 
