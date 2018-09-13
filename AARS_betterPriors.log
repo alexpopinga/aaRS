@@ -1,0 +1,69 @@
+#
+#model:
+#
+#<?xml version="1.0" encoding="UTF-8" standalone="no"?><input id="posterior" spec="beast.core.util.CompoundDistribution">
+#    <distribution id="prior" spec="beast.core.util.CompoundDistribution">
+#        <distribution id="BirthDeath.t:AARS_betterPriors" spec="beast.evolution.speciation.BirthDeathGernhard08Model">
+#            <parameter id="relativeDeathRate2.t:AARS_betterPriors" lower="0.0" name="relativeDeathRate" upper="1.0">0.5</parameter>
+#            <parameter id="birthRate2.t:AARS_betterPriors" lower="0.0" name="birthDiffRate" upper="10000.0">1.0</parameter>
+#            <tree id="Tree.t:AARS_betterPriors">
+#                <taxonset id="TaxonSet.AARS_betterPriors" spec="beast.evolution.alignment.TaxonSet">
+#                </taxonset>
+#            </tree>
+#        </distribution>
+#        <prior id="BirthRatePrior.t:AARS_betterPriors" name="distribution" x="@birthRate2.t:AARS_betterPriors">
+#            <LogNormal id="LogNormalDistributionModel.1" name="distr">
+#                <parameter estimate="false" id="RealParameter.6" name="M">1.0</parameter>
+#                <parameter estimate="false" id="RealParameter.7" lower="0.0" name="S" upper="5.0">1.25</parameter>
+#            </LogNormal>
+#        </prior>
+#        <prior id="GammaShapePrior.s:AARS_betterPriors" name="distribution">
+#            <parameter id="gammaShape.s:AARS_betterPriors" name="x">1.0</parameter>
+#            <Exponential id="Exponential.0" name="distr">
+#                <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+#            </Exponential>
+#        </prior>
+#        <prior id="DeathRatePrior.t:AARS_betterPriors" name="distribution" x="@relativeDeathRate2.t:AARS_betterPriors">
+#            <LogNormal id="LogNormalDistributionModel.2" name="distr">
+#                <parameter estimate="false" id="RealParameter.8" name="M">1.0</parameter>
+#                <parameter estimate="false" id="RealParameter.9" lower="0.0" name="S" upper="5.0">1.25</parameter>
+#            </LogNormal>
+#        </prior>
+#        <prior id="ucldStdevPrior.c:AARS_betterPriors" name="distribution">
+#            <parameter id="ucldStdev.c:AARS_betterPriors" lower="0.0" name="x">0.1</parameter>
+#            <Gamma id="Gamma.0" name="distr">
+#                <parameter estimate="false" id="RealParameter.2" name="alpha">0.5396</parameter>
+#                <parameter estimate="false" id="RealParameter.3" name="beta">0.3819</parameter>
+#            </Gamma>
+#        </prior>
+#    </distribution>
+#    <distribution id="likelihood" spec="beast.core.util.CompoundDistribution" useThreads="true">
+#        <distribution data="@AARS_betterPriors" id="treeLikelihood.AARS_betterPriors" spec="beast.evolution.likelihood.ThreadedTreeLikelihood" tree="@Tree.t:AARS_betterPriors">
+#            <siteModel gammaCategoryCount="4" id="SiteModel.s:AARS_betterPriors" shape="@gammaShape.s:AARS_betterPriors" spec="beast.evolution.sitemodel.SiteModel">
+#                <parameter id="mutationRate.s:AARS_betterPriors" name="mutationRate">1.0</parameter>
+#                <parameter estimate="false" id="proportionInvariant.s:AARS_betterPriors" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+#                <substModel id="WAG.s:AARS_betterPriors" spec="beast.evolution.substitutionmodel.WAG"/>
+#            </siteModel>
+#            <branchRateModel id="RelaxedClock.c:AARS_betterPriors" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" tree="@Tree.t:AARS_betterPriors">
+#                <LogNormal S="@ucldStdev.c:AARS_betterPriors" id="LogNormalDistributionModel.c:AARS_betterPriors" meanInRealSpace="true" name="distr">
+#                    <parameter estimate="false" id="RealParameter.1" lower="0.0" name="M" upper="1.0">1.0</parameter>
+#                </LogNormal>
+#                <rateCategories dimension="1920" id="rateCategories.c:AARS_betterPriors" spec="beast.core.parameter.IntegerParameter">1</rateCategories>
+#                <parameter estimate="false" id="ucldMean.c:AARS_betterPriors" name="clock.rate">1.0</parameter>
+#            </branchRateModel>
+#        </distribution>
+#    </distribution>
+#</input>
+#
+Sample	posterior	likelihood	prior	treeLikelihood	TreeHeight	gammaShape	mutationRate	ucldStdev	rate.mean	rate.variance	rate.coefficientOfVariation	BirthDeath	birthRate2	relativeDeathRate2
+0	-206184.46662246887	-202552.66703972177	-3631.7995827471013	-202552.66703972177	500.1	1.0	1.0	0.1	0.9902520632165057	0.010398241986273251	0.10185591375631378	-3628.790570743732	1.0	0.5
+10000	-169338.77392323475	-168694.05273537568	-644.7211878590725	-168694.05273537568	981.042294718375	2.255697559675595	1.0	0.20852020616757633	0.9304819306105335	0.04491767973008649	0.2114064133334938	-635.7092812805282	0.015668033192522784	0.9933863955702155
+20000	-161389.57057969234	-160832.7732186952	-556.7973609971442	-160832.7732186952	534.6382500225487	2.255697559675595	1.0	0.356578854511114	0.8834303913429715	0.14041717637128232	0.37409569235358986	-547.4771861984779	0.01811018958637248	0.9933863955702155
+30000	-154313.96263153956	-153822.19617143727	-491.7664601022942	-153822.19617143727	523.4794276638611	2.790638419360327	1.0	0.517645764623524	0.7582941002645647	0.29111937183811154	0.5427885749079855	-481.3218360218106	0.018142902344129894	0.993753959065608
+40000	-149321.7895326062	-148898.97422390303	-422.81530870315714	-148898.97422390303	411.85376819637196	2.4136786605458798	1.0	0.5986305631714626	1.0490767491588553	0.39736377091361463	0.6311231502174769	-412.7156068857783	0.020329962165405096	0.993753959065608
+50000	-145251.08441912662	-144867.65813436208	-383.4262847645373	-144867.65813436208	378.993554267064	2.653628105456154	1.0	0.6073794164595591	0.9309714575163938	0.4082316884966192	0.6475151278899469	-372.87805233508743	0.01871565117742979	0.9946149246283268
+60000	-142334.53054624	-142002.8631119138	-331.66743432623406	-142002.8631119138	247.03507985059272	2.653628105456154	1.0	0.6097189228448886	0.9106415349847139	0.41639320284285153	0.6501444075757016	-321.0808941067728	0.018457620898934782	0.9946149246283268
+70000	-140014.85786201485	-139676.5915049021	-338.26635711274764	-139676.5915049021	234.82875653238315	2.653628105456154	1.0	0.6315321125363793	1.0374766057287028	0.43998469711892124	0.6716958454209769	-327.7458488211729	0.019677810688806027	0.9942547901485868
+80000	-137679.19733643046	-137384.61122927067	-294.58610715979404	-137384.61122927067	213.83380489030165	2.653628105456154	1.0	0.6518369529627857	0.8850281082543388	0.46590587371154824	0.6885665630521027	-284.1458568617832	0.021092384759583006	0.9942547901485868
+90000	-135637.17972612072	-135379.8807949094	-257.29893121132227	-135379.8807949094	119.19369146213474	2.653628105456154	1.0	0.6608897855817502	1.0748778312887999	0.49577619492453107	0.7042878223303184	-246.86052300114582	0.021414459407917207	0.9942547901485868
+100000	-134152.76625534942	-133909.58949504056	-243.17676030884772	-133909.58949504056	78.40839017592081	2.5497888615902493	1.0	0.6452337190314964	0.9597654353791724	0.47105738227694266	0.6821955452061057	-232.947516016739	0.021967030314253136	0.9942547901485868
