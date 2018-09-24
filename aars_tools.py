@@ -65,7 +65,7 @@ def levenshtein_distance(source, target):
     distance_matrix[0, :] = np.arange(len(target) + 1)
     distance_matrix[:, 0] = np.arange(len(source) + 1)
     for i, j in product(range(1, len(source)+1), range(1, len(target)+1)):
-        substitution_cost = 0 if source[i-1] == target[i-1] else 1
+        substitution_cost = 0 if source[i-1] == target[j-1] else 1
         distance_matrix[i, j] = min(
             distance_matrix[i-1, j] + 1,
             distance_matrix[i, j-1] + 1,
@@ -76,7 +76,7 @@ def levenshtein_distance(source, target):
 
 def make_no_gaps_to_gaps_file():
     """Write the no gaps to gaps file"""
-    version = 1
+    version = 2
     try:
         with open('no_gaps_to_gaps.json') as f:
             data = json.load(f)
