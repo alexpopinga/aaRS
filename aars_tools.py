@@ -8,6 +8,24 @@ import json
 import xml.etree.ElementTree as ET
 import numpy as np
 
+try:
+    from levenshtein import levenshtein_distance_c as levenshtein_distance
+except ImportError:
+    def levenshtein_distance(source, target):
+        """Custom Levenshtein distance calculation"""
+        distance_matrix = np.zeros((len(source) + 1, len(target) + 1), int)
+        distance_matrix[0, :] = np.arange(len(target) + 1)
+        distance_matrix[:, 0] = np.arange(len(source) + 1)
+        for i, j in product(range(1, len(source)+1), range(1, len(target)+1)):
+            substitution_cost = 0 if source[i-1] == target[j-1] else 1
+            distance_matrix[i, j] = min(
+                distance_matrix[i-1, j] + 1,
+                distance_matrix[i, j-1] + 1,
+                distance_matrix[i-1, j-1] + substitution_cost
+            )
+        return int(distance_matrix[len(source), len(target)])
+
+
 AARS_XML = 'AARS.xml'
 BASE_DIR = 'BEAST 2/XMLs/Better Priors (final, actually used XMLs)/'
 CLASS_I = BASE_DIR + 'ClassI_betterPriors.xml'
@@ -59,24 +77,9 @@ def find_match(seq_name, no_gaps=final_sequences(), gaps=all_sequences()):
     return best_key, levenshtein_distance(source, best_value)
 
 
-def levenshtein_distance(source, target):
-    """Custom Levenshtein distance calculation"""
-    distance_matrix = np.zeros((len(source) + 1, len(target) + 1), int)
-    distance_matrix[0, :] = np.arange(len(target) + 1)
-    distance_matrix[:, 0] = np.arange(len(source) + 1)
-    for i, j in product(range(1, len(source)+1), range(1, len(target)+1)):
-        substitution_cost = 0 if source[i-1] == target[j-1] else 1
-        distance_matrix[i, j] = min(
-            distance_matrix[i-1, j] + 1,
-            distance_matrix[i, j-1] + 1,
-            distance_matrix[i-1, j-1] + substitution_cost
-        )
-    return int(distance_matrix[len(source), len(target)])
-
-
 def make_no_gaps_to_gaps_file():
     """Write the no gaps to gaps file"""
-    version = 2
+    version = 3
     try:
         with open('no_gaps_to_gaps.json') as f:
             data = json.load(f)
