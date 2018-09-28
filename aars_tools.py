@@ -67,7 +67,7 @@ def class_two_sequences():
             for s in data if s.tag == 'sequence'}
 
 
-def find_match(seq_name, no_gaps=final_sequences(), gaps=all_sequences()):
+def find_match(seq_name, no_gaps, gaps):
     """Find best gapped sequences matching the named sequence"""
     try:
         source = no_gaps[seq_name]
@@ -104,7 +104,7 @@ def make_no_gaps_to_gaps_file():
     """Write the no gaps to gaps file"""
     no_gaps = final_sequences()
     gaps = all_sequences()
-    sys.stdout.write('\t0%')
+    sys.stdout.write('0%')
     sys.stdout.flush()
     data = {}
     for i, no_gaps_key in enumerate(no_gaps.keys()):
@@ -120,13 +120,105 @@ def make_no_gaps_to_gaps_file():
             'gaps-key': gaps_key,
             'no-gaps-value': no_gaps[no_gaps_key],
             'gaps-value': gaps[gaps_key],
-            'gaps-sequence-uncertainty': distance,
-            'path': path,
-            'path-uncertainty': path_cost}
-        sys.stdout.write('\r\t{}%'.format((i * 100) // len(no_gaps)))
+            'gaps-sequence-uncertainty': distance / len(no_gaps[no_gaps_key]),
+            'base-path': path,
+            'path-uncertainty': path_cost / len(species),
+            'amino-acid-paths': predict_amino_path(path, aa),
+            'nucleotide-paths': predict_nucleotide_path(path, aa)
+        }
+        sys.stdout.write('\r{}%'.format((i * 100) // len(no_gaps)))
         sys.stdout.flush()
     with open('no_gaps_to_gaps.json', 'w') as f:
         json.dump(data, f, indent=2)
+
+
+def predict_amino_path(path, aa):
+    """Try to find the amino acid sequence file"""
+    paths = glob.glob(path + '/amino*/*{}_*'.format(aa))
+    if not paths:
+        paths = glob.glob(path + '/**/*{}_aa*'.format(aa), recursive=True)
+    if not paths:
+        if aa == 'glu':  # glu is sometimes listed as gluPro
+            return predict_amino_path(path, 'gluPro')
+        if aa == 'leu':  # leu is sometimes listed as leuALPHA and leuBETA
+            return (predict_amino_path(path, 'leuALPHA') +
+                    predict_amino_path(path, 'leuBETA'))
+        if aa == 'met':  # met is sometimes listed as leuALPHA and leuBETA
+            return (predict_amino_path(path, 'metALPHA') +
+                    predict_amino_path(path, 'metBETA'))
+        if aa == 'phe':  # phe is sometimes listed as pheALPHA and pheBETA
+            try:
+                paths = (predict_amino_path(path, 'pheALPHA') +
+                         predict_amino_path(path, 'pheBETA'))
+            except RuntimeError:
+                try:
+                    # phe sometimes has pheALPHA but not pheBETA
+                    paths = predict_amino_path(path, 'pheALPHA')
+                except RuntimeError:
+                    # phe sometimes has pheBETA but not pheALPHA
+                    paths = predict_amino_path(path, 'pheBETA')
+            return paths
+        if aa == 'tyr':  # tyr is sometimes listed as Tyr
+            return predict_amino_path(path, 'Tyr')
+        if aa == 'val':  # val is sometimes listed as Val or val1
+            try:
+                paths = predict_amino_path(path, 'Val')
+            except RuntimeError:
+                paths = predict_amino_path(path, 'val1')
+            return paths
+
+    if not paths:
+        # exceptions
+        if "Pyrococcus horikoshii" in path and 'asn' in aa:
+            print('\nPyrococcus horikoshii has no asn amino acid sequence')
+        elif "Homo sapiens" in path and 'phe' in aa:
+            print('\nHomo sapiens has no phe amino acid sequence')
+        else:
+            raise RuntimeError('Could not find amino acid path for {} ({})'.format(
+                os.path.basename(path), aa))
+    return paths
+
+
+def predict_nucleotide_path(path, aa):
+    """Try to find the nucleotide sequence file"""
+    paths = glob.glob(path + '/nuc*/*{}_*'.format(aa))
+    if not paths:
+        paths = glob.glob(path + '/**/*{}_nuc*'.format(aa), recursive=True)
+    if not paths:
+        if aa == 'glu':  # glu is sometimes listed as gluPro
+            return predict_nucleotide_path(path, 'gluPro')
+        if aa == 'leu':  # leu is sometimes listed as leuALPHA and leuBETA
+            return (predict_nucleotide_path(path, 'leuALPHA') +
+                    predict_nucleotide_path(path, 'leuBETA'))
+        if aa == 'met':  # met is sometimes listed as leuALPHA and leuBETA
+            return (predict_nucleotide_path(path, 'metALPHA') +
+                    predict_nucleotide_path(path, 'metBETA'))
+        if aa == 'phe':  # phe is sometimes listed as pheALPHA and pheBETA
+            try:
+                paths = (predict_nucleotide_path(path, 'pheALPHA') +
+                         predict_nucleotide_path(path, 'pheBETA'))
+            except RuntimeError:
+                try:
+                    # phe sometimes has pheALPHA but not pheBETA
+                    paths = predict_nucleotide_path(path, 'pheALPHA')
+                except RuntimeError:
+                    # phe sometimes has pheBETA but not pheALPHA
+                    paths = predict_nucleotide_path(path, 'pheBETA')
+            return paths
+    if not paths:
+        # exceptions
+        if "Bos taurus" in path and 'leu' in aa:
+            print('\nBos taurus has no leu nucleotide sequence')
+        elif "Pyrococcus horikoshii" in path and 'asn' in aa:
+            print('\nPyrococcus horikoshii has no asn nucleotide sequence')
+        elif "Giardia lamblia" in path and 'asn' in aa:
+            print('\nGiardia lamblia has no asn nucleotide sequence')
+        elif "Homo sapiens" in path and 'phe' in aa:
+            print('\nHomo sapiens has no phe nucleotide sequence')
+        else:
+            raise RuntimeError('Could not find nucleotide path for {} ({})'.format(
+                os.path.basename(path), aa))
+    return paths
 
 
 def predict_path(domain, species, aa):
@@ -160,49 +252,5 @@ def construct_species(name):
     return '_'.join(new)
 
 
-# DEMO
 if __name__ == "__main__":
-
-    print('\n\nfinal_sequences() :')
-    COUNT = 0
-    DATA = final_sequences()
-    for k, v in DATA.items():
-        COUNT += 1
-        if COUNT > 3:
-            print('\t...{} more...'.format(len(DATA) - 3))
-            break
-        print('\t{}: {}'.format(k, v))
-
-    print('\n\nclass_one_sequences() :')
-    COUNT = 0
-    DATA = class_one_sequences()
-    for k, v in DATA.items():
-        COUNT += 1
-        if COUNT > 3:
-            print('\t...{} more...'.format(len(DATA) - 3))
-            break
-        print('\t{}: {}'.format(k, v))
-
-    print('\n\nclass_two_sequences() :')
-    COUNT = 0
-    DATA = class_two_sequences()
-    for k, v in DATA.items():
-        COUNT += 1
-        if COUNT > 3:
-            print('\t...{} more...'.format(len(DATA) - 3))
-            break
-        print('\t{}: {}'.format(k, v))
-
-    print('\n\nall_sequences() :')
-    COUNT = 0
-    DATA = all_sequences()
-    for k, v in DATA.items():
-        COUNT += 1
-        if COUNT > 3:
-            print('\t...{} more...'.format(len(DATA) - 3))
-            break
-        print('\t{}: {}'.format(k, v))
-
-    print('\n\nmake_no_gaps_to_gaps_file() :')
     make_no_gaps_to_gaps_file()
-    print()
