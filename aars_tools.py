@@ -9,6 +9,7 @@ import glob
 import json
 import xml.etree.ElementTree as ET
 import numpy as np
+from Bio.Seq import translate
 
 try:
     from levenshtein import levenshtein_distance_c as levenshtein_distance
@@ -119,6 +120,15 @@ def make_no_gaps_to_gaps_file():
         aa_visual = [''.join([c1.lower() if c2 == '-' else c1
                               for c1, c2 in zip(dat, ali)])
                      for dat, ali in zip(aa_data, aa_align)]
+        nuc_data = [read_path_data(p) for p in nuc_paths]
+        nuc_trans = [translate(p) for p in nuc_data]
+        nuc_trans_align = [align(gaps[gaps_key], d) for d in nuc_trans]
+        nuc_align = [''.join(['---' if a[i] == '-' else n[i*3:(i+1)*3]
+                              for i in range(len(a))])
+                     for a, n in zip(nuc_trans_align, nuc_data)]
+        nuc_visual = [''.join([n[i*3:(i+1)*3].lower() if a[i] == '-' else n[i*3:(i+1)*3]
+                               for i in range(len(a))])
+                      for a, n in zip(nuc_trans_align, nuc_data)]
         data[no_gaps_key] = {
             'no-gaps-key': no_gaps_key,
             'domain': domain,
@@ -133,9 +143,13 @@ def make_no_gaps_to_gaps_file():
             'amino-acid-paths': aa_paths,
             'nucleotide-paths': nuc_paths,
             'amino-acid-data': aa_data,
-            'amino-acid-aligned_gaps': aa_align,
+            'amino-acid-aligned-gaps': aa_align,
             'amino-acid-visual-alignment': aa_visual,
-            'nucleotide-data': [read_path_data(p) for p in nuc_paths]
+            'nucleotide-data': nuc_data,
+            'nucleotide-translation': nuc_trans,
+            'nucleotide-trans-align': nuc_trans_align,
+            'nucleotide-aligned-gaps': nuc_align,
+            'nucleotide-visual-alignment': nuc_visual
         }
         sys.stdout.write('\r{}%'.format((i * 100) // len(no_gaps)))
         sys.stdout.flush()
@@ -148,7 +162,7 @@ def predict_amino_path(path, aa):
     if path[-3:] == "ile" and aa == 'ile':  # M_modile ends in 'ile' but may not be aa 'ile'
         return predict_amino_path(path, '_ile')
     if 'Musca domestica' in path and aa == 'phe':  # This one has missing resources
-        try:
+        try:  # try using the ALPHA and BETA instead
             paths = (predict_amino_path(path, 'pheALPHA') +
                      predict_amino_path(path, 'pheBETA'))
         except RuntimeError:
@@ -206,6 +220,16 @@ def predict_amino_path(path, aa):
 
 def predict_nucleotide_path(path, aa):
     """Try to find the nucleotide sequence file"""
+    if path[-3:] == "ile" and aa == 'ile':  # M_modile ends in 'ile' but may not be aa 'ile'
+        return predict_nucleotide_path(path, '_ile')
+    if 'Methanopyrus kandleri' in path and aa == 'arg':
+        return []  # bad data in Mkandleri_arg_nuc
+    if 'Crassostrea gigas' in path and aa == 'ala':
+        return []  # aa data in Cgigas_ala_nuc (should be nuc)
+    if 'Halobacterium sp.' in path and aa == 'gly':
+        return []  # bad data format
+    if 'Phycisphaera mikurensis' in path and aa == 'lys':
+        return []  # aa data in Pmikurensis_lys_nuc (should be nuc)
     paths = glob.glob(path + '/nuc*/*{}_*'.format(aa))
     if not paths:
         paths = glob.glob(path + '/**/*{}_nuc*'.format(aa), recursive=True)
