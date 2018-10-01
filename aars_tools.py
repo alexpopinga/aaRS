@@ -112,6 +112,13 @@ def make_no_gaps_to_gaps_file():
             no_gaps_key, no_gaps=no_gaps, gaps=gaps)
         domain, species, aa = parse_no_gaps_keys(no_gaps_key)
         path, path_cost = predict_path(domain, species, aa)
+        aa_paths = predict_amino_path(path, aa)
+        nuc_paths = predict_nucleotide_path(path, aa)
+        aa_data = [read_path_data(p) for p in aa_paths]
+        aa_align = [align(gaps[gaps_key], d) for d in aa_data]
+        aa_visual = [''.join([c1.lower() if c2 == '-' else c1
+                              for c1, c2 in zip(dat, ali)])
+                     for dat, ali in zip(aa_data, aa_align)]
         data[no_gaps_key] = {
             'no-gaps-key': no_gaps_key,
             'domain': domain,
@@ -123,8 +130,12 @@ def make_no_gaps_to_gaps_file():
             'gaps-sequence-uncertainty': distance / len(no_gaps[no_gaps_key]),
             'base-path': path,
             'path-uncertainty': path_cost / len(species),
-            'amino-acid-paths': predict_amino_path(path, aa),
-            'nucleotide-paths': predict_nucleotide_path(path, aa)
+            'amino-acid-paths': aa_paths,
+            'nucleotide-paths': nuc_paths,
+            'amino-acid-data': aa_data,
+            'amino-acid-aligned_gaps': aa_align,
+            'amino-acid-visual-alignment': aa_visual,
+            'nucleotide-data': [read_path_data(p) for p in nuc_paths]
         }
         sys.stdout.write('\r{}%'.format((i * 100) // len(no_gaps)))
         sys.stdout.flush()
@@ -134,6 +145,20 @@ def make_no_gaps_to_gaps_file():
 
 def predict_amino_path(path, aa):
     """Try to find the amino acid sequence file"""
+    if path[-3:] == "ile" and aa == 'ile':  # M_modile ends in 'ile' but may not be aa 'ile'
+        return predict_amino_path(path, '_ile')
+    if 'Musca domestica' in path and aa == 'phe':  # This one has missing resources
+        try:
+            paths = (predict_amino_path(path, 'pheALPHA') +
+                     predict_amino_path(path, 'pheBETA'))
+        except RuntimeError:
+            try:
+                # phe sometimes has pheALPHA but not pheBETA
+                paths = predict_amino_path(path, 'pheALPHA')
+            except RuntimeError:
+                # phe sometimes has pheBETA but not pheALPHA
+                paths = predict_amino_path(path, 'pheBETA')
+        return paths
     paths = glob.glob(path + '/amino*/*{}_*'.format(aa))
     if not paths:
         paths = glob.glob(path + '/**/*{}_aa*'.format(aa), recursive=True)
@@ -250,6 +275,68 @@ def construct_species(name):
             new.extend(splits[i:])
             break
     return '_'.join(new)
+
+
+def read_path_data(path):
+    """read the data from the path location"""
+    dat = ""
+    with open(path) as path_p:
+        for next_dat in path_p:
+            if next_dat[0] == '>':
+                continue
+            dat += next_dat.strip()
+    return dat
+
+
+def align(gapped_seq, full_seq):
+    """align a gapped sequence to the full sequence"""
+    parts = gapped_seq.split('-')
+    parts = [p for p in parts if p]  # remove empty strings
+    num_parts = len(parts)
+    parts_len = sum([len(p) for p in parts])
+    full_len = len(full_seq)
+    matrix_side_1 = num_parts + 1
+    matrix_side_2 = full_len - parts_len + 2
+    shape = (matrix_side_1, matrix_side_2)
+    costs = np.zeros(shape)
+    path = np.zeros_like(costs, dtype=np.int8)
+    for i in range(costs.shape[0]):
+        costs[i, 0] = np.inf
+        path[i, 0] = 1  # take part
+    for j in range(costs.shape[1] - 1):
+        costs[0, j + 1] = j
+        path[0, j + 1] = 2  # take gap
+    offset = 0
+    for i in range(1, costs.shape[0]):
+        part = parts[i - 1]
+        size = len(part)
+        for j in range(1, costs.shape[1]):
+            n = offset + j - 1
+            sub_seq = full_seq[n:n+size]
+            take_gap = 1 + costs[i, j - 1]
+            take_part = len([1 for c1, c2 in zip(sub_seq, part)
+                             if c1 != c2])
+            take_part += costs[i - 1, j]
+            if take_part <= take_gap:
+                costs[i, j] = take_part
+                path[i, j] = 1  # take part
+            else:
+                costs[i, j] = take_gap
+                path[i, j] = 2  # take gap
+        offset += size
+    i, j = path.shape
+    i -= 1
+    j -= 1
+    alignment = ""
+    while i > 1 or j > 1:
+        if path[i, j] == 1:  # take part
+            alignment += parts.pop()[::-1]
+            i -= 1
+        else:  # take gap
+            alignment += '-'
+            j -= 1
+    alignment = alignment[::-1]
+    return alignment
 
 
 if __name__ == "__main__":
