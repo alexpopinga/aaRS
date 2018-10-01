@@ -153,7 +153,7 @@ def make_no_gaps_to_gaps_file():
         }
         sys.stdout.write('\r{}%'.format((i * 100) // len(no_gaps)))
         sys.stdout.flush()
-    with open('no_gaps_to_gaps.json', 'w') as f:
+    with open('gap_data.json', 'w') as f:
         json.dump(data, f, indent=2)
 
 
