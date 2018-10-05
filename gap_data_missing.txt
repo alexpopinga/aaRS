@@ -1,0 +1,42 @@
+{
+  "arg_arch_M_kandleri": {
+    "name": "arg_arch_M_kandleri",
+    "regions": "ILEHSANPNGPLHIGHGRNAVIGDILARC-EVQYYVNDMG-TVVERGHIQTLERLD-RFVYESE-LYTTRDIAYHL-VDVLGADHKLAVEQLRAVLDML-IDVYEF-SMSTR",
+    "best-file": "Missing nucleotide sequence file"
+  },
+  "leu_euk_B_taurus": {
+    "name": "leu_euk_B_taurus",
+    "regions": "FVTFYPYMNGRLHLGHTFSLSKCEFAVGY-LFPFGLHCTG-EYFPPLAVQDLKRMD-RSFITTD-ESLSDSTIYMA-LRASGKDLIPNLSYFLYNHVAM-PAVRAN-KMSKS",
+    "best-file": "Missing nucleotide sequence file"
+  },
+  "ala_euk_C_gigas": {
+    "name": "ala_euk_C_gigas",
+    "regions": "TGAEIRNLFVDFFKEKEHLYVHSSVVP-LFTNAGMNQFK-YRAANSQKCIRA-TFFEMLGNWSF-KTECCGWAWEFLT-CTEIHY-EIWNLVFI-RKHCDCGMGLERLVCV",
+    "best-file": "Missing nucleotide sequence file"
+  },
+  "asn_arch_1x54a_P_horikoshii": {
+    "name": "asn_arch_1x54a_P_horikoshii",
+    "regions": "VKETLIMAAREWLLKDGWHEVFPPILV-YLSQSAQLYLE-EKVWSLTPSFRA-TEFWHLELEAA-LWDIMKVEEELVS-ASDMLA-EIIGGSQR-VPHSGFGLGVERLVAW",
+    "best-file": "Missing nucleotide sequence file"
+  },
+  "asn_euk_G_lamblia": {
+    "name": "asn_euk_G_lamblia",
+    "regions": "ARGRILRAFRNHFYFKGWTEVTPPTIV-YLTQSSQLYLE-GDVYCILPSFRA-SEFTHLETEHP-FSELLGIIEDFVI-SVDLLV-EIVGGSMR-CPHGGMGLGLERFICW",
+    "best-file": "Missing nucleotide sequence file"
+  },
+  "gly_arch_Halobacterium": {
+    "name": "gly_arch_Halobacterium",
+    "regions": "LKRNVEETWRDRFVTEGNMEIDSPTVT-YLRPETAQGMF-FGAAQIGAGYRN-REFTMAELEFF-VAYFLARSKQWFE-CWDAEG-ELEGIASR-VFVVEPAFGVGRAVYT",
+    "best-file": "Missing nucleotide sequence file"
+  },
+  "lys_bact_P_mikurensis": {
+    "name": "lys_bact_P_mikurensis",
+    "regions": "TRSRLIKATRDFFEGRGFLEVETPMMQ-FLRIAPELYLK-PRVFEINRNFRN-PEFTMLELYEA-LESILHHTQGLVE-RFELFV-ELANAYTE-LNDPDVQEANFREQLG",
+    "best-file": "Missing nucleotide sequence file"
+  },
+  "phe_euk_3l4g_H_sapiens": {
+    "name": "phe_euk_3l4g_H_sapiens",
+    "regions": "PLLKVRSQFRQIFLEMGFTEMPTNFIE-LLRTHTTSASA-VKYFSIDRVFRN-AEFHQIEGVVA-LGHLMGVLREFFT-SMEVFS-EVGNSGVF-VSVIAWGLSLERPTMI",
+    "best-file": "Missing nucleotide sequence file"
+  }
+}
