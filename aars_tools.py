@@ -255,8 +255,11 @@ def output_split_files():
                 }
                 continue
 
-            # TODO Why are some of these off by 3?
-            elif actual_nuc_len - estimated_nuc_len == 3:
+            if actual_nuc_len - estimated_nuc_len == 3:
+                # From Peter Wills - 10 Oct 2018
+                # "Many of these aaRS sequences are of the “catalytic domain” and some have
+                # other domains attached to them, so you may have the first codon of the
+                # following domain."
                 counts['perfectly aligned to nucleotide'] += 1
                 nuc_align = ''.join(['---' if v['amino-acid-aligned-gaps'][i] in '-.'
                                      else v['nucleotide-data'][i*3:(i+1)*3]
@@ -272,9 +275,7 @@ def output_split_files():
                     'nuc-al': nuc_align
                 }
                 continue
-            ######################################################################################################
-
-            elif estimated_nuc_len < actual_nuc_len:
+            if estimated_nuc_len < actual_nuc_len:
                 too_long = actual_nuc_len - estimated_nuc_len
                 comment = 'nucleotide data is {} characters too long'.format(
                     too_long)
@@ -293,7 +294,7 @@ def output_split_files():
                 'comment': comment
             }
             continue
-        elif misalignment < 10:
+        if misalignment < 10:
             counts['misaligned to amino acids'] += 1
             bad[k] = {
                 'name': k,
@@ -308,20 +309,19 @@ def output_split_files():
                                                      v['amino-acid-aligned-gaps'])])
             }
             continue
-        else:
-            counts['very misaligned to amino acids'] += 1
-            really_bad[k] = {
-                'name': k,
-                'misalignments': misalignment,
-                'regions': v['gaps-value'],
-                'amino-acid-file': v['amino-acid-path'],
-                'nucleotide-file': v['nucleotide-path'],
-                'aa-seq': v['amino-acid-data'],
-                'aa-ali': v['amino-acid-aligned-gaps'],
-                'misali': ''.join([' ' if c1 == c2 or c2 in '-.' else '^'
-                                   for c1, c2 in zip(v['amino-acid-data'],
-                                                     v['amino-acid-aligned-gaps'])])
-            }
+        counts['very misaligned to amino acids'] += 1
+        really_bad[k] = {
+            'name': k,
+            'misalignments': misalignment,
+            'regions': v['gaps-value'],
+            'amino-acid-file': v['amino-acid-path'],
+            'nucleotide-file': v['nucleotide-path'],
+            'aa-seq': v['amino-acid-data'],
+            'aa-ali': v['amino-acid-aligned-gaps'],
+            'misali': ''.join([' ' if c1 == c2 or c2 in '-.' else '^'
+                               for c1, c2 in zip(v['amino-acid-data'],
+                                                 v['amino-acid-aligned-gaps'])])
+        }
     for k, v in counts.items():
         print('{}: {}'.format(k, v))
     with open('gap_data_perfect.txt', 'w') as p:
