@@ -2,31 +2,18 @@
 
 a.k.a. "Paul's tools"
 """
-import sys
 import os.path
-from itertools import product
 import glob
 import json
 import xml.etree.ElementTree as ET
-import numpy as np
-from Bio.Seq import translate
 
 try:
-    from levenshtein import levenshtein_distance_c as levenshtein_distance
+    from aars_algorithms_fast import levenshtein_distance_c as levenshtein_distance
+    from aars_algorithms_fast import align_c as align
 except ImportError:
-    def levenshtein_distance(source, target):
-        """Custom Levenshtein distance calculation"""
-        distance_matrix = np.zeros((len(source) + 1, len(target) + 1), int)
-        distance_matrix[0, :] = np.arange(len(target) + 1)
-        distance_matrix[:, 0] = np.arange(len(source) + 1)
-        for i, j in product(range(1, len(source)+1), range(1, len(target)+1)):
-            substitution_cost = 0 if source[i-1] == target[j-1] else 1
-            distance_matrix[i, j] = min(
-                distance_matrix[i-1, j] + 1,
-                distance_matrix[i, j-1] + 1,
-                distance_matrix[i-1, j-1] + substitution_cost
-            )
-        return int(distance_matrix[len(source), len(target)])
+    print('using slow algorithms')
+    from aars_algorithms_slow import levenshtein_distance_py as levenshtein_distance
+    from aars_algorithms_slow import align_py as align
 
 
 AARS_XML = 'AARS.xml'
@@ -41,8 +28,48 @@ def final_sequences():
     tree = ET.parse(AARS_XML)
     root = tree.getroot()
     data = root[0]
-    return {s.attrib['taxon']: s.attrib['value']
-            for s in data if s.tag == 'sequence'}
+    return {
+        s.attrib['taxon']: s.attrib['value']
+        for s in data if s.tag == 'sequence'
+        and '1f7u' not in s.attrib['taxon']
+        and '1iq0' not in s.attrib['taxon']
+        and '2zue' not in s.attrib['taxon']
+        and '3fnr' not in s.attrib['taxon']
+        and '1li5' not in s.attrib['taxon']
+        and '1i6m' not in s.attrib['taxon']
+        and '1r6u' not in s.attrib['taxon']
+        and '2ip1' not in s.attrib['taxon']
+        and '2dlc' not in s.attrib['taxon']
+        and '1x54a' not in s.attrib['taxon']
+        and '3m4p' not in s.attrib['taxon']
+        and '3i7f' not in s.attrib['taxon']
+        and '2zt5' not in s.attrib['taxon']
+        and '3hri' not in s.attrib['taxon']
+        and '3lc0' not in s.attrib['taxon']
+        and '3bju' not in s.attrib['taxon']
+        and '3l4g' not in s.attrib['taxon']
+        and '1wleb' not in s.attrib['taxon']
+        and 'd1e1oa' not in s.attrib['taxon']
+        and 'd1sera' not in s.attrib['taxon']
+        and '3hxv' not in s.attrib['taxon']
+        and '2zp1' not in s.attrib['taxon']
+        and '1wq4' not in s.attrib['taxon']
+        and '2o5r' not in s.attrib['taxon']
+        and '1qtq' not in s.attrib['taxon']
+        and '1nzj' not in s.attrib['taxon']
+        and '2cfo' not in s.attrib['taxon']
+        and '1rqg' not in s.attrib['taxon']
+        and '2cya' not in s.attrib['taxon']
+        and 'd1asza' not in s.attrib['taxon']
+        and '1wydb' not in s.attrib['taxon']
+        and 'd1b8aa' not in s.attrib['taxon']
+        and '3g1z' not in s.attrib['taxon']
+        and '2rhq' not in s.attrib['taxon']
+        and '2i4la' not in s.attrib['taxon']
+        and '2j3mb' not in s.attrib['taxon']
+        and '2cjab' not in s.attrib['taxon']
+        and '3a32' not in s.attrib['taxon']
+    }
 
 
 def all_sequences():
@@ -115,35 +142,37 @@ def make_no_gaps_to_gaps_file():
         if species == 'R_rosetta':
             species = 'S_rosetta'
         path, path_cost = predict_path(domain, species, aa)
-        aa_paths = predict_amino_path(path, aa)
+        aa_paths = [p for p in predict_amino_path(path, aa)
+                    if "CUT" not in p and "TEST" not in p]
+
+        # TODO What is this file?
+        # Archaeans_Bacteria_Eukaryotes/Bacteria/Chroococcidiopsis thermalis/amino acid sequences/Cthermalis_asn_asp_aa
+        # Need to fix and remove exception code.
+        aa_paths = [p for p in aa_paths if 'Cthermalis_asn_asp_aa' not in p]
+        ###############################################################################################################
+
+        if len(aa_paths) > 1:
+            raise RuntimeError('Too many paths found!\n{}'.format(aa_paths))
+        try:
+            aa_path = aa_paths[0]
+        except IndexError:
+            aa_path = None
         nuc_paths = predict_nucleotide_path(path, aa)
-        aa_data = [read_path_data(p) for p in aa_paths]
-        aa_align = [align(gaps[gaps_key], d) for d in aa_data]
-        aa_visual = [''.join([c1.lower() if c2 == '-' else c1
-                              for c1, c2 in zip(dat, ali)])
-                     for dat, ali in zip(aa_data, aa_align)]
-        aa_misalignments = [sum([1 if c2 not in '-.' and c1 != c2 else 0
-                                 for c1, c2 in zip(d, a)])
-                            for d, a in zip(aa_data, aa_align)]
-        nuc_data = [read_path_data(p) for p in nuc_paths]
-        nuc_trans = []
-        for nu in nuc_data:
-            try:
-                aa_idx = [len(a)*3 for a in aa_data].index(len(nu))
-            except ValueError:
-                nuc_trans.append(translate(nu + ('N' * (3 - len(nu) % 3))))
-            else:
-                nuc_trans.append(aa_data[aa_idx])
-        nuc_trans_align = [align(gaps[gaps_key], d) for d in nuc_trans]
-        nuc_misalignments = [sum([1 if c2 not in '-.*' and c1 != c2 else 0
-                                  for c1, c2 in zip(d, a)])
-                             for d, a in zip(nuc_trans, nuc_trans_align)]
-        nuc_align = [''.join(['---' if a[i] in '-.' else n[i*3:(i+1)*3]
-                              for i in range(len(a))])
-                     for a, n in zip(nuc_trans_align, nuc_data)]
-        nuc_visual = [''.join([n[i*3:(i+1)*3].lower() if a[i] in '-.' else n[i*3:(i+1)*3]
-                               for i in range(len(a))])
-                      for a, n in zip(nuc_trans_align, nuc_data)]
+        if len(aa_paths) > 1:
+            raise RuntimeError('Too many paths found!\n{}'.format(nuc_paths))
+        try:
+            nuc_path = nuc_paths[0]
+        except IndexError:
+            nuc_path = None
+        aa_data = read_path_data(aa_path)
+        if aa_data:
+            aa_align = align(gaps[gaps_key], aa_data)
+            aa_misalignments = sum([1 if c2 not in '-.*?' and c1 not in '*?' and c1 != c2 else 0
+                                    for c1, c2 in zip(aa_data, aa_align)])
+        else:
+            aa_align = None
+            aa_misalignments = None
+        nuc_data = read_path_data(nuc_path)
         data[no_gaps_key] = {
             'no-gaps-key': no_gaps_key,
             'domain': domain,
@@ -155,18 +184,12 @@ def make_no_gaps_to_gaps_file():
             'gaps-sequence-uncertainty': distance / len(no_gaps[no_gaps_key]),
             'base-path': path,
             'path-uncertainty': path_cost / len(species),
-            'amino-acid-paths': aa_paths,
-            'nucleotide-paths': nuc_paths,
+            'amino-acid-path': aa_path,
+            'nucleotide-path': nuc_path,
             'amino-acid-data': aa_data,
             'amino-acid-aligned-gaps': aa_align,
-            'amino-acid-visual-alignment': aa_visual,
             'amino-acid-misalignments': aa_misalignments,
-            'nucleotide-data': nuc_data,
-            'nucleotide-translation': nuc_trans,
-            'nucleotide-trans-align': nuc_trans_align,
-            'nucleotide-trans-misalignments': nuc_misalignments,
-            'nucleotide-aligned-gaps': nuc_align,
-            'nucleotide-visual-alignment': nuc_visual
+            'nucleotide-data': nuc_data
         }
     with open('gap_data.json', 'w') as f:
         json.dump(data, f, indent=2)
@@ -174,7 +197,7 @@ def make_no_gaps_to_gaps_file():
 
 
 def output_split_files():
-    """Output 2 files with summaries of aligned and unaligned"""
+    """Output files with summaries of aligned and unaligned"""
     with open('gap_data.json') as f:
         d = json.load(f)
     perfect = {}  # aligned nucleotide
@@ -190,74 +213,115 @@ def output_split_files():
         'missing data': 0
     }
     for k, v in d.items():
-        mis = v['nucleotide-trans-misalignments']
-        mis_alt = v['amino-acid-misalignments']
-        if not mis:
+        if not v['amino-acid-path'] and not v['nucleotide-path']:
             counts['missing data'] += 1
             missing_data[k] = {
                 'name': k,
-                'regions': v['gaps-value'],
-                'best-file': "Missing nucleotide sequence file"
+                'comment': "Missing amino acid and nucleotide sequence file"
             }
             continue
-        if not mis_alt:
+        if not v['nucleotide-path']:
             counts['missing data'] += 1
             missing_data[k] = {
                 'name': k,
-                'regions': v['gaps-value'],
-                'best-file': "Missing amino acid sequence file"
+                'comment': "Missing nucleotide sequence file"
             }
             continue
-        try:
-            idx = mis.index(0)
-            counts['perfectly aligned to nucleotide'] += 1
-            perfect[k] = {
+        if not v['amino-acid-path']:
+            counts['missing data'] += 1
+            missing_data[k] = {
                 'name': k,
-                'regions': v['gaps-value'],
-                'best-file': v['nucleotide-paths'][idx],
-                'aa-num': ''.join(['{0:^3d}'.format(n) for n in range(len(v['nucleotide-translation'][idx]))]),
-                'aa-seq': ' ' + '  '.join(list(v['nucleotide-translation'][idx])) + ' ',
-                'aa-ali': ' ' + '  '.join(list(v['nucleotide-trans-align'][idx])) + ' ',
-                'nuc-al': v['nucleotide-aligned-gaps'][idx]
+                'comment': "Missing amino acid sequence file"
             }
-        except ValueError:
-            m = min(mis_alt)
-            idx = mis_alt.index(m)
-            if m == 0:
-                counts['perfectly aligned to amino acids'] += 1
-                good[k] = {
+            continue
+        misalignment = v['amino-acid-misalignments']
+        if misalignment == 0:
+            estimated_nuc_len = len(v['amino-acid-data']) * 3
+            actual_nuc_len = len(v['nucleotide-data'])
+            if estimated_nuc_len == actual_nuc_len:
+                counts['perfectly aligned to nucleotide'] += 1
+                nuc_align = ''.join(['---' if v['amino-acid-aligned-gaps'][i] in '-.'
+                                     else v['nucleotide-data'][i*3:(i+1)*3]
+                                     for i in range(len(v['amino-acid-aligned-gaps']))])
+                perfect[k] = {
                     'name': k,
                     'regions': v['gaps-value'],
-                    'best-file': v['amino-acid-paths'][idx],
-                    'aa-seq': v['amino-acid-data'][idx],
-                    'aa-ali': v['amino-acid-aligned-gaps'][idx]
+                    'amino-acid-file': v['amino-acid-path'],
+                    'nucleotide-file': v['nucleotide-path'],
+                    'aa-num': ''.join(['{0:^3d}'.format(n) for n in range(len(v['amino-acid-data']))]),
+                    'aa-seq': ' ' + '  '.join(list(v['amino-acid-data'])) + ' ',
+                    'aa-ali': ' ' + '  '.join(list(v['amino-acid-aligned-gaps'])) + ' ',
+                    'nuc-al': nuc_align
                 }
-            elif m < 10:
-                counts['misaligned to amino acids'] += 1
-                bad[k] = {
+                continue
+
+            # TODO Why are some of these off by 3?
+            elif actual_nuc_len - estimated_nuc_len == 3:
+                counts['perfectly aligned to nucleotide'] += 1
+                nuc_align = ''.join(['---' if v['amino-acid-aligned-gaps'][i] in '-.'
+                                     else v['nucleotide-data'][i*3:(i+1)*3]
+                                     for i in range(len(v['amino-acid-aligned-gaps']))])
+                perfect[k] = {
                     'name': k,
-                    'misalignments': m,
                     'regions': v['gaps-value'],
-                    'best-file': v['amino-acid-paths'][idx],
-                    'aa-seq': v['amino-acid-data'][idx],
-                    'aa-ali': v['amino-acid-aligned-gaps'][idx],
-                    'misali': ''.join([' ' if c1 == c2 or c2 in '-.' else '^'
-                                       for c1, c2 in zip(v['amino-acid-data'][idx],
-                                                         v['amino-acid-aligned-gaps'][idx])])
+                    'amino-acid-file': v['amino-acid-path'],
+                    'nucleotide-file': v['nucleotide-path'],
+                    'aa-num': ''.join(['{0:^3d}'.format(n) for n in range(len(v['amino-acid-data']))]),
+                    'aa-seq': ' ' + '  '.join(list(v['amino-acid-data'])) + ' ',
+                    'aa-ali': ' ' + '  '.join(list(v['amino-acid-aligned-gaps'])) + ' ',
+                    'nuc-al': nuc_align
                 }
+                continue
+            ######################################################################################################
+
+            elif estimated_nuc_len < actual_nuc_len:
+                too_long = actual_nuc_len - estimated_nuc_len
+                comment = 'nucleotide data is {} characters too long'.format(
+                    too_long)
             else:
-                counts['very misaligned to amino acids'] += 1
-                really_bad[k] = {
-                    'name': k,
-                    'misalignments': m,
-                    'regions': v['gaps-value'],
-                    'best-file': v['amino-acid-paths'][idx],
-                    'aa-seq': v['amino-acid-data'][idx],
-                    'aa-ali': v['amino-acid-aligned-gaps'][idx],
-                    'misali': ''.join([' ' if c1 == c2 or c2 in '-.' else '^'
-                                       for c1, c2 in zip(v['amino-acid-data'][idx],
-                                                         v['amino-acid-aligned-gaps'][idx])])
-                }
+                too_short = estimated_nuc_len - actual_nuc_len
+                comment = 'nucleotide data is {} characters too short'.format(
+                    too_short)
+            counts['perfectly aligned to amino acids'] += 1
+            good[k] = {
+                'name': k,
+                'regions': v['gaps-value'],
+                'amino-acid-file': v['amino-acid-path'],
+                'nucleotide-file': v['nucleotide-path'],
+                'aa-seq': v['amino-acid-data'],
+                'aa-ali': v['amino-acid-aligned-gaps'],
+                'comment': comment
+            }
+            continue
+        elif misalignment < 10:
+            counts['misaligned to amino acids'] += 1
+            bad[k] = {
+                'name': k,
+                'misalignments': misalignment,
+                'regions': v['gaps-value'],
+                'amino-acid-file': v['amino-acid-path'],
+                'nucleotide-file': v['nucleotide-path'],
+                'aa-seq': v['amino-acid-data'],
+                'aa-ali': v['amino-acid-aligned-gaps'],
+                'misali': ''.join([' ' if c1 == c2 or c1 in '*?' or c2 in '-.*?' else '^'
+                                   for c1, c2 in zip(v['amino-acid-data'],
+                                                     v['amino-acid-aligned-gaps'])])
+            }
+            continue
+        else:
+            counts['very misaligned to amino acids'] += 1
+            really_bad[k] = {
+                'name': k,
+                'misalignments': misalignment,
+                'regions': v['gaps-value'],
+                'amino-acid-file': v['amino-acid-path'],
+                'nucleotide-file': v['nucleotide-path'],
+                'aa-seq': v['amino-acid-data'],
+                'aa-ali': v['amino-acid-aligned-gaps'],
+                'misali': ''.join([' ' if c1 == c2 or c2 in '-.' else '^'
+                                   for c1, c2 in zip(v['amino-acid-data'],
+                                                     v['amino-acid-aligned-gaps'])])
+            }
     for k, v in counts.items():
         print('{}: {}'.format(k, v))
     with open('gap_data_perfect.txt', 'w') as p:
@@ -274,50 +338,20 @@ def output_split_files():
 
 def predict_amino_path(path, aa):
     """Try to find the amino acid sequence file"""
-    if path[-3:] == "ile" and aa == 'ile':  # M_mobile ends in 'ile' but may not be aa 'ile'
+    if path[-3:] == "ile" and aa == 'ile':  # M_mobile ends in 'ile' but may not be aaRS 'ile'
         return predict_amino_path(path, '_ile')
-    if "Pyrococcus horikoshii" in path and 'asn' in aa:
-        print('Missing amino acid sequence for Pyrococcus horikoshii asn')
-        return []
-    if "Homo sapiens" in path and 'phe' in aa:
-        print('Missing amino acid sequences for Homo sapiens phe')
-        return []
-    if 'Musca domestica' in path and aa == 'phe':  # This one has missing resources
-        try:  # try using the ALPHA and BETA instead
-            paths = (predict_amino_path(path, 'pheALPHA') +
-                     predict_amino_path(path, 'pheBETA'))
-        except RuntimeError:
-            try:
-                # phe sometimes has pheALPHA but not pheBETA
-                paths = predict_amino_path(path, 'pheALPHA')
-            except RuntimeError:
-                # phe sometimes has pheBETA but not pheALPHA
-                paths = predict_amino_path(path, 'pheBETA')
-        return paths
     paths = glob.glob(path + '/amino*/*{}_*'.format(aa))
     if not paths:
         paths = glob.glob(path + '/**/*{}_aa*'.format(aa), recursive=True)
     if not paths:
         if aa == 'glu':  # glu is sometimes listed as gluPro
             return predict_amino_path(path, 'gluPro')
-        if aa == 'leu':  # leu is sometimes listed as leuALPHA and leuBETA
-            return (predict_amino_path(path, 'leuALPHA') +
-                    predict_amino_path(path, 'leuBETA'))
-        if aa == 'met':  # met is sometimes listed as leuALPHA and leuBETA
-            return (predict_amino_path(path, 'metALPHA') +
-                    predict_amino_path(path, 'metBETA'))
-        if aa == 'phe':  # phe is sometimes listed as pheALPHA and pheBETA
-            try:
-                paths = (predict_amino_path(path, 'pheALPHA') +
-                         predict_amino_path(path, 'pheBETA'))
-            except RuntimeError:
-                try:
-                    # phe sometimes has pheALPHA but not pheBETA
-                    paths = predict_amino_path(path, 'pheALPHA')
-                except RuntimeError:
-                    # phe sometimes has pheBETA but not pheALPHA
-                    paths = predict_amino_path(path, 'pheBETA')
-            return paths
+        if aa == 'leu':  # leu is sometimes listed as leuALPHA
+            return predict_amino_path(path, 'leuALPHA')
+        if aa == 'met':  # met is sometimes listed as metALPHA
+            return predict_amino_path(path, 'metALPHA')
+        if aa == 'phe':  # phe is sometimes listed as pheALPHA
+            return predict_amino_path(path, 'pheALPHA')
         if aa == 'tyr':  # tyr is sometimes listed as Tyr
             return predict_amino_path(path, 'Tyr')
         if aa == 'val':  # val is sometimes listed as Val or val1
@@ -325,69 +359,25 @@ def predict_amino_path(path, aa):
                 paths = predict_amino_path(path, 'Val')
             except RuntimeError:
                 paths = predict_amino_path(path, 'val1')
-            return paths
-
-    if not paths:
-        raise RuntimeError('Could not find amino acid path for {} ({})'.format(
-            os.path.basename(path), aa))
     return paths
 
 
 def predict_nucleotide_path(path, aa):
     """Try to find the nucleotide sequence file"""
-    if path[-3:] == "ile" and aa == 'ile':  # M_modile ends in 'ile' but may not be aa 'ile'
+    if path[-3:] == "ile" and aa == 'ile':  # M_modile ends in 'ile' but may not be aaRS 'ile'
         return predict_nucleotide_path(path, '_ile')
-    if 'Methanopyrus kandleri' in path and aa == 'arg':
-        print('Corrupt nucleotide sequence for Methanopyrus kandleri arg')
-        return []
-    if 'Crassostrea gigas' in path and aa == 'ala':
-        print('Missing nucleotide sequence for Crassostrea gigas ala')
-        return []
-    if 'Halobacterium sp.' in path and aa == 'gly':
-        print('Corrupt nucleotide sequence for Halobacterium sp. gly')
-        return []
-    if 'Phycisphaera mikurensis' in path and aa == 'lys':
-        print('Missing nucleotide sequence for Phycisphaera mikurensis lys')
-        return []
-    if "Bos taurus" in path and aa == 'leu':
-        print('Missing nucleotide sequence for Bos taurus leu')
-        return []
-    if "Pyrococcus horikoshii" in path and aa == 'asn':
-        print('Missing nucleotide sequence for Pyrococcus horikoshii asn')
-        return []
-    if "Giardia lamblia" in path and aa == 'asn':
-        print('Missing nucleotide sequence for Giardia lamblia asn')
-        return []
-    if "Homo sapiens" in path and aa == 'phe':
-        print('Missing nucleotide sequence for Homo sapiens phe')
-        return []
     paths = glob.glob(path + '/nuc*/*{}_*'.format(aa))
     if not paths:
         paths = glob.glob(path + '/**/*{}_nuc*'.format(aa), recursive=True)
     if not paths:
         if aa == 'glu':  # glu is sometimes listed as gluPro
             return predict_nucleotide_path(path, 'gluPro')
-        if aa == 'leu':  # leu is sometimes listed as leuALPHA and leuBETA
-            return (predict_nucleotide_path(path, 'leuALPHA') +
-                    predict_nucleotide_path(path, 'leuBETA'))
-        if aa == 'met':  # met is sometimes listed as leuALPHA and leuBETA
-            return (predict_nucleotide_path(path, 'metALPHA') +
-                    predict_nucleotide_path(path, 'metBETA'))
-        if aa == 'phe':  # phe is sometimes listed as pheALPHA and pheBETA
-            try:
-                paths = (predict_nucleotide_path(path, 'pheALPHA') +
-                         predict_nucleotide_path(path, 'pheBETA'))
-            except RuntimeError:
-                try:
-                    # phe sometimes has pheALPHA but not pheBETA
-                    paths = predict_nucleotide_path(path, 'pheALPHA')
-                except RuntimeError:
-                    # phe sometimes has pheBETA but not pheALPHA
-                    paths = predict_nucleotide_path(path, 'pheBETA')
-            return paths
-    if not paths:
-        raise RuntimeError('Could not find nucleotide path for {} ({})'.format(
-            os.path.basename(path), aa))
+        if aa == 'leu':  # leu is sometimes listed as leuALPHA
+            return predict_nucleotide_path(path, 'leuALPHA')
+        if aa == 'met':  # met is sometimes listed as metALPHA
+            return predict_nucleotide_path(path, 'metALPHA')
+        if aa == 'phe':  # phe is sometimes listed as pheALPHA
+            return predict_nucleotide_path(path, 'pheALPHA')
     return paths
 
 
@@ -424,6 +414,8 @@ def construct_species(name):
 
 def read_path_data(path):
     """read the data from the path location"""
+    if path == None:
+        return None
     dat = ""
     with open(path) as path_p:
         for next_dat in path_p:
@@ -431,64 +423,6 @@ def read_path_data(path):
                 continue
             dat += next_dat.strip()
     return dat
-
-
-def align(gapped_seq, full_seq):
-    """align a gapped sequence to the full sequence"""
-    reg = list(gapped_seq.strip('-') + '-')
-    seq = list(full_seq)
-    gaps = sum([1 if c == '-' else 0 for c in reg])
-    matrix_side_1 = len(reg) - gaps + 1
-    matrix_side_2 = (len(seq) - (len(reg) - gaps)) + 2
-    shape = (matrix_side_1, matrix_side_2)
-    costs = np.zeros(shape)
-    path = np.zeros_like(costs, dtype=np.int8)
-    for i in range(costs.shape[0]):
-        costs[i, 0] = np.inf
-        path[i, 0] = 0  # invalid
-    for j in range(costs.shape[1] - 1):
-        costs[0, j + 1] = j
-        path[0, j + 1] = 2  # take '-' gap
-    i = 0
-    for x in range(1, costs.shape[0]):
-        c1 = reg[i]
-        j = 0
-        for y in range(1, costs.shape[1]):
-            c2 = seq[j + x - 1]
-            gaps_cost = (1 if reg[i + 1] == '-' else
-                         10 if path[x, y - 1] != 1 else
-                         100
-                         )
-            take_gap = gaps_cost + costs[x, y - 1]
-            take_char = 0 if c1 == c2 else 10000
-            take_char += costs[x - 1, y]
-            if take_char <= take_gap:
-                costs[x, y] = take_char
-                path[x, y] = 1  # take part
-            else:
-                costs[x, y] = take_gap
-                path[x, y] = 2 if gaps_cost == 1 else 3  # take '-' or '.'
-            j += 1
-        i += 1
-        while i < len(reg) and reg[i] == '-':
-            i += 1
-
-    x, y = path.shape
-    x -= 1
-    y -= 1
-    alignment = []
-    reg = [c for c in reg if c != '-']
-    while x > 0 or y > 1:
-        if path[x, y] == 1:  # take part
-            alignment.append(reg.pop())
-            x -= 1
-        elif path[x, y] == 2:  # take '-' gap
-            alignment.append('-')
-            y -= 1
-        else:  # take gap '.' gap
-            alignment.append('.')
-            y -= 1
-    return ''.join(reversed(alignment))
 
 
 if __name__ == "__main__":
