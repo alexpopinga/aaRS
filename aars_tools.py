@@ -6,6 +6,9 @@ import os.path
 import glob
 import json
 import xml.etree.ElementTree as ET
+from urllib.parse import urlencode
+from urllib.request import urlopen
+
 
 try:
     from aars_algorithms_fast import levenshtein_distance_c as levenshtein_distance
@@ -133,7 +136,9 @@ def make_no_gaps_to_gaps_file():
     no_gaps = final_sequences()
     gaps = all_sequences()
     data = {}
+    total = len(no_gaps)
     for i, no_gaps_key in enumerate(no_gaps.keys()):
+        print('({:d}/{:d}) Aligning {}'.format(i+1, total, no_gaps_key))
         gaps_key, distance = find_match(
             no_gaps_key, no_gaps=no_gaps, gaps=gaps)
         domain, species, aa = parse_no_gaps_keys(no_gaps_key)
@@ -164,7 +169,7 @@ def make_no_gaps_to_gaps_file():
             nuc_path = nuc_paths[0]
         except IndexError:
             nuc_path = None
-        aa_data = read_path_data(aa_path)
+        aa_header, backup_id, aa_data = read_path_data(aa_path)
         if aa_data:
             aa_align = align(gaps[gaps_key], aa_data)
             aa_misalignments = sum([1 if c2 not in '-.*?' and c1 not in '*?' and c1 != c2 else 0
@@ -172,8 +177,11 @@ def make_no_gaps_to_gaps_file():
         else:
             aa_align = None
             aa_misalignments = None
-        nuc_data = read_path_data(nuc_path)
+        nuc_header, nuc_id, nuc_data = read_path_data(nuc_path)
         data[no_gaps_key] = {
+            'gi': nuc_id if nuc_id else backup_id,
+            'nuc_header': nuc_header,
+            'aa-header': aa_header,
             'no-gaps-key': no_gaps_key,
             'domain': domain,
             'species': species,
@@ -201,18 +209,20 @@ def output_split_files():
     with open('gap_data.json') as f:
         d = json.load(f)
     perfect = {}  # aligned nucleotide
+    genbank = {}  # aligned to GenBank data
     good = {}  # aligned amino acids
     bad = {}  # some misaligned amino acids
-    really_bad = {}  # very badly aligned
     missing_data = {}  # missing data
     counts = {
-        'perfectly aligned to nucleotide': 0,
-        'perfectly aligned to amino acids': 0,
+        'perfectly aligned to our nucleotide data': 0,
+        'perfectly aligned to GenBank nucleotide data': 0,
+        'aligned to amino acids only': 0,
         'misaligned to amino acids': 0,
-        'very misaligned to amino acids': 0,
         'missing data': 0
     }
-    for k, v in d.items():
+    total = len(d)
+    for current, (k, v) in enumerate(d.items()):
+        print('({:d}/{:d}) Checking {}'.format(current+1, total, k))
         if not v['amino-acid-path'] and not v['nucleotide-path']:
             counts['missing data'] += 1
             missing_data[k] = {
@@ -235,46 +245,53 @@ def output_split_files():
             }
             continue
         misalignment = v['amino-acid-misalignments']
+        estimated_nuc_len = len(v['amino-acid-data']) * 3
+        actual_nuc_len = len(v['nucleotide-data'])
+        if misalignment == 0 and (estimated_nuc_len == actual_nuc_len or actual_nuc_len - estimated_nuc_len == 3):
+            # From Peter Wills - 10 Oct 2018
+            # "Many of these aaRS sequences are of the “catalytic domain” and some have
+            # other domains attached to them, so you may have the first codon of the
+            # following domain."
+            #
+            # Given this, if the nucleotide sequences has one extra codon, we ignore it.
+            counts['perfectly aligned to our nucleotide data'] += 1
+            nuc_align = ''.join(['---' if v['amino-acid-aligned-gaps'][i] in '-.'
+                                 else v['nucleotide-data'][i*3:(i+1)*3]
+                                 for i in range(len(v['amino-acid-aligned-gaps']))])
+            perfect[k] = {
+                'name': k,
+                'regions': v['gaps-value'],
+                'amino-acid-file': v['amino-acid-path'],
+                'nucleotide-file': v['nucleotide-path'],
+                'aa-num': ''.join(['{0:^3d}'.format(n) for n in range(len(v['amino-acid-data']))]),
+                'aa-seq': ' ' + '  '.join(list(v['amino-acid-data'])) + ' ',
+                'aa-ali': ' ' + '  '.join(list(v['amino-acid-aligned-gaps'])) + ' ',
+                'nuc-al': nuc_align
+            }
+            continue
+        # see if GenBank can do better
+        check, gb_aa, gb_nuc = check_genbank(v['gi'])
+        if check:
+            aa_align = align(v['gaps-value'], gb_aa)
+            aa_misalignments = sum([1 if c2 not in '-.*?' and c1 not in '*?' and c1 != c2 else 0
+                                    for c1, c2 in zip(gb_aa, aa_align)])
+            if aa_misalignments == 0:
+                counts['perfectly aligned to GenBank nucleotide data'] += 1
+                nuc_align = ''.join(['---' if v['amino-acid-aligned-gaps'][i] in '-.'
+                                     else v['nucleotide-data'][i*3:(i+1)*3]
+                                     for i in range(len(v['amino-acid-aligned-gaps']))])
+                genbank[k] = {
+                    'name': k,
+                    'regions': v['gaps-value'],
+                    'amino-acid-file': 'GenBank ' + v['gi'],
+                    'nucleotide-file': 'GenBank ' + v['gi'],
+                    'aa-num': ''.join(['{0:^3d}'.format(n) for n in range(len(gb_aa))]),
+                    'aa-seq': ' ' + '  '.join(list(gb_aa)) + ' ',
+                    'aa-ali': ' ' + '  '.join(list(aa_align)) + ' ',
+                    'nuc-al': gb_nuc
+                }
+                continue
         if misalignment == 0:
-            estimated_nuc_len = len(v['amino-acid-data']) * 3
-            actual_nuc_len = len(v['nucleotide-data'])
-            if estimated_nuc_len == actual_nuc_len:
-                counts['perfectly aligned to nucleotide'] += 1
-                nuc_align = ''.join(['---' if v['amino-acid-aligned-gaps'][i] in '-.'
-                                     else v['nucleotide-data'][i*3:(i+1)*3]
-                                     for i in range(len(v['amino-acid-aligned-gaps']))])
-                perfect[k] = {
-                    'name': k,
-                    'regions': v['gaps-value'],
-                    'amino-acid-file': v['amino-acid-path'],
-                    'nucleotide-file': v['nucleotide-path'],
-                    'aa-num': ''.join(['{0:^3d}'.format(n) for n in range(len(v['amino-acid-data']))]),
-                    'aa-seq': ' ' + '  '.join(list(v['amino-acid-data'])) + ' ',
-                    'aa-ali': ' ' + '  '.join(list(v['amino-acid-aligned-gaps'])) + ' ',
-                    'nuc-al': nuc_align
-                }
-                continue
-
-            if actual_nuc_len - estimated_nuc_len == 3:
-                # From Peter Wills - 10 Oct 2018
-                # "Many of these aaRS sequences are of the “catalytic domain” and some have
-                # other domains attached to them, so you may have the first codon of the
-                # following domain."
-                counts['perfectly aligned to nucleotide'] += 1
-                nuc_align = ''.join(['---' if v['amino-acid-aligned-gaps'][i] in '-.'
-                                     else v['nucleotide-data'][i*3:(i+1)*3]
-                                     for i in range(len(v['amino-acid-aligned-gaps']))])
-                perfect[k] = {
-                    'name': k,
-                    'regions': v['gaps-value'],
-                    'amino-acid-file': v['amino-acid-path'],
-                    'nucleotide-file': v['nucleotide-path'],
-                    'aa-num': ''.join(['{0:^3d}'.format(n) for n in range(len(v['amino-acid-data']))]),
-                    'aa-seq': ' ' + '  '.join(list(v['amino-acid-data'])) + ' ',
-                    'aa-ali': ' ' + '  '.join(list(v['amino-acid-aligned-gaps'])) + ' ',
-                    'nuc-al': nuc_align
-                }
-                continue
             if estimated_nuc_len < actual_nuc_len:
                 too_long = actual_nuc_len - estimated_nuc_len
                 comment = 'nucleotide data is {} characters too long'.format(
@@ -283,9 +300,10 @@ def output_split_files():
                 too_short = estimated_nuc_len - actual_nuc_len
                 comment = 'nucleotide data is {} characters too short'.format(
                     too_short)
-            counts['perfectly aligned to amino acids'] += 1
+            counts['aligned to amino acids only'] += 1
             good[k] = {
                 'name': k,
+                'genbank-id': v['gi'],
                 'regions': v['gaps-value'],
                 'amino-acid-file': v['amino-acid-path'],
                 'nucleotide-file': v['nucleotide-path'],
@@ -294,23 +312,8 @@ def output_split_files():
                 'comment': comment
             }
             continue
-        if misalignment < 10:
-            counts['misaligned to amino acids'] += 1
-            bad[k] = {
-                'name': k,
-                'misalignments': misalignment,
-                'regions': v['gaps-value'],
-                'amino-acid-file': v['amino-acid-path'],
-                'nucleotide-file': v['nucleotide-path'],
-                'aa-seq': v['amino-acid-data'],
-                'aa-ali': v['amino-acid-aligned-gaps'],
-                'misali': ''.join([' ' if c1 == c2 or c1 in '*?' or c2 in '-.*?' else '^'
-                                   for c1, c2 in zip(v['amino-acid-data'],
-                                                     v['amino-acid-aligned-gaps'])])
-            }
-            continue
-        counts['very misaligned to amino acids'] += 1
-        really_bad[k] = {
+        counts['misaligned to amino acids'] += 1
+        bad[k] = {
             'name': k,
             'misalignments': misalignment,
             'regions': v['gaps-value'],
@@ -318,7 +321,7 @@ def output_split_files():
             'nucleotide-file': v['nucleotide-path'],
             'aa-seq': v['amino-acid-data'],
             'aa-ali': v['amino-acid-aligned-gaps'],
-            'misali': ''.join([' ' if c1 == c2 or c2 in '-.' else '^'
+            'misali': ''.join([' ' if c1 == c2 or c1 in '*?' or c2 in '-.*?' else '^'
                                for c1, c2 in zip(v['amino-acid-data'],
                                                  v['amino-acid-aligned-gaps'])])
         }
@@ -326,12 +329,12 @@ def output_split_files():
         print('{}: {}'.format(k, v))
     with open('gap_data_perfect.txt', 'w') as p:
         json.dump(perfect, p, indent=2)
+    with open('gap_data_genbank.txt', 'w') as gb:
+        json.dump(genbank, gb, indent=2)
     with open('gap_data_good.txt', 'w') as g:
         json.dump(good, g, indent=2)
     with open('gap_data_bad.txt', 'w') as b:
         json.dump(bad, b, indent=2)
-    with open('gap_data_really_bad.txt', 'w') as rb:
-        json.dump(really_bad, rb, indent=2)
     with open('gap_data_missing.txt', 'w') as m:
         json.dump(missing_data, m, indent=2)
 
@@ -415,13 +418,81 @@ def construct_species(name):
 def read_path_data(path):
     """read the data from the path location"""
     if path == None:
-        return None
-    dat = ""
+        return None, None, None
+    dat = ''
+    header = None
+    gi = None
     with open(path) as path_p:
         for next_dat in path_p:
             if next_dat[0] == '>':
+                header = next_dat.strip()
+                if next_dat[0:4] == '>gi|':
+                    try:
+                        gi = next_dat[4:].split('|')[0].split()[0]
+                    except IndexError:
+                        gi = None
+                else:
+                    gi = None
                 continue
             dat += next_dat.strip()
+    return header, gi, dat
+
+
+def check_genbank(gi):
+    """check if genbank data could be used"""
+    nuc_data = get_genbank_nuc(gi)
+    aa_data = get_genbank_aa(gi)
+    nuc_len = len(nuc_data)
+    aa_len = 3 * len(aa_data)
+    if nuc_len > 6 and (aa_len == nuc_len or aa_len == nuc_len - 3):
+        return True, aa_data, nuc_data
+    return False, aa_data, nuc_data
+
+
+def get_genbank_aa(gi):
+    """get aa data from GenBank"""
+    return get_genbank(gi, 'aa')
+
+
+def get_genbank_nuc(gi):
+    """get aa data from GenBank"""
+    return get_genbank(gi, 'na')
+
+
+def get_genbank(gi, type_):
+    """get data from GenBank"""
+    try:
+        gi_, subseq = gi.split(':')
+        start, stop = subseq.split('-')
+        rettype = 'fasta_cds_' + type_
+        params = urlencode({
+            'db': 'nuccore',
+            'id': gi_,
+            'seq_start': start,
+            'seq_stop': stop,
+            'rettype': rettype,
+            'retmode': 'text'
+        })
+    except ValueError:
+        rettype = 'fasta_cds_' + type_
+        params = urlencode({
+            'db': 'nuccore',
+            'id': gi,
+            'rettype': rettype,
+            'retmode': 'text'
+        })
+    url = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?' + params
+    dat = ''
+    with urlopen(url) as web:
+        for line in web.read().decode('UTF-8').splitlines():
+            if line and line[0] == '>':
+                continue
+            for c in line:
+                if c == '\n':
+                    continue
+                if c not in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ-*':
+                    return None
+                dat += c
     return dat
 
 
