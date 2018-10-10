@@ -496,5 +496,13 @@ def get_genbank(gi, type_):
     return dat
 
 
+def pretty_print_alignment(seq, align, width=72):
+    """pretty print the alignment"""
+    i = 0
+    while i < len(seq):
+        print('{}\n{}\n\n'.format(seq[i:i+width], align[i:i+width]))
+        i += width
+
+
 if __name__ == "__main__":
     make_no_gaps_to_gaps_file()

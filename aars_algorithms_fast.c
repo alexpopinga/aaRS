@@ -3781,7 +3781,7 @@ static PyObject *__pyx_pf_20aars_algorithms_fast_2align_c(CYTHON_UNUSED PyObject
  * @cython.wraparound(False)
  * cdef void _align_c(char* reg, int reg_len, char* seq, int seq_len, int[:, ::1] costs, char[:, ::1] path, int s1, int s2):             # <<<<<<<<<<<<<<
  *     cdef int i, j, x, y
- *     cdef int gaps_cost, take_gap, take_char
+ *     cdef int gaps_cost, char_cost, take_gap, take_char
  */
 
 static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx_v_reg_len, char *__pyx_v_seq, CYTHON_UNUSED int __pyx_v_seq_len, __Pyx_memviewslice __pyx_v_costs, __Pyx_memviewslice __pyx_v_path, int __pyx_v_s1, int __pyx_v_s2) {
@@ -3790,6 +3790,7 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
   int __pyx_v_x;
   int __pyx_v_y;
   int __pyx_v_gaps_cost;
+  int __pyx_v_char_cost;
   int __pyx_v_take_gap;
   int __pyx_v_take_char;
   char __pyx_v_c1;
@@ -3811,13 +3812,13 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
   int __pyx_t_12;
   int __pyx_t_13;
   int __pyx_t_14;
-  int __pyx_t_15;
+  Py_ssize_t __pyx_t_15;
   Py_ssize_t __pyx_t_16;
   Py_ssize_t __pyx_t_17;
   Py_ssize_t __pyx_t_18;
-  Py_ssize_t __pyx_t_19;
-  int __pyx_t_20;
-  int __pyx_t_21;
+  int __pyx_t_19;
+  Py_ssize_t __pyx_t_20;
+  Py_ssize_t __pyx_t_21;
   Py_ssize_t __pyx_t_22;
   Py_ssize_t __pyx_t_23;
   Py_ssize_t __pyx_t_24;
@@ -3826,13 +3827,12 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
   Py_ssize_t __pyx_t_27;
   Py_ssize_t __pyx_t_28;
   Py_ssize_t __pyx_t_29;
-  char __pyx_t_30;
+  Py_ssize_t __pyx_t_30;
   Py_ssize_t __pyx_t_31;
-  Py_ssize_t __pyx_t_32;
   __Pyx_RefNannySetupContext("_align_c", 0);
 
   /* "aars_algorithms_fast.pyx":84
- *     cdef int gaps_cost, take_gap, take_char
+ *     cdef int gaps_cost, char_cost, take_gap, take_char
  *     cdef char c1, c2, c_star, c_question
  *     c_star = 42  # '*'             # <<<<<<<<<<<<<<
  *     c_question = 63
@@ -3960,7 +3960,7 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
  *         j = 0
  *         for y in range(1, s2):             # <<<<<<<<<<<<<<
  *             c2 = seq[j + x - 1]
- *             gaps_cost = (1 if reg[i + 1] == '-' else
+ *             if reg[i + 1] == '-':
  */
     __pyx_t_12 = __pyx_v_s2;
     for (__pyx_t_13 = 1; __pyx_t_13 < __pyx_t_12; __pyx_t_13+=1) {
@@ -3970,178 +3970,276 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
  *         j = 0
  *         for y in range(1, s2):
  *             c2 = seq[j + x - 1]             # <<<<<<<<<<<<<<
- *             gaps_cost = (1 if reg[i + 1] == '-' else
- *                          10 if path[x, y - 1] != 1 else
+ *             if reg[i + 1] == '-':
+ *                 gaps_cost = 1
  */
       __pyx_v_c2 = (__pyx_v_seq[((__pyx_v_j + __pyx_v_x) - 1)]);
 
       /* "aars_algorithms_fast.pyx":98
  *         for y in range(1, s2):
  *             c2 = seq[j + x - 1]
- *             gaps_cost = (1 if reg[i + 1] == '-' else             # <<<<<<<<<<<<<<
- *                          10 if path[x, y - 1] != 1 else
- *                          100
+ *             if reg[i + 1] == '-':             # <<<<<<<<<<<<<<
+ *                 gaps_cost = 1
+ *             elif path[x, y - 1] != 1:
  */
-      if ((((__pyx_v_reg[(__pyx_v_i + 1)]) == '-') != 0)) {
-        __pyx_t_14 = 1;
-      } else {
+      __pyx_t_14 = (((__pyx_v_reg[(__pyx_v_i + 1)]) == '-') != 0);
+      if (__pyx_t_14) {
 
         /* "aars_algorithms_fast.pyx":99
  *             c2 = seq[j + x - 1]
- *             gaps_cost = (1 if reg[i + 1] == '-' else
- *                          10 if path[x, y - 1] != 1 else             # <<<<<<<<<<<<<<
- *                          100
- *                          )
+ *             if reg[i + 1] == '-':
+ *                 gaps_cost = 1             # <<<<<<<<<<<<<<
+ *             elif path[x, y - 1] != 1:
+ *                 gaps_cost = 10
  */
-        __pyx_t_16 = __pyx_v_x;
-        __pyx_t_17 = (__pyx_v_y - 1);
-        if ((((*((char *) ( /* dim=1 */ ((char *) (((char *) ( /* dim=0 */ (__pyx_v_path.data + __pyx_t_16 * __pyx_v_path.strides[0]) )) + __pyx_t_17)) ))) != 1) != 0)) {
-          __pyx_t_15 = 10;
-        } else {
-          __pyx_t_15 = 0x64;
-        }
-        __pyx_t_14 = __pyx_t_15;
-      }
-      __pyx_v_gaps_cost = __pyx_t_14;
+        __pyx_v_gaps_cost = 1;
 
-      /* "aars_algorithms_fast.pyx":102
- *                          100
- *                          )
- *             take_gap = gaps_cost + costs[x, y - 1]             # <<<<<<<<<<<<<<
- *             take_char = 0 if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question else 10000
- *             take_char += costs[x - 1, y]
+        /* "aars_algorithms_fast.pyx":98
+ *         for y in range(1, s2):
+ *             c2 = seq[j + x - 1]
+ *             if reg[i + 1] == '-':             # <<<<<<<<<<<<<<
+ *                 gaps_cost = 1
+ *             elif path[x, y - 1] != 1:
  */
-      __pyx_t_18 = __pyx_v_x;
-      __pyx_t_19 = (__pyx_v_y - 1);
-      __pyx_v_take_gap = (__pyx_v_gaps_cost + (*((int *) ( /* dim=1 */ ((char *) (((int *) ( /* dim=0 */ (__pyx_v_costs.data + __pyx_t_18 * __pyx_v_costs.strides[0]) )) + __pyx_t_19)) ))));
+        goto __pyx_L11;
+      }
+
+      /* "aars_algorithms_fast.pyx":100
+ *             if reg[i + 1] == '-':
+ *                 gaps_cost = 1
+ *             elif path[x, y - 1] != 1:             # <<<<<<<<<<<<<<
+ *                 gaps_cost = 10
+ *             else:
+ */
+      __pyx_t_15 = __pyx_v_x;
+      __pyx_t_16 = (__pyx_v_y - 1);
+      __pyx_t_14 = (((*((char *) ( /* dim=1 */ ((char *) (((char *) ( /* dim=0 */ (__pyx_v_path.data + __pyx_t_15 * __pyx_v_path.strides[0]) )) + __pyx_t_16)) ))) != 1) != 0);
+      if (__pyx_t_14) {
+
+        /* "aars_algorithms_fast.pyx":101
+ *                 gaps_cost = 1
+ *             elif path[x, y - 1] != 1:
+ *                 gaps_cost = 10             # <<<<<<<<<<<<<<
+ *             else:
+ *                 gaps_cost = 100
+ */
+        __pyx_v_gaps_cost = 10;
+
+        /* "aars_algorithms_fast.pyx":100
+ *             if reg[i + 1] == '-':
+ *                 gaps_cost = 1
+ *             elif path[x, y - 1] != 1:             # <<<<<<<<<<<<<<
+ *                 gaps_cost = 10
+ *             else:
+ */
+        goto __pyx_L11;
+      }
 
       /* "aars_algorithms_fast.pyx":103
- *                          )
+ *                 gaps_cost = 10
+ *             else:
+ *                 gaps_cost = 100             # <<<<<<<<<<<<<<
  *             take_gap = gaps_cost + costs[x, y - 1]
- *             take_char = 0 if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question else 10000             # <<<<<<<<<<<<<<
- *             take_char += costs[x - 1, y]
- *             if take_char <= take_gap:
+ *             if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question:
  */
-      __pyx_t_21 = ((__pyx_v_c1 == __pyx_v_c2) != 0);
-      if (!__pyx_t_21) {
-      } else {
-        __pyx_t_20 = __pyx_t_21;
-        goto __pyx_L11_bool_binop_done;
+      /*else*/ {
+        __pyx_v_gaps_cost = 0x64;
       }
-      __pyx_t_21 = ((__pyx_v_c1 == __pyx_v_c_star) != 0);
-      if (!__pyx_t_21) {
-      } else {
-        __pyx_t_20 = __pyx_t_21;
-        goto __pyx_L11_bool_binop_done;
-      }
-      __pyx_t_21 = ((__pyx_v_c1 == __pyx_v_c_question) != 0);
-      if (!__pyx_t_21) {
-      } else {
-        __pyx_t_20 = __pyx_t_21;
-        goto __pyx_L11_bool_binop_done;
-      }
-      __pyx_t_21 = ((__pyx_v_c2 == __pyx_v_c_star) != 0);
-      if (!__pyx_t_21) {
-      } else {
-        __pyx_t_20 = __pyx_t_21;
-        goto __pyx_L11_bool_binop_done;
-      }
-      __pyx_t_21 = ((__pyx_v_c_star == __pyx_v_c_question) != 0);
-      __pyx_t_20 = __pyx_t_21;
-      __pyx_L11_bool_binop_done:;
-      if (__pyx_t_20) {
-        __pyx_t_14 = 0;
-      } else {
-        __pyx_t_14 = 0x2710;
-      }
-      __pyx_v_take_char = __pyx_t_14;
+      __pyx_L11:;
 
       /* "aars_algorithms_fast.pyx":104
- *             take_gap = gaps_cost + costs[x, y - 1]
- *             take_char = 0 if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question else 10000
- *             take_char += costs[x - 1, y]             # <<<<<<<<<<<<<<
- *             if take_char <= take_gap:
- *                 costs[x, y] = take_char
+ *             else:
+ *                 gaps_cost = 100
+ *             take_gap = gaps_cost + costs[x, y - 1]             # <<<<<<<<<<<<<<
+ *             if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question:
+ *                 char_cost = 0
  */
-      __pyx_t_22 = (__pyx_v_x - 1);
-      __pyx_t_23 = __pyx_v_y;
-      __pyx_v_take_char = (__pyx_v_take_char + (*((int *) ( /* dim=1 */ ((char *) (((int *) ( /* dim=0 */ (__pyx_v_costs.data + __pyx_t_22 * __pyx_v_costs.strides[0]) )) + __pyx_t_23)) ))));
+      __pyx_t_17 = __pyx_v_x;
+      __pyx_t_18 = (__pyx_v_y - 1);
+      __pyx_v_take_gap = (__pyx_v_gaps_cost + (*((int *) ( /* dim=1 */ ((char *) (((int *) ( /* dim=0 */ (__pyx_v_costs.data + __pyx_t_17 * __pyx_v_costs.strides[0]) )) + __pyx_t_18)) ))));
 
       /* "aars_algorithms_fast.pyx":105
- *             take_char = 0 if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question else 10000
- *             take_char += costs[x - 1, y]
- *             if take_char <= take_gap:             # <<<<<<<<<<<<<<
- *                 costs[x, y] = take_char
- *                 path[x, y] = 1  # take part
+ *                 gaps_cost = 100
+ *             take_gap = gaps_cost + costs[x, y - 1]
+ *             if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question:             # <<<<<<<<<<<<<<
+ *                 char_cost = 0
+ *             else:
  */
-      __pyx_t_20 = ((__pyx_v_take_char <= __pyx_v_take_gap) != 0);
-      if (__pyx_t_20) {
+      __pyx_t_19 = ((__pyx_v_c1 == __pyx_v_c2) != 0);
+      if (!__pyx_t_19) {
+      } else {
+        __pyx_t_14 = __pyx_t_19;
+        goto __pyx_L13_bool_binop_done;
+      }
+      __pyx_t_19 = ((__pyx_v_c1 == __pyx_v_c_star) != 0);
+      if (!__pyx_t_19) {
+      } else {
+        __pyx_t_14 = __pyx_t_19;
+        goto __pyx_L13_bool_binop_done;
+      }
+      __pyx_t_19 = ((__pyx_v_c1 == __pyx_v_c_question) != 0);
+      if (!__pyx_t_19) {
+      } else {
+        __pyx_t_14 = __pyx_t_19;
+        goto __pyx_L13_bool_binop_done;
+      }
+      __pyx_t_19 = ((__pyx_v_c2 == __pyx_v_c_star) != 0);
+      if (!__pyx_t_19) {
+      } else {
+        __pyx_t_14 = __pyx_t_19;
+        goto __pyx_L13_bool_binop_done;
+      }
+      __pyx_t_19 = ((__pyx_v_c_star == __pyx_v_c_question) != 0);
+      __pyx_t_14 = __pyx_t_19;
+      __pyx_L13_bool_binop_done:;
+      if (__pyx_t_14) {
 
         /* "aars_algorithms_fast.pyx":106
- *             take_char += costs[x - 1, y]
- *             if take_char <= take_gap:
- *                 costs[x, y] = take_char             # <<<<<<<<<<<<<<
- *                 path[x, y] = 1  # take part
+ *             take_gap = gaps_cost + costs[x, y - 1]
+ *             if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question:
+ *                 char_cost = 0             # <<<<<<<<<<<<<<
  *             else:
+ *                 char_cost = 10000
+ */
+        __pyx_v_char_cost = 0;
+
+        /* "aars_algorithms_fast.pyx":105
+ *                 gaps_cost = 100
+ *             take_gap = gaps_cost + costs[x, y - 1]
+ *             if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question:             # <<<<<<<<<<<<<<
+ *                 char_cost = 0
+ *             else:
+ */
+        goto __pyx_L12;
+      }
+
+      /* "aars_algorithms_fast.pyx":108
+ *                 char_cost = 0
+ *             else:
+ *                 char_cost = 10000             # <<<<<<<<<<<<<<
+ *             take_char = char_cost + costs[x - 1, y]
+ *             if take_char < take_gap:
+ */
+      /*else*/ {
+        __pyx_v_char_cost = 0x2710;
+      }
+      __pyx_L12:;
+
+      /* "aars_algorithms_fast.pyx":109
+ *             else:
+ *                 char_cost = 10000
+ *             take_char = char_cost + costs[x - 1, y]             # <<<<<<<<<<<<<<
+ *             if take_char < take_gap:
+ *                 costs[x, y] = take_char
+ */
+      __pyx_t_20 = (__pyx_v_x - 1);
+      __pyx_t_21 = __pyx_v_y;
+      __pyx_v_take_char = (__pyx_v_char_cost + (*((int *) ( /* dim=1 */ ((char *) (((int *) ( /* dim=0 */ (__pyx_v_costs.data + __pyx_t_20 * __pyx_v_costs.strides[0]) )) + __pyx_t_21)) ))));
+
+      /* "aars_algorithms_fast.pyx":110
+ *                 char_cost = 10000
+ *             take_char = char_cost + costs[x - 1, y]
+ *             if take_char < take_gap:             # <<<<<<<<<<<<<<
+ *                 costs[x, y] = take_char
+ *                 path[x, y] = 1  # take character
+ */
+      __pyx_t_14 = ((__pyx_v_take_char < __pyx_v_take_gap) != 0);
+      if (__pyx_t_14) {
+
+        /* "aars_algorithms_fast.pyx":111
+ *             take_char = char_cost + costs[x - 1, y]
+ *             if take_char < take_gap:
+ *                 costs[x, y] = take_char             # <<<<<<<<<<<<<<
+ *                 path[x, y] = 1  # take character
+ *             else:
+ */
+        __pyx_t_22 = __pyx_v_x;
+        __pyx_t_23 = __pyx_v_y;
+        *((int *) ( /* dim=1 */ ((char *) (((int *) ( /* dim=0 */ (__pyx_v_costs.data + __pyx_t_22 * __pyx_v_costs.strides[0]) )) + __pyx_t_23)) )) = __pyx_v_take_char;
+
+        /* "aars_algorithms_fast.pyx":112
+ *             if take_char < take_gap:
+ *                 costs[x, y] = take_char
+ *                 path[x, y] = 1  # take character             # <<<<<<<<<<<<<<
+ *             else:
+ *                 costs[x, y] = take_gap
  */
         __pyx_t_24 = __pyx_v_x;
         __pyx_t_25 = __pyx_v_y;
-        *((int *) ( /* dim=1 */ ((char *) (((int *) ( /* dim=0 */ (__pyx_v_costs.data + __pyx_t_24 * __pyx_v_costs.strides[0]) )) + __pyx_t_25)) )) = __pyx_v_take_char;
-
-        /* "aars_algorithms_fast.pyx":107
- *             if take_char <= take_gap:
- *                 costs[x, y] = take_char
- *                 path[x, y] = 1  # take part             # <<<<<<<<<<<<<<
- *             else:
- *                 costs[x, y] = take_gap
- */
-        __pyx_t_26 = __pyx_v_x;
-        __pyx_t_27 = __pyx_v_y;
-        *((char *) ( /* dim=1 */ ((char *) (((char *) ( /* dim=0 */ (__pyx_v_path.data + __pyx_t_26 * __pyx_v_path.strides[0]) )) + __pyx_t_27)) )) = 1;
-
-        /* "aars_algorithms_fast.pyx":105
- *             take_char = 0 if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question else 10000
- *             take_char += costs[x - 1, y]
- *             if take_char <= take_gap:             # <<<<<<<<<<<<<<
- *                 costs[x, y] = take_char
- *                 path[x, y] = 1  # take part
- */
-        goto __pyx_L16;
-      }
-
-      /* "aars_algorithms_fast.pyx":109
- *                 path[x, y] = 1  # take part
- *             else:
- *                 costs[x, y] = take_gap             # <<<<<<<<<<<<<<
- *                 path[x, y] = 2 if gaps_cost == 1 else 3  # take '-' or '.'
- *             j += 1
- */
-      /*else*/ {
-        __pyx_t_28 = __pyx_v_x;
-        __pyx_t_29 = __pyx_v_y;
-        *((int *) ( /* dim=1 */ ((char *) (((int *) ( /* dim=0 */ (__pyx_v_costs.data + __pyx_t_28 * __pyx_v_costs.strides[0]) )) + __pyx_t_29)) )) = __pyx_v_take_gap;
+        *((char *) ( /* dim=1 */ ((char *) (((char *) ( /* dim=0 */ (__pyx_v_path.data + __pyx_t_24 * __pyx_v_path.strides[0]) )) + __pyx_t_25)) )) = 1;
 
         /* "aars_algorithms_fast.pyx":110
+ *                 char_cost = 10000
+ *             take_char = char_cost + costs[x - 1, y]
+ *             if take_char < take_gap:             # <<<<<<<<<<<<<<
+ *                 costs[x, y] = take_char
+ *                 path[x, y] = 1  # take character
+ */
+        goto __pyx_L18;
+      }
+
+      /* "aars_algorithms_fast.pyx":114
+ *                 path[x, y] = 1  # take character
+ *             else:
+ *                 costs[x, y] = take_gap             # <<<<<<<<<<<<<<
+ *                 if gaps_cost == 1:
+ *                     path[x, y] = 2  # take '-'
+ */
+      /*else*/ {
+        __pyx_t_26 = __pyx_v_x;
+        __pyx_t_27 = __pyx_v_y;
+        *((int *) ( /* dim=1 */ ((char *) (((int *) ( /* dim=0 */ (__pyx_v_costs.data + __pyx_t_26 * __pyx_v_costs.strides[0]) )) + __pyx_t_27)) )) = __pyx_v_take_gap;
+
+        /* "aars_algorithms_fast.pyx":115
  *             else:
  *                 costs[x, y] = take_gap
- *                 path[x, y] = 2 if gaps_cost == 1 else 3  # take '-' or '.'             # <<<<<<<<<<<<<<
+ *                 if gaps_cost == 1:             # <<<<<<<<<<<<<<
+ *                     path[x, y] = 2  # take '-'
+ *                 else:
+ */
+        __pyx_t_14 = ((__pyx_v_gaps_cost == 1) != 0);
+        if (__pyx_t_14) {
+
+          /* "aars_algorithms_fast.pyx":116
+ *                 costs[x, y] = take_gap
+ *                 if gaps_cost == 1:
+ *                     path[x, y] = 2  # take '-'             # <<<<<<<<<<<<<<
+ *                 else:
+ *                     path[x, y] = 3  # take '.'
+ */
+          __pyx_t_28 = __pyx_v_x;
+          __pyx_t_29 = __pyx_v_y;
+          *((char *) ( /* dim=1 */ ((char *) (((char *) ( /* dim=0 */ (__pyx_v_path.data + __pyx_t_28 * __pyx_v_path.strides[0]) )) + __pyx_t_29)) )) = 2;
+
+          /* "aars_algorithms_fast.pyx":115
+ *             else:
+ *                 costs[x, y] = take_gap
+ *                 if gaps_cost == 1:             # <<<<<<<<<<<<<<
+ *                     path[x, y] = 2  # take '-'
+ *                 else:
+ */
+          goto __pyx_L19;
+        }
+
+        /* "aars_algorithms_fast.pyx":118
+ *                     path[x, y] = 2  # take '-'
+ *                 else:
+ *                     path[x, y] = 3  # take '.'             # <<<<<<<<<<<<<<
  *             j += 1
  *         i += 1
  */
-        if (((__pyx_v_gaps_cost == 1) != 0)) {
-          __pyx_t_30 = 2;
-        } else {
-          __pyx_t_30 = 3;
+        /*else*/ {
+          __pyx_t_30 = __pyx_v_x;
+          __pyx_t_31 = __pyx_v_y;
+          *((char *) ( /* dim=1 */ ((char *) (((char *) ( /* dim=0 */ (__pyx_v_path.data + __pyx_t_30 * __pyx_v_path.strides[0]) )) + __pyx_t_31)) )) = 3;
         }
-        __pyx_t_31 = __pyx_v_x;
-        __pyx_t_32 = __pyx_v_y;
-        *((char *) ( /* dim=1 */ ((char *) (((char *) ( /* dim=0 */ (__pyx_v_path.data + __pyx_t_31 * __pyx_v_path.strides[0]) )) + __pyx_t_32)) )) = __pyx_t_30;
+        __pyx_L19:;
       }
-      __pyx_L16:;
+      __pyx_L18:;
 
-      /* "aars_algorithms_fast.pyx":111
- *                 costs[x, y] = take_gap
- *                 path[x, y] = 2 if gaps_cost == 1 else 3  # take '-' or '.'
+      /* "aars_algorithms_fast.pyx":119
+ *                 else:
+ *                     path[x, y] = 3  # take '.'
  *             j += 1             # <<<<<<<<<<<<<<
  *         i += 1
  *         while i < reg_len and reg[i] == '-':
@@ -4149,8 +4247,8 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
       __pyx_v_j = (__pyx_v_j + 1);
     }
 
-    /* "aars_algorithms_fast.pyx":112
- *                 path[x, y] = 2 if gaps_cost == 1 else 3  # take '-' or '.'
+    /* "aars_algorithms_fast.pyx":120
+ *                     path[x, y] = 3  # take '.'
  *             j += 1
  *         i += 1             # <<<<<<<<<<<<<<
  *         while i < reg_len and reg[i] == '-':
@@ -4158,25 +4256,25 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
  */
     __pyx_v_i = (__pyx_v_i + 1);
 
-    /* "aars_algorithms_fast.pyx":113
+    /* "aars_algorithms_fast.pyx":121
  *             j += 1
  *         i += 1
  *         while i < reg_len and reg[i] == '-':             # <<<<<<<<<<<<<<
  *             i += 1
  */
     while (1) {
-      __pyx_t_21 = ((__pyx_v_i < __pyx_v_reg_len) != 0);
-      if (__pyx_t_21) {
+      __pyx_t_19 = ((__pyx_v_i < __pyx_v_reg_len) != 0);
+      if (__pyx_t_19) {
       } else {
-        __pyx_t_20 = __pyx_t_21;
-        goto __pyx_L19_bool_binop_done;
+        __pyx_t_14 = __pyx_t_19;
+        goto __pyx_L22_bool_binop_done;
       }
-      __pyx_t_21 = (((__pyx_v_reg[__pyx_v_i]) == '-') != 0);
-      __pyx_t_20 = __pyx_t_21;
-      __pyx_L19_bool_binop_done:;
-      if (!__pyx_t_20) break;
+      __pyx_t_19 = (((__pyx_v_reg[__pyx_v_i]) == '-') != 0);
+      __pyx_t_14 = __pyx_t_19;
+      __pyx_L22_bool_binop_done:;
+      if (!__pyx_t_14) break;
 
-      /* "aars_algorithms_fast.pyx":114
+      /* "aars_algorithms_fast.pyx":122
  *         i += 1
  *         while i < reg_len and reg[i] == '-':
  *             i += 1             # <<<<<<<<<<<<<<
@@ -4190,7 +4288,7 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
  * @cython.wraparound(False)
  * cdef void _align_c(char* reg, int reg_len, char* seq, int seq_len, int[:, ::1] costs, char[:, ::1] path, int s1, int s2):             # <<<<<<<<<<<<<<
  *     cdef int i, j, x, y
- *     cdef int gaps_cost, take_gap, take_char
+ *     cdef int gaps_cost, char_cost, take_gap, take_char
  */
 
   /* function exit code */

@@ -79,7 +79,7 @@ def align_c(gapped_seq, full_seq):
 @cython.wraparound(False)
 cdef void _align_c(char* reg, int reg_len, char* seq, int seq_len, int[:, ::1] costs, char[:, ::1] path, int s1, int s2):
     cdef int i, j, x, y
-    cdef int gaps_cost, take_gap, take_char
+    cdef int gaps_cost, char_cost, take_gap, take_char
     cdef char c1, c2, c_star, c_question
     c_star = 42  # '*'
     c_question = 63
@@ -95,19 +95,27 @@ cdef void _align_c(char* reg, int reg_len, char* seq, int seq_len, int[:, ::1] c
         j = 0
         for y in range(1, s2):
             c2 = seq[j + x - 1]
-            gaps_cost = (1 if reg[i + 1] == '-' else
-                         10 if path[x, y - 1] != 1 else
-                         100
-                         )
+            if reg[i + 1] == '-':
+                gaps_cost = 1
+            elif path[x, y - 1] != 1:
+                gaps_cost = 10
+            else:
+                gaps_cost = 100
             take_gap = gaps_cost + costs[x, y - 1]
-            take_char = 0 if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question else 10000
-            take_char += costs[x - 1, y]
-            if take_char <= take_gap:
+            if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question:
+                char_cost = 0
+            else:
+                char_cost = 10000
+            take_char = char_cost + costs[x - 1, y]
+            if take_char < take_gap:
                 costs[x, y] = take_char
-                path[x, y] = 1  # take part
+                path[x, y] = 1  # take character
             else:
                 costs[x, y] = take_gap
-                path[x, y] = 2 if gaps_cost == 1 else 3  # take '-' or '.'
+                if gaps_cost == 1:
+                    path[x, y] = 2  # take '-'
+                else:
+                    path[x, y] = 3  # take '.'
             j += 1
         i += 1
         while i < reg_len and reg[i] == '-':
