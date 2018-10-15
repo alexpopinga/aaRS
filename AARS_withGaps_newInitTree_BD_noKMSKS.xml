@@ -2214,7 +2214,7 @@
     </logger>
 
     <logger fileName="AARS_withGaps_newInitTree_BD_noKMSKS.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
-        <log id="TreeWithMetaDataLogger.t:AARS" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS"/>
+        <log id="TreeWithMetaDataLogger.t:AARS" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS" branchratemodel="@RelaxedClock.c:AARS"/>
     </logger>
     
         <init estimate="false" id="TreeParser.t:AARS" initial="@Tree.t:AARS" spec="beast.util.TreeParser" taxa="@AARS"
