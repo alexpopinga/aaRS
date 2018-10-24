@@ -3,7 +3,7 @@ from itertools import product
 import numpy as np
 
 
-def levenshtein_distance(source, target):
+def levenshtein_distance_py(source, target):
     """Custom Levenshtein distance calculation"""
     distance_matrix = np.zeros((len(source) + 1, len(target) + 1), int)
     distance_matrix[0, :] = np.arange(len(target) + 1)
@@ -18,7 +18,7 @@ def levenshtein_distance(source, target):
     return int(distance_matrix[len(source), len(target)])
 
 
-def align(gapped_seq, full_seq):
+def align_py(gapped_seq, full_seq):
     """align a gapped sequence to the full sequence"""
     reg = list(gapped_seq.strip('-') + '-')
     seq = list(full_seq)
