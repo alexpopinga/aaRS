@@ -96,16 +96,16 @@ cdef void _align_c(char* reg, int reg_len, char* seq, int seq_len, int[:, ::1] c
         for y in range(1, s2):
             c2 = seq[j + x - 1]
             if reg[i + 1] == '-':
-                gaps_cost = 1
+                gaps_cost = 1  # cost to extend a predefined gap
             elif path[x, y - 1] != 1:
-                gaps_cost = 10
+                gaps_cost = 10  # cost to extend a new gap
             else:
-                gaps_cost = 100
+                gaps_cost = 100  # cost to add a new gap
             take_gap = gaps_cost + costs[x, y - 1]
             if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question:
-                char_cost = 0
+                char_cost = 0  # cost to take a matching character
             else:
-                char_cost = 10000
+                char_cost = 10000  # cost to take a mismatched character
             take_char = char_cost + costs[x - 1, y]
             if take_char < take_gap:
                 costs[x, y] = take_char

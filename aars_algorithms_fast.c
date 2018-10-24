@@ -3971,7 +3971,7 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
  *         for y in range(1, s2):
  *             c2 = seq[j + x - 1]             # <<<<<<<<<<<<<<
  *             if reg[i + 1] == '-':
- *                 gaps_cost = 1
+ *                 gaps_cost = 1  # cost to extend a predefined gap
  */
       __pyx_v_c2 = (__pyx_v_seq[((__pyx_v_j + __pyx_v_x) - 1)]);
 
@@ -3979,7 +3979,7 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
  *         for y in range(1, s2):
  *             c2 = seq[j + x - 1]
  *             if reg[i + 1] == '-':             # <<<<<<<<<<<<<<
- *                 gaps_cost = 1
+ *                 gaps_cost = 1  # cost to extend a predefined gap
  *             elif path[x, y - 1] != 1:
  */
       __pyx_t_14 = (((__pyx_v_reg[(__pyx_v_i + 1)]) == '-') != 0);
@@ -3988,9 +3988,9 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
         /* "aars_algorithms_fast.pyx":99
  *             c2 = seq[j + x - 1]
  *             if reg[i + 1] == '-':
- *                 gaps_cost = 1             # <<<<<<<<<<<<<<
+ *                 gaps_cost = 1  # cost to extend a predefined gap             # <<<<<<<<<<<<<<
  *             elif path[x, y - 1] != 1:
- *                 gaps_cost = 10
+ *                 gaps_cost = 10  # cost to extend a new gap
  */
         __pyx_v_gaps_cost = 1;
 
@@ -3998,7 +3998,7 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
  *         for y in range(1, s2):
  *             c2 = seq[j + x - 1]
  *             if reg[i + 1] == '-':             # <<<<<<<<<<<<<<
- *                 gaps_cost = 1
+ *                 gaps_cost = 1  # cost to extend a predefined gap
  *             elif path[x, y - 1] != 1:
  */
         goto __pyx_L11;
@@ -4006,9 +4006,9 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
 
       /* "aars_algorithms_fast.pyx":100
  *             if reg[i + 1] == '-':
- *                 gaps_cost = 1
+ *                 gaps_cost = 1  # cost to extend a predefined gap
  *             elif path[x, y - 1] != 1:             # <<<<<<<<<<<<<<
- *                 gaps_cost = 10
+ *                 gaps_cost = 10  # cost to extend a new gap
  *             else:
  */
       __pyx_t_15 = __pyx_v_x;
@@ -4017,28 +4017,28 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
       if (__pyx_t_14) {
 
         /* "aars_algorithms_fast.pyx":101
- *                 gaps_cost = 1
+ *                 gaps_cost = 1  # cost to extend a predefined gap
  *             elif path[x, y - 1] != 1:
- *                 gaps_cost = 10             # <<<<<<<<<<<<<<
+ *                 gaps_cost = 10  # cost to extend a new gap             # <<<<<<<<<<<<<<
  *             else:
- *                 gaps_cost = 100
+ *                 gaps_cost = 100  # cost to add a new gap
  */
         __pyx_v_gaps_cost = 10;
 
         /* "aars_algorithms_fast.pyx":100
  *             if reg[i + 1] == '-':
- *                 gaps_cost = 1
+ *                 gaps_cost = 1  # cost to extend a predefined gap
  *             elif path[x, y - 1] != 1:             # <<<<<<<<<<<<<<
- *                 gaps_cost = 10
+ *                 gaps_cost = 10  # cost to extend a new gap
  *             else:
  */
         goto __pyx_L11;
       }
 
       /* "aars_algorithms_fast.pyx":103
- *                 gaps_cost = 10
+ *                 gaps_cost = 10  # cost to extend a new gap
  *             else:
- *                 gaps_cost = 100             # <<<<<<<<<<<<<<
+ *                 gaps_cost = 100  # cost to add a new gap             # <<<<<<<<<<<<<<
  *             take_gap = gaps_cost + costs[x, y - 1]
  *             if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question:
  */
@@ -4049,20 +4049,20 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
 
       /* "aars_algorithms_fast.pyx":104
  *             else:
- *                 gaps_cost = 100
+ *                 gaps_cost = 100  # cost to add a new gap
  *             take_gap = gaps_cost + costs[x, y - 1]             # <<<<<<<<<<<<<<
  *             if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question:
- *                 char_cost = 0
+ *                 char_cost = 0  # cost to take a matching character
  */
       __pyx_t_17 = __pyx_v_x;
       __pyx_t_18 = (__pyx_v_y - 1);
       __pyx_v_take_gap = (__pyx_v_gaps_cost + (*((int *) ( /* dim=1 */ ((char *) (((int *) ( /* dim=0 */ (__pyx_v_costs.data + __pyx_t_17 * __pyx_v_costs.strides[0]) )) + __pyx_t_18)) ))));
 
       /* "aars_algorithms_fast.pyx":105
- *                 gaps_cost = 100
+ *                 gaps_cost = 100  # cost to add a new gap
  *             take_gap = gaps_cost + costs[x, y - 1]
  *             if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question:             # <<<<<<<<<<<<<<
- *                 char_cost = 0
+ *                 char_cost = 0  # cost to take a matching character
  *             else:
  */
       __pyx_t_19 = ((__pyx_v_c1 == __pyx_v_c2) != 0);
@@ -4097,26 +4097,26 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
         /* "aars_algorithms_fast.pyx":106
  *             take_gap = gaps_cost + costs[x, y - 1]
  *             if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question:
- *                 char_cost = 0             # <<<<<<<<<<<<<<
+ *                 char_cost = 0  # cost to take a matching character             # <<<<<<<<<<<<<<
  *             else:
- *                 char_cost = 10000
+ *                 char_cost = 10000  # cost to take a mismatched character
  */
         __pyx_v_char_cost = 0;
 
         /* "aars_algorithms_fast.pyx":105
- *                 gaps_cost = 100
+ *                 gaps_cost = 100  # cost to add a new gap
  *             take_gap = gaps_cost + costs[x, y - 1]
  *             if c1 == c2 or c1 == c_star or c1 == c_question or c2 == c_star or c_star == c_question:             # <<<<<<<<<<<<<<
- *                 char_cost = 0
+ *                 char_cost = 0  # cost to take a matching character
  *             else:
  */
         goto __pyx_L12;
       }
 
       /* "aars_algorithms_fast.pyx":108
- *                 char_cost = 0
+ *                 char_cost = 0  # cost to take a matching character
  *             else:
- *                 char_cost = 10000             # <<<<<<<<<<<<<<
+ *                 char_cost = 10000  # cost to take a mismatched character             # <<<<<<<<<<<<<<
  *             take_char = char_cost + costs[x - 1, y]
  *             if take_char < take_gap:
  */
@@ -4127,7 +4127,7 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
 
       /* "aars_algorithms_fast.pyx":109
  *             else:
- *                 char_cost = 10000
+ *                 char_cost = 10000  # cost to take a mismatched character
  *             take_char = char_cost + costs[x - 1, y]             # <<<<<<<<<<<<<<
  *             if take_char < take_gap:
  *                 costs[x, y] = take_char
@@ -4137,7 +4137,7 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
       __pyx_v_take_char = (__pyx_v_char_cost + (*((int *) ( /* dim=1 */ ((char *) (((int *) ( /* dim=0 */ (__pyx_v_costs.data + __pyx_t_20 * __pyx_v_costs.strides[0]) )) + __pyx_t_21)) ))));
 
       /* "aars_algorithms_fast.pyx":110
- *                 char_cost = 10000
+ *                 char_cost = 10000  # cost to take a mismatched character
  *             take_char = char_cost + costs[x - 1, y]
  *             if take_char < take_gap:             # <<<<<<<<<<<<<<
  *                 costs[x, y] = take_char
@@ -4169,7 +4169,7 @@ static void __pyx_f_20aars_algorithms_fast__align_c(char *__pyx_v_reg, int __pyx
         *((char *) ( /* dim=1 */ ((char *) (((char *) ( /* dim=0 */ (__pyx_v_path.data + __pyx_t_24 * __pyx_v_path.strides[0]) )) + __pyx_t_25)) )) = 1;
 
         /* "aars_algorithms_fast.pyx":110
- *                 char_cost = 10000
+ *                 char_cost = 10000  # cost to take a mismatched character
  *             take_char = char_cost + costs[x - 1, y]
  *             if take_char < take_gap:             # <<<<<<<<<<<<<<
  *                 costs[x, y] = take_char
