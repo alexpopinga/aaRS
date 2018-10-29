@@ -263,7 +263,7 @@ def output_split_files():
                 'regions': v['gaps-value'],
                 'amino-acid-file': v['amino-acid-path'],
                 'nucleotide-file': v['nucleotide-path'],
-                'aa-num': ''.join(['{0:^3d}'.format(n) for n in range(len(v['amino-acid-data']))]),
+                'aa-num': ''.join(['{0:^3d}'.format(n) for n in range(1, len(v['amino-acid-data']) + 1)]),
                 'aa-seq': ' ' + '  '.join(list(v['amino-acid-data'])) + ' ',
                 'aa-ali': ' ' + '  '.join(list(v['amino-acid-aligned-gaps'])) + ' ',
                 'nuc-al': nuc_align
@@ -285,7 +285,7 @@ def output_split_files():
                     'regions': v['gaps-value'],
                     'amino-acid-file': 'GenBank ' + v['gi'],
                     'nucleotide-file': 'GenBank ' + v['gi'],
-                    'aa-num': ''.join(['{0:^3d}'.format(n) for n in range(len(gb_aa))]),
+                    'aa-num': ''.join(['{0:^3d}'.format(n) for n in range(1, len(gb_aa) + 1)]),
                     'aa-seq': ' ' + '  '.join(list(gb_aa)) + ' ',
                     'aa-ali': ' ' + '  '.join(list(aa_align)) + ' ',
                     'nuc-al': gb_nuc
@@ -417,7 +417,7 @@ def construct_species(name):
 
 def read_path_data(path):
     """read the data from the path location"""
-    if path == None:
+    if path is None:
         return None, None, None
     dat = ''
     header = None
@@ -440,8 +440,28 @@ def read_path_data(path):
 
 def check_genbank(gi):
     """check if genbank data could be used"""
-    nuc_data = get_genbank_nuc(gi)
-    aa_data = get_genbank_aa(gi)
+    # check for cached nuc data
+    try:
+        with open('/tmp/{}.nuc'.format(gi)) as nuc_file:
+            nuc_data = nuc_file.read()
+    except FileNotFoundError:
+        # no cached nuc data -- re-download
+        print('attempting to download nucleotide data from GenBank')
+        nuc_data = get_genbank_nuc(gi)
+        with open('/tmp/{}.nuc'.format(gi), 'w') as nuc_file:
+            nuc_file.write(nuc_data)
+
+    # check for cached aa data
+    try:
+        with open('/tmp/{}.aa'.format(gi)) as aa_file:
+            aa_data = aa_file.read()
+    except FileNotFoundError:
+        # no cached aa data -- re-download
+        print('attempting to download amino acid data from GenBank')
+        aa_data = get_genbank_aa(gi)
+        with open('/tmp/{}.aa'.format(gi), 'w') as aa_file:
+            aa_file.write(aa_data)
+
     nuc_len = len(nuc_data)
     aa_len = 3 * len(aa_data)
     if nuc_len > 6 and (aa_len == nuc_len or aa_len == nuc_len - 3):
