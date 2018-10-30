@@ -1,6 +1,7 @@
 {
   "arg_euk_B_mori": {
     "name": "arg_euk_B_mori",
+    "class": "class_I",
     "regions": "IVDFSPNIAKEMHVGHLRSTIIGDSICRV-VRLNHLGDWG-EVSRQEFQKIYDRLD-IDRGESF-TYDTSDMAAIK-IYVTDVGQYTHFMTIDACARRA-VEHVGF-KFKTR",
     "amino-acid-file": "GenBank 512928911",
     "nucleotide-file": "GenBank 512928911",
@@ -11,6 +12,7 @@
   },
   "arg_euk_P_euphratica": {
     "name": "arg_euk_P_euphratica",
+    "class": "class_I",
     "regions": "VVDFSPNIAKEMHVGHLRSTIIGDTLASM-LRRNHVGDWG-DISRREFDQVYQRLG-EEKGESF-NYASTDMTALW-IYVTDVGQQQHFDMVFKAAKRA-ASHVGF-RFRTR",
     "amino-acid-file": "GenBank 743897842",
     "nucleotide-file": "GenBank 743897842",
@@ -21,6 +23,7 @@
   },
   "arg_euk_D_discoideum": {
     "name": "arg_euk_D_discoideum",
+    "class": "class_I",
     "regions": "IVEFSPNIAKPFHAGHLRSTIIGNFMVNL-VSMNYLGDWG-DLSIVKYKDIYNRLD-IYAGESL-LYITRDIAAAV-YYVVASQQDFHFRQLFDILGKM-LTHINY-GMSTR",
     "amino-acid-file": "GenBank 60473123",
     "nucleotide-file": "GenBank 60473123",
@@ -31,6 +34,7 @@
   },
   "arg_euk_G_theta": {
     "name": "arg_euk_G_theta",
+    "class": "class_I",
     "regions": "IVDFSPNIAKEMHVGHLRSTIIGDTLCRL-LRLNHVGDWG-EASRKEFQVVYDMLN-EERGESF-LYSTTDLAAIR-LYVTDAGQSTHFDQARCIARQA-LEHVPF-KFKTR",
     "amino-acid-file": "GenBank 428181222",
     "nucleotide-file": "GenBank 428181222",
@@ -41,6 +45,7 @@
   },
   "arg_euk_A_subglabra": {
     "name": "arg_euk_A_subglabra",
+    "class": "class_I",
     "regions": "VLEYSPNIAKQFHVGHLRSTILGGFLANL-ISLNYLGDWG-ELSIKQYAQEYALLD-EYVGEST-LYLTRDLGGAI-IYVVSSQQDRHLAQFFKLLALM-LEHVSF-GMSTR",
     "amino-acid-file": "GenBank 598060828:21535-23661",
     "nucleotide-file": "GenBank 598060828:21535-23661",
@@ -51,6 +56,7 @@
   },
   "arg_euk_D_rerio": {
     "name": "arg_euk_D_rerio",
+    "class": "class_I",
     "regions": "IVDFSPNIAKEMHVGHLRSTIIGDSMCRL-LRLNHVGDWG-DVSRKEFQKVYNCLD-KERGESY-TYDTSDLAAIR-IYVTDSGQAMHFQVIFAAAQLI-VEHAGF-KFKTR",
     "amino-acid-file": "GenBank 41053406",
     "nucleotide-file": "GenBank 41053406",
@@ -61,6 +67,7 @@
   },
   "arg_euk_M_domestica": {
     "name": "arg_euk_M_domestica",
+    "class": "class_I",
     "regions": "LVDFSPNIAKEMHVGHLRSTIIGESICRL-LRVNHVGDWG-DVSRREFQKIYDRLG-KEKGESF-TYDTSDMAAIR-IYVVDAGQNTHLKNIYLAAERC-AEHVQF-KFKTR",
     "amino-acid-file": "GenBank 755900635",
     "nucleotide-file": "GenBank 755900635",
@@ -71,6 +78,7 @@
   },
   "cys_bact_B_licheniformis": {
     "name": "cys_bact_B_licheniformis",
+    "class": "class_I",
     "regions": "KMYVGPTVYNYIHIGNARPAIVYDTVRKY-QYVSNFTDVD-ERFIKAYFEDVGSLD-CHPRVTE-GWHIECSAMAK-IHAGGQDLTFPHENEIAQSEAL-AYWLHN-KMSKS",
     "amino-acid-file": "GenBank 757432907",
     "nucleotide-file": "GenBank 757432907",
@@ -81,6 +89,7 @@
   },
   "cys_euk_C_parvum_Iowa_II": {
     "name": "cys_euk_C_parvum_Iowa_II",
+    "class": "class_I",
     "regions": "NWYAGPTVYDSAHLGHARNYVTFDIIRRV-YLVMNITDID-REFELEFFDDMKALD-VVTRVSE-GWHIECSVMAS-IHSGGIDLRFPHDNELAQSEAH-VYFLHS-KMSKS",
     "amino-acid-file": "GenBank 46229332",
     "nucleotide-file": "GenBank 46229332",
@@ -91,6 +100,7 @@
   },
   "cys_euk_D_discoideum": {
     "name": "cys_euk_D_discoideum",
+    "class": "class_I",
     "regions": "SWYTGPTVYSSSHIGHARNYMTVDIIQRI-IHVMGLTDID-KKFEQEFFEDLKSLM-FTTRVSE-GWHIECSAMID-VHSGGVDLEFPHQNEIAQCEGH-AYFFHI-KMSKS",
     "amino-acid-file": "GenBank 60470862",
     "nucleotide-file": "GenBank 60470862",
@@ -101,6 +111,7 @@
   },
   "cys_euk_E_guttata": {
     "name": "cys_euk_E_guttata",
+    "class": "class_I",
     "regions": "GMYIGVTSYDLSHIGHARAYVAFDVLYRY-VYVRNFTDVD-WRFCEEFLSDMADLT-HQPRVTD-GWHIECSAMSA-IHGGGMDLIFPHENEIAQSCAA-VYWIHN-KMSKS",
     "amino-acid-file": "GenBank 848865247",
     "nucleotide-file": "GenBank 848865247",
@@ -111,6 +122,7 @@
   },
   "cys_euk_G_theta": {
     "name": "cys_euk_G_theta",
+    "class": "class_I",
     "regions": "RWYIGPTVYDSSHLGHARTYVAFDVIRRI-FCVMNITDVD-AFYEQEYHEDMKSLD-VLTRVTE-GWHIECSVMAS-IHGGGIDLCFPHDNELAQAEAY-VYFLHS-KMSKS",
     "amino-acid-file": "GenBank 428186110",
     "nucleotide-file": "GenBank 428186110",
@@ -121,6 +133,7 @@
   },
   "cys_euk_B_hominis": {
     "name": "cys_euk_B_hominis",
+    "class": "class_I",
     "regions": "SWYSGPTVYDSSHVGHARTYVQIDLLQRI-HSAMGITNID-SRYEEEFINDMQRLM-SVVRVSD-GWHIECSVNCH-VHAGGIDLRFPHCNEIAQCEAY-CMMLHI-KMSKS",
     "amino-acid-file": "GenBank 855318138:609955-611799",
     "nucleotide-file": "GenBank 855318138:609955-611799",
@@ -131,6 +144,7 @@
   },
   "cys_euk_N_gruberi": {
     "name": "cys_euk_N_gruberi",
+    "class": "class_I",
     "regions": "TWYTGPTVYDWSHMGHARTYVGFDIVRRI-IYIENITDID-RYYEHLFWEDMKQLT-VLVRVTE-GWHIECSAMAC-VHCGGIDLKFPHDNELAQSEAY-VYFLHT-SMSKS",
     "amino-acid-file": "GenBank 291000006",
     "nucleotide-file": "GenBank 291000006",
@@ -141,6 +155,7 @@
   },
   "cys_euk_P_bivittatus": {
     "name": "cys_euk_P_bivittatus",
+    "class": "class_I",
     "regions": "KWYCGPTVYDASHMGHARSYISFDILRRV-FYCMNITDID-KFWEEEYHKDMAALD-VLTRVSE-GWHIECSAMAG-IHGGGFDLRFPHDNELAQSEAY-VYFLHT-KMSKS",
     "amino-acid-file": "GenBank 602646427",
     "nucleotide-file": "GenBank 602646427",
@@ -151,6 +166,7 @@
   },
   "cys_euk_S_rosetta": {
     "name": "cys_euk_S_rosetta",
+    "class": "class_I",
     "regions": "TWYQGPTVYDHSHIGHAVCFQRFDILRRV-LQVWGMTDID-RQYEESFFQDMAALA-HITRVTE-GWHIECSAMAS-IHTGGIDLLYPHTNELAQCESH-VHFWHT-KMSKS",
     "amino-acid-file": "GenBank 514696975:727287-731007",
     "nucleotide-file": "GenBank 514696975:727287-731007",
@@ -161,6 +177,7 @@
   },
   "cys_euk_T_vaginalis": {
     "name": "cys_euk_T_vaginalis",
+    "class": "class_I",
     "regions": "RCYTGPTVYSTSHLGHARTYLSFDMIRRI-QWSMNVTDID-ADREKAFFAELDTLD-ALLRVSE-GWHIECSTMSG-LHAGGIDLRFPHSNEIAQSQAR-VNWMHT-KMSKS",
     "amino-acid-file": "GenBank 121904623",
     "nucleotide-file": "GenBank 121904623",
@@ -171,6 +188,7 @@
   },
   "cys_euk_C_owczarzaki": {
     "name": "cys_euk_C_owczarzaki",
+    "class": "class_I",
     "regions": "NAYIGPTVYDASHMGHASTYIQFDVIRRV-RWVMNITDVD-RYWEEQFNIDMKALD-RLTRVSD-GWHIECSAMAG-IHGGGIDLKFPHDNEIAQSEAF-IYFMHT-KMSKS",
     "amino-acid-file": "GenBank 765557180",
     "nucleotide-file": "GenBank 765557180",
@@ -181,6 +199,7 @@
   },
   "gln_bact_B_thailandensis": {
     "name": "gln_bact_B_thailandensis",
+    "class": "class_I",
     "regions": "ETRFPPEPNGYLHIGHAKSICLNFSVARD-VCHLRFDDTN-VEYVNSIVDAVRWLQ-HQYFASD-MYDYTHCISDA-HSLCTLEFEDHRPLYDWVLNEL-PQQIEF-ITSKR",
     "amino-acid-file": "GenBank 83653559",
     "nucleotide-file": "GenBank 83653559",
@@ -191,6 +210,7 @@
   },
   "gln_euk_C_gigas": {
     "name": "gln_euk_C_gigas",
+    "class": "class_I",
     "regions": "HTRFPPEPNGILHIGHAKAINFNFGYAKK-NTYLRYDDTN-EKFFTAIKNMVEWLF-QVTHASD-TYDYTHCLCDS-HSLCTKEFQSRRSSYYWLCNAL-PVQWEY-VVSKR",
     "amino-acid-file": "GenBank 762134833",
     "nucleotide-file": "GenBank 762134833",
@@ -201,6 +221,7 @@
   },
   "gln_euk_A_subglabra": {
     "name": "gln_euk_A_subglabra",
+    "class": "class_I",
     "regions": "FTRFPPEPNGFLHIGHSKAIFVNFGYAAH-KCYLRYDDTN-AKYFESILEIVRWLF-RITYSSD-TYDFTHCLCDS-HSLCTTEFIDSRESYEWLCDQL-PRQSEY-VMSKR",
     "amino-acid-file": "GenBank 598060753:690907-694636",
     "nucleotide-file": "GenBank 598060753:690907-694636",
@@ -211,6 +232,7 @@
   },
   "gln_euk_T_vaginalis": {
     "name": "gln_euk_T_vaginalis",
+    "class": "class_I",
     "regions": "MTRFPPEPNGWIHIGHAKAMILDFGLAAT-HCYMRFDDTN-VEFIEGIKKDVHWLW-KITHTSD-TYDYSHCVIDS-HSLCTLEFQNRRDSYYWVLDAL-PVVWEF-VMSKR",
     "amino-acid-file": "GenBank 121905916",
     "nucleotide-file": "GenBank 121905916",
@@ -221,6 +243,7 @@
   },
   "gln_euk_H_sapiens": {
     "name": "gln_euk_H_sapiens",
+    "class": "class_I",
     "regions": "RTRFPPEPNGILHIGHAKAINFNFGYAKA-ICFLRFDDTN-AKFFTAICDMVAWLY-KVTYASD-TYDYTHCLCDS-HSLCTKEFQARRSSYFWLCNAL-PVQWEY-VVSKR",
     "amino-acid-file": "GenBank 441478303",
     "nucleotide-file": "GenBank 441478303",
@@ -231,6 +254,7 @@
   },
   "gln_euk_D_rerio": {
     "name": "gln_euk_D_rerio",
+    "class": "class_I",
     "regions": "RTRFPPEPNGILHIGHAKAINFNFGFAKA-ICFLRYDDTN-EKYFTAIKDMVEWLY-AVTHASD-TYDYTHCLCDS-HSLCTKEFQARRSSYFWLCNAL-PVQWEY-VVSKR",
     "amino-acid-file": "GenBank 49619000",
     "nucleotide-file": "GenBank 49619000",
@@ -241,6 +265,7 @@
   },
   "gln_euk_C_owczarzaki": {
     "name": "gln_euk_C_owczarzaki",
+    "class": "class_I",
     "regions": "HTRFPPEPNGILHIGHAKAMHINFTFARV-KCIFRYDDTN-ERFFVGIRQMVDWLA-AVTHTSD-TYDYSHCLIDS-HSMCTKEFQNRRMSYYWLCNAL-PVQWEY-VMSKR",
     "amino-acid-file": "GenBank 765550594",
     "nucleotide-file": "GenBank 765550594",
@@ -251,6 +276,7 @@
   },
   "gln_euk_R_rosetta": {
     "name": "gln_euk_R_rosetta",
+    "class": "class_I",
     "regions": "HTRFPPEPNGILHIGHAKAITFNFAYARD-NCYLRYDDTN-EEFFRGILRDVTWLF-KITHSSD-TYDFTHCLCDS-HSLCTKEFQNRRSSYYWLCNAL-PVQWEY-LVSKR",
     "amino-acid-file": "GenBank 514698965:1401151-1407781",
     "nucleotide-file": "GenBank 514698965:1401151-1407781",
@@ -261,6 +287,7 @@
   },
   "gln_euk_M_domestica": {
     "name": "gln_euk_M_domestica",
+    "class": "class_I",
     "regions": "QTRFPPEPNGILHIGHAKAININFGYAAA-VCYLRYDDTN-EKFFVGIKDMVEWLY-KITHSSD-TYDYTHCLCDS-HSLCTKEFQSRRSSYYWLCNAL-PVQWEY-LVSKR",
     "amino-acid-file": "GenBank 755875495",
     "nucleotide-file": "GenBank 755875495",
@@ -271,6 +298,7 @@
   },
   "gln_euk_G_theta": {
     "name": "gln_euk_G_theta",
+    "class": "class_I",
     "regions": "RTRFPPEPNGYLHIGHAKSICLNFGVAKE-RTNMRFDDTN-EEYVRSILKDVRWLD-NTRYASD-MYDFAHCISDA-HSLCTLEFEDHRPLYDWVLDEL-PQQTEF-VLSKR",
     "amino-acid-file": "GenBank 428181053",
     "nucleotide-file": "GenBank 428181053",
@@ -281,6 +309,7 @@
   },
   "gln_euk_E_guttata": {
     "name": "gln_euk_E_guttata",
+    "class": "class_I",
     "regions": "LTRFPPEPNGYLHIGHAKAMFVNFGLAKE-CCYLRYDDTN-KEYIDHIEEIVGWMF-KITYTSD-SYDYAHCIVDS-HSLCTLEFETRRASYYWLLDAL-PYVWEY-MMSKR",
     "amino-acid-file": "GenBank 848865245",
     "nucleotide-file": "GenBank 848865245",
@@ -291,6 +320,7 @@
   },
   "glu_bact_D_radiodurans": {
     "name": "glu_bact_D_radiodurans",
+    "class": "class_I",
     "regions": "VTRFPPDPSGYAHLGHVFASLLDFNTARQ-QFNLRMDDTN-QEYVDSIADDLKWLG--FYYASD-AYDFEHPLQDA-HSMCSLEFVDNRAIYDWLMEKL-PHQYEF-KRKLR",
     "amino-acid-file": "GenBank 6460439",
     "nucleotide-file": "GenBank 6460439",
@@ -301,6 +331,7 @@
   },
   "glu_euk_A_subglabra": {
     "name": "glu_euk_A_subglabra",
+    "class": "class_I",
     "regions": "VTRFPPEPSGYLHIGHAKAAMLNYYFGKM-KFIVRFDDTN-DEFEQTILEDLQMLD-VITHTSD-IYDFACPIVDS-HALRTNEYRDRNPQYKWMIDSL-VEIWDF-LLSKR",
     "amino-acid-file": "GenBank 598060739:870256-873626",
     "nucleotide-file": "GenBank 598060739:870256-873626",
@@ -311,6 +342,7 @@
   },
   "glu_euk_B_mori": {
     "name": "glu_euk_B_mori",
+    "class": "class_I",
     "regions": "VVRFPPEASGYLHIGHAKAALLNQYYQQA-KLVMRFDDTN-ADFEKVILEDVAMLD-MFTHTSQ-TYDFACPIVDS-HVLRTMEYHDRDPQFYWFIEAL-PYIWEY-VLSKR",
     "amino-acid-file": "GenBank 827536745",
     "nucleotide-file": "GenBank 827536745",
@@ -321,6 +353,7 @@
   },
   "glu_euk_D_rerio": {
     "name": "glu_euk_D_rerio",
+    "class": "class_I",
     "regions": "VVRFPPEASGYLHIGHAKAALLNQHYQVT-KLIMRFDDTN-EDFEKVILEDVAMLD-QFTYTSD-TYDFACPIVDS-HALRTTEYHDRDEQFYWVIEAL-PYIWEY-VLSKR",
     "amino-acid-file": "GenBank 568815693",
     "nucleotide-file": "GenBank 568815693",
@@ -331,6 +364,7 @@
   },
   "glu_euk_E_guttata": {
     "name": "glu_euk_E_guttata",
+    "class": "class_I",
     "regions": "KLRFAPEPSGYLHIGHAKAALLNQYFAER-EVIIRFDDTN-NEFVDNLLIDIATLT-AVTYTSD-TYDFCCPFVDA-HALRSSEYHDRNEQYYRIQTDM-VHLYEF-LLSKR",
     "amino-acid-file": "GenBank 848926595",
     "nucleotide-file": "GenBank 848926595",
@@ -341,6 +375,7 @@
   },
   "glu_euk_R_rosetta": {
     "name": "glu_euk_R_rosetta",
+    "class": "class_I",
     "regions": "RVRFAPSPTGFLHLGGLRTALFNYLFAVK-TFILRLEDTD-TGAAEALQRDLAWAH-GPYVQSE-TYHLANVVDDH-HVLRGEEWLISTAKHELLYRAF-PTFVHL-KLSKR",
     "amino-acid-file": "GenBank 514699974:930610-934402",
     "nucleotide-file": "GenBank 514699974:930610-934402",
@@ -351,6 +386,7 @@
   },
   "ile_euk_B_mori": {
     "name": "ile_euk_B_mori",
+    "class": "class_I",
     "regions": "SFYDPPFATGLPHYGHILAGTIKDVVTRY-ERRFGWDCHG-MKYAADWENIITRMD-NDYKTLY-DCWFESGSMPY-FIAEGIDQTRGFYTLIVLSTAL-FNLIAN-KMSKR",
     "amino-acid-file": "GenBank 827554580",
     "nucleotide-file": "GenBank 827554580",
@@ -361,6 +397,7 @@
   },
   "ile_euk_C_gigas": {
     "name": "ile_euk_C_gigas",
+    "class": "class_I",
     "regions": "TFYDPPFATGLPHYGHILAGTIKDVVTRW-ERRFGWDCHG-MRYSTEWEEIVTRLD-NDYKTMY-DCWFESGSMPY-FIAEGIDQTRGFYTLLVLSTLL-FNLIVN-KMSKR",
     "amino-acid-file": "GenBank 762156709",
     "nucleotide-file": "GenBank 762156709",
@@ -371,6 +408,7 @@
   },
   "ile_euk_D_discoideum": {
     "name": "ile_euk_D_discoideum",
+    "class": "class_I",
     "regions": "SFYDPPFATGLPHYGHILAGTIKDTITRY-ERRFGWDCHG-MKYSHEWEIVVNRMD-NNYKTMD-DCWFESGSMPY-FIAEGLDQTRGFYTLLVLSTAL-FNLIVN-KMSKR",
     "amino-acid-file": "GenBank 60470339",
     "nucleotide-file": "GenBank 60470339",
@@ -381,6 +419,7 @@
   },
   "ile_euk_C_owczarzaki": {
     "name": "ile_euk_C_owczarzaki",
+    "class": "class_I",
     "regions": "WQLSPPYANGQLHLGHAMNKILKDIVVRH-HFVPGWDCHG-REAMEMQRKEFMSWD-HPYLTMT-DVWFDSGTSWM-LVLEGSDQHRGFQSSLLTSVIA-FTIVTH-KMSKS",
     "amino-acid-file": "GenBank 765557322",
     "nucleotide-file": "GenBank 765557322",
@@ -391,6 +430,7 @@
   },
   "ile_euk_S_rosetta": {
     "name": "ile_euk_S_rosetta",
+    "class": "class_I",
     "regions": "ILHDPPFANGNLHMGHVLNKALKDMIVRY-SFVPGWDCHG-EGAIKEQKTDFVRLD-HPYLTLH-DVWFDSGTSWN-VYLEGSDQHRGFQSSLLTKITT-FTIITH-KMSKS",
     "amino-acid-file": "GenBank 514699974:1558151-1564720",
     "nucleotide-file": "GenBank 514699974:1558151-1564720",
@@ -401,6 +441,7 @@
   },
   "ile_euk_T_vaginalis": {
     "name": "ile_euk_T_vaginalis",
+    "class": "class_I",
     "regions": "IFYDPPFATGTPHYGHILAGTIKDVVTRY-PRRFGWDTHG-MKHQQDWERVVRRCD-NSYKSMD-DCWFESGSMPF-FIAEGLDQTRGFYTMTILSSLL-FNVIVN-KMSKK",
     "amino-acid-file": "GenBank 121891114",
     "nucleotide-file": "GenBank 121891114",
@@ -411,6 +452,7 @@
   },
   "ile_euk_E_guttata": {
     "name": "ile_euk_E_guttata",
+    "class": "class_I",
     "regions": "IFYDPPFATGLPHYGHILAGTIKDIVTRY-TRRFGWDCHG-QRYVDEWEKTVVRMD-NDYKTMD-DCWFESGSMPY-FVAEGLDQTRGFYTLMVLSTAL-FNLICN-KMSKR",
     "amino-acid-file": "GenBank 848848692",
     "nucleotide-file": "GenBank 848848692",
@@ -421,6 +463,7 @@
   },
   "ile_euk_H_sapiens": {
     "name": "ile_euk_H_sapiens",
+    "class": "class_I",
     "regions": "TFYDPPFATGLPHYGHILAGTIKDIVTRY-DRRFGWDCHG-MRYSAEWKSTVSRLD-NDYKTLY-DCWFESGSMPY-FIAEGIDQTRGFYTLLVLATAL-FNVIVN-KMSKR",
     "amino-acid-file": "GenBank 422398963",
     "nucleotide-file": "GenBank 422398963",
@@ -431,6 +474,7 @@
   },
   "ile_euk_G_theta": {
     "name": "ile_euk_G_theta",
+    "class": "class_I",
     "regions": "TFYDPPFATGMPHYGHILAGTIKDCITRY-ERKWGWDTHG-MRYASEWKRVVRRLD-NDYKTLD-DCWFESGSMPY-FIAEGLDQTRGFYTLMVIGTAL-FNVIVN-KMSKR",
     "amino-acid-file": "GenBank 428185265",
     "nucleotide-file": "GenBank 428185265",
@@ -441,6 +485,7 @@
   },
   "ile_euk_N_gruberi": {
     "name": "ile_euk_N_gruberi",
+    "class": "class_I",
     "regions": "SFYDPPFATGLPHYGHILAGTIKDVVTRY-ERRFGWDCHG-MKYSSEWEQIITRLD-NDYKTMN-DCWFESGSMPY-FIAEGLDQTRGFYTLLVLGTAL-FNVIVN-KMSKS",
     "amino-acid-file": "GenBank 290994672",
     "nucleotide-file": "GenBank 290994672",
@@ -451,6 +496,7 @@
   },
   "leu_euk_G_theta": {
     "name": "leu_euk_G_theta",
+    "class": "class_I",
     "regions": "YVLDFPYPSGALHVGHPEGYTATDILSRY-MHPMGWDAFG-KKNIDRFREQLQSLD-REVSTTD-PQWAGSCWYYL-LYLGGAEHAVLLLYARFWHKVL-FRLVNQ-KMSKS",
     "amino-acid-file": "GenBank 428186386",
     "nucleotide-file": "GenBank 428186386",
@@ -461,6 +507,7 @@
   },
   "leu_euk_H_sapiens": {
     "name": "leu_euk_H_sapiens",
+    "class": "class_I",
     "regions": "FVTFYPYMNGRLHLGHTFSLSKCEFAVGY-LFPFGLHCTG-DYFPPLAIQDLKRMD-RSFITTD-ESLSDSTIYMA-LRVSGKDLVPNLSYYLYNHVAM-PAVRAN-KMSKS",
     "amino-acid-file": "GenBank 7804449",
     "nucleotide-file": "GenBank 7804449",
@@ -471,6 +518,7 @@
   },
   "leu_euk_C_gigas": {
     "name": "leu_euk_C_gigas",
+    "class": "class_I",
     "regions": "IVTFYPYMNGRLHLGHTFSLSKAEFGVGY-LFPFGLHCSG-KYFPPHCKEDLRKMD-RSFLTTD-ESLSDSTIYMA-LRVSGKDLVPNLTYYIYNHVAI-PSIRAN-KMSKQ",
     "amino-acid-file": "GenBank 762117982",
     "nucleotide-file": "GenBank 762117982",
@@ -481,6 +529,7 @@
   },
   "leu_euk_C_owczarzaki": {
     "name": "leu_euk_C_owczarzaki",
+    "class": "class_I",
     "regions": "YILAFPYPSGHLHMGHVRVYTLSDCLARF-LHPMGWDAFG-IKNIEYMRKQLQRLD-KEVTTCA-DTFVDSSWYFA-IYVGGVEHAILLLYARFLTRFF-FRLLTQ-KMSKS",
     "amino-acid-file": "GenBank 765552493",
     "nucleotide-file": "GenBank 765552493",
@@ -491,6 +540,7 @@
   },
   "leu_euk_T_vaginalis": {
     "name": "leu_euk_T_vaginalis",
+    "class": "class_I",
     "regions": "MITFFPYMNGRLHLGHLFTISKAEFAVRY-LFPFAFHCTG-HYFPPYGVKDMKQFD-RSFITTD-DSLSDSTIYTA-CRVSGKDLVTNLTMWLYNHAAV-PAVRAN-KMSKS",
     "amino-acid-file": "GenBank 121902607",
     "nucleotide-file": "GenBank 121902607",
@@ -501,6 +551,7 @@
   },
   "leu_euk_E_guttata": {
     "name": "leu_euk_E_guttata",
+    "class": "class_I",
     "regions": "YGNFFPYMNGYLHLGHAFSLSKLEFAAAY-LLPFAFHCTG-TFFPPLAVEDLKAFD-RTFVTTD-ESLSDSTLYMA-LRVSGKDLIQNLTFSIYNHTAL-PGFRCN-KMSKS",
     "amino-acid-file": "GenBank 848886141",
     "nucleotide-file": "GenBank 848886141",
@@ -511,6 +562,7 @@
   },
   "met_euk_S_rosetta": {
     "name": "met_euk_S_rosetta",
+    "class": "class_I",
     "regions": "LITSLPYVNNVPHLGNIICVLSADVFARF-LFICGTDEYG-DKYHAIHKEVYDWFD-YFGRTST-YVWFDATIGYI-YQFMAKDNVLFSIIFPSSLIGT-VHLSAT-QFSKS",
     "amino-acid-file": "GenBank 514689038:357272-362710",
     "nucleotide-file": "GenBank 514689038:357272-362710",
@@ -521,6 +573,7 @@
   },
   "met_euk_B_hominis": {
     "name": "met_euk_B_hominis",
+    "class": "class_I",
     "regions": "KVSTIYYVNGEPHLGHIYSTALADAICRW-FLTTGTDEHG-DSIASVFQSELSHYG-RFIRTTD-YVWIDALTNYL-LHVFGKDIAKFCYFYPCLLLAL-PRMICH-KMSKS",
     "amino-acid-file": "GenBank 855318254:672169-673412",
     "nucleotide-file": "GenBank 855318254:672169-673412",
@@ -531,6 +584,7 @@
   },
   "met_euk_B_mori": {
     "name": "met_euk_B_mori",
+    "class": "class_I",
     "regions": "LITSLPYVNNVPHLGNIICVLSADIFARY-LYICGTDEYG-DKYFEIHNNVYRWFD-YFGRTST-YVWFDAPIGYM-YQFMAKDNVPFVVMFPATVLGV-VHLFAT-KFSKS",
     "amino-acid-file": "GenBank 766543084",
     "nucleotide-file": "GenBank 766543084",
@@ -541,6 +595,7 @@
   },
   "met_euk_C_gigas": {
     "name": "met_euk_C_gigas",
+    "class": "class_I",
     "regions": "LITSLPYVNNVPHLGNIICVLSADVFSRY-LYICGTDEYG-DKYNKIHAEIYDWFD-KFSRTSI-YVWFDAPIGYI-YNFLGKDNVPFSVIFPCSLLGA-VHMSAT-KFSKS",
     "amino-acid-file": "GenBank 762087569",
     "nucleotide-file": "GenBank 762087569",
@@ -551,6 +606,7 @@
   },
   "met_euk_D_discoideum": {
     "name": "met_euk_D_discoideum",
+    "class": "class_I",
     "regions": "LITSLPYVNNVPHLGNIICVLSADVYARY-IYICGTDEYG-DKYHEIHKEIYEWFD-KFGRTST-YVWFDAPIGYI-VQFMGKDNVPFTVIFPASLIGS-LNLSTT-KMSKS",
     "amino-acid-file": "GenBank 60469912",
     "nucleotide-file": "GenBank 60469912",
@@ -561,6 +617,7 @@
   },
   "met_euk_E_guttata": {
     "name": "met_euk_E_guttata",
+    "class": "class_I",
     "regions": "LITSLPYVNNIPHLGNIICVLSADVFARY-IYICGTDEYG-DKYHAIHKEVYKWFD-EFGRTSS-YVWFDAPIGYV-YQFMGKDNVPFTVMFPSTLLGT-MTISVT-KFSKS",
     "amino-acid-file": "GenBank 848915971",
     "nucleotide-file": "GenBank 848915971",
@@ -571,6 +628,7 @@
   },
   "met_euk_A_subglabra": {
     "name": "met_euk_A_subglabra",
+    "class": "class_I",
     "regions": "LITSLPYCNNVPHLGNLISLLSADVFSRY-LYVCGTDEYG-DKYNALHRETYDWFD-LFGRTST-YVWFDACIGYV-YQFMGKDNTYFSVLFPSSQLGD-LHLSTT-KFSKS",
     "amino-acid-file": "GenBank 598060751:224526-227334",
     "nucleotide-file": "GenBank 598060751:224526-227334",
@@ -581,6 +639,7 @@
   },
   "met_euk_H_sapiens": {
     "name": "met_euk_H_sapiens",
+    "class": "class_I",
     "regions": "-ITSLPYVNNVPHLGNIICVLSADVFARY-LYLCGTDEYG-DKYHIIHADIYRWFD-IFGRTTT-YVWFDATIGYL-YQFMAKDNVPFSLVFPCSALGA-VHLIAT-KFSKS",
     "amino-acid-file": "GenBank 7804467",
     "nucleotide-file": "GenBank 7804467",
@@ -591,6 +650,7 @@
   },
   "met_euk_N_gruberi": {
     "name": "met_euk_N_gruberi",
+    "class": "class_I",
     "regions": "ITTPIYYVNGPPHIGHLFTTILSDSIYLY-IFSTGTDEHG-EKISETFKTMMKDFT-HYLRTSA-YVWLDALTNYL-VQIIGKDILKFGIYWPAFLMAL-PTILVH-KMSKS",
     "amino-acid-file": "GenBank 290992261",
     "nucleotide-file": "GenBank 290992261",
@@ -601,6 +661,7 @@
   },
   "trp_euk_B_mori": {
     "name": "trp_euk_B_mori",
+    "class": "class_I",
     "regions": "YLYTGRGPSSDMHLGHMIPFMFTKWLQDV-PLIIQLTDDE-RKMAYNNAKDIIAIT-FIFNDLD-TFPSIEAAPAF-LVPCAIDQDPYFRMTRDVAVRL-PSLIHS-KMSAS",
     "amino-acid-file": "GenBank 827536914",
     "nucleotide-file": "GenBank 827536914",
@@ -611,6 +672,7 @@
   },
   "trp_euk_A_subglabra": {
     "name": "trp_euk_A_subglabra",
+    "class": "class_I",
     "regions": "IVFSGIQPTGI-HLGNYLALRNWVDLQNN-TVIYSVVGLH-RRSKLDAAASLLAIS-ILFHQDE-AYPVLQAADVL-HVPVGEDQLQHIELMRHIASSF-PEVISP-KMSKS",
     "amino-acid-file": "GenBank 598060752:42763-44316",
     "nucleotide-file": "GenBank 598060752:42763-44316",
@@ -621,6 +683,7 @@
   },
   "trp_euk_T_vaginalis": {
     "name": "trp_euk_T_vaginalis",
+    "class": "class_I",
     "regions": "YIYTGRGPSSDLHLGHITSFIINKYIQDA-WFIIQITDDE-HKYTEANIRDIIAQT-FIMRESK-LFPVRQIAPAF-LIPCGREQDPYFRFAREVAGKM-VSTIYG-KMTAS",
     "amino-acid-file": "GenBank 121885715",
     "nucleotide-file": "GenBank 121885715",
@@ -631,6 +694,7 @@
   },
   "trp_euk_C_owczarzaki": {
     "name": "trp_euk_C_owczarzaki",
+    "class": "class_I",
     "regions": "RIVSGIQPTGV-HLGNYLAIKSWVQLQDP-DVLYMIVDLH-RRNITDMTIALLACS-VLFQQSK-SYPILMAADVL-HVPVGDDQQQHLELASTLANTF-PVPMYN-KMSKS",
     "amino-acid-file": "GenBank 765551619",
     "nucleotide-file": "GenBank 765551619",
@@ -641,6 +705,7 @@
   },
   "trp_euk_R_filosa": {
     "name": "trp_euk_R_filosa",
+    "class": "class_I",
     "regions": "YLYTGRGPSSEMHLGHTVPFIINKHLQEA-PLVIQITDDE-YRLARENAKDIIAMT-FIFIDTD-AYPPIQTVPAF-LIPCAIDQDPYFRLCRDVAPKL-PSCLYS-KMSAS",
     "amino-acid-file": "GenBank 569367214",
     "nucleotide-file": "GenBank 569367214",
@@ -651,6 +716,7 @@
   },
   "trp_euk_D_rerio": {
     "name": "trp_euk_D_rerio",
+    "class": "class_I",
     "regions": "YLYTGRGPSSQIHVGHLIPFIFTKWLQDV-PLVIQLTDDE-RRFTVENARDIIACT-FIFSDLE-SFPAIQAAPSF-LIPCAIDQDPYFRMTRDVAPRI-PALLHS-KMSAS",
     "amino-acid-file": "GenBank 41152125",
     "nucleotide-file": "GenBank 41152125",
@@ -661,6 +727,7 @@
   },
   "trp_euk_E_guttata": {
     "name": "trp_euk_E_guttata",
+    "class": "class_I",
     "regions": "YLYTGRGPSSELHLGHLVPFMFTKYLQDA-PLVIQLTDDE-QRLARENAKDIIACT-FIFSDFD-SFPPVQAAPSF-LIPCAIDQDPYFRMTRDVAPRI-PALIES-KMSAS",
     "amino-acid-file": "GenBank 848894467",
     "nucleotide-file": "GenBank 848894467",
@@ -671,6 +738,7 @@
   },
   "trp_euk_G_theta": {
     "name": "trp_euk_G_theta",
+    "class": "class_I",
     "regions": "YLYTGRGPSSDLHMGHLIPFMFTKWLQDT-PLVIQMTDDE-YELGKENAKDIIACT-FIFSNLE-SFPAIQAAPSF-LIPCAIDQDPYFRMTRDVAPRL-PALLHS-KMSAS",
     "amino-acid-file": "GenBank 428184198",
     "nucleotide-file": "GenBank 428184198",
@@ -681,6 +749,7 @@
   },
   "trp_euk_N_gruberi": {
     "name": "trp_euk_N_gruberi",
+    "class": "class_I",
     "regions": "YLYTGRGPSSEMHLGHLIPFMFTKYLQDV-PLVVQMTDDE-HRLTYENAKDIIACT-FIFSNLD-SFPAIQAAPSF-LIPCAIDQDPYFRVTRDVAPKL-PALIHS-KMSSS",
     "amino-acid-file": "GenBank 284096032",
     "nucleotide-file": "GenBank 284096032",
@@ -691,6 +760,7 @@
   },
   "tyr_euk_C_gigas": {
     "name": "tyr_euk_C_gigas",
+    "class": "class_I",
     "regions": "KVYWGTATTGKPHVAYFVPMSKIADFLRA-EVTILFAD-L-ALRVQYYERAIKAML-KFVKGSD-LYPGLQALDEE-AQFGGVDQRKIFTFAEKYLPHL-RIHLMN-KMSSS",
     "amino-acid-file": "GenBank 762113049",
     "nucleotide-file": "GenBank 762113049",
@@ -701,6 +771,7 @@
   },
   "tyr_euk_D_discoideum": {
     "name": "tyr_euk_D_discoideum",
+    "class": "class_I",
     "regions": "RCYDGFEPSGRMHIAQILKSINVNRMTKA-TFIFWVAD-W-RKVGQYMIEIWKATV-EFLWSSD-LYPCMQCADIF-ICQLGMDQRKVNMLAIEYCDKV-PIIVSH-KMS--",
     "amino-acid-file": "GenBank 60471150",
     "nucleotide-file": "GenBank 60471150",
@@ -711,6 +782,7 @@
   },
   "tyr_euk_G_theta": {
     "name": "tyr_euk_G_theta",
+    "class": "class_I",
     "regions": "KAYLGFDATKSLHVGSLLQIMILRHLQQC-KPIVLLGGGT-KVNVNGIKTVFEKFA-LLVNNDE-NYMILQAYDFL-LQLGGSDQWGNMVNGVELTRRA-VFAMTA-KMGKS",
     "amino-acid-file": "GenBank 428183918",
     "nucleotide-file": "GenBank 428183918",
@@ -721,6 +793,7 @@
   },
   "tyr_euk_N_gruberi": {
     "name": "tyr_euk_N_gruberi",
+    "class": "class_I",
     "regions": "ICYDGFEPSGRIHIAQVMKAINVNKLTKA-KFIFLVAD-W-QTVGKYMIEVWKSIV-EFVWSSE-FYPCMQCADIF-ICQLGMDQRKVNMLAREYSELK-PIILSH-KMAKS",
     "amino-acid-file": "GenBank 284093670",
     "nucleotide-file": "GenBank 284093670",
@@ -731,6 +804,7 @@
   },
   "tyr_euk_S_rosetta": {
     "name": "tyr_euk_S_rosetta",
+    "class": "class_I",
     "regions": "TVYCGFDPTRTLHIGNLLAIMGLVHCVRA-NVIALVGGAA-RINIAGITEVLHRIV-KVVNNAE-TYQVLQGHDFL-VQLGGSDQWGNITAGIDLVRRV-VYGVTM-KFGKS",
     "amino-acid-file": "GenBank 514692892:372436-375098",
     "nucleotide-file": "GenBank 514692892:372436-375098",
@@ -741,6 +815,7 @@
   },
   "tyr_euk_B_hominis": {
     "name": "tyr_euk_B_hominis",
+    "class": "class_I",
     "regions": "SIYLGVDPTKGLHIGHLMACRILKRFHDA-KCIALVGGAA-LINVKEIQNDLKRVL-LFVNNYD-AYQCLQANDFL-CQIGGSDQWGNITSGIDFVKRK-VHGITV-KFGKS",
     "amino-acid-file": "GenBank 300122208:138848-140001",
     "nucleotide-file": "GenBank 300122208:138848-140001",
@@ -751,6 +826,7 @@
   },
   "tyr_euk_H_sapiens": {
     "name": "tyr_euk_H_sapiens",
+    "class": "class_I",
     "regions": "KIYWGTATTGKPHVAYFVPMSKIADFLKA-EVTILFAD-L-ELRVSYYENVIKAML-KFIKGTD-LYPGLQALDEE-AQFGGIDQRKIFTFAEKYLPAL-RVHLMN-KMSSS",
     "amino-acid-file": "GenBank 156071485",
     "nucleotide-file": "GenBank 156071485",
@@ -761,6 +837,7 @@
   },
   "tyr_euk_C_owczarzaki": {
     "name": "tyr_euk_C_owczarzaki",
+    "class": "class_I",
     "regions": "VLYWGTATTGRPHIGYFVPMTKIADFLKA-QVTILFAD-L-KLRTEYYEAVIKALL-KFVRGTS-LYPGLQALDEE-AQFGGVDQRKIFTFAEKYMPAL-RIHLMN-KMSSS",
     "amino-acid-file": "GenBank 765552394",
     "nucleotide-file": "GenBank 765552394",
@@ -771,6 +848,7 @@
   },
   "tyr_euk_M_domestica": {
     "name": "tyr_euk_M_domestica",
+    "class": "class_I",
     "regions": "KIYWGTATTGKPHVAYFVPMSKIADFLKA-EVTILFAD-L-ELRTKYYEAVIKAML-KFVKGTD-LYPGLQALDEE-AQFGGVDQRKIFTFSEKYLPQL-RIHFMN-KMSSS",
     "amino-acid-file": "GenBank 755899159",
     "nucleotide-file": "GenBank 755899159",
@@ -781,6 +859,7 @@
   },
   "val_bact_G_stearothermophilus": {
     "name": "val_bact_G_stearothermophilus",
+    "class": "class_I",
     "regions": "TIVIPPNVTGKLHLGHAWDTTLQDIITRM-LWLPGMDHAG-EEYAGHIRSQWAKLD-RERFTLD-DTWFSSALWPF-VLVTGYDIIFFVSRMIFQGLEF-FDVLIH-KMSKS",
     "amino-acid-file": "GenBank 143796",
     "nucleotide-file": "GenBank 143796",
@@ -791,6 +870,7 @@
   },
   "val_bact_B_licheniformis": {
     "name": "val_bact_B_licheniformis",
+    "class": "class_I",
     "regions": "TVVIPPNVTGKLHLGHAWDSTLQDIVTRM-LWLPGMDHAG-EEYADFIRSQWAKID-RERFTLD-DTWFSSALWPF-VLVTGYDIIFFVSRMIFQGIEF-FDVLIH-KMSKS",
     "amino-acid-file": "GenBank 757436042",
     "nucleotide-file": "GenBank 757436042",
@@ -801,6 +881,7 @@
   },
   "val_euk_E_guttata": {
     "name": "val_euk_E_guttata",
+    "class": "class_I",
     "regions": "VIVLPPNVTGPLHIGHALTAAIQDTIIRW-LWVPGTDHAG-NLYRDAILRQLRCLD-RECYTMD-DTWFSSGIFPL-VLETGPDILFLVARMVMLGMKL-FKVYLH-EMSKL",
     "amino-acid-file": "GenBank 848931491",
     "nucleotide-file": "GenBank 848931491",
@@ -811,6 +892,7 @@
   },
   "val_euk_D_rerio": {
     "name": "val_euk_D_rerio",
+    "class": "class_I",
     "regions": "MMCIPPNVTGSLHLGHALTNAIQDCLTRW-LWNPGCDHAG-NEKGDRIYHQLKKLD-RACFTMD-DTWFSSGIFPF-LLETGHDILFFVARMVMMGLKL-FEVYLH-KMSKS",
     "amino-acid-file": "GenBank 914099180",
     "nucleotide-file": "GenBank 914099180",
@@ -821,6 +903,7 @@
   },
   "val_euk_D_discoideum": {
     "name": "val_euk_D_discoideum",
+    "class": "class_I",
     "regions": "VIVIPPNVTGSLHLGHALTNSIQDAVVRY-LWVPGTDHAG-GEYGARIQGQLKKMD-REVFTMD-DTWFSSGLFPF-LLETGSDILFFVARMVMMGQQL-FQVFLH-KMSKS",
     "amino-acid-file": "GenBank 60470561",
     "nucleotide-file": "GenBank 60470561",
@@ -831,6 +914,7 @@
   },
   "val_euk_C_owczarzaki": {
     "name": "val_euk_C_owczarzaki",
+    "class": "class_I",
     "regions": "MICIPPNVTGALHIGHALTNAVQDTLVRW-LWNPGTDHAG-EQYGDRICTQLRRLD-RNVFTMD-DTWFSSALFPF-LLETGADILFFVARMVFFSLAL-FDVYLH-KMSKT",
     "amino-acid-file": "GenBank 765552747",
     "nucleotide-file": "GenBank 765552747",
@@ -841,6 +925,7 @@
   },
   "val_euk_B_hominis": {
     "name": "val_euk_B_hominis",
+    "class": "class_I",
     "regions": "TMVLPPNVTGHLHLGHALTVAIEDAAVRF-NWIPGMDHAG-QEHRNHIRGQLQSLN-QEFYTLD-DTWFSSGLVPF-LMETGKDILFFVCRMSWLYESL-FAIALH-KMSKS",
     "amino-acid-file": "GenBank 855318254:947698-950222",
     "nucleotide-file": "GenBank 855318254:947698-950222",
@@ -851,6 +936,7 @@
   },
   "ala_bact_B_thailandensis": {
     "name": "ala_bact_B_thailandensis",
+    "class": "class_II",
     "regions": "KAAEIREKFLKFFESKGHTIVRSSLVP-LFTNSGMVQFK-SRATTAQRSVRA-TFFEMLGNFSF-KRDAIHYAWELLT-CSEIFY-EIWNLVFM-KPCVDTGMGLERIAAV",
     "amino-acid-file": "GenBank 83653174",
     "nucleotide-file": "GenBank 83653174",
@@ -861,6 +947,7 @@
   },
   "ala_euk_B_mori": {
     "name": "ala_euk_B_mori",
+    "class": "class_II",
     "regions": "TGNEIRKTFIDFFIKKGHKYVHSSTIP-LFANAGMNQFK-YRVVNTQKCIRA-TFFEMMGNWSF-KKEICAWAWELLT-CSELHY-EIWNLVFI-TKHIDCGLGLERLVSV",
     "amino-acid-file": "GenBank 112984223",
     "nucleotide-file": "GenBank 112984223",
@@ -871,6 +958,7 @@
   },
   "ala_euk_C_gigas": {
     "name": "ala_euk_C_gigas",
+    "class": "class_II",
     "regions": "TGAEIRNLFVDFFKEKEHLYVHSSVVP-LFTNAGMNQFK-YRAANSQKCIRA-TFFEMLGNWSF-KTECCGWAWEFLT-CTEIHY-EIWNLVFI-RKHCDCGMGLERLVCV",
     "amino-acid-file": "GenBank 762111562",
     "nucleotide-file": "GenBank 762111562",
@@ -881,6 +969,7 @@
   },
   "ala_euk_D_rerio": {
     "name": "ala_euk_D_rerio",
+    "class": "class_II",
     "regions": "TAAQIREKFIDFFRRHEHQYVHSATIP-LFANAGMNQFK-RRAANTQKCIRA-TFFEMLGSWSF-KHLACKMALELLT-CSEIHY-DIWNLVFI-KKSIDTGMGLERLVSV",
     "amino-acid-file": "GenBank 688596631",
     "nucleotide-file": "GenBank 688596631",
@@ -891,6 +980,7 @@
   },
   "ala_euk_C_owczarzaki": {
     "name": "ala_euk_C_owczarzaki",
+    "class": "class_II",
     "regions": "PASAVRQQFVDFFVSKGHEFVPSSVIP-LFANAGMNQFK-YRTANSQKCIRA-TFFEMLGNWSF-KKEAISWAWELLT-CSEIHF-EIWNLVFI-RCHVDTGMGLERIVSV",
     "amino-acid-file": "GenBank 765555965",
     "nucleotide-file": "GenBank 765555965",
@@ -901,6 +991,7 @@
   },
   "ala_euk_E_guttata": {
     "name": "ala_euk_E_guttata",
+    "class": "class_II",
     "regions": "PANRVRDTFIKFFEDKAHVNWKSPVVP-LFANAGMNQFK-LRACNTQKCIRA-TFFEMLGNWSF-KNEAIEWAWELLT-CTEIHF-EIWNLVFI-AKHVDTGMGFERLTSI",
     "amino-acid-file": "GenBank 848924125",
     "nucleotide-file": "GenBank 848924125",
@@ -911,6 +1002,7 @@
   },
   "ala_euk_N_gruberi": {
     "name": "ala_euk_N_gruberi",
+    "class": "class_II",
     "regions": "TSKEIRKQFVEFFEKKEHTFVPSSVVP-LFTNAGMNQFK-KRAANSQKCIRA-TFFEMLGNWSF-KREAITWAWELLT-CSEIHY-EIWNNVFM-AKHVDTGMGLERLVSI",
     "amino-acid-file": "GenBank 290986365",
     "nucleotide-file": "GenBank 290986365",
@@ -921,6 +1013,7 @@
   },
   "asn_euk_G_theta": {
     "name": "asn_euk_G_theta",
+    "class": "class_II",
     "regions": "IRSTLAFSVHKYFQEHGFQYVADTCYT-FLTVSGQLQVS-TTLIALRQKPM--AEFWMIEPEMA-LQDVMENAEGLLK-AMDILF-EMVGGSQR-VPHAGYGLGFDRLVQF",
     "amino-acid-file": "GenBank 428180642",
     "nucleotide-file": "GenBank 428180642",
@@ -931,6 +1024,7 @@
   },
   "asn_euk_H_sapiens": {
     "name": "asn_euk_H_sapiens",
+    "class": "class_II",
     "regions": "ARSMVTRCFRDHFFDRGYYEVTPPTLV-FLTQSSQLYLE-GDVFCIAQSYRA-AEYTHVEAECP-FDDLLNRLEDLVC-SVDVLM-EIVGGSMR-CPHGGYGLGLERFLTW",
     "amino-acid-file": "GenBank 3894217",
     "nucleotide-file": "GenBank 3894217",
@@ -941,6 +1035,7 @@
   },
   "asn_euk_N_gruberi": {
     "name": "asn_euk_N_gruberi",
+    "class": "class_II",
     "regions": "MRSIILQCFREHYYSRGYTEITPPTMV-YLTQSSQLYLE-GDSFCIAQSYRA-SEFTHVEAERP-FEDLLNTLEDLVC-SVDVLL-EVIGGSMR-CPHGGYGLGLERYMLW",
     "amino-acid-file": "GenBank 290992024",
     "nucleotide-file": "GenBank 290992024",
@@ -951,6 +1046,7 @@
   },
   "asn_euk_T_vaginalis": {
     "name": "asn_euk_T_vaginalis",
+    "class": "class_II",
     "regions": "VRDHLTRIIRENFYKHDCTEVVCPCLV-YLTQSSQLYLE-GDVFCIEPSFRA-CEFTHIEAEYP-FDELMSRIEDMVI-SCDLLV-EIVGGSMR-FPHGGFGLGTERLVRW",
     "amino-acid-file": "GenBank 121886827",
     "nucleotide-file": "GenBank 121886827",
@@ -961,6 +1057,7 @@
   },
   "asn_euk_B_mori": {
     "name": "asn_euk_B_mori",
+    "class": "class_II",
     "regions": "ARAAVTRAFREHFASRRYTEVTPPTLV-YLTQSSQLYLE-GDVYCIAQSYRA-AEYSHVEAECP-FEDLLSRLEDLVV-SVDVLM-EIVGGSMR-VPHGGYGLGLERFLCW",
     "amino-acid-file": "GenBank 827548441",
     "nucleotide-file": "GenBank 827548441",
@@ -971,6 +1068,7 @@
   },
   "asn_euk_C_gigas": {
     "name": "asn_euk_C_gigas",
+    "class": "class_II",
     "regions": "MRSVIMQAFRDHFINRGYYEVTPPTLV-YLTQSSQLYLE-GDVFSIAQSYRA-AEYTHIEAECP-FDDLLNKLEDLVC-SVDVLM-EIVGGSMR-CPHGGYGLGLERFMCW",
     "amino-acid-file": "GenBank 762101185",
     "nucleotide-file": "GenBank 762101185",
@@ -981,6 +1079,7 @@
   },
   "asn_euk_C_owczarzaki": {
     "name": "asn_euk_C_owczarzaki",
+    "class": "class_II",
     "regions": "VRNALTMAIHRHFQDKDFLNVNTPIIT-YLTCSGQLHAE-SRVYVLGPTFRA-AEFYMLEAEQF-QMDLLDLTSDCVK-AMDLLV-ELVGGSLR-APHGGFGMGFERLMMY",
     "amino-acid-file": "GenBank 765548156",
     "nucleotide-file": "GenBank 765548156",
@@ -991,6 +1090,7 @@
   },
   "asn_euk_D_discoideum": {
     "name": "asn_euk_D_discoideum",
+    "class": "class_II",
     "regions": "IRSLCLFAFRQHFFENHYMEVTPPTLV-YLTQSSQLYLE-GDNFTITQSYRA-TEFLHLEAECP-YEELQDRIEFLVV-SLDLLM-EIVGGSMR-TQHGGYGLGVERFLTW",
     "amino-acid-file": "GenBank 60471958",
     "nucleotide-file": "GenBank 60471958",
@@ -1001,6 +1101,7 @@
   },
   "asn_euk_E_guttata": {
     "name": "asn_euk_E_guttata",
+    "class": "class_II",
     "regions": "IRNALAYATHTFFQKHGFLYVHTPIIT-VLTVSGQLQVE-SSVYTFGPTFRA-AEFWMVEPEIA-IQDDMNCAEAYVR-AMDVLV-ELVGGSQR-VKHSGFGLGFERMILF",
     "amino-acid-file": "GenBank 848862231",
     "nucleotide-file": "GenBank 848862231",
@@ -1011,6 +1112,7 @@
   },
   "asp_bact_B_licheniformis": {
     "name": "asp_bact_B_licheniformis",
+    "class": "class_II",
     "regions": "IRNEIIRATYEFFNKEGFVKVDPPILT-YLSQSGQLYME-GKVFSFGPTFRA-IEFWMIEPEMA-FNENLEVQENYVS-CADLIA-EIIGGSER-VPHSGFGLGLERTVAW",
     "amino-acid-file": "GenBank 757435388",
     "nucleotide-file": "GenBank 757435388",
@@ -1021,6 +1123,7 @@
   },
   "asp_euk_E_guttata": {
     "name": "asp_euk_E_guttata",
+    "class": "class_II",
     "regions": "IQCQIENIFRQFLLSEGFVGIHTPKLI-CLAQSPQLHKQ-GRVFEIGPVFRA-CEFTGLDVEME-YSEVMDIVDRLFV-SFDVFI-EIISGAQR-PPHGGFGVGLERVVML",
     "amino-acid-file": "GenBank 848894189",
     "nucleotide-file": "GenBank 848894189",
@@ -1031,6 +1134,7 @@
   },
   "asp_euk_S_rosetta": {
     "name": "asp_euk_S_rosetta",
+    "class": "class_II",
     "regions": "MQSGVCRLFRDFLLKEGFTEIHSPKII-FLAQSPQLYKQ-GKVFEIGPVFRA-TEFTGLDMEMA-YHEVLEVLDRLFI-SYDIMM-EIMSGAQR-SPHGGGGVGLERVVML",
     "amino-acid-file": "GenBank 514694436:914480-918777",
     "nucleotide-file": "GenBank 514694436:914480-918777",
@@ -1041,6 +1145,7 @@
   },
   "asp_euk_B_hominis": {
     "name": "asp_euk_B_hominis",
+    "class": "class_II",
     "regions": "FRSEFLHSLRLSLHSHHFTEVETPLLT-ALSQSPQQYKQ-DRYFQIARCFRN-LEFTQLDIEMA-DLEIQSTIQNLLL-SCDLVL-EVGGGSLR-PPHGGFAIGLDRLLSL",
     "amino-acid-file": "GenBank 855318294:772029-774369",
     "nucleotide-file": "GenBank 855318294:772029-774369",
@@ -1051,6 +1156,7 @@
   },
   "asp_euk_B_mori": {
     "name": "asp_euk_B_mori",
+    "class": "class_II",
     "regions": "IEAGVCRLFRDILTKKGFVEIHTPKII-YLAQSPQLYKQ-DKVFTVGAVFRA-TEFVGLDLEMS-YHEVLDTIGGTFT-SYDMFM-EILSGAQR-PPHAGGGIGLERVVML",
     "amino-acid-file": "GenBank 827562427",
     "nucleotide-file": "GenBank 827562427",
@@ -1061,6 +1167,7 @@
   },
   "asp_euk_C_gigas": {
     "name": "asp_euk_C_gigas",
+    "class": "class_II",
     "regions": "ITAGVCRFFREHLDRQGFIEIHSPKII-FLAQSPQLYKQ-DKVYTVGAVFRA-TEFVGLDLEMS-YHEVLKVIGDMFI-SYDMFM-EILSGAQR-PPHAGGGIGMERVTML",
     "amino-acid-file": "GenBank 762151896",
     "nucleotide-file": "GenBank 762151896",
@@ -1071,6 +1178,7 @@
   },
   "asp_euk_C_owczarzaki": {
     "name": "asp_euk_C_owczarzaki",
+    "class": "class_II",
     "regions": "LQSAVCLLFREFLTSQNFIEIHSPKII-YLAQSPQFYKQ-ERVFEIAPVFRA-TEFVGLDLEMA-YHEVLDMLDKLFV-SYDLFM-EILSGAQR-PPHGGGGIGLERVLML",
     "amino-acid-file": "GenBank 765554305",
     "nucleotide-file": "GenBank 765554305",
@@ -1081,6 +1189,7 @@
   },
   "asp_euk_C_parvum_Iowa_II": {
     "name": "asp_euk_C_parvum_Iowa_II",
+    "class": "class_II",
     "regions": "IQSEVCRLLREFLIEREFIEIHTPKLL-CLAQSPQLHKQ-ERVFEIGPVFRA-CEFVGVDIEMN-YHELVDVFDAMFR-SFDFFM-EILSGAQR-PPHGGCGIGLERVIML",
     "amino-acid-file": "GenBank 126117470",
     "nucleotide-file": "GenBank 126117470",
@@ -1091,6 +1200,7 @@
   },
   "asp_euk_D_discoideum": {
     "name": "asp_euk_D_discoideum",
+    "class": "class_II",
     "regions": "LQSGVCTLFREQLLGEGFIEIHSPKII-YLAQSPQLYKQ-NKVFEIGPVFRA-TEFVGLDLEMT-YHEALDTLDRLMT-AYDLFM-EICSGAQR-SQHAGGGVGLERVVML",
     "amino-acid-file": "GenBank 60473324",
     "nucleotide-file": "GenBank 60473324",
@@ -1101,6 +1211,7 @@
   },
   "asp_euk_G_theta": {
     "name": "asp_euk_G_theta",
+    "class": "class_II",
     "regions": "IQSHVGQAFRNFLAARGFVEIHTPKLQ-WLAQSPQLHKQ-ERVMEVGPVFRA-CEFVGLDFEME-YAEAMDIVEGFVV-SFDAYL-EICSGAQR-SPHAGAGLGLERLTMT",
     "amino-acid-file": "GenBank 428180180",
     "nucleotide-file": "GenBank 428180180",
@@ -1111,6 +1222,7 @@
   },
   "gly_arch_Halobacterium": {
     "name": "gly_arch_Halobacterium",
+    "class": "class_II",
     "regions": "LKRNVEETWRDRFVTEGNMEIDSPTVT-YLRPETAQGMF-FGAAQIGAGYRN-REFTMAELEFF-VAYFLARSKQWFE-CWDAEG-ELEGIASR-VFVVEPAFGVGRAVYT",
     "amino-acid-file": "GenBank 573486607",
     "nucleotide-file": "GenBank 573486607",
@@ -1121,6 +1233,7 @@
   },
   "gly_euk_S_rosetta": {
     "name": "gly_euk_S_rosetta",
+    "class": "class_II",
     "regions": "IMNNIQQEWRRHFLEDNLLEISCPAMT-FLRPELAQGIV-FGGCQIGTAYRN-REFPLAEIEYF-LAYFLARIYLFLT-CWDAEL-ESAACADR-PSVIEPTFGLGRIIYA",
     "amino-acid-file": "GenBank 514691482:48703-53836",
     "nucleotide-file": "GenBank 514691482:48703-53836",
@@ -1131,6 +1244,7 @@
   },
   "gly_euk_B_hominis": {
     "name": "gly_euk_B_hominis",
+    "class": "class_II",
     "regions": "LKSNFINLWKQHFLEEDMLEVECTNLT-FLRPETAQGMF-FAAAQVGTGFRN-REFPMAEIEHF-LGYFMARTYLFLK-CWDCEI-ECVGIADR-PSVVEPSFGVGRLIYS",
     "amino-acid-file": "GenBank 855318168:240139-242358",
     "nucleotide-file": "GenBank 855318168:240139-242358",
@@ -1141,6 +1255,7 @@
   },
   "gly_euk_B_mori": {
     "name": "gly_euk_B_mori",
+    "class": "class_II",
     "regions": "LKSNMIHLWKKFFLQEQMLEVECSILT-FLRPETAQGIL-FAAAQIGNSFRN-REFTMCEIEHF-LGYFMARIHMYML-CWDAEC-ECVGCADR-GSVIEPSFGVGRILYC",
     "amino-acid-file": "GenBank 87248658",
     "nucleotide-file": "GenBank 87248658",
@@ -1151,6 +1266,7 @@
   },
   "gly_euk_C_gigas": {
     "name": "gly_euk_C_gigas",
+    "class": "class_II",
     "regions": "VKANILQTWRNFFLEEQMLEVDCSMLT-FLRPETAQGIF-FAAAQIGNAFRN-REFTMAEIEHF-LGYFMGRIQMFML-CWDAEC-ECVGCADR-PSVIEPSFGVGRVMYS",
     "amino-acid-file": "GenBank 762073351",
     "nucleotide-file": "GenBank 762073351",
@@ -1161,6 +1277,7 @@
   },
   "gly_euk_C_owczarzaki": {
     "name": "gly_euk_C_owczarzaki",
+    "class": "class_II",
     "regions": "IKANLLSLWRSHFFEEQMLEVDCSMLT-YLRPETAQGIF-FAAAQIGSSFRN-REFTMAEIEHF-LGYFIGRIYLFMT-CWDAEC-ECIGCADR-SNVIEPSFGIGRIIYS",
     "amino-acid-file": "GenBank 765550963",
     "nucleotide-file": "GenBank 765550963",
@@ -1171,6 +1288,7 @@
   },
   "gly_euk_A_subglabra": {
     "name": "gly_euk_A_subglabra",
+    "class": "class_II",
     "regions": "LQANIIGEWRKHFVEEGMHELDTTIMT-YLRPETAQGHF-FASACIGRSFRN-REFTMAEIEHF-LGYFLARISLFLL-CWDAEI-ECVGCADR---VIEPSFGLGRILYC",
     "amino-acid-file": "GenBank 598060792:298668-303018",
     "nucleotide-file": "GenBank 598060792:298668-303018",
@@ -1181,6 +1299,7 @@
   },
   "gly_euk_C_subellipsoidea": {
     "name": "gly_euk_C_subellipsoidea",
+    "class": "class_II",
     "regions": "IKQNVTQLWRQHFLEESMLEVECPAVT-YLRPETAQGIF-FAAAQIGQSYRN-REFTQAEIEHF-LAYFIGRTYLFLV-CWDAEV-ECVGLADR-SSVIEPSFGIGRIIYC",
     "amino-acid-file": "GenBank 545357479",
     "nucleotide-file": "GenBank 545357479",
@@ -1191,6 +1310,7 @@
   },
   "his_euk_H_sapiens": {
     "name": "his_euk_H_sapiens",
+    "class": "class_II",
     "regions": "VREKVFDVIIRCFKRHGAEVIDTPVFE-SLRYDLTVPFA-IKRYHIAKVYRR-REFYQCDFDIA-DAECLKIMCEILS-IYEAVL-SVAAGGRY-VPCVGLSIGVERIFSI",
     "amino-acid-file": "GenBank 574279252",
     "nucleotide-file": "GenBank 574279252",
@@ -1201,6 +1321,7 @@
   },
   "his_euk_E_guttata": {
     "name": "his_euk_E_guttata",
+    "class": "class_II",
     "regions": "LRSWLFHNFREVSHSFGFEEVDFPVLE-ALRPELTPSLA-LKWFAIGQCWRY-REHYQWNMDII-EAELISSIITFFK-VFEGFD-AICGGGRY-IPACGFGFGDAVIIEL",
     "amino-acid-file": "GenBank 848929478",
     "nucleotide-file": "GenBank 848929478",
@@ -1211,6 +1332,7 @@
   },
   "his_euk_M_domestica": {
     "name": "his_euk_M_domestica",
+    "class": "class_II",
     "regions": "QRQNVLDKIVGVFKKHGGEAIDTPVFE-ALRYDLTVPLA-LKRYHIAKVYRR-REFYQCDFDIA-DAECVKIVSEILD-IYECVL-SVAGGGRY-VPCVGVSIGVERIFSV",
     "amino-acid-file": "GenBank 755862501",
     "nucleotide-file": "GenBank 755862501",
@@ -1221,6 +1343,7 @@
   },
   "his_euk_T_vaginalis": {
     "name": "his_euk_T_vaginalis",
+    "class": "class_II",
     "regions": "VRQEVIQLVTSIFKRHGGVAIDTPVFE-SLRYDLTVPFA-IKRYHIAKVYRR-REFYQCDFDVA-DAEVISIVSELLT-IYEAGT-SIAGGGRY-VPAVGVSLGIERIFAL",
     "amino-acid-file": "GenBank 121902101",
     "nucleotide-file": "GenBank 121902101",
@@ -1231,6 +1354,7 @@
   },
   "his_euk_C_gigas": {
     "name": "his_euk_C_gigas",
+    "class": "class_II",
     "regions": "IREGVFNTIIKCFKRHGAETIDTPVFE-SLRYDLTVPFA-VKRYHIAKVYRR-REFYQCDFDIA-DAECVKLVSEILN-IYEAIL-SVAGGGRY-VPCVGVSIGVERVFAI",
     "amino-acid-file": "GenBank 762146260",
     "nucleotide-file": "GenBank 762146260",
@@ -1241,6 +1365,7 @@
   },
   "his_euk_D_discoideum": {
     "name": "his_euk_D_discoideum",
+    "class": "class_II",
     "regions": "IREQVFDGIKQVFKRHGAVTIETPVFE-SLRYDLTVPFA-IKRYHIARVYRR-REFYQCDFDIA-DAECLVMICEILE-IYEAVL-SIAAGGRY-VPAVGFSIGIERIFTI",
     "amino-acid-file": "GenBank 60472019",
     "nucleotide-file": "GenBank 60472019",
@@ -1251,6 +1376,7 @@
   },
   "his_euk_D_rerio": {
     "name": "his_euk_D_rerio",
+    "class": "class_II",
     "regions": "IREKVFNIIINCFKRHGAETIDSPVFE-SLRYDLTVPFA-IKRYHIAKVYRR-REFYQCDFDIA-DAECLKLVYEILS-IYEAIL-SVAGGGRY-VPCVGVSIGIERVFSI",
     "amino-acid-file": "GenBank 695130820",
     "nucleotide-file": "GenBank 695130820",
@@ -1261,6 +1387,7 @@
   },
   "lys_bact_P_mikurensis": {
     "name": "lys_bact_P_mikurensis",
+    "class": "class_II",
     "regions": "TRSRLIKATRDFFEGRGFLEVETPMMQ-FLRIAPELYLK-PRVFEINRNFRN-PEFTMLELYEA-LESILHHTQGLVE-RFELFV-ELANAYTE-LNDPDVQEANFREQLG",
     "amino-acid-file": "GenBank 381386589",
     "nucleotide-file": "GenBank 381386589",
@@ -1271,6 +1398,7 @@
   },
   "lys_euk_B_mori": {
     "name": "lys_euk_B_mori",
+    "class": "class_II",
     "regions": "TRAKIIAYVRRFLDNMGFLEVETPLMN-YMRIAPELYHK-DRVYEIGRQFRN-PEFTTCEFYMA-YNDLMTITESILS-RFEVYV-EICNAYTE-PPTGGWGLGVDRLTMF",
     "amino-acid-file": "GenBank 827557656",
     "nucleotide-file": "GenBank 827557656",
@@ -1281,6 +1409,7 @@
   },
   "lys_euk_C_gigas": {
     "name": "lys_euk_C_gigas",
+    "class": "class_II",
     "regions": "VRAKIINYVRKFLDEMGFLEVETPLMN-YMRVAPELYLK-DRVYEIGRLFRN-PEFTTCEFYMA-YNDLMKITETLLS-RFELFV-EICNAYTE-LNDPVVQRERFEQQAK",
     "amino-acid-file": "GenBank 762126988",
     "nucleotide-file": "GenBank 762126988",
@@ -1291,6 +1420,7 @@
   },
   "lys_euk_D_discoideum": {
     "name": "lys_euk_D_discoideum",
+    "class": "class_II",
     "regions": "IRSKVIQGVRRYLDNLGFIEVETPMMN-FMRIAPELYLK-DRVYEIGKQFRN-PEFTTCEFYMA-YNDLYTMTEQLLQ-RFELFV-EICNAYTE-LNNPFVQIERFAEQAK",
     "amino-acid-file": "GenBank 60468698",
     "nucleotide-file": "GenBank 60468698",
@@ -1301,6 +1431,7 @@
   },
   "lys_euk_C_owczarzaki": {
     "name": "lys_euk_C_owczarzaki",
+    "class": "class_II",
     "regions": "TRHAIFRSIRRMMDAQGFIEVETPSLC-NLRIAPELYLK-DRVYEIGKQFRN-PEFTTMEMYQA-FDDLFDFTESLLV-RFELFV-EICNAYAE-PPTVGWGMGLDRLVML",
     "amino-acid-file": "GenBank 765552643",
     "nucleotide-file": "GenBank 765552643",
@@ -1311,6 +1442,7 @@
   },
   "lys_euk_B_hominis": {
     "name": "lys_euk_B_hominis",
+    "class": "class_II",
     "regions": "TRSKIIQLIRSFLTAEGFLDVETSILS-ALRISPELALK-DRVFEMGKVFRN-FEFTSVEAYMA-YTDWMRLTEKLLH-RFELFV-EIVNAYTE-QNDPVKQEMSFAKQGE",
     "amino-acid-file": "GenBank 855318294:747529-749399",
     "nucleotide-file": "GenBank 855318294:747529-749399",
@@ -1321,6 +1453,7 @@
   },
   "lys_euk_T_vaginalis": {
     "name": "lys_euk_T_vaginalis",
+    "class": "class_II",
     "regions": "TRCKVVKMIRGFLDDLDFTEVETPIMW-WLRVAPELFLK-NRVYELGKQFRN-PEFTSCEFYMA-YNDLMDLTEKLYQ-RFEVFI-EYANAYTE-LNCPMVQRELFLDQLK",
     "amino-acid-file": "GenBank 121894094",
     "nucleotide-file": "GenBank 121894094",
@@ -1331,6 +1464,7 @@
   },
   "lys_euk_N_gruberi": {
     "name": "lys_euk_N_gruberi",
+    "class": "class_II",
     "regions": "IRNKTMSFIRNFFTNKGFLEVETPILS-KLRIAPELYLK-DRVFELSKVFRN-PEFTSCEAYQA-YNEMMDMTEEFFR-RFELFI-ELCNAYTE-LNDPEDQRERFRKQQE",
     "amino-acid-file": "GenBank 284093311",
     "nucleotide-file": "GenBank 284093311",
@@ -1341,6 +1475,7 @@
   },
   "phe_euk_N_gruberi": {
     "name": "phe_euk_N_gruberi",
+    "class": "class_II",
     "regions": "TLLKVRTEFRKVFLELGFEEMATNFVE-LLRTHTTAVST-RKYFSIDRVFRN-CEFHQIEGMVI-LGDMIGLFRVFFA-SMEIFG-EVGNSGMF-VTVLAWGLSLERPTMI",
     "amino-acid-file": "GenBank 284091288",
     "nucleotide-file": "GenBank 284091288",
@@ -1351,6 +1486,7 @@
   },
   "phe_euk_T_vaginalis": {
     "name": "phe_euk_T_vaginalis",
+    "class": "class_II",
     "regions": "PLLKVRAEFRNIFFQMGFEEMDTKWVE-IMRTHTTAVSS-RKFFSIDRVYRN-AEFHQVEGFII-LGDLMRNIREFFS-SMEIFA-EIGNSGMF-YTVIAWGFGLERPTMI",
     "amino-acid-file": "GenBank 121914737",
     "nucleotide-file": "GenBank 121914737",
@@ -1361,6 +1497,7 @@
   },
   "phe_euk_B_mori": {
     "name": "phe_euk_B_mori",
+    "class": "class_II",
     "regions": "PLLKVRSEFREIFLEMGFTEMPTKYVE-LLRTHTTAVSA-QKYFSIDKVFRN-AEFHQVEGVVA-LADLITVLDAFFK-SMEIFA-EIGNSGVF-VNVIAWGLSLERPTMI",
     "amino-acid-file": "GenBank 303304918",
     "nucleotide-file": "GenBank 303304918",
@@ -1371,6 +1508,7 @@
   },
   "phe_euk_C_gigas": {
     "name": "phe_euk_C_gigas",
+    "class": "class_II",
     "regions": "PLLKVRAQYRQIFLEMGFTEMPTNFVE-ILRTHTTANSA-VKYFSIDRVFRN-AEFHQIEGSVA-LGDLMGIIQEFFK-SMEIFS-EIGNSGIF-VSVIAWGLSLERPTMI",
     "amino-acid-file": "GenBank 762091279",
     "nucleotide-file": "GenBank 762091279",
@@ -1381,6 +1519,7 @@
   },
   "phe_euk_E_guttata": {
     "name": "phe_euk_E_guttata",
+    "class": "class_II",
     "regions": "PLLKVKRQIQLIFLQMGFEEMATNFVE-LLRTHTTAVSS-KKYYSIDRVFRN-AEFHQIEGLIC-LGHLIGVLEDFFS-SMEIFS-EIGNSGMF-VQVIAWGLSLERPTMI",
     "amino-acid-file": "GenBank 848900441",
     "nucleotide-file": "GenBank 848900441",
@@ -1391,6 +1530,7 @@
   },
   "pro_euk_E_guttata": {
     "name": "pro_euk_E_guttata",
+    "class": "class_II",
     "regions": "IWEAIQDYLNVKFKETGHSNMYFPQLI-VVRPTSETIVN-LMINQWVNVTRW-LEFLWQEGHTA-ALQMIDMYTKFAF-TYTIEA-QAGTSHNL-VWQTSWAIS-TRFVGG",
     "amino-acid-file": "GenBank 848925302",
     "nucleotide-file": "GenBank 848925302",
@@ -1401,6 +1541,7 @@
   },
   "pro_euk_N_gruberi": {
     "name": "pro_euk_N_gruberi",
+    "class": "class_II",
     "regions": "VWEKVQNFFDGHIKKLGVQNVMFPMFV-ALRPTSETIMY-LKLNQWTNVVRW-REFYWQEGHSA-VYDILELYKRTYE-TTTIEA-QAATSHHL-VYQNSWGLS-TRSLGV",
     "amino-acid-file": "GenBank 284094247",
     "nucleotide-file": "GenBank 284094247",
@@ -1411,6 +1552,7 @@
   },
   "pro_euk_R_filosa": {
     "name": "pro_euk_R_filosa",
+    "class": "class_II",
     "regions": "MWECIKNFMDEEIKKMGVSNTYFPLFV-AVRPTSETIMY-LKINQWCNVVRW-REFLWQEGHTA-VYEILDMYARTYR-STTVEA-QGATSHCL-VVQNSWGFT-TRSIGV",
     "amino-acid-file": "GenBank 569403441",
     "nucleotide-file": "GenBank 569403441",
@@ -1421,6 +1563,7 @@
   },
   "pro_euk_T_vaginalis": {
     "name": "pro_euk_T_vaginalis",
+    "class": "class_II",
     "regions": "MHNEIMHLFEVAYSKIGVPMTQFPAFI-CLRPTSETAMY-VMVQQSCNVYRY-REIPWNEAHTA-LGKFWDIVHDILT-TDVLDV-QSVGAHYL-SYMTCIGVS-TRCLAA",
     "amino-acid-file": "GenBank 51102323",
     "nucleotide-file": "GenBank 51102323",
@@ -1431,6 +1574,7 @@
   },
   "pro_euk_A_subglabra": {
     "name": "pro_euk_A_subglabra",
+    "class": "class_II",
     "regions": "IWEVIQEWFNREIKKLGVENAYFPMFV-AIRPTSETAMY-LKLNQWNSVVRW-REFLWQEGHTA-VRQILELYRRVYE-TTTIEG-QAATSHCL-VWQNSWGLS-TRSIGV",
     "amino-acid-file": "GenBank 598060737:274583-277267",
     "nucleotide-file": "GenBank 598060737:274583-277267",
@@ -1441,6 +1585,7 @@
   },
   "pro_euk_G_theta": {
     "name": "pro_euk_G_theta",
+    "class": "class_II",
     "regions": "VWDELKDELNRRIKETGTQNAYFPLFI-IVRPTSETIIW-LKVNQWANVVRW-AEFLWQEGHTA-AREMLDVYAEVAE-TYTIEA-QSGTSHFL-VWATSWGVS-TRLLGA",
     "amino-acid-file": "GenBank 428179225",
     "nucleotide-file": "GenBank 428179225",
@@ -1451,6 +1596,7 @@
   },
   "ser_euk_B_mori": {
     "name": "ser_euk_B_mori",
+    "class": "class_II",
     "regions": "LEQALVQLSLRMLLEKGYTPLYTPFFM-YLIATSEQPIA-IKYAGLSTCFRQ-HQFEKVEQFVL-MDEMINNAEEFCK-KLDLEA-ELVSCSNC-VHMLNATMATTRVICA",
     "amino-acid-file": "GenBank 512890122",
     "nucleotide-file": "GenBank 512890122",
@@ -1461,6 +1607,7 @@
   },
   "ser_euk_T_vaginalis": {
     "name": "ser_euk_T_vaginalis",
+    "class": "class_II",
     "regions": "LNQALFRYGLDFLQAHGYTAIHTPFFM-FLIATSEQTLC-KKYCGFSSCFRK-HQFEKVEQFCI-HEQMVHNSCEFIK-KVDIEA-ELVSASNC-VHMLNATLATERTLCC",
     "amino-acid-file": "GenBank 121899736",
     "nucleotide-file": "GenBank 121899736",
@@ -1471,6 +1618,7 @@
   },
   "ser_euk_C_gigas": {
     "name": "ser_euk_C_gigas",
+    "class": "class_II",
     "regions": "LEQALINLAMQSLYTKGYVPLYTPFFM-YLIATSEQPIA-IKYLGYSTCFRQ-HQFEKIEQFVL-FDEMINNAEEFNK-KLDLEA-ELVSCSNC-VHMLNATMATTRTICA",
     "amino-acid-file": "GenBank 762069879",
     "nucleotide-file": "GenBank 762069879",
@@ -1481,6 +1629,7 @@
   },
   "ser_euk_D_discoideum": {
     "name": "ser_euk_D_discoideum",
+    "class": "class_II",
     "regions": "LNQAIINFALMHMTKRGSVPLQTPFFM-YLIATSEQPIS-KKYVGYSTCFRK-HQFEKIEQFCI-MEEMINNSEQFYQ-KYDLEG-ELVSCSNC-VHMLNSTLATTRVICC",
     "amino-acid-file": "GenBank 60473019",
     "nucleotide-file": "GenBank 60473019",
@@ -1491,6 +1640,7 @@
   },
   "ser_euk_H_sapiens": {
     "name": "ser_euk_H_sapiens",
+    "class": "class_II",
     "regions": "LEQALIQYALRTLGSRGYIPIYTPFFM-YLIATSEQPIA-IKYAGLSTCFRQ-HQFEKIEQFVY-FEEMITTAEEFYQ-KLDLEA-ELVSCSNC-VHMLNATMATTRTICA",
     "amino-acid-file": "GenBank 7768885",
     "nucleotide-file": "GenBank 7768885",
@@ -1501,6 +1651,7 @@
   },
   "ser_euk_S_rosetta": {
     "name": "ser_euk_S_rosetta",
+    "class": "class_II",
     "regions": "LEMALVSYALQFLMARKFTALSPPLFM-YLIATAEQPIA-LRYVGVSECFRQ-HQFKKIEQFVI-MDEMLTNAEDFLK-KLDIEA-ELVSCSNC-VHMLNSTLATTRTICC",
     "amino-acid-file": "GenBank 514686878:52903-57020",
     "nucleotide-file": "GenBank 514686878:52903-57020",
@@ -1511,6 +1662,7 @@
   },
   "ser_euk_C_subellipsoidea": {
     "name": "ser_euk_C_subellipsoidea",
+    "class": "class_II",
     "regions": "LELALCNYAMQKVASKGFLPMTTPDLV-CLTGTAEVPLA-IRLAAFGHCFRT-HQFSKVEMFVL-LQELCDIEEEIFT-KIDIEA-EVSSASNC-LHTLNATAAVPRLIVA",
     "amino-acid-file": "GenBank 545357941",
     "nucleotide-file": "GenBank 545357941",
@@ -1521,6 +1673,7 @@
   },
   "ser_euk_E_guttata": {
     "name": "ser_euk_E_guttata",
+    "class": "class_II",
     "regions": "LNQALINFGLDFLEKRGFTALHTPFFM-YLIATAEQPLC-LRYAGYSSCFRK-HQFEKIEQFCI-HEEMLKNSEDFYK-KYDLEG-ELVSCSNC-VHMLNSTLATERTMCC",
     "amino-acid-file": "GenBank 848924693",
     "nucleotide-file": "GenBank 848924693",
@@ -1531,6 +1684,7 @@
   },
   "ser_euk_N_gruberi": {
     "name": "ser_euk_N_gruberi",
+    "class": "class_II",
     "regions": "LEVALQNFAISKLLKRGFKIIMPPELM-CLIGTSEIGLA-LKYAGLSHCFRT-HQFTKVEMFVY-LDEIVSIQEEIFS-KIDMEA-EVSSASNC-PHTLNGTAAVPRAIIT",
     "amino-acid-file": "GenBank 284097240",
     "nucleotide-file": "GenBank 284097240",
@@ -1541,6 +1695,7 @@
   },
   "thr_bact_A_aeolicus": {
     "name": "thr_bact_A_aeolicus",
+    "class": "class_II",
     "regions": "YRKVLEDYLREEHLKRGYQLVYTPHVG-YVKPMNCPFHI-LKLFELGTVYRY-RGFTQDDAHIV-IRETLDFALSTLK-KIDVKI-QLSTIQFD-PYMIHRALSIERFTGI",
     "amino-acid-file": "GenBank 2984004",
     "nucleotide-file": "GenBank 2984004",
@@ -1551,6 +1706,7 @@
   },
   "thr_euk_E_guttata": {
     "name": "thr_euk_E_guttata",
+    "class": "class_II",
     "regions": "VRHIIEDAWKKIHIQRGYDLLYTPHVA-QLRPMNCPYHI-IRVAELGTVYRY-RGFTQDDAHIF-IRGVLDLTEEILL-KIDLKI-QCSTIQVD-PIMIHRAVSLERFFGV",
     "amino-acid-file": "GenBank 848858462",
     "nucleotide-file": "GenBank 848858462",
@@ -1561,6 +1717,7 @@
   },
   "thr_euk_H_sapiens": {
     "name": "thr_euk_H_sapiens",
+    "class": "class_II",
     "regions": "IYNALIEFIRSEYRKRGFQEVVTPNIF-ALKPMNCPGHC-LRLADFGVLHRN-RRFQQDDAHIF-IKGCLDFLRTVYS-KIDIQI-QCATIQLD-PVIVHRAISVERMIAI",
     "amino-acid-file": "GenBank 386642861",
     "nucleotide-file": "GenBank 386642861",
@@ -1571,6 +1728,7 @@
   },
   "thr_euk_N_gruberi": {
     "name": "thr_euk_N_gruberi",
+    "class": "class_II",
     "regions": "LFNSIQSLMRNEYWHRGYSEVQTPNVF-SLKPMNCPSHC-IRFADFGVLHRN-RKFQQDDAHIF-IMGALRMMQDIYK-KIDILI-QCATVQLD-PVIVHRAISLERFLAI",
     "amino-acid-file": "GenBank 284090806",
     "nucleotide-file": "GenBank 284090806",
@@ -1581,6 +1739,7 @@
   },
   "thr_euk_T_vaginalis": {
     "name": "thr_euk_T_vaginalis",
+    "class": "class_II",
     "regions": "MYRRLMSMIRQQYLKRQFVEVITPNIF-GMKPMNCPGHC-IRMAEFGVLHRN-RRFVQDDAHIF-ISDGLDFMTEVYG-KIDVLV-QLATIQLD-PVMIHRAVSLERFIAI",
     "amino-acid-file": "GenBank 123449735",
     "nucleotide-file": "GenBank 123449735",
@@ -1591,6 +1750,7 @@
   },
   "thr_euk_A_subglabra": {
     "name": "thr_euk_A_subglabra",
+    "class": "class_II",
     "regions": "IYNTLVEFVRSEYWKRGYQEVISPNLF-AMKPMNCPGHC-IRMAEFAILHRN-RRFVQDDAHIF-IAGVIDFLQSVYG-KIDITI-QCATIQLD-PVMIHRAISVERFMGI",
     "amino-acid-file": "GenBank 598060755:74781-77768",
     "nucleotide-file": "GenBank 598060755:74781-77768",
@@ -1601,6 +1761,7 @@
   },
   "thr_euk_B_mori": {
     "name": "thr_euk_B_mori",
+    "class": "class_II",
     "regions": "IYNTLVNFIKEQYRSRGFHEVVTPNMY-ALKPMNCPGHC-LRLADFGVLHRN-RRFQQDDAHIF-IVGCLEFLKCVYS-KIDITI-QCATIQLD-PVIIHRAVSVERMVAI",
     "amino-acid-file": "GenBank 827562717",
     "nucleotide-file": "GenBank 827562717",
@@ -1611,6 +1772,7 @@
   },
   "thr_euk_C_gigas": {
     "name": "thr_euk_C_gigas",
+    "class": "class_II",
     "regions": "IYNTLIDLIKSEYRKRGFQEVVSPNIY-ALKPMNCPGHC-LRMADFGVLHRN-RRFQQDDAHIF-IAGCLDFLKAVYD-KIDIII-QCATIQLD-PVMIHRAISVERMIAI",
     "amino-acid-file": "GenBank 762159892",
     "nucleotide-file": "GenBank 762159892",
@@ -1621,6 +1783,7 @@
   },
   "thr_euk_C_owczarzaki": {
     "name": "thr_euk_C_owczarzaki",
+    "class": "class_II",
     "regions": "IYNTLMEFIRSEYWARGFTEVITPNMY-ALKPMNCPGHC-IRFADFGVLHRN-RRFQQDDAHIF-IDNALAFLKAVYT-KIDITI-QCATIQLD-PVIIHRAISVERMIAI",
     "amino-acid-file": "GenBank 765551063",
     "nucleotide-file": "GenBank 765551063",
@@ -1631,6 +1794,7 @@
   },
   "thr_euk_C_subellipsoidea": {
     "name": "thr_euk_C_subellipsoidea",
+    "class": "class_II",
     "regions": "IYNNLVELIREKYWEYEYEEVVTPNLY-GLKPMNCPGHC-IRMADFGVLHRN-RRFQQDDAHVF-VSSCLRMLDEVYA-KIDITV-QCATIQLD-PVIVHRAISVERMLAI",
     "amino-acid-file": "GenBank 545371374",
     "nucleotide-file": "GenBank 545371374",
@@ -1641,6 +1805,7 @@
   },
   "thr_euk_G_theta": {
     "name": "thr_euk_G_theta",
+    "class": "class_II",
     "regions": "MRNIIESFWKDLHMRSGYELVYSPHIA-QIKPMNCPFHV-IRWAELGTVYRY-RGFTQDDAHVF-ILKILDLTESVLS-KIDLKI-QCSTIQCD-PIMIHRAISVERFFGI",
     "amino-acid-file": "GenBank 428163211",
     "nucleotide-file": "GenBank 428163211",

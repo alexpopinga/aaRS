@@ -142,10 +142,20 @@ def make_no_gaps_to_gaps_file():
         gaps_key, distance = find_match(
             no_gaps_key, no_gaps=no_gaps, gaps=gaps)
         domain, species, aa = parse_no_gaps_keys(no_gaps_key)
+        class_type = "class_I" if gaps_key in class_one_sequences().keys() else "class_II"
+
+        # TODO Is R. marinus in the wrong domain?
+        # For now, I'm manually changing the domain to archaea.
         if species == 'R_marinus':
             domain = 'arch'
+        ##################################################################
+
+        # TODO is R. rosetta correct?
+        # I'm assuming this is actually S. rosetta.
         if species == 'R_rosetta':
             species = 'S_rosetta'
+        ##################################################################
+
         path, path_cost = predict_path(domain, species, aa)
         aa_paths = [p for p in predict_amino_path(path, aa)
                     if "CUT" not in p and "TEST" not in p]
@@ -183,6 +193,7 @@ def make_no_gaps_to_gaps_file():
             'nuc_header': nuc_header,
             'aa-header': aa_header,
             'no-gaps-key': no_gaps_key,
+            'class': class_type,
             'domain': domain,
             'species': species,
             'amino acid': aa,
@@ -260,6 +271,7 @@ def output_split_files():
                                  for i in range(len(v['amino-acid-aligned-gaps']))])
             perfect[k] = {
                 'name': k,
+                'class': v['class'],
                 'regions': v['gaps-value'],
                 'amino-acid-file': v['amino-acid-path'],
                 'nucleotide-file': v['nucleotide-path'],
@@ -282,6 +294,7 @@ def output_split_files():
                                      for i in range(len(v['amino-acid-aligned-gaps']))])
                 genbank[k] = {
                     'name': k,
+                    'class': v['class'],
                     'regions': v['gaps-value'],
                     'amino-acid-file': 'GenBank ' + v['gi'],
                     'nucleotide-file': 'GenBank ' + v['gi'],
@@ -303,6 +316,7 @@ def output_split_files():
             counts['aligned to amino acids only'] += 1
             good[k] = {
                 'name': k,
+                'class': v['class'],
                 'genbank-id': v['gi'],
                 'regions': v['gaps-value'],
                 'amino-acid-file': v['amino-acid-path'],
@@ -315,6 +329,7 @@ def output_split_files():
         counts['misaligned to amino acids'] += 1
         bad[k] = {
             'name': k,
+            'class': v['class'],
             'misalignments': misalignment,
             'regions': v['gaps-value'],
             'amino-acid-file': v['amino-acid-path'],
@@ -325,8 +340,11 @@ def output_split_files():
                                for c1, c2 in zip(v['amino-acid-data'],
                                                  v['amino-acid-aligned-gaps'])])
         }
+    # print summary data
     for k, v in counts.items():
         print('{}: {}'.format(k, v))
+
+    # write JSON output data
     with open('gap_data_perfect.txt', 'w') as p:
         json.dump(perfect, p, indent=2)
     with open('gap_data_genbank.txt', 'w') as gb:
@@ -337,6 +355,8 @@ def output_split_files():
         json.dump(bad, b, indent=2)
     with open('gap_data_missing.txt', 'w') as m:
         json.dump(missing_data, m, indent=2)
+
+    # write CSV output data
 
 
 def predict_amino_path(path, aa):

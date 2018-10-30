@@ -1,6 +1,7 @@
 {
   "arg_arch_S_marinus": {
     "name": "arg_arch_S_marinus",
+    "class": "class_I",
     "misalignments": 1,
     "regions": "VVEHSANPVHPLHVGSGRNAVIGNTYANL-EERFYVNDMG-EQTLKGFRETLSRLD-SYDWESS-LYTTRDIAYSI-YNVIAVEQTREQKQVKATLYLL-LVTILY-RMSGR",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Archaea/Staphylothermus marinus/Smarinus_arg_aa",
@@ -11,6 +12,7 @@
   },
   "arg_arch_Halobacterium": {
     "name": "arg_arch_Halobacterium",
+    "class": "class_I",
     "misalignments": 1,
     "regions": "VVEHSANPTGPVHVGRARNPILGDAVSRV-TREYYVNDAG-EGVLGGMRQTLERLD-EFVRETE-LYTTRDLAHHE-ITVLGEDQELHANKLRAALDIR-LEFLQY-SMSTR",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Archaea/Halobacterium sp./amino acid sequences/Halobacterium_arg_aa",
@@ -21,6 +23,7 @@
   },
   "arg_euk_S_rosetta": {
     "name": "arg_euk_S_rosetta",
+    "class": "class_I",
     "misalignments": 4,
     "regions": "IVDFSPNIAKEMHVGHLRSTIIGESISRV-HRVNHVGDWG-DVSRREFQDIYNRLD-EEKGESF-TYDTSDLATLR-VYVVGQSQGQSQCSAKAEMQSR-LLTLGS-RMLAS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Salpingoeca rosetta/amino acid sequences/Srosetta_arg_aa",
@@ -31,6 +34,7 @@
   },
   "cys_bact_H_aurantiacus": {
     "name": "cys_bact_H_aurantiacus",
+    "class": "class_I",
     "misalignments": 28,
     "regions": "RMYVGVTPYDTTHMGHARTYVVYDTIRRY-LYVQNVTDID-RQETERFLRDMDALN-HYVKATD-GWHIECTAMVL-IHGGGSDLQFPHACELAQAENF-VAWSHI-KMSKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Herpetosiphon aurantiacus/amino acid sequences/Haurantiacus_cys_aa",
@@ -41,6 +45,7 @@
   },
   "cys_bact_C_aggregans": {
     "name": "cys_bact_C_aggregans",
+    "class": "class_I",
     "misalignments": 25,
     "regions": "TLYVGVTPYDTTHMGHARTFIVFDVLVRY-TYCQNITDVD-ERQIAQLRADCADLT-FAPRVSE-GWHIECSAMSI-IHGGGADLIFPHSCEIAQSESA-AIWMHV-KMSKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Chloroflexus aggregans/amino acid sequences/Caggregans_cys_aa",
@@ -51,6 +56,7 @@
   },
   "gln_bact_C_jejuni": {
     "name": "gln_bact_C_jejuni",
+    "class": "class_I",
     "misalignments": 40,
     "regions": "MYRFAPSPTGDMHIGNLRAAIFNYICARQ-DFILRIEDTD-AGKEEEIKEILNLFQ-Y-YIQSE-TYNFACAVDDM-CIIRGEDHVSNTPKQEHIRASL-MTYAHL-KMSKR",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Campylobacter jejuni/amino acid sequences/Cjejuni_gln_aa",
@@ -61,6 +67,7 @@
   },
   "glu_bact_C_jejuni": {
     "name": "glu_bact_C_jejuni",
+    "class": "class_I",
     "misalignments": 27,
     "regions": "TTRFAPSPTGYLHIGGLRTALYNYLYARK-NFLLRIEDTD-KEATKAIIEAFKWCD-EVTYQSE-TYNFTVVIDDA-DVIRGDDHLSNTPKQIVLYEAL-PKFFHV-KLSKR",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Campylobacter jejuni/amino acid sequences/Cjejuni_glu_aa",
@@ -71,6 +78,7 @@
   },
   "leu_bact_A_aeolicus": {
     "name": "leu_bact_A_aeolicus",
+    "class": "class_I",
     "misalignments": 1,
     "regions": "YVLEFPYPSGRIHMGHVRNYTIGDAIARY-LHPMGWDAFG-EYNIDYMKKQLKILD-REIATCD-DTFFDSSWYFL-VYIGGIEHAVLLLYARFFQKFL-FKLITQ-KMSKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Aquifex aeolicus/amino acid sequences/Aaeolicus_leuALPHA_aa",
@@ -81,6 +89,7 @@
   },
   "leu_bact_R_marinus": {
     "name": "leu_bact_R_marinus",
+    "class": "class_I",
     "misalignments": 19,
     "regions": "FITVYPYTNAPLHIGHGRTYTIGDIIARY-LFPMAFHITG-VFFAERVHMDFDALD-RRFHTGE-ESLSDSTIYMA-QRHTGIAHISNLSFFIYHHIAI-PMITLN-KMSKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Archaea/Rhodothermus marinus/amino acid sequences/Rmarinus_leu_aa",
@@ -91,6 +100,7 @@
   },
   "met_euk_G_lamblia": {
     "name": "met_euk_G_lamblia",
+    "class": "class_I",
     "misalignments": 63,
     "regions": "YLTTIYYVNGKPHIGHVFTTLLADTLKRF-YLMTGTDEHG-DNMAKTFETFLENFD-VFMRTTM-YVWIDALAIYL-VQFLGKDIARFCVYWLAFLMGA-PRFFIH-KIGKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Giardia lamblia/amino acid sequences/Glamblia_met_aa",
@@ -101,6 +111,7 @@
   },
   "met_euk_G_theta": {
     "name": "met_euk_G_theta",
+    "class": "class_I",
     "misalignments": 26,
     "regions": "LLALESSSAFHTAMGSAYPTIAADILADY-VFVTGSDEHG-DAMVGEFKQLWDKLD-SFIRTTD-YVWFDALLGYI-VHIIGKDILRFAVYWPAMLMSA-PYIHSH-KMGKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Guillardia theta/amino acid sequences/Gtheta_met_aa",
@@ -111,6 +122,7 @@
   },
   "trp_arch_M_jannaschii": {
     "name": "trp_arch_M_jannaschii",
+    "class": "class_I",
     "misalignments": 13,
     "regions": "AVVSGMMPSGKMHFGHKMIIDQLLYYQKE-IYIPIADLET-KNLAIEYITNYIALI-NIYLQSK-FAPIVQVADIL-IVPVGIDQDPHLRLTRDIASRA-PPSSTY-KMSSS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Archaea/Methanococcus jannaschii/amino acid sequences/Mjannaschii_trp_aa",
@@ -121,6 +133,7 @@
   },
   "trp_euk_C_gigas": {
     "name": "trp_euk_C_gigas",
+    "class": "class_I",
     "misalignments": 4,
     "regions": "YLYTGRGPSSEMHMGHLIPFIFTKWLQDT-PLVIQLTDDE-NHLAFENAKDIIACT-FIFSDLD-SFPAIQAAPSF-LIPCAIDQDPYFRMTRDVAPRM-PALLHS-KMSAS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Crassostrea gigas/amino acid sequences/Cgigas_trp_aa",
@@ -131,6 +144,7 @@
   },
   "trp_euk_M_domestica": {
     "name": "trp_euk_M_domestica",
+    "class": "class_I",
     "misalignments": 3,
     "regions": "YLYTGRGPSSELHLGHLIPFIMTKYLQEA-PLVIQMSDDE-IKLAHENAKDIIAMT-FIFNNLT-GFPAVQAAPAL-LIPCAIDQDPYFRMCRDVAPRL-CALIHS-KMSAS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Musca domestica/amino acid sequences/Mdomestica_trp_aa",
@@ -141,6 +155,7 @@
   },
   "tyr_arch_P_aerophilum": {
     "name": "tyr_arch_P_aerophilum",
+    "class": "class_I",
     "misalignments": 40,
     "regions": "SAYLGFEPLWPIHIGWLIWAYKLAELKEA-DVIVLVAT-W-HAHGERVRAVLDRIF-KYVYGDD-MYPLMQVADIF-VAVGGMDQRRAHMLARDVAEKL-PIALHT-KMSKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Archaea/Pyrobaculum aerophilum/amino acid sequences/Paerophilum_tyr_aa",
@@ -151,6 +166,7 @@
   },
   "tyr_arch_P_occultum": {
     "name": "tyr_arch_P_occultum",
+    "class": "class_I",
     "misalignments": 1,
     "regions": "KGYIGFEPSGLFHIGWLVWANKVRDMIDA-EFYLLAAT-W-HKAARHVIDVLEAIL-KVVDAED-IYPAMQVTDIF-IALGGTDQRKAHMLARDTAEKL-PIAIHT-KMSKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Archaea/Pyrodictium occultum/amino acid sequences/Poccultum_tyr_aa",
@@ -161,6 +177,7 @@
   },
   "tyr_bact_B_licheniformis": {
     "name": "tyr_bact_B_licheniformis",
+    "class": "class_I",
     "misalignments": 34,
     "regions": "SLYSGFDPTDSLHIGHLLPILMLRRFQLA-RPIALVGG-A-REWSQKIKNQLSRFA-IMANNYD-SYMILQSLDFL-LQIGGSDQWGNITSGLELIRKS-AFGLTI-KFGKT",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Bacillus licheniformis/amino acid sequences/Blicheniformis_tyr_aa",
@@ -171,6 +188,7 @@
   },
   "val_arch_A_fulgidus": {
     "name": "val_arch_A_fulgidus",
+    "class": "class_I",
     "misalignments": 55,
     "regions": "IIDTPPYPTGSFHIGHALNWCIIDFIARY-MFPQGWDCHG-EENIAKMRETARRMD-KEYITMY-DTWMDSSITPL-LRPQGHDIIRTAFYTILRSLAL-WEIVIN-KMSKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Archaea/Archaeoglobus fulgidus/amino acid sequences/val_Arc_A_fulgidus",
@@ -181,6 +199,7 @@
   },
   "val_arch_M_thermautotrophicus": {
     "name": "val_arch_M_thermautotrophicus",
+    "class": "class_I",
     "misalignments": 7,
     "regions": "VIDTPPYPTGELHMGHVLNWTYMDVVARY-FFPQGWDCHG-LENIRKMREQLIQLD-TEYVTMD-DTWMDSSITPL-LRPQGHDIIRTLYYTTVRALVH-FEILIN-KMSKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Archaea/Methanothermobacter thermautotrophicus/amino acid sequences/Mthermautotrophicus_val_aa",
@@ -191,6 +210,7 @@
   },
   "val_arch_M_kandleri": {
     "name": "val_arch_M_kandleri",
+    "class": "class_I",
     "misalignments": 9,
     "regions": "IIDTPPYPTGSIHMGHVLNWVYMDIIARF-LFPQGWDCHG-QENIRMMKEQMQRLD-HEFVTMT-DTWMDSSISPL-LRPQGHDIIRTAFYTILRCMAL-FEIVIN-KMSKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Archaea/Methanopyrus kandleri/amino acid sequences/Mkandleri_val_aa",
@@ -201,6 +221,7 @@
   },
   "val_euk_C_gigas": {
     "name": "val_euk_C_gigas",
+    "class": "class_I",
     "misalignments": 10,
     "regions": "VMCLPPNVTGTLHLGHAITNTIQDALVRW-LWLPGCDHAG-ERKGETIYDQLKKLD-RACFTLD-DTWFSSGLFPF-LMETGSDILFFVARMVMLGMKL-FKVLLH-KMSKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Crassostrea gigas/amino acid sequences/Cgigas_val_aa",
@@ -211,6 +232,7 @@
   },
   "ala_bact_D_radiodurans": {
     "name": "ala_bact_D_radiodurans",
+    "class": "class_II",
     "misalignments": 44,
     "regions": "TTAEIRERYLYFFETKGHLRLPHSTIA-LFTVAGMQPFK-KRVTTAQKCVRV-SLFEMMGNFSF-KRDAIHWAWEFLT-CSEIYY-EVWNLVFP-FKNIDTGMGLERVASV",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Deinococcus radiodurans/amino acid sequences/Dradiodurans_ala_aa",
@@ -221,6 +243,7 @@
   },
   "ala_bact_B_licheniformis": {
     "name": "ala_bact_B_licheniformis",
+    "class": "class_II",
     "misalignments": 37,
     "regions": "TSAQVRQMFLDFFKEKGHAVEPASLIP-LWINSGVATLK-PRICNAQKSIRT-TFFEMLGNFSI-KEEAIEWAWEFLT-NTEIFY-EVWNLVFS-KKNIDTGMGLERMVSV",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Bacillus licheniformis/amino acid sequences/Blicheniformis_ala_aa",
@@ -231,6 +254,7 @@
   },
   "ala_euk_G_theta": {
     "name": "ala_euk_G_theta",
+    "class": "class_II",
     "misalignments": 1,
     "regions": "PVSRVRKTFIEFFQSKGHTFWANSVVP-LFTNAGMNQFK-NRACNSQKCIRA-TFFEMLGNWSF-KKEATAWAWELLT-CTELHY-EIWNVVFI-GKHVDTGMGLERITSI",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Guillardia theta/amino acid sequences/Gtheta_ala_aa",
@@ -241,6 +265,7 @@
   },
   "asp_euk_A_subglabra": {
     "name": "asp_euk_A_subglabra",
+    "class": "class_II",
     "misalignments": 4,
     "regions": "LQAVVTDLFREHLHKNGFTEIHSPKLQ-FLAQSPQLAKQ-ERVYEIGPVFRA-TEFIGLDLEMT-YHEVMELLDSLFL-SYDFFM-EILSGAQR-PPHGGGGIGLERVLML",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Auricularia subglabra/amino acid sequences/Asubglabra_asp_aa",
@@ -251,6 +276,7 @@
   },
   "asp_euk_N_gruberi": {
     "name": "asp_euk_N_gruberi",
+    "class": "class_II",
     "misalignments": 32,
     "regions": "LQSLIGRKFCEYMYSKDFTEIHTPHIV-ELTTSSHLHQQ-DRVFEISCAFEK-NEKTTLNFGMT-YHEVISVVKELLN-NFIILI-VVGRGCQY-QPCGGCSIDLELFLMQ",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Naegleria gruberi/amino acid sequences/Ngruberi_asp_aa",
@@ -261,6 +287,7 @@
   },
   "his_bact_C_aggregans": {
     "name": "his_bact_C_aggregans",
+    "class": "class_II",
     "misalignments": 28,
     "regions": "TSRHIQTILERTIAGFGYQMIDAPIIE-ALRPEWTASVL-LRLSYAGPVFRY-RQFTQVGGEII-DAEVIALACAGLN-IFEIYD-QLCGGGRY-VPAVGFAYGLERVVAA",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Chloroflexus aggregans/amino acid sequences/Caggregans_his_aa",
@@ -271,6 +298,7 @@
   },
   "lys_euk_L_infantum": {
     "name": "lys_euk_L_infantum",
+    "class": "class_II",
     "misalignments": 15,
     "regions": "KRHAITRALRDFLDARSFVEVETPVLH-FLRVAPELHLK-ERVYEIGRVFRN-PEFTTCEFYAA-YKDLMTMTEEILR-RFELFI-EYCNAYSE-PPTAGWGMGIDRVAML",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Leishmania infantum/amino acid sequences/Linfantum_lys_aa",
@@ -281,6 +309,7 @@
   },
   "lys_euk_G_theta": {
     "name": "lys_euk_G_theta",
+    "class": "class_II",
     "misalignments": 10,
     "regions": "RRAKIIQGIRDYLNQREYLEIETPILT-YMRIATELHLK-ERVYELGRIFRN-PEFTSVELYQA-YEDMMNLVEEMIC-RFELFV-ELANAFSE-PPTAGLGIGIDRLIML",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Guillardia theta/amino acid sequences/Gtheta_lys_aa",
@@ -291,6 +320,7 @@
   },
   "phe_euk_R_filosa": {
     "name": "phe_euk_R_filosa",
+    "class": "class_II",
     "misalignments": 56,
     "regions": "PLMKMRNEMRKILLEMGFEEMPTNFVE-LLRTHTTAISS-MKYFSIDRVFRN-AEFHQVEGLIA-LGHLIGVISQFFQ-SMEIFG-EVGNSGVF-VQVIAWGLGLERPCMI",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Reticulomyxa filosa/amino acid sequences/Rfilosa_phe_aa",
@@ -301,6 +331,7 @@
   },
   "phe_euk_S_rosetta": {
     "name": "phe_euk_S_rosetta",
+    "class": "class_II",
     "misalignments": 34,
     "regions": "PLMKVRTEYRQIFLEMGFEEMPTRFVE-ILRTHTTAVSA-VKYFSIDRVFRN-AEFHQIEGVIA-LGDLIGTLESFFK-SMEVFS-EIGNSGIF-VVVIAWGLSLERPTMI",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Salpingoeca rosetta/amino acid sequences/Srosetta_phe_aa",
@@ -311,6 +342,7 @@
   },
   "phe_euk_D_discoideum": {
     "name": "phe_euk_D_discoideum",
+    "class": "class_II",
     "misalignments": 35,
     "regions": "PLNKVKNEFKQIFLDMGFEEMPTNFVE-ILRTHTTAVSA-KKYFSIDRVFRN-AEFHQVEGVIA-LGHLIGVISEFFK-SMEIFG-ELGNSGIF-VRVAAWGLSLERPTMI",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Dictyostelium discoideum/amino acid sequences/Ddiscoideum_phe_aa",
@@ -321,6 +353,7 @@
   },
   "phe_euk_G_theta": {
     "name": "phe_euk_G_theta",
+    "class": "class_II",
     "misalignments": 41,
     "regions": "PLLKVRAQFREIFLEMGFEEMPTRFVE-LLRTHTTAISA-KKFFSIDRVFRN-AEFHQIEGLVV-LGDLMGMIQAFFE-SMEIFH-EVGNSGMF-VTCIAWGLSLERPTMI",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Guillardia theta/amino acid sequences/Gtheta_phe_aa",
@@ -331,6 +364,7 @@
   },
   "phe_euk_L_infantum": {
     "name": "phe_euk_L_infantum",
+    "class": "class_II",
     "misalignments": 25,
     "regions": "PLLKVRQEFREILMELGFQEMDTHWAE-VLRTHTTGSSA-GRYYSIDRVFRN-CEFHQVEGFVI-LAKMMHTFDSFFR-SMEIFG-EVGNSGLF-VTVMAWGLSLERPTMI",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Leishmania infantum/amino acid sequences/Linfantum_phe_aa",
@@ -341,6 +375,7 @@
   },
   "pro_arch_S_acidocaldarius": {
     "name": "pro_arch_S_acidocaldarius",
+    "class": "class_II",
     "misalignments": 70,
     "regions": "IRQAAVDLIRKLLDAKGHEEVLFPLLV-ALRPTSETAIT-KKYYQIVSVFRY-REVTFKEAHTL-VKEAIEIYKNFFE-TIAFDT-QIGTVHHL-PHQTSYGIS-DRVIAV",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Archaea/Sulfolobus acidocaldarius/amino acid sequences/Sacidocaldarius_pro_aa",
@@ -351,6 +386,7 @@
   },
   "pro_bact_H_aurantiacus": {
     "name": "pro_bact_H_aurantiacus",
+    "class": "class_II",
     "misalignments": 25,
     "regions": "STQKISQIIREEMDAIDGQELLMPVVT-VLNMTHEEVVT-VMVYQIQTKYRD-REFTMKDAYSF-YEQVLNAYKRIYQ-TIARAI-EVGNIFKL-AIMGCYGIGVQRILAS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Herpetosiphon aurantiacus/amino acid sequences/Haurantiacus_pro_aa",
@@ -361,6 +397,7 @@
   },
   "pro_euk_D_discoideum": {
     "name": "pro_euk_D_discoideum",
+    "class": "class_II",
     "misalignments": 30,
     "regions": "IWEQIQAFFDAEIKKLDVQNAYFPLLV-AIRPTSETIMY-LKLNQWVNVVRW-REFLWQEGHTA-VFTILDLYRRVYE-TTTIEG-QAATSHAL-AWQNSWGLT-TRTIGV",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Dictyostelium discoideum/amino acid sequences/Ddiscoideum_pro_aa",
@@ -371,6 +408,7 @@
   },
   "pro_euk_C_owczarzaki": {
     "name": "pro_euk_C_owczarzaki",
+    "class": "class_II",
     "misalignments": 22,
     "regions": "VWDHIRDFFDREIKLLGVENAYFPMFV-ALRPTSETIMY-LKINQWANVVRW-REFLWQEGHTA-VLQILELYRRVYE-TTTVEA-QGATSHNL-VWQNSWGLT-TRTIGV",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Capsaspora owczarzaki/amino acid sequences/Cowczarzaki_pro_aa",
@@ -381,6 +419,7 @@
   },
   "ser_euk_C_owczarzaki": {
     "name": "ser_euk_C_owczarzaki",
+    "class": "class_II",
     "misalignments": 34,
     "regions": "LEFALIQYAFTMLVQRDFTPLTTPFFM-YLIATSEQPIA-KRYAGYSSCFRQ-HQFEKIEQFCI-MEQMLKNATDFYQ-KYDVEG-ELVSCSNC-VHMLNSTMALTRVICI",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Capsaspora owczarzaki/amino acid sequences/Cowczarzaki_ser_aa",
@@ -391,6 +430,7 @@
   },
   "thr_bact_B_thailandensis": {
     "name": "thr_bact_B_thailandensis",
+    "class": "class_II",
     "misalignments": 23,
     "regions": "LRSLLEDFLKQEQLKRGYLPVVTPHIA-VLKPMNCPFHI-MRLAEFGTVYRY-RGFTVDDSHLF-FLNVVDLILSVFN-KLDFIF-QLGTVQVD-PVMIHRAPSLERLIGI",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Burkholderia thailandensis/amino acid sequences/Bthailandensis_thr_aa",
@@ -401,6 +441,7 @@
   },
   "thr_bact_G_obscuriglobus": {
     "name": "thr_bact_G_obscuriglobus",
+    "class": "class_II",
     "misalignments": 1,
     "regions": "IRRLLETFITDYERRAGYLHVFTPDIA-CLRPMCCPHHI-IRIAELGNMYRF-RCMTLNDAHLF-IAGVLQLMKKAYA-KIDVQV-TLSTIQAD-PVMIHRGVTMERMMSY",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Gemmata obscuriglobus/amino acid sequences/Gemmata_thr_aa",

@@ -1,6 +1,7 @@
 {
   "arg_arch_M_kandleri": {
     "name": "arg_arch_M_kandleri",
+    "class": "class_I",
     "genbank-id": "20093440:720653-720730",
     "regions": "ILEHSANPNGPLHIGHGRNAVIGDILARC-EVQYYVNDMG-TVVERGHIQTLERLD-RFVYESE-LYTTRDIAYHL-VDVLGADHKLAVEQLRAVLDML-IDVYEF-SMSTR",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Archaea/Methanopyrus kandleri/amino acid sequences/Mkandleri_arg_aa",
@@ -11,6 +12,7 @@
   },
   "arg_bact_P_mikurensis": {
     "name": "arg_bact_P_mikurensis",
+    "class": "class_I",
     "genbank-id": "381385343:3524475-3526358",
     "regions": "VVDYSPNLAKEMHVGHLRSSVIGDALCRV-IRQNHIGDWG-GESLRHMNEVFARLG-DDKPESA-GYATTDLAAAA-VYVVDSRQREHFQKFFAAARDA-MDHAAF-PFKTR",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Phycisphaera mikurensis/amino acid sequences/Pmikurensis_arg_aa",
@@ -21,6 +23,7 @@
   },
   "arg_euk_C_owczarzaki": {
     "name": "arg_euk_C_owczarzaki",
+    "class": "class_I",
     "genbank-id": "754353621:123638-126325",
     "regions": "VLDFSPNIAKPFHAGHLRSAIIGNVLRNL-VAINYLGDWG-SLSEVEYRSMYARLD-VYDGESL-TYLTRDIAAAV-LYVVGPEQALHFEQLFELLRVL-CRHVAF-GMSSR",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Capsaspora owczarzaki/amino acid sequences/Cowczarzaki_arg_aa",
@@ -31,6 +34,7 @@
   },
   "glu_euk_B_hominis": {
     "name": "glu_euk_B_hominis",
+    "class": "class_I",
     "genbank-id": "855318113:192492-193521",
     "regions": "-VRFAPSPTGFMHLGGLRMALINYLIAKK-KFILRIEDTD-KGSADNIIRTLCDFD-GPYVQSS-TYHLASVVDDH-LVIRGEEWISSVPKHLQLYSAF-PDFIHL-KISKR",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Blastocystis hominis/amino acid sequences/Bhominis_glu_aa",
@@ -41,6 +45,7 @@
   },
   "ile_bact_G_obscuriglobus": {
     "name": "ile_bact_G_obscuriglobus",
+    "class": "class_I",
     "genbank-id": "163804307:1-3463",
     "regions": "SFLDPITANNPMGVHHAWGRTYKDVYNRY-RYQQGFDCQG-NKFARVQTDQSIRLN-RTYFTMS-NPWLDAGIVAF-FITESFGQFRNFYALLAMSTMM-FTLLGH-EMHKT",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Gemmata obscuriglobus/amino acid sequences/Gemmata_ile_aa",
@@ -51,6 +56,7 @@
   },
   "ile_euk_A_subglabra": {
     "name": "ile_euk_A_subglabra",
+    "class": "class_I",
     "genbank-id": "598060737:1511943-1515872",
     "regions": "VLQDPPYANGSLHMGHALNKILKDIILRF-QYIPGWDCHG-LREVDNQREQMKVFN-DGYRTIE-DVWFDSGTAWT-VVLEGSDQHRGFQSLLLTSLGA-YTVVTH-KMAKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Auricularia subglabra/amino acid sequences/Asubglabra_ile_aa",
@@ -61,6 +67,7 @@
   },
   "ile_euk_B_hominis": {
     "name": "ile_euk_B_hominis",
+    "class": "class_I",
     "genbank-id": "855318254:826281-829609",
     "regions": "ITHDPPYANGDLHMGHFENKILKDIINRH-EYKPGWDCHG-SDTIKRQKKSINEWS-IVTIL---DVWIDSGVSWF-SYLEGSDQHRGFQSSIFTSQVH-FNLVTH-KMSKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Blastocystis hominis/amino acid sequences/Bhominis_ile_aa",
@@ -71,6 +78,7 @@
   },
   "leu_arch_T_volcanium": {
     "name": "leu_arch_T_volcanium",
+    "class": "class_I",
     "genbank-id": "13540831:595236-596849",
     "regions": "MITVWPYTNGSLHVGHGRTYTLGDIIARY-LFPMGFHQSG-DYFSNAIINDFKHLD-RKFTSAD-ESLSDSTIYPA-IRLTAVPHISNLSFYVMNHAAI-PGLIIS-KISKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Archaea/Thermoplasma volcanium/amino acid sequences/Tvolcanium_leu_aa",
@@ -81,6 +89,7 @@
   },
   "leu_euk_A_subglabra": {
     "name": "leu_euk_A_subglabra",
+    "class": "class_I",
     "genbank-id": "598060779:230925-234740",
     "regions": "MGTVFAYMNGSLHAGHGFSISKIEFNAGF-LFPVGFHCTG-SYYPHITKDDNIAFD-RQFITTD-ESLSDSTIYMS-IRSSGKDLIPNLTFCLYNHAAI-PSMRAN-KMSKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Auricularia subglabra/amino acid sequences/Asubglabra_leu_aa",
@@ -91,6 +100,7 @@
   },
   "leu_euk_B_hominis": {
     "name": "leu_euk_B_hominis",
+    "class": "class_I",
     "genbank-id": "855318089:324033-326770",
     "regions": "YVLPFPYPSGKMHMGHVRVFSISDCISRY-IHPMGWDAFG-KNNVEEMRKQISGLN-REVNTST-DTFMDSSWYFY-YYVGGSEHSIMLLFARFVARFL-FHLITQ-KMSKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Blastocystis hominis/amino acid sequences/Bhominis_leu_aa",
@@ -101,6 +111,7 @@
   },
   "leu_euk_S_rosetta": {
     "name": "leu_euk_S_rosetta",
+    "class": "class_I",
     "genbank-id": "514698965:1157345-1163951",
     "regions": "YALAFPYPSGALHMGHVRVYTISDSVARF-IHPMGWDAFG-IRNIAYMKEQLDALD-REVTTCS-DTFVDSAWYFL-LYIGGIEHAVLLLYARFVNMAA-FKLLAQ-KMSKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Salpingoeca rosetta/amino acid sequences/Srosetta_leu_aa",
@@ -111,6 +122,7 @@
   },
   "tyr_euk_A_subglabra": {
     "name": "tyr_euk_A_subglabra",
+    "class": "class_I",
     "genbank-id": "598060832:135323-136978",
     "regions": "KCYWGSATTGRPHIGYYVPLTKIADFLTA-EVTILLAD-V-AHRTKYYEFLLRTVL-KFVVGSS-LYPGLQALDEQ-FQFGGVDQRKIFTYAKEYLPKL-RAHLMN-KMSSS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Auricularia subglabra/amino acid sequences/Asubglabra_tyr_aa",
@@ -121,6 +133,7 @@
   },
   "val_euk_S_rosetta": {
     "name": "val_euk_S_rosetta",
+    "class": "class_I",
     "genbank-id": "514697970:1764540-1771969",
     "regions": "TLVIPPNVTGSLHMGHALTNSIEDTLTRW-LWNPGCDHAG-EEKGGFIYKQIKYLD-REAFTMS-DTWFSSGIFPI-LLETGYDILFFVARMVMMCTYL-FDVYLH-KMSKS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Salpingoeca rosetta/amino acid sequences/Srosetta_val_aa",
@@ -131,6 +144,7 @@
   },
   "ala_euk_B_hominis": {
     "name": "ala_euk_B_hominis",
+    "class": "class_II",
     "genbank-id": "855318105:114356-117274",
     "regions": "TAKELRDQFLQYFASKNHTIVPSSVIP-LFVNAGMNQFK-RRVTTSQLCIRA-TMFEMLGNFSL-KDEAISMAYEFVS-CSELFF-EIWNLVFM-GGWIDTGMGCERMLSV",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Blastocystis hominis/amino acid sequences/Bhominis_ala_aa",
@@ -141,6 +155,7 @@
   },
   "ala_euk_S_rosetta": {
     "name": "ala_euk_S_rosetta",
+    "class": "class_II",
     "genbank-id": "514682398:226818-236321",
     "regions": "TADKVRGKFISYFEERGHKFWPSSTIP-LFANAGMNQYK-TRAVNSQKCIRA-TFFEMLGNWSF-KEEAIDFSWDLLT-CTEIHY-EIWNLVFM-AQHVDTGMGLERILSV",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Salpingoeca rosetta/amino acid sequences/Srosetta_ala_aa",
@@ -151,6 +166,7 @@
   },
   "asn_bact_D_radiodurans": {
     "name": "asn_bact_D_radiodurans",
+    "class": "class_II",
     "genbank-id": "15805042:1276707-1278064",
     "regions": "VRDCVQRGIVEFFHGEGFVRFDAPFFT-YLSQTGQLHAE-RQGLHFGPTFRA-LEFWMVEPEVA-HAENMALQERMVS-CDDMIA-EIIGGSER-MPHAGYGMGLERFIAW",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Deinococcus radiodurans/amino acid sequences/Dradiodurans_asn_aa",
@@ -161,6 +177,7 @@
   },
   "asn_euk_A_subglabra": {
     "name": "asn_euk_A_subglabra",
+    "class": "class_II",
     "genbank-id": "598060899:32886-34945",
     "regions": "LRAHLLTAFRATLIKHQLIEVTPPCLV-FLTQSSQLYLE-GDVFCIQESFRA-SEYTHLEGELA-FDELMDHIETLIC-SCDLLM-EIVGGSMR-CEHGGYGLGVERLLAW",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Auricularia subglabra/amino acid sequences/Asubglabra_asn_aa",
@@ -171,6 +188,7 @@
   },
   "asn_euk_S_rosetta": {
     "name": "asn_euk_S_rosetta",
+    "class": "class_II",
     "genbank-id": "514693643:821865-824681",
     "regions": "VRSCLTQLTHRIFAEWDFASVHTPILT-HLTVSGQLHAE-PRVYTFGPTFRA-AEFYMLEAEMA-LDDCLDLQDDFIS-AADLIV-ELTGGSAR-VPHAGFGLGFERLLLA",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Salpingoeca rosetta/amino acid sequences/Srosetta_asn_aa",
@@ -181,6 +199,7 @@
   },
   "asp_bact_P_mikurensis": {
     "name": "asp_bact_P_mikurensis",
+    "class": "class_II",
     "genbank-id": "381385343:2608196-2609935",
     "regions": "KRHRVTKTVRDFCDEHGFLEIETPFLC-ALPQSPQLFKQ-ERYVQIVRCFRD-AEFTQVDLEMS-QEDVIGLCEGMIR-AYDLVL-ELGGGSIR-PPHGGLAFGLDRVVMH",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Phycisphaera mikurensis/amino acid sequences/Pmikurensis_asp_aa",
@@ -191,6 +210,7 @@
   },
   "gly_euk_G_theta": {
     "name": "gly_euk_G_theta",
+    "class": "class_II",
     "genbank-id": "428165017",
     "regions": "IKNNIVDAWRKFFVSDGMLEVACPSIT-FLRPETAQGIF-MTIAQIGKSFRN-REFEMAEIEHF-LAYFLGKTQKFLR-CWDAEV-EVVGHADR-TRVVEPSFGLDRLFYC",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Guillardia theta/amino acid sequences/Gtheta_gly_aa",
@@ -201,6 +221,7 @@
   },
   "his_euk_G_theta": {
     "name": "his_euk_G_theta",
+    "class": "class_II",
     "genbank-id": "428186265",
     "regions": "MRNWLFGHWKDVARLHGFEEYDAPVLE-SLRPEMTPSLA-VKWFSIPQCWRY-REHYQWNMDIW-EAELLSAIVTFFK-VFEGFD-AICGGGRY-LPAVGFGFGDAVIAEL",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Guillardia theta/amino acid sequences/Gtheta_his_aa",
@@ -211,6 +232,7 @@
   },
   "his_euk_A_subglabra": {
     "name": "his_euk_A_subglabra",
+    "class": "class_II",
     "genbank-id": "598060897:874-3593",
     "regions": "CREHIERIVKDVFQTFGGSCLDTPVFE-ALRYDHTVPLA-QKLWQVGKVYRR-REFMQADFDLA-DAELIAIISTILS-TVEAIV-SIAGGGRY-VPCVGASIGMDRIFAL",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Auricularia subglabra/amino acid sequences/Asubglabra_his_aa",
@@ -221,6 +243,7 @@
   },
   "lys_euk_A_subglabra": {
     "name": "lys_euk_A_subglabra",
+    "class": "class_II",
     "genbank-id": "598060740:88509-91103",
     "regions": "TRSRVLNYVRRFLDNLGFLEVETPMMS-YLRIAPELYLK-DRVYEIGRVFRN-PEFTICEFYMA-MYDLMDLTESMVE-RFEGFL-EICNAYTE-LNDPFEQRERFEEQLR",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Auricularia subglabra/amino acid sequences/Asubglabra_lys_aa",
@@ -231,6 +254,7 @@
   },
   "lys_euk_S_rosetta": {
     "name": "lys_euk_S_rosetta",
+    "class": "class_II",
     "genbank-id": "514701980:2398840-2405290",
     "regions": "VRANIISYVRRFLDMNGFLEVETPMMN-FLRVAPELYLK-DRVYELGRQFRN-PEFTSCEFYMA-FNDLMVMTEELIA-RFELFV-EVCNAYTE-LNDPQVQRERFEQQAK",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Salpingoeca rosetta/amino acid sequences/Srosetta_lys_aa",
@@ -241,6 +265,7 @@
   },
   "phe_euk_M_domestica": {
     "name": "phe_euk_M_domestica",
+    "class": "class_II",
     "genbank-id": "557778001",
     "regions": "PLLKVRTEFRQIFLEMGFSEMPTNYVE-LLRTHTTAVSA-AKYFSIDKVFRN-AEFHQVEGVIA-LGDLIGTLYEFFR-SMEIFC-EVGNSGVF-VNVIAWGLSLERPTMI",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Musca domestica/amino acid sequences/mtDNA/mtDNA_Mdomestica_phe_aa",
@@ -251,6 +276,7 @@
   },
   "phe_euk_B_hominis": {
     "name": "phe_euk_B_hominis",
+    "class": "class_II",
     "genbank-id": "300122374:220970-222393",
     "regions": "PICILKKTILSYFLNKEFSVYEDSPIV-VLRPHTSAHQV-NSFIVVGDVYRR-PAFTQMEIVRV-INDMKGVVEGLIK-SLEVEV-ELLGSGVI-DCGWALGIGLERLAMS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Blastocystis hominis/amino acid sequences/Bhominis_phe_aa",
@@ -261,6 +287,7 @@
   },
   "pro_bact_P_mikurensis": {
     "name": "pro_bact_P_mikurensis",
+    "class": "class_II",
     "genbank-id": "381385343:3049653-3051743",
     "regions": "SLRKVERIIREEQHAAGAVEVSLPCLQ-ALAPTAEEAVA-RNVYQIQTKFRD-REFLMKDGYSF-YRAQYAAYERIFE-VASRGI-EVGQVFKL-PLMGCYGIGVNRVLAS",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Phycisphaera mikurensis/amino acid sequences/Pmikurensis_pro_aa",
@@ -271,6 +298,7 @@
   },
   "pro_euk_B_hominis": {
     "name": "pro_euk_B_hominis",
+    "class": "class_II",
     "genbank-id": "855318208:236633-238558",
     "regions": "IWERIQEFLDAKIKASGVKNAYFPMFV-AIRPTSETIMY-LRLNQWTNVVRW-REFLWQEGHSA-VLEILDYYARVYE-TTTVEA-QAATSHCL-VWQNSWGLT-TRSIGV",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Blastocystis hominis/amino acid sequences/Bhominis_pro_aa",
@@ -281,6 +309,7 @@
   },
   "pro_euk_S_rosetta": {
     "name": "pro_euk_S_rosetta",
+    "class": "class_II",
     "genbank-id": "514655703:1984780-1987820",
     "regions": "VVQRLQSLVRAELNAIGSQECVLPAIT-CLAATHEETVT-LYLYQMQPKYRD-REFMMKDMYTF-YAKVVECYQRILQ-SHEFQI-EVGHAFLL-IHMGCYGLGLTRMLSA",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Salpingoeca rosetta/amino acid sequences/Srosetta_pro_aa",
@@ -291,6 +320,7 @@
   },
   "ser_euk_A_subglabra": {
     "name": "ser_euk_A_subglabra",
+    "class": "class_II",
     "genbank-id": "598060741:916841-918790",
     "regions": "LELALTNYAFSVALKRGFRPALTPDVV-VLTGTAEIPLA-VRVAGLGRAFRS-HQFSKVELFAV-LDELKQVQIELFS-KYDMEA-EISSTSNC-AHTLNGTAAVPRLIIA",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Auricularia subglabra/amino acid sequences/Asubglabra_ser_aa",
@@ -301,6 +331,7 @@
   },
   "ser_euk_G_theta": {
     "name": "ser_euk_G_theta",
+    "class": "class_II",
     "genbank-id": "428179792",
     "regions": "LHRALAQFMLDTHVEKGYSEVYVPYIV-YLIPTAEVPVT-IKYTAHTPCFRS-HQFEKVELVQI-LEELTGHAEAILK-TYDLEV-EISSCSNC-VHTLNGSGAIGRTLVA",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Guillardia theta/amino acid sequences/Gtheta_ser_aa",
@@ -311,6 +342,7 @@
   },
   "thr_bact_P_mikurensis": {
     "name": "thr_bact_P_mikurensis",
+    "class": "class_II",
     "genbank-id": "381385343:2626727-2628595",
     "regions": "IRQELQTFIGEHLARQGYSQVFTPHIG-LLKPMNCPHHI-IRLAEFGTVYRW-RGFTQDDAHLF-VRGCIDLVKAVFE-KIDFVV-QLGTVQVD-PVMIHRAPSMERFVGC",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Bacteria/Phycisphaera mikurensis/amino acid sequences/Pmikurensis_thr_aa",
@@ -321,6 +353,7 @@
   },
   "thr_euk_R_filosa": {
     "name": "thr_euk_R_filosa",
+    "class": "class_II",
     "genbank-id": "569385032",
     "regions": "IYNKLQQFISGCYRDRGFTEVISPNVY-GLKPMNCPGHC-LRFADFGALHRN-RRFQQDDAHIF-VSNCLHFLDYVYG-KVDIHV-QCATIQLD-PVIVHRAISFERFIAI",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Reticulomyxa filosa/amino acid sequences/Rfilosa_thr_aa",
@@ -331,6 +364,7 @@
   },
   "thr_euk_S_rosetta": {
     "name": "thr_euk_S_rosetta",
+    "class": "class_II",
     "genbank-id": "514674916:938-6296",
     "regions": "LLHRLTDLIRRQFRIRGYEEVMTPLVF-GLKPMNCPAHC-LRLGEFSALHRN-RQFHQDDAHIF-VAGCLDFVRTVYD-KIDVYL-QSATIQLD-PVIIHRAISLERMTAV",
     "amino-acid-file": "../../Documents/Archaeans_Bacteria_Eukaryotes/Eukaryotes/Salpingoeca rosetta/amino acid sequences/Srosetta_thr_aa",
