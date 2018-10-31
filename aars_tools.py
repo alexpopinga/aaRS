@@ -72,6 +72,44 @@ def final_sequences():
         and '2j3mb' not in s.attrib['taxon']
         and '2cjab' not in s.attrib['taxon']
         and '3a32' not in s.attrib['taxon']
+        and '3c8z' not in s.attrib['taxon']
+        and '1htt' not in s.attrib['taxon']
+        and '1wu7a' not in s.attrib['taxon']
+        and 'd1adjc' not in s.attrib['taxon']
+        and 'd1qe0a' not in s.attrib['taxon']
+        and '2hz7' not in s.attrib['taxon']
+        and '1j09' not in s.attrib['taxon']
+        and '1ile' not in s.attrib['taxon']
+        and '1qu2' not in s.attrib['taxon']
+        and '1wz2' not in s.attrib['taxon']
+        and '2v0c' not in s.attrib['taxon']
+        and '1pfv' not in s.attrib['taxon']
+        and '1woy' not in s.attrib['taxon']
+        and '2csx' not in s.attrib['taxon']
+        and '2x1l' not in s.attrib['taxon']
+        and '2el7' not in s.attrib['taxon']
+        and '2g36' not in s.attrib['taxon']
+        and '1h3f' not in s.attrib['taxon']
+        and '1jil' not in s.attrib['taxon']
+        and '2cyb' not in s.attrib['taxon']
+        and '2cyc' not in s.attrib['taxon']
+        and '1yfsa' not in s.attrib['taxon']
+        and '2ztg' not in s.attrib['taxon']
+        and '2zze' not in s.attrib['taxon']
+        and 'd1c0aa' not in s.attrib['taxon']
+        and 'd1efwa' not in s.attrib['taxon']
+        and 'd1atib' not in s.attrib['taxon']
+        and '1htt' not in s.attrib['taxon']
+        and '1wu7a' not in s.attrib['taxon']
+        and 'd1adjc' not in s.attrib['taxon']
+        and 'd1qe0a' not in s.attrib['taxon']
+        and '3e9h' not in s.attrib['taxon']
+        and '2alya' not in s.attrib['taxon']
+        and 'd1hc7a' not in s.attrib['taxon']
+        and 'd1nj8a' not in s.attrib['taxon']
+        and 'd1evka' not in s.attrib['taxon']
+        and 'd1nyra' not in s.attrib['taxon']
+        and '1gax' not in s.attrib['taxon']
     }
 
 
@@ -340,10 +378,6 @@ def output_split_files():
                                for c1, c2 in zip(v['amino-acid-data'],
                                                  v['amino-acid-aligned-gaps'])])
         }
-    # print summary data
-    for k, v in counts.items():
-        print('{}: {}'.format(k, v))
-
     # write JSON output data
     with open('gap_data_perfect.txt', 'w') as p:
         json.dump(perfect, p, indent=2)
@@ -357,6 +391,62 @@ def output_split_files():
         json.dump(missing_data, m, indent=2)
 
     # write CSV output data
+    with open('gap_data_alignment.csv', 'w') as csv_file:
+        csv_data = dict(perfect, **genbank)
+        header = 'Identifier,Class,Amino Acid'
+        counter = 1
+        total = len(csv_data)
+        indices = [0 for _ in csv_data]
+        strings = ['{},{},{}'.format(
+            k, d[k]['class'], d[k]['amino acid']) for k in csv_data]
+        gap = True
+
+        while any(i < len(d[k]['amino-acid-aligned-gaps']) for i, k in zip(indices, csv_data)):
+            header += ',{}'.format(counter)
+            counter += 1
+
+            # first, check if in a non-gap area with a removed section (i.e. a '.' character)
+            dot = not gap and any(
+                i < len(d[k]['amino-acid-aligned-gaps']) and d[k]['amino-acid-aligned-gaps'][i] == '.' for i, k in zip(indices, csv_data))
+
+            for i, k in enumerate(csv_data):
+                v = d[k]
+
+                # check if at end of alignment
+                if indices[i] >= len(v['amino-acid-aligned-gaps']):
+                    continue  # no need to write anything
+
+                # get character
+                c = v['amino-acid-aligned-gaps'][indices[i]]
+
+                strings[i] += ','
+                if gap and c == '-':  # only '-' alignments may advance
+                    strings[i] += '-'
+                    indices[i] += 1
+                    continue
+                elif dot and c == '.':  # only '.' alignments may advance
+                    strings[i] += '.'
+                    indices[i] += 1
+                    continue
+                elif not gap and c not in '.-':
+                    strings[i] += str(indices[i] + 1)
+                    indices[i] += 1
+                    continue
+
+            # if all indices are not '-', we change to non-gap
+            if all(i >= len(d[k]['amino-acid-aligned-gaps']) or d[k]['amino-acid-aligned-gaps'][i] != '-' for i, k in zip(indices, csv_data)):
+                gap = False
+            # if all indices are '-', we change to gap
+            if all(i >= len(d[k]['amino-acid-aligned-gaps']) or d[k]['amino-acid-aligned-gaps'][i] == '-' for i, k in zip(indices, csv_data)):
+                gap = True
+            # otherwise, gap status stays the same
+
+        csv_file.write(header + '\n')
+        csv_file.write('\n'.join(strings) + '\n')
+
+    # print summary data
+    for k, v in counts.items():
+        print('{}: {}'.format(k, v))
 
 
 def predict_amino_path(path, aa):
