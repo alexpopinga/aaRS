@@ -3,11 +3,12 @@
 a.k.a. "Paul's tools"
 """
 import os.path
-import glob
 import json
 import xml.etree.ElementTree as ET
 from urllib.parse import urlencode
 from urllib.request import urlopen
+import re
+import zipfile
 
 
 try:
@@ -21,7 +22,7 @@ except ImportError:
 
 AARS_XML = 'AARS.xml'
 BASE_DIR = 'BEAST 2/XMLs/Better Priors (final, actually used XMLs)/'
-A_B_E_ZIP = '../../Documents'
+A_B_E_ZIP = 'GenBank aa sequences w: no structure/Archaeans_Bacteria_Eukaryotes.zip'
 CLASS_I = BASE_DIR + 'ClassI_betterPriors.xml'
 CLASS_II = BASE_DIR + 'ClassII_betterPriors.xml'
 
@@ -110,6 +111,7 @@ def final_sequences():
         and 'd1evka' not in s.attrib['taxon']
         and 'd1nyra' not in s.attrib['taxon']
         and '1gax' not in s.attrib['taxon']
+        and '3ial' not in s.attrib['taxon']
     }
 
 
@@ -217,15 +219,16 @@ def make_no_gaps_to_gaps_file():
             nuc_path = nuc_paths[0]
         except IndexError:
             nuc_path = None
-        aa_header, backup_id, aa_data = read_path_data(aa_path)
-        if aa_data:
-            aa_align = align(gaps[gaps_key], aa_data)
-            aa_misalignments = sum([1 if c2 not in '-.*?' and c1 not in '*?' and c1 != c2 else 0
-                                    for c1, c2 in zip(aa_data, aa_align)])
-        else:
-            aa_align = None
-            aa_misalignments = None
-        nuc_header, nuc_id, nuc_data = read_path_data(nuc_path)
+        with zipfile.ZipFile(A_B_E_ZIP) as z_file:
+            aa_header, backup_id, aa_data = read_path_data(aa_path, z_file)
+            if aa_data:
+                aa_align = align(gaps[gaps_key], aa_data)
+                aa_misalignments = sum([1 if c2 not in '-.*?' and c1 not in '*?' and c1 != c2 else 0
+                                        for c1, c2 in zip(aa_data, aa_align)])
+            else:
+                aa_align = None
+                aa_misalignments = None
+            nuc_header, nuc_id, nuc_data = read_path_data(nuc_path, z_file)
         data[no_gaps_key] = {
             'gi': nuc_id if nuc_id else backup_id,
             'nuc_header': nuc_header,
@@ -451,11 +454,17 @@ def output_split_files():
 
 def predict_amino_path(path, aa):
     """Try to find the amino acid sequence file"""
+    file1 = re.compile(r'^{}/amino[^/]*/[^/]*{}_[^/]*$'.format(path, aa))
+    file2 = re.compile(r'^{}/*/[^/]*{}_aa[^/]*$'.format(path, aa))
+
+    with zipfile.ZipFile(A_B_E_ZIP) as z_file:
+        files = z_file.namelist()
+
     if path[-3:] == "ile" and aa == 'ile':  # M_mobile ends in 'ile' but may not be aaRS 'ile'
         return predict_amino_path(path, '_ile')
-    paths = glob.glob(path + '/amino*/*{}_*'.format(aa))
+    paths = list(filter(file1.match, files))
     if not paths:
-        paths = glob.glob(path + '/**/*{}_aa*'.format(aa), recursive=True)
+        paths = list(filter(file2.match, files))
     if not paths:
         if aa == 'glu':  # glu is sometimes listed as gluPro
             return predict_amino_path(path, 'gluPro')
@@ -477,11 +486,17 @@ def predict_amino_path(path, aa):
 
 def predict_nucleotide_path(path, aa):
     """Try to find the nucleotide sequence file"""
+    file1 = re.compile(r'^{}/nuc[^/]*/[^/]*{}_[^/]*$'.format(path, aa))
+    file2 = re.compile(r'^{}/*/[^/]*{}_nuc[^/]*$'.format(path, aa))
+
+    with zipfile.ZipFile(A_B_E_ZIP) as z_file:
+        files = z_file.namelist()
+
     if path[-3:] == "ile" and aa == 'ile':  # M_modile ends in 'ile' but may not be aaRS 'ile'
         return predict_nucleotide_path(path, '_ile')
-    paths = glob.glob(path + '/nuc*/*{}_*'.format(aa))
+    paths = list(filter(file1.match, files))
     if not paths:
-        paths = glob.glob(path + '/**/*{}_nuc*'.format(aa), recursive=True)
+        paths = list(filter(file2.match, files))
     if not paths:
         if aa == 'glu':  # glu is sometimes listed as gluPro
             return predict_nucleotide_path(path, 'gluPro')
@@ -496,14 +511,24 @@ def predict_nucleotide_path(path, aa):
 
 def predict_path(domain, species, aa):
     """Try to find the path to the original sequences"""
-    base_dir = A_B_E_ZIP + "/Archaeans_Bacteria_Eukaryotes"
-    possibles = glob.glob(base_dir + '/{}/{}*'.format(domain, species[0]))
+    path1 = re.compile(r'^{}/{}[^/]*/$'.format(domain, species[0]))
+    path2 = re.compile(r'^{}/[^/]*/$'.format(domain))
+    path3 = re.compile(
+        r'^(Archaea|Bacteria|Eukaryote)/{}[^/]*/$'.format(species[0]))
+    path4 = re.compile(r'^(Archaea|Bacteria|Eukaryote)/[^/]*/$')
+
+    with zipfile.ZipFile(A_B_E_ZIP) as z_file:
+        files = z_file.namelist()
+
+    possibles = list(filter(path1.match, files))
     if not possibles:
-        possibles = glob.glob(base_dir + '/{}/*'.format(domain))
+        possibles = list(filter(path2.match, files))
     if not possibles:
-        possibles = glob.glob(base_dir + '/*/{}*'.format(species[0]))
+        possibles = list(filter(path3.match, files))
     if not possibles:
-        possibles = glob.glob(base_dir + '/*/*')
+        possibles = list(filter(path4.match, files))
+    possibles = [p[:-1] for p in possibles]
+
     best = sorted(possibles, key=lambda target: levenshtein_distance(
         species.lower(), construct_species(os.path.basename(target)).lower()))
     return best[0], levenshtein_distance(
@@ -512,6 +537,8 @@ def predict_path(domain, species, aa):
 
 def construct_species(name):
     """Abbreviate capitalized words to one letter"""
+    if name == '':
+        return '_'
     splits = name.split(' ')
     if 'Halobacterium' in splits[0]:
         return name
@@ -525,15 +552,16 @@ def construct_species(name):
     return '_'.join(new)
 
 
-def read_path_data(path):
+def read_path_data(path, z_file):
     """read the data from the path location"""
     if path is None:
         return None, None, None
     dat = ''
     header = None
     gi = None
-    with open(path) as path_p:
-        for next_dat in path_p:
+    with z_file.open(path) as path_p:
+        for next_dat_b in path_p.readlines():
+            next_dat = next_dat_b.decode()
             if next_dat[0] == '>':
                 header = next_dat.strip()
                 if next_dat[0:4] == '>gi|':
