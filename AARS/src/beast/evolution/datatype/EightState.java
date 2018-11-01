@@ -6,7 +6,7 @@ import beast.core.Input;
 
 @Description("Datatype for sequences with eight states V, G, E, A, D, P, L, R")
 public class EightState extends Base {
-	public Input<String> symbolOrderInput = new Input<String>("symbolOrder", "Order in which the symbols appear and their values (deafult VGEADPLR)");
+	public Input<String> symbolOrderInput = new Input<String>("symbolOrder", "Order in which the symbols appear and their values (default VGEADPLR)");
     int[][] x = {
             {0},  // V
             {1},  // G

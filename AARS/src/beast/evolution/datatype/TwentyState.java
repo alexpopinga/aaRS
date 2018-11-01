@@ -6,7 +6,7 @@ import beast.core.Input;
 
 @Description("Datatype for sequences with twenty states V, G, A, D, P, E, S, L, R, T, I, Q, N, C, Y, H, M, W, K, F")
 public class TwentyState extends Base {
-	public Input<String> symbolOrderInput = new Input<String>("symbolOrder", "Order in which the symbols appear and their values (deafult VGEADPLR)");
+	public Input<String> symbolOrderInput = new Input<String>("symbolOrder", "Order in which the symbols appear and their values (default VGEADPLR)");
     int[][] x = {
             {0},  // V
             {1},  // G
@@ -55,7 +55,7 @@ public class TwentyState extends Base {
     
     @Override
     public String getTypeDescription() {
-        return "eightstate";
+        return "twentystate";
     }
 
 }

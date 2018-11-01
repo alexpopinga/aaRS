@@ -4,8 +4,8 @@ import beast.evolution.datatype.DataType.Base;
 import beast.core.Description;
 import beast.core.Input;
 
-@Description("Datatype for sequences with fourteen states V,G,A,D,P,S,E,L,R,I,T,N,Q,C")
-public class FourteenState extends Base {
+@Description("Datatype for sequences with twenty states V, G, A, D, P, E, S, L, R, T, I, Q, N, C, Y, H, M, W, F, J, K")
+public class TwentyOneState extends Base {
 	public Input<String> symbolOrderInput = new Input<String>("symbolOrder", "Order in which the symbols appear and their values (default VGEADPLR)");
     int[][] x = {
             {0},  // V
@@ -22,19 +22,26 @@ public class FourteenState extends Base {
             {11},
             {12},
             {13},
-            {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13}, // -
-            {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13}, // ?
+            {14},
+            {15},
+            {16},
+            {17},
+            {18},
+            {19},
+            {20},
+            {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}, // -
+            {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20} // ?
     };
 
-    public FourteenState() {
-        stateCount = 14;
+    public TwentyOneState() {
+        stateCount = 21;
         mapCodeToStateSet = x;
         codeLength = 1;
-        codeMap = "VGADPSELRITNQC" + GAP_CHAR + MISSING_CHAR;
+        codeMap = "VGADPESLRTIQNCYHMWFJK" + GAP_CHAR + MISSING_CHAR;
     }
 
     @Override
-    public void initAndValidate()  {
+    public void initAndValidate() {
     	if (symbolOrderInput.get() != null) {
     		String symbolOrder = symbolOrderInput.get().trim();
     		symbolOrder = symbolOrder.replaceAll("[ \t\n]", "");
@@ -49,7 +56,7 @@ public class FourteenState extends Base {
     
     @Override
     public String getTypeDescription() {
-        return "fourteenstate";
+        return "twentyonestate";
     }
 
 }
