@@ -2,7 +2,7 @@
 
 
 <data id="AARS" name="alignment">
-	<userDataType spec='beast.evolution.datatype.TwentyState' symbolOrder='VGADPESLRTIQNCYHMWFJK'/>
+	<userDataType spec='beast.evolution.datatype.TwentyState' symbolOrder='VGADPESLRTIQNCYHMWFK'/>
                     <sequence id="seq_arg_euk_1f7u_S_cerevisiae" taxon="arg_euk_1f7u_S_cerevisiae" totalcount="20" value="IIEFSPNIAKPFHAGHLRSTIIGGFLANLIRMNYLGDWG-------------------------------------------------------"/>
                     <sequence id="seq_arg_bact_1iq0_T_thermophilus" taxon="arg_bact_1iq0_T_thermophilus" totalcount="20" value="LVEHSVNPNKELHVGHLRNIALGDAIARILVLNYIDDTG-------------------------------------------------------"/>
                     <sequence id="seq_arg_arch_2zue_P_horikoshii" taxon="arg_arch_2zue_P_horikoshii" totalcount="20" value="IVEHSVNPTKPLHMGHARNAILGDVMARIEVQNYIDDLG-------------------------------------------------------"/>
@@ -485,19 +485,6 @@
                     <sequence id="seq_val_euk_C_subellipsoidea" taxon="val_euk_C_subellipsoidea" totalcount="20" value="VIVIPPNVTGSLHLGHALMVAVEDTLTRWLWVPGTDHAG-------------------------------------------------------"/>
                     <sequence id="seq_val_euk_P_chromatophora" taxon="val_euk_P_chromatophora" totalcount="20" value="SVVIPPNVTGSLHMGHAFNSALIDTIVRFLCLPGTDHAS-------------------------------------------------------"/>
                     <sequence id="seq_val_euk_C_parvum_Iowa_II" taxon="val_euk_C_parvum_Iowa_II" totalcount="20" value="VIALPPNVTGRLHLGHTLTAAIQDSLCRYLWIPGTDHAG-------------------------------------------------------"/>
-                    <sequence id="seq_lys_arch_P_delaneyi" taxon="lys_arch_P_delaneyi" totalcount="20" value="VVNGGLSVSGLEHVGRLREVVIPEVVRRIREYLTLYTED--------------------------------------------------------------------------------------------------------------"/>
-                    <sequence id="seq_lys_arch_T_volcanium" taxon="lys_arch_T_volcanium" totalcount="20" value="RISTGISPSGPIHVGNMREILTGDILYJADFIYLCDDMD--------------------------------------------------------------------------------------------------------------"/>
-                    <sequence id="seq_lys_arch_A_fulgidus" taxon="lys_arch_A_fulgidus" totalcount="20" value="RIATGISPSGHIHLGNLREMVTADAIRRAJIVYIADDFD--------------------------------------------------------------------------------------------------------------"/>
-                    <sequence id="seq_lys_arch_M_thermautotrophicus" taxon="lys_arch_M_thermautotrophicus" totalcount="20" value="VVASGTSISGSIHIGNSCDVFIASSIAJSRTVWIADDHD--------------------------------------------------------------------------------------------------------------"/>
-                    <sequence id="seq_lys_arch_T_acidophilum" taxon="lys_arch_T_acidophilum" totalcount="20" value="RVSTGISPSGPIHVGNMREILTGDILFJADFIYLCDDMD--------------------------------------------------------------------------------------------------------------"/>
-                    <sequence id="seq_lys_arch_N_eEuitans" taxon="lys_arch_N_eEuitans" totalcount="20" value="TVRCANTPTGVLHIGNANDVIRAYFIAJVRLVFTSDDRD--------------------------------------------------------------------------------------------------------------"/>
-                    <sequence id="seq_lys_arch_M_aeolicus" taxon="lys_arch_M_aeolicus" totalcount="20" value="LISSGITPSGHIHVGNARETLTADGIYJGELIFIADNYD--------------------------------------------------------------------------------------------------------------"/>
-                    <sequence id="seq_lys_arch_Halobacterium" taxon="lys_arch_Halobacterium" totalcount="20" value="VIJGGISPSGVPHLGNMNEIVRGYFVAEAREVFTSDDRD--------------------------------------------------------------------------------------------------------------"/>
-                    <sequence id="seq_lys_arch_M_kandleri" taxon="lys_arch_M_kandleri" totalcount="20" value="VVASGASTSGRLHVGNARDVLTADAVARVRVVWISDDVD--------------------------------------------------------------------------------------------------------------"/>
-                    <sequence id="seq_lys_arch_M_acetivorans" taxon="lys_arch_M_acetivorans" totalcount="20" value="LVATGITPSGHIHIGNMREVVTADAAYRARLIYIADNYD--------------------------------------------------------------------------------------------------------------"/>
-                    <sequence id="seq_lys_arch_S_marinus" taxon="lys_arch_S_marinus" totalcount="20" value="IFNGGLSVSGLEHVGRLREIIIPEVLRRIJEYITLYTED--------------------------------------------------------------------------------------------------------------"/>
-                    <sequence id="seq_lys_arch_P_occultum" taxon="lys_arch_P_occultum" totalcount="20" value="VFNGGLSVSGLEHVGRLREVVIPEVVRRIJEYLTLYTED--------------------------------------------------------------------------------------------------------------"/>
-                    <sequence id="seq_lys_arch_1irx_P_horikoshii" taxon="lysi_arch_1irx_P_horikoshii" totalcount="20" value="VVESGITPSGYVHVGNFRELFTAYIVGHARHIHMWDDYD--------------------------------------------------------------------------------------------------------------"/>
                     <sequence id="seq_ala_bact_1yfsa_A_aeolicus" taxon="ala_bact_1yfsa_A_aeolicus" totalcount="20" value="---------------------------------------TFFEMLGNFSFKKEAIEYAWEFVTSSEIYVEIWNLVFMHPNIDTGMGERIASVLQ"/>
                     <sequence id="seq_ala_arch_2ztg_A_fulgidus" taxon="ala_arch_2ztg_A_fulgidus" totalcount="20" value="---------------------------------------TLFEMMAHHAFKNETVAYCTELLNCLEAIVEVATLVFMNYIVDTGYGERFVWASK"/>
                     <sequence id="seq_ala_arch_2zze_P_horikoshii" taxon="ala_arch_2zze_P_horikoshii" totalcount="20" value="---------------------------------------TIFEMMAHHAFMDETVELAFEFFTAFEVLYEVATLVFMTKVVDTGYGERLVWMSQ"/>
@@ -1963,23 +1950,6 @@
                     <taxon id="trp_euk_N_gruberi"/>
                 </taxonset>
             </distribution>
-            <distribution id="J.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
-                <taxonset id="J" spec="TaxonSet">
-                    <taxon id="lys_arch_P_delaneyi"/>
-                    <taxon id="lys_arch_T_volcanium"/>
-                    <taxon id="lys_arch_A_fulgidus"/>
-                    <taxon id="lys_arch_M_thermautotrophicus"/>
-                    <taxon id="lys_arch_T_acidophilum"/>
-                    <taxon id="lys_arch_N_equitans"/>
-                    <taxon id="lys_arch_M_aeolicus"/>
-                    <taxon id="lys_arch_Halobacterium"/>
-                    <taxon id="lys_arch_M_kandleri"/>
-                    <taxon id="lys_arch_M_acetivorans"/>
-                    <taxon id="lys_arch_S_marinus"/>
-                    <taxon id="lys_arch_P_occultum"/>
-                    <taxon id="lys_arch_1irx_P_horikoshii"/>
-                </taxonset>
-            </distribution>
             <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="K" spec="TaxonSet">
                     <taxon id="lys_euk_3bju_H_sapiens"/>
@@ -2217,12 +2187,11 @@
 		<clade idref='M'/>
 		<clade idref='W'/>
 		<clade idref='F'/>
-		<clade idref='J'/>
 		<clade idref='K'/>
 	</operator>
 
 
-    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_21states_ClassINtermClassIICterm.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_20states_ClassINtermClassIICterm.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
@@ -2244,7 +2213,7 @@
         <log idref="prior"/>
     </logger>
 
-    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_21states_ClassINtermClassIICterm.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_20states_ClassINtermClassIICterm.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
         <log id="TreeWithMetaDataLogger.t:AARS" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS" branchratemodel="@RelaxedClock.c:AARS"/>
     </logger>
     
