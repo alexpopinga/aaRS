@@ -485,6 +485,19 @@
                     <sequence id="seq_val_euk_C_subellipsoidea" taxon="val_euk_C_subellipsoidea" totalcount="20" value="VIVIPPNVTGSLHLGHALMVAVEDTLTRWLWVPGTDHAGDTYGGKILAQLRRMDRLAFTMDDTWFSSGLFPFLLETGHDILFFVARMVMMGMKLFQIYLH--------------------------------------------------------------------------------------------------------------"/>
                     <sequence id="seq_val_euk_P_chromatophora" taxon="val_euk_P_chromatophora" totalcount="20" value="SVVIPPNVTGSLHMGHAFNSALIDTIVRFLCLPGTDHASVQSGGIIVNQMRRLDRERFTLDDTWFSSGLWPFTLVTGFDIIFFVARMTMMASSFFEVYIH--------------------------------------------------------------------------------------------------------------"/>
                     <sequence id="seq_val_euk_C_parvum_Iowa_II" taxon="val_euk_C_parvum_Iowa_II" totalcount="20" value="VIALPPNVTGRLHLGHTLTAAIQDSLCRYLWIPGTDHAGEKHGSAICSQFRRLDREFFTLDDTWFSSGLIPFLLETGSDILFFVARMVMLSFACFTIYLH--------------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_P_delaneyi" taxon="lys_arch_P_delaneyi" totalcount="20" value="VVNGGLSVSGLEHVGRLREVVIPEVVRRIREYLTLYTEDIDRFWADFGPYIKDFEVVTTTDNWRIEWVGVWWFEPYGKDHAGSRDSANELAVKVPEGLPY--------------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_T_volcanium" taxon="lys_arch_T_volcanium" totalcount="20" value="RISTGISPSGPIHVGNMREILTGDILYKADFIYLCDDMDSDHFLNPFIEVMRKTRVIKTSDPWRIEWPAKWYIEPFGKDHGGSYDTGKRIAREIPLPLVY--------------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_A_fulgidus" taxon="lys_arch_A_fulgidus" totalcount="20" value="RIATGISPSGHIHLGNLREMVTADAIRRAKIVYIADDFDSEHFLEPFLESLEILEVRRAYETWRVDWAARWECEPFGKDHAGSYDTGVRIAREIPYPVPY--------------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_M_thermautotrophicus" taxon="lys_arch_M_thermautotrophicus" totalcount="20" value="VVASGTSISGSIHIGNSCDVFIASSIAKSRTVWIADDHDVEHFERPFLEALERFEHYSGARTWRVEWAARWKCEPFGKDHAGSYDVSSIISEEIPYPVPY--------------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_T_acidophilum" taxon="lys_arch_T_acidophilum" totalcount="20" value="RVSTGISPSGPIHVGNMREILTGDILFKADFIYLCDDMDSDYYLEPFVRVMKEARVIKTSDPWRVEWPAKWFVEPFGKDHGGSYDTGRRIAREVPVPLMY--------------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_N_eEuitans" taxon="lys_arch_N_eEuitans" totalcount="20" value="TVRCANTPTGVLHIGNANDVIRAYFIAKVRLVFTSDDRDSEHFISIYFKEFELLEYYSPSIDWYVEWAMDWAVEPMGKDHY-SWKISPKIAKEVPIPVVY--------------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_M_aeolicus" taxon="lys_arch_M_aeolicus" totalcount="20" value="LISSGITPSGHIHVGNARETLTADGIYKGELIFIADNYDADHFLNPFINSLDDLTVYKADEPWRVDWPARWKAEPMGKDHGGSYDTGIKISEMVPEKIIY--------------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_Halobacterium" taxon="lys_arch_Halobacterium" totalcount="20" value="VIKGGISPSGVPHLGNMNEIVRGYFVAEAREVFTSDDRDGDHFSNLIEESAALLEMVSNTAPWRFEWPAEWRFEPFGKDHA-SWPSGVDIARNVPVPMVY--------------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_M_kandleri" taxon="lys_arch_M_kandleri" totalcount="20" value="VVASGASTSGRLHVGNARDVLTADAVARVRVVWISDDVDSDRWARNFVEELREFEWISSAEGWKIEWPTRWVCEPFGKDHYGSYEVGSAIAEEFPVPVPY--------------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_M_acetivorans" taxon="lys_arch_M_acetivorans" totalcount="20" value="LVATGITPSGHIHIGNMREVVTADAAYRARLIYIADNYDAEHFLKPFIEALRRLEVLRADETWRVDWPARWAVEPFGKDHAGSYDTGKRIVREIPFPIVY--------------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_S_marinus" taxon="lys_arch_S_marinus" totalcount="20" value="IFNGGLSVSGLEHVGRLREIIIPEVLRRIKEYITLYTEDVEHYWEDFGPYLEEFEVVTTTDNWRIEWVGVWWFEPYGKDHAGSRDSCVDLAVNVPEGIPY--------------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_P_occultum" taxon="lys_arch_P_occultum" totalcount="20" value="VFNGGLSVSGLEHVGRLREVVIPEVVRRIKEYLTLYTEDVDRFWADFGPYLGEFEVVKTTDNWRIEWVGVWWFEPYGKDHAGSRDSANELALKVPEGLPY--------------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_1irx_P_horikoshii" taxon="lysi_arch_1irx_P_horikoshii" totalcount="20" value="VVESGITPSGYVHVGNFRELFTAYIVGHARHIHMWDDYDAEHFMRKFEEEVEKLDLLYASERWRVDWPMRWSFEPAGKDHLGSYDTGKEIIKEVPLSLMY--------------------------------------------------------------------------------------------------------------"/>
                     <sequence id="seq_ala_bact_1yfsa_A_aeolicus" taxon="ala_bact_1yfsa_A_aeolicus" totalcount="20" value="---------------------------------------------------------------------------------------------------------SAHEIRELFLSFFEKKGHTRVKAPLVPLFVNAGMVPFKKRATSCQKCLRVTFFEMLGNFSFKKEAIEYAWEFVTSSEIYVEIWNLVFMHPNIDTGMGERIASVLQ"/>
                     <sequence id="seq_ala_arch_2ztg_A_fulgidus" taxon="ala_arch_2ztg_A_fulgidus" totalcount="20" value="---------------------------------------------------------------------------------------------------------ELDEMREYYLNFFERRGHGRIEYPVVAYLTIASIADFQNPLTISQPCIRLTLFEMMAHHAFKNETVAYCTELLNCLEAIVEVATLVFMNYIVDTGYGERFVWASK"/>
                     <sequence id="seq_ala_arch_2zze_P_horikoshii" taxon="ala_arch_2zze_P_horikoshii" totalcount="20" value="---------------------------------------------------------------------------------------------------------TLDEMREKFLRFFEKHPHGRVRYPVLPLLVGASIMDFQNPLVISQPSIRFTIFEMMAHHAFMDETVELAFEFFTAFEVLYEVATLVFMTKVVDTGYGERLVWMSQ"/>
@@ -1950,45 +1963,6 @@
                     <taxon id="trp_euk_N_gruberi"/>
                 </taxonset>
             </distribution>
-            <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
-                <taxonset id="K" spec="TaxonSet">
-                    <taxon id="lys_euk_3bju_H_sapiens"/>
-                    <taxon id="lys_bact_3e9h_G_stearothermophilus"/>
-                    <taxon id="lys_bact_3g1z_S_typhimurium"/>
-                    <taxon id="lys_bact_C_aggregans"/>
-                    <taxon id="lys_bact_C_jejuni"/>
-                    <taxon id="lys_bact_P_mikurensis"/>
-                    <taxon id="lys_bact_B_thailandensis"/>
-                    <taxon id="lys_bact_S_elongatus"/>
-                    <taxon id="lys_bact_B_fragilis"/>
-                    <taxon id="lys_bact_T_thermophilus"/>
-                    <taxon id="lys_bact_H_aurantiacus"/>
-                    <taxon id="lys_bact_T_maritima"/>
-                    <taxon id="lys_bact_G_obscuriglobus"/>
-                    <taxon id="lys_bact_M_mobile"/>
-                    <taxon id="lys_bact_B_licheniformis"/>
-                    <taxon id="lys_bact_C_A_asiaticus"/>
-                    <taxon id="lys_bact_D_radiodurans"/>
-                    <taxon id="lys_bact_S_aureus"/>
-                    <taxon id="lys_bact_d1e1oa_E_coli"/>
-                    <taxon id="lys_euk_B_mori"/>
-                    <taxon id="lys_euk_L_infantum"/>
-                    <taxon id="lys_euk_C_gigas"/>
-                    <taxon id="lys_euk_D_discoideum"/>
-                    <taxon id="lys_euk_C_owczarzaki"/>
-                    <taxon id="lys_euk_A_subglabra"/>
-                    <taxon id="lys_euk_G_lamblia"/>
-                    <taxon id="lys_euk_B_hominis"/>
-                    <taxon id="lys_euk_T_vaginalis"/>
-                    <taxon id="lys_euk_C_subellipsoidea"/>
-                    <taxon id="lys_euk_P_chromatophora"/>
-                    <taxon id="lys_euk_N_ceranae"/>
-                    <taxon id="lys_euk_G_theta"/>
-                    <taxon id="lys_euk_S_rosetta"/>
-                    <taxon id="lys_euk_N_gruberi"/>
-                    <taxon id="lys_euk_C_parvum_Iowa_II"/>
-                </taxonset>
-            </distribution>
             <distribution id="F.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
                 <taxonset id="F" spec="TaxonSet">
                     <taxon id="phe_bact_2alya_T_thermophilus"/>
@@ -2041,6 +2015,62 @@
                     <taxon id="phe_euk_B_hominis"/>
                 </taxonset>
             </distribution>
+			<distribution id="J.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+				<taxonset id="J" spec="TaxonSet">
+                    <taxon id="lys_arch_P_delaneyi"/>
+                    <taxon id="lys_arch_T_volcanium"/>
+                    <taxon id="lys_arch_A_fulgidus"/>
+                    <taxon id="lys_arch_M_thermautotrophicus"/>
+                    <taxon id="lys_arch_T_acidophilum"/>
+                    <taxon id="lys_arch_N_eEuitans"/>
+                    <taxon id="lys_arch_M_aeolicus"/>
+                    <taxon id="lys_arch_Halobacterium"/>
+                    <taxon id="lys_arch_M_kandleri"/>
+                    <taxon id="lys_arch_M_acetivorans"/>
+                    <taxon id="lys_arch_S_marinus"/>
+                    <taxon id="lys_arch_P_occultum"/>
+                    <taxon id="lysi_arch_1irx_P_horikoshii"/>
+				</taxonset>
+			</distribution>
+            <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="K" spec="TaxonSet">
+                    <taxon id="lys_euk_3bju_H_sapiens"/>
+                    <taxon id="lys_bact_3e9h_G_stearothermophilus"/>
+                    <taxon id="lys_bact_3g1z_S_typhimurium"/>
+                    <taxon id="lys_bact_C_aggregans"/>
+                    <taxon id="lys_bact_C_jejuni"/>
+                    <taxon id="lys_bact_P_mikurensis"/>
+                    <taxon id="lys_bact_B_thailandensis"/>
+                    <taxon id="lys_bact_S_elongatus"/>
+                    <taxon id="lys_bact_B_fragilis"/>
+                    <taxon id="lys_bact_T_thermophilus"/>
+                    <taxon id="lys_bact_H_aurantiacus"/>
+                    <taxon id="lys_bact_T_maritima"/>
+                    <taxon id="lys_bact_G_obscuriglobus"/>
+                    <taxon id="lys_bact_M_mobile"/>
+                    <taxon id="lys_bact_B_licheniformis"/>
+                    <taxon id="lys_bact_C_A_asiaticus"/>
+                    <taxon id="lys_bact_D_radiodurans"/>
+                    <taxon id="lys_bact_S_aureus"/>
+                    <taxon id="lys_bact_d1e1oa_E_coli"/>
+                    <taxon id="lys_euk_B_mori"/>
+                    <taxon id="lys_euk_L_infantum"/>
+                    <taxon id="lys_euk_C_gigas"/>
+                    <taxon id="lys_euk_D_discoideum"/>
+                    <taxon id="lys_euk_C_owczarzaki"/>
+                    <taxon id="lys_euk_A_subglabra"/>
+                    <taxon id="lys_euk_G_lamblia"/>
+                    <taxon id="lys_euk_B_hominis"/>
+                    <taxon id="lys_euk_T_vaginalis"/>
+                    <taxon id="lys_euk_C_subellipsoidea"/>
+                    <taxon id="lys_euk_P_chromatophora"/>
+                    <taxon id="lys_euk_N_ceranae"/>
+                    <taxon id="lys_euk_G_theta"/>
+                    <taxon id="lys_euk_S_rosetta"/>
+                    <taxon id="lys_euk_N_gruberi"/>
+                    <taxon id="lys_euk_C_parvum_Iowa_II"/>
+                </taxonset>
+            </distribution>
 
             <distribution spec='beast.evolution.substitutionmodel.AARSTreePrior' id='AARSprior'>
                 <trait id="TraitSet1" spec="beast.evolution.tree.TraitSet" taxa="@allTaxa" traitname="state" units="year">
@@ -2063,7 +2093,8 @@
                     met_bact_1pfv_E_coli=16, met_arch_1rqg_P_abyssi=16, met_bact_1woy_T_thermophilus=16, met_bact_2csx_A_aeolicus=16, met_bact_2x1l_M_smegmatis=16, met_arch_P_aerophilum=16, met_arch_T_volcanium=16, met_arch_S_acidocaldarius=16, met_arch_T_acidophilum=16, met_arch_Halobacterium=16, met_arch_M_acetivorans=16, met_arch_M_aeolicus_Nankai=16, met_arch_M_hungatei=16, met_arch_M_jannaschii=16, met_arch_M_kandleri=16, met_arch_M_thermautotrophicus=16, met_arch_N_equitans=16, met_arch_A_fulgidus=16, met_arch_P_delaneyi=16, met_arch_P_horikoshii=16, met_bact_R_marinus=16, met_arch_S_marinus=16, met_arch_P_occultum=16, met_bact_C_aggregans=16, met_bact_C_jejuni=16, met_bact_P_mikurensis=16, met_bact_S_elongatus=16, met_bact_H_aurantiacus=16, met_bact_S_aureus=16, met_bact_T_maritima=16, met_bact_B_burgdorferi=16, met_bact_B_fragilis=16, met_bact_B_licheniformis=16, met_bact_B_thailandensis=16, met_bact_D_radiodurans=16, met_bact_G_stearothermophilus=16, met_bact_G_obscuriglobus=16, met_bact_C_thermalis=16, met_bact_C_A_asiaticus=16, met_euk_S_rosetta=16, met_euk_B_hominis=16, met_euk_B_mori=16, met_euk_C_gigas=16, met_euk_C_parvum_Iowa_II=16, met_euk_C_subellipsoidea=16, met_euk_D_discoideum=16, met_euk_E_guttata=16, met_euk_A_subglabra=16, met_euk_H_sapiens=16, met_euk_L_infantum=16, met_euk_G_lamblia=16, met_euk_G_theta=16, met_euk_P_chromatophora=16, met_euk_N_ceranae=16, met_euk_N_gruberi=16, 
                     trp_bact_1i6m_G_stearothermophilus=17, trp_euk_1r6u_H_sapiens=17, trp_bact_2el7_T_thermophilus=17, trp_bact_2g36_T_maritima=17, trp_euk_2ip1_S_cerevisiae=17, trp_arch_P_delaneyi=17, trp_arch_S_acidocaldarius=17, trp_arch_M_kandleri=17, trp_arch_M_thermautotrophicus=17, trp_arch_P_aerophilum=17, trp_arch_M_acetivorans=17, trp_arch_N_equitans=17, trp_arch_T_acidophilum=17, trp_arch_T_volcanium=17, trp_arch_A_fulgidus=17, trp_arch_M_hungatei=17, trp_arch_P_horikoshii=17, trp_arch_M_jannaschii=17, trp_arch_P_occultum=17, trp_arch_Halobacterium=17, trp_bact_E_coli=17, trp_bact_C_aggregans=17, trp_bact_C_jejuni=17, trp_bact_P_mikurensis=17, trp_bact_S_elongatus=17, trp_bact_B_fragilis=17, trp_bact_H_aurantiacus=17, trp_bact_G_obscuriglobus=17, trp_bact_C_thermalis=17, trp_bact_A_aeolicus=17, trp_bact_B_thailandensis=17, trp_bact_B_licheniformis=17, trp_bact_B_burgdorferi=17, trp_bact_C_A_asiaticus=17, trp_bact_D_radiodurans=17, trp_bact_S_aureus=17, trp_bact_R_marinus=17, trp_euk_B_mori=17, trp_euk_L_infantum=17, trp_euk_C_gigas=17, trp_euk_M_domestica=17, trp_euk_D_discoideum=17, trp_euk_A_subglabra=17, trp_euk_G_lamblia=17, trp_euk_T_vaginalis=17, trp_euk_C_owczarzaki=17, trp_euk_C_parvum_Iowa_II=17, trp_euk_R_filosa=17, trp_euk_P_chromatophora=17, trp_euk_N_ceranae=17, trp_euk_D_rerio=17, trp_euk_E_guttata=17, trp_euk_G_theta=17, trp_euk_N_gruberi=17, 
                     lys_euk_3bju_H_sapiens=18, lys_bact_3e9h_G_stearothermophilus=18, lys_bact_3g1z_S_typhimurium=18, lys_bact_C_aggregans=18, lys_bact_C_jejuni=18, lys_bact_P_mikurensis=18, lys_bact_B_thailandensis=18, lys_bact_S_elongatus=18, lys_bact_B_fragilis=18, lys_bact_T_thermophilus=18, lys_bact_H_aurantiacus=18, lys_bact_T_maritima=18, lys_bact_G_obscuriglobus=18, lys_bact_M_mobile=18, lys_bact_B_licheniformis=18, lys_bact_C_A_asiaticus=18, lys_bact_D_radiodurans=18, lys_bact_S_aureus=18, lys_bact_d1e1oa_E_coli=18, lys_euk_B_mori=18, lys_euk_L_infantum=18, lys_euk_C_gigas=18, lys_euk_D_discoideum=18, lys_euk_C_owczarzaki=18, lys_euk_A_subglabra=18, lys_euk_G_lamblia=18, lys_euk_B_hominis=18, lys_euk_T_vaginalis=18, lys_euk_C_subellipsoidea=18, lys_euk_P_chromatophora=18, lys_euk_N_ceranae=18, lys_euk_G_theta=18, lys_euk_S_rosetta=18, lys_euk_N_gruberi=18, lys_euk_C_parvum_Iowa_II=18, 
-                    phe_bact_2alya_T_thermophilus=19, phe_bact_2rhq_S_haemolyticus=19, phe_euk_3l4g_H_sapiens=19, phe_arch_S_acidocaldarius=19, phe_arch_P_aerophilum=19, phe_arch_P_delaneyi=19, phe_arch_P_horikoshii=19, phe_arch_P_occultum=19, phe_bact_R_marinus=19, phe_arch_S_marinus=19, phe_arch_T_volcanium=19, phe_arch_A_fulgidus=19, phe_arch_Halobacterium=19, phe_arch_M_acetivorans=19, phe_arch_M_hungatei=19, phe_arch_M_aeolicus_Nankai=19, phe_arch_M_jannaschii=19, phe_arch_M_kandleri=19, phe_arch_M_thermautotrophicus=19, phe_bact_C_thermalis=19, phe_bact_C_A_asiaticus=19, phe_bact_D_radiodurans=19, phe_bact_G_obscuriglobus=19, phe_bact_H_aurantiacus=19, phe_bact_M_mobile=19, phe_bact_P_mikurensis=19, phe_bact_S_aureus=19, phe_bact_M_smegmatis=19, phe_bact_E_coli=19, phe_bact_A_aeolicus=19, phe_bact_B_licheniformis=19, phe_bact_B_thailandensis=19, phe_bact_C_aggregans=19, phe_bact_C_jejuni=19, phe_euk_M_domestica=19, phe_euk_N_gruberi=19, phe_euk_P_chromatophora=19, phe_euk_R_filosa=19, phe_euk_S_rosetta=19, phe_euk_T_vaginalis=19, phe_euk_B_mori=19, phe_euk_C_gigas=19, phe_euk_D_discoideum=19, phe_euk_E_guttata=19, phe_euk_G_lamblia=19, phe_euk_G_theta=19, phe_euk_L_infantum=19, phe_euk_B_hominis=19
+                    phe_bact_2alya_T_thermophilus=19, phe_bact_2rhq_S_haemolyticus=19, phe_euk_3l4g_H_sapiens=19, phe_arch_S_acidocaldarius=19, phe_arch_P_aerophilum=19, phe_arch_P_delaneyi=19, phe_arch_P_horikoshii=19, phe_arch_P_occultum=19, phe_bact_R_marinus=19, phe_arch_S_marinus=19, phe_arch_T_volcanium=19, phe_arch_A_fulgidus=19, phe_arch_Halobacterium=19, phe_arch_M_acetivorans=19, phe_arch_M_hungatei=19, phe_arch_M_aeolicus_Nankai=19, phe_arch_M_jannaschii=19, phe_arch_M_kandleri=19, phe_arch_M_thermautotrophicus=19, phe_bact_C_thermalis=19, phe_bact_C_A_asiaticus=19, phe_bact_D_radiodurans=19, phe_bact_G_obscuriglobus=19, phe_bact_H_aurantiacus=19, phe_bact_M_mobile=19, phe_bact_P_mikurensis=19, phe_bact_S_aureus=19, phe_bact_M_smegmatis=19, phe_bact_E_coli=19, phe_bact_A_aeolicus=19, phe_bact_B_licheniformis=19, phe_bact_B_thailandensis=19, phe_bact_C_aggregans=19, phe_bact_C_jejuni=19, phe_euk_M_domestica=19, phe_euk_N_gruberi=19, phe_euk_P_chromatophora=19, phe_euk_R_filosa=19, phe_euk_S_rosetta=19, phe_euk_T_vaginalis=19, phe_euk_B_mori=19, phe_euk_C_gigas=19, phe_euk_D_discoideum=19, phe_euk_E_guttata=19, phe_euk_G_lamblia=19, phe_euk_G_theta=19, phe_euk_L_infantum=19, phe_euk_B_hominis=19,
+                    lys_arch_P_delaneyi=20, lys_arch_T_volcanium=20, lys_arch_A_fulgidus=20, lys_arch_M_thermautotrophicus=20, lys_arch_T_acidophilum=20, lys_arch_N_eEuitans=20, lys_arch_M_aeolicus=20, lys_arch_Halobacterium=20, lys_arch_M_kandleri=20, lys_arch_M_acetivorans=20, lys_arch_S_marinus=20, lys_arch_P_occultum=20, lysi_arch_1irx_P_horikoshii=20
 				</trait>
 				<treeIntervals id='treeIntervals' spec='beast.evolution.tree.coalescent.TreeIntervals' tree='@Tree.t:AARS'/>
             </distribution>
@@ -2186,12 +2217,13 @@
 		<clade idref='H'/>
 		<clade idref='M'/>
 		<clade idref='W'/>
-		<clade idref='K'/>
 		<clade idref='F'/>
+		<clade idref='J'/>
+		<clade idref='K'/>
 	</operator>
 
 
-    <logger fileName="AARS_withGaps_newInitTree_BD_noKMSKS.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_21states.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
@@ -2213,7 +2245,7 @@
         <log idref="prior"/>
     </logger>
 
-    <logger fileName="AARS_withGaps_newInitTree_BD_noKMSKS.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_21states.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
         <log id="TreeWithMetaDataLogger.t:AARS" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS" branchratemodel="@RelaxedClock.c:AARS"/>
     </logger>
     

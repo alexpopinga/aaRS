@@ -2,7 +2,7 @@
 
 
 <data id="AARS" name="alignment">
-	<userDataType spec='beast.evolution.datatype.TwentyState' symbolOrder='VGADPESLRTIQNCYHMWKF'/>
+	<userDataType spec='beast.evolution.datatype.TwentyState' symbolOrder='VGADPESLRTIQNCYHMWFJK'/>
                     <sequence id="seq_arg_euk_1f7u_S_cerevisiae" taxon="arg_euk_1f7u_S_cerevisiae" totalcount="20" value="IIEFSPNIAKPFHAGHLRSTIIGGFLANLIRMNYLGDWG-------------------------------------------------------"/>
                     <sequence id="seq_arg_bact_1iq0_T_thermophilus" taxon="arg_bact_1iq0_T_thermophilus" totalcount="20" value="LVEHSVNPNKELHVGHLRNIALGDAIARILVLNYIDDTG-------------------------------------------------------"/>
                     <sequence id="seq_arg_arch_2zue_P_horikoshii" taxon="arg_arch_2zue_P_horikoshii" totalcount="20" value="IVEHSVNPTKPLHMGHARNAILGDVMARIEVQNYIDDLG-------------------------------------------------------"/>
@@ -2191,7 +2191,7 @@
 	</operator>
 
 
-    <logger fileName="AARS_withGaps_newInitTree_BD_noKMSKS.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_21states_ClassINtermClassIICterm.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
@@ -2213,7 +2213,7 @@
         <log idref="prior"/>
     </logger>
 
-    <logger fileName="AARS_withGaps_newInitTree_BD_noKMSKS.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_21states_ClassINtermClassIICterm.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
         <log id="TreeWithMetaDataLogger.t:AARS" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS" branchratemodel="@RelaxedClock.c:AARS"/>
     </logger>
     

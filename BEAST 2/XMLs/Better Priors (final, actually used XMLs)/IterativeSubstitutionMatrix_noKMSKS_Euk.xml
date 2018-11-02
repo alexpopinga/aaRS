@@ -908,7 +908,7 @@
 	</operator>
 
 
-    <logger fileName="AARS_withGaps_newInitTree_BD_noKMSKS.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_Euk.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
@@ -930,7 +930,7 @@
         <log idref="prior"/>
     </logger>
 
-    <logger fileName="AARS_withGaps_newInitTree_BD_noKMSKS.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_Euk.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
         <log id="TreeWithMetaDataLogger.t:AARS" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS" branchratemodel="@RelaxedClock.c:AARS"/>
     </logger>
     
