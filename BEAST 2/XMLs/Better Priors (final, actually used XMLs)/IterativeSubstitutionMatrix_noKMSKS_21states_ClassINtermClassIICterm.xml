@@ -2,7 +2,7 @@
 
 
 <data id="AARS" name="alignment">
-	<userDataType spec='beast.evolution.datatype.TwentyState' symbolOrder='VGADPESLRTIQNCYHMWFJK'/>
+	<userDataType spec='beast.evolution.datatype.TwentyOneState' symbolOrder='VGADPESLRTIQNCYHMWFJK'/>
                     <sequence id="seq_arg_euk_1f7u_S_cerevisiae" taxon="arg_euk_1f7u_S_cerevisiae" totalcount="20" value="IIEFSPNIAKPFHAGHLRSTIIGGFLANLIRMNYLGDWG-------------------------------------------------------"/>
                     <sequence id="seq_arg_bact_1iq0_T_thermophilus" taxon="arg_bact_1iq0_T_thermophilus" totalcount="20" value="LVEHSVNPNKELHVGHLRNIALGDAIARILVLNYIDDTG-------------------------------------------------------"/>
                     <sequence id="seq_arg_arch_2zue_P_horikoshii" taxon="arg_arch_2zue_P_horikoshii" totalcount="20" value="IVEHSVNPTKPLHMGHARNAILGDVMARIEVQNYIDDLG-------------------------------------------------------"/>
