@@ -1042,11 +1042,8 @@ name="alignment">
                     <parameter id="ucldMean.c:NormalBEAST2" estimate="false" name="clock.rate">1.0</parameter>
                 </branchRateModel>
             </distribution>
-        </distribution>
-    </distribution>
-    
-    <distribution id="arg.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
-      <taxonset id="arg" spec="TaxonSet">
+      <distribution id="arg.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      	<taxonset id="arg" spec="TaxonSet">
              <taxon id="arg_euk_1f7u_S_cerevisiae" spec="Taxon"/>
              <taxon id="arg_bact_1iq0_T_thermophilus" spec="Taxon"/>
              <taxon id="arg_arch_2zue_P_horikoshii" spec="Taxon"/>
@@ -2086,7 +2083,9 @@ name="alignment">
              <taxon id="thr_euk_G_theta" spec="Taxon"/>
       </taxonset>
 	</distribution>
-	
+        </distribution>
+    </distribution>
+    	
     <operator id="gammaShapeScaler.s:NormalBEAST2" spec="ScaleOperator" parameter="@gammaShape.s:NormalBEAST2" scaleFactor="0.5" weight="0.1"/>
 
     <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
