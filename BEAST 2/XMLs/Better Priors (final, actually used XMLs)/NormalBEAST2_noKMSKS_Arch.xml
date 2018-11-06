@@ -156,7 +156,7 @@ name="alignment">
                     <sequence id="seq_lys_arch_M_acetivorans" taxon="lys_arch_M_acetivorans" totalcount="20" value="LVATGITPSGHIHIGNMREVVTADAAYRARLIYIADNYDAEHFLKPFIEALRRLEVLRADETWRVDWPARWAVEPFGKDHAGSYDTGKRIVREIPFPIVY---------------------------------------------------------------------------------------------------------"/>
                     <sequence id="seq_lys_arch_S_marinus" taxon="lys_arch_S_marinus" totalcount="20" value="IFNGGLSVSGLEHVGRLREIIIPEVLRRIKEYITLYTEDVEHYWEDFGPYLEEFEVVTTTDNWRIEWVGVWWFEPYGKDHAGSRDSCVDLAVNVPEGIPY---------------------------------------------------------------------------------------------------------"/>
                     <sequence id="seq_lys_arch_P_occultum" taxon="lys_arch_P_occultum" totalcount="20" value="VFNGGLSVSGLEHVGRLREVVIPEVVRRIKEYLTLYTEDVDRFWADFGPYLGEFEVVKTTDNWRIEWVGVWWFEPYGKDHAGSRDSANELALKVPEGLPY---------------------------------------------------------------------------------------------------------"/>
-                    <sequence id="seq_lys_arch_1irx_P_horikoshii" taxon="lysi_arch_1irx_P_horikoshii" totalcount="20" value="VVESGITPSGYVHVGNFRELFTAYIVGHARHIHMWDDYDAEHFMRKFEEEVEKLDLLYASERWRVDWPMRWSFEPAGKDHLGSYDTGKEIIKEVPLSLMY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_1irx_P_horikoshii" taxon="lys_arch_1irx_P_horikoshii" totalcount="20" value="VVESGITPSGYVHVGNFRELFTAYIVGHARHIHMWDDYDAEHFMRKFEEEVEKLDLLYASERWRVDWPMRWSFEPAGKDHLGSYDTGKEIIKEVPLSLMY---------------------------------------------------------------------------------------------------------"/>
                     <sequence id="seq_ala_arch_2ztg_A_fulgidus" taxon="ala_arch_2ztg_A_fulgidus" totalcount="20" value="----------------------------------------------------------------------------------------------------ELDEMREYYLNFFERRGHGRIEYPVVAYLTIASIADFQNPLTISQPCIRLTLFEMMAHHAFKNETVAYCTELLNCLEAIVEVATLVFMNYIVDTGYGERFVWASK"/>
                     <sequence id="seq_ala_arch_2zze_P_horikoshii" taxon="ala_arch_2zze_P_horikoshii" totalcount="20" value="----------------------------------------------------------------------------------------------------TLDEMREKFLRFFEKHPHGRVRYPVLPLLVGASIMDFQNPLVISQPSIRFTIFEMMAHHAFMDETVELAFEFFTAFEVLYEVATLVFMTKVVDTGYGERLVWMSQ"/>
                     <sequence id="seq_ala_arch_P_delaneyi" taxon="ala_arch_P_delaneyi" totalcount="20" value="----------------------------------------------------------------------------------------------------SVAEARRKFIRFFERNGHEFIERPVVAYLTIASIVVFQNPLVIVQPSIRLTSFEMGGHHAFKEETVRLAFEFFTSFEVTVELATLVFMLRVVDTGYGERLAWFTQ"/>
@@ -690,7 +690,6 @@ name="alignment">
 	</distribution>    
 	<distribution id="ser.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
       <taxonset id="ser" spec="TaxonSet">
-             <taxon id="ser_euk_1wleb_B_taurus" spec="Taxon"/>
              <taxon id="ser_arch_2cjab_M_barkeri" spec="Taxon"/>
              <taxon id="ser_arch_P_delaneyi" spec="Taxon"/>
              <taxon id="ser_arch_T_volcanium" spec="Taxon"/>
