@@ -786,7 +786,6 @@ name="alignment">
         <log idref='arg.prior'/>
         <log idref='cys.prior'/>
         <log idref='glu.prior'/>
-        <log idref='gln.prior'/>
         <log idref='ile.prior'/>
         <log idref='leu.prior'/>
         <log idref='met.prior'/>
