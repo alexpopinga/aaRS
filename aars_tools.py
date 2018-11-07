@@ -15,7 +15,7 @@ try:
     from aars_algorithms_fast import levenshtein_distance_c as levenshtein_distance
     from aars_algorithms_fast import align_c as align
 except ImportError:
-    print('using slow algorithms')
+    print('using slow algorithms - this could take a while')
     from aars_algorithms_slow import levenshtein_distance_py as levenshtein_distance
     from aars_algorithms_slow import align_py as align
 
@@ -25,6 +25,7 @@ BASE_DIR = 'BEAST 2/XMLs/Better Priors (final, actually used XMLs)/'
 A_B_E_ZIP = 'GenBank aa sequences w: no structure/Archaeans_Bacteria_Eukaryotes.zip'
 CLASS_I = BASE_DIR + 'ClassI_betterPriors.xml'
 CLASS_II = BASE_DIR + 'ClassII_betterPriors.xml'
+LINE_WIDTH = 72
 
 
 def final_sequences():
@@ -331,7 +332,7 @@ def output_split_files():
             if aa_misalignments == 0:
                 counts['perfectly aligned to GenBank nucleotide data'] += 1
                 nuc_align = ''.join(['---' if v['amino-acid-aligned-gaps'][i] in '-.'
-                                     else v['nucleotide-data'][i*3:(i+1)*3]
+                                     else gb_nuc[i*3:(i+1)*3]
                                      for i in range(len(v['amino-acid-aligned-gaps']))])
                 genbank[k] = {
                     'name': k,
@@ -342,7 +343,7 @@ def output_split_files():
                     'aa-num': ''.join(['{0:^3d}'.format(n) for n in range(1, len(gb_aa) + 1)]),
                     'aa-seq': ' ' + '  '.join(list(gb_aa)) + ' ',
                     'aa-ali': ' ' + '  '.join(list(aa_align)) + ' ',
-                    'nuc-al': gb_nuc
+                    'nuc-al': nuc_align
                 }
                 continue
         if misalignment == 0:
@@ -392,6 +393,270 @@ def output_split_files():
         json.dump(bad, b, indent=2)
     with open('gap_data_missing.txt', 'w') as m:
         json.dump(missing_data, m, indent=2)
+
+    # write perfect HTML output data
+    with open('gap_data_perfect.html', 'w') as file_p:
+        file_p.write('<h1>Perfectly aligned sequences</h1>\n')
+        # HTML header
+        file_p.write('<!DOCTYPE html>\n')
+        file_p.write('<html>\n')
+        file_p.write('<head>\n')
+        file_p.write('<title>Perfectly aligned sequences</title>\n')
+        file_p.write('</head>\n\n')
+
+        # HTML body
+        file_p.write('<body>\n\n')
+
+        for _, aa in perfect.items():
+            file_p.write('<h2>{}</h1>\n'.format(aa['name']))
+            file_p.write('<p>Class {}</p>\n'.format(
+                'I' if aa['class'] == 'class_I' else 'II'
+            ))
+            file_p.write('<p>{}</p>\n'.format(
+                aa['amino-acid-file']
+            ))
+            file_p.write('<p>{}</p>\n'.format(
+                aa['nucleotide-file']
+            ))
+
+            file_p.write('<h3>alignment summary</h3>\n')
+            file_p.write('<p style="font-family:monospace">\n')
+            for i in range(0, len(aa['nuc-al']), LINE_WIDTH):
+                for j in range(i, i + LINE_WIDTH):
+                    try:
+                        if aa['aa-num'][j] == ' ':
+                            file_p.write('&nbsp;')
+                        else:
+                            file_p.write(aa['aa-num'][j])
+                    except IndexError:
+                        break
+                file_p.write('<br/>\n')
+                for j in range(i, i + LINE_WIDTH):
+                    try:
+                        if aa['aa-seq'][j] == ' ':
+                            file_p.write('&nbsp;')
+                        else:
+                            file_p.write(aa['aa-seq'][j])
+                    except IndexError:
+                        break
+                file_p.write('<br/>\n')
+                for j in range(i, i + LINE_WIDTH):
+                    try:
+                        if aa['aa-ali'][j] == ' ':
+                            file_p.write('&nbsp;')
+                        else:
+                            file_p.write(aa['aa-ali'][j])
+                    except IndexError:
+                        break
+                file_p.write('<br/>\n')
+                for j in range(i, i + LINE_WIDTH):
+                    try:
+                        file_p.write(aa['nuc-al'][j])
+                    except IndexError:
+                        break
+                file_p.write('<br/><br/>\n')
+            file_p.write('</p>\n\n')
+
+        file_p.write('</body>\n')
+        file_p.write('</html>\n')
+
+    # write GenBank aligned HTML output data
+    with open('gap_data_genbank.html', 'w') as file_p:
+        file_p.write('<h1>GenBank aligned sequences</h1>\n')
+        # HTML header
+        file_p.write('<!DOCTYPE html>\n')
+        file_p.write('<html>\n')
+        file_p.write('<head>\n')
+        file_p.write('<title>GenBank aligned sequences</title>\n')
+        file_p.write('</head>\n\n')
+
+        # HTML body
+        file_p.write('<body>\n\n')
+
+        for _, aa in genbank.items():
+            file_p.write('<h2>{}</h1>\n'.format(aa['name']))
+            file_p.write('<p>Class {}</p>\n'.format(
+                'I' if aa['class'] == 'class_I' else 'II'
+            ))
+            file_p.write('<p>{}</p>\n'.format(
+                aa['amino-acid-file']
+            ))
+            file_p.write('<p>{}</p>\n'.format(
+                aa['nucleotide-file']
+            ))
+
+            file_p.write('<h3>alignment summary</h3>\n')
+            file_p.write('<p style="font-family:monospace">\n')
+            for i in range(0, len(aa['nuc-al']), LINE_WIDTH):
+                for j in range(i, i + LINE_WIDTH):
+                    try:
+                        if aa['aa-num'][j] == ' ':
+                            file_p.write('&nbsp;')
+                        else:
+                            file_p.write(aa['aa-num'][j])
+                    except IndexError:
+                        break
+                file_p.write('<br/>\n')
+                for j in range(i, i + LINE_WIDTH):
+                    try:
+                        if aa['aa-seq'][j] == ' ':
+                            file_p.write('&nbsp;')
+                        else:
+                            file_p.write(aa['aa-seq'][j])
+                    except IndexError:
+                        break
+                file_p.write('<br/>\n')
+                for j in range(i, i + LINE_WIDTH):
+                    try:
+                        if aa['aa-ali'][j] == ' ':
+                            file_p.write('&nbsp;')
+                        else:
+                            file_p.write(aa['aa-ali'][j])
+                    except IndexError:
+                        break
+                file_p.write('<br/>\n')
+                for j in range(i, i + LINE_WIDTH):
+                    try:
+                        file_p.write(aa['nuc-al'][j])
+                    except IndexError:
+                        break
+                file_p.write('<br/><br/>\n')
+            file_p.write('</p>\n\n')
+
+        file_p.write('</body>\n')
+        file_p.write('</html>\n')
+
+    # write amino acid aligned HTML output data
+    with open('gap_data_good.html', 'w') as file_p:
+        file_p.write('<h1>Not aligned to nucleotide data</h1>\n')
+        # HTML header
+        file_p.write('<!DOCTYPE html>\n')
+        file_p.write('<html>\n')
+        file_p.write('<head>\n')
+        file_p.write('<title>Not aligned to nucleotide data</title>\n')
+        file_p.write('</head>\n\n')
+
+        # HTML body
+        file_p.write('<body>\n\n')
+
+        for _, aa in good.items():
+            file_p.write('<h2>{}</h1>\n'.format(aa['name']))
+            file_p.write('<p>Class {}</p>\n'.format(
+                'I' if aa['class'] == 'class_I' else 'II'
+            ))
+            file_p.write('<p>{}</p>\n'.format(
+                aa['amino-acid-file']
+            ))
+            file_p.write('<p>{}</p>\n'.format(
+                aa['nucleotide-file']
+            ))
+            file_p.write('<p>{}</p>\n'.format(
+                aa['comment']
+            ))
+
+            file_p.write('<h3>alignment summary</h3>\n')
+            file_p.write('<p style="font-family:monospace">\n')
+            for i in range(0, len(aa['aa-seq']), LINE_WIDTH):
+                for j in range(i, i + LINE_WIDTH):
+                    try:
+                        if aa['aa-seq'][j] == ' ':
+                            file_p.write('&nbsp;')
+                        else:
+                            file_p.write(aa['aa-seq'][j])
+                    except IndexError:
+                        break
+                file_p.write('<br/>\n')
+                for j in range(i, i + LINE_WIDTH):
+                    try:
+                        if aa['aa-ali'][j] == ' ':
+                            file_p.write('&nbsp;')
+                        else:
+                            file_p.write(aa['aa-ali'][j])
+                    except IndexError:
+                        break
+                file_p.write('<br/><br/>\n')
+            file_p.write('</p>\n\n')
+
+        file_p.write('</body>\n')
+        file_p.write('</html>\n')
+
+    # write bad HTML output data
+    with open('gap_data_bad.html', 'w') as file_p:
+        file_p.write('<h1>Misaligned to amino acid sequences</h1>\n')
+        # HTML header
+        file_p.write('<!DOCTYPE html>\n')
+        file_p.write('<html>\n')
+        file_p.write('<head>\n')
+        file_p.write('<title>Misaligned to amino acid sequences</title>\n')
+        file_p.write('</head>\n\n')
+
+        # HTML body
+        file_p.write('<body>\n\n')
+
+        for _, aa in bad.items():
+            file_p.write('<h2>{}</h1>\n'.format(aa['name']))
+            file_p.write('<p>Class {}</p>\n'.format(
+                'I' if aa['class'] == 'class_I' else 'II'
+            ))
+            file_p.write('<p>{}</p>\n'.format(
+                aa['amino-acid-file']
+            ))
+            file_p.write('<p>{} misalignment{}</p>\n'.format(
+                aa['misalignments'],
+                '' if aa['misalignments'] == 1 else 's'
+            ))
+
+            file_p.write('<h3>alignment summary</h3>\n')
+            file_p.write('<p style="font-family:monospace">\n')
+            for i in range(0, len(aa['aa-seq']), LINE_WIDTH):
+                for j in range(i, i + LINE_WIDTH):
+                    try:
+                        if aa['aa-seq'][j] == ' ':
+                            file_p.write('&nbsp;')
+                        else:
+                            file_p.write(aa['aa-seq'][j])
+                    except IndexError:
+                        break
+                file_p.write('<br/>\n')
+                for j in range(i, i + LINE_WIDTH):
+                    try:
+                        if aa['aa-ali'][j] == ' ':
+                            c = '&nbsp;'
+                        else:
+                            c = aa['aa-ali'][j]
+                        if aa['misali'][j] == '^':
+                            file_p.write(bad_style(c))
+                        else:
+                            file_p.write(c)
+                    except IndexError:
+                        break
+                file_p.write('<br/><br/>\n')
+            file_p.write('</p>\n\n')
+
+        file_p.write('</body>\n')
+        file_p.write('</html>\n')
+
+    # write missing HTML output data
+    with open('gap_data_missing.html', 'w') as file_p:
+        file_p.write('<h1>Missing data</h1>\n')
+        # HTML header
+        file_p.write('<!DOCTYPE html>\n')
+        file_p.write('<html>\n')
+        file_p.write('<head>\n')
+        file_p.write('<title>Missing data</title>\n')
+        file_p.write('</head>\n\n')
+
+        # HTML body
+        file_p.write('<body>\n\n')
+
+        for _, aa in missing_data.items():
+            file_p.write('<h2>{}</h1>\n'.format(aa['name']))
+            file_p.write('<p>{}</p>\n'.format(
+                aa['comment']
+            ))
+
+        file_p.write('</body>\n')
+        file_p.write('</html>\n')
 
     # write CSV output data
     with open('gap_data_alignment.csv', 'w') as csv_file:
@@ -660,6 +925,11 @@ def pretty_print_alignment(seq, align, width=72):
     while i < len(seq):
         print('{}\n{}\n\n'.format(seq[i:i+width], align[i:i+width]))
         i += width
+
+
+def bad_style(c):
+    """highlight a span of text"""
+    return '<span style="background-color:yellow">'+c+'</span>'
 
 
 if __name__ == "__main__":
