@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 from urllib.parse import urlencode
 from urllib.request import urlopen
 import re
+import tempfile
 import zipfile
 
 
@@ -23,9 +24,81 @@ except ImportError:
 AARS_XML = 'AARS.xml'
 BASE_DIR = 'BEAST 2/XMLs/Better Priors (final, actually used XMLs)/'
 A_B_E_ZIP = 'GenBank aa sequences w: no structure/Archaeans_Bacteria_Eukaryotes.zip'
-CLASS_I = BASE_DIR + 'ClassI_betterPriors.xml'
-CLASS_II = BASE_DIR + 'ClassII_betterPriors.xml'
+CLASS_I = os.path.join(BASE_DIR, 'ClassI_betterPriors.xml')
+CLASS_II = os.path.join(BASE_DIR, 'ClassII_betterPriors.xml')
+TMP = tempfile.gettempdir()
+OUTPUT_DIR = os.path.join(TMP, 'Archaeans_Bacteria_Eukaryotes/')
 LINE_WIDTH = 72
+
+# Result files
+RAW_DATA = os.path.join(TMP, 'raw_data.json')
+
+
+def main():
+    """The main code"""
+    no_gaps = final_sequences()
+    gaps = all_sequences()
+    data = {}
+    total = len(no_gaps)
+
+    # load existing 'perfect' data
+    perfect_keys, existing_data = load_perfect_data()
+
+    for i, no_gaps_key in enumerate(no_gaps.keys()):
+        print('({:d}/{:d}) Aligning {}'.format(i+1, total, no_gaps_key))
+
+        # if already perfectly aligned, use that data
+        if no_gaps_key in perfect_keys and no_gaps_key in existing_data.keys():
+            data[no_gaps_key] = existing_data[no_gaps_key]
+            continue
+
+        gaps_key, domain, species, aa, class_type = parse_taxonomy(
+            gaps, no_gaps, no_gaps_key)
+
+        ## AMINO ACID DATA ##
+        aa_path = os.path.join(
+            OUTPUT_DIR, domain, species, '{}.aa'.format(no_gaps_key))
+        aa_data = None
+        if os.path.exists(aa_path):
+            aa_header, aa_id, aa_data, aa_align, aa_misalignments = get_aa_from_file(
+                aa_path, gaps, gaps_key)
+        if not aa_data:
+            aa_header, aa_id, aa_data, aa_align, aa_misalignments = get_aa_from_data_set(
+                domain, species, aa, gaps, gaps_key, aa_path)
+
+        ## NUCLEOTIDE DATA ##
+        nuc_path = os.path.join(
+            OUTPUT_DIR, domain, species, '{}.nuc'.format(no_gaps_key))
+        if os.path.exists(nuc_path):
+            nuc_header, nuc_id, nuc_data = read_path_file(nuc_path)
+        else:
+            nuc_header, nuc_id, nuc_data = get_nuc_from_data_set(
+                domain, species, aa, nuc_path)
+
+        # create record of data
+        data[no_gaps_key] = {
+            'aa-gi': aa_id,
+            'nuc-gi': nuc_id,
+            'nuc_header': nuc_header,
+            'aa-header': aa_header,
+            'no-gaps-key': no_gaps_key,
+            'class': class_type,
+            'domain': domain,
+            'species': species,
+            'amino-acid': aa,
+            'gaps-key': gaps_key,
+            'no-gaps-value': no_gaps[no_gaps_key],
+            'gaps-value': gaps[gaps_key],
+            'amino-acid-path': aa_path,
+            'nucleotide-path': nuc_path,
+            'amino-acid-data': aa_data,
+            'amino-acid-aligned-gaps': aa_align,
+            'amino-acid-misalignments': aa_misalignments,
+            'nucleotide-data': nuc_data
+        }
+    with open(RAW_DATA, 'w') as file_p:
+        json.dump(data, file_p, indent=2)
+    output_split_files()
 
 
 def final_sequences():
@@ -149,7 +222,7 @@ def find_match(seq_name, no_gaps, gaps):
     best_key, best_value = sorted(
         gaps.items(),
         key=(lambda target: levenshtein_distance(source, target[1])))[0]
-    return best_key, levenshtein_distance(source, best_value)
+    return best_key
 
 
 def parse_no_gaps_keys(no_gaps_key):
@@ -172,95 +245,135 @@ def parse_no_gaps_keys(no_gaps_key):
     return domain, species, aa
 
 
-def make_no_gaps_to_gaps_file():
-    """Write the no gaps to gaps file"""
-    no_gaps = final_sequences()
-    gaps = all_sequences()
-    data = {}
-    total = len(no_gaps)
-    for i, no_gaps_key in enumerate(no_gaps.keys()):
-        print('({:d}/{:d}) Aligning {}'.format(i+1, total, no_gaps_key))
-        gaps_key, distance = find_match(
-            no_gaps_key, no_gaps=no_gaps, gaps=gaps)
-        domain, species, aa = parse_no_gaps_keys(no_gaps_key)
-        class_type = "class_I" if gaps_key in class_one_sequences().keys() else "class_II"
+def parse_taxonomy(gaps, no_gaps, no_gaps_key):
+    '''parse taxonomy details from region key'''
+    gaps_key = find_match(no_gaps_key, no_gaps=no_gaps, gaps=gaps)
+    domain, species, aa = parse_no_gaps_keys(no_gaps_key)
+    class_type = "class_I" if gaps_key in class_one_sequences().keys() else "class_II"
 
-        # TODO Is R. marinus in the wrong domain?
-        # For now, I'm manually changing the domain to archaea.
-        if species == 'R_marinus':
-            domain = 'arch'
-        ##################################################################
+    # TODO Is R. marinus in the wrong domain?
+    # For now, I'm manually changing the domain to archaea.
+    if species == 'R_marinus':
+        domain = 'Archaea'
+    ##################################################################
 
-        # TODO is R. rosetta correct?
-        # I'm assuming this is actually S. rosetta.
-        if species == 'R_rosetta':
-            species = 'S_rosetta'
-        ##################################################################
+    # TODO is R. rosetta correct?
+    # I'm assuming this is actually S. rosetta.
+    if species == 'R_rosetta':
+        species = 'S_rosetta'
+    ##################################################################
 
-        path, path_cost = predict_path(domain, species, aa)
-        aa_paths = [p for p in predict_amino_path(path, aa)
-                    if "CUT" not in p and "TEST" not in p]
+    return gaps_key, domain, species, aa, class_type
 
-        # TODO What is this file?
-        # Archaeans_Bacteria_Eukaryotes/Bacteria/Chroococcidiopsis thermalis/amino acid sequences/Cthermalis_asn_asp_aa
-        # Need to fix and remove exception code.
-        aa_paths = [p for p in aa_paths if 'Cthermalis_asn_asp_aa' not in p]
-        ###############################################################################################################
 
-        if len(aa_paths) > 1:
-            raise RuntimeError('Too many paths found!\n{}'.format(aa_paths))
-        try:
-            aa_path = aa_paths[0]
-        except IndexError:
-            aa_path = None
-        nuc_paths = predict_nucleotide_path(path, aa)
-        if len(aa_paths) > 1:
-            raise RuntimeError('Too many paths found!\n{}'.format(nuc_paths))
-        try:
-            nuc_path = nuc_paths[0]
-        except IndexError:
-            nuc_path = None
-        with zipfile.ZipFile(A_B_E_ZIP) as z_file:
-            aa_header, backup_id, aa_data = read_path_data(aa_path, z_file)
-            if aa_data:
-                aa_align = align(gaps[gaps_key], aa_data)
-                aa_misalignments = sum([1 if c2 not in '-.*?' and c1 not in '*?' and c1 != c2 else 0
-                                        for c1, c2 in zip(aa_data, aa_align)])
-            else:
-                aa_align = None
-                aa_misalignments = None
-            nuc_header, nuc_id, nuc_data = read_path_data(nuc_path, z_file)
-        data[no_gaps_key] = {
-            'gi': nuc_id if nuc_id else backup_id,
-            'nuc_header': nuc_header,
-            'aa-header': aa_header,
-            'no-gaps-key': no_gaps_key,
-            'class': class_type,
-            'domain': domain,
-            'species': species,
-            'amino acid': aa,
-            'gaps-key': gaps_key,
-            'no-gaps-value': no_gaps[no_gaps_key],
-            'gaps-value': gaps[gaps_key],
-            'gaps-sequence-uncertainty': distance / len(no_gaps[no_gaps_key]),
-            'base-path': path,
-            'path-uncertainty': path_cost / len(species),
-            'amino-acid-path': aa_path,
-            'nucleotide-path': nuc_path,
-            'amino-acid-data': aa_data,
-            'amino-acid-aligned-gaps': aa_align,
-            'amino-acid-misalignments': aa_misalignments,
-            'nucleotide-data': nuc_data
-        }
-    with open('gap_data.json', 'w') as f:
-        json.dump(data, f, indent=2)
-    output_split_files()
+def load_perfect_data():
+    """load the data from any previous run that was already perfect"""
+    try:
+        with open(os.path.join(TMP, 'gap_data_perfect.txt')) as keys_file:
+            perfect_keys = json.load(keys_file).keys()
+    except FileNotFoundError:
+        perfect_keys = {}
+    try:
+        with open(RAW_DATA) as data_file:
+            existing_data = json.load(data_file)
+    except FileNotFoundError:
+        existing_data = {}
+    return perfect_keys, existing_data
+
+
+def get_nuc_from_data_set(domain, species, aa, cache_path):
+    """read nuc data from Alex's source data set (the zip file)"""
+    path, _ = predict_path(domain, species, aa)
+    nuc_paths = predict_nucleotide_path(path, aa)
+    nuc_paths = [p for p in nuc_paths if 
+        "Aaeolicus_arg_nuc(2)" not in p
+        and "Mdomestica_val_nuc copy" not in p]
+
+    # TODO What is this file?
+    # Archaeans_Bacteria_Eukaryotes/Bacteria/Chroococcidiopsis thermalis/amino acid sequences/Cthermalis_asn_asp_nuc
+    # Need to fix and remove exception code.
+    nuc_paths = [
+        p for p in nuc_paths if 'Cthermalis_asn_asp_nuc' not in p]
+    ###############################################################################################################
+
+    if len(nuc_paths) > 1:
+        raise RuntimeError(
+            'Too many paths found!\n{}'.format(nuc_paths))
+    try:
+        nuc_path = nuc_paths[0]
+    except IndexError:
+        nuc_path = None
+    with zipfile.ZipFile(A_B_E_ZIP) as z_file:
+        nuc_header, nuc_id, nuc_data = read_zip_file_data(nuc_path, z_file)
+    # cache this data
+    directory = os.path.dirname(cache_path)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    with open(cache_path, 'w') as file_p:
+        file_p.write('>gi|' + (nuc_id if nuc_id else 'none') + '\n' + nuc_data + '\n')
+    return nuc_header, nuc_id, nuc_data
+
+
+def get_aa_from_data_set(domain, species, aa, gaps, gaps_key, cache_path):
+    """read aa data from Alex's source data set (the zip file)"""
+    path, _ = predict_path(domain, species, aa)
+    aa_paths = [p for p in predict_amino_path(path, aa)
+                if "CUT" not in p and "TEST" not in p]
+
+    # TODO What is this file?
+    # Archaeans_Bacteria_Eukaryotes/Bacteria/Chroococcidiopsis thermalis/amino acid sequences/Cthermalis_asn_asp_aa
+    # Need to fix and remove exception code.
+    aa_paths = [
+        p for p in aa_paths if 'Cthermalis_asn_asp_aa' not in p]
+    ###############################################################################################################
+
+    if len(aa_paths) > 1:
+        raise RuntimeError(
+            'Too many paths found!\n{}'.format(aa_paths))
+    try:
+        aa_path = aa_paths[0]
+    except IndexError:
+        print('{} {} {} amino acid data missing from source data set'.format(
+            domain, species, aa
+        ))
+        aa_path = None
+    with zipfile.ZipFile(A_B_E_ZIP) as z_file:
+        aa_header, aa_id, aa_data = read_zip_file_data(aa_path, z_file)
+        if aa_data:
+            aa_align = align(gaps[gaps_key], aa_data)
+            aa_misalignments = sum([1 if c2 not in '-.*?' and c1 not in '*?' and c1 != c2 else 0
+                                    for c1, c2 in zip(aa_data, aa_align)])
+        else:
+            aa_align = None
+            aa_misalignments = None
+    if not aa_data:
+        raise RuntimeError('No data for {} in source data set'.format(cache_path))
+    # cache this data
+    directory = os.path.dirname(cache_path)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    with open(cache_path, 'w') as file_p:
+        file_p.write('>gi|' + (aa_id if aa_id else 'none') + '\n' + aa_data + '\n')
+    return aa_header, aa_id, aa_data, aa_align, aa_misalignments
+
+
+def get_aa_from_file(aa_path, gaps, gaps_key):
+    """read from a file to get the data"""
+    aa_header, aa_id, aa_data = read_path_file(aa_path)
+    if aa_data:
+        aa_align = align(gaps[gaps_key], aa_data)
+        aa_misalignments = sum([1 if c2 not in '-.*?' and c1 not in '*?' and c1 != c2 else 0
+                                for c1, c2 in zip(aa_data, aa_align)])
+    else:
+        aa_align = None
+        aa_misalignments = None
+    return aa_header, aa_id, aa_data, aa_align, aa_misalignments
 
 
 def output_split_files():
     """Output files with summaries of aligned and unaligned"""
-    with open('gap_data.json') as f:
-        d = json.load(f)
+    with open(RAW_DATA) as file_p:
+        d = json.load(file_p)
     perfect = {}  # aligned nucleotide
     genbank = {}  # aligned to GenBank data
     good = {}  # aligned amino acids
@@ -276,20 +389,14 @@ def output_split_files():
     total = len(d)
     for current, (k, v) in enumerate(d.items()):
         print('({:d}/{:d}) Checking {}'.format(current+1, total, k))
-        if not v['amino-acid-path'] and not v['nucleotide-path']:
-            counts['missing data'] += 1
-            missing_data[k] = {
-                'name': k,
-                'comment': "Missing amino acid and nucleotide sequence file"
-            }
-            continue
         if not v['nucleotide-path']:
-            counts['missing data'] += 1
-            missing_data[k] = {
-                'name': k,
-                'comment': "Missing nucleotide sequence file"
-            }
-            continue
+            if not v['aa-gi'] or not check_genbank(v['aa-gi'])[0]:
+                counts['missing data'] += 1
+                missing_data[k] = {
+                    'name': k,
+                    'comment': "Missing nucleotide sequence file"
+                }
+                continue
         if not v['amino-acid-path']:
             counts['missing data'] += 1
             missing_data[k] = {
@@ -300,13 +407,17 @@ def output_split_files():
         misalignment = v['amino-acid-misalignments']
         estimated_nuc_len = len(v['amino-acid-data']) * 3
         actual_nuc_len = len(v['nucleotide-data'])
-        if misalignment == 0 and (estimated_nuc_len == actual_nuc_len or actual_nuc_len - estimated_nuc_len == 3):
-            # From Peter Wills - 10 Oct 2018
-            # "Many of these aaRS sequences are of the “catalytic domain” and some have
-            # other domains attached to them, so you may have the first codon of the
-            # following domain."
-            #
-            # Given this, if the nucleotide sequences has one extra codon, we ignore it.
+        if misalignment == 0 and (estimated_nuc_len == actual_nuc_len
+                                  # From Peter Wills - 10 Oct 2018
+                                  # "Many of these aaRS sequences are of the
+                                  # 'catalytic domain' and some have other
+                                  # domains attached to them, so you may have
+                                  # the first codon of the following domain."
+                                  #
+                                  # Given this, if the nucleotide sequences has
+                                  # one extra codon, we ignore it.
+                                  or actual_nuc_len - estimated_nuc_len <= 3):
+
             counts['perfectly aligned to our nucleotide data'] += 1
             nuc_align = ''.join(['---' if v['amino-acid-aligned-gaps'][i] in '-.'
                                  else v['nucleotide-data'][i*3:(i+1)*3]
@@ -324,7 +435,9 @@ def output_split_files():
             }
             continue
         # see if GenBank can do better
-        check, gb_aa, gb_nuc = check_genbank(v['gi'])
+        # currently, we only check GenBank for the GI parsed from the amino acid
+        # file and ignore the GI from the nucleotide file
+        check, gb_aa, gb_nuc = check_genbank(v['aa-gi'])
         if check:
             aa_align = align(v['gaps-value'], gb_aa)
             aa_misalignments = sum([1 if c2 not in '-.*?' and c1 not in '*?' and c1 != c2 else 0
@@ -338,13 +451,28 @@ def output_split_files():
                     'name': k,
                     'class': v['class'],
                     'regions': v['gaps-value'],
-                    'amino-acid-file': 'GenBank ' + v['gi'],
-                    'nucleotide-file': 'GenBank ' + v['gi'],
+                    'amino-acid-file': 'downloaded from GenBank: gi|{}'.format(v['aa-gi']),
+                    'nucleotide-file': 'downloaded from GenBank: gi|{}'.format(v['aa-gi']),
                     'aa-num': ''.join(['{0:^3d}'.format(n) for n in range(1, len(gb_aa) + 1)]),
                     'aa-seq': ' ' + '  '.join(list(gb_aa)) + ' ',
                     'aa-ali': ' ' + '  '.join(list(aa_align)) + ' ',
                     'nuc-al': nuc_align
                 }
+
+                # replace data in cached copy of data set
+                aa_cache_path = os.path.join(
+                    OUTPUT_DIR, v['domain'], v['species'], '{}.aa'.format(k)
+                )
+                nuc_cache_path = os.path.join(
+                    OUTPUT_DIR, v['domain'], v['species'], '{}.nuc'.format(k)
+                )
+                directory = os.path.dirname(aa_cache_path)
+                if not os.path.exists(directory):
+                    os.makedirs(directory)
+                with open(aa_cache_path, 'w') as file_p:
+                    file_p.write('>gi|' + v['aa-gi'] + '|hello\n' + gb_aa + '\n')
+                with open(nuc_cache_path, 'w') as file_p:
+                    file_p.write('>gi|' + v['aa-gi'] + '|hello\n' + gb_nuc + '\n')
                 continue
         if misalignment == 0:
             if estimated_nuc_len < actual_nuc_len:
@@ -359,7 +487,8 @@ def output_split_files():
             good[k] = {
                 'name': k,
                 'class': v['class'],
-                'genbank-id': v['gi'],
+                'aa-genbank-id': v['aa-gi'],
+                'nuc-genbank-id': v['nuc-gi'],
                 'regions': v['gaps-value'],
                 'amino-acid-file': v['amino-acid-path'],
                 'nucleotide-file': v['nucleotide-path'],
@@ -383,15 +512,15 @@ def output_split_files():
                                                  v['amino-acid-aligned-gaps'])])
         }
     # write JSON output data
-    with open('gap_data_perfect.txt', 'w') as p:
+    with open(os.path.join(TMP, 'gap_data_perfect.txt'), 'w') as p:
         json.dump(perfect, p, indent=2)
-    with open('gap_data_genbank.txt', 'w') as gb:
+    with open(os.path.join(TMP, 'gap_data_genbank.txt'), 'w') as gb:
         json.dump(genbank, gb, indent=2)
-    with open('gap_data_good.txt', 'w') as g:
+    with open(os.path.join(TMP, 'gap_data_good.txt'), 'w') as g:
         json.dump(good, g, indent=2)
-    with open('gap_data_bad.txt', 'w') as b:
+    with open(os.path.join(TMP, 'gap_data_bad.txt'), 'w') as b:
         json.dump(bad, b, indent=2)
-    with open('gap_data_missing.txt', 'w') as m:
+    with open(os.path.join(TMP, 'gap_data_missing.txt'), 'w') as m:
         json.dump(missing_data, m, indent=2)
 
     # write perfect HTML output data
@@ -658,63 +787,73 @@ def output_split_files():
         file_p.write('</body>\n')
         file_p.write('</html>\n')
 
-    # write CSV output data
-    with open('gap_data_alignment.csv', 'w') as csv_file:
-        csv_data = dict(perfect, **genbank)
-        header = 'Identifier,Class,Amino Acid'
-        counter = 1
-        total = len(csv_data)
-        indices = [0 for _ in csv_data]
-        strings = ['{},{},{}'.format(
-            k, d[k]['class'], d[k]['amino acid']) for k in csv_data]
-        gap = True
+    # write CSV class I output data
+    with open(os.path.join(TMP, 'gap_data_alignment_class_I.csv'), 'w') as csv_file:
+        csv_data = {k: v for k, v in perfect.items() if v['class'] == 'class_I'}
+        write_csv(d, csv_file, csv_data)
 
-        while any(i < len(d[k]['amino-acid-aligned-gaps']) for i, k in zip(indices, csv_data)):
-            header += ',{}'.format(counter)
-            counter += 1
-
-            # first, check if in a non-gap area with a removed section (i.e. a '.' character)
-            dot = not gap and any(
-                i < len(d[k]['amino-acid-aligned-gaps']) and d[k]['amino-acid-aligned-gaps'][i] == '.' for i, k in zip(indices, csv_data))
-
-            for i, k in enumerate(csv_data):
-                v = d[k]
-
-                # check if at end of alignment
-                if indices[i] >= len(v['amino-acid-aligned-gaps']):
-                    continue  # no need to write anything
-
-                # get character
-                c = v['amino-acid-aligned-gaps'][indices[i]]
-
-                strings[i] += ','
-                if gap and c == '-':  # only '-' alignments may advance
-                    strings[i] += '-'
-                    indices[i] += 1
-                    continue
-                elif dot and c == '.':  # only '.' alignments may advance
-                    strings[i] += '.'
-                    indices[i] += 1
-                    continue
-                elif not gap and c not in '.-':
-                    strings[i] += str(indices[i] + 1)
-                    indices[i] += 1
-                    continue
-
-            # if all indices are not '-', we change to non-gap
-            if all(i >= len(d[k]['amino-acid-aligned-gaps']) or d[k]['amino-acid-aligned-gaps'][i] != '-' for i, k in zip(indices, csv_data)):
-                gap = False
-            # if all indices are '-', we change to gap
-            if all(i >= len(d[k]['amino-acid-aligned-gaps']) or d[k]['amino-acid-aligned-gaps'][i] == '-' for i, k in zip(indices, csv_data)):
-                gap = True
-            # otherwise, gap status stays the same
-
-        csv_file.write(header + '\n')
-        csv_file.write('\n'.join(strings) + '\n')
+    # write CSV class II output data
+    with open(os.path.join(TMP, 'gap_data_alignment_class_II.csv'), 'w') as csv_file:
+        csv_data = {k: v for k, v in perfect.items() if v['class'] == 'class_II'}
+        write_csv(d, csv_file, csv_data)
 
     # print summary data
     for k, v in counts.items():
         print('{}: {}'.format(k, v))
+
+
+def write_csv(d, csv_file, csv_data):
+    '''write CSV data'''
+    header = 'Identifier,Amino Acid'
+    counter = 1
+    total = len(csv_data)
+    indices = [0 for _ in csv_data]
+    strings = ['{},{}'.format(
+        k, d[k]['amino-acid']) for k in csv_data]
+    gap = True
+
+    while any(i < len(d[k]['amino-acid-aligned-gaps']) for i, k in zip(indices, csv_data)):
+        header += ',{}'.format(counter)
+        counter += 1
+
+        # first, check if in a non-gap area with a removed section (i.e. a '.' character)
+        dot = not gap and any(
+            i < len(d[k]['amino-acid-aligned-gaps']) and d[k]['amino-acid-aligned-gaps'][i] == '.' for i, k in zip(indices, csv_data))
+
+        for i, k in enumerate(csv_data):
+            v = d[k]
+
+            # check if at end of alignment
+            if indices[i] >= len(v['amino-acid-aligned-gaps']):
+                continue  # no need to write anything
+
+            # get character
+            c = v['amino-acid-aligned-gaps'][indices[i]]
+
+            strings[i] += ','
+            if gap and c == '-':  # only '-' alignments may advance
+                strings[i] += '-'
+                indices[i] += 1
+                continue
+            elif dot and c == '.':  # only '.' alignments may advance
+                strings[i] += '.'
+                indices[i] += 1
+                continue
+            elif not gap and c not in '.-':
+                strings[i] += str(indices[i] + 1)
+                indices[i] += 1
+                continue
+
+        # if all indices are not '-', we change to non-gap
+        if all(i >= len(d[k]['amino-acid-aligned-gaps']) or d[k]['amino-acid-aligned-gaps'][i] != '-' for i, k in zip(indices, csv_data)):
+            gap = False
+        # if all indices are '-', we change to gap
+        if all(i >= len(d[k]['amino-acid-aligned-gaps']) or d[k]['amino-acid-aligned-gaps'][i] == '-' for i, k in zip(indices, csv_data)):
+            gap = True
+        # otherwise, gap status stays the same
+
+    csv_file.write(header + '\n')
+    csv_file.write('\n'.join(strings) + '\n')
 
 
 def predict_amino_path(path, aa):
@@ -817,8 +956,8 @@ def construct_species(name):
     return '_'.join(new)
 
 
-def read_path_data(path, z_file):
-    """read the data from the path location"""
+def read_zip_file_data(path, z_file):
+    """read the data from the zip file"""
     if path is None:
         return None, None, None
     dat = ''
@@ -841,32 +980,57 @@ def read_path_data(path, z_file):
     return header, gi, dat
 
 
+def read_path_file(path):
+    """read the data from the path file"""
+    if path is None:
+        return None, None, None
+    dat = ''
+    header = None
+    gi = None
+    with open(path) as path_p:
+        for next_dat in path_p.readlines():
+            if next_dat[0] == '>':
+                header = next_dat.strip()
+                if next_dat[0:4] == '>gi|':
+                    try:
+                        gi = next_dat[4:].split('|')[0].split()[0]
+                    except IndexError:
+                        gi = None
+                else:
+                    gi = None
+                continue
+            dat += next_dat.strip()
+    return header, gi, dat
+
+
 def check_genbank(gi):
     """check if genbank data could be used"""
+    if not gi:
+        return False, None, None
     # check for cached nuc data
     try:
-        with open('/tmp/{}.nuc'.format(gi)) as nuc_file:
+        with open(os.path.join(TMP, '{}.nuc'.format(gi))) as nuc_file:
             nuc_data = nuc_file.read()
+            nuc_len = len(nuc_data)
     except FileNotFoundError:
         # no cached nuc data -- re-download
-        print('attempting to download nucleotide data from GenBank')
         nuc_data = get_genbank_nuc(gi)
-        with open('/tmp/{}.nuc'.format(gi), 'w') as nuc_file:
+        nuc_len = len(nuc_data)
+        with open(os.path.join(TMP, '{}.nuc'.format(gi)), 'w') as nuc_file:
             nuc_file.write(nuc_data)
 
     # check for cached aa data
     try:
-        with open('/tmp/{}.aa'.format(gi)) as aa_file:
+        with open(os.path.join(TMP, '{}.aa'.format(gi))) as aa_file:
             aa_data = aa_file.read()
+            aa_len = 3 * len(aa_data)
     except FileNotFoundError:
         # no cached aa data -- re-download
-        print('attempting to download amino acid data from GenBank')
         aa_data = get_genbank_aa(gi)
-        with open('/tmp/{}.aa'.format(gi), 'w') as aa_file:
+        aa_len = 3 * len(aa_data)
+        with open(os.path.join(TMP, '{}.aa'.format(gi)), 'w') as aa_file:
             aa_file.write(aa_data)
 
-    nuc_len = len(nuc_data)
-    aa_len = 3 * len(aa_data)
     if nuc_len > 6 and (aa_len == nuc_len or aa_len == nuc_len - 3):
         return True, aa_data, nuc_data
     return False, aa_data, nuc_data
@@ -906,6 +1070,7 @@ def get_genbank(gi, type_):
         })
     url = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?' + params
     dat = ''
+    print(url)
     with urlopen(url) as web:
         for line in web.read().decode('UTF-8').splitlines():
             if line and line[0] == '>':
@@ -932,5 +1097,149 @@ def bad_style(c):
     return '<span style="background-color:yellow">'+c+'</span>'
 
 
+def load_missing_data():
+    """manually enter data into temp directory"""
+    # TODO Add proper aa data for leu_arch_T_volcanium into source data set
+    directory = os.path.join(OUTPUT_DIR, 'Archaea', 'T_volcanium')
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    filename = os.path.join(directory, 'leu_arch_T_volcanium.aa')
+    with open(filename, 'w') as f:
+        f.write(LEU_ARCH_T_VOLCANIUM_AA)
+    #######################################################################
+
+    # TODO Add proper data for trp_arch_T_volcanium into source data set
+    directory = os.path.join(OUTPUT_DIR, 'Archaea', 'T_volcanium')
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    filename_aa = os.path.join(directory, 'trp_arch_T_volcanium.aa')
+    with open(filename_aa, 'w') as f:
+        f.write(TRP_ARCH_T_VOLCANIUM_AA)
+    filename_nuc = os.path.join(directory, 'trp_arch_T_volcanium.nuc')    
+    with open(filename_nuc, 'w') as f:
+        f.write(TRP_ARCH_T_VOLCANIUM_NUC)
+    #######################################################################
+
+    # TODO Add proper aa data for val_euk_M_domestica into source data set
+    directory = os.path.join(OUTPUT_DIR, 'Eukaryotes', 'M_domestica')
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    filename = os.path.join(directory, 'val_euk_M_domestica.aa')
+    with open(filename, 'w') as f:
+        f.write(VAL_EUK_M_DOMESTICA_AA)
+    #######################################################################
+
+    # TODO Add proper nuc data for asn_euk_G_lamblia into source data set
+    directory = os.path.join(OUTPUT_DIR, 'Eukaryotes', 'G_lamblia')
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    filename = os.path.join(directory, 'asn_euk_G_lamblia.nuc')
+    with open(filename, 'w') as f:
+        f.write(GIARDIA_LAMBLIA_ASN_NUC)
+    #######################################################################
+
+
+LEU_ARCH_T_VOLCANIUM_AA = '''>gi|48428561
+MDYSRCCGSTNSRVIYMNIDEKWQNAWERDHVFEPKIDERKKFMITVPWPYTNGSLHVGHGRTYTLGDII
+ARYKRSRNYNVLFPMGFHQSGTPILAFSERIRAGDASTIALYRSYLSEYGEKDIDGWLEKFKDPRNIADY
+FSNAIINDFKHLGYSIDWTRKFTSADEFYQNVVKWQFHKLNEKGLIKQDKYPILYSIDDDNAVGEDDIKD
+GDTDKVSVEEYTAVFFESNSYSLIAASLRPETLFGVTNIWINPTGEYVKIKIGDKIAVVSKEAVDKLKYQ
+RNDVSVIGPISAESIQRKKFTTPFGKEVPVYKADFVDTDNGTGVVYSVPSHSVYDFVYYRRKKSGQTPVV
+IEAPLKMPEVEIKFDLNSKEGLDEATKELYKSEFYYGKLVNSGEYTGLTVRDAREKIKKDLIGSGKAIIF
+YETSRKAVTRGGSKVIVAVLPDQWFIDYSADWLKKLSHDMLNRMMIYPEMYRNVMNDAIDWLKERPCARR
+RGLGTKLPFDDRWVIESLSDSTIYPAVYTTSIQMRKLYENGKLDENAIERIFDGGEVQNDEERTARNEFS
+YWYPVDIRLTAVPHISNHLSFYVMNHAAIFPPEKWPSGLIISGLVVSNGAKISKSKGNVVSLLEITKKYS
+ADIYRLYVAVQADVSSTMDWNENDLSNIVRRFNEFKTIMDSFKPDTSELNFEETWFVSRFAERLKQFMDQ
+MDGFQIRDAYINIFYGTLNDLKYAVNRGASQNRSLASIIADWLRALMPVISHHAEEYWHRYVSNTYVSIN
+PFDDNFAEKYERLAKVYGLSTSEFYQVMDYVEHIIQDINNIISVTGIEPKSVEITVANEDVIKASREFLS
+NSVSERSKRYLQYLAKRRKDIVVYPFNEIDILRRNSSYISRQVKADVSINTGDIINGKIAVPGKPVIHIT
+'''
+
+TRP_ARCH_T_VOLCANIUM_AA = '''>sp|Q978Y8|SYW_THEVO Tryptophan--tRNA ligase OS=Thermoplasma volcanium (strain ATCC 51530 / DSM 4299 / JCM 9571 / NBRC 15438 / GSS1) OX=273116 GN=trpS PE=3 SV=1
+MINPWSSSDFFDYERLKKEFGISDQSDNIDHFLFRRKVILGQRGFEYIKYAIDNKIKFNV
+MTGLMPSGEMHLGNKSAIDQVIYFQKLGGSVSIAVADLESYSTRGIPLDKAREIAIEKYI
+LNYIAMGLQPCEIYFQSKNKDVQFLSYILGNWTNMNELKALYGFTDSNDILHINAPLIQA
+ADVLHTQLNNYGGPAPTVVPVGFDQDPHIRLMRDLAKRMRIFNVFYDGGITVSIKGKGDS
+TMPVDQAYEYLSKRFSEVTKDYEYRVVKAKDGKEEDIVRTDIDLAKIGSEFNVFSFIPPS
+ATYQKLMKGLKGGKMSSSVPDSLISMNDDVEEAKRKIMRALTGGRDTEEEQRKLGGEPEK
+CPVFDLYNYEIDDDKYVNEVFEECKSGKRMCGYCKREIADKMSIFLKDIKEKREIAREKL
+SLYIHE
+'''
+
+TRP_ARCH_T_VOLCANIUM_NUC = '''
+ATGATAAATCCGTGGTCTTCGAGCGACTTCTTTGATTATGAGAGGTTGAAGAAGGAATTTGGAATTTCAG
+ATCAATCCGATAATATTGATCATTTCTTGTTTCGACGGAAGGTGATTCTCGGTCAGCGTGGCTTTGAATA
+CATTAAGTATGCAATTGATAATAAGATCAAGTTCAACGTAATGACCGGGTTAATGCCGTCAGGAGAAATG
+CATCTGGGAAATAAGAGTGCTATCGATCAAGTTATTTACTTTCAGAAGCTTGGAGGAAGCGTATCTATAG
+CGGTAGCTGATCTTGAATCGTACTCTACTAGGGGTATACCGCTCGATAAAGCAAGGGAAATAGCTATTGA
+GAAATACATACTTAACTACATCGCTATGGGCCTTCAACCTTGTGAGATCTATTTTCAATCTAAAAACAAA
+GATGTTCAGTTTCTATCCTATATCCTTGGAAATTGGACTAATATGAATGAGCTCAAAGCTCTGTACGGTT
+TTACTGATTCAAATGATATCTTACACATCAATGCGCCTCTCATCCAGGCAGCTGACGTTCTCCATACACA
+GCTGAACAATTATGGCGGGCCAGCACCCACTGTAGTTCCTGTAGGTTTTGATCAGGATCCACATATAAGG
+CTCATGAGGGATCTAGCTAAAAGAATGAGGATTTTCAATGTCTTCTATGATGGTGGGATTACAGTTTCAA
+TAAAAGGGAAGGGAGATTCGACGATGCCTGTAGATCAGGCTTATGAATACCTTTCAAAGAGATTTTCTGA
+AGTGACAAAAGACTATGAATACAGAGTGGTAAAGGCCAAGGATGGCAAGGAAGAAGATATTGTTAGAACA
+GACATCGATCTTGCTAAGATCGGATCAGAGTTTAATGTATTTTCATTCATTCCTCCATCTGCAACCTACC
+AGAAACTTATGAAGGGTTTAAAAGGAGGAAAGATGTCTTCATCGGTTCCAGATTCTCTTATTTCGATGAA
+TGATGATGTGGAGGAAGCTAAAAGGAAAATAATGCGTGCGCTAACTGGAGGCAGGGATACTGAAGAAGAA
+CAGAGAAAACTGGGAGGTGAACCTGAAAAATGCCCAGTCTTCGATCTATACAACTATGAAATAGACGATG
+ACAAATACGTAAACGAAGTATTTGAAGAGTGCAAATCGGGAAAGAGGATGTGCGGATACTGCAAGAGGGA
+AATAGCCGATAAAATGTCCATATTTTTAAAAGATATAAAGGAAAAAAGGGAAATTGCAAGAGAAAAATTA
+TCACTTTATATTCATGAATAG
+'''
+
+VAL_EUK_M_DOMESTICA_AA = '''MSILYVSPHPDAFPSLRALIAARYGESGPGPGWGGPPPRVCLQP
+PPTSGSCIPPPRLPVLEQGPGGLRVWGAAAVAQLLWPAGMGGPGGSRGATLVQQWVSY
+ADGELVPAACGATLPALGLRNPTQDPQAALGALGRALGPLEERLRLHTYLAGEAPTLA
+DLAAVTALLLPFRYVLDPPARWAWGNVSRWFMTCVQQPEFRAVLGEVSLCSGIRPIPQ
+QPGTEASGPPKTAAQLKKEAKKREKLEKFQQKQKNQLHQPPPGEKKLKIEKKEKRDPG
+VITYDIPTPPGEKKDVSGPMPDSYSPQYVEAAWYSWWENKGFFKPEYGRASLTEPNPR
+GTFMMCIPPPNVTGSLHLGHALTNAIQDSLTRWHRMRGETTLWNPGCDHAGIATQVVV
+EKKLWRERGMSRHQLGREAFLREVWKWKNEKGDRIYHQLKKLGGSLDWDRACFTMDPK
+LSAAVTEAFVRLHNDGVIYRSTRLVNWSCSLNSAISDIEVDKKELSGRTLLSVPGYEE
+KVEFGVIVSFAYKIEDSESNEEVVVATTRIETMLGDVAVAVHPNDPRYQHLRGKSVMH
+PFLLRSLPIIFDEFVDMEFGTGAVKITPAHDQNDYEVGQRHKLEAVSIMDHRGNLINV
+PPPFLGLPRFEARKAVLAALKDKGLFREVKDNPMVVPLCNRSKDVVEPLLKPQWYVRC
+GEMAQAASAAVTRGDLKILPEVHQKIWHIWMDNIRDWCISRQLWWGHRIPAYFVTVND
+PAVPPGEDPDGRYWVSGRNEEEAREKAAKEFGVPPDKISLSQDEDVLDTWFSSGLFPF
+SILGWPNQTEDLSIFYPGTLLETGHDILFFWVARMVMLGLKLTGKLPFKEVYLHALVR
+DAHGRKMSKSLGNVIDPLDVISGLSLQGLHDQLLNSNLDPSEMEKAKEGQKADFPNGI
+PECGTDALRFGLCAYTSQGRDINLDVNRILGYRHFCNKLWNATKFALRALGDGFVPSP
+TPQASSQESLADRWIRSRLSEAVGLSHQGFQAYDFPTITTAQYSFWLYDLCNVYLECL
+KPVLSGKDQVAAESARQTLYTCLDVGLRLLSPFMPFVTEELYQRLPRRGPQAPPSLCV
+TPYPEPDELSWKDPEAEAAFELALSITRAVRSLRADYNLTRSQPECFLEVADEATGTQ
+ASAVSGYVQALSNTGAVNVLLPGSPAPQGCAVGLASDRCSVHLQLQGLVDPTRELAKL
+RAKRGEAERQAQRLRERRAVPDYATKVPSQVQESEEAKLQQTEAELKKVDEAIALFEK
+ML
+'''
+
+GIARDIA_LAMBLIA_ASN_NUC = '''>NW_002477099.1:331749-333395 Giardia lamblia ATCC 50803 SC_592, whole genome shotgun sequence
+ATGGCAGACACTAAGAAAGCTCGTCAAGAGGACGACTGCATGGACGAGGATGTCAGCCATCCATACTACG
+CCGCATACAAGAACGAAATACAGGCTGAGCTCGATGAGATAGCAACTATGCGGCAGGAGGATGGGAGTGA
+GTTGCCAAATAAGCGTGTGAAGAAGCTCATCAAGACCATACATGCGAAATACAAGAAGCTCTACACAGCC
+ACAAAGCAAGAAGAAAGGTCTGCCGATCAGCAGCGTCAGACAGAAGCACACCTTGCTGAGCTTCCCGAGC
+GCATGGAGCCGTACACGGGTCTGGCAAAGCGTTTAAGAGTTAGGGACTTTCCTTATTACAAGGCAGTTGA
+CAAGCCTGTTGTTGTGTGTGGTTGGTGCCACCGTGTGCGCGTCTCTTCTCCCAAACTTGCTTTCGTGGTA
+CTTAGAGACGGGACCGGATACTGTCAACTGGTTCTTAACGAGGCCTGCATGGGTACTCGTAGGACTCAGA
+CACTTCTGCGCACAGAGGCCGCTGTCAAAGCTGTAGGAATTCTTGTCGCTGATACGCGCGCACAAGGCGG
+CTACGAAATTCAGTGTCTCTACTTTGACATTATTGGTCCGTCATCTGGAGAGTTTGAAACGCGGATCACC
+CCAGAGTCTGGTCCCGATGCTCGTGCCAGAGAGCGCCATCTCATTCACCGAGGCGAACATGGGTCTGCAA
+TTTTGAAAGCAAGGGGCCGGATTCTAAGGGCCTTCCGCAACCACTTCTACTTCAAAGGCTGGACAGAGGT
+TACTCCACCAACAATAGTCAACACCGAATGCGAAGGAGGCTCTAGTCTGTTCAAAGTGGACTTTTATGGA
+GAAGACGCATACCTTACCCAGTCCTCACAGCTTTATCTGGAGAGCGTCATTTCTGCCCTTGGGGATGTCT
+ATTGCATCTTGCCTTCATTCAGAGCAGAGAAATCGAACACAAGGAGACACCTTTCCGAATTTACACATCT
+TGAAACAGAGCACCCGTTCATTACGTTTTCGGAGCTCTTGGGGATAATTGAGGATTTCGTGATCTCTGTT
+GTCACTGAGCTGAAAAATGACAAGCAATTCTATCCCCTTGTCCAGTTCCTTAATGGTGACAACTTTGACA
+AGATTGCCTCAAGCTTGAAGAAACCCTTTAAACGTATGAGGCACAGTGAAGGAATAGACTGGCTGAATGA
+TCACGGAATTACCAAGGAGGACGGTACAGCATTCACTTATGATGACGACATTCCAGAAGCCCAGGAGAGG
+AAAATGATCGATGCCATAGGAGAACCGGTTTTCCTTACACACTTTCCAGCACATCTGAAGTCCTTTTACA
+TGGCACGCTGCAGTGATGATCCCTCTTCCCCAGACTACCTTCTCACGGAAAGTGTCGACTTACTCGTTCC
+CACTGTTGGCGAAATTGTCGGGGGGAGTATGCGTAAGTGGACGTACGAAGACACATACAAGGCCTGTGTT
+GATGCAGGGCTCCCCATTAAGCGCTACTACTGGTATCTTGATTCACGCAAATTCGGTGGCTGTCCTCACG
+GCGGAATGGGCCTGGGTCTGGAAAGGTTCATTTGCTGGTTACTAGGAATCTATACTGTTAGGGACACAGT
+TCTTTACCCTCGTGCGCCGGGTCTCATTGAGCCGTGA'''
+
+
 if __name__ == "__main__":
-    make_no_gaps_to_gaps_file()
+    load_missing_data()
+    main()
