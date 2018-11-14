@@ -1,0 +1,585 @@
+#NEXUS
+
+Begin taxa;
+	Dimensions ntax=287;
+		Taxlabels
+			arg_arch_2zue_P_horikoshii 
+			arg_arch_P_delaneyi 
+			arg_arch_S_acidocaldarius 
+			arg_arch_M_kandleri 
+			arg_arch_M_hungatei 
+			arg_arch_A_fulgidus 
+			arg_arch_M_thermautotrophicus 
+			arg_arch_P_aerophilum 
+			arg_arch_T_acidophilum 
+			arg_arch_N_equitans 
+			arg_arch_M_aeolicus_Nankai 
+			arg_arch_S_marinus 
+			arg_arch_M_acetivorans 
+			arg_arch_M_janaschii 
+			arg_arch_P_occultum 
+			arg_arch_Halobacterium 
+			cys_arch_P_aerophilum 
+			cys_arch_P_delaneyi 
+			cys_arch_P_horikoshii 
+			cys_arch_P_occultum 
+			cys_arch_S_acidocaldarius 
+			cys_arch_S_marinus 
+			cys_arch_T_acidophilum 
+			cys_arch_A_fulgidus 
+			cys_arch_Halobacterium 
+			cys_arch_M_hungatei 
+			cys_arch_N_equitans 
+			glu_arch_M_hungatei 
+			glu_arch_M_jannaschii 
+			glu_arch_M_kandleri 
+			glu_arch_M_thermautotrophicus 
+			glu_arch_P_aerophilum 
+			glu_arch_P_delaneyi 
+			glu_arch_A_fulgidus 
+			glu_arch_P_occultum 
+			glu_arch_S_acidocaldarius 
+			glu_arch_S_marinus 
+			glu_arch_T_acidophilum 
+			glu_arch_T_volcanium 
+			glu_arch_Halobacterium 
+			ile_arch_P_delaneyi 
+			ile_arch_T_volcanium 
+			ile_arch_S_acidocaldarius 
+			ile_arch_M_kandleri 
+			ile_arch_M_hungatei 
+			ile_arch_A_fulgidus 
+			ile_arch_M_thermautotrophicus 
+			ile_arch_P_aerophilum 
+			ile_arch_T_acidophilum 
+			ile_arch_N_equitans 
+			ile_arch_P_horikoshii 
+			ile_arch_M_acetivorans 
+			ile_arch_S_marinus 
+			ile_arch_M_jannaschii 
+			ile_arch_P_occultum 
+			ile_arch_Halobacterium 
+			leu_arch_1wz2_P_horikoshii 
+			leu_arch_P_delaneyi 
+			leu_arch_T_volcanium 
+			leu_arch_M_aeolicus_Nankai 
+			leu_arch_S_acidocaldarius 
+			leu_arch_M_kandleri 
+			leu_arch_M_hungatei 
+			leu_arch_A_fulgidus 
+			leu_arch_M_thermautotrophicus 
+			leu_arch_P_aerophilum 
+			leu_arch_T_acidophilum 
+			leu_arch_N_equitans 
+			leu_arch_M_acetivorans 
+			leu_arch_M_jannaschii 
+			leu_arch_P_occultum 
+			leu_arch_Halobacterium 
+			met_arch_1rqg_P_abyssi 
+			met_arch_P_aerophilum 
+			met_arch_T_volcanium 
+			met_arch_S_acidocaldarius 
+			met_arch_T_acidophilum 
+			met_arch_Halobacterium 
+			met_arch_M_acetivorans 
+			met_arch_M_aeolicus_Nankai 
+			met_arch_M_hungatei 
+			met_arch_M_jannaschii 
+			met_arch_M_kandleri 
+			met_arch_M_thermautotrophicus 
+			met_arch_N_equitans 
+			met_arch_A_fulgidus 
+			met_arch_P_delaneyi 
+			met_arch_P_horikoshii 
+			met_arch_S_marinus 
+			met_arch_P_occultum 
+			trp_arch_P_delaneyi 
+			trp_arch_S_acidocaldarius 
+			trp_arch_M_kandleri 
+			trp_arch_M_thermautotrophicus 
+			trp_arch_P_aerophilum 
+			trp_arch_M_acetivorans 
+			trp_arch_N_equitans 
+			trp_arch_T_acidophilum 
+			trp_arch_T_volcanium 
+			trp_arch_A_fulgidus 
+			trp_arch_M_hungatei 
+			trp_arch_P_horikoshii 
+			trp_arch_M_jannaschii 
+			trp_arch_P_occultum 
+			trp_arch_Halobacterium 
+			tyr_arch_2cya_A_pernix 
+			tyr_arch_2cyb_A_fulgidus 
+			tyr_arch_2cyc_P_horikoshii 
+			tyr_arch_2zp1_M_jannaschii 
+			tyr_arch_P_delaneyi 
+			tyr_arch_T_volcanium 
+			tyr_arch_M_kandleri 
+			tyr_arch_M_hungatei 
+			tyr_arch_M_thermautotrophicus 
+			tyr_arch_P_aerophilum 
+			tyr_arch_T_acidophilum 
+			tyr_arch_M_aeolicus_Nankai 
+			tyr_arch_N_equitans 
+			tyr_arch_S_acidocaldarius 
+			tyr_arch_M_acetivorans 
+			tyr_arch_S_marinus 
+			tyr_arch_P_occultum 
+			tyr_arch_Halobacterium 
+			val_arch_P_delaneyi 
+			val_arch_T_volcanium 
+			val_arch_M_aeolicus_Nankai 
+			val_arch_S_acidocaldarius 
+			val_arch_P_aerophilum 
+			val_arch_T_acidophilum 
+			val_arch_P_horikoshii 
+			val_arch_A_fulgidus 
+			val_arch_Halobacterium 
+			val_arch_M_acetivorans 
+			val_arch_M_hungatei 
+			val_arch_M_thermautotrophicus 
+			val_arch_M_kandleri 
+			val_arch_N_equitans 
+			val_arch_M_jannaschii 
+			val_arch_P_occultum 
+			lys_arch_P_delaneyi 
+			lys_arch_T_volcanium 
+			lys_arch_A_fulgidus 
+			lys_arch_M_thermautotrophicus 
+			lys_arch_T_acidophilum 
+			lys_arch_N_equitans 
+			lys_arch_M_aeolicus 
+			lys_arch_Halobacterium 
+			lys_arch_M_kandleri 
+			lys_arch_M_acetivorans 
+			lys_arch_S_marinus 
+			lys_arch_P_occultum 
+			lys_arch_1irx_P_horikoshii 
+			ala_arch_2ztg_A_fulgidus 
+			ala_arch_2zze_P_horikoshii 
+			ala_arch_P_delaneyi 
+			ala_arch_T_volcanium 
+			ala_arch_S_acidocaldarius 
+			ala_arch_M_kandleri 
+			ala_arch_M_hungatei 
+			ala_arch_M_thermautotrophicus 
+			ala_arch_M_aeolicus_Nankai 
+			ala_arch_M_acetivorans 
+			ala_arch_S_marinus 
+			ala_arch_M_jannaschii 
+			ala_arch_P_occultum 
+			asn_arch_1x54a_P_horikoshii 
+			asn_arch_T_volcanium 
+			asn_arch_P_aerophilum 
+			asn_arch_T_acidophilum 
+			asn_arch_N_equitans 
+			asn_arch_S_marinus 
+			asp_arch_1wydb_S_tokodaii 
+			asp_arch_P_delaneyi 
+			asp_arch_T_volcanium 
+			asp_arch_S_acidocaldarius 
+			asp_arch_M_kandleri 
+			asp_arch_M_hungatei 
+			asp_arch_A_fulgidus 
+			asp_arch_M_thermautotrophicus 
+			asp_arch_P_aerophilum 
+			asp_arch_T_acidophilum 
+			asp_arch_N_equitans 
+			asp_arch_M_aeolicus_Nankai 
+			asp_arch_M_acetivorans 
+			asp_arch_P_horikoshii 
+			asp_arch_S_marinus 
+			asp_arch_M_jannaschii 
+			asp_arch_Halobacterium 
+			asp_arch_d1b8aa_T_kodakarensis 
+			gly_arch_T_volcanium 
+			gly_arch_T_acidophilum 
+			gly_arch_N_equitans 
+			gly_arch_M_kandleri 
+			gly_arch_M_thermautotrophicus 
+			gly_arch_P_aerophilum 
+			gly_arch_P_delaneyi 
+			gly_arch_P_horikoshii 
+			gly_arch_P_occultum 
+			gly_arch_S_acidocaldarius 
+			gly_arch_S_marinus 
+			gly_arch_A_fulgidus 
+			gly_arch_Halobacterium 
+			gly_arch_M_acetivorans 
+			gly_arch_M_aeolicus_Nankai 
+			gly_arch_M_hungatei 
+			gly_arch_M_jannaschii 
+			his_arch_1wu7a_T_acidophilum 
+			his_arch_P_delaneyi 
+			his_arch_T_volcanium 
+			his_arch_M_aeolicus_Nankai 
+			his_arch_S_acidocaldarius 
+			his_arch_M_kandleri 
+			his_arch_Halobacterium 
+			his_arch_M_hungatei 
+			his_arch_A_fulgidus 
+			his_arch_M_thermautotrophicus 
+			his_arch_P_aerophilum 
+			his_arch_N_equitans 
+			his_arch_M_acetivorans 
+			his_arch_P_horikoshii 
+			his_arch_R_marinus 
+			his_arch_M_jannaschii 
+			his_arch_P_occultum 
+			phe_arch_S_acidocaldarius 
+			phe_arch_P_aerophilum 
+			phe_arch_P_delaneyi 
+			phe_arch_P_horikoshii 
+			phe_arch_P_occultum 
+			phe_arch_S_marinus 
+			phe_arch_T_volcanium 
+			phe_arch_A_fulgidus 
+			phe_arch_Halobacterium 
+			phe_arch_M_acetivorans 
+			phe_arch_M_hungatei 
+			phe_arch_M_aeolicus_Nankai 
+			phe_arch_M_jannaschii 
+			phe_arch_M_kandleri 
+			phe_arch_M_thermautotrophicus 
+			pro_arch_P_delaneyi 
+			pro_arch_T_volcanium 
+			pro_arch_T_acidophilum 
+			pro_arch_P_aerophilum 
+			pro_arch_M_kandleri 
+			pro_arch_M_acetivorans 
+			pro_arch_S_acidocaldarius 
+			pro_arch_M_aeolicus_Nankai 
+			pro_arch_N_equitans 
+			pro_arch_P_horikoshii 
+			pro_arch_S_marinus 
+			pro_arch_P_occultum 
+			pro_arch_d1nj8a_M_jannaschii 
+			ser_arch_2cjab_M_barkeri 
+			ser_arch_P_delaneyi 
+			ser_arch_T_volcanium 
+			ser_arch_S_acidocaldarius 
+			ser_arch_M_kandleri 
+			ser_arch_M_hungatei 
+			ser_arch_A_fulgidus 
+			ser_arch_M_thermautotrophicus 
+			ser_arch_P_aerophilum 
+			ser_arch_T_acidophilum 
+			ser_arch_M_aeolicus_Nankai 
+			ser_arch_N_equitans 
+			ser_arch_M_acetivorans 
+			ser_arch_P_horikoshii 
+			ser_arch_S_marinus 
+			ser_arch_M_jannaschii 
+			ser_arch_P_occultum 
+			ser_arch_Halobacterium 
+			thr_arch_3a32_A_pernix 
+			thr_arch_M_thermautotrophicus 
+			thr_arch_T_volcanium 
+			thr_arch_M_aeolicus_Nankai 
+			thr_arch_S_acidocaldarius 
+			thr_arch_M_kandleri 
+			thr_arch_M_hungatei 
+			thr_arch_A_fulgidus 
+			thr_arch_P_aerophilum 
+			thr_arch_T_acidophilum 
+			thr_arch_P_occultum 
+			thr_arch_S_marinus 
+			thr_arch_P_delaneyi 
+			thr_arch_N_equitans 
+			thr_arch_M_acetivorans 
+			thr_arch_P_horikoshii 
+			thr_arch_M_jannaschii 
+			thr_arch_Halobacterium
+			;
+End;
+Begin trees;
+	Translate
+		   1 arg_arch_2zue_P_horikoshii,
+		   2 arg_arch_P_delaneyi,
+		   3 arg_arch_S_acidocaldarius,
+		   4 arg_arch_M_kandleri,
+		   5 arg_arch_M_hungatei,
+		   6 arg_arch_A_fulgidus,
+		   7 arg_arch_M_thermautotrophicus,
+		   8 arg_arch_P_aerophilum,
+		   9 arg_arch_T_acidophilum,
+		  10 arg_arch_N_equitans,
+		  11 arg_arch_M_aeolicus_Nankai,
+		  12 arg_arch_S_marinus,
+		  13 arg_arch_M_acetivorans,
+		  14 arg_arch_M_janaschii,
+		  15 arg_arch_P_occultum,
+		  16 arg_arch_Halobacterium,
+		  17 cys_arch_P_aerophilum,
+		  18 cys_arch_P_delaneyi,
+		  19 cys_arch_P_horikoshii,
+		  20 cys_arch_P_occultum,
+		  21 cys_arch_S_acidocaldarius,
+		  22 cys_arch_S_marinus,
+		  23 cys_arch_T_acidophilum,
+		  24 cys_arch_A_fulgidus,
+		  25 cys_arch_Halobacterium,
+		  26 cys_arch_M_hungatei,
+		  27 cys_arch_N_equitans,
+		  28 glu_arch_M_hungatei,
+		  29 glu_arch_M_jannaschii,
+		  30 glu_arch_M_kandleri,
+		  31 glu_arch_M_thermautotrophicus,
+		  32 glu_arch_P_aerophilum,
+		  33 glu_arch_P_delaneyi,
+		  34 glu_arch_A_fulgidus,
+		  35 glu_arch_P_occultum,
+		  36 glu_arch_S_acidocaldarius,
+		  37 glu_arch_S_marinus,
+		  38 glu_arch_T_acidophilum,
+		  39 glu_arch_T_volcanium,
+		  40 glu_arch_Halobacterium,
+		  41 ile_arch_P_delaneyi,
+		  42 ile_arch_T_volcanium,
+		  43 ile_arch_S_acidocaldarius,
+		  44 ile_arch_M_kandleri,
+		  45 ile_arch_M_hungatei,
+		  46 ile_arch_A_fulgidus,
+		  47 ile_arch_M_thermautotrophicus,
+		  48 ile_arch_P_aerophilum,
+		  49 ile_arch_T_acidophilum,
+		  50 ile_arch_N_equitans,
+		  51 ile_arch_P_horikoshii,
+		  52 ile_arch_M_acetivorans,
+		  53 ile_arch_S_marinus,
+		  54 ile_arch_M_jannaschii,
+		  55 ile_arch_P_occultum,
+		  56 ile_arch_Halobacterium,
+		  57 leu_arch_1wz2_P_horikoshii,
+		  58 leu_arch_P_delaneyi,
+		  59 leu_arch_T_volcanium,
+		  60 leu_arch_M_aeolicus_Nankai,
+		  61 leu_arch_S_acidocaldarius,
+		  62 leu_arch_M_kandleri,
+		  63 leu_arch_M_hungatei,
+		  64 leu_arch_A_fulgidus,
+		  65 leu_arch_M_thermautotrophicus,
+		  66 leu_arch_P_aerophilum,
+		  67 leu_arch_T_acidophilum,
+		  68 leu_arch_N_equitans,
+		  69 leu_arch_M_acetivorans,
+		  70 leu_arch_M_jannaschii,
+		  71 leu_arch_P_occultum,
+		  72 leu_arch_Halobacterium,
+		  73 met_arch_1rqg_P_abyssi,
+		  74 met_arch_P_aerophilum,
+		  75 met_arch_T_volcanium,
+		  76 met_arch_S_acidocaldarius,
+		  77 met_arch_T_acidophilum,
+		  78 met_arch_Halobacterium,
+		  79 met_arch_M_acetivorans,
+		  80 met_arch_M_aeolicus_Nankai,
+		  81 met_arch_M_hungatei,
+		  82 met_arch_M_jannaschii,
+		  83 met_arch_M_kandleri,
+		  84 met_arch_M_thermautotrophicus,
+		  85 met_arch_N_equitans,
+		  86 met_arch_A_fulgidus,
+		  87 met_arch_P_delaneyi,
+		  88 met_arch_P_horikoshii,
+		  89 met_arch_S_marinus,
+		  90 met_arch_P_occultum,
+		  91 trp_arch_P_delaneyi,
+		  92 trp_arch_S_acidocaldarius,
+		  93 trp_arch_M_kandleri,
+		  94 trp_arch_M_thermautotrophicus,
+		  95 trp_arch_P_aerophilum,
+		  96 trp_arch_M_acetivorans,
+		  97 trp_arch_N_equitans,
+		  98 trp_arch_T_acidophilum,
+		  99 trp_arch_T_volcanium,
+		 100 trp_arch_A_fulgidus,
+		 101 trp_arch_M_hungatei,
+		 102 trp_arch_P_horikoshii,
+		 103 trp_arch_M_jannaschii,
+		 104 trp_arch_P_occultum,
+		 105 trp_arch_Halobacterium,
+		 106 tyr_arch_2cya_A_pernix,
+		 107 tyr_arch_2cyb_A_fulgidus,
+		 108 tyr_arch_2cyc_P_horikoshii,
+		 109 tyr_arch_2zp1_M_jannaschii,
+		 110 tyr_arch_P_delaneyi,
+		 111 tyr_arch_T_volcanium,
+		 112 tyr_arch_M_kandleri,
+		 113 tyr_arch_M_hungatei,
+		 114 tyr_arch_M_thermautotrophicus,
+		 115 tyr_arch_P_aerophilum,
+		 116 tyr_arch_T_acidophilum,
+		 117 tyr_arch_M_aeolicus_Nankai,
+		 118 tyr_arch_N_equitans,
+		 119 tyr_arch_S_acidocaldarius,
+		 120 tyr_arch_M_acetivorans,
+		 121 tyr_arch_S_marinus,
+		 122 tyr_arch_P_occultum,
+		 123 tyr_arch_Halobacterium,
+		 124 val_arch_P_delaneyi,
+		 125 val_arch_T_volcanium,
+		 126 val_arch_M_aeolicus_Nankai,
+		 127 val_arch_S_acidocaldarius,
+		 128 val_arch_P_aerophilum,
+		 129 val_arch_T_acidophilum,
+		 130 val_arch_P_horikoshii,
+		 131 val_arch_A_fulgidus,
+		 132 val_arch_Halobacterium,
+		 133 val_arch_M_acetivorans,
+		 134 val_arch_M_hungatei,
+		 135 val_arch_M_thermautotrophicus,
+		 136 val_arch_M_kandleri,
+		 137 val_arch_N_equitans,
+		 138 val_arch_M_jannaschii,
+		 139 val_arch_P_occultum,
+		 140 lys_arch_P_delaneyi,
+		 141 lys_arch_T_volcanium,
+		 142 lys_arch_A_fulgidus,
+		 143 lys_arch_M_thermautotrophicus,
+		 144 lys_arch_T_acidophilum,
+		 145 lys_arch_N_equitans,
+		 146 lys_arch_M_aeolicus,
+		 147 lys_arch_Halobacterium,
+		 148 lys_arch_M_kandleri,
+		 149 lys_arch_M_acetivorans,
+		 150 lys_arch_S_marinus,
+		 151 lys_arch_P_occultum,
+		 152 lys_arch_1irx_P_horikoshii,
+		 153 ala_arch_2ztg_A_fulgidus,
+		 154 ala_arch_2zze_P_horikoshii,
+		 155 ala_arch_P_delaneyi,
+		 156 ala_arch_T_volcanium,
+		 157 ala_arch_S_acidocaldarius,
+		 158 ala_arch_M_kandleri,
+		 159 ala_arch_M_hungatei,
+		 160 ala_arch_M_thermautotrophicus,
+		 161 ala_arch_M_aeolicus_Nankai,
+		 162 ala_arch_M_acetivorans,
+		 163 ala_arch_S_marinus,
+		 164 ala_arch_M_jannaschii,
+		 165 ala_arch_P_occultum,
+		 166 asn_arch_1x54a_P_horikoshii,
+		 167 asn_arch_T_volcanium,
+		 168 asn_arch_P_aerophilum,
+		 169 asn_arch_T_acidophilum,
+		 170 asn_arch_N_equitans,
+		 171 asn_arch_S_marinus,
+		 172 asp_arch_1wydb_S_tokodaii,
+		 173 asp_arch_P_delaneyi,
+		 174 asp_arch_T_volcanium,
+		 175 asp_arch_S_acidocaldarius,
+		 176 asp_arch_M_kandleri,
+		 177 asp_arch_M_hungatei,
+		 178 asp_arch_A_fulgidus,
+		 179 asp_arch_M_thermautotrophicus,
+		 180 asp_arch_P_aerophilum,
+		 181 asp_arch_T_acidophilum,
+		 182 asp_arch_N_equitans,
+		 183 asp_arch_M_aeolicus_Nankai,
+		 184 asp_arch_M_acetivorans,
+		 185 asp_arch_P_horikoshii,
+		 186 asp_arch_S_marinus,
+		 187 asp_arch_M_jannaschii,
+		 188 asp_arch_Halobacterium,
+		 189 asp_arch_d1b8aa_T_kodakarensis,
+		 190 gly_arch_T_volcanium,
+		 191 gly_arch_T_acidophilum,
+		 192 gly_arch_N_equitans,
+		 193 gly_arch_M_kandleri,
+		 194 gly_arch_M_thermautotrophicus,
+		 195 gly_arch_P_aerophilum,
+		 196 gly_arch_P_delaneyi,
+		 197 gly_arch_P_horikoshii,
+		 198 gly_arch_P_occultum,
+		 199 gly_arch_S_acidocaldarius,
+		 200 gly_arch_S_marinus,
+		 201 gly_arch_A_fulgidus,
+		 202 gly_arch_Halobacterium,
+		 203 gly_arch_M_acetivorans,
+		 204 gly_arch_M_aeolicus_Nankai,
+		 205 gly_arch_M_hungatei,
+		 206 gly_arch_M_jannaschii,
+		 207 his_arch_1wu7a_T_acidophilum,
+		 208 his_arch_P_delaneyi,
+		 209 his_arch_T_volcanium,
+		 210 his_arch_M_aeolicus_Nankai,
+		 211 his_arch_S_acidocaldarius,
+		 212 his_arch_M_kandleri,
+		 213 his_arch_Halobacterium,
+		 214 his_arch_M_hungatei,
+		 215 his_arch_A_fulgidus,
+		 216 his_arch_M_thermautotrophicus,
+		 217 his_arch_P_aerophilum,
+		 218 his_arch_N_equitans,
+		 219 his_arch_M_acetivorans,
+		 220 his_arch_P_horikoshii,
+		 221 his_arch_R_marinus,
+		 222 his_arch_M_jannaschii,
+		 223 his_arch_P_occultum,
+		 224 phe_arch_S_acidocaldarius,
+		 225 phe_arch_P_aerophilum,
+		 226 phe_arch_P_delaneyi,
+		 227 phe_arch_P_horikoshii,
+		 228 phe_arch_P_occultum,
+		 229 phe_arch_S_marinus,
+		 230 phe_arch_T_volcanium,
+		 231 phe_arch_A_fulgidus,
+		 232 phe_arch_Halobacterium,
+		 233 phe_arch_M_acetivorans,
+		 234 phe_arch_M_hungatei,
+		 235 phe_arch_M_aeolicus_Nankai,
+		 236 phe_arch_M_jannaschii,
+		 237 phe_arch_M_kandleri,
+		 238 phe_arch_M_thermautotrophicus,
+		 239 pro_arch_P_delaneyi,
+		 240 pro_arch_T_volcanium,
+		 241 pro_arch_T_acidophilum,
+		 242 pro_arch_P_aerophilum,
+		 243 pro_arch_M_kandleri,
+		 244 pro_arch_M_acetivorans,
+		 245 pro_arch_S_acidocaldarius,
+		 246 pro_arch_M_aeolicus_Nankai,
+		 247 pro_arch_N_equitans,
+		 248 pro_arch_P_horikoshii,
+		 249 pro_arch_S_marinus,
+		 250 pro_arch_P_occultum,
+		 251 pro_arch_d1nj8a_M_jannaschii,
+		 252 ser_arch_2cjab_M_barkeri,
+		 253 ser_arch_P_delaneyi,
+		 254 ser_arch_T_volcanium,
+		 255 ser_arch_S_acidocaldarius,
+		 256 ser_arch_M_kandleri,
+		 257 ser_arch_M_hungatei,
+		 258 ser_arch_A_fulgidus,
+		 259 ser_arch_M_thermautotrophicus,
+		 260 ser_arch_P_aerophilum,
+		 261 ser_arch_T_acidophilum,
+		 262 ser_arch_M_aeolicus_Nankai,
+		 263 ser_arch_N_equitans,
+		 264 ser_arch_M_acetivorans,
+		 265 ser_arch_P_horikoshii,
+		 266 ser_arch_S_marinus,
+		 267 ser_arch_M_jannaschii,
+		 268 ser_arch_P_occultum,
+		 269 ser_arch_Halobacterium,
+		 270 thr_arch_3a32_A_pernix,
+		 271 thr_arch_M_thermautotrophicus,
+		 272 thr_arch_T_volcanium,
+		 273 thr_arch_M_aeolicus_Nankai,
+		 274 thr_arch_S_acidocaldarius,
+		 275 thr_arch_M_kandleri,
+		 276 thr_arch_M_hungatei,
+		 277 thr_arch_A_fulgidus,
+		 278 thr_arch_P_aerophilum,
+		 279 thr_arch_T_acidophilum,
+		 280 thr_arch_P_occultum,
+		 281 thr_arch_S_marinus,
+		 282 thr_arch_P_delaneyi,
+		 283 thr_arch_N_equitans,
+		 284 thr_arch_M_acetivorans,
+		 285 thr_arch_P_horikoshii,
+		 286 thr_arch_M_jannaschii,
+		 287 thr_arch_Halobacterium
+;
+tree STATE_0 = ((((((((((((((1[&rate=0.9052450277368361]:0.029121129077465405,6[&rate=0.8781528389773733]:0.029121129077465405)[&rate=0.8481002062578071]:0.017315805562120347,13[&rate=1.1887943263139396]:0.04643693463958575)[&rate=1.0701216055984029]:0.2779858384795364,(((4[&rate=1.105594934955568]:0.0018170683290871612,5[&rate=1.065321377467265]:0.0018170683290871612)[&rate=0.967348668904713]:0.17081713955568217,10[&rate=0.9629176430432463]:0.17263420788476933)[&rate=0.930878954292682]:0.07924849897473582,12[&rate=0.822996883365252]:0.25188270685950515)[&rate=1.213425805406419]:0.07254006625961701)[&rate=1.1307225777427095]:0.01533604735190719,((2[&rate=0.9861018207272013]:0.1621875625542299,(3[&rate=0.8159129543297997]:0.12696066188955,14[&rate=0.949296558893083]:0.12696066188955)[&rate=0.9027343913695131]:0.0352269006646799)[&rate=0.9748024730583913]:0.031183917168925296,16[&rate=0.9606851855954502]:0.1933714797231552)[&rate=1.0258112917372404]:0.14638734074787416)[&rate=0.9349050474282491]:0.3756188080535394,(7[&rate=0.9921818950934842]:0.12392361379690692,9[&rate=0.9651383658221296]:0.12392361379690692)[&rate=0.8251312106426363]:0.5914540147276619)[&rate=1.0334670089853935]:0.14213109279283065,(8[&rate=0.9721808347716974]:0.19119016706909667,(11[&rate=0.9965398362540384]:0.01930881946871292,15[&rate=0.9027343913695131]:0.01930881946871292)[&rate=0.9064784797308567]:0.17188134760038376)[&rate=0.822996883365252]:0.6663185542483028)[&rate=1.0589843711643359]:0.39029294757673527,(((124[&rate=0.8362527339244652]:0.16193008471101383,((135[&rate=0.9130294861394418]:0.009515948887610462,136[&rate=0.8578844213168187]:0.009515948887610462)[&rate=1.09749799079792]:0.008793874454654951,138[&rate=0.863290040674326]:0.018309823342265413)[&rate=1.2097353546255472]:0.14362026136874842)[&rate=0.9124490100492599]:0.16243734547255917,((126[&rate=0.9588898518126914]:0.04967590641309042,133[&rate=0.968670377856889]:0.04967590641309042)[&rate=1.014733622567352]:0.05218771197279582,128[&rate=1.1341603456867644]:0.10186361838588624)[&rate=1.1022758225896228]:0.22250381179768675)[&rate=0.9339072995710131]:0.7460349011832543,((125[&rate=0.9373755686517768]:0.11860209991194748,(127[&rate=0.9076981250965316]:0.1084426589851389,(129[&rate=0.9262280095041501]:0.027850817592187306,134[&rate=0.9511486051171782]:0.027850817592187306)[&rate=0.9602371664059379]:0.08059184139295159)[&rate=0.8948042830746233]:0.01015944092680858)[&rate=1.1341603456867644]:0.25530194265344985,((((130[&rate=0.9566327775652266]:0.010149566991464517,139[&rate=0.9158910128440212]:0.010149566991464517)[&rate=0.9373755686517768]:0.0033728471585367827,132[&rate=1.3154257370496982]:0.0135224141500013)[&rate=0.9721808347716974]:0.07056832699983473,131[&rate=0.9895742153343344]:0.08409074114983603)[&rate=0.9633626835391026]:0.15104594846677252,137[&rate=0.9363913385418663]:0.23513668961660855)[&rate=0.9373755686517768]:0.13876735294878878)[&rate=1.0071055415611883]:0.69649828880143)[&rate=1.0829897183185488]:0.1773993375273073)[&rate=1.1329981701744798]:0.0906360362275167,((((239[&rate=0.8948042830746233]:0.03415786877884026,246[&rate=0.90016124307486]:0.03415786877884026)[&rate=0.9027343913695131]:0.2665609809534659,((243[&rate=0.9474310320707395]:0.011855050839025513,247[&rate=1.0584219518857183]:0.011855050839025513)[&rate=0.8567452284348047]:0.1956288233848644,250[&rate=1.0545431738671627]:0.20748387422388992)[&rate=1.105594934955568]:0.09323497550841625)[&rate=1.0206814451688957]:0.34594812861687835,(240[&rate=0.8838208676038664]:0.2633794299935955,((241[&rate=1.0388900462903916]:0.015389474245135962,249[&rate=1.0129250106322296]:0.015389474245135962)[&rate=0.9660236654886838]:0.1629278570772014,251[&rate=0.8961718683427462]:0.17831733132233735)[&rate=1.0339542069169607]:0.08506209867125814)[&rate=1.0998583213461377]:0.38328754835558904)[&rate=0.9752386408727666]:0.3494280208934233,((242[&rate=0.9136071716979361]:0.0569301595576437,(244[&rate=1.0066611890161872]:0.05275512687425599,245[&rate=0.9721808347716974]:0.05275512687425599)[&rate=1.0512943251686324]:0.00417503268338771)[&rate=0.9070899938518487]:0.8145743462643708,248[&rate=0.945551066182698]:0.8715045058220144)[&rate=0.9895742153343344]:0.12459049342059336)[&rate=0.8578844213168187]:0.3423427058790436)[&rate=0.918688831118861]:0.9267195061663569,(((((28[&rate=0.9516096181972205]:0.043562420888841887,32[&rate=0.9756746122635298]:0.043562420888841887)[&rate=1.0197588508637545]:0.0864888760905208,(31[&rate=1.050759217600462]:0.10248129558104124,36[&rate=0.9646950961785471]:0.10248129558104124)[&rate=1.1969093292537114]:0.027570001398321442)[&rate=0.7873340081781782]:0.11167306163440521,34[&rate=0.9588898518126914]:0.2417243586137679)[&rate=0.9638072655092081]:1.6033883748481979,((((((29[&rate=0.9164554897186346]:0.02080097883685181,38[&rate=0.9752386408727666]:0.02080097883685181)[&rate=0.9033677068031025]:0.03421291711038975,40[&rate=0.8439558387736752]:0.055013895947241556)[&rate=0.9869696369912905]:0.054150820676466316,(30[&rate=1.0589843711643359]:0.04096476954240431,39[&rate=1.0106767527524696]:0.04096476954240431)[&rate=0.9124490100492599]:0.06819994708130356)[&rate=1.0518312091801034]:0.35039087223059817,35[&rate=1.1655648105684522]:0.45955558885430603)[&rate=0.8814413264304883]:0.030477946209492845,33[&rate=0.982630650594875]:0.4900335350637989)[&rate=0.949296558893083]:0.6285540784476208,37[&rate=0.9861018207272013]:1.1185876135114197)[&rate=0.8291283358789313]:0.726525119950546)[&rate=0.9506868067257709]:0.2630543986816716,((((((((153[&rate=1.0885615190277476]:0.11992082602726703,157[&rate=0.8995075477978016]:0.11992082602726703)[&rate=1.0066611890161872]:0.12283887120146536,((154[&rate=1.1006576166848565]:0.14528029258069708,161[&rate=0.8738318029204779]:0.14528029258069708)[&rate=1.0071055415611883]:0.040390647923577744,158[&rate=0.9497607978619765]:0.18567094050427482)[&rate=0.930878954292682]:0.05708875672445757)[&rate=0.9272736206687932]:0.1788336553869266,(160[&rate=0.841007772799132]:0.1037556384062238,163[&rate=0.9014559652034307]:0.1037556384062238)[&rate=0.9878375966607692]:0.3178377142094352)[&rate=1.0624055524221694]:0.6600590596214835,(((155[&rate=0.9502242090281849]:0.08984544120113798,164[&rate=0.8898503790273872]:0.08984544120113798)[&rate=0.9014559652034307]:0.00963487264929741,(159[&rate=0.9629176430432463]:0.017204687470414006,162[&rate=0.839470369127122]:0.017204687470414006)[&rate=1.1887943263139396]:0.08227562638002138)[&rate=1.2668103237433652]:0.6965528874469782,(156[&rate=1.0545431738671627]:0.20229805424751157,165[&rate=1.1389856630548572]:0.20229805424751157)[&rate=0.9058635144312812]:0.593735147049902)[&rate=0.9752386408727666]:0.28561921093972886)[&rate=1.0429299721718206]:0.029087597243894203,(((((252[&rate=0.9669073804364594]:0.007809866438625964,253[&rate=1.1887943263139396]:0.007809866438625964)[&rate=0.9118656903933683]:0.060658073387708455,((256[&rate=0.9422233154519154]:0.0074855522405471815,263[&rate=1.0234674069176717]:0.0074855522405471815)[&rate=0.9861018207272013]:0.005298929719932133,267[&rate=1.0738419958072487]:0.012784481960479314)[&rate=0.9052450277368361]:0.05568345786585511)[&rate=0.8467527192811078]:0.15948547361172072,266[&rate=1.0460192751385797]:0.22795341343805514)[&rate=1.1307225777427095]:0.3987132082014431,(((((255[&rate=0.9393288722760018]:0.02133610126441974,262[&rate=1.0115744583905868]:0.02133610126441974)[&rate=0.9996030318149113]:0.08236731225560831,((258[&rate=1.1182336872157006]:0.0012759920273467935,269[&rate=0.9843663517006401]:0.0012759920273467935)[&rate=1.1090331807082026]:0.09952694542815967,(259[&rate=1.011125345906044]:0.05922805799571568,268[&rate=0.957988813519214]:0.05922805799571568)[&rate=1.0115744583905868]:0.041574879459790784)[&rate=1.1839122236443351]:0.0029004760645215955)[&rate=1.0334670089853935]:0.13221135453735106,(260[&rate=0.8159129543297997]:0.12905976073598016,264[&rate=0.765519103486636]:0.12905976073598016)[&rate=1.1341603456867644]:0.10685500732139894)[&rate=1.0188391328029383]:0.10875791660795242,265[&rate=0.9891399523463394]:0.3446726846653315)[&rate=1.0914571216302809]:0.03237647103263119,257[&rate=0.8132719929579506]:0.3770491556979627)[&rate=1.1030950279145468]:0.24961746594153555)[&rate=0.9450787015265192]:0.2829367748813456,(254[&rate=1.0770293919565948]:0.0022186772966140255,261[&rate=0.9761103961975837]:0.0022186772966140255)[&rate=1.034931958184616]:0.9073847192242298)[&rate=1.0344425183169594]:0.2011366129601928)[&rate=1.092934882547666]:0.14614251015877722,((((((270[&rate=1.057861669629304]:0.015090977290202739,277[&rate=1.0871421710516393]:0.015090977290202739)[&rate=0.998288720799447]:0.01026809670223992,281[&rate=1.0502258623691318]:0.02535907399244266)[&rate=1.0071055415611883]:0.29999548828510114,271[&rate=1.0713496773584161]:0.3253545622775438)[&rate=0.9704279905420838]:0.4452710904530146,284[&rate=1.042420192513617]:0.7706256527305584)[&rate=0.7923129444446929]:0.11941641035445716,((273[&rate=0.8578844213168187]:0.2549445095773985,(278[&rate=1.0124742808087301]:0.18718242078262812,283[&rate=1.0885615190277476]:0.18718242078262812)[&rate=0.876454281241419]:0.06776208879477039)[&rate=1.0539970216717272]:0.1991752425705271,((274[&rate=1.01929863794854]:0.008956425366637988,285[&rate=0.880632101074389]:0.008956425366637988)[&rate=1.0281770625992188]:0.4356416607376864,(275[&rate=0.9318944460446031]:0.15540927861860643,((276[&rate=0.8814413264304883]:0.05075550426893891,280[&rate=1.0262826437815005]:0.05075550426893891)[&rate=1.0885615190277476]:0.09006185028416461,287[&rate=0.8861328519178693]:0.1408173545531035)[&rate=0.9516096181972205]:0.014591924065502915)[&rate=0.8883826642925381]:0.28918880748571796)[&rate=1.0084412365514075]:0.009521666043601218)[&rate=0.9861018207272013]:0.43592231093708994)[&rate=0.9363913385418663]:0.29658604624441287,((272[&rate=0.9329038290073497]:0.02611205930474993,(279[&rate=0.928312145370273]:0.0255103253762593,282[&rate=0.9089045030232857]:0.0255103253762593)[&rate=0.9642513995511989]:6.017339284906317E-4)[&rate=0.8663297096232058]:0.09247316294846196,286[&rate=1.0044456024808963]:0.11858522225321189)[&rate=0.9839324692710109]:1.0680428870762166)[&rate=0.9124490100492599]:0.07025441031038548)[&rate=0.9267517154220106]:0.17404288480850072,(((((207[&rate=1.0393903772248139]:0.03984235109452647,(216[&rate=1.0373966493069815]:0.027954986432887477,217[&rate=1.0701216055984029]:0.027954986432887477)[&rate=0.9257024720918554]:0.011887364661638991)[&rate=0.9339072995710131]:0.012067202097345138,(210[&rate=0.7873340081781782]:0.0505562788627852,218[&rate=1.1318524330995536]:0.0505562788627852)[&rate=0.9373755686517768]:0.0013532743290864055)[&rate=1.0220709297827186]:0.09316715236720935,(212[&rate=0.9020971719769314]:0.007924075300989007,222[&rate=0.8673130239018803]:0.007924075300989007)[&rate=1.1153740058618806]:0.13715263025809193)[&rate=0.9651383658221296]:1.1673269018832024,(((211[&rate=1.1969093292537114]:0.004171388839560609,221[&rate=1.08999959180027]:0.004171388839560609)[&rate=1.0713496773584161]:0.05373463929800147,((213[&rate=0.9175769861582795]:0.01890399805177668,(214[&rate=1.0776770112067187]:0.0032230736626783427,223[&rate=1.1108006677059754]:0.0032230736626783427)[&rate=1.1221971003055737]:0.015680924389098336)[&rate=1.017007967763447]:0.02596585162646814,219[&rate=0.8738318029204779]:0.04486984967824482)[&rate=1.067699772409246]:0.01303617845931726)[&rate=1.0000416857807244]:0.21372943981961323,215[&rate=0.9089045030232857]:0.2716354679571753)[&rate=1.0017992850212798]:1.040768139485108)[&rate=1.0354225430807793]:0.1159373703822828,((208[&rate=1.1525568040006522]:0.027667435154173962,209[&rate=0.8927143488321473]:0.027667435154173962)[&rate=1.0079955559624225]:0.7726740759638077,220[&rate=0.9170174659921988]:0.8003415111179816)[&rate=0.9417437248986953]:0.6279994667065846)[&rate=1.1252938979348703]:0.0025844266237484703)[&rate=0.9203392336443141]:0.6670690842970046,(((((224[&rate=0.7745126283412566]:0.05972637444526393,228[&rate=0.947898729168762]:0.05972637444526393)[&rate=0.967348668904713]:0.03877545082357615,((226[&rate=0.9058635144312812]:0.019282935248682936,229[&rate=0.9525293435875501]:0.019282935248682936)[&rate=0.892006920175107]:0.0010160679260066523,236[&rate=0.9800254773879917]:0.02029900317468959)[&rate=0.962026143650038]:0.07820282209415048)[&rate=1.1030950279145468]:0.061721944012465196,230[&rate=0.9267517154220106]:0.16022376928130527)[&rate=1.0234674069176717]:0.18232073284435368,((227[&rate=0.8345648812898057]:0.01676124136721957,235[&rate=1.1285084231821696]:0.01676124136721957)[&rate=0.9813283967174636]:0.031232079903569576,233[&rate=0.8838208676038664]:0.04799332127078915)[&rate=0.979156380321976]:0.2945511808548698)[&rate=1.0334670089853935]:1.3619154879726707,((225[&rate=0.9398141584277118]:0.005764162078349807,(231[&rate=1.1072984544525106]:0.0025774382200404273,238[&rate=0.8868894499986845]:0.0025774382200404273)[&rate=0.9502242090281849]:0.00318672385830938)[&rate=1.0635645259607855]:0.5894909848589011,((232[&rate=0.9769814373687535]:0.11584820216814982,237[&rate=0.9664657159814944]:0.11584820216814982)[&rate=0.890575078667394]:0.08730505273665191,234[&rate=1.1285084231821696]:0.20315325490480174)[&rate=0.9642513995511989]:0.39210189203244916)[&rate=1.043441176974001]:1.1092048431610788)[&rate=0.9378657583462829]:0.39353449864698953)[&rate=0.8912938770498023]:0.010172643398318026)[&rate=0.9704279905420838]:0.15699007914437102)[&rate=0.9804598720517248]:0.21646118544489923,((((((17[&rate=1.0160963460649248]:0.12216882628215692,(23[&rate=0.8941129013303692]:0.042239495150491774,24[&rate=0.7276050957865081]:0.042239495150491774)[&rate=1.2933051954417383]:0.07992933113166514)[&rate=0.9251750722251241]:0.07007612793432266,(20[&rate=0.9052450277368361]:0.05573850659191444,27[&rate=0.9402982678506556]:0.05573850659191444)[&rate=0.9208848970970656]:0.13650644762456515)[&rate=1.0641476541320534]:0.8821303823039092,26[&rate=0.8747163541787314]:1.0743753365203887)[&rate=1.0035620792969329]:0.018786650471676936,((19[&rate=1.0044456024808963]:0.033921236765376235,22[&rate=0.887639328643067]:0.033921236765376235)[&rate=0.968670377856889]:0.5207178487851174,25[&rate=0.9570854022512354]:0.5546390855504937)[&rate=0.9695498184154612]:0.538522901441572)[&rate=0.9996030318149113]:1.1479516599178758,(18[&rate=0.9534460916481117]:0.001791567314415012,21[&rate=0.8927143488321473]:0.001791567314415012)[&rate=1.1555942197167515]:2.2393220795955266)[&rate=1.1006576166848565]:0.011730451982499446,((166[&rate=1.0776770112067187]:0.3520032975396623,167[&rate=1.0062172605023285]:0.3520032975396623)[&rate=0.8578844213168187]:1.8985983259759036,((168[&rate=0.9904430081125323]:0.13007693810262128,(169[&rate=1.038390992864404]:0.011670327821427774,170[&rate=0.9800254773879917]:0.011670327821427774)[&rate=1.009333991724543]:0.11840661028119351)[&rate=1.0310471916587187]:0.037042225386019506,171[&rate=1.0206814451688957]:0.16711916348864078)[&rate=1.0556413057396403]:2.083482460026925)[&rate=1.1655648105684522]:0.0022424753768750527)[&rate=0.8159129543297997]:0.22877429784046655)[&rate=1.1211891902606521]:0.6366711743861426,((41[&rate=0.822996883365252]:0.29930688450753556,(47[&rate=0.9865357153020058]:0.1420022693871011,(50[&rate=1.1692313602366924]:0.0049881144751928,53[&rate=0.9106903035427742]:0.0049881144751928)[&rate=0.9642513995511989]:0.1370141549119083)[&rate=0.9743660998126524]:0.15730461512043448)[&rate=1.2062626101679754]:2.077216732426318,(42[&rate=0.8310082276767693]:1.1416627040635035,(((43[&rate=1.1172702057105657]:0.14186563247137307,(44[&rate=0.9713049707804586]:0.1265111975150438,51[&rate=1.0545431738671627]:0.1265111975150438)[&rate=0.979156380321976]:0.015354434956329266)[&rate=0.880632101074389]:0.011074109219184447,((((45[&rate=0.8663297096232058]:0.021628431025268936,54[&rate=1.1182336872157006]:0.021628431025268936)[&rate=1.2311458482113375]:0.003927347855260527,48[&rate=1.09749799079792]:0.025555778880529463)[&rate=0.8747163541787314]:0.021877632043544586,49[&rate=0.8773083243432284]:0.04743341092407405)[&rate=0.9272736206687932]:0.08343091341367645,46[&rate=0.9913122123816797]:0.1308643243377505)[&rate=1.0088873786398902]:0.02207541735280702)[&rate=1.0225356294047752]:0.1277637925042902,((52[&rate=0.9593395109195186]:0.015146358630826645,56[&rate=1.0556413057396403]:0.015146358630826645)[&rate=1.1006576166848565]:0.07143398287081512,55[&rate=0.9930521232826944]:0.08658034150164176)[&rate=1.0305663588801122]:0.19412319269320596)[&rate=0.9334062913304607]:0.8609591698686557)[&rate=0.9848002196498682]:1.2348609128703505)[&rate=1.0106767527524696]:0.7417659541851962)[&rate=0.90016124307486]:0.18687536082676592,((((((91[&rate=1.0026799974273666]:0.3574483700806353,(95[&rate=0.9646950961785471]:0.021348999974446375,103[&rate=1.0595489586717397]:0.021348999974446375)[&rate=1.0234674069176717]:0.3360993701061889)[&rate=1.0248712004879612]:0.5470691992640084,(((92[&rate=0.9474310320707395]:0.0034646932007832256,96[&rate=0.9956667530533324]:0.0034646932007832256)[&rate=1.0398920032615022]:0.2090849149701867,(99[&rate=0.9502242090281849]:0.019515494878685917,101[&rate=1.1772184107811259]:0.019515494878685917)[&rate=1.0026799974273666]:0.19303411329228398)[&rate=1.087849548659347]:0.12176807623822661,((93[&rate=1.1274231429942208]:0.0015083444984588736,100[&rate=1.140239512212761]:0.0015083444984588736)[&rate=0.947898729168762]:0.27954082487592385,98[&rate=0.919791360898358]:0.28104916937438273)[&rate=1.0561933411312954]:0.05326851503481378)[&rate=1.0998583213461377]:0.5701998849354473)[&rate=0.8868894499986845]:0.30078871164653764,(((94[&rate=1.1099127275322198]:0.1467841915137834,104[&rate=1.0561933411312954]:0.1467841915137834)[&rate=0.8883826642925381]:0.24560502833780118,97[&rate=1.1389856630548572]:0.3923892198515846)[&rate=1.0373966493069815]:0.4417154698467136,(102[&rate=0.9765460016026313]:0.0812993032155969,105[&rate=0.8467527192811078]:0.0812993032155969)[&rate=1.1482235936491818]:0.7528053864827013)[&rate=1.1192078072957603]:0.3712015912928832)[&rate=1.1274231429942208]:0.053345015467276324,(((((((140[&rate=1.043953826549243]:0.07269216554249341,(142[&rate=1.0665053114804073]:0.015105856866560696,144[&rate=0.8653318415695728]:0.015105856866560696)[&rate=1.1510840618461726]:0.057586308675932715)[&rate=1.2782875288547835]:0.017059097336637755,143[&rate=0.930368854270208]:0.08975126287913117)[&rate=0.8622448094823415]:0.008421846531659977,148[&rate=0.9277937540939081]:0.09817310941079115)[&rate=0.9272736206687932]:0.07163990815266143,145[&rate=1.0584219518857183]:0.16981301756345257)[&rate=1.1998695734440687]:0.10038952982142402,152[&rate=0.9520698597969692]:0.2702025473848766)[&rate=0.9795909830248628]:0.5045137212787312,141[&rate=1.0359142883944583]:0.7747162686636078)[&rate=1.0496942357629508]:0.27905500157361174,((((146[&rate=0.8531939276114223]:0.008727231441148684,149[&rate=1.0369013251175907]:0.008727231441148684)[&rate=0.9756746122635298]:0.082332662190194,151[&rate=1.0281770625992188]:0.09105989363134269)[&rate=0.9070899938518487]:0.008496972155079024,150[&rate=0.9717430376132415]:0.09955686578642171)[&rate=0.9298571502283426]:0.030617042498127786,147[&rate=0.9525293435875501]:0.1301739082845495)[&rate=0.99785113863208]:0.9235973619526701)[&rate=1.0659120486643803]:0.20488002622123824)[&rate=1.0561933411312954]:0.5275380450818854,((((((((106[&rate=1.0393903772248139]:0.019280371761458664,109[&rate=0.9293438155751176]:0.019280371761458664)[&rate=1.0470611997151216]:0.0028030504091092028,118[&rate=1.0174647527881113]:0.022083422170567867)[&rate=0.8622448094823415]:0.002347785552403784,113[&rate=0.8927143488321473]:0.02443120772297165)[&rate=0.8738318029204779]:0.05223456167988928,(115[&rate=0.9593395109195186]:0.022634119340113452,123[&rate=1.1163170717056523]:0.022634119340113452)[&rate=0.9887057671448923]:0.05403165006274748)[&rate=1.0491643128802828]:0.1529203775945179,122[&rate=0.9615796631171081]:0.22958614699737884)[&rate=1.0738419958072487]:0.18375428824409817,121[&rate=0.9358972559201445]:0.413340435241477)[&rate=1.2062626101679754]:0.8123661971298851,119[&rate=1.1014634020171106]:1.2257066323713621)[&rate=1.1731062080070178]:0.5305058065945549,((((107[&rate=0.9441310110789477]:0.00393631745285005,116[&rate=0.8883826642925381]:0.00393631745285005)[&rate=0.9934874630508841]:0.0483740744751904,108[&rate=0.9588898518126914]:0.05231039192804045)[&rate=0.918688831118861]:0.003315155396495767,117[&rate=1.1318524330995536]:0.055625547324536215)[&rate=1.1377515325920093]:0.7028336250177595,(((110[&rate=0.9506868067257709]:0.11167441131240752,(114[&rate=0.9717430376132415]:0.03532494151801891,120[&rate=1.0529104089622914]:0.03532494151801891)[&rate=0.8682823416879025]:0.07634946979438861)[&rate=0.9708666248991883]:0.05303160451725719,112[&rate=0.9552710786834369]:0.1647060158296647)[&rate=1.0414048314806914]:0.14068417692411583,111[&rate=1.0545431738671627]:0.30539019275378054)[&rate=1.0414048314806914]:0.4530689795885151)[&rate=0.765519103486636]:0.9977532666236214)[&rate=0.9124490100492599]:0.02997690257442609)[&rate=1.1201928694366539]:0.21686771197028798,(((172[&rate=1.2933051954417383]:0.20837644761566862,176[&rate=0.9368841023614507]:0.20837644761566862)[&rate=1.015641487493296]:1.0384549617444045,((178[&rate=0.9354018328751248]:0.05566502447612423,188[&rate=0.8291283358789313]:0.05566502447612423)[&rate=1.1998695734440687]:0.4809542616429988,(187[&rate=1.048109486317595]:0.01780287416562719,189[&rate=0.919791360898358]:0.01780287416562719)[&rate=0.8481002062578071]:0.5188164119534958)[&rate=1.0088873786398902]:0.7102121232409502)[&rate=1.0084412365514075]:0.6703610651251033,(((((173[&rate=1.2495691767891821]:0.0824625150548586,(174[&rate=0.8622448094823415]:0.008687058346823368,181[&rate=1.0017992850212798]:0.008687058346823368)[&rate=1.038390992864404]:0.07377545670803523)[&rate=0.841007772799132]:0.008067698708763532,177[&rate=0.9358972559201445]:0.09053021376362214)[&rate=0.876454281241419]:0.10022556645689967,(182[&rate=1.0776770112067187]:0.019408054423849654,184[&rate=0.9383546920475442]:0.019408054423849654)[&rate=0.8941129013303692]:0.17134772579667215)[&rate=0.8271719582689502]:0.3307380388459317,(((180[&rate=1.0796411960135888]:0.010906902392933996,183[&rate=0.8159129543297997]:0.010906902392933996)[&rate=0.9378657583462829]:0.01817690851398239,185[&rate=1.0713496773584161]:0.029083810906916384)[&rate=1.0088873786398902]:0.07405577712200104,186[&rate=1.114440739945767]:0.10313958802891741)[&rate=0.9633626835391026]:0.4183542310375361)[&rate=0.839470369127122]:0.1754574949247545,(175[&rate=0.9646950961785471]:0.20761523760604095,179[&rate=0.8590030706621967]:0.20761523760604095)[&rate=1.0106767527524696]:0.4893360763851671)[&rate=0.876454281241419]:1.2202411604939685)[&rate=0.78152965380296]:0.08586457902545463)[&rate=1.2173661976828425]:1.302107878435185)[&rate=0.9774167123499263]:0.3172097678205996,(((((57[&rate=1.0129250106322296]:0.08169574988342465,64[&rate=1.0291298633452983]:0.08169574988342465)[&rate=0.9033677068031025]:0.13118031834701963,(59[&rate=1.0796411960135888]:0.16085897411210198,((60[&rate=1.0624055524221694]:0.037087072069237406,69[&rate=0.9158910128440212]:0.037087072069237406)[&rate=0.942701821792679]:0.048632386730425234,70[&rate=0.982630650594875]:0.08571945879966264)[&rate=0.9965398362540384]:0.07513951531243934)[&rate=0.9561795233889634]:0.052017094118342294)[&rate=1.1030950279145468]:0.06156536009660904,((61[&rate=0.9272736206687932]:0.021964216831654587,66[&rate=0.9939229640358015]:0.021964216831654587)[&rate=0.9539033824935061]:0.0025662194082330253,67[&rate=1.0573034937410442]:0.024530436239887612)[&rate=1.0398920032615022]:0.24991099208716572)[&rate=0.9208848970970656]:2.5071947911732897,(((58[&rate=1.0491643128802828]:0.16693716841289102,(62[&rate=0.8555844854535171]:0.050261437231170866,68[&rate=1.030086535963867]:0.050261437231170866)[&rate=1.0683010533175368]:0.11667573118172016)[&rate=0.9262280095041501]:0.0624837866322408,65[&rate=1.0206814451688957]:0.22942095504513182)[&rate=0.8207581213275781]:0.2746402873432072,(63[&rate=1.0344425183169594]:0.01374722910281764,(71[&rate=0.973929512572177]:0.009975036943834531,72[&rate=0.9926169368095467]:0.009975036943834531)[&rate=1.0429299721718206]:0.0037721921589831085)[&rate=1.0262826437815005]:0.49031401328552143)[&rate=1.1192078072957603]:2.277574977112004)[&rate=0.9106903035427742]:0.42311817902750937,((((((190[&rate=0.8328184378360781]:0.08728245063754918,205[&rate=1.034931958184616]:0.08728245063754918)[&rate=0.9743660998126524]:4.4409618827311037E-4,197[&rate=1.142809513227674]:0.08772654682582229)[&rate=0.8883826642925381]:0.027545481439865835,198[&rate=0.9203392336443141]:0.11527202826568812)[&rate=1.0048879270680502]:0.22346302762800851,(195[&rate=1.0573034937410442]:0.13505940282678416,(196[&rate=0.9695498184154612]:0.009018626154483178,201[&rate=0.9436556520219153]:0.009018626154483178)[&rate=1.1510840618461726]:0.12604077667230099)[&rate=0.9566327775652266]:0.20367565306691246)[&rate=1.0004806293529718]:0.9473488161422816,((193[&rate=0.9952305212971746]:0.021017743891533863,204[&rate=0.9388423900355941]:0.021017743891533863)[&rate=1.0465394530847725]:0.06015027002551741,206[&rate=0.9192412399726487]:0.08116801391705128)[&rate=0.8830354790693291]:1.204915858118927)[&rate=1.226167951797564]:1.3725867181871019,((((191[&rate=1.0738419958072487]:0.09968115044731868,192[&rate=0.8673130239018803]:0.09968115044731868)[&rate=0.9293438155751176]:0.08733564770652036,194[&rate=1.078982852321001]:0.18701679815383904)[&rate=1.1263517792826547]:0.16226554073961336,200[&rate=1.1940851505209373]:0.3492823388934524)[&rate=0.9358972559201445]:1.067603428718506,((199[&rate=1.0044456024808963]:0.053826690025597576,203[&rate=0.8981870176769391]:0.053826690025597576)[&rate=0.8494163728796131]:0.07791922101822392,202[&rate=0.9118656903933683]:0.1317459110438215)[&rate=1.1072984544525106]:1.2851398565681371)[&rate=1.0829897183185488]:1.2417848226111214)[&rate=1.1263517792826547]:0.5460838083047723)[&rate=0.9778518353654867]:0.4176203012385633)[&rate=1.0000416857807244]:9.2106956735441,(((((73[&rate=0.9520698597969692]:0.010796846988924516,75[&rate=1.0138281577359134]:0.010796846988924516)[&rate=0.9651383658221296]:0.0993148821243629,(77[&rate=1.0823122166130996]:0.09384197610797437,(81[&rate=1.0066611890161872]:0.021568694377828962,82[&rate=0.9800254773879917]:0.021568694377828962)[&rate=1.0763852280393118]:0.07227328173014541)[&rate=1.2173661976828425]:0.01626975300531304)[&rate=1.1064428864234679]:0.5914422370036981,((74[&rate=0.9543599686875384]:0.05433871917225744,(76[&rate=1.1163170717056523]:0.035764802606828454,89[&rate=1.0836712587415043]:0.035764802606828454)[&rate=1.014733622567352]:0.018573916565428984)[&rate=1.142809513227674]:0.031494418743533883,83[&rate=1.15405969516206]:0.08583313791579132)[&rate=0.8378865521495582]:0.6157208282011942)[&rate=0.879814451643343]:0.08747596776008215,((((78[&rate=1.0512943251686324]:0.004568578597723272,84[&rate=1.011125345906044]:0.004568578597723272)[&rate=0.9460224655944923]:0.00879870800713393,(80[&rate=1.0188391328029383]:0.0019937674864384768,86[&rate=1.1587646879363638]:0.0019937674864384768)[&rate=0.9769814373687535]:0.011373519118418725)[&rate=0.9136071716979361]:0.37579516876857355,(85[&rate=0.8425019699068332]:0.030239848448839615,90[&rate=1.0183803242548666]:0.030239848448839615)[&rate=1.0388900462903916]:0.35892260692459116)[&rate=1.0057737467749774]:0.10508107619377105,(79[&rate=1.1116972139290293]:0.3328871063410251,87[&rate=1.1099127275322198]:0.3328871063410251)[&rate=1.075107037665764]:0.16135642522617671)[&rate=1.0809690452959781]:0.29478640230986586)[&rate=0.90399719927249]:3.2914141253865994,88[&rate=0.9516096181972205]:4.080444059263667)[&rate=1.1673736504766405]:8.75262631404685)[&rate=1.0]:0.0;

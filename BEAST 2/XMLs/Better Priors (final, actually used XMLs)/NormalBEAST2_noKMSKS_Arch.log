@@ -1,0 +1,422 @@
+#
+#model:
+#
+#<?xml version="1.0" encoding="UTF-8" standalone="no"?><input id="posterior" spec="beast.core.util.CompoundDistribution">
+#    <distribution id="prior" spec="beast.core.util.CompoundDistribution">
+#        <distribution id="BirthDeath.t:NormalBEAST2" spec="beast.evolution.speciation.BirthDeathGernhard08Model">
+#            <parameter id="relativeDeathRate2.t:NormalBEAST2" lower="0.0" name="relativeDeathRate" upper="1.0">0.5</parameter>
+#            <parameter id="birthRate2.t:NormalBEAST2" lower="0.0" name="birthDiffRate" upper="10000.0">1.0</parameter>
+#            <tree id="Tree.t:NormalBEAST2">
+#                <taxonset id="TaxonSet.NormalBEAST2" spec="beast.evolution.alignment.TaxonSet">
+#                </taxonset>
+#            </tree>
+#        </distribution>
+#        <prior id="BirthRatePrior.t:NormalBEAST2" name="distribution" x="@birthRate2.t:NormalBEAST2">
+#            <LogNormal id="LogNormalDistributionModel.1" name="distr">
+#                <parameter estimate="false" id="RealParameter.6" name="M">1.0</parameter>
+#                <parameter estimate="false" id="RealParameter.7" lower="0.0" name="S" upper="5.0">1.25</parameter>
+#            </LogNormal>
+#        </prior>
+#        <prior id="GammaShapePrior.s:NormalBEAST2" name="distribution">
+#            <parameter id="gammaShape.s:NormalBEAST2" name="x">1.0</parameter>
+#            <Exponential id="Exponential.0" name="distr">
+#                <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+#            </Exponential>
+#        </prior>
+#        <prior id="DeathRatePrior.t:NormalBEAST2" name="distribution" x="@relativeDeathRate2.t:NormalBEAST2">
+#            <LogNormal id="LogNormalDistributionModel.2" name="distr">
+#                <parameter estimate="false" id="RealParameter.8" name="M">1.0</parameter>
+#                <parameter estimate="false" id="RealParameter.9" lower="0.0" name="S" upper="5.0">1.25</parameter>
+#            </LogNormal>
+#        </prior>
+#        <prior id="ucldStdevPrior.c:NormalBEAST2" name="distribution">
+#            <parameter id="ucldStdev.c:NormalBEAST2" lower="0.0" name="x">0.1</parameter>
+#            <Gamma id="Gamma.0" name="distr">
+#                <parameter estimate="false" id="RealParameter.2" name="alpha">0.5396</parameter>
+#                <parameter estimate="false" id="RealParameter.3" name="beta">0.3819</parameter>
+#            </Gamma>
+#        </prior>
+#    </distribution>
+#    <distribution id="likelihood" spec="beast.core.util.CompoundDistribution" useThreads="true">
+#        <distribution data="@NormalBEAST2" id="treeLikelihood.NormalBEAST2" spec="beast.evolution.likelihood.ThreadedTreeLikelihood" tree="@Tree.t:NormalBEAST2">
+#            <siteModel gammaCategoryCount="4" id="SiteModel.s:NormalBEAST2" shape="@gammaShape.s:NormalBEAST2" spec="beast.evolution.sitemodel.SiteModel">
+#                <parameter id="mutationRate.s:NormalBEAST2" name="mutationRate">1.0</parameter>
+#                <parameter estimate="false" id="proportionInvariant.s:NormalBEAST2" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+#                <substModel id="WAG.s:NormalBEAST2" spec="beast.evolution.substitutionmodel.WAG"/>
+#            </siteModel>
+#            <branchRateModel id="RelaxedClock.c:NormalBEAST2" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" tree="@Tree.t:NormalBEAST2">
+#                <LogNormal S="@ucldStdev.c:NormalBEAST2" id="LogNormalDistributionModel.c:NormalBEAST2" meanInRealSpace="true" name="distr">
+#                    <parameter estimate="false" id="RealParameter.1" lower="0.0" name="M" upper="1.0">1.0</parameter>
+#                </LogNormal>
+#                <rateCategories dimension="572" id="rateCategories.c:NormalBEAST2" spec="beast.core.parameter.IntegerParameter">1</rateCategories>
+#                <parameter estimate="false" id="ucldMean.c:NormalBEAST2" name="clock.rate">1.0</parameter>
+#            </branchRateModel>
+#        </distribution>
+#        <distribution id="arg.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="arg" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="arg_arch_2zue_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_M_aeolicus_Nankai" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_S_marinus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_M_janaschii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="cys.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="cys" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="cys_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="cys_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="cys_arch_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="cys_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="cys_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="cys_arch_S_marinus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="cys_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="cys_arch_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="cys_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="cys_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="cys_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="glu.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="glu" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="glu_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="glu_arch_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="glu_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="glu_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="glu_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="glu_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="glu_arch_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="glu_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="glu_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="glu_arch_S_marinus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="glu_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="glu_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="glu_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="ile.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="ile" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="ile_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_arch_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_arch_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_arch_S_marinus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_arch_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="leu.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="leu" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="leu_arch_1wz2_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_arch_M_aeolicus_Nankai" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_arch_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_arch_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="met.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="met" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="met_arch_1rqg_P_abyssi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_M_aeolicus_Nankai" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_S_marinus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="trp.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="trp" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="trp_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_arch_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_arch_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_arch_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="tyr.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="tyr" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="tyr_arch_2cya_A_pernix" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_2cyb_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_2cyc_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_2zp1_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_M_aeolicus_Nankai" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_S_marinus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="val.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="val" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="val_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="val_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="val_arch_M_aeolicus_Nankai" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="val_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="val_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="val_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="val_arch_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="val_arch_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="val_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="val_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="val_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="val_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="val_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="val_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="val_arch_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="val_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="ala.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="ala" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="ala_arch_2ztg_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ala_arch_2zze_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ala_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ala_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ala_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ala_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ala_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ala_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ala_arch_M_aeolicus_Nankai" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ala_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ala_arch_S_marinus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ala_arch_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ala_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="asn.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="asn" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="asn_arch_1x54a_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asn_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asn_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asn_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asn_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asn_arch_S_marinus" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="asp.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="asp" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="asp_arch_1wydb_S_tokodaii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_M_aeolicus_Nankai" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_S_marinus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_d1b8aa_T_kodakarensis" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="gly.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="gly" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="gly_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_S_marinus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_M_aeolicus_Nankai" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_arch_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="his.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="his" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="his_arch_1wu7a_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_M_aeolicus_Nankai" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_R_marinus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="lys.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="lys" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="lys_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="lys_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="lys_arch_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="lys_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="lys_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="lys_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="lys_arch_M_aeolicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="lys_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="lys_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="lys_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="lys_arch_S_marinus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="lys_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="lys_arch_1irx_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="phe.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="phe" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="phe_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_arch_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_arch_S_marinus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_arch_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_arch_M_aeolicus_Nankai" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_arch_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="pro.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="pro" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="pro_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_arch_M_aeolicus_Nankai" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_arch_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_arch_S_marinus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_arch_d1nj8a_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="ser.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="ser" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="ser_arch_2cjab_M_barkeri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_M_aeolicus_Nankai" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_S_marinus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="thr.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="thr" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="thr_arch_3a32_A_pernix" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_M_thermautotrophicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_T_volcanium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_M_aeolicus_Nankai" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_S_acidocaldarius" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_M_kandleri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_M_hungatei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_P_aerophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_P_occultum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_S_marinus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_P_delaneyi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_N_equitans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_M_acetivorans" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_arch_Halobacterium" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#    </distribution>
+#</input>
+#
+Sample	posterior	likelihood	prior	treeLikelihood	TreeHeight	gammaShape	mutationRate	ucldStdev	rate.mean	rate.variance	rate.coefficientOfVariation	BirthDeath	birthRate2	relativeDeathRate2	mrcatime(arg)	mrcatime(cys)	mrcatime(glu)	mrcatime(ile)	mrcatime(leu)	mrcatime(met)	mrcatime(tyr)	mrcatime(trp)	mrcatime(val)	mrcatime(ala)	mrcatime(asn)	mrcatime(asp)	mrcatime(gly)	mrcatime(his)	mrcatime(lys)	mrcatime(phe)	mrcatime(pro)	mrcatime(ser)	mrcatime(thr)
+0	-62348.01717269177	-62282.403111939326	-65.61406075243995	-62282.403111939326	12.833070373310516	1.0	1.0	0.1	1.0096536514839491	0.009608662486037476	0.0987912107395641	-62.60504874907075	1.0	0.5	0.8575087213173994	2.2411136469099415	1.8451127334619657	2.376523616933854	2.781636219500343	4.080444059263667	1.756212438965917	1.2053062809911814	1.0704023313668274	1.0816524122371425	2.250601623515566	1.9171924744851765	2.65867059022308	1.4283409778245661	1.0537712702372195	1.7044599900983297	0.9960949992426078	0.9096033965208439	1.1866281093294284
