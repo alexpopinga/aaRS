@@ -1,15 +1,15 @@
 import random
 
-x = 1
-y = 1
+x = 0
+y = 0
 samples = open("10RandomSamples.xml", "w")
 taxonSet = open("10RandomSamples_SampleNames.xml", "w")
 traitSet = open("10RandomSamples_TraitSet.xml", "w")
 tree = open("10RandomSamples_Tree.xml", "w")
 
-for y in range(1,10):
+for y in range(0,10):
 	with open("IterativeSubMatrix_noKMSKS_20states_SEQUENCES.xml", 'r') as file:
-		for x in range(1,961):
+		for x in range(0,961):
 			data = file.readline()
 			z = random.randint(1,2)
 			if (z < 2):
