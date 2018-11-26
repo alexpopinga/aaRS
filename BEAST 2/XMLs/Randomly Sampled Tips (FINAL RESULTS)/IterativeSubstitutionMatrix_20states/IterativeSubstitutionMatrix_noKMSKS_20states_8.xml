@@ -547,7 +547,7 @@
     	<taxon id="arg_euk_C_subellipsoidea"/>	
     	<taxon id="arg_euk_P_chromatophora"/>	
     	<taxon id="arg_euk_N_ceranae"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="C.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="C" spec="TaxonSet">	
@@ -575,7 +575,7 @@
     	<taxon id="cys_euk_P_chromatophora"/>	
     	<taxon id="cys_euk_S_rosetta"/>	
     	<taxon id="cys_euk_C_gigas"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="Q.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="Q" spec="TaxonSet">	
@@ -594,7 +594,7 @@
     	<taxon id="gln_euk_C_owczarzaki"/>	
     	<taxon id="gln_euk_M_domestica"/>	
     	<taxon id="gln_euk_E_guttata"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="E.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="E" spec="TaxonSet">	
@@ -617,7 +617,7 @@
     	<taxon id="glu_bact_B_burgdorferi"/>	
     	<taxon id="glu_euk_L_infantum"/>	
     	<taxon id="glu_euk_N_ceranae"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="I.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="I" spec="TaxonSet">	
@@ -657,7 +657,7 @@
     	<taxon id="ile_euk_H_sapiens"/>	
     	<taxon id="ile_euk_N_ceranae"/>	
     	<taxon id="ile_euk_G_theta"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="L" spec="TaxonSet">	
@@ -686,7 +686,7 @@
     	<taxon id="leu_euk_P_chromatophora"/>	
     	<taxon id="leu_euk_N_ceranae"/>	
     	<taxon id="leu_euk_S_rosetta"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="M.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="M" spec="TaxonSet">	
@@ -722,7 +722,7 @@
     	<taxon id="met_euk_G_lamblia"/>	
     	<taxon id="met_euk_G_theta"/>	
     	<taxon id="met_euk_N_ceranae"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="W.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="W" spec="TaxonSet">	
@@ -757,7 +757,7 @@
     	<taxon id="trp_euk_E_guttata"/>	
     	<taxon id="trp_euk_G_theta"/>	
     	<taxon id="trp_euk_N_gruberi"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="Y.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="Y" spec="TaxonSet">	
@@ -789,7 +789,7 @@
     	<taxon id="tyr_euk_B_hominis"/>	
     	<taxon id="tyr_euk_N_ceranae"/>	
     	<taxon id="tyr_euk_M_domestica"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="V.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="V" spec="TaxonSet">	
@@ -815,7 +815,7 @@
     	<taxon id="val_euk_C_gigas"/>	
     	<taxon id="val_euk_S_rosetta"/>	
     	<taxon id="val_euk_C_subellipsoidea"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="A.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="A" spec="TaxonSet">	
@@ -840,7 +840,7 @@
     	<taxon id="ala_euk_S_rosetta"/>	
     	<taxon id="ala_euk_N_gruberi"/>	
     	<taxon id="ala_euk_C_parvum_Iowa_II"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="N.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="N" spec="TaxonSet">	
@@ -863,7 +863,7 @@
     	<taxon id="asn_euk_C_owczarzaki"/>	
     	<taxon id="asn_euk_E_guttata"/>	
     	<taxon id="asn_euk_C_subellipsoidea"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="D.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="D" spec="TaxonSet">	
@@ -889,7 +889,7 @@
     	<taxon id="asp_euk_C_parvum_Iowa_II"/>	
     	<taxon id="asp_euk_D_discoideum"/>	
     	<taxon id="asp_euk_G_theta"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="G" spec="TaxonSet">	
@@ -919,7 +919,7 @@
     	<taxon id="gly_euk_N_ceranae"/>	
     	<taxon id="gly_euk_N_gruberi"/>	
     	<taxon id="gly_euk_C_parvum_Iowa_II"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="H.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="H" spec="TaxonSet">	
@@ -948,7 +948,7 @@
     	<taxon id="his_euk_T_vaginalis"/>	
     	<taxon id="his_euk_D_discoideum"/>	
     	<taxon id="his_euk_G_lamblia"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="K" spec="TaxonSet">	
@@ -966,7 +966,7 @@
     	<taxon id="lys_euk_C_subellipsoidea"/>	
     	<taxon id="lys_euk_P_chromatophora"/>	
     	<taxon id="lys_euk_S_rosetta"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="F.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="F" spec="TaxonSet">	
@@ -988,7 +988,7 @@
     	<taxon id="phe_euk_B_mori"/>	
     	<taxon id="phe_euk_L_infantum"/>	
     	<taxon id="phe_euk_B_hominis"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="P.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="P" spec="TaxonSet">	
@@ -1018,7 +1018,7 @@
     	<taxon id="pro_euk_C_owczarzaki"/>	
     	<taxon id="pro_euk_S_rosetta"/>	
     	<taxon id="pro_euk_G_theta"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="S" spec="TaxonSet">	
@@ -1049,7 +1049,7 @@
     	<taxon id="ser_euk_S_rosetta"/>	
     	<taxon id="ser_euk_C_subellipsoidea"/>	
     	<taxon id="ser_euk_N_gruberi"/>	
-    </taxon>
+    </taxonset>
 </distribution>
 <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
     <taxonset id="T" spec="TaxonSet">	
@@ -1075,7 +1075,7 @@
     	<taxon id="thr_euk_L_infantum"/>	
     	<taxon id="thr_euk_C_subellipsoidea"/>
     	<taxon id="thr_euk_G_theta"/>
-    </taxon>
+    </taxonset>
 </distribution>
 
             <distribution spec='beast.evolution.substitutionmodel.AARSTreePrior' id='AARSprior'>
