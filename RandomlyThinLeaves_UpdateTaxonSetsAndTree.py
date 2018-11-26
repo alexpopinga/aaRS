@@ -5,6 +5,7 @@ y = 1
 samples = open("10RandomSamples.xml", "w")
 taxonSet = open("10RandomSamples_SampleNames.xml", "w")
 traitSet = open("10RandomSamples_TraitSet.xml", "w")
+tree = open("10RandomSamples_Tree.xml", "w")
 
 for y in range(1,10):
 	with open("IterativeSubMatrix_noKMSKS_20states_SEQUENCES.xml", 'r') as file:
@@ -19,6 +20,8 @@ for y in range(1,10):
 				taxonSet.write('"/>')
 				taxonSet.write('\n')
 				traitSet.write(curName)
+				tree.write(curName)
+				tree.write(':0.1, ')
 				if 'val_' in curName:
 					traitSet.write('=0, ')
 				elif 'gly_' in curName:
@@ -67,9 +70,11 @@ for y in range(1,10):
 		samples.write('\n')
 		taxonSet.write('\n')
 		traitSet.write('\n')
+		tree.write('\n')
 	file.close()
 	x = 1
 				
 samples.close()
 taxonSet.close()
 traitSet.close()
+tree.close()
