@@ -1696,7 +1696,7 @@
 	</operator>
 
 
-    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_20states.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_20states_6.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
@@ -1709,6 +1709,26 @@
         <log idref="BirthDeath.t:AARS"/>
         <log idref="birthRate2.t:AARS"/>
         <log idref="relativeDeathRate2.t:AARS"/>
+        <log idref='R.prior'/>
+        <log idref='C.prior'/>
+        <log idref='E.prior'/>
+        <log idref='Q.prior'/>
+        <log idref='I.prior'/>
+        <log idref='L.prior'/>
+        <log idref='M.prior'/>
+        <log idref='Y.prior'/>
+        <log idref='W.prior'/>
+        <log idref='V.prior'/>
+        <log idref='A.prior'/>
+        <log idref='N.prior'/>
+        <log idref='D.prior'/>
+        <log idref='G.prior'/>
+        <log idref='H.prior'/>
+        <log idref='K.prior'/>
+        <log idref='F.prior'/>
+        <log idref='P.prior'/>
+        <log idref='S.prior'/>
+        <log idref='T.prior'/>
     </logger>
 
     <logger id="screenlog" logEvery="1000">
@@ -1718,7 +1738,7 @@
         <log idref="prior"/>
     </logger>
 
-    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_20states.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_20states_6.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
         <log id="TreeWithMetaDataLogger.t:AARS" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS" branchratemodel="@RelaxedClock.c:AARS"/>
     </logger>
     

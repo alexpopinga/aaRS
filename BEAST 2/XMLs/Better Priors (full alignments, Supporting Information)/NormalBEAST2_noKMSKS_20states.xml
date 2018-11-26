@@ -614,7 +614,7 @@ name="alignment">
                     <sequence id="seq_asp_bact_P_mikurensis" taxon="asp_bact_P_mikurensis" totalcount="20" value="----------------------------------------------------------------------------------------------------KRHRVTKTVRDFCDEHGFLEIETPFLCALPQSPQLFKQERYVQIVRCFRDAEFTQVDLEMSQEDVIGLCEGMIRAYDLVLELGGGSIRPPHGGLAFGDRVVMHLV"/>
                     <sequence id="seq_asp_bact_T_maritima" taxon="asp_bact_T_maritima" totalcount="20" value="----------------------------------------------------------------------------------------------------LRYRISKIIRDYFDELGFLEIETPFLTALPQSPQLFKQDRYFQIVRCFRDPEFTQVDVEMSVEDVLNVSEGMVSAYDLVIEVGGGSIRPPHGGIAFGDRLVSIIA"/>
                     <sequence id="seq_asp_bact_A_aeolicus" taxon="asp_bact_A_aeolicus" totalcount="20" value="----------------------------------------------------------------------------------------------------FRHRVYQITRNFFTKEGFIEIETPFLTALPQSPQLFKQDRYFQIVKCFRDPEFTQIDYEMSEEEVMDVAERLIAAYDMVLEIGGGSIRPPHGGLAFGDRVVALML"/>
-                    <sequence id="seq_asp_bact_M_smegmatis" taxon="asp_bact_M_smegmatis" totalcount="20" value="----------------------------------------------------------------------------------------------------LRSKVNAAARSVLAEHDFVEIETPTLTALPQSPQLFKQERYYQIARCYRDPEFTQLDMEMSADDVIAISEQVLKAYDIVCEIGGGSIRPPHGGIAFGDRITALLA"/>
+                    <sequence id="seq_asp_bact_M_smegmatis" taxon="asp_bact_M_smegmatis" totalcount="20" value="----------------------------------------------------------------------------------------------------LRSKVNANormalBEAST2VLAEHDFVEIETPTLTALPQSPQLFKQERYYQIARCYRDPEFTQLDMEMSADDVIAISEQVLKAYDIVCEIGGGSIRPPHGGIAFGDRITALLA"/>
                     <sequence id="seq_asp_bact_M_mobile" taxon="asp_bact_M_mobile" totalcount="20" value="----------------------------------------------------------------------------------------------------LRHKVTRSMRNFLDRNNYINIETPNLGSLPQSPQLYKQEKYYQIARAFRDLEFTQLDIEMAEEIVIHLIENLFKAYDIVLEVGGGSIRPPHGGIALGDRLLSILT"/>
                     <sequence id="seq_asp_bact_B_licheniformis" taxon="asp_bact_B_licheniformis" totalcount="20" value="----------------------------------------------------------------------------------------------------IRNEIIRATYEFFNKEGFVKVDPPILTYLSQSGQLYMEGKVFSFGPTFRAIEFWMIEPEMAFNENLEVQENYVSCADLIAEIIGGSERVPHSGFGLGERTVAWIC"/>
                     <sequence id="seq_asp_bact_B_burgdorferi" taxon="asp_bact_B_burgdorferi" totalcount="20" value="----------------------------------------------------------------------------------------------------LRCQATHLIRNFLIKRKFLELETPTFVALPQSPQLYKQDKYFQIARCYRDPEFTQLDLEMSKENIFKLIENMLFIYDLVLELGSGSIRPNHGGIAIGDRLIMLMT"/>
@@ -2100,20 +2100,10 @@ name="alignment">
         </distribution>
     </distribution>
     	
-    <operator id="gammaShapeScaler.s:NormalBEAST2" spec="ScaleOperator" parameter="@gammaShape.s:NormalBEAST2" scaleFactor="0.5" weight="0.1"/>
-
-    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
-        <parameter idref="mutationRate.s:NormalBEAST2"/>
-        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">112</weightvector>
-    </operator>
-
-    <operator id="ucldStdevScaler.c:NormalBEAST2" spec="ScaleOperator" parameter="@ucldStdev.c:NormalBEAST2" scaleFactor="0.5" weight="3.0"/>
-
-    <operator id="CategoriesRandomWalk.c:NormalBEAST2" spec="IntRandomWalkOperator" parameter="@rateCategories.c:NormalBEAST2" weight="10.0" windowSize="1"/>
-
-    <operator id="CategoriesSwapOperator.c:NormalBEAST2" spec="SwapOperator" intparameter="@rateCategories.c:NormalBEAST2" weight="10.0"/>
-
-    <operator id="CategoriesUniform.c:NormalBEAST2" spec="UniformOperator" parameter="@rateCategories.c:NormalBEAST2" weight="10.0"/>
+    <operator id='ucldStdevScaler.c:NormalBEAST2' spec='ScaleOperator' scaleAll='false' scaleFactor="0.5" weight="3" parameter="@ucldStdev.c:NormalBEAST2"/>
+    <operator id="CategoriesRandomWalk.c:NormalBEAST2" spec="IntRandomWalkOperator" windowSize='1' weight="10" parameter="@rateCategories.c:NormalBEAST2"/>
+	<operator id='CategoriesSwapOperator.c:NormalBEAST2' spec='SwapOperator' howMany="1" weight="10" intparameter='@rateCategories.c:NormalBEAST2'/>
+	<operator id='CategoriesUniform.c:NormalBEAST2' spec='UniformOperator' weight="10" parameter='@rateCategories.c:NormalBEAST2'/>
 
     <operator id="BirthDeathTreeScaler.t:NormalBEAST2" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:NormalBEAST2" weight="3.0"/>
 
@@ -2132,6 +2122,29 @@ name="alignment">
     <operator id="BirthRateScaler.t:NormalBEAST2" spec="ScaleOperator" parameter="@birthRate2.t:NormalBEAST2" scaleFactor="0.75" weight="3.0"/>
 
     <operator id="DeathRateScaler.t:NormalBEAST2" spec="ScaleOperator" parameter="@relativeDeathRate2.t:NormalBEAST2" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id='RestrictedSubtreeSlide' spec='RestrictedSubtreeSlide' weight='60' tree='@Tree.t:NormalBEAST2'>
+		<clade idref='val'/>
+		<clade idref='gly'/>
+		<clade idref='ala'/>
+		<clade idref='asp'/>
+		<clade idref='pro'/>
+		<clade idref='glu'/>
+		<clade idref='ser'/>
+		<clade idref='leu'/>
+		<clade idref='arg'/>
+		<clade idref='thr'/>
+		<clade idref='ile'/>
+		<clade idref='gln'/>
+		<clade idref='asn'/>
+		<clade idref='cys'/>
+		<clade idref='tyr'/>
+		<clade idref='his'/>
+		<clade idref='met'/>
+		<clade idref='trp'/>
+		<clade idref='phe'/>
+		<clade idref='lys'/>
+	</operator>
 
     <logger id="tracelog" fileName="NormalBEAST2_noKMSKS_20states.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
