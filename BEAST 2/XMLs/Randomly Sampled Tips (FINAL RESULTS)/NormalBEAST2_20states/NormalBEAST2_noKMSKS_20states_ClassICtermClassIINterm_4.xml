@@ -1151,7 +1151,7 @@ name="alignment">
 		<clade idref='K'/>
 	</operator>
 
-    <logger id="tracelog" fileName="NormalBEAST2_noKMSKS_20states_ClassICtermClassIINterm_1.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+    <logger id="tracelog" fileName="NormalBEAST2_noKMSKS_20states_ClassICtermClassIINterm_4.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
@@ -1193,7 +1193,7 @@ name="alignment">
         <log idref="prior"/>
     </logger>
 
-    <logger id="treelog.t:NormalBEAST2" fileName="NormalBEAST2_noKMSKS_20states_ClassICtermClassIINterm_1.trees" logEvery="10000" mode="tree">
+    <logger id="treelog.t:NormalBEAST2" fileName="NormalBEAST2_noKMSKS_20states_ClassICtermClassIINterm_4.trees" logEvery="10000" mode="tree">
         <log id="TreeWithMetaDataLogger.t:NormalBEAST2" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:NormalBEAST2" tree="@Tree.t:NormalBEAST2"/>
     </logger>
 

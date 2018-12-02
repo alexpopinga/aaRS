@@ -1627,7 +1627,7 @@ thr_euk_N_ceranae=9
 	</operator>
 
 
-    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_20states_4.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_20states_ClassICtermClassIINterm_4.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
@@ -1669,7 +1669,7 @@ thr_euk_N_ceranae=9
         <log idref="prior"/>
     </logger>
 
-    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_20states_4.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_20states_ClassICtermClassIINterm_4.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
         <log id="TreeWithMetaDataLogger.t:AARS" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS" branchratemodel="@RelaxedClock.c:AARS"/>
     </logger>
     
