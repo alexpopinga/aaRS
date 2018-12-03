@@ -483,8 +483,7 @@ name="alignment">
                     <sequence id="seq_thr_euk_D_discoideum" taxon="thr_euk_D_discoideum" totalcount="20" value="---------------------------------------RRFQQDDAHIFIKQCLDFMKYVYTKIDIHLQCATIQLDPVMIHRALSERMMAILM"/>
                     <sequence id="seq_thr_euk_L_infantum" taxon="thr_euk_L_infantum" totalcount="20" value="---------------------------------------RRFQQDDAHIFMEGQMQFLSDVYGKIDIVVQCATIQLDPVMIHRAISERSIAILC"/>
                     <sequence id="seq_thr_euk_C_subellipsoidea" taxon="thr_euk_C_subellipsoidea" totalcount="20" value="---------------------------------------RRFQQDDAHVFVSSCLRMLDEVYAKIDITVQCATIQLDPVIVHRAISERMLAILT"/>
-                    <sequence id="seq_thr_euk_G_theta" taxon="thr_euk_G_theta" totalcount="20" value="---------------------------------------RGFTQDDAHVFILKILDLTESVLSKIDLKIQCSTIQCDPIMIHRAISERFFGILV"/>
-                </data>
+                    <sequence id="seq_thr_euk_G_theta" taxon="thr_euk_G_theta" totalcount="20" value="---------------------------------------RGFTQDDAHVFILKILDLTESVLSKIDLKIQCSTIQCDPIMIHRAISERFFGILV"/>                </data>
 
     
 <map name="Uniform" >beast.math.distributions.Uniform</map>
