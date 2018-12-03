@@ -6,15 +6,15 @@ fullTaxaList = []
 thinnedTaxaList = []
 newFile = open("ClassICtermClassIINtermSequences.xml", "w")
 
-with open("3sequences.xml",'r') as thinnedFile:
-	for y in range(0,3):
+with open("thinnedSequences.xml",'r') as thinnedFile:
+	for y in range(0,459):
 		data = thinnedFile.readline()
 		curName = data[data.find('taxon=')+7:data.find('" totalcount')]
 		thinnedTaxaList.append(curName)
 	y += 1
 		
-with open("5sequences.xml", 'r') as fullFile:
-	for x in range(0,5):
+with open("fullSequences.xml", 'r') as fullFile:
+	for x in range(0,961):
 		data = fullFile.readline()
 		curName = data[data.find('taxon=')+7:data.find('" totalcount')]
 		fullTaxaList.append(curName)

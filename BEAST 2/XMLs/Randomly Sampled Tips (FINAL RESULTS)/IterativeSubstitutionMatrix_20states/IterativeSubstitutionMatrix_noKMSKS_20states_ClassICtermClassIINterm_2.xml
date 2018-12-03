@@ -65,9 +65,9 @@
                     <sequence id="seq_gln_euk_N_ceranae" taxon="gln_euk_N_ceranae" totalcount="20" value="VTRFPPEPNGILHIGHAKAINLDFGYAEKICYLRFDDTN-------------------------------------------------------"/>
                     <sequence id="seq_gln_euk_D_rerio" taxon="gln_euk_D_rerio" totalcount="20" value="RTRFPPEPNGILHIGHAKAINFNFGFAKAICFLRYDDTN-------------------------------------------------------"/>
                     <sequence id="seq_gln_euk_C_owczarzaki" taxon="gln_euk_C_owczarzaki" totalcount="20" value="HTRFPPEPNGILHIGHAKAMHINFTFARVKCIFRYDDTN-------------------------------------------------------"/>
-                    <sequence id="seq_gln_euk_S_rosetta" taxon="gln_euk_S_rosetta" totalcount="20" value="HTRFPPEPNGILHIGHAKAITFNFAYARDNCYLRYDDTN-------------------------------------------------------"/>
                     <sequence id="seq_gln_euk_M_domestica" taxon="gln_euk_M_domestica" totalcount="20" value="QTRFPPEPNGILHIGHAKAININFGYAAAVCYLRYDDTN-------------------------------------------------------"/>
                     <sequence id="seq_gln_euk_E_guttata" taxon="gln_euk_E_guttata" totalcount="20" value="LTRFPPEPNGYLHIGHAKAMFVNFGLAKECCYLRYDDTN-------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_S_rosetta" taxon="gln_euk_S_rosetta" totalcount="20" value="HTRFPPEPNGILHIGHAKAITFNFAYARDNCYLRYDDTNEEFFRGILRDVTWLFKITHSSDTYDFTHCLCDSHSLCTKEFQNRRSSYYWLCNALPVQWEY---------------------------------------------------------------------------------------------------------"/>
                     <sequence id="seq_glu_bact_1j09_T_thermophilus" taxon="glu_bact_1j09_T_thermophilus" totalcount="20" value="VTRIAPSPTGDPHVGTAYIALFNYAWARRRFIVRIEDTD-------------------------------------------------------"/>
                     <sequence id="seq_glu_bact_1nzj_E_coli" taxon="glu_bact_1nzj_E_coli" totalcount="20" value="IGRFAPSPSGELHFGSLIAALGSYLQARARWLVRIEDID-------------------------------------------------------"/>
                     <sequence id="seq_glu_arch_P_aerophilum" taxon="glu_arch_P_aerophilum" totalcount="20" value="VVRFAPNPDFVLHLGSARPAILNYAYRIKKFILRFEDTD-------------------------------------------------------"/>
@@ -237,6 +237,7 @@
                     <sequence id="seq_val_arch_M_acetivorans" taxon="val_arch_M_acetivorans" totalcount="20" value="IIDTPPYPTGNFHIGNALNWCYIDYIARYMFPQGWDCHG-------------------------------------------------------"/>
                     <sequence id="seq_val_arch_M_hungatei" taxon="val_arch_M_hungatei" totalcount="20" value="VIDTPPYPTGEFHIGNAFNWCYIDFLARYMFPQGWDCHG-------------------------------------------------------"/>
                     <sequence id="seq_val_arch_M_kandleri" taxon="val_arch_M_kandleri" totalcount="20" value="IIDTPPYPTGSIHMGHVLNWVYMDIIARFLFPQGWDCHG-------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_N_equitans" taxon="val_arch_N_equitans" totalcount="20" value="IIDTPPYPAPLWHIGAALSYALQDFIARGIFPEGFDGNG-------------------------------------------------------"/>
                     <sequence id="seq_val_arch_M_jannaschii" taxon="val_arch_M_jannaschii" totalcount="20" value="IIDTPPYPTGRLHLGHALNWTYMDIIARYLFPQGWDCHG-------------------------------------------------------"/>
                     <sequence id="seq_val_bact_C_jejuni" taxon="val_bact_C_jejuni" totalcount="20" value="CIMMPPNVTGVLHIGHALTFTLQDIMTRYLYQPGLDHAG-------------------------------------------------------"/>
                     <sequence id="seq_val_bact_G_stearothermophilus" taxon="val_bact_G_stearothermophilus" totalcount="20" value="TIVIPPNVTGKLHLGHAWDTTLQDIITRMLWLPGMDHAG-------------------------------------------------------"/>
