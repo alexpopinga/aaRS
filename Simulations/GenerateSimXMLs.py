@@ -1,12 +1,12 @@
 import os
 import shutil
 
-directory = "/Users/apop146/Downloads/Simulations"
 x = 6
 y = 6
-z = 0
+z = 6
 sequenceData = []
 simData = []
+trees = []
 
 for x in range(6,101):
 	with open("/Users/apop146/Downloads/Simulations/IterativeSubstitutionMatrix_sampleTemplate.xml", "r") as templateXML:
@@ -17,7 +17,7 @@ for x in range(6,101):
 	templateXML.close()
 
 for y in range(6,101):
-	with open("/Users/apop146/Downloads/Simulations/ClassI_sim" + str(y) + ".fasta", "r") as fastaFile:
+	with open("ClassI_sim" + str(y) + ".fasta", "r") as fastaFile:
 		while True:
 			data = fastaFile.readline()
 			if ">" not in data:
@@ -31,8 +31,17 @@ for y in range(6,101):
 	y += 1
 			
 #print len(simData)
+#print simData[0]
 
-
+for z in range(6,101):
+	with open("AARS_sim_tree" + str(z) + ".tre", "r") as treeFile:
+		tree = treeFile.readline()
+		trees.append(tree)
+	treeFile.close()
+	z += 1
+	
+print trees
+print len(trees)	
 
 #import random
 
