@@ -696,7 +696,7 @@
     
         <init estimate="false" id="TreeParser.t:AARS" initial="@Tree.t:AARS" spec="beast.util.TreeParser" taxa="@AARS"
 		IsLabelledNewick="true"
-    	newick='$NEWICKTREE;'/>
+    	newick='((((V:67,I:67):15,R:82):10,(((E:36,M:36):30,((Q:37,Y:37):12,C:49):17):22,(L:34,W:34):53):5):4,(((G:26,K:26):57,(P:41,(N:18,F:18):23):41):12,((A:28,H:28):58,(D:58,(S:55,T:55):2):28):8):2);'/>
 </run>
 
 </beast>
