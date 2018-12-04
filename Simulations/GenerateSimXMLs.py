@@ -75,7 +75,6 @@ for z in range(6,101):
 ########################################
 a1 = 6
 a2 = 0
-b = 0
 
 #print len(trees)
 
@@ -90,15 +89,27 @@ for a1 in range(6,101):
 ########################################
 # place simulated data into XMLs
 ########################################
+b1 = 0
+b2 = 0
 
 #print simData1[0][99]	
 
-for b in range(0,100):
+for b1 in range(0,100):
 	with open("IterativeSubstitutionMatrix_sim6.xml", "r+") as outfile:
 		content = outfile.read()
 		outfile.close()
 	with open("IterativeSubstitutionMatrix_sim6.xml", "r+") as outfile:
-		outfile.write(content.replace("$SEQUENCEDATA", str(simData1[0][b]), 1))
-		#print simData1[0][b]
+		outfile.write(content.replace("$SEQUENCEDATA", str(simData1[0][b1]), 1))
+		#print simData1[0][b1]
+		content = outfile.read()
+		outfile.close()
+		
+for b2 in range(0,100):
+	with open("IterativeSubstitutionMatrix_sim6.xml", "r+") as outfile:
+		content = outfile.read()
+		outfile.close()
+	with open("IterativeSubstitutionMatrix_sim6.xml", "r+") as outfile:
+		outfile.write(content.replace("$SEQUENCEDATA", str(simData2[0][b2]), 1))
+		#print simData1[0][b2]
 		content = outfile.read()
 		outfile.close()
