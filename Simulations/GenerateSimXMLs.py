@@ -64,11 +64,18 @@ for y in range(6,101):
 # generate 100 new XMLs, 1 for each sim.
 ########################################
 for z in range(6,101):
-	with open("/Users/apop146/Downloads/Simulations/IterativeSubstitutionMatrix_sampleTemplate.xml", "r") as templateXML:
+	with open("IterativeSubstitutionMatrix_sampleTemplate.xml", "r") as templateXML:
 		newXML = open("IterativeSubstitutionMatrix_sim" + str(z) + ".xml", "w")
 		newXML.write(templateXML.read())
 	newXML.close()
 	templateXML.close()
+	with open("IterativeSubstitutionMatrix_sim" + str(z) + ".xml", "r") as thisXML:
+		fileContent = thisXML.read()
+		thisXML.close()
+	with open("IterativeSubstitutionMatrix_sim" + str(z) + ".xml", "r+") as thisXML:
+		thisXML.write(fileContent.replace("$NUMBER", str(z), 2))
+		fileContent = thisXML.read()
+		thisXML.close()
 
 ########################################
 # use simulated trees as init. trees
@@ -96,20 +103,18 @@ c = 6
 
 for c in range(6,101):
 	for b1 in range(0,100):
-		with open("IterativeSubstitutionMatrix_sim" + str(c) + ".xml", "r+") as outfile:
+		with open("IterativeSubstitutionMatrix_sim" + str(c) + ".xml", "r") as outfile:
 			content = outfile.read()
 			outfile.close()
 		with open("IterativeSubstitutionMatrix_sim" + str(c) + ".xml", "r+") as outfile:
 			outfile.write(content.replace("$SEQUENCEDATA", str(simData1[c-6][b1]), 1))
-			#print simData1[0][b1]
 			content = outfile.read()
 			outfile.close()
 	for b2 in range(0,100):
-		with open("IterativeSubstitutionMatrix_sim" + str(c) + ".xml", "r+") as outfile:
+		with open("IterativeSubstitutionMatrix_sim" + str(c) + ".xml", "r") as outfile:
 			content = outfile.read()
 			outfile.close()
 		with open("IterativeSubstitutionMatrix_sim" + str(c) + ".xml", "r+") as outfile:
 			outfile.write(content.replace("$SEQUENCEDATA", str(simData2[c-6][b2]), 1))
-			#print simData1[0][b2]
 			content = outfile.read()
 			outfile.close()
