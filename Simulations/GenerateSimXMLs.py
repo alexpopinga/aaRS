@@ -73,17 +73,16 @@ for z in range(6,101):
 ########################################
 # use simulated trees as init. trees
 ########################################
-a1 = 6
-a2 = 0
+a = 6
 
 #print len(trees)
 
-for a1 in range(6,101):
-	with open("IterativeSubstitutionMatrix_sim" + str(a1) + ".xml", "r") as f1:
+for a in range(6,101):
+	with open("IterativeSubstitutionMatrix_sim" + str(a) + ".xml", "r") as f1:
 		newFile = f1.read()
 		f1.close()
-		with open("IterativeSubstitutionMatrix_sim" + str(a1) + ".xml", "w") as f2:
-			f2.write(newFile.replace("$NEWICKTREE", str(trees[a2])))
+		with open("IterativeSubstitutionMatrix_sim" + str(a) + ".xml", "w") as f2:
+			f2.write(newFile.replace("$NEWICKTREE", str(trees[a-6])))
 			f2.close()
 	
 ########################################
@@ -91,25 +90,26 @@ for a1 in range(6,101):
 ########################################
 b1 = 0
 b2 = 0
+c = 6
 
 #print simData1[0][99]	
 
-for b1 in range(0,100):
-	with open("IterativeSubstitutionMatrix_sim6.xml", "r+") as outfile:
-		content = outfile.read()
-		outfile.close()
-	with open("IterativeSubstitutionMatrix_sim6.xml", "r+") as outfile:
-		outfile.write(content.replace("$SEQUENCEDATA", str(simData1[0][b1]), 1))
-		#print simData1[0][b1]
-		content = outfile.read()
-		outfile.close()
-		
-for b2 in range(0,100):
-	with open("IterativeSubstitutionMatrix_sim6.xml", "r+") as outfile:
-		content = outfile.read()
-		outfile.close()
-	with open("IterativeSubstitutionMatrix_sim6.xml", "r+") as outfile:
-		outfile.write(content.replace("$SEQUENCEDATA", str(simData2[0][b2]), 1))
-		#print simData1[0][b2]
-		content = outfile.read()
-		outfile.close()
+for c in range(6,101):
+	for b1 in range(0,100):
+		with open("IterativeSubstitutionMatrix_sim" + str(c) + ".xml", "r+") as outfile:
+			content = outfile.read()
+			outfile.close()
+		with open("IterativeSubstitutionMatrix_sim" + str(c) + ".xml", "r+") as outfile:
+			outfile.write(content.replace("$SEQUENCEDATA", str(simData1[c-6][b1]), 1))
+			#print simData1[0][b1]
+			content = outfile.read()
+			outfile.close()
+	for b2 in range(0,100):
+		with open("IterativeSubstitutionMatrix_sim" + str(c) + ".xml", "r+") as outfile:
+			content = outfile.read()
+			outfile.close()
+		with open("IterativeSubstitutionMatrix_sim" + str(c) + ".xml", "r+") as outfile:
+			outfile.write(content.replace("$SEQUENCEDATA", str(simData2[c-6][b2]), 1))
+			#print simData1[0][b2]
+			content = outfile.read()
+			outfile.close()
