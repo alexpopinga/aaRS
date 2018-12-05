@@ -6,404 +6,404 @@ id="NormalBEAST2"
 dataType="aminoacid"
 name="alignment">
           <sequence id="seq_AARS_V_1" taxon="AARS_V_1" totalcount="20" value="PVELRFKGHSDFEKVNEKFPLAWIFHPLTYYYQILMTDEHAPVDEDCRGGEDAGVNVRSPCGKQALCHAPVIIAWKDLDPWRNITCVIKGGSQAWWHAFF
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_V_2" taxon="AARS_V_2" totalcount="20" value="RFKPKFSGHYTQFKLASRVPEAQAYHPHFYYYFIVKTENEAAIKQNLRGGNVAYLLSHARCRKQLLLHTSNMLAWYGMEPWMSVAGALESGTGTFWYPFY
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_V_3" taxon="AARS_V_3" totalcount="20" value="LIEPKFETPSEFEKLPDMFPLIWIYKPLDYYYTALMADEENGVDQGIHGGEVAAINDRSACGKPVTFHSPVIVEWEELDPWQSITCTIPEGAQVDYHTIF
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_V_4" taxon="AARS_V_4" totalcount="20" value="PVDPNFMTIEVFEKLRDMFPLVWVFRAINFFLKALMSNEETSVDKWTHGGEVIGVSNKSPCGAKAEFHSPAVIAWKDPDPWQYITCTIKDGKHAHYDAFF
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_V_5" taxon="AARS_V_5" totalcount="20" value="RTKPRFKMHYNQFRLRTQVPQAESYHPYSLYYFVLREDNEAAIEQNISSGNLAKMLYYSRCGKTLLLHVPIMIAFRGMEPWMFVAAAFEAGAATFWFPFY
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_V_6" taxon="AARS_V_6" totalcount="20" value="PAELGFRTESEFEKENEKFPISWIFHPMNYYWQHLLTGEHDSVDRDTKGGEAAAANKRTKCGNETCFHPPCLVAWKDMDPWENITCTISPGAEAYWHSFL
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_V_7" taxon="AARS_V_7" totalcount="20" value="QVDERFRTESEFQKENEKFPMSWIFHPMDYYYQILLTGEHDSIDQDTRGGESAAVNKRSKCGNETEFHPPAIVTWKDMDAWQNATMTITGGAQAYWHAFF
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_V_8" taxon="AARS_V_8" totalcount="20" value="RLKPRFSVHYTQFKLSSRVPEAQAYHPHSYYYFIVREDNAAAIKKNLRGGNVAVLLNQSRCRKQLLLHVPKMLAWHGMEPWMSPANSFESPTGTFWWPFY
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_V_9" taxon="AARS_V_9" totalcount="20" value="PVDPNFMTIEVFEELNDMFPLIWVFRAINFHLQAVMSNEEASVDKWTHGGEVAGVSNKSPCDAKAEFHSPAVIAWKDPDPWQSITCTLKDGKHAHYDAFF
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_V_10" taxon="AARS_V_10" totalcount="20" value="RLKPRFSVHYTQFKLSSRVPEAQAYHPYSYYYFIVREDNAAAIKQNLRGDGVAALLNQSRCRKQLLLHVPNMLAWHGMEPWMSPANRCESGTGTFWYPFY
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_E_1" taxon="AARS_E_1" totalcount="20" value="IGGQEFRVDYSSSCVDLSAYAHGSQYVRILERDVKSGQLVGVLRILQLGDAFLKTHSNLRVNKLSLYAAHDREAQEHYKEHEKLVEHSQAIIDGPMIHCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_E_2" taxon="AARS_E_2" totalcount="20" value="YYTTPPNGYFESSCIDLAVPKNGSENSKILAQELVTGSQVNLFQQILVGAWFVKEEHSIKDEMDMIVLAEEQSPAASMSHNDNLAALETSIIHGSTVQCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_E_3" taxon="AARS_E_3" totalcount="20" value="ISGKPFRVDYSNFCVDLRTWSSGKEYVRKLERDAANGPQVSLLRLLQIGELFAKPLSTLIVSRMAVLGAHDGDPQEKKPEQDKLIEKEKEIIEGSLIRCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_E_4" taxon="AARS_E_4" totalcount="20" value="LSGQPYRIDYSSFCVELRAWSNGQKHVQILEKAAANGKELSLSRLLQIGKLFSKLHSNLTLNMLPVIAAHDGEPEDFVKEHEKCVELEKGIIESSLIHCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_E_5" taxon="AARS_E_5" totalcount="20" value="HYTQPPEGYISSFCVDNQVWKNGAEYSRILKRKLVLGRQVTLFRLRIVGTWFIKPEHSLKDNMDMIVLSDEATDASTIAHNDELAALDPNIINNAKIQCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_E_6" taxon="AARS_E_6" totalcount="20" value="ISGQVFAWSYASFCIDLQAWARGAQYVRVLERDVKHGSEISLLRLLQYGNLFLKLHSNLRVNKLSCIAADDRNPHENLAESAKIVEHAQAVIDNSVINCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_E_7" taxon="AARS_E_7" totalcount="20" value="ISGQVFAVNYASFCVDLKAWARGAQYVRVLERDVKNGSKVSLLKLLQLGQLFLKQHSNLRVNKLDCIAADDREPQENIAEHAKIVECAQAIKDDSVIHCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_E_8" taxon="AARS_E_8" totalcount="20" value="YYTQPPDEYFNSFCIDLHVWKNGSENAKVLARELVTGSQVTLFGLKLVGAWFVEKEHSIKQNMDLIVLAEEQTPAASVPHNDELAALDTSIIHGSTIECC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_E_9" taxon="AARS_E_9" totalcount="20" value="LSGQPFRIDYNSFCVELRGWPNGQKHVQILEKAAANGKEVSLSRLLQVGHLFAKLHSNLILNKLPVIAAHGGEPQDFVREHEKSVGLEQGIIEGSLIHCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_E_10" taxon="AARS_E_10" totalcount="20" value="YYTQPPDEYFNSFRIDLHVWKNGSENAKILAQELVTGSQVTLFGLKLVGAWFVDKEHSIKQNMDMIVLAEEQTPTASMSHNDQLAALDTSIIHGSTIECC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_L_1" taxon="AARS_L_1" totalcount="20" value="VTKLCYAMLKAESRYRSGDFGKERYHAQVVLPCKINHKFTQFSPNSTRAVADAGGWDVPSDAESIIFSLKMFQTTEDTVHDAEAQDKDLDYKTVVNLSEQ
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_L_2" taxon="AARS_L_2" totalcount="20" value="ITKFCYEMVKADSQFAKGHYGQKRLRATRIFMYPYGTELKQFMYENTRNLCFISCEDAEHSPDAKSVSLSFVEATERVGHKQDVASRDLEHIIVAQSSNQ
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_L_3" taxon="AARS_L_3" totalcount="20" value="LTKGCYWMLKAEEKDEEGDFGKKRAVSRAVYQLRINHKISAFLPDNTRCLSDIGGWKAPDAPTEVMMAHAIIHTTEVVVHNSDTPERDLDAKLTAHLSTM
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_L_4" taxon="AARS_L_4" totalcount="20" value="MVELCYDLVRKNSKERPGDFGKRRPRASAVFELRINHKITKFSADNTKAVNDIGGWVAPDDPKEVMISQEVQDTLQVVAHKAATPDKSVDHQLVPNLSDM
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_L_5" taxon="AARS_L_5" totalcount="20" value="VNLFCSNMVNADSQFSKDDYGKSRLRAIRIFKHFQNTDVKQFMIENSRALSFIKCEEARNRPECEEVELSFIEATERVGQKHDVDARDLEHIDVTDMAQQ
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_L_6" taxon="AARS_L_6" totalcount="20" value="VTKMCVAMLKAVSRHKEGDFGKKRPKAKVVQQCKIQHKITQFSPNNTKAINDLPGSEDPSEPESIIISVKKLDNIEVVIHNLETPEKDMDHKTLANLSEH
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_L_7" taxon="AARS_L_7" totalcount="20" value="VNKMCVEMISAESRAKEGDFGKERPRAKLVQQCTINQNITQFSPNHTKAVPDAGGIEAPSNPESIIVSLKQLLTIELNVHNTETPEKEMDHKTLANITEE
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_L_8" taxon="AARS_L_8" totalcount="20" value="VTKFCYEMVKVDSQFAKGHYGQKRLHATGIFLHPVNTELKTFMYENTTALCFINCEDAPNSPECKSVALNYLEAVERVGHKQNVASRDLEHVIVAQSSQQ
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_L_9" taxon="AARS_L_9" totalcount="20" value="MVELCYDLVKYESKNRPGDFGKRRPRARAVFQLRMNHKITKFSADQTKAVNDIGGWVAPDDPEEVMISQEVQDTLQIVAHKAQTPDKSLDHQLIANLSDM
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_L_10" taxon="AARS_L_10" totalcount="20" value="VTKFCYEMVKVDSQFAKGHYGQKRLHATGIFLHPVNTELKQFMYEKTTALCFINCEDAPNSPECKSVALNYIEAVERVGHKQNVASRDLEEVIVAQSSQQ
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_R_1" taxon="AARS_R_1" totalcount="20" value="LADVWNPSPCGEAARINAFPAAEGKTSSFSTMPDPSLKLFNFMTANYVAMGWTGLDDCESLADGVCMRLSLLQPLQLLTLDSNQPETDQLVTVKWWGKRH
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_R_2" taxon="AARS_R_2" totalcount="20" value="CADIYVPNNAGASVRPDTIFDADRVVTSVNIVLNPELNLWSGMMGGKVAFTFMGIANVKTLTDYMAHQKTLDFPAQLLWPSTLEPTSDLPMSVPGWAFYK
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_R_3" taxon="AARS_R_3" totalcount="20" value="LADVWNPNAHGEAAKISSFPYADGQAPSYSTMVDPELTAWSYNGQNYLLTAWTGTHHSENVTDGLCIAKHLLEALQTILLETHQPTRDMPMGEHGWDKYR
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_R_4" taxon="AARS_R_4" totalcount="20" value="LAEVGSPNTCGEAARINSFPYTDGKTSSFSTRLDPELTLWTVMDQDYMMSGWTGLDNAEHAQDAVCKSTQLLEELQLLTLDTHQPTTNVPMGLKGWDKYK
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_R_5" taxon="AARS_R_5" totalcount="20" value="CADIYIPNHAGASFRPDTIPTGENVVAYFERLVVPVSELWSGMLTGKVSFGFVSIARCKTLSNYMCHQKALQEPAQLLWPLTSEPVRDLPMAIPGWASYS
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_R_6" taxon="AARS_R_6" totalcount="20" value="LADVWNPSPCGEAARVNGFPGAEGKTSSFSTMLDPALKLFSFMDENYVATGWTGLDNCELLADWVCMPTSLQKPLQMLNMNTHQPETDVYVGVKGGGQYK
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_R_7" taxon="AARS_R_7" totalcount="20" value="LADVWIPSPCGESARVNSFPGAEGPTSSFSTMLDPALKLFSFMDENYVATGWTGLDDCELLADWVCMPTSLLQPLQMLNMNARQPETDVLVGVKGGGKYK
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_R_8" taxon="AARS_R_8" totalcount="20" value="CAQIYVPNNAGASVRPDTIFSGDRVVTSVDAVLNKELKLWSGMMGDYVAFAFMGIANVKTITDYVAHQKTLEQAYQLLWDSTGAPTSDLPMSVEGWASYK
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_R_9" taxon="AARS_R_9" totalcount="20" value="LAEVWTPNTCGEAARINSFPYTDGKTISFSTRLDPELTLWTEMDRDYIISGWTGLDNAEHAEDAVCVSTQLLEALQLLTPDSHQPTTDVPMGLQGWDKFK
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_R_10" taxon="AARS_R_10" totalcount="20" value="CAQIYVPNNAGASVRPDTIFSGDRVVTSVDAVLNKNLKLWSGMMGGYVAFTFMGIANVKTITDYVSHQKTLDQAYQLLWDSTGAPTSDLPMSVEGWASYK
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_I_1" taxon="AARS_I_1" totalcount="20" value="LMRNGGEYQFDQSVIAEGSGGPIGEGSEIVSPSVLNSDSRAYRMPKYVESNFTKVQDAGKLSAQVLTNSSVVQEKGELGNTASTHPAVINTCVEDIFAAE
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_I_2" taxon="AARS_I_2" totalcount="20" value="LLDYMACYKLSEVLIAVGNAGHKGDSQELTTVGMLNGRRDAAAFVQLLKMRITRLCGSEEITDRLLTPKAPIKFYPTRPAETAGESVTTSWALDDDLTKN
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_I_3" taxon="AARS_I_3" totalcount="20" value="TMSDGIEYRFDPTAIAEGSTGPQGEGSEIVVNSILGSADKALRLWDLIEVGYTRVKDGDKLTKQELRTQSVIGNAASVGNSALSDSVILDVCVKDSMPAS
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_I_4" taxon="AARS_I_4" totalcount="20" value="LLFSGGEYKFDQVVIAEGSTGPRGDGSEIVSKAILGSDNKPLRFWDLVESNYTRVKEADRLTVQMLTTPATIGEEASVGNTARTESTILDLCVQDTIEAN
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_I_5" taxon="AARS_I_5" totalcount="20" value="LLDDMACYKFSETLIAVGNAGHKGNGANLVTVGMLHQRRDALRFQQIIKSSVTRLSGAERLTDRCLTPKLYIKFYNTRGANTPTKKVITEWAIGDGLTKD
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_I_6" taxon="AARS_I_6" totalcount="20" value="HMHGSEEYSFNQSIVVEGSGDPIGDGTTIISTSILGSENRAYRMPNFVDSHATNVQNAGKMSPQVLTNSPKVEEKEQVGHTASTEAEVIDTGVQDTLMAE
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_I_7" taxon="AARS_I_7" totalcount="20" value="LMRNSEEYSFNQSIVAEGSGGPIGDGSENVSTSILGSGNDAYKMPNFVESHFTKVQDAGKLSPQVLKTSPKVQEKDAVGHTASTEAEVIDTCVQDTLAAE
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_I_8" taxon="AARS_I_8" totalcount="20" value="LLDYMVCRKFSESLIAIGNAGHKGNSEELTTVGLLHGRRDAMAFNQLLKMQITRLCGVEKISDRLLTPKAPIKFYPTEAANTAGHSVITSWCIDDDLTKE
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_I_9" taxon="AARS_I_9" totalcount="20" value="LLFGGGEYRFDQVVIAAGSTGPRGEGSEIITKAILGSDSKPLLFWDLIESNYTRVKKAARLTVQMITAPATIGEEASQGNTARTEGTILEVCVQDTVAAN
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_I_10" taxon="AARS_I_10" totalcount="20" value="LLDYMACYKFSESLIAIGTAGHKGNNEELTTVGLLYGRRDAMAFNQLLKMQITRLCGADKISDRLLTPKAPIKFYPTQAAETAGQKVITSWCIDDDLSKE
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Q_1" taxon="AARS_Q_1" totalcount="20" value="RRPKYERAILNQNTYALTSAQTGVCVQKGDSKQVNYKLAYNTLNCETLGYGGHASINNFALSDVEQLKQLSEDNAKGLTYGQTLSPLQPRPATQSDTAMC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Q_2" taxon="AARS_Q_2" totalcount="20" value="REGSDKRQTLTQSTIPMHGVKTGIVCRKGGASAPSQDKPYNELNCNEVGLGGYNAIAKLSVAVAENLNSADDEYTLRQPYGEPLAFLKKAPLTNGLVTPC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Q_3" taxon="AARS_Q_3" totalcount="20" value="SRGKYKLETINDDTFTLSYAKTGTVTSNGEARQVTYDKAYKDLNCETIGLGGYHSVNNLKISDIQLLNSLSDDTAKGLAYGEALTILKQQPLTQGDCALC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Q_4" taxon="AARS_Q_4" totalcount="20" value="ERETYKQEAIAEDTFGLTSAKIGTLISGGQAKQANYDKCYKDLSCVTIGYGGYAEINDLTIEDIKELNFLDDDTAKSLPYGEALIILKPQPLTQHDSAMC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Q_5" taxon="AARS_Q_5" totalcount="20" value="REGSNKRQTLTQSEITTIGVRTVSESRKGDATYGSQDRPVHELACNEVGFGGYNSIDKWSVVVASNLNGLNEGYQLRQPYGESRAFIKKLELTDGAITNC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Q_6" taxon="AARS_Q_6" totalcount="20" value="ARRKYEREITKQSTYAFTNKQTQTCAKKGDQKQVNLRLVYDDLNCETIDYSAYDSIGNLSVSQVEELKALAADTAYGLADGETLTPLKPRPLTRGDVAMC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Q_7" taxon="AARS_Q_7" totalcount="20" value="RRRKYEREITNKTTYAFNNEQTETCAKKGDQRQVNTRLAYNDLSCDTIGYAGYDSIDNLSVTQVEELKALAADTANGLATGETLTPLKPRPLTRGDVTMC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Q_8" taxon="AARS_Q_8" totalcount="20" value="RQGSQTRQMLIQSTIPMYGVKPGIACEKGGASAPSESKPYNELSCNEVGLGGYNPIAKLRVSVADNYNSADDNYTLRQPYGEPLAFLKKAPLTNGLVTPC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Q_9" taxon="AARS_Q_9" totalcount="20" value="DRETYKQDTIQEDTFKLTSAQVGTLISDGQSKEANYDKCYKDVSCTSIGYGGYNSINDLTFEDIKELNFLDDDTSKGTAYGEALIILKPQPLTQGDSEMC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Q_10" taxon="AARS_Q_10" totalcount="20" value="RQGSQTRQMLIQSTIPMHGVKPGIQCRKGGASAPSQSKPYKELSCNEVGLGGYNAIAKLTVSVADNYNSADDEYTLRQPYGEPLAFLKKAPLTNGLVTPC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_C_1" taxon="AARS_C_1" totalcount="20" value="FVAYLDEEISIEYLKKMNAPANTPVNIRETLMNVLPTQKEIDLVGVMTAIELMYAAGSIGTVEKYMVERYLFPTWDNLAAEVAVNNLSCAKQCAGGCAEA
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_C_2" taxon="AARS_C_2" totalcount="20" value="HGGFLDEEVGSSIPVKIQSLQKAYVDQLGVMMKGLPGKKVLQVSGISLAHPLLYGSKIANVLGPYFVQKYVTEEWTSVLVWVLRDEVSCWKSCGSMLNES
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_C_3" taxon="AARS_C_3" totalcount="20" value="LVRYIDEEIFIETALKMTANAKSPTNVSETLIQVIPTQTAIDLISICSSMPLMFAEGVSSMINIYFIQRYLMNAWETITANVAVDNLTCWKQAASNTAES
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_C_4" taxon="AARS_C_4" totalcount="20" value="MVTILNEEVFIETVPKMTAPLNSPVNESETLLQRIPTQKSIDLIGICQAIPVLYGEGSAAIIEPYFPQRYLMPSWESLTARALVDNLTCYAQCGAGCPES
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_C_5" taxon="AARS_C_5" totalcount="20" value="HGGFLDREAESNLPIKIQAPAKAGVKQSGVLMKGLKGQAALRVCGFSLAHPLTYGFKIANQLGPYFAQRHTAIEWTALLMWVIRGEVTCFKNCGSVCNEN
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_C_6" taxon="AARS_C_6" totalcount="20" value="YVAYHTGEIFIEYLKKMTAPERTPVNVSETIMNNIPTQRGVDLIGTMIAIPLMYNDGSGATLEPYFVQRYLFPPWDDVKAEVQVENLACWKQHGGGCAEA
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_C_7" taxon="AARS_C_7" totalcount="20" value="YVAYHEGEILVEYLKKMTYPARTPVKVSETLMNNIPTQRGIDLIGHMIAIPVMYAEGSGATLEPYFVARYLFPTWENVTAEVAVENLECWKQHGYGCAEA
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_C_8" taxon="AARS_C_8" totalcount="20" value="HGGFLDEEVGSSIPVHIQALQKASVDQLAVMMKGLPGKKILRASGLSLAHPMLYGSKIANVLGPYFIQDYIVIEWTPLLMWVLREEVPCWKSCGSALNES
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_C_9" taxon="AARS_C_9" totalcount="20" value="MVTILDEELFVETVPKMTAPTNAPVGVSGTLMQRVPTQKSIDLIGICSAIPVLYGEGSAAIIESYFPKRYLMPTWANLTARNLVDNLTCYGQCGAGCPES
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_C_10" taxon="AARS_C_10" totalcount="20" value="HGGFLDEEVGSSIPVHIQALQKASVTQLAVMMNGLPGKKILRASGLFLAHPMLYGSKIANVLGPYFVQDFITIEWTPLVMWVLREEVTCWKSCGSFLNES
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Y_1" taxon="AARS_Y_1" totalcount="20" value="CLGHLGRVFSGPIDVFEPSPKGSQSDTLDLIFKILSAGPDGAKNSKSQYILFRLFATSTRCGPDELLDASYAISWEGLVTHELGQDLATGRTVVRHRSTY
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Y_2" taxon="AARS_Y_2" totalcount="20" value="CFPNAKDMYAVSTGLMQPNPLIQIFDSLAALYKLLVKNEDHRNGCDFHSMPISFYERTLAAGPDKVLSLMYAISWIGLHVYDSVDQRAVQQTMNLRKNKN
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Y_3" taxon="AARS_Y_3" totalcount="20" value="FFEKLGRRFKSPVDVFEPSPNGGISDKQDALYILLCTGQEDAKRKDYHLVPIKYRDTSTKCGPNHLLETSYSVLWEALLTHEAVTKCSWGHTVIWEKSDY
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Y_4" taxon="AARS_Y_4" totalcount="20" value="CFQHLGRVWKSPVDVFKPSPDGGIIEKSEALYKLMMEGQDGAKESSYHAVPSEFYEEITKCGPDSLADTSYSIAWEGGLGTEASSKLTFEHTVVYFKNKY
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Y_5" taxon="AARS_Y_5" totalcount="20" value="CFDVEKLMSGASTDLMEPNPNIQIVEKIVALFKVLVGEEEHKGSATYHTIPLRFYERTFAAGPGKLTSMTFAEKFNGLSVIDTLDKRSLTQTIQLRKNKN
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Y_6" taxon="AARS_Y_6" totalcount="20" value="CFDHLGRVFTGPVVVFEPSPNGKISETLDALFKILSTGQDGAEKAEFHAMLLKLYATWTRCGPEDLLDASLSLSWEGLLTHEAVQDLAFRNTVVYAQHKY
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Y_7" taxon="AARS_Y_7" totalcount="20" value="CFDHLGRVFTNPVVVFEPSPNGKISEAIDALFEILSTGEDGAEKAEFHAMLLKLYATSTRCGPDDLLDASYSLSWEGLLTHEAVQDLVFENTVVYHQNKA
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Y_8" taxon="AARS_Y_8" totalcount="20" value="CFDNAKEMYAASTGLMQPNALIQIVDSLAGLYKILVKEEDHRGSLKFHNIPISFYERKLAAGPEKVLSLMYAISWTGLHVYDEVDERALQQTMNLRRNKN
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Y_9" taxon="AARS_Y_9" totalcount="20" value="CFQHLGRVFKSPVDVFEPSLDTGILEKLAAHYKLMVEVQDGAKDAAYHAVEEEFYEEITKCGPDSLADTSYSIAWEGRQGKEASRKWSFEHTVVYFSNKY
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_Y_10" taxon="AARS_Y_10" totalcount="20" value="CFDNAKEMYAASTGLMQPNALIQVVDSLAGLYKILVKEKNHRGGLKFHSIPISFYERKLAAGPEKVLSLMYAISFTGLHVYDSVDERALQQTMNLRRNKN
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_M_1" taxon="AARS_M_1" totalcount="20" value="QLYTSASYIGQDGDVTQENLADWYIDYSFLVVGKYREDVCKDSHRRWARDTRTPWGNSVNLADGRCLNKELVEVGDQVVSSDGMAAQTIGADAPKKFPYM
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_M_2" taxon="AARS_M_2" totalcount="20" value="LIDLATRYTQDDGDHAKSGSGEWYINYTFFVVAIFREPESKGMMCVYVLKTYSQRGGTQTLAEGKWMYRGVIEGAEAHITFQGLVGRAEDRSKKFQHESM
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_M_3" taxon="AARS_M_3" totalcount="20" value="TLDCTTNYIGDNGEAPQDKIADPYINYAAMAKGRYMEKLCENLLRRWVRETYRHWGHTSDKVEGECMKKGLVDKGDRMLISDGMVAGSVGRAPPKKQPYT
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_M_4" taxon="AARS_M_4" totalcount="20" value="TLPTKASYAGAAGDRAQQNLADPFITYSFLKEGKYKEDLCKKRLRRWLREKYRHWGDTSGLADGKCMKPGLVDKGDANVISDGMVASTVRKNPPKKLPWM
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_M_5" taxon="AARS_M_5" totalcount="20" value="LLDVTTQYTQGNGDHARDGTGEWVINYAFFVVIIFKEPLSKGMLRIYIEKLYLEYGGSQTFGDGRWMYRGAIERIDDHVAFQGMMGKSEDRSKKYEHKYI
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_M_6" taxon="AARS_M_6" totalcount="20" value="QLTSTVAYIGSDGDVAQENLVDWYIDYSFLIMGKYKKDLCQNKLQRLVRAPYRHDGNSSYLLDGECMNKGLVEKGHNIVIAGVMAALTVGADPPKTFPYN
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_M_7" taxon="AARS_M_7" totalcount="20" value="QCSSTVGYIGEDGDVAQENLANWYIDYSFLIMGKYKEDLCLNKLRRWVRESYRHWGNSSNLLDGDCMSKGLVEQGDRIVIEDGLAAQTVGADPPKTFPYT
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_M_8" taxon="AARS_M_8" totalcount="20" value="MVDLAKRYLQEDGDHAKNGFGEWYTNYTFYFVLIFREPESKGMMRCYVLSTYSQRGGMQTLAEGKWMYRGVIESASAHITFQGLVGAAEDRSKKFAHPSM
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_M_9" taxon="AARS_M_9" totalcount="20" value="TLETKASYIGAAGDRAKKNLADPFINYSFLKEGKYKEDLCKKRLRRWLREKYRHWGYTSDLADGKCMKPGLVDTGDADVISDGMVASTVRRNPPKKLPWL
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_M_10" taxon="AARS_M_10" totalcount="20" value="MVDLATRYLQEDGDPAKNGFGEWYTNYPFFVVLIFREPESKGMMRVYVLSTYSQRGGMQTLAEGKWMYRGVIESASAHITFQGLVGAAEDRSRKFAHPSM
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_W_1" taxon="AARS_W_1" totalcount="20" value="LDQPTDNKRAKTKCLGMQNATDSTNSRTVIGVTATANNYLATALVYVVEFLSTGLNFNPGVSLRPYTKKQQGLLMDCLTDYDKPLRVEWIVVVRVIAQCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_W_2" taxon="AARS_W_2" totalcount="20" value="EGQEDLAEMGETEVTTIGHTQNRYDTVIILRCWPLTNTFITMALLSTSFCRTDGKYLNMTYSTRTGPDITEGHTINKIAEFDYLTKAAWFIITRAYLQCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_W_3" taxon="AARS_W_3" totalcount="20" value="LPPPTQRDRGKTSCLVMQMPTDVTDGNEILCNDPKANRYLAQILLYVIEFISSGVNFNPSVTLRPYSKKTEGLAMDGLIDTDEPVRIEWATITLVVMDCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_W_4" taxon="AARS_W_4" totalcount="20" value="LRQPTDRDRGASKCLAFQMPADVTDDNEILCPDRTANLYLADVLIYVVKILSAGLTFTPGVSLRPYNYKTEGLSMDTLADIDKPVRVEWFVVTRVILNCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_W_5" taxon="AARS_W_5" totalcount="20" value="LKEEDAAEFGDTEPIAVAHTQAMNDTVVVPRNWALTNTFITMVYLYVTYLRIDGKYFNMAYKALTGPEMTDGDTVDTLPEFGYLYRIAWFILTKGWMQFC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_W_6" taxon="AARS_W_6" totalcount="20" value="LKLPTDAENGKTNCLAMQKSTAVTNTRDVIGKTPTANRYLAMALVSIVKFLSTGLSFGPDGQLQKCSEKTEHLAMDKLLDFAKPVRVEWFAIERGITYCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_W_7" taxon="AARS_W_7" totalcount="20" value="LKQGTDANRKKTNCLAMEKSTASTTTREVISVTATSTRYLAMALVYVVKFLSTGLKFDPGVSLQKYTEKTENLAMDSLVDFDKPVRVEWFLVTRGITQCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_W_8" taxon="AARS_W_8" totalcount="20" value="EGKEDLAEVGETEVSTIGHTQNMYDTVIILECWPITNTFITMVLLSTSFLRTDGKYLNMTYSIRTGPEITDGRTIESLAEFDYLTKVVWFIITRAYMQCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_W_9" taxon="AARS_W_9" totalcount="20" value="LRQPTDRDRGRSNCLAFQMPADVTDDNEILCPDPKTNLYLADVLIYVVAILSAGLSFTPSVSLRPYFYKTEGLSMDTLADIEKPVRAEWFVVTHVILNCC
-"/>
+----------------------------------------------------------------------------------------------------"/>
           <sequence id="seq_AARS_W_10" taxon="AARS_W_10" totalcount="20" value="EGQEALAEVGETEVSTIGHTQNMYDTVIILECWPITNTFITMVLLSSSFLRTDGKYLNMTYSTRTGPKITDGRTIDSLAEFDYLTKVVWFIITRAYMQCC
+----------------------------------------------------------------------------------------------------"/>
+          <sequence id="seq_AARS_G_1" taxon="AARS_G_1" totalcount="20" value="----------------------------------------------------------------------------------------------------QWQNVAFVITVIVFIVFKNIPNMIYAHQVESEMFDAKIKCVLDRVTKAAVAVVNKSYIEDDSDCEAKEITSPIQVENGRSYATELRVLDRNFSTALVIVG
 "/>
-          <sequence id="seq_AARS_G_1" taxon="AARS_G_1" totalcount="20" value="QWQNVAFVITVIVFIVFKNIPNMIYAHQVESEMFDAKIKCVLDRVTKAAVAVVNKSYIEDDSDCEAKEITSPIQVENGRSYATELRVLDRNFSTALVIVG
+          <sequence id="seq_AARS_G_2" taxon="AARS_G_2" totalcount="20" value="----------------------------------------------------------------------------------------------------TWSSLTAAVLVLLFSVFEANAAKYYSHSCDFDMFAGKITGMVECVEKGAIAVAFRTKVKNTSGCAGSKRSTPENIGGGMSFWSEHYIKDAITWELRGTLG
 "/>
-          <sequence id="seq_AARS_G_2" taxon="AARS_G_2" totalcount="20" value="TWSSLTAAVLVLLFSVFEANAAKYYSHSCDFDMFAGKITGMVECVEKGAIAVAFRTKVKNTSGCAGSKRSTPENIGGGMSFWSEHYIKDAITWELRGTLG
+          <sequence id="seq_AARS_G_3" taxon="AARS_G_3" totalcount="20" value="----------------------------------------------------------------------------------------------------QHDNVAFVVIINLYTVFEGVPNLIYAKQCTFDLVEGKITCVVDRVVNMVIVILEKTSIEDVTNCQVKKIDSPVKFENGRSYNFALKFHERNFSTGLVVNG
 "/>
-          <sequence id="seq_AARS_G_3" taxon="AARS_G_3" totalcount="20" value="QHDNVAFVVIINLYTVFEGVPNLIYAKQCTFDLVEGKITCVVDRVVNMVIVILEKTSIEDVTNCQVKKIDSPVKFENGRSYNFALKFHERNFSTGLVVNG
+          <sequence id="seq_AARS_G_4" taxon="AARS_G_4" totalcount="20" value="----------------------------------------------------------------------------------------------------QWDNVNFVVVIQSYTIFKAVPNMIYVHNCDYDMFEGIIVCAVDKVSKAAISVLNKSTVEDVSDCQAKEITSAAHIENGRAYNTELKCKERNYSFNLVVIG
 "/>
-          <sequence id="seq_AARS_G_4" taxon="AARS_G_4" totalcount="20" value="QWDNVNFVVVIQSYTIFKAVPNMIYVHNCDYDMFEGIIVCAVDKVSKAAISVLNKSTVEDVSDCQAKEITSAAHIENGRAYNTELKCKERNYSFNLVVIG
+          <sequence id="seq_AARS_G_5" taxon="AARS_G_5" totalcount="20" value="----------------------------------------------------------------------------------------------------TWSELIGSVLVLLFTIFKARSKKFYVHRCDFDLFEGKVNALIDCVPKDALAVLFRSKVQNISDCHGSRISMPVHIEGGRAFWSQNKIKEAVAWTSRGILG
 "/>
-          <sequence id="seq_AARS_G_5" taxon="AARS_G_5" totalcount="20" value="TWSELIGSVLVLLFTIFKARSKKFYVHRCDFDLFEGKVNALIDCVPKDALAVLFRSKVQNISDCHGSRISMPVHIEGGRAFWSQNKIKEAVAWTSRGILG
+          <sequence id="seq_AARS_G_6" taxon="AARS_G_6" totalcount="20" value="----------------------------------------------------------------------------------------------------DLDNVAYVVVVILFTVFKNVPNMVYSHQCDYEMFEQKVTVVVDRVTRAAIAVLNKSHTEDIWDCEAKEITSPIHIETGRAYSVERRVGERNFQTGVAIVG
 "/>
-          <sequence id="seq_AARS_G_6" taxon="AARS_G_6" totalcount="20" value="DLDNVAYVVVVILFTVFKNVPNMVYSHQCDYEMFEQKVTVVVDRVTRAAIAVLNKSHTEDIWDCEAKEITSPIHIETGRAYSVERRVGERNFQTGVAIVG
+          <sequence id="seq_AARS_G_7" taxon="AARS_G_7" totalcount="20" value="----------------------------------------------------------------------------------------------------DWDNVAYVVVWLLFTVFKNVPNMIYPHQCDYERFDGKLTVVVERITRAAIAVLNKSHSEDIWDCEAQEITGPIHIENGRAYSTESRTEERNFQTGIVIVG
 "/>
-          <sequence id="seq_AARS_G_7" taxon="AARS_G_7" totalcount="20" value="DWDNVAYVVVWLLFTVFKNVPNMIYPHQCDYERFDGKLTVVVERITRAAIAVLNKSHSEDIWDCEAQEITGPIHIENGRAYSTESRTEERNFQTGIVIVG
+          <sequence id="seq_AARS_G_8" taxon="AARS_G_8" totalcount="20" value="----------------------------------------------------------------------------------------------------TWSSLTGEVLVLLFSVFEATTATYFSHRCDFDMFAGKMNSLVECITKGAIAVAFRTKVQNISDNHDSKRSTFEHIEGGLAFWSEHNIKDAITWELRGILG
 "/>
-          <sequence id="seq_AARS_G_8" taxon="AARS_G_8" totalcount="20" value="TWSSLTGEVLVLLFSVFEATTATYFSHRCDFDMFAGKMNSLVECITKGAIAVAFRTKVQNISDNHDSKRSTFEHIEGGLAFWSEHNIKDAITWELRGILG
+          <sequence id="seq_AARS_G_9" taxon="AARS_G_9" totalcount="20" value="----------------------------------------------------------------------------------------------------QWDNLNFVVVINSNNIFKNVPNMIYVHKCDYDMFEGIVVCVVDKVKKAAIAVLNKSTVDDVSDCQAKDITSAAHIENGRAYNTELTCKERSYSTNLTVIG
 "/>
-          <sequence id="seq_AARS_G_9" taxon="AARS_G_9" totalcount="20" value="QWDNLNFVVVINSNNIFKNVPNMIYVHKCDYDMFEGIVVCVVDKVKKAAIAVLNKSTVDDVSDCQAKDITSAAHIENGRAYNTELTCKERSYSTNLTVIG
+          <sequence id="seq_AARS_G_10" taxon="AARS_G_10" totalcount="20" value="----------------------------------------------------------------------------------------------------TWSSLAGAVLVLLFSVFEANTATYFSHRCDFDMFAGKINSLVECITKGAIAVAFRTKIQNISDCHDSKRSTPEHIEGGLAFWSEHNIKDAIEWELRGTLG
 "/>
-          <sequence id="seq_AARS_G_10" taxon="AARS_G_10" totalcount="20" value="TWSSLAGAVLVLLFSVFEANTATYFSHRCDFDMFAGKINSLVECITKGAIAVAFRTKIQNISDCHDSKRSTPEHIEGGLAFWSEHNIKDAIEWELRGTLG
+          <sequence id="seq_AARS_A_1" taxon="AARS_A_1" totalcount="20" value="----------------------------------------------------------------------------------------------------GGASTPVAALEAANHRSGSSAPGSSIQKLGDAVGDHTDLLCFLQVREEVHGVLDRGIGDRDVNTNTADLQERYLFAGVADYSETEKLDSKRKVFQGKAMQ
 "/>
-          <sequence id="seq_AARS_A_1" taxon="AARS_A_1" totalcount="20" value="GGASTPVAALEAANHRSGSSAPGSSIQKLGDAVGDHTDLLCFLQVREEVHGVLDRGIGDRDVNTNTADLQERYLFAGVADYSETEKLDSKRKVFQGKAMQ
+          <sequence id="seq_AARS_A_2" taxon="AARS_A_2" totalcount="20" value="----------------------------------------------------------------------------------------------------GEDSVAAGHLQRFKRENVATHPVPTVKSLAGNGGIGDSFLCFLNAQIKQSGEMHRNNGGHRREKNDPNIHQKYMIAGVKNYFGGEETMARQNDFHSDRLS
 "/>
-          <sequence id="seq_AARS_A_2" taxon="AARS_A_2" totalcount="20" value="GEDSVAAGHLQRFKRENVATHPVPTVKSLAGNGGIGDSFLCFLNAQIKQSGEMHRNNGGHRREKNDPNIHQKYMIAGVKNYFGGEETMARQNDFHSDRLS
+          <sequence id="seq_AARS_A_3" taxon="AARS_A_3" totalcount="20" value="----------------------------------------------------------------------------------------------------GGASVAVQSLAVADHQSGSSAPAGSAHDMEAGSGRYVSYFCFLQLRGQVHGRLDMVFGDIDVYTNTLYLKQRSLFCGVETVNGKHKIDVSRKVFKGKPMD
 "/>
-          <sequence id="seq_AARS_A_3" taxon="AARS_A_3" totalcount="20" value="GGASVAVQSLAVADHQSGSSAPAGSAHDMEAGSGRYVSYFCFLQLRGQVHGRLDMVFGDIDVYTNTLYLKQRSLFCGVETVNGKHKIDVSRKVFKGKPMD
+          <sequence id="seq_AARS_A_4" taxon="AARS_A_4" totalcount="20" value="----------------------------------------------------------------------------------------------------GGASVAVSSIEDADQRSASKAPASNVHNMSDGTGEHVSYYCFLRIRPQIHGDLELGFGSLNVATQTAILENHFLFCGMRTYDGNHGIDEERKVFQGKSLD
 "/>
-          <sequence id="seq_AARS_A_4" taxon="AARS_A_4" totalcount="20" value="GGASVAVSSIEDADQRSASKAPASNVHNMSDGTGEHVSYYCFLRIRPQIHGDLELGFGSLNVATQTAILENHFLFCGMRTYDGNHGIDEERKVFQGKSLD
+          <sequence id="seq_AARS_A_5" taxon="AARS_A_5" totalcount="20" value="----------------------------------------------------------------------------------------------------GEDNVSDGHLEKGQREMAETHPNSTVKGLGGNPGINDSLVCIMNCQLNKSGDMHRGNGGHDMSKDDPNIDQKYMLTGSKSYAGGEQSVARQDDFDSEPLS
 "/>
-          <sequence id="seq_AARS_A_5" taxon="AARS_A_5" totalcount="20" value="GEDNVSDGHLEKGQREMAETHPNSTVKGLGGNPGINDSLVCIMNCQLNKSGDMHRGNGGHDMSKDDPNIDQKYMLTGSKSYAGGEQSVARQDDFDSEPLS
+          <sequence id="seq_AARS_A_6" taxon="AARS_A_6" totalcount="20" value="----------------------------------------------------------------------------------------------------GGSSVPVKHLEMADQQAGSAAPDSSLRKMGDGTGDAVDYLCFLKVRDQVHVELNRGFGDTDISTNTADLQERSLLAGIRTYAGTAKLEAPRKTFRGKVMD
 "/>
-          <sequence id="seq_AARS_A_6" taxon="AARS_A_6" totalcount="20" value="GGSSVPVKHLEMADQQAGSAAPDSSLRKMGDGTGDAVDYLCFLKVRDQVHVELNRGFGDTDISTNTADLQERSLLAGIRTYAGTAKLEAPRKTFRGKVMD
+          <sequence id="seq_AARS_A_7" taxon="AARS_A_7" totalcount="20" value="----------------------------------------------------------------------------------------------------GGASVPVKHLEMADHQAGVASPDSSLHKIGDYTGDHVDYLCFLQVRKQVHVPLNRGFGGTDVSTNGADLQERYRFAAIRTYAGTAKLDATRKTFRGKPMD
 "/>
-          <sequence id="seq_AARS_A_7" taxon="AARS_A_7" totalcount="20" value="GGASVPVKHLEMADHQAGVASPDSSLHKIGDYTGDHVDYLCFLQVRKQVHVPLNRGFGGTDVSTNGADLQERYRFAAIRTYAGTAKLDATRKTFRGKPMD
+          <sequence id="seq_AARS_A_8" taxon="AARS_A_8" totalcount="20" value="----------------------------------------------------------------------------------------------------GEDSVRAGHLQRYQRENMSTHPAPVVKSTGGNGGIDDSFLCFLNAQIKQTGEMHRNNGGHERSKNDPNIHRKYMIAGIKNYFGGEETVAAQNDFHSDPLS
 "/>
-          <sequence id="seq_AARS_A_8" taxon="AARS_A_8" totalcount="20" value="GEDSVRAGHLQRYQRENMSTHPAPVVKSTGGNGGIDDSFLCFLNAQIKQTGEMHRNNGGHERSKNDPNIHRKYMIAGIKNYFGGEETVAAQNDFHSDPLS
+          <sequence id="seq_AARS_A_9" taxon="AARS_A_9" totalcount="20" value="----------------------------------------------------------------------------------------------------GGASVAVSSIKGADQQSASSAPASNVHNLSDGTGEHVSIYCYIRVRPQIHGDLDLGFGDLNVGTQTAIIENHFVFCGMRTYDGNHGIDEERKVFQGKSLD
 "/>
-          <sequence id="seq_AARS_A_9" taxon="AARS_A_9" totalcount="20" value="GGASVAVSSIKGADQQSASSAPASNVHNLSDGTGEHVSIYCYIRVRPQIHGDLDLGFGDLNVGTQTAIIENHFVFCGMRTYDGNHGIDEERKVFQGKSLD
+          <sequence id="seq_AARS_A_10" taxon="AARS_A_10" totalcount="20" value="----------------------------------------------------------------------------------------------------GEDSVRAGHLQRYQRENMSTHPAPVMKSLGGNGGIGDSFLCFLNAQIKQTGEMHRNNGGHERSKNDPNIHRKYAIAGIKNYFGGEEKTAAQNDFHADPLS
 "/>
-          <sequence id="seq_AARS_A_10" taxon="AARS_A_10" totalcount="20" value="GEDSVRAGHLQRYQRENMSTHPAPVMKSLGGNGGIGDSFLCFLNAQIKQTGEMHRNNGGHERSKNDPNIHRKYAIAGIKNYFGGEEKTAAQNDFHADPLS
+          <sequence id="seq_AARS_D_1" taxon="AARS_D_1" totalcount="20" value="----------------------------------------------------------------------------------------------------VWVEARITATPVLTAKKKPSAAAQAVIDTLKNRDWKLLDGLILSYNGIIGVLCLAPQVQTAAELPPRFLADRPQLDSPRENNDDVYIKVNQASVIVGSIG
 "/>
-          <sequence id="seq_AARS_D_1" taxon="AARS_D_1" totalcount="20" value="VWVEARITATPVLTAKKKPSAAAQAVIDTLKNRDWKLLDGLILSYNGIIGVLCLAPQVQTAAELPPRFLADRPQLDSPRENNDDVYIKVNQASVIVGSIG
+          <sequence id="seq_AARS_D_2" taxon="AARS_D_2" totalcount="20" value="----------------------------------------------------------------------------------------------------AWKQVLAEDESLLASKKAPGDSKRALLQSMHTAEWLLLDGVILSYMGAIKSIELHTRASTKKNLPERIIVDRARFGLPRDKPAAVYVDRTKGDGRVDGLY
 "/>
-          <sequence id="seq_AARS_D_2" taxon="AARS_D_2" totalcount="20" value="AWKQVLAEDESLLASKKAPGDSKRALLQSMHTAEWLLLDGVILSYMGAIKSIELHTRASTKKNLPERIIVDRARFGLPRDKPAAVYVDRTKGDGRVDGLY
+          <sequence id="seq_AARS_D_3" taxon="AARS_D_3" totalcount="20" value="----------------------------------------------------------------------------------------------------PWRTARVTATNVITSKRTPAAAADELIETLESRDWRFQKGKILTYNGVVTTMCLCGRVQTKGNMDDRLEADNVRLENPREAADAVYIKQAMSLVDVDDTG
 "/>
-          <sequence id="seq_AARS_D_3" taxon="AARS_D_3" totalcount="20" value="PWRTARVTATNVITSKRTPAAAADELIETLESRDWRFQKGKILTYNGVVTTMCLCGRVQTKGNMDDRLEADNVRLENPREAADAVYIKQAMSLVDVDDTG
+          <sequence id="seq_AARS_D_4" taxon="AARS_D_4" totalcount="20" value="----------------------------------------------------------------------------------------------------PWREARVSAATTLTAKKTPAEAVREFVPTLPDRDWRLLDGLITSYNGVVTTLCLRPCLQTMTGLPSRLTADRVSVEAVRESADSVYIRQLQALVDVLSVG
 "/>
-          <sequence id="seq_AARS_D_4" taxon="AARS_D_4" totalcount="20" value="PWREARVSAATTLTAKKTPAEAVREFVPTLPDRDWRLLDGLITSYNGVVTTLCLRPCLQTMTGLPSRLTADRVSVEAVRESADSVYIRQLQALVDVLSVG
+          <sequence id="seq_AARS_D_5" taxon="AARS_D_5" totalcount="20" value="----------------------------------------------------------------------------------------------------PWRQVMASDDTLLTSKKIPGEAERAYIMSMDPAPWLLLESLILSYMGALKTIQLHPGVATTKNLPERVMHDRVAFGNPRDQPEAVYVHKTKANGLFQALH
 "/>
-          <sequence id="seq_AARS_D_5" taxon="AARS_D_5" totalcount="20" value="PWRQVMASDDTLLTSKKIPGEAERAYIMSMDPAPWLLLESLILSYMGALKTIQLHPGVATTKNLPERVMHDRVAFGNPRDQPEAVYVHKTKANGLFQALH
+          <sequence id="seq_AARS_D_6" taxon="AARS_D_6" totalcount="20" value="----------------------------------------------------------------------------------------------------IWKSARVAATKVLSAKTTIAAAAIALMETLKANEWRLLDGLILSYQGIVATMCDSPRVQTAAENPSRLLADRIQLDNPRENAEAVYIIKDPASVVCDAVG
 "/>
-          <sequence id="seq_AARS_D_6" taxon="AARS_D_6" totalcount="20" value="IWKSARVAATKVLSAKTTIAAAAIALMETLKANEWRLLDGLILSYQGIVATMCDSPRVQTAAENPSRLLADRIQLDNPRENAEAVYIIKDPASVVCDAVG
+          <sequence id="seq_AARS_D_7" taxon="AARS_D_7" totalcount="20" value="----------------------------------------------------------------------------------------------------VWHSARVTATKVLTAKTTPEAAALALIETLKNNEWRLLDGLILSYQGIVATMCDAPKVQIAAEKPSRLLADRIQLDNPHENSEVVHVEQDSASVVADAVG
 "/>
-          <sequence id="seq_AARS_D_7" taxon="AARS_D_7" totalcount="20" value="VWHSARVTATKVLTAKTTPEAAALALIETLKNNEWRLLDGLILSYQGIVATMCDAPKVQIAAEKPSRLLADRIQLDNPHENSEVVHVEQDSASVVADAVG
+          <sequence id="seq_AARS_D_8" taxon="AARS_D_8" totalcount="20" value="----------------------------------------------------------------------------------------------------PWKMDLAEDISLLANKKAPGDSQRALLKSMHMGDWPLLDGVILSYMGAVKSIELHPSMATKKNLPEQMIIDRERFGKPREKPESVYVERTVGNGRVDGLS
 "/>
-          <sequence id="seq_AARS_D_8" taxon="AARS_D_8" totalcount="20" value="PWKMDLAEDISLLANKKAPGDSQRALLKSMHMGDWPLLDGVILSYMGAVKSIELHPSMATKKNLPEQMIIDRERFGKPREKPESVYVERTVGNGRVDGLS
+          <sequence id="seq_AARS_D_9" taxon="AARS_D_9" totalcount="20" value="----------------------------------------------------------------------------------------------------PWREARVTAATTLNAKKTPAAAVRELIETLPDRDWKLLDGLITSYNGVVVTMCLRPRLQTQTNLPSRLTASRVSVEAVRESADSVYIRAAMALVDVDSVG
 "/>
-          <sequence id="seq_AARS_D_9" taxon="AARS_D_9" totalcount="20" value="PWREARVTAATTLNAKKTPAAAVRELIETLPDRDWKLLDGLITSYNGVVVTMCLRPRLQTQTNLPSRLTASRVSVEAVRESADSVYIRAAMALVDVDSVG
+          <sequence id="seq_AARS_D_10" taxon="AARS_D_10" totalcount="20" value="----------------------------------------------------------------------------------------------------PWKMDLAEDASLLASKKAPGDSKRALLKSMHTADWPLLNGVILSYMGAVKSVELHPSMATKKNLPEQMIIDRERFGKPREKPESVYVDRTVGNGRVDGLS
 "/>
-          <sequence id="seq_AARS_D_10" taxon="AARS_D_10" totalcount="20" value="PWKMDLAEDASLLASKKAPGDSKRALLKSMHTADWPLLNGVILSYMGAVKSVELHPSMATKKNLPEQMIIDRERFGKPREKPESVYVDRTVGNGRVDGLS
+          <sequence id="seq_AARS_P_1" taxon="AARS_P_1" totalcount="20" value="----------------------------------------------------------------------------------------------------HEDSASVQGLQNAYVRVYIHDTFSKAGPNTALQVGIFFYAEELDLNNSGDGALSRYQYSIIVPLTSLFSAARYEYQASSFYSFDRYVHKAGKPGYGISTA
 "/>
-          <sequence id="seq_AARS_P_1" taxon="AARS_P_1" totalcount="20" value="HEDSASVQGLQNAYVRVYIHDTFSKAGPNTALQVGIFFYAEELDLNNSGDGALSRYQYSIIVPLTSLFSAARYEYQASSFYSFDRYVHKAGKPGYGISTA
+          <sequence id="seq_AARS_P_2" taxon="AARS_P_2" totalcount="20" value="----------------------------------------------------------------------------------------------------HHEALAVKMAITQGTENYTRNTDIGLNPLTGLRTQMASFSCPVDDQETDKAPLARNGYDVQVPVPTRDETRTYTKDAKKFYELDSTVHRKYKPKEPASLA
 "/>
-          <sequence id="seq_AARS_P_2" taxon="AARS_P_2" totalcount="20" value="HHEALAVKMAITQGTENYTRNTDIGLNPLTGLRTQMASFSCPVDDQETDKAPLARNGYDVQVPVPTRDETRTYTKDAKKFYELDSTVHRKYKPKEPASLA
+          <sequence id="seq_AARS_P_3" taxon="AARS_P_3" totalcount="20" value="----------------------------------------------------------------------------------------------------HEATRTIQGLQKDPFRVYDDATYSKSASLEDIQTGQFCDVSSLDLKDSGGQGLPRYQCDVIVPLNTMDAAASYVAQAVNYYEIDEYVHKASEASQGIEPT
 "/>
-          <sequence id="seq_AARS_P_3" taxon="AARS_P_3" totalcount="20" value="HEATRTIQGLQKDPFRVYDDATYSKSASLEDIQTGQFCDVSSLDLKDSGGQGLPRYQCDVIVPLNTMDAAASYVAQAVNYYEIDEYVHKASEASQGIEPT
+          <sequence id="seq_AARS_P_4" taxon="AARS_P_4" totalcount="20" value="----------------------------------------------------------------------------------------------------HEASEAVQGLLKAPFRVSNQSTYSHSGNLTDLQIGLFCEVSELELTNSGEGALSRYHYTVTVPLIMQDNAARATIQDAKFWAFDEYIHKASEPGKGISPT
 "/>
-          <sequence id="seq_AARS_P_4" taxon="AARS_P_4" totalcount="20" value="HEASEAVQGLLKAPFRVSNQSTYSHSGNLTDLQIGLFCEVSELELTNSGEGALSRYHYTVTVPLIMQDNAARATIQDAKFWAFDEYIHKASEPGKGISPT
+          <sequence id="seq_AARS_P_5" taxon="AARS_P_5" totalcount="20" value="----------------------------------------------------------------------------------------------------HQEALDVKSVVTRGTRIYHRETDMELGPLTGQRVGMATFKCPVDTSEDTEADLARWGFDVQVPMPTRDSTRTYTKDAAKFYEMDSEIDKRYYPLEPAALT
 "/>
-          <sequence id="seq_AARS_P_5" taxon="AARS_P_5" totalcount="20" value="HQEALDVKSVVTRGTRIYHRETDMELGPLTGQRVGMATFKCPVDTSEDTEADLARWGFDVQVPMPTRDSTRTYTKDAAKFYEMDSEIDKRYYPLEPAALT
+          <sequence id="seq_AARS_P_6" taxon="AARS_P_6" totalcount="20" value="----------------------------------------------------------------------------------------------------HENSASVQELQNASVRVYSHDSFAKTGPETDLMIGLFFYAMEIDLNNTGDGALTRSAYSVIVPLTARFAAERYIYEAPNFYSFDTYVQKAEQPNFTISSS
 "/>
-          <sequence id="seq_AARS_P_6" taxon="AARS_P_6" totalcount="20" value="HENSASVQELQNASVRVYSHDSFAKTGPETDLMIGLFFYAMEIDLNNTGDGALTRSAYSVIVPLTARFAAERYIYEAPNFYSFDTYVQKAEQPNFTISSS
+          <sequence id="seq_AARS_P_7" taxon="AARS_P_7" totalcount="20" value="----------------------------------------------------------------------------------------------------NQDSASVQGLQNASIRVFSHSAFAKTGPKTELQIGLFFFATEIDINNTGDGAMTRNAYSVIVPLTSRFGAGRYIYEAASLYASDTLVHKTEQPNSSISSS
 "/>
-          <sequence id="seq_AARS_P_7" taxon="AARS_P_7" totalcount="20" value="NQDSASVQGLQNASIRVFSHSAFAKTGPKTELQIGLFFFATEIDINNTGDGAMTRNAYSVIVPLTSRFGAGRYIYEAASLYASDTLVHKTEQPNSSISSS
+          <sequence id="seq_AARS_P_8" taxon="AARS_P_8" totalcount="20" value="----------------------------------------------------------------------------------------------------HHEALAVKSHITSGTENYDRDNDIGLKPLTGLRTGMASFSCPVDDQENEKAPFARNGYDVQVPVPSLDEARTYSKDAKKFYELDSNIHRKYKPLEPASLA
 "/>
-          <sequence id="seq_AARS_P_8" taxon="AARS_P_8" totalcount="20" value="HHEALAVKSHITSGTENYDRDNDIGLKPLTGLRTGMASFSCPVDDQENEKAPFARNGYDVQVPVPSLDEARTYSKDAKKFYELDSNIHRKYKPLEPASLA
+          <sequence id="seq_AARS_P_9" taxon="AARS_P_9" totalcount="20" value="----------------------------------------------------------------------------------------------------HEASEDVQGLLVAPFRVYNKSTYSQSASLTDLQIGLFCEVSELDLTSSGNGALSRYQYTVTVRLITRDRAARAIIQAAKFYAFDEYLHKASEPGKSISPT
 "/>
-          <sequence id="seq_AARS_P_9" taxon="AARS_P_9" totalcount="20" value="HEASEDVQGLLVAPFRVYNKSTYSQSASLTDLQIGLFCEVSELDLTSSGNGALSRYQYTVTVRLITRDRAARAIIQAAKFYAFDEYLHKASEPGKSISPT
+          <sequence id="seq_AARS_P_10" taxon="AARS_P_10" totalcount="20" value="----------------------------------------------------------------------------------------------------HHEAYAVKSAITQGTENYTRDTDIGLKPLTGLRTGMASFSCPVDDQESEKAPLARTGYDVQVPVPSLDEARTYSKDAKKYFELDSNIHRKYKPLEPASLA
 "/>
-          <sequence id="seq_AARS_P_10" taxon="AARS_P_10" totalcount="20" value="HHEAYAVKSAITQGTENYTRDTDIGLKPLTGLRTGMASFSCPVDDQESEKAPLARTGYDVQVPVPSLDEARTYSKDAKKYFELDSNIHRKYKPLEPASLA
+          <sequence id="seq_AARS_S_1" taxon="AARS_S_1" totalcount="20" value="----------------------------------------------------------------------------------------------------VKAFVDAFSIGKKPTRRGDAAPAPYNLSIIEDHYGLLVVEPSLPIIATADGPKSKPFEELSSEGGQRHSEHDYLAQLAMEYPHIKAIGDVVKEREDAPSG
 "/>
-          <sequence id="seq_AARS_S_1" taxon="AARS_S_1" totalcount="20" value="VKAFVDAFSIGKKPTRRGDAAPAPYNLSIIEDHYGLLVVEPSLPIIATADGPKSKPFEELSSEGGQRHSEHDYLAQLAMEYPHIKAIGDVVKEREDAPSG
+          <sequence id="seq_AARS_S_2" taxon="AARS_S_2" totalcount="20" value="----------------------------------------------------------------------------------------------------MQSWIKTADLVRKKTDGGDTAPSAMHLVMIEQGLSILSVPGYMGIVEHEDGPLTNSRPEMEISGTKSTVSQRCLTEVAVEKFHAEAIGEKTDEMESAILG
 "/>
-          <sequence id="seq_AARS_S_2" taxon="AARS_S_2" totalcount="20" value="MQSWIKTADLVRKKTDGGDTAPSAMHLVMIEQGLSILSVPGYMGIVEHEDGPLTNSRPEMEISGTKSTVSQRCLTEVAVEKFHAEAIGEKTDEMESAILG
+          <sequence id="seq_AARS_S_3" taxon="AARS_S_3" totalcount="20" value="----------------------------------------------------------------------------------------------------YQGLVAALLILKKPTRRGIAAPAPYNLAVLEEHYKMLVVKPNRDILTSVDGPKDKPQTDLSTQGVDRHIEHEYLADLAVEYRHDEAIGKKQQERQDVPCV
 "/>
-          <sequence id="seq_AARS_S_3" taxon="AARS_S_3" totalcount="20" value="YQGLVAALLILKKPTRRGIAAPAPYNLAVLEEHYKMLVVKPNRDILTSVDGPKDKPQTDLSTQGVDRHIEHEYLADLAVEYRHDEAIGKKQQERQDVPCV
+          <sequence id="seq_AARS_S_4" taxon="AARS_S_4" totalcount="20" value="----------------------------------------------------------------------------------------------------VDILVVALSIIEKPTRSGDVAPAAYNLAILEAHWGMEIAEDNLAEVATVDGPKDRPQPALSSEGVSRHLELGYLADRAVEFRHVEAIGKRVQPRQDTPCV
 "/>
-          <sequence id="seq_AARS_S_4" taxon="AARS_S_4" totalcount="20" value="VDILVVALSIIEKPTRSGDVAPAAYNLAILEAHWGMEIAEDNLAEVATVDGPKDRPQPALSSEGVSRHLELGYLADRAVEFRHVEAIGKRVQPRQDTPCV
+          <sequence id="seq_AARS_S_5" taxon="AARS_S_5" totalcount="20" value="----------------------------------------------------------------------------------------------------MVNWIKAPDLTEKQTKGGNTQPGALNMVIMEQGYSILDVVAYMDVVLHKDGPLTNNRPSSQIRGTKSTVTQRCLKEVAIEKFHTESIKNRAEEMESAILG
 "/>
-          <sequence id="seq_AARS_S_5" taxon="AARS_S_5" totalcount="20" value="MVNWIKAPDLTEKQTKGGNTQPGALNMVIMEQGYSILDVVAYMDVVLHKDGPLTNNRPSSQIRGTKSTVTQRCLKEVAIEKFHTESIKNRAEEMESAILG
+          <sequence id="seq_AARS_S_6" taxon="AARS_S_6" totalcount="20" value="----------------------------------------------------------------------------------------------------TVSFVAALAILKKPTIQGNAAPSPYGLRIIETHYGLLVREPNLDVIETADGPQNKPQPDLSKEGGDRYTASDSLADLAIEYPHIEAYGDRVEEHPDEPEG
 "/>
-          <sequence id="seq_AARS_S_6" taxon="AARS_S_6" totalcount="20" value="TVSFVAALAILKKPTIQGNAAPSPYGLRIIETHYGLLVREPNLDVIETADGPQNKPQPDLSKEGGDRYTASDSLADLAIEYPHIEAYGDRVEEHPDEPEG
+          <sequence id="seq_AARS_S_7" taxon="AARS_S_7" totalcount="20" value="----------------------------------------------------------------------------------------------------VVSFVAALSILEPPTKRGDAGPIPYNPRIIEEHYELLVAEPSLDIISTADGLDDKPQPDLSREGGDRHKAHDYLASLAIEYPHIEAIGDRIAEREDAPEG
 "/>
-          <sequence id="seq_AARS_S_7" taxon="AARS_S_7" totalcount="20" value="VVSFVAALSILEPPTKRGDAGPIPYNPRIIEEHYELLVAEPSLDIISTADGLDDKPQPDLSREGGDRHKAHDYLASLAIEYPHIEAIGDRIAEREDAPEG
+          <sequence id="seq_AARS_S_8" taxon="AARS_S_8" totalcount="20" value="----------------------------------------------------------------------------------------------------MQSWIKPADLVRKKTKGGGTAPSSMHAVMMEQGLSILSVPSYMGIVDHWDGPLTTSRPEMDISGTKSTVSQRCLTKVALEKFHVGAIGSKTDEMESAILG
 "/>
-          <sequence id="seq_AARS_S_8" taxon="AARS_S_8" totalcount="20" value="MQSWIKPADLVRKKTKGGGTAPSSMHAVMMEQGLSILSVPSYMGIVDHWDGPLTTSRPEMDISGTKSTVSQRCLTKVALEKFHVGAIGSKTDEMESAILG
+          <sequence id="seq_AARS_S_9" taxon="AARS_S_9" totalcount="20" value="----------------------------------------------------------------------------------------------------VDSFVVALSIIEKPTRVGDVAPAAYNLAILGAHYGMALVASNLADVATVDGPKDRPKSDLASEAIDKHKELGYLADKTVEFRHVRAIDKRVEPRQDTPCV
 "/>
-          <sequence id="seq_AARS_S_9" taxon="AARS_S_9" totalcount="20" value="VDSFVVALSIIEKPTRVGDVAPAAYNLAILGAHYGMALVASNLADVATVDGPKDRPKSDLASEAIDKHKELGYLADKTVEFRHVRAIDKRVEPRQDTPCV
+          <sequence id="seq_AARS_S_10" taxon="AARS_S_10" totalcount="20" value="----------------------------------------------------------------------------------------------------SQSWIKPADLVRKKTTGGGTAPSAMHAVMMEQGLSILSVPSYMGIVDHWDGPLTTSRPEMDISGTKSTVSQRCLTKVALEKFHVNAIGKKTDEMESAILG
 "/>
-          <sequence id="seq_AARS_S_10" taxon="AARS_S_10" totalcount="20" value="SQSWIKPADLVRKKTTGGGTAPSAMHAVMMEQGLSILSVPSYMGIVDHWDGPLTTSRPEMDISGTKSTVSQRCLTKVALEKFHVNAIGKKTDEMESAILG
+          <sequence id="seq_AARS_T_1" taxon="AARS_T_1" totalcount="20" value="----------------------------------------------------------------------------------------------------HWSDRWTVGWWLFSNPEASGPSARPGGHITDSIPYGDVVAPISRASCQDSTTTSSGRADDNKECTTDNVGTFCLKGGGKFGCHQNQIFNKTKPPRRAPVT
 "/>
-          <sequence id="seq_AARS_T_1" taxon="AARS_T_1" totalcount="20" value="HWSDRWTVGWWLFSNPEASGPSARPGGHITDSIPYGDVVAPISRASCQDSTTTSSGRADDNKECTTDNVGTFCLKGGGKFGCHQNQIFNKTKPPRRAPVT
+          <sequence id="seq_AARS_T_2" taxon="AARS_T_2" totalcount="20" value="----------------------------------------------------------------------------------------------------EWSDLGKVLAVLLMSPEAGGPTADPDNTYGKDTPEQQLTGQVLKVVTAFTRSQSAGEASPTHAWSPITIGTSSHVEGGQSGAHAGQSFQVAEWKQKANVA
 "/>
-          <sequence id="seq_AARS_T_2" taxon="AARS_T_2" totalcount="20" value="EWSDLGKVLAVLLMSPEAGGPTADPDNTYGKDTPEQQLTGQVLKVVTAFTRSQSAGEASPTHAWSPITIGTSSHVEGGQSGAHAGQSFQVAEWKQKANVA
+          <sequence id="seq_AARS_T_3" taxon="AARS_T_3" totalcount="20" value="----------------------------------------------------------------------------------------------------SKSAVRKVEWWLFTSPASSSPSREPSGRVTDDIPYGAMVAAVFRCSNQECSTLSSGRTKDKRECSTWDVDTFSYIGDGSYEAHVKQVFDKKGPNYRAIVN
 "/>
-          <sequence id="seq_AARS_T_3" taxon="AARS_T_3" totalcount="20" value="SKSAVRKVEWWLFTSPASSSPSREPSGRVTDDIPYGAMVAAVFRCSNQECSTLSSGRTKDKRECSTWDVDTFSYIGDGSYEAHVKQVFDKKGPNYRAIVN
+          <sequence id="seq_AARS_T_4" taxon="AARS_T_4" totalcount="20" value="----------------------------------------------------------------------------------------------------SWSAVWTVAWWLFASPEASGPTVEPTGHCTDDIPYEGMTASASRACSQDCNMLSSGKIKDEKECNTWDIGFFSWKGYGSYEGHDKEIFDKESPDDRATVE
 "/>
-          <sequence id="seq_AARS_T_4" taxon="AARS_T_4" totalcount="20" value="SWSAVWTVAWWLFASPEASGPTVEPTGHCTDDIPYEGMTASASRACSQDCNMLSSGKIKDEKECNTWDIGFFSWKGYGSYEGHDKEIFDKESPDDRATVE
+          <sequence id="seq_AARS_T_5" taxon="AARS_T_5" totalcount="20" value="----------------------------------------------------------------------------------------------------EWPDMGIALKVLLMFPESGGPTANPDNQHGKDTAEHRLVGFAISVVTPVIKTETSGQASPTHRWACVTMGTFDSVEGGKSGAHQGQIFKVAEWTEAVNVA
 "/>
-          <sequence id="seq_AARS_T_5" taxon="AARS_T_5" totalcount="20" value="EWPDMGIALKVLLMFPESGGPTANPDNQHGKDTAEHRLVGFAISVVTPVIKTETSGQASPTHRWACVTMGTFDSVEGGKSGAHQGQIFKVAEWTEAVNVA
+          <sequence id="seq_AARS_T_6" taxon="AARS_T_6" totalcount="20" value="----------------------------------------------------------------------------------------------------QWGDTWKVGWWLFTNPQTSGPSAIPSGFITNSIPKNALVFPVSRASAQDCNTLSRGRADKDQDCNAYNIGPFSRVGGGSYSCHDTHIFEETNPNRRAPVE
 "/>
-          <sequence id="seq_AARS_T_6" taxon="AARS_T_6" totalcount="20" value="QWGDTWKVGWWLFTNPQTSGPSAIPSGFITNSIPKNALVFPVSRASAQDCNTLSRGRADKDQDCNAYNIGPFSRVGGGSYSCHDTHIFEETNPNRRAPVE
+          <sequence id="seq_AARS_T_7" taxon="AARS_T_7" totalcount="20" value="----------------------------------------------------------------------------------------------------NWGDTWQVGYWLFTNPQASGPSALPSGFILNSIPPGDVVAPVSRASSQDCNTLCSGNADKNQDCDADNIGPFSWVGGGWYGCHNEQIFERTNPGRRAPVE
 "/>
-          <sequence id="seq_AARS_T_7" taxon="AARS_T_7" totalcount="20" value="NWGDTWQVGYWLFTNPQASGPSALPSGFILNSIPPGDVVAPVSRASSQDCNTLCSGNADKNQDCDADNIGPFSWVGGGWYGCHNEQIFERTNPGRRAPVE
+          <sequence id="seq_AARS_T_8" taxon="AARS_T_8" totalcount="20" value="----------------------------------------------------------------------------------------------------AWSDLGKVIAVLLMAPEAGGETADPDNQHGKDTPEHRLTGFVLKVVTAFSRTQSAGEASPTHRWDSLTIGTSSHVEGGQSGAHDGQSFPVAEWKQRANVA
 "/>
-          <sequence id="seq_AARS_T_8" taxon="AARS_T_8" totalcount="20" value="AWSDLGKVIAVLLMAPEAGGETADPDNQHGKDTPEHRLTGFVLKVVTAFSRTQSAGEASPTHRWDSLTIGTSSHVEGGQSGAHDGQSFPVAEWKQRANVA
+          <sequence id="seq_AARS_T_9" taxon="AARS_T_9" totalcount="20" value="----------------------------------------------------------------------------------------------------SWSAVWTVAWWLFSSPEASGPSVEPTGHCTDDIPYKAMTASVSRACSQDCNYQSSGHIKDEKQCNTWDIGFFSWIGYGGYEGNEKEIFDKESPNKWATVE
 "/>
-          <sequence id="seq_AARS_T_9" taxon="AARS_T_9" totalcount="20" value="SWSAVWTVAWWLFSSPEASGPSVEPTGHCTDDIPYKAMTASVSRACSQDCNYQSSGHIKDEKQCNTWDIGFFSWIGYGGYEGNEKEIFDKESPNKWATVE
+          <sequence id="seq_AARS_T_10" taxon="AARS_T_10" totalcount="20" value="----------------------------------------------------------------------------------------------------AWSDLGKVIAVLLMAPEAGGETADPGNQHAKDTPEQRLTGFVLKVVTAFTRTQSAGEASPTHGWDPITIGTSSHVEGGQSGAHDGQSFPVAEWKQRATVA
 "/>
-          <sequence id="seq_AARS_T_10" taxon="AARS_T_10" totalcount="20" value="AWSDLGKVIAVLLMAPEAGGETADPGNQHAKDTPEQRLTGFVLKVVTAFTRTQSAGEASPTHGWDPITIGTSSHVEGGQSGAHDGQSFPVAEWKQRATVA
+          <sequence id="seq_AARS_N_1" taxon="AARS_N_1" totalcount="20" value="----------------------------------------------------------------------------------------------------GNAIVGAQLRLAIDDDTIDAARAPHVTQVSDNNANIRCYRCNIRVSFLKKRNLTRGLFQISLSVSSRIVLQRYMMDGIKAFEGGKLPATTPQKLGQGVLG
 "/>
-          <sequence id="seq_AARS_N_1" taxon="AARS_N_1" totalcount="20" value="GNAIVGAQLRLAIDDDTIDAARAPHVTQVSDNNANIRCYRCNIRVSFLKKRNLTRGLFQISLSVSSRIVLQRYMMDGIKAFEGGKLPATTPQKLGQGVLG
+          <sequence id="seq_AARS_N_2" taxon="AARS_N_2" totalcount="20" value="----------------------------------------------------------------------------------------------------AGSLAGTLQLKTVPDNRVDSQSQPCVDSLPSNDGQIGCYGCRLGLSFYEVGNLKKGDFHMAVSKAARAISERILSPGGNNWKGGDYEANLARDFEEVPCG
 "/>
-          <sequence id="seq_AARS_N_2" taxon="AARS_N_2" totalcount="20" value="AGSLAGTLQLKTVPDNRVDSQSQPCVDSLPSNDGQIGCYGCRLGLSFYEVGNLKKGDFHMAVSKAARAISERILSPGGNNWKGGDYEANLARDFEEVPCG
+          <sequence id="seq_AARS_N_3" taxon="AARS_N_3" totalcount="20" value="----------------------------------------------------------------------------------------------------GNAVVGKQLLLTLPDASIKAESLPHIDGLGDDNSDIGCYRCKYAMSYVKDGNLRRGVFEVALDAASRHSARQYMMDGLKEAEGGNAFATEPENLSDGKLA
 "/>
-          <sequence id="seq_AARS_N_3" taxon="AARS_N_3" totalcount="20" value="GNAVVGKQLLLTLPDASIKAESLPHIDGLGDDNSDIGCYRCKYAMSYVKDGNLRRGVFEVALDAASRHSARQYMMDGLKEAEGGNAFATEPENLSDGKLA
+          <sequence id="seq_AARS_N_4" taxon="AARS_N_4" totalcount="20" value="----------------------------------------------------------------------------------------------------GSAIVGAQAILALPDARTDAATVPQVDKLGDNNADVGCYTCNLPVSFVKDGNLIRALFKIAMSASNEKTALQYVMDGLEGWEGGDRVALQPQELNQEPIG
 "/>
-          <sequence id="seq_AARS_N_4" taxon="AARS_N_4" totalcount="20" value="GSAIVGAQAILALPDARTDAATVPQVDKLGDNNADVGCYTCNLPVSFVKDGNLIRALFKIAMSASNEKTALQYVMDGLEGWEGGDRVALQPQELNQEPIG
+          <sequence id="seq_AARS_N_5" taxon="AARS_N_5" totalcount="20" value="----------------------------------------------------------------------------------------------------GRSLFGVLKLKTMPGHRAETKEAPCVDSLPSADSGTGCYHCPLALSFNQVGNLTKGDYTRAISKSQRAVSEPILSEGVNSRGGGDYQANLSRNFNQVPVG
 "/>
-          <sequence id="seq_AARS_N_5" taxon="AARS_N_5" totalcount="20" value="GRSLFGVLKLKTMPGHRAETKEAPCVDSLPSADSGTGCYHCPLALSFNQVGNLTKGDYTRAISKSQRAVSEPILSEGVNSRGGGDYQANLSRNFNQVPVG
+          <sequence id="seq_AARS_N_6" taxon="AARS_N_6" totalcount="20" value="----------------------------------------------------------------------------------------------------GNNIVGAQLLLAIPEHRIDAAQAPSTSQLGDNNANIGCYRCNLRVSLYQDPNLTRGLLEIALSVCSRKVAQRFIMEGIKAREGGDVLVTTPQKLNQGPLG
 "/>
-          <sequence id="seq_AARS_N_6" taxon="AARS_N_6" totalcount="20" value="GNNIVGAQLLLAIPEHRIDAAQAPSTSQLGDNNANIGCYRCNLRVSLYQDPNLTRGLLEIALSVCSRKVAQRFIMEGIKAREGGDVLVTTPQKLNQGPLG
+          <sequence id="seq_AARS_N_7" taxon="AARS_N_7" totalcount="20" value="----------------------------------------------------------------------------------------------------GNNIVGAQLLLGIPEHRIDAAQAPHVSDIGDGNANIGCYRCDLRISFFKDPTLTQGLFETSLSVSAQKVAQRYMMEDIKAWEGGDTVATTPQKLNQGPLG
 "/>
-          <sequence id="seq_AARS_N_7" taxon="AARS_N_7" totalcount="20" value="GNNIVGAQLLLGIPEHRIDAAQAPHVSDIGDGNANIGCYRCDLRISFFKDPTLTQGLFETSLSVSAQKVAQRYMMEDIKAWEGGDTVATTPQKLNQGPLG
+          <sequence id="seq_AARS_N_8" taxon="AARS_N_8" totalcount="20" value="----------------------------------------------------------------------------------------------------RASLAGTIQLKTVPDNRTDTKEQPCVDSLPSCDGSIGCYGCRLGLSFDEVGNLTLGDFHMAVAKAATAISDRILSPGVNDWKGGDYRANLARDFQEVPVG
 "/>
-          <sequence id="seq_AARS_N_8" taxon="AARS_N_8" totalcount="20" value="RASLAGTIQLKTVPDNRTDTKEQPCVDSLPSCDGSIGCYGCRLGLSFDEVGNLTLGDFHMAVAKAATAISDRILSPGVNDWKGGDYRANLARDFQEVPVG
+          <sequence id="seq_AARS_N_9" taxon="AARS_N_9" totalcount="20" value="----------------------------------------------------------------------------------------------------GSASVGAQAILALPDARIDAGSVPQVDKIGNNDAPVDCYVCNLVVSFVKDGNLIRALFKIAMSASNQKTAQQYVMDGLEGWEGGDRVALQPQKANQEPIG
 "/>
-          <sequence id="seq_AARS_N_9" taxon="AARS_N_9" totalcount="20" value="GSASVGAQAILALPDARIDAGSVPQVDKIGNNDAPVDCYVCNLVVSFVKDGNLIRALFKIAMSASNQKTAQQYVMDGLEGWEGGDRVALQPQKANQEPIG
+          <sequence id="seq_AARS_N_10" taxon="AARS_N_10" totalcount="20" value="----------------------------------------------------------------------------------------------------GASLAGTIQLKTVPENRTDTKEQPCVDSLPSCDGSIGCYGCRLGLSFDEVGNLTLGDFHMAVAKAATAISDRILSPGVNNWKGGDYSANLARTFQVVPVA
 "/>
-          <sequence id="seq_AARS_N_10" taxon="AARS_N_10" totalcount="20" value="GASLAGTIQLKTVPENRTDTKEQPCVDSLPSCDGSIGCYGCRLGLSFDEVGNLTLGDFHMAVAKAATAISDRILSPGVNNWKGGDYSANLARTFQVVPVA
+          <sequence id="seq_AARS_H_1" taxon="AARS_H_1" totalcount="20" value="----------------------------------------------------------------------------------------------------GWSANATRIILLQKGFPITVPTVFPDKTLAAELGVDHAVSKVLKVQSTTILVINEGTVPKKITCHAKEISSRLTADSGVPGSIEAFFPEINKWTSHEWMG
 "/>
-          <sequence id="seq_AARS_H_1" taxon="AARS_H_1" totalcount="20" value="GWSANATRIILLQKGFPITVPTVFPDKTLAAELGVDHAVSKVLKVQSTTILVINEGTVPKKITCHAKEISSRLTADSGVPGSIEAFFPEINKWTSHEWMG
+          <sequence id="seq_AARS_H_2" taxon="AARS_H_2" totalcount="20" value="----------------------------------------------------------------------------------------------------GFSEVPLRLILLQKSIIANARDSFFVDSIANDLAQYMLFALVLRIGDTNLRVTSHGSVPLRITRQSADEGTRVAVEDGPPGSHEANIPEKQKWNQPETCF
 "/>
-          <sequence id="seq_AARS_H_2" taxon="AARS_H_2" totalcount="20" value="GFSEVPLRLILLQKSIIANARDSFFVDSIANDLAQYMLFALVLRIGDTNLRVTSHGSVPLRITRQSADEGTRVAVEDGPPGSHEANIPEKQKWNQPETCF
+          <sequence id="seq_AARS_H_3" taxon="AARS_H_3" totalcount="20" value="----------------------------------------------------------------------------------------------------EWLKTGTRILLIQPSFPMRGPTEFSSETQAPKVGVDQVLSMVLKVDSATIAVVKEGTVPETVICHTKTFGQRVLIDGGVPGAHEAHFEEIPKWNRYEWMG
 "/>
-          <sequence id="seq_AARS_H_3" taxon="AARS_H_3" totalcount="20" value="EWLKTGTRILLIQPSFPMRGPTEFSSETQAPKVGVDQVLSMVLKVDSATIAVVKEGTVPETVICHTKTFGQRVLIDGGVPGAHEAHFEEIPKWNRYEWMG
+          <sequence id="seq_AARS_H_4" taxon="AARS_H_4" totalcount="20" value="----------------------------------------------------------------------------------------------------GWSRTATEVILLQNSLPMSNPTAESDETLGPAINVDQVVSLAIKVDRVKICVLQEGFIPDTVICHAKEFGKRVTIDGGVGGTHEAHFPEIQKYNRQEWMG
 "/>
-          <sequence id="seq_AARS_H_4" taxon="AARS_H_4" totalcount="20" value="GWSRTATEVILLQNSLPMSNPTAESDETLGPAINVDQVVSLAIKVDRVKICVLQEGFIPDTVICHAKEFGKRVTIDGGVGGTHEAHFPEIQKYNRQEWMG
+          <sequence id="seq_AARS_H_5" taxon="AARS_H_5" totalcount="20" value="----------------------------------------------------------------------------------------------------GFSEVSTRLILLEKSIVANAQDSFFTDAIAIDLANYSLFSLVAQTKDADLRVTNEGNAVEPITRQLADEGTRVAIEGGPPGKHEAHIPQKHNWSRPAHLG
 "/>
-          <sequence id="seq_AARS_H_5" taxon="AARS_H_5" totalcount="20" value="GFSEVSTRLILLEKSIVANAQDSFFTDAIAIDLANYSLFSLVAQTKDADLRVTNEGNAVEPITRQLADEGTRVAIEGGPPGKHEAHIPQKHNWSRPAHLG
+          <sequence id="seq_AARS_H_6" taxon="AARS_H_6" totalcount="20" value="----------------------------------------------------------------------------------------------------NWNRTAQPIILLQKRLPASQPNVFSDQKLAAEIGVEHVVSKVSKVDSATIAIISEGTVPVTRTCHAKEIGSRVTTDSGAPGSGEAHHPPINRWNYREWMG
 "/>
-          <sequence id="seq_AARS_H_6" taxon="AARS_H_6" totalcount="20" value="NWNRTAQPIILLQKRLPASQPNVFSDQKLAAEIGVEHVVSKVSKVDSATIAIISEGTVPVTRTCHAKEIGSRVTTDSGAPGSGEAHHPPINRWNYREWMG
+          <sequence id="seq_AARS_H_7" taxon="AARS_H_7" totalcount="20" value="----------------------------------------------------------------------------------------------------NWNNTADPIILKQKRLPVSRPNIFRDQTLAAQIGVEHVVSKILKVTSATIAILFDGTVPNAVNCHAREIGSRVTTDSGAPGSGEVHFKEINRWDYHERAG
 "/>
-          <sequence id="seq_AARS_H_7" taxon="AARS_H_7" totalcount="20" value="NWNNTADPIILKQKRLPVSRPNIFRDQTLAAQIGVEHVVSKILKVTSATIAILFDGTVPNAVNCHAREIGSRVTTDSGAPGSGEVHFKEINRWDYHERAG
+          <sequence id="seq_AARS_H_8" taxon="AARS_H_8" totalcount="20" value="----------------------------------------------------------------------------------------------------GFSEVGIRLILLAKSIVANARDSFFVDSIANELAQFILFPLVLRIGETNLRVTTQGSVPLLITRQSADVGARVAVEDGPPGIHEAHIPEKQKWDQPEHMF
 "/>
-          <sequence id="seq_AARS_H_8" taxon="AARS_H_8" totalcount="20" value="GFSEVGIRLILLAKSIVANARDSFFVDSIANELAQFILFPLVLRIGETNLRVTTQGSVPLLITRQSADVGARVAVEDGPPGIHEAHIPEKQKWDQPEHMF
+          <sequence id="seq_AARS_H_9" taxon="AARS_H_9" totalcount="20" value="----------------------------------------------------------------------------------------------------GFSRTATQVILLQNALPMSGPTAESDETLGPAIGVDQVVSLVLKVDSVKIAVLQEGFVPDTVICFAKEFGARWTIDGGIGGTHEAHFPEIQEYNRHEVMG
 "/>
-          <sequence id="seq_AARS_H_9" taxon="AARS_H_9" totalcount="20" value="GFSRTATQVILLQNALPMSGPTAESDETLGPAIGVDQVVSLVLKVDSVKIAVLQEGFVPDTVICFAKEFGARWTIDGGIGGTHEAHFPEIQEYNRHEVMG
+          <sequence id="seq_AARS_H_10" taxon="AARS_H_10" totalcount="20" value="----------------------------------------------------------------------------------------------------GFSEVGIHLIRLAKSIVADARNSFFVDSIANDLAQFILFPLVLRIGETNLRVTTQGSVPLLITRQSADVGARVAVEDGPPGVHEAHIPEKQKWDQPEHMF
 "/>
-          <sequence id="seq_AARS_H_10" taxon="AARS_H_10" totalcount="20" value="GFSEVGIHLIRLAKSIVADARNSFFVDSIANDLAQFILFPLVLRIGETNLRVTTQGSVPLLITRQSADVGARVAVEDGPPGVHEAHIPEKQKWDQPEHMF
+          <sequence id="seq_AARS_K_1" taxon="AARS_K_1" totalcount="20" value="----------------------------------------------------------------------------------------------------YDAKLSFRIICLRPRDEKENGVETPVGEQTEISVNNLCYGKKLGVPADGEGLLASKGFILKINVRHASFTKRYGIQAAKFYMFAEYIHSLAEGFHPSSLA
 "/>
-          <sequence id="seq_AARS_K_1" taxon="AARS_K_1" totalcount="20" value="YDAKLSFRIICLRPRDEKENGVETPVGEQTEISVNNLCYGKKLGVPADGEGLLASKGFILKINVRHASFTKRYGIQAAKFYMFAEYIHSLAEGFHPSSLA
+          <sequence id="seq_AARS_K_2" taxon="AARS_K_2" totalcount="20" value="----------------------------------------------------------------------------------------------------HEAKISYRYLLIVQTQTYDGAIHTDVGTLADIALNTLCYNCKIDPPNASDSVLEDAGHNVTATVKSSDTSARYAIEAAKFYMAAKLVHPLMARLQGADVT
 "/>
-          <sequence id="seq_AARS_K_2" taxon="AARS_K_2" totalcount="20" value="HEAKISYRYLLIVQTQTYDGAIHTDVGTLADIALNTLCYNCKIDPPNASDSVLEDAGHNVTATVKSSDTSARYAIEAAKFYMAAKLVHPLMARLQGADVT
+          <sequence id="seq_AARS_K_3" taxon="AARS_K_3" totalcount="20" value="----------------------------------------------------------------------------------------------------VKAKVTFQGIILRPKKEYVNGIETPVGKQNDITVTMMCSGRKLGVPDEGHGLLASKGFNMNMSVAHRNLTQRYCIEAAQFYTFADYIHRLANGPRSGTLR
 "/>
-          <sequence id="seq_AARS_K_3" taxon="AARS_K_3" totalcount="20" value="VKAKVTFQGIILRPKKEYVNGIETPVGKQNDITVTMMCSGRKLGVPDEGHGLLASKGFNMNMSVAHRNLTQRYCIEAAQFYTFADYIHRLANGPRSGTLR
+          <sequence id="seq_AARS_K_4" taxon="AARS_K_4" totalcount="20" value="----------------------------------------------------------------------------------------------------HKAPMLFLGLMLRSKEEYCNNVESPVGKQNDITVSMMCCGRKVKVTVEGDGLLANKGFTLKMESGHRNVTQRYGVEASEFYSFADYIHPLTQQFYPGSLR
 "/>
-          <sequence id="seq_AARS_K_4" taxon="AARS_K_4" totalcount="20" value="HKAPMLFLGLMLRSKEEYCNNVESPVGKQNDITVSMMCCGRKVKVTVEGDGLLANKGFTLKMESGHRNVTQRYGVEASEFYSFADYIHPLTQQFYPGSLR
+          <sequence id="seq_AARS_K_5" taxon="AARS_K_5" totalcount="20" value="----------------------------------------------------------------------------------------------------HERKICFQYLLTAQTQTYDDVTDTDVGVLTDLALITLCYSCAIHFPNAGDELFEDGGQSVTATVKTGDVSARYVIEYESFIMAAKLLHPLTAKVQGAEQT
 "/>
-          <sequence id="seq_AARS_K_5" taxon="AARS_K_5" totalcount="20" value="HERKICFQYLLTAQTQTYDDVTDTDVGVLTDLALITLCYSCAIHFPNAGDELFEDGGQSVTATVKTGDVSARYVIEYESFIMAAKLLHPLTAKVQGAEQT
+          <sequence id="seq_AARS_K_6" taxon="AARS_K_6" totalcount="20" value="----------------------------------------------------------------------------------------------------YNAVVLFRGIIQRPKDHYANGVKTLIGKQSDISVSNMCYGRKLGVPEEGDGLLASKGFVLQMEVRHANLTERYGLSAAKFYAFADIAHSLTEGFHPSGLR
 "/>
-          <sequence id="seq_AARS_K_6" taxon="AARS_K_6" totalcount="20" value="YNAVVLFRGIIQRPKDHYANGVKTLIGKQSDISVSNMCYGRKLGVPEEGDGLLASKGFVLQMEVRHANLTERYGLSAAKFYAFADIAHSLTEGFHPSGLR
+          <sequence id="seq_AARS_K_7" taxon="AARS_K_7" totalcount="20" value="----------------------------------------------------------------------------------------------------YEAVILFRGIILRPKDDYMDGVKTETGKQSDISVSNMCYGRKIGVPAEDEGLLASKGFVVQMEVRHANLTERYGLAAAKFYAFADIVHSLAEGFHPTSLR
 "/>
-          <sequence id="seq_AARS_K_7" taxon="AARS_K_7" totalcount="20" value="YEAVILFRGIILRPKDDYMDGVKTETGKQSDISVSNMCYGRKIGVPAEDEGLLASKGFVVQMEVRHANLTERYGLAAAKFYAFADIVHSLAEGFHPTSLR
+          <sequence id="seq_AARS_K_8" taxon="AARS_K_8" totalcount="20" value="----------------------------------------------------------------------------------------------------HEAKISFKYLILIPTQTADNAIDTDVGKLANIPLNTLCYNCKIDHPSASDSVFEDAGASVTESVKGSDITARYAVEAAKFYIAAKLVHPLMAGLQGADVT
 "/>
-          <sequence id="seq_AARS_K_8" taxon="AARS_K_8" totalcount="20" value="HEAKISFKYLILIPTQTADNAIDTDVGKLANIPLNTLCYNCKIDHPSASDSVFEDAGASVTESVKGSDITARYAVEAAKFYIAAKLVHPLMAGLQGADVT
+          <sequence id="seq_AARS_K_9" taxon="AARS_K_9" totalcount="20" value="----------------------------------------------------------------------------------------------------HKAPLLFLGLMLKEKEEYCNGADSPVGNKNDISVSMMCCGRKVKVPEEGDGLLANKGFTLKTFSKHRNATQRYGAEASEFYSFADYIHPLAEQFHPGALR
 "/>
-          <sequence id="seq_AARS_K_9" taxon="AARS_K_9" totalcount="20" value="HKAPLLFLGLMLKEKEEYCNGADSPVGNKNDISVSMMCCGRKVKVPEEGDGLLANKGFTLKTFSKHRNATQRYGAEASEFYSFADYIHPLAEQFHPGALR
+          <sequence id="seq_AARS_K_10" taxon="AARS_K_10" totalcount="20" value="----------------------------------------------------------------------------------------------------HEAKISFQYLVLIQTQTADNAIDTDVGKLADIPLNTLCYNCKIDHPSASDSVYEDAGHSITESVKGSDITARYAIEAAKFHMAAKMVHPLMAGLKGADVT
 "/>
-          <sequence id="seq_AARS_K_10" taxon="AARS_K_10" totalcount="20" value="HEAKISFQYLVLIQTQTADNAIDTDVGKLADIPLNTLCYNCKIDHPSASDSVYEDAGHSITESVKGSDITARYAIEAAKFHMAAKMVHPLMAGLKGADVT
+          <sequence id="seq_AARS_F_1" taxon="AARS_F_1" totalcount="20" value="----------------------------------------------------------------------------------------------------HRPTVSLKGVIKPFKVVHGHSTQASVLPFEALRMGLWAYGCLLDRVNTGNEMPTVLTYYVAIGVFPQPTSAYYSQESAKQYALSECVRKRADPTSFDSLT
 "/>
-          <sequence id="seq_AARS_F_1" taxon="AARS_F_1" totalcount="20" value="HRPTVSLKGVIKPFKVVHGHSTQASVLPFEALRMGLWAYGCLLDRVNTGNEMPTVLTYYVAIGVFPQPTSAYYSQESAKQYALSECVRKRADPTSFDSLT
+          <sequence id="seq_AARS_F_2" taxon="AARS_F_2" totalcount="20" value="----------------------------------------------------------------------------------------------------KESTITFEGNIKDFTPVYSHSYDRKLADLTEIEVKDLNAGCAIDGQITNDGLLSHYNYDLKDPLYEKDTNSAFTRDRARPYALASYIYKQTDACQWESWK
 "/>
-          <sequence id="seq_AARS_F_2" taxon="AARS_F_2" totalcount="20" value="KESTITFEGNIKDFTPVYSHSYDRKLADLTEIEVKDLNAGCAIDGQITNDGLLSHYNYDLKDPLYEKDTNSAFTRDRARPYALASYIYKQTDACQWESWK
+          <sequence id="seq_AARS_F_3" taxon="AARS_F_3" totalcount="20" value="----------------------------------------------------------------------------------------------------HEAMVSLDGVLKPFTRIHGNSVHRSVLPLTAVRMGLNKYGCVLNCKYTGDKMLNHFMYYLAEGVFPRESCAFYIRQGARSYKLNECIRKKSEPSNFESAT
 "/>
-          <sequence id="seq_AARS_F_3" taxon="AARS_F_3" totalcount="20" value="HEAMVSLDGVLKPFTRIHGNSVHRSVLPLTAVRMGLNKYGCVLNCKYTGDKMLNHFMYYLAEGVFPRESCAFYIRQGARSYKLNECIRKKSEPSNFESAT
+          <sequence id="seq_AARS_F_4" taxon="AARS_F_4" totalcount="20" value="----------------------------------------------------------------------------------------------------HEEMVSIRGVLRPFPRVHGSSVQRSKMPLSELRLGLSSYGCIIDCRNTGDDMLAHFSYTLKDAVFPRPSMAYYTWEGAKSYGLGGCLRKRSDPNRIESNT
 "/>
-          <sequence id="seq_AARS_F_4" taxon="AARS_F_4" totalcount="20" value="HEEMVSIRGVLRPFPRVHGSSVQRSKMPLSELRLGLSSYGCIIDCRNTGDDMLAHFSYTLKDAVFPRPSMAYYTWEGAKSYGLGGCLRKRSDPNRIESNT
+          <sequence id="seq_AARS_F_5" taxon="AARS_F_5" totalcount="20" value="----------------------------------------------------------------------------------------------------NETTVSYQGRVRDFTRVYAHPHDSKLGDLTKVRVGDLCVACVVEVRTAHDGFLPNYIYDVKDPIFGKDTNGRFTWDRATYYALGGYIYKNAEARKWDSLK
 "/>
-          <sequence id="seq_AARS_F_5" taxon="AARS_F_5" totalcount="20" value="NETTVSYQGRVRDFTRVYAHPHDSKLGDLTKVRVGDLCVACVVEVRTAHDGFLPNYIYDVKDPIFGKDTNGRFTWDRATYYALGGYIYKNAEARKWDSLK
+          <sequence id="seq_AARS_F_6" taxon="AARS_F_6" totalcount="20" value="----------------------------------------------------------------------------------------------------NASTVAVLGLIKPFNKIHGHSVHRSVLPLNELRMGLWTYGCLLDCHSTGNDMPMHLTYYLTVGVFPRPTCSFYTQDGEKFYAMIECVRKRSDVTSFESLT
 "/>
-          <sequence id="seq_AARS_F_6" taxon="AARS_F_6" totalcount="20" value="NASTVAVLGLIKPFNKIHGHSVHRSVLPLNELRMGLWTYGCLLDCHSTGNDMPMHLTYYLTVGVFPRPTCSFYTQDGEKFYAMIECVRKRSDVTSFESLT
+          <sequence id="seq_AARS_F_7" taxon="AARS_F_7" totalcount="20" value="----------------------------------------------------------------------------------------------------HAHTVSLQGLIKPFSKIHGHSVHRSVLPLNELKMGLWTYGCLLDCRSEGNDMPMYLTYYLTIGIFPRPTVSYYTQDGEKFYAMIECVRKRSDVTSFESLT
 "/>
-          <sequence id="seq_AARS_F_7" taxon="AARS_F_7" totalcount="20" value="HAHTVSLQGLIKPFSKIHGHSVHRSVLPLNELKMGLWTYGCLLDCRSEGNDMPMYLTYYLTIGIFPRPTVSYYTQDGEKFYAMIECVRKRSDVTSFESLT
+          <sequence id="seq_AARS_F_8" taxon="AARS_F_8" totalcount="20" value="----------------------------------------------------------------------------------------------------KESTIAYQGNIKDFTRAYSHSGDRKLGDLKEVEVGDLSAGCVMDVAINNDGFLPHYNYDLKDTLFTKMTNGTFTRERARPYALAEYIYKQHNCTQWESFK
 "/>
-          <sequence id="seq_AARS_F_8" taxon="AARS_F_8" totalcount="20" value="KESTIAYQGNIKDFTRAYSHSGDRKLGDLKEVEVGDLSAGCVMDVAINNDGFLPHYNYDLKDTLFTKMTNGTFTRERARPYALAEYIYKQHNCTQWESFK
+          <sequence id="seq_AARS_F_9" taxon="AARS_F_9" totalcount="20" value="----------------------------------------------------------------------------------------------------HEEMVSLRGVLRPFRRVHPHSVNRSKLPQTELRLGLWSYGCVIDCRNTGDEMLGHFSYTLKDAVFLRPSMAYYSTKGARFYALGECLRKRSEPNSLESNT
 "/>
-          <sequence id="seq_AARS_F_9" taxon="AARS_F_9" totalcount="20" value="HEEMVSLRGVLRPFRRVHPHSVNRSKLPQTELRLGLWSYGCVIDCRNTGDEMLGHFSYTLKDAVFLRPSMAYYSTKGARFYALGECLRKRSEPNSLESNT
-"/>
-          <sequence id="seq_AARS_F_10" taxon="AARS_F_10" totalcount="20" value="KESTITYQGNIKDFTRAYSHSGDRKLGDLKEVEVGDLSAGCVMDVAITNDGFLPHYNYDLKDTLFEKMTNGTFTRARARPYALVEYIYKQNNCTQWESFK
+          <sequence id="seq_AARS_F_10" taxon="AARS_F_10" totalcount="20" value="----------------------------------------------------------------------------------------------------KESTITYQGNIKDFTRAYSHSGDRKLGDLKEVEVGDLSAGCVMDVAITNDGFLPHYNYDLKDTLFEKMTNGTFTRARARPYALVEYIYKQNNCTQWESFK
 "/>
     </data>
 

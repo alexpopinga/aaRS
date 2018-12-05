@@ -134,7 +134,7 @@ for c in range(6,101):
 			content = outfile.read()
 			outfile.close()
 		with open("IterativeSubstitutionMatrix_sim" + str(c) + ".xml", "r+") as outfile:
-			outfile.write(content.replace("$SEQUENCEDATA", str(simData1[c-6][b1]), 1))
+			outfile.write(content.replace("$SEQUENCEDATA", str(simData1[c-6][b1]) + "----------------------------------------------------------------------------------------------------", 1))
 			content = outfile.read()
 			outfile.close()
 	for b2 in range(0,100):
@@ -142,7 +142,7 @@ for c in range(6,101):
 			content = outfile.read()
 			outfile.close()
 		with open("IterativeSubstitutionMatrix_sim" + str(c) + ".xml", "r+") as outfile:
-			outfile.write(content.replace("$SEQUENCEDATA", str(simData2[c-6][b2]), 1))
+			outfile.write(content.replace("$SEQUENCEDATA", "----------------------------------------------------------------------------------------------------" + str(simData2[c-6][b2]), 1))
 			content = outfile.read()
 			outfile.close()
 			
@@ -156,7 +156,7 @@ for c in range(6,101):
 			content = outfile.read()
 			outfile.close()
 		with open("NormalBEAST2_sim" + str(c) + ".xml", "r+") as outfile:
-			outfile.write(content.replace("$SEQUENCEDATA", str(simData1[c-6][b1]), 1))
+			outfile.write(content.replace("$SEQUENCEDATA", str(simData1[c-6][b1]) + "----------------------------------------------------------------------------------------------------", 1))
 			content = outfile.read()
 			outfile.close()
 	for b2 in range(0,100):
@@ -164,6 +164,6 @@ for c in range(6,101):
 			content = outfile.read()
 			outfile.close()
 		with open("NormalBEAST2_sim" + str(c) + ".xml", "r+") as outfile:
-			outfile.write(content.replace("$SEQUENCEDATA", str(simData2[c-6][b2]), 1))
+			outfile.write(content.replace("$SEQUENCEDATA", "----------------------------------------------------------------------------------------------------" + str(simData2[c-6][b2]), 1))
 			content = outfile.read()
 			outfile.close()
