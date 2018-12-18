@@ -1,0 +1,157 @@
+#NEXUS
+
+Begin taxa;
+	Dimensions ntax=73;
+		Taxlabels
+			arg_euk_1f7u_S_cerevisiae 
+			arg_bact_1iq0_T_thermophilus 
+			arg_arch_2zue_P_horikoshii 
+			arg_bact_3fnr_C_jejuni 
+			cys_bact_1li5_E_coli 
+			cys_bact_3c8z_M_smegmatis 
+			gln_bact_1qtq_E_coli 
+			gln_bact_2hz7_D_radiodurans 
+			glu_bact_1j09_T_thermophilus 
+			glu_bact_1nzj_E_coli 
+			glu_bact_2cfo_T_elongatus 
+			glu_bact_2o5r_T_maritima 
+			ile_bact_1ile_T_thermophilus 
+			ile_bact_1qu2_S_aureus 
+			leu_arch_1wz2_P_horikoshii 
+			leu_bact_2v0c_T_thermophilus 
+			met_bact_1pfv_E_coli 
+			met_arch_1rqg_P_abyssi 
+			met_bact_1woy_T_thermophilus 
+			met_bact_2csx_A_aeolicus 
+			met_bact_2x1l_M_smegmatis 
+			trp_bact_1i6m_G_stearothermophilus 
+			trp_euk_1r6u_H_sapiens 
+			trp_bact_2el7_T_thermophilus 
+			trp_bact_2g36_T_maritima 
+			trp_euk_2ip1_S_cerevisiae 
+			tyr_bact_1h3f_T_thermophilus 
+			tyr_bact_1jil_S_aureus 
+			tyr_bact_1wq4_E_coli 
+			tyr_arch_2cya_A_pernix 
+			tyr_arch_2cyb_A_fulgidus 
+			tyr_arch_2cyc_P_horikoshii 
+			tyr_euk_2dlc_S_cerevisiae 
+			tyr_arch_2zp1_M_jannaschii 
+			val_bact_1gax_T_thermophilus 
+			ala_bact_1yfsa_A_aeolicus 
+			ala_arch_2ztg_A_fulgidus 
+			ala_arch_2zze_P_horikoshii 
+			ala_bact_3hxv_E_coli 
+			asn_arch_1x54a_P_horikoshii 
+			asn_euk_3m4p_E_histolytica 
+			asn_bact_d1asza_T_thermophilus 
+			asp_arch_1wydb_S_tokodaii 
+			asp_euk_3i7f_E_histolytica 
+			asp_arch_d1b8aa_T_kodakarensis 
+			asp_bact_d1c0aa_E_coli 
+			asp_bact_d1efwa_T_thermophilus 
+			gly_euk_2zt5_H_sapiens 
+			gly_bact_d1atib_T_thermophilus 
+			his_bact_1htt_E_coli 
+			his_arch_1wu7a_T_acidophilum 
+			his_euk_3hri_T_brucei 
+			his_euk_3lc0_T_cruzi 
+			his_bact_d1adjc_T_thermophilus 
+			his_bact_d1qe0a_S_aureus 
+			lys_euk_3bju_H_sapiens 
+			lys_bact_3e9h_G_stearothermophilus 
+			lys_bact_3g1z_S_typhimurium 
+			lys_bact_d1e1oa_E_coli 
+			phe_bact_2alya_T_thermophilus 
+			phe_bact_2rhq_S_haemolyticus 
+			phe_euk_3l4g_H_sapiens 
+			pro_bact_2i4la_R_palustris 
+			pro_bact_2j3mb_E_faecalis 
+			pro_euk_3ial_G_lamblia 
+			pro_bact_d1hc7a_T_thermophilus 
+			pro_arch_d1nj8a_M_jannaschii 
+			ser_euk_1wleb_B_taurus 
+			ser_arch_2cjab_M_barkeri 
+			ser_bact_d1sera_T_thermophilus 
+			thr_arch_3a32_A_pernix 
+			thr_bact_d1evka_E_coli 
+			thr_bact_d1nyra_S_aureus
+			;
+End;
+Begin trees;
+	Translate
+		   1 arg_euk_1f7u_S_cerevisiae,
+		   2 arg_bact_1iq0_T_thermophilus,
+		   3 arg_arch_2zue_P_horikoshii,
+		   4 arg_bact_3fnr_C_jejuni,
+		   5 cys_bact_1li5_E_coli,
+		   6 cys_bact_3c8z_M_smegmatis,
+		   7 gln_bact_1qtq_E_coli,
+		   8 gln_bact_2hz7_D_radiodurans,
+		   9 glu_bact_1j09_T_thermophilus,
+		  10 glu_bact_1nzj_E_coli,
+		  11 glu_bact_2cfo_T_elongatus,
+		  12 glu_bact_2o5r_T_maritima,
+		  13 ile_bact_1ile_T_thermophilus,
+		  14 ile_bact_1qu2_S_aureus,
+		  15 leu_arch_1wz2_P_horikoshii,
+		  16 leu_bact_2v0c_T_thermophilus,
+		  17 met_bact_1pfv_E_coli,
+		  18 met_arch_1rqg_P_abyssi,
+		  19 met_bact_1woy_T_thermophilus,
+		  20 met_bact_2csx_A_aeolicus,
+		  21 met_bact_2x1l_M_smegmatis,
+		  22 trp_bact_1i6m_G_stearothermophilus,
+		  23 trp_euk_1r6u_H_sapiens,
+		  24 trp_bact_2el7_T_thermophilus,
+		  25 trp_bact_2g36_T_maritima,
+		  26 trp_euk_2ip1_S_cerevisiae,
+		  27 tyr_bact_1h3f_T_thermophilus,
+		  28 tyr_bact_1jil_S_aureus,
+		  29 tyr_bact_1wq4_E_coli,
+		  30 tyr_arch_2cya_A_pernix,
+		  31 tyr_arch_2cyb_A_fulgidus,
+		  32 tyr_arch_2cyc_P_horikoshii,
+		  33 tyr_euk_2dlc_S_cerevisiae,
+		  34 tyr_arch_2zp1_M_jannaschii,
+		  35 val_bact_1gax_T_thermophilus,
+		  36 ala_bact_1yfsa_A_aeolicus,
+		  37 ala_arch_2ztg_A_fulgidus,
+		  38 ala_arch_2zze_P_horikoshii,
+		  39 ala_bact_3hxv_E_coli,
+		  40 asn_arch_1x54a_P_horikoshii,
+		  41 asn_euk_3m4p_E_histolytica,
+		  42 asn_bact_d1asza_T_thermophilus,
+		  43 asp_arch_1wydb_S_tokodaii,
+		  44 asp_euk_3i7f_E_histolytica,
+		  45 asp_arch_d1b8aa_T_kodakarensis,
+		  46 asp_bact_d1c0aa_E_coli,
+		  47 asp_bact_d1efwa_T_thermophilus,
+		  48 gly_euk_2zt5_H_sapiens,
+		  49 gly_bact_d1atib_T_thermophilus,
+		  50 his_bact_1htt_E_coli,
+		  51 his_arch_1wu7a_T_acidophilum,
+		  52 his_euk_3hri_T_brucei,
+		  53 his_euk_3lc0_T_cruzi,
+		  54 his_bact_d1adjc_T_thermophilus,
+		  55 his_bact_d1qe0a_S_aureus,
+		  56 lys_euk_3bju_H_sapiens,
+		  57 lys_bact_3e9h_G_stearothermophilus,
+		  58 lys_bact_3g1z_S_typhimurium,
+		  59 lys_bact_d1e1oa_E_coli,
+		  60 phe_bact_2alya_T_thermophilus,
+		  61 phe_bact_2rhq_S_haemolyticus,
+		  62 phe_euk_3l4g_H_sapiens,
+		  63 pro_bact_2i4la_R_palustris,
+		  64 pro_bact_2j3mb_E_faecalis,
+		  65 pro_euk_3ial_G_lamblia,
+		  66 pro_bact_d1hc7a_T_thermophilus,
+		  67 pro_arch_d1nj8a_M_jannaschii,
+		  68 ser_euk_1wleb_B_taurus,
+		  69 ser_arch_2cjab_M_barkeri,
+		  70 ser_bact_d1sera_T_thermophilus,
+		  71 thr_arch_3a32_A_pernix,
+		  72 thr_bact_d1evka_E_coli,
+		  73 thr_bact_d1nyra_S_aureus
+;
+tree STATE_0 = ((((((1[&rate=1.1567887251429612]:0.10000000000002274,(2[&rate=1.1351911943569293]:0.10000000000002274,(3[&rate=1.0010968743782633]:0.10000000000002274,4[&rate=0.8994255321715997]:0.10000000000002274)[&rate=0.9872408557846626]:0.0)[&rate=0.9941468288934987]:0.0)[&rate=1.0045991439166018]:100.0,(5[&rate=0.8056077549886482]:0.10000000000002274,6[&rate=1.1073581563645392]:0.10000000000002274)[&rate=1.0500558503393012]:100.0)[&rate=1.0565239893663931]:100.0,((7[&rate=0.8912640430165935]:0.10000000000002274,8[&rate=0.9521528778134805]:0.10000000000002274)[&rate=1.030066565048494]:100.0,(9[&rate=1.1262778845499486]:0.10000000000002274,(10[&rate=0.8259069305184094]:0.10000000000002274,(11[&rate=1.0398013352884192]:0.10000000000002274,12[&rate=0.9734259459426857]:0.10000000000002274)[&rate=0.8399663688772067]:0.0)[&rate=1.0632819443747552]:0.0)[&rate=1.1306135578389773]:100.0)[&rate=1.0632819443747552]:100.0)[&rate=0.9184964799497455]:100.0,(((13[&rate=0.8756748288438371]:0.10000000000002274,14[&rate=1.1108378504738303]:0.10000000000002274)[&rate=0.8684292329879594]:100.0,(15[&rate=0.8756748288438371]:0.10000000000002274,16[&rate=1.013470389408947]:0.10000000000002274)[&rate=1.1987426151367064]:100.0)[&rate=0.9976142183931868]:100.0,((17[&rate=1.0543381417054294]:0.10000000000002274,(18[&rate=0.879045790857186]:0.10000000000002274,(19[&rate=0.9484756306052696]:0.10000000000002274,(20[&rate=0.983793863512332]:0.10000000000002274,21[&rate=1.100757981996311]:0.10000000000002274)[&rate=1.0045991439166018]:0.0)[&rate=0.9993533688367591]:0.0)[&rate=1.0398013352884192]:0.0)[&rate=1.1306135578389773]:100.0,35[&rate=1.0063590254715566]:100.10000000000002)[&rate=0.983793863512332]:100.0)[&rate=1.052182645879825]:100.0)[&rate=1.0152692194970423]:100.0,((22[&rate=0.9270346355117612]:0.10000000000002274,(23[&rate=0.9716882941986994]:0.10000000000002274,(24[&rate=1.0010968743782633]:0.10000000000002274,(25[&rate=0.8510377930318432]:0.10000000000002274,26[&rate=0.9370822089358423]:0.10000000000002274)[&rate=0.9976142183931868]:0.0)[&rate=0.9664473049882447]:0.0)[&rate=1.065608188080864]:0.0)[&rate=0.9976142183931868]:100.0,(27[&rate=0.8883723842158132]:0.10000000000002274,(28[&rate=1.013470389408947]:0.10000000000002274,(29[&rate=0.9290936807948381]:0.10000000000002274,(30[&rate=0.9593707163910401]:0.10000000000002274,(31[&rate=0.992417525227134]:0.10000000000002274,(32[&rate=1.0116805756940495]:0.10000000000002274,(33[&rate=0.9351191096019683]:0.10000000000002274,34[&rate=1.065608188080864]:0.10000000000002274)[&rate=1.0063590254715566]:0.0)[&rate=0.9575813231603978]:0.0)[&rate=0.8721436870464965]:0.0)[&rate=1.008125499018437]:0.0)[&rate=1.013470389408947]:0.0)[&rate=1.0188965326227486]:0.0)[&rate=1.2119112779257533]:100.0)[&rate=0.9228300809880815]:300.0)[&rate=0.9045102386700642]:300.0,(((36[&rate=1.0859247414997173]:0.10000000000002274,(37[&rate=1.1987426151367064]:0.10000000000002274,(38[&rate=1.3033653758226265]:0.10000000000002274,39[&rate=0.8056077549886482]:0.10000000000002274)[&rate=1.3033653758226265]:0.0)[&rate=1.1144536360426238]:0.0)[&rate=0.8822755769144732]:100.0,(60[&rate=0.8259069305184094]:0.10000000000002274,(61[&rate=1.0543381417054294]:0.10000000000002274,62[&rate=1.0378172577131894]:0.10000000000002274)[&rate=0.9664473049882447]:0.0)[&rate=1.1452244462376369]:100.0)[&rate=0.9716882941986994]:300.0,((((40[&rate=0.9768907351368818]:0.10000000000002274,(41[&rate=1.0703849935485277]:0.10000000000002274,42[&rate=1.0063590254715566]:0.10000000000002274)[&rate=0.9019994699956689]:0.0)[&rate=0.9993533688367591]:100.0,(43[&rate=0.9575813231603978]:0.10000000000002274,(44[&rate=0.8510377930318432]:0.10000000000002274,(45[&rate=0.9484756306052696]:0.10000000000002274,(46[&rate=1.0262891965602965]:0.10000000000002274,47[&rate=1.1507809056133824]:0.10000000000002274)[&rate=0.9768907351368818]:0.0)[&rate=1.1108378504738303]:0.0)[&rate=1.052182645879825]:0.0)[&rate=0.8994255321715997]:100.0)[&rate=1.0045991439166018]:100.0,((68[&rate=0.9716882941986994]:0.10000000000002274,(69[&rate=1.0632819443747552]:0.10000000000002274,70[&rate=0.985517297863991]:0.10000000000002274)[&rate=1.008125499018437]:0.0)[&rate=0.8967827506222017]:100.0,(71[&rate=1.013470389408947]:0.10000000000002274,(72[&rate=0.9466169061456847]:0.10000000000002274,73[&rate=0.9069628762872797]:0.10000000000002274)[&rate=0.8994255321715997]:0.0)[&rate=1.035852756216568]:100.0)[&rate=0.879045790857186]:100.0)[&rate=1.030066565048494]:100.0,(((48[&rate=1.0887303028672815]:0.10000000000002274,49[&rate=0.9557824003532178]:0.10000000000002274)[&rate=0.9069628762872797]:100.0,(63[&rate=1.2289477448775534]:0.10000000000002274,(64[&rate=1.0438326529458304]:0.10000000000002274,(65[&rate=0.9646889366734173]:0.10000000000002274,(66[&rate=1.1262778845499486]:0.10000000000002274,67[&rate=0.8756748288438371]:0.10000000000002274)[&rate=0.9069628762872797]:0.0)[&rate=0.931126347989808]:0.0)[&rate=1.067975020375177]:0.0)[&rate=1.1306135578389773]:100.0)[&rate=1.0010968743782633]:100.0,((50[&rate=0.9958788832542064]:0.10000000000002274,(51[&rate=1.0378172577131894]:0.10000000000002274,(52[&rate=0.9611513152089913]:0.10000000000002274,(53[&rate=0.969946368004524]:0.10000000000002274,(54[&rate=0.9093618788250603]:0.10000000000002274,55[&rate=0.9351191096019683]:0.10000000000002274)[&rate=1.0418060825933284]:0.0)[&rate=1.1351911943569293]:0.0)[&rate=1.0152692194970423]:0.0)[&rate=0.9390249622836628]:0.0)[&rate=0.9906904450640716]:100.0,(56[&rate=0.8399663688772067]:0.10000000000002274,(57[&rate=1.035852756216568]:0.10000000000002274,(58[&rate=0.9370822089358423]:0.10000000000002274,59[&rate=1.2119112779257533]:0.10000000000002274)[&rate=0.9941468288934987]:0.0)[&rate=1.2536999432029328]:0.0)[&rate=1.067975020375177]:100.0)[&rate=0.8912640430165935]:100.0)[&rate=0.9466169061456847]:100.0)[&rate=1.0028452813191902]:100.0)[&rate=1.0458822648544575]:300.0)[&rate=1.0]:0.0;
