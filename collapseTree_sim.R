@@ -44,16 +44,34 @@ trees <- trees[0:1]
 
 ct <- list()
 
-cnames <- c("tyr_", "met_", "trp_", "lys_", "leu_", "val_", "ile_", "glu_", "gln_", "arg_", "cys_", 
-"ala_", "asp_", "asn_", "pro_", "phe_", "ser_", "thr_", "his_", "gly_")
+cnames <- c("AARS_Y_", "AARS_M_", "AARS_W_", "AARS_K_", "AARS_L_", "AARS_V_", "AARS_I_", "AARS_E_", "AARS_Q_", "AARS_R_", 
+"AARS_C_", "AARS_A_", "AARS_D_", "AARS_N_", "AARS_P_", "AARS_F_", "AARS_S_", "AARS_T_", "AARS_H_", "AARS_G_")
 
 for (i in 1:length(trees)) {
 	tree <- trees[[i]]
 	
 	# funky things!
-	tree$tip.label <- gsub("try_", "tyr_", tree$tip.label)
-	tree$tip.label <- gsub("lysi_", "lys_", tree$tip.label)
-	#tree <- drop.tip(tree, grep("gln_", tree$tip.label))
+	#tree$tip.label <- gsub("AARS_R_", "arg_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_Y_", "tyr_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_K_", "lys_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_M_", "met_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_W_", "trp_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_L_", "leu_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_V_", "val_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_I_", "ile_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_E_", "glu_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_Q_", "gln_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_R_", "arg_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_C_", "cys_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_A_", "ala_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_D_", "asp_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_N_", "asn_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_P_", "pro_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_F_", "phe_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_S_", "ser_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_T_", "thr_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_H_", "his_", tree$tip.label)
+	#tree$tip.label <- gsub("AARS_G_", "gly_", tree$tip.label)
 		
 	coltree <- tree	
 	for (j in 1:length(cnames)) {
