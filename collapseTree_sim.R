@@ -38,40 +38,41 @@ collapse_tree <- function(tree, matchString) {
     return (collapsed)
 }
 
-trees <- read.nexus(file="~/IterativeSubstitutionMatrix_sim1_consensus.tree")
+trees <- read.nexus(file="~/NormalBEAST2_sim1_compared.tree")
 
 trees <- trees[0:1]
 
 ct <- list()
 
 cnames <- c("AARS_Y_", "AARS_M_", "AARS_W_", "AARS_K_", "AARS_L_", "AARS_V_", "AARS_I_", "AARS_E_", "AARS_Q_", "AARS_R_", 
-"AARS_C_", "AARS_A_", "AARS_D_", "AARS_N_", "AARS_P_", "AARS_F_", "AARS_S_", "AARS_T_", "AARS_H_", "AARS_G_")
+"AARS_C_", "AARS_A_", "AARS_D_", "AARS_N_", "AARS_P_", "AARS_F_", "AARS_S_", "AARS_T_", "AARS_H_", "AARS_G_","tyr", "met", "trp", "lys", "leu", "val", "ile", "glu", "gln", "arg", 
+"cys", "ala", "asp", "asn", "pro", "phe", "ser", "thr", "his", "gly")
 
 for (i in 1:length(trees)) {
 	tree <- trees[[i]]
 	
 	# funky things!
-	#tree$tip.label <- gsub("AARS_R_", "arg_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_Y_", "tyr_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_K_", "lys_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_M_", "met_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_W_", "trp_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_L_", "leu_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_V_", "val_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_I_", "ile_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_E_", "glu_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_Q_", "gln_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_R_", "arg_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_C_", "cys_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_A_", "ala_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_D_", "asp_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_N_", "asn_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_P_", "pro_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_F_", "phe_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_S_", "ser_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_T_", "thr_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_H_", "his_", tree$tip.label)
-	#tree$tip.label <- gsub("AARS_G_", "gly_", tree$tip.label)
+	tree$tip.label <- gsub("AARS_R_", "arg", tree$tip.label)
+	tree$tip.label <- gsub("AARS_Y_", "tyr", tree$tip.label)
+	tree$tip.label <- gsub("AARS_K_", "lys", tree$tip.label)
+	tree$tip.label <- gsub("AARS_M_", "met", tree$tip.label)
+	tree$tip.label <- gsub("AARS_W_", "trp", tree$tip.label)
+	tree$tip.label <- gsub("AARS_L_", "leu", tree$tip.label)
+	tree$tip.label <- gsub("AARS_V_", "val", tree$tip.label)
+	tree$tip.label <- gsub("AARS_I_", "ile", tree$tip.label)
+	tree$tip.label <- gsub("AARS_E_", "glu", tree$tip.label)
+	tree$tip.label <- gsub("AARS_Q_", "gln", tree$tip.label)
+	tree$tip.label <- gsub("AARS_C_", "cys", tree$tip.label)
+	tree$tip.label <- gsub("AARS_A_", "ala", tree$tip.label)
+	tree$tip.label <- gsub("AARS_D_", "asp", tree$tip.label)
+	tree$tip.label <- gsub("AARS_N_", "asn", tree$tip.label)
+	tree$tip.label <- gsub("AARS_P_", "pro", tree$tip.label)
+	tree$tip.label <- gsub("AARS_F_", "phe", tree$tip.label)
+	tree$tip.label <- gsub("AARS_S_", "ser", tree$tip.label)
+	tree$tip.label <- gsub("AARS_T_", "thr", tree$tip.label)
+	tree$tip.label <- gsub("AARS_H_", "his", tree$tip.label)
+	tree$tip.label <- gsub("AARS_G_", "gly", tree$tip.label)
+	
 		
 	coltree <- tree	
 	for (j in 1:length(cnames)) {
@@ -79,6 +80,7 @@ for (i in 1:length(trees)) {
 	  coltree <- collapse_tree(coltree, cnames[j])
 	}
 	ct[[i]] <- coltree
+	write.tree(ct[[i]],file="NormalBEAST2_sim1_compared_collapsed.tree")
 }
 
 plot(ct[[1]])
