@@ -1,0 +1,52 @@
+#NEXUS
+
+Begin taxa;
+	Dimensions ntax=20;
+		Taxlabels
+			A 
+			C 
+			D 
+			E 
+			F 
+			G 
+			H 
+			I 
+			K 
+			L 
+			M 
+			N 
+			P 
+			Q 
+			R 
+			S 
+			T 
+			V 
+			W 
+			Y
+			;
+End;
+Begin trees;
+	Translate
+		   1 A,
+		   2 C,
+		   3 D,
+		   4 E,
+		   5 F,
+		   6 G,
+		   7 H,
+		   8 I,
+		   9 K,
+		  10 L,
+		  11 M,
+		  12 N,
+		  13 P,
+		  14 Q,
+		  15 R,
+		  16 S,
+		  17 T,
+		  18 V,
+		  19 W,
+		  20 Y
+;
+tree TREE1 = (((((1[&height=1.2000000992884452E-9,length=2.976687614]:91.0,5[&height=5.200000430249929E-10,length=2.655988175]:91.0)[&posterior=0.0]:5.0,7[&height=9.000000744663339E-10,length=4.18181665]:96.0)[&posterior=0.0]:24.0,((9[&height=1.2000000992884452E-9,length=3.047703157]:95.0,13[&height=1.200000987466865E-9,length=2.3297677179999994]:95.0)[&posterior=0.0]:16.0,16[&height=1.2000000992884452E-9,length=2.38953171]:111.0)[&posterior=0.0]:9.0)[&posterior=0.0]:3.0,(((3[&height=2.000000165480742E-10,length=2.217382445]:104.0,12[&height=6.2000005129903E-10,length=2.446331479]:104.0)[&posterior=0.0]:5.0,17[&height=3.80000031441341E-10,length=2.155671714]:109.0)[&posterior=0.0]:12.0,6[&height=9.000000744663339E-10,length=4.18181665]:121.0)[&posterior=0.0]:2.0)[&posterior=0.0]:0.0,(((2[&height=1.200000987466865E-9,length=2.3297677179999994]:46.0,10[&height=1.2000000992884452E-9,length=2.38953171]:46.0)[&posterior=0.0]:41.0,(11[&height=5.200000430249929E-10,length=2.655988175]:28.0,18[&height=1.2000000992884452E-9,length=2.711667129]:28.0)[&posterior=0.0]:59.0)[&posterior=0.0]:24.0,((4[&height=3.000000248221113E-10,length=2.514838727]:26.0,19[&height=6.2000005129903E-10,length=2.446331479]:26.0)[&posterior=0.0]:56.0,((8[&height=9.000000744663339E-10,length=2.363766085]:55.0,(14[&height=3.80000031441341E-10,length=2.155671714]:40.0,20[&height=0.0,length=2.237525026]:40.0)[&posterior=0.0]:15.0)[&posterior=0.0]:3.0,15[&height=2.000000165480742E-10,length=2.217382445]:58.0)[&posterior=0.0]:24.0)[&posterior=0.0]:29.0)[&posterior=0.0]:12.0)[&height=4.8989844127,length=0.0,posterior=1.0]:0.0;
+End;
