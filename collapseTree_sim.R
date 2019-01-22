@@ -38,7 +38,7 @@ collapse_tree <- function(tree, matchString) {
     return (collapsed)
 }
 
-trees <- read.nexus(file="~/NormalBEAST2_sim1_compared.tree")
+trees <- read.nexus(file="~/IterativeSubstitutionMatrix_sim2_consensus.tree")
 
 trees <- trees[0:1]
 
@@ -80,7 +80,7 @@ for (i in 1:length(trees)) {
 	  coltree <- collapse_tree(coltree, cnames[j])
 	}
 	ct[[i]] <- coltree
-	write.tree(ct[[i]],file="NormalBEAST2_sim1_compared_collapsed.tree")
+	#write.tree(ct[[i]],file="NormalBEAST2_sim1_compared_collapsed.tree")
 }
 
 plot(ct[[1]])
