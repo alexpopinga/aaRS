@@ -1,0 +1,600 @@
+cat itsub_sim1.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim1.tree | grep -oh "posterior=1" | wc -w; 
+       1
+      18
+cat itsub_sim2.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim2.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat itsub_sim3.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim3.tree | grep -oh "posterior=1" | wc -w; 
+       8
+      11
+cat itsub_sim4.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim4.tree | grep -oh "posterior=1" | wc -w; 
+       4
+      15
+cat itsub_sim5.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim5.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat itsub_sim6.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim6.tree | grep -oh "posterior=1" | wc -w; 
+       1
+      18
+cat itsub_sim7.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim7.tree | grep -oh "posterior=1" | wc -w; 
+      10
+       9
+cat itsub_sim8.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim8.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat itsub_sim9.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim9.tree | grep -oh "posterior=1" | wc -w; 
+       5
+      14
+cat itsub_sim10.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim10.tree | grep -oh "posterior=1" | wc -w; 
+       0
+      19
+cat itsub_sim11.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim11.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat itsub_sim12.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim12.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat itsub_sim13.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim13.tree | grep -oh "posterior=1" | wc -w; 
+       9
+      10
+cat itsub_sim14.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim14.tree | grep -oh "posterior=1" | wc -w; 
+       6
+      13
+cat itsub_sim15.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim15.tree | grep -oh "posterior=1" | wc -w; 
+      10
+       9
+cat itsub_sim16.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim16.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat itsub_sim17.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim17.tree | grep -oh "posterior=1" | wc -w; 
+      10
+       9
+cat itsub_sim18.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim18.tree | grep -oh "posterior=1" | wc -w; 
+       2
+      17
+cat itsub_sim19.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim19.tree | grep -oh "posterior=1" | wc -w; 
+       6
+      13
+cat itsub_sim20.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim20.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat itsub_sim21.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim21.tree | grep -oh "posterior=1" | wc -w; 
+       1
+      18
+cat itsub_sim22.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim22.tree | grep -oh "posterior=1" | wc -w; 
+       0
+      19
+cat itsub_sim23.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim23.tree | grep -oh "posterior=1" | wc -w; 
+       9
+      10
+cat itsub_sim24.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim24.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat itsub_sim25.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim25.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat itsub_sim26.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim26.tree | grep -oh "posterior=1" | wc -w; 
+       5
+      14
+cat itsub_sim27.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim27.tree | grep -oh "posterior=1" | wc -w; 
+       0
+      19
+cat itsub_sim28.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim28.tree | grep -oh "posterior=1" | wc -w; 
+       6
+      13
+cat itsub_sim29.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim29.tree | grep -oh "posterior=1" | wc -w; 
+       3
+      16
+cat itsub_sim30.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim30.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat itsub_sim31.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim31.tree | grep -oh "posterior=1" | wc -w; 
+      10
+       9
+cat itsub_sim32.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim32.tree | grep -oh "posterior=1" | wc -w; 
+       9
+      10
+cat itsub_sim33.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim33.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat itsub_sim34.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim34.tree | grep -oh "posterior=1" | wc -w; 
+      10
+       9
+cat itsub_sim35.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim35.tree | grep -oh "posterior=1" | wc -w; 
+      16
+       3
+cat itsub_sim36.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim36.tree | grep -oh "posterior=1" | wc -w; 
+       7
+      12
+cat itsub_sim37.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim37.tree | grep -oh "posterior=1" | wc -w; 
+       1
+      18
+cat itsub_sim38.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim38.tree | grep -oh "posterior=1" | wc -w; 
+      10
+       9
+cat itsub_sim39.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim39.tree | grep -oh "posterior=1" | wc -w; 
+       8
+      11
+cat itsub_sim40.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim40.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat itsub_sim41.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim41.tree | grep -oh "posterior=1" | wc -w; 
+       7
+      12
+cat itsub_sim42.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim42.tree | grep -oh "posterior=1" | wc -w; 
+       6
+      13
+cat itsub_sim43.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim43.tree | grep -oh "posterior=1" | wc -w; 
+       7
+      12
+cat itsub_sim44.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim44.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat itsub_sim45.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim45.tree | grep -oh "posterior=1" | wc -w; 
+       0
+      19
+cat itsub_sim46.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim46.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat itsub_sim47.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim47.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat itsub_sim48.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim48.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat itsub_sim49.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim49.tree | grep -oh "posterior=1" | wc -w; 
+       6
+      13
+cat itsub_sim50.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim50.tree | grep -oh "posterior=1" | wc -w; 
+       4
+      15
+cat itsub_sim51.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim51.tree | grep -oh "posterior=1" | wc -w; 
+       9
+      10
+cat itsub_sim52.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim52.tree | grep -oh "posterior=1" | wc -w; 
+      10
+       9
+cat itsub_sim53.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim53.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat itsub_sim54.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim54.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat itsub_sim55.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim55.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat itsub_sim56.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim56.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat itsub_sim57.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim57.tree | grep -oh "posterior=1" | wc -w; 
+       0
+      19
+cat itsub_sim58.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim58.tree | grep -oh "posterior=1" | wc -w; 
+	  11
+       8
+cat itsub_sim59.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim59.tree | grep -oh "posterior=1" | wc -w; 
+       3
+      16
+cat itsub_sim60.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim60.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat itsub_sim61.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim61.tree | grep -oh "posterior=1" | wc -w; 
+       7
+      12
+cat itsub_sim62.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim62.tree | grep -oh "posterior=1" | wc -w; 
+      10
+       9
+cat itsub_sim63.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim63.tree | grep -oh "posterior=1" | wc -w; 
+      16
+       3
+cat itsub_sim64.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim64.tree | grep -oh "posterior=1" | wc -w; 
+       1
+      18
+cat itsub_sim65.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim65.tree | grep -oh "posterior=1" | wc -w; 
+	   3
+      16
+cat itsub_sim66.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim66.tree | grep -oh "posterior=1" | wc -w; 
+       9
+      10
+cat itsub_sim67.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim67.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat itsub_sim68.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim68.tree | grep -oh "posterior=1" | wc -w; 
+       9
+      10
+cat itsub_sim69.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim69.tree | grep -oh "posterior=1" | wc -w; 
+       5
+      14
+cat itsub_sim70.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim70.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat itsub_sim71.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim71.tree | grep -oh "posterior=1" | wc -w; 
+       9
+      10
+cat itsub_sim72.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim72.tree | grep -oh "posterior=1" | wc -w; 
+       3
+      16
+cat itsub_sim73.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim73.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat itsub_sim74.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim74.tree | grep -oh "posterior=1" | wc -w; 
+      16
+       3
+cat itsub_sim75.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim75.tree | grep -oh "posterior=1" | wc -w; 
+       7
+      12
+cat itsub_sim76.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim76.tree | grep -oh "posterior=1" | wc -w; 
+       8
+      11
+cat itsub_sim77.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim77.tree | grep -oh "posterior=1" | wc -w; 
+       1
+      18
+cat itsub_sim78.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim78.tree | grep -oh "posterior=1" | wc -w; 
+       3
+      16
+cat itsub_sim79.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim79.tree | grep -oh "posterior=1" | wc -w; 
+       8
+      11
+cat itsub_sim80.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim80.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat itsub_sim81.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim81.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat itsub_sim82.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim82.tree | grep -oh "posterior=1" | wc -w; 
+      17
+       2
+cat itsub_sim83.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim83.tree | grep -oh "posterior=1" | wc -w; 
+       0
+      19
+cat itsub_sim84.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim84.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat itsub_sim85.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim85.tree | grep -oh "posterior=1" | wc -w; 
+       8
+      11
+cat itsub_sim86.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim86.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat itsub_sim87.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim87.tree | grep -oh "posterior=1" | wc -w; 
+       3
+      16
+cat itsub_sim88.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim88.tree | grep -oh "posterior=1" | wc -w; 
+       3
+      16
+cat itsub_sim89.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim89.tree | grep -oh "posterior=1" | wc -w; 
+       5
+      14
+cat itsub_sim90.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim90.tree | grep -oh "posterior=1" | wc -w; 
+       1
+      18
+cat itsub_sim91.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim91.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat itsub_sim92.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim92.tree | grep -oh "posterior=1" | wc -w; 
+       6
+      13
+cat itsub_sim93.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim93.tree | grep -oh "posterior=1" | wc -w; 
+       0
+      19
+cat itsub_sim94.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim94.tree | grep -oh "posterior=1" | wc -w; 
+      38
+       1
+cat itsub_sim95.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim95.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat itsub_sim96.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim96.tree | grep -oh "posterior=1" | wc -w; 
+       4
+      15
+cat itsub_sim97.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim97.tree | grep -oh "posterior=1" | wc -w; 
+       3
+      16
+cat itsub_sim98.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim98.tree | grep -oh "posterior=1" | wc -w; 
+       5
+      14
+cat itsub_sim99.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim99.tree | grep -oh "posterior=1" | wc -w; 
+       8
+      11
+cat itsub_sim100.tree | grep -oh "posterior=0" | wc -w; cat itsub_sim100.tree | grep -oh "posterior=1" | wc -w; 
+       7
+      12
+      
+cat norm_sim1.tree | grep -oh "posterior=0" | wc -w; cat norm_sim1.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat norm_sim2.tree | grep -oh "posterior=0" | wc -w; cat norm_sim2.tree | grep -oh "posterior=1" | wc -w; 
+      17
+       2
+cat norm_sim3.tree | grep -oh "posterior=0" | wc -w; cat norm_sim3.tree | grep -oh "posterior=1" | wc -w; 
+      18
+       1
+cat norm_sim4.tree | grep -oh "posterior=0" | wc -w; cat norm_sim4.tree | grep -oh "posterior=1" | wc -w; 
+      18
+       1
+cat norm_sim5.tree | grep -oh "posterior=0" | wc -w; cat norm_sim5.tree | grep -oh "posterior=1" | wc -w; 
+      18
+       1
+cat norm_sim6.tree | grep -oh "posterior=0" | wc -w; cat norm_sim6.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim7.tree | grep -oh "posterior=0" | wc -w; cat norm_sim7.tree | grep -oh "posterior=1" | wc -w; 
+      16
+       3
+cat norm_sim8.tree | grep -oh "posterior=0" | wc -w; cat norm_sim8.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat norm_sim9.tree | grep -oh "posterior=0" | wc -w; cat norm_sim9.tree | grep -oh "posterior=1" | wc -w; 
+      10
+       9
+cat norm_sim10.tree | grep -oh "posterior=0" | wc -w; cat norm_sim10.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat norm_sim11.tree | grep -oh "posterior=0" | wc -w; cat norm_sim11.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim12.tree | grep -oh "posterior=0" | wc -w; cat norm_sim12.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim13.tree | grep -oh "posterior=0" | wc -w; cat norm_sim13.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat norm_sim14.tree | grep -oh "posterior=0" | wc -w; cat norm_sim14.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim15.tree | grep -oh "posterior=0" | wc -w; cat norm_sim15.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim16.tree | grep -oh "posterior=0" | wc -w; cat norm_sim16.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat norm_sim17.tree | grep -oh "posterior=0" | wc -w; cat norm_sim17.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat norm_sim18.tree | grep -oh "posterior=0" | wc -w; cat norm_sim18.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat norm_sim19.tree | grep -oh "posterior=0" | wc -w; cat norm_sim19.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat norm_sim20.tree | grep -oh "posterior=0" | wc -w; cat norm_sim20.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat norm_sim21.tree | grep -oh "posterior=0" | wc -w; cat norm_sim21.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat norm_sim22.tree | grep -oh "posterior=0" | wc -w; cat norm_sim22.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat norm_sim23.tree | grep -oh "posterior=0" | wc -w; cat norm_sim23.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat norm_sim24.tree | grep -oh "posterior=0" | wc -w; cat norm_sim24.tree | grep -oh "posterior=1" | wc -w; 
+      18
+       1
+cat norm_sim25.tree | grep -oh "posterior=0" | wc -w; cat norm_sim25.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat norm_sim26.tree | grep -oh "posterior=0" | wc -w; cat norm_sim26.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim27.tree | grep -oh "posterior=0" | wc -w; cat norm_sim27.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat norm_sim28.tree | grep -oh "posterior=0" | wc -w; cat norm_sim28.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat norm_sim29.tree | grep -oh "posterior=0" | wc -w; cat norm_sim29.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat norm_sim30.tree | grep -oh "posterior=0" | wc -w; cat norm_sim30.tree | grep -oh "posterior=1" | wc -w; 
+      12
+	   7
+cat norm_sim31.tree | grep -oh "posterior=0" | wc -w; cat norm_sim31.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim32.tree | grep -oh "posterior=0" | wc -w; cat norm_sim32.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat norm_sim33.tree | grep -oh "posterior=0" | wc -w; cat norm_sim33.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat norm_sim34.tree | grep -oh "posterior=0" | wc -w; cat norm_sim34.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat norm_sim35.tree | grep -oh "posterior=0" | wc -w; cat norm_sim35.tree | grep -oh "posterior=1" | wc -w; 
+      17
+       2
+cat norm_sim36.tree | grep -oh "posterior=0" | wc -w; cat norm_sim36.tree | grep -oh "posterior=1" | wc -w; 
+      10
+       9
+cat norm_sim37.tree | grep -oh "posterior=0" | wc -w; cat norm_sim37.tree | grep -oh "posterior=1" | wc -w; 
+      10
+       9
+cat norm_sim38.tree | grep -oh "posterior=0" | wc -w; cat norm_sim38.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat norm_sim39.tree | grep -oh "posterior=0" | wc -w; cat norm_sim39.tree | grep -oh "posterior=1" | wc -w; 
+      10
+       9
+cat norm_sim40.tree | grep -oh "posterior=0" | wc -w; cat norm_sim40.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat norm_sim41.tree | grep -oh "posterior=0" | wc -w; cat norm_sim41.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat norm_sim42.tree | grep -oh "posterior=0" | wc -w; cat norm_sim42.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim43.tree | grep -oh "posterior=0" | wc -w; cat norm_sim43.tree | grep -oh "posterior=1" | wc -w; 
+	  13
+       6
+cat norm_sim44.tree | grep -oh "posterior=0" | wc -w; cat norm_sim44.tree | grep -oh "posterior=1" | wc -w; 
+      16
+       3
+cat norm_sim45.tree | grep -oh "posterior=0" | wc -w; cat norm_sim45.tree | grep -oh "posterior=1" | wc -w; 
+       9
+      10
+cat norm_sim46.tree | grep -oh "posterior=0" | wc -w; cat norm_sim46.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim47.tree | grep -oh "posterior=0" | wc -w; cat norm_sim47.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat norm_sim48.tree | grep -oh "posterior=0" | wc -w; cat norm_sim48.tree | grep -oh "posterior=1" | wc -w; 
+       9
+      10
+cat norm_sim49.tree | grep -oh "posterior=0" | wc -w; cat norm_sim49.tree | grep -oh "posterior=1" | wc -w; 
+       6
+	  13
+cat norm_sim50.tree | grep -oh "posterior=0" | wc -w; cat norm_sim50.tree | grep -oh "posterior=1" | wc -w; 
+      10
+       9
+cat norm_sim51.tree | grep -oh "posterior=0" | wc -w; cat norm_sim51.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat norm_sim52.tree | grep -oh "posterior=0" | wc -w; cat norm_sim52.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat norm_sim53.tree | grep -oh "posterior=0" | wc -w; cat norm_sim53.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat norm_sim54.tree | grep -oh "posterior=0" | wc -w; cat norm_sim54.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat norm_sim55.tree | grep -oh "posterior=0" | wc -w; cat norm_sim55.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim56.tree | grep -oh "posterior=0" | wc -w; cat norm_sim56.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat norm_sim57.tree | grep -oh "posterior=0" | wc -w; cat norm_sim57.tree | grep -oh "posterior=1" | wc -w; 
+      17
+       2
+cat norm_sim58.tree | grep -oh "posterior=0" | wc -w; cat norm_sim58.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim59.tree | grep -oh "posterior=0" | wc -w; cat norm_sim59.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim60.tree | grep -oh "posterior=0" | wc -w; cat norm_sim60.tree | grep -oh "posterior=1" | wc -w; 
+      16
+       3
+cat norm_sim61.tree | grep -oh "posterior=0" | wc -w; cat norm_sim61.tree | grep -oh "posterior=1" | wc -w; 
+       7
+      12
+cat norm_sim62.tree | grep -oh "posterior=0" | wc -w; cat norm_sim62.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat norm_sim63.tree | grep -oh "posterior=0" | wc -w; cat norm_sim63.tree | grep -oh "posterior=1" | wc -w; 
+	  16
+       3
+cat norm_sim64.tree | grep -oh "posterior=0" | wc -w; cat norm_sim64.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat norm_sim65.tree | grep -oh "posterior=0" | wc -w; cat norm_sim65.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat norm_sim66.tree | grep -oh "posterior=0" | wc -w; cat norm_sim66.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat norm_sim67.tree | grep -oh "posterior=0" | wc -w; cat norm_sim67.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat norm_sim68.tree | grep -oh "posterior=0" | wc -w; cat norm_sim68.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim69.tree | grep -oh "posterior=0" | wc -w; cat norm_sim69.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat norm_sim70.tree | grep -oh "posterior=0" | wc -w; cat norm_sim70.tree | grep -oh "posterior=1" | wc -w; 
+	  15
+       4
+cat norm_sim71.tree | grep -oh "posterior=0" | wc -w; cat norm_sim71.tree | grep -oh "posterior=1" | wc -w; 
+      15
+       4
+cat norm_sim72.tree | grep -oh "posterior=0" | wc -w; cat norm_sim72.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat norm_sim73.tree | grep -oh "posterior=0" | wc -w; cat norm_sim73.tree | grep -oh "posterior=1" | wc -w; 
+      10
+       9
+cat norm_sim74.tree | grep -oh "posterior=0" | wc -w; cat norm_sim74.tree | grep -oh "posterior=1" | wc -w; 
+      16
+       3
+cat norm_sim75.tree | grep -oh "posterior=0" | wc -w; cat norm_sim75.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat norm_sim76.tree | grep -oh "posterior=0" | wc -w; cat norm_sim76.tree | grep -oh "posterior=1" | wc -w; 
+      10
+       9
+cat norm_sim77.tree | grep -oh "posterior=0" | wc -w; cat norm_sim77.tree | grep -oh "posterior=1" | wc -w; 
+       9
+      10
+cat norm_sim78.tree | grep -oh "posterior=0" | wc -w; cat norm_sim78.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat norm_sim79.tree | grep -oh "posterior=0" | wc -w; cat norm_sim79.tree | grep -oh "posterior=1" | wc -w; 
+      17
+       2
+cat norm_sim80.tree | grep -oh "posterior=0" | wc -w; cat norm_sim80.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat norm_sim81.tree | grep -oh "posterior=0" | wc -w; cat norm_sim81.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat norm_sim82.tree | grep -oh "posterior=0" | wc -w; cat norm_sim82.tree | grep -oh "posterior=1" | wc -w; 
+      16
+       3
+cat norm_sim83.tree | grep -oh "posterior=0" | wc -w; cat norm_sim83.tree | grep -oh "posterior=1" | wc -w; 
+      13
+cat norm_sim84.tree | grep -oh "posterior=0" | wc -w; cat norm_sim84.tree | grep -oh "posterior=1" | wc -w; 
+      17
+       2
+cat norm_sim85.tree | grep -oh "posterior=0" | wc -w; cat norm_sim85.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim86.tree | grep -oh "posterior=0" | wc -w; cat norm_sim86.tree | grep -oh "posterior=1" | wc -w; 
+       9
+      10
+cat norm_sim87.tree | grep -oh "posterior=0" | wc -w; cat norm_sim87.tree | grep -oh "posterior=1" | wc -w; 
+      16
+       3
+cat norm_sim88.tree | grep -oh "posterior=0" | wc -w; cat norm_sim88.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat norm_sim89.tree | grep -oh "posterior=0" | wc -w; cat norm_sim89.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat norm_sim90.tree | grep -oh "posterior=0" | wc -w; cat norm_sim90.tree | grep -oh "posterior=1" | wc -w; 
+14
+       5
+cat norm_sim91.tree | grep -oh "posterior=0" | wc -w; cat norm_sim91.tree | grep -oh "posterior=1" | wc -w; 
+      16
+       3
+cat norm_sim92.tree | grep -oh "posterior=0" | wc -w; cat norm_sim92.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat norm_sim93.tree | grep -oh "posterior=0" | wc -w; cat norm_sim93.tree | grep -oh "posterior=1" | wc -w; 
+      12
+       7
+cat norm_sim94.tree | grep -oh "posterior=0" | wc -w; cat norm_sim94.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim95.tree | grep -oh "posterior=0" | wc -w; cat norm_sim95.tree | grep -oh "posterior=1" | wc -w; 
+      11
+       8
+cat norm_sim96.tree | grep -oh "posterior=0" | wc -w; cat norm_sim96.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim97.tree | grep -oh "posterior=0" | wc -w; cat norm_sim97.tree | grep -oh "posterior=1" | wc -w; 
+      13
+       6
+cat norm_sim98.tree | grep -oh "posterior=0" | wc -w; cat norm_sim98.tree | grep -oh "posterior=1" | wc -w; 
+      17
+       2
+cat norm_sim99.tree | grep -oh "posterior=0" | wc -w; cat norm_sim99.tree | grep -oh "posterior=1" | wc -w; 
+      14
+       5
+cat norm_sim100.tree | grep -oh "posterior=0" | wc -w; cat norm_sim100.tree | grep -oh "posterior=1" | wc -w; 
+      16
+       3
