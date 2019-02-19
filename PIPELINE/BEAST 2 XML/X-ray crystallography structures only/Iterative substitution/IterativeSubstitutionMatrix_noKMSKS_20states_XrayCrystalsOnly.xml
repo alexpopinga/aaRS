@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" version="2.0">
+
+
+<data id="AARS" name="alignment">
+	<userDataType spec='beast.evolution.datatype.TwentyState' symbolOrder='VGADPESLRTIQNCYHMWKF'/>
+                    <sequence id="seq_arg_euk_1f7u_S_cerevisiae" taxon="arg_euk_1f7u_S_cerevisiae" totalcount="20" value="IIEFSPNIAKPFHAGHLRSTIIGGFLANLIRMNYLGDWGEFSIEKYIDTYARLDVYSGESQLYLTRDVGAAMIYVIASQQDLHAAQFFEILKQMLQHVNF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_1iq0_T_thermophilus" taxon="arg_bact_1iq0_T_thermophilus" totalcount="20" value="LVEHSVNPNKELHVGHLRNIALGDAIARILVLNYIDDTGNRILLAQMATMHALDLLVWESDTYYAKDIAFQFINVVDVRQSHPQALVRAALALAAHHLAY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_2zue_P_horikoshii" taxon="arg_arch_2zue_P_horikoshii" totalcount="20" value="IVEHSVNPTKPLHMGHARNAILGDVMARIEVQNYIDDLGEEVVRAQMVTTYKLDLLVWESDTYTGKDIAYHLINVIGAEQKHPQLAIKYALQLLLYHLAY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_3fnr_C_jejuni" taxon="arg_bact_3fnr_C_jejuni" totalcount="20" value="LLEYSANPTGPLHIGHARGAVFGDTLTRLNTEYYVNDAGDKMLVLIKQNLEQADSYVSERSTYLAADIVYHKINIWGADHHGYIPRMKAAMEFLLEIILA---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_1li5_E_coli" taxon="cys_bact_1li5_E_coli" totalcount="20" value="GMYVGITVYDLCHIGHGRTFVAFDVVARYKYVRNITDIDDRMIAEMHKDFDALDMEPRATHGWHIECSAMNCIHGGGSDLMFPHENEIAQSTCAVYWMHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_3c8z_M_smegmatis" taxon="cys_bact_3c8z_M_smegmatis" totalcount="20" value="TMYVGITPYDATHLGHAATYLTFDLVHRLQYVQNVTDVDDRETQLFREDMAALHDYVAATDGWHVECSAIALIQGGGSDLIFPHEYSAAHAESVAHYVHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_bact_1qtq_E_coli" taxon="gln_bact_1qtq_E_coli" totalcount="20" value="HTRFPPEPNGYLHIGHAKSICLNFGIAQDQCNLRFDDTNIEYVESIKNDVEWLSNVRYSSDMYDFTHCISDAHSLCTLEFQDNRRLYDWVLDNIPRQYEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_bact_2hz7_D_radiodurans" taxon="gln_bact_2hz7_D_radiodurans" totalcount="20" value="VTRFPPDPSGYAHLGHVFASLLDFNTARQQFNLRMDDTNQEYVDSIADDLKWLGHFYYASDAYDFEHPLQDAHSMCSLEFVDNRAIYDWLMEKLPHQYEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_1j09_T_thermophilus" taxon="glu_bact_1j09_T_thermophilus" totalcount="20" value="VTRIAPSPTGDPHVGTAYIALFNYAWARRRFIVRIEDTDPGAEERILAALKWLDGPYRQSETYHLANVVDDHDVIRAEEWLVSTPIHVLLYRAFPRFYHM---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_1nzj_E_coli" taxon="glu_bact_1nzj_E_coli" totalcount="20" value="IGRFAPSPSGELHFGSLIAALGSYLQARARWLVRIEDIDPGAAETILRQLEHYDDVLWQSQAYNLAVVVDDHEIVRGADLIEPTVRQISLYQLFPDYIHL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_2cfo_T_elongatus" taxon="glu_bact_2cfo_T_elongatus" totalcount="20" value="RVRLAPSPTGNLHIGTARTAVFNWLYARHKFILRIEDTDPEYTENILEGLQWLDGPYFQSDLYNLVVVVDDIDVIRGEDHIGNTPKQILLYEALPNFAHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_2o5r_T_maritima" taxon="glu_bact_2o5r_T_maritima" totalcount="20" value="RVRFAPSPTGFLHVGGARTALFNFLFARKEFILRIEDTDREYEEKLMESLRWLDGPYRQSETYNFACVVDDMHVIRGDDHLSNTLRQLALYEAFPVFAHV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_1ile_T_thermophilus" taxon="ile_bact_1ile_T_thermophilus" totalcount="20" value="TVYEPPTANGLPHVGHAQARSYKDLFPRYPRRAGWDTHGFTYEKEWEAFTERIDDAYATLEDVWYDSGAMPFFIAEGIDQTRGFNSLHQLGVMLFNVICH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_1qu2_S_aureus" taxon="ile_bact_1qu2_S_aureus" totalcount="20" value="ILHDPPYANGNLHMGHALNKILKDFIVRYPYVPGWDTHGLEQIELQKKDFRRLDDPYITLKDVWFDSGSSHRMYLEGSDQYRGFNSSITTSVATYFLLSH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_1wz2_P_horikoshii" taxon="leu_arch_1wz2_P_horikoshii" totalcount="20" value="YITVFPYLSGHLHVGHARTYTIPDVIARFLFPMAWHITGKYFMKAAKETFIRADREFYTTSESLSDSTIYMAWRCSGKDLIPNLTFFIFNHVAIPGIAVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_2v0c_T_thermophilus" taxon="leu_bact_2v0c_T_thermophilus" totalcount="20" value="YVLVFPYPSGDLHMGHLKNYTMGDVLARFLHPMGWDAFGYANIRQAKESLRLMDREVTTCEDTFFDSSWYYLQYIGGVEHAVLLLYSRFFTKFLFGLFTQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_1pfv_E_coli" taxon="met_bact_1pfv_E_coli" totalcount="20" value="LVTCLPYANGSIHLGHMLEHIQADVWVRYNFICADDAHGGEMSQEHQTDFAGFDNYHSTHSYVWLDAPIGYMYHFIGKDIVYFSLFWPAMLEGSPNLFVH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_1rqg_P_abyssi" taxon="met_arch_1rqg_P_abyssi" totalcount="20" value="MVTSLPYANGPIHAGHLAAYLPADIFVRYVFICGTDEHGDEFHEQIKITFQRADFFGRTELYVWFEAPIGYIIHFIGKDNIPFAIFWPAFLMAYPDIPAN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_1woy_T_thermophilus" taxon="met_bact_1woy_T_thermophilus" totalcount="20" value="YVTTIYYVNAEPHLGHAYTTVVADFLARWFFLTGTDEHGDRVSGRFKRAWDLLDDFIRTTEFVWFDALLNYVWHLIGKDILKPAVFWPTMLKAAYHLNVG---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_2csx_A_aeolicus" taxon="met_bact_2csx_A_aeolicus" totalcount="20" value="YVTTIYYVNDVPHLGHAYTTIAADTIARYFFLTGTDEHGDRNAERFKKLWEFLTKFIRTTDYVWFDALFNYILHLVGKDILRFTVYWPAFLMSLPKVFAH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_2x1l_M_smegmatis" taxon="met_bact_2x1l_M_smegmatis" totalcount="20" value="YITTIAYPNGVPHIGHAYEYIATDAIARFRYLTGTDVHGRRNSDVFQRLQEKLDRFIRTSDYVWVDALTNYLLHMIGKDIIRFTVYWPAFLMSAPRIFAH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_1i6m_G_stearothermophilus" taxon="trp_bact_1i6m_G_stearothermophilus" totalcount="20" value="TIFSGIQPSGVITIGNYIALRQFVELQHENCYFCIVDQHRQNIRRLAALYLAVATLFIQSETYPPLMAADILIVPVGEDQKQHIELTRDLAERFPEARIP---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_1r6u_H_sapiens" taxon="trp_euk_1r6u_H_sapiens" totalcount="20" value="YLYTGRGPSSEAHVGHLIPFIFTKWLQDVPLVIQMTDDEYGDAVENAKDIIACTFIFSDLDSFPAIQAAPSFLIPCAIDQDPYFRMTRDVAPRIPALLHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_2el7_T_thermophilus" taxon="trp_bact_2el7_T_thermophilus" totalcount="20" value="RVLSGIQPSGEIHIGNYLAIKQWVAIGEKDAFFCIVDYHAQRTFEAALVNIAAVTLFVQSHMYPVLQAADILTVPVGEDQVQHIELTREIARRFPQALLN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_2g36_T_maritima" taxon="trp_bact_2g36_T_maritima" totalcount="20" value="RILSGMRPTGKLHIGHLVALENWVKLQEEECFYFVADWHKEYTRDLVRGFLACSVIFVQSGIYPVLQAADILGVPVGEDQVYHIELTREIARRFPEAILS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_2ip1_S_cerevisiae" taxon="trp_euk_2ip1_S_cerevisiae" totalcount="20" value="FLYTGRGPSSSMHLGHMIPFVFTKWLQEPLVIELTDDEVKNFARENAKDIIAVTFIFSDLQHFASIQIATAFLIPCAIDQDPYFRVCRDVADKLKPALLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_1h3f_T_thermophilus" taxon="tyr_bact_1h3f_T_thermophilus" totalcount="20" value="TVKLGADPTPDLHLGHAVVLRKMRQFQELKVVLIIGDFTRENAKTYVAQAGKIFELRYNSELYPFAQAYDSVVEMGGTDQRFNLLVGREVQRAYQVCFLM---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_1jil_S_aureus" taxon="tyr_bact_1jil_S_aureus" totalcount="20" value="TLYCGADPTDSLHIGHLLPFLTLRRFQEHRPIVLIGGGTDKNIEGISKQMHNIAVLVNNRDTYTILQAIDFGIQVGGSDQWGNITSGIELMRRMAYGLTI---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_1wq4_E_coli" taxon="tyr_bact_1wq4_E_coli" totalcount="20" value="ALVCGFDPTDSLHLGHLVPLLCLKRFQQAKPVALVGGATQEWVDKIRKQVAPFAIAANNYDSYNLLQGYDFALCIGGSDQWGNITSGIDLTRRLVFGLTV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_2cya_A_pernix" taxon="tyr_arch_2cya_A_pernix" totalcount="20" value="KGYIGYEPSGVAHIGWLVWMYKVKDLVEADFSVLEATWHRAAARIVRRVMEAAVRFVDAEEIYPLMQVSDIFIALGGMDQRKAHMLARDVAEKLPVAIHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_2cyb_A_fulgidus" taxon="tyr_arch_2cyb_A_fulgidus" totalcount="20" value="RAYVGYEPSGEIHLGHMMTVQKLMDLQEAEIIVLLADIHAEVADYNKKVFIALAKFVLGSEIYPLMQALDIALAVGGIDQRKIHMLARENLPRLPVCLHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_2cyc_P_horikoshii" taxon="tyr_arch_2cyc_P_horikoshii" totalcount="20" value="QHYIGFEISGYIHLGTLMAGAKIADFQKAKTRVFLADWHQEVALYFKVGMEKSVEFVLASEIYPMMQVADIFIAHAGMDQRKAHVIAIEVAQKLPVAVHH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_2dlc_S_cerevisiae" taxon="tyr_euk_2dlc_S_cerevisiae" totalcount="20" value="KLYWGTAPTGRPHCGYFVPMTKLADFLKAEVTVLLADLHNYRAKYYELTIKAILKFVVGSSIYPLMQALDEQCQFGGVDQRKIFVLAEENLPSLRAHLMN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_2zp1_M_jannaschii" taxon="tyr_arch_2zp1_M_jannaschii" totalcount="20" value="SAYIGFEPSGKIHLGHYLQIKKMIDLQNADIIILLADLARKIGDYNKKVFEAMAKYVYGSEIYPIMQVNTSHVAVGGMEQRKIHMLARELLPKKVVCIHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_1gax_T_thermophilus" taxon="val_bact_1gax_T_thermophilus" totalcount="20" value="VIFMPPNVTGSLHMGHALDNSLQDALIRYVWLPGTDHAGEESGGTILKQLKRLDREAFTMDDTWFSSALWPLVLVTGYDILFLVSRMEVSGYHFFTVLLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ala_bact_1yfsa_A_aeolicus" taxon="ala_bact_1yfsa_A_aeolicus" totalcount="20" value="----------------------------------------------------------------------------------------------------SAHEIRELFLSFFEKKGHTRVKAPLVPLFVNAGMVPFKKRATSCQKCLRVTFFEMLGNFSFKKEAIEYAWEFVTSSEIYVEIWNLVFMHPNIDTGMGERIASVLQ"/>
+                    <sequence id="seq_ala_arch_2ztg_A_fulgidus" taxon="ala_arch_2ztg_A_fulgidus" totalcount="20" value="----------------------------------------------------------------------------------------------------ELDEMREYYLNFFERRGHGRIEYPVVAYLTIASIADFQNPLTISQPCIRLTLFEMMAHHAFKNETVAYCTELLNCLEAIVEVATLVFMNYIVDTGYGERFVWASK"/>
+                    <sequence id="seq_ala_arch_2zze_P_horikoshii" taxon="ala_arch_2zze_P_horikoshii" totalcount="20" value="----------------------------------------------------------------------------------------------------TLDEMREKFLRFFEKHPHGRVRYPVLPLLVGASIMDFQNPLVISQPSIRFTIFEMMAHHAFMDETVELAFEFFTAFEVLYEVATLVFMTKVVDTGYGERLVWMSQ"/>
+                    <sequence id="seq_ala_bact_3hxv_E_coli" taxon="ala_bact_3hxv_E_coli" totalcount="20" value="----------------------------------------------------------------------------------------------------STAEIRQAFLDFFHSKGHQVVASSLVPLFTNAGMNQFKSRATTSQRCVRATFFEMLGNFSFKLDAILFAWLLLTCTEIFYEIWNIVFMKPSVDTGMGERIAAVLQ"/>
+                    <sequence id="seq_asn_arch_1x54a_P_horikoshii" taxon="asn_arch_1x54a_P_horikoshii" totalcount="20" value="----------------------------------------------------------------------------------------------------VKETLIMAAREWLLKDGWHEVFPPILVYLSQSAQLYLEEKVWSLTPSFRATEFWHLELEAALWDIMKVEEELVSASDMLAEIIGGSQRVPHSGFGLGERLVAWVL"/>
+                    <sequence id="seq_asn_euk_3m4p_E_histolytica" taxon="asn_euk_3m4p_E_histolytica" totalcount="20" value="----------------------------------------------------------------------------------------------------LRSEIQWYFRKYYHDNHFTEIQPPTIVYLTQSSQLYLEGKSFCMLSSYRAAEYLHLEAELPFEDLLNHLEDLVCSVDLLMEIVGGSMRCPHGGYGLGERLVMWLL"/>
+                    <sequence id="seq_asn_bact_d1asza_T_thermophilus" taxon="asn_bact_d1asza_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------IQAGVCELFREYLATKKFTEVHTPKLLYLAQSPQFNKQERVYEIGPVFRATEFTGLDMEMAYHEVLDTLSELFVSYDFFMEILSGAQRPPHAGGGIGERVVMFYL"/>
+					<sequence id="seq_asp_arch_1wydb_S_tokodaii" taxon="asp_arch_1wydb_S_tokodaii" totalcount="20" value="----------------------------------------------------------------------------------------------------IQSLALKAFRETLYKEGFIEIFTPKIIFLAQSPQLYKEERVFEVAPAWRAAEFISMDVEMAYNDVMQLLEKILHSFDLIYEIVSGSTRPPHAGFGMGARLMVMLT"/>
+                    <sequence id="seq_asp_euk_3i7f_E_histolytica" taxon="asp_euk_3i7f_E_histolytica" totalcount="20" value="----------------------------------------------------------------------------------------------------IQSACCGLFREFLTSQKFVEIHTPKLIYLAQSPQLYKQRKVFEVGPVFRATEFEGLDIEMEYHECIDVMEKLFTSYDVFVEITSGAQRWPHAGCGIGERITMLYL"/>
+                    <sequence id="seq_asp_arch_d1b8aa_T_kodakarensis" taxon="asp_arch_d1b8aa_T_kodakarensis" totalcount="20" value="----------------------------------------------------------------------------------------------------IRSSVFKAVRDFFHENGFIEIHTPKIIFLAESPQLYKEDRVYEIAPIFRANEAWSIDSEMAEEEVMSFLERLVAAFDLEYEISSGGQRPPHGGFGLGERLIKQML"/>
+                    <sequence id="seq_asp_bact_d1c0aa_E_coli" taxon="asp_bact_d1c0aa_E_coli" totalcount="20" value="----------------------------------------------------------------------------------------------------TRAKITSLVRRFMDDHGFLDIETPMLTALPQSPQLFKQDRYYQIVKCFRDPEFTQIDVETSAPQVREVMEALVRAYDMVIEVGGGSVRPPHAGLAFGDRLTMLTG"/>
+                    <sequence id="seq_asp_bact_d1efwa_T_thermophilus" taxon="asp_bact_d1efwa_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------LRHRVIKAIWDFLDREGFVQVETPFLTALPQSPQLFKQDRYFQIARCFRDPDFTQLDLEMSVEDVLELNERLMAAYDLVLEVGGGSIRPPHGGIAWGDRLLALMT"/>
+                    <sequence id="seq_gly_euk_2zt5_H_sapiens" taxon="gly_euk_2zt5_H_sapiens" totalcount="20" value="----------------------------------------------------------------------------------------------------LKNNIIQTWRQHFQEEQILEIDCTMLTYLRPETAQGIFFAAAQIGNSFRNREFTMAEIEHFLGYFIGRIYLYLTCWDAESEIVGCADRPNVIEPSFGGRIMYTVF"/>
+                    <sequence id="seq_gly_bact_d1atib_T_thermophilus" taxon="gly_bact_d1atib_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------LKNNLKQAWWRRNVERDMEGLDASVLTYLRPETAQGIFFGIAQIGKAFRNREFEQMEIEYFHRYWVEERLKWWQTVDILYELEGIAQRPYVIEPSAGDRGVLALL"/>
+                    <sequence id="seq_his_bact_1htt_E_coli" taxon="his_bact_1htt_E_coli" totalcount="20" value="----------------------------------------------------------------------------------------------------IWQRIEGTLKNVLGSYGYSEIRLPIVETLRPEGTAGCVQRLWYIGPMFRHRQFHQLGCEVFDAELIMLTARWWRVFEWVTTVCAGGRYTPAVGFAMGERLVLLVQ"/>
+                    <sequence id="seq_his_arch_1wu7a_T_acidophilum" taxon="his_arch_1wu7a_T_acidophilum" totalcount="20" value="----------------------------------------------------------------------------------------------------VEKFIFKTAEEAAEAFGFRRIDFPSLETLIPEATPSTVLRWYSFPKVWRYREHYQFNADIFDAEVIALASSILDVFEAYDAILGGGRYVPAVGFGMGAVISLLKR"/>
+                    <sequence id="seq_his_euk_3hri_T_brucei" taxon="his_euk_3hri_T_brucei" totalcount="20" value="----------------------------------------------------------------------------------------------------LRKYLFDVFHSTARKFGFEEYDSPVLEALRPEMTPSLAAKWYSIPQCWRYREHYQWNMDIIEVELVCAACTAMQVFEGFDALCGGGRYVPCVGFGFGCVIVELLN"/>
+                    <sequence id="seq_his_euk_3lc0_T_cruzi" taxon="his_euk_3lc0_T_cruzi" totalcount="20" value="----------------------------------------------------------------------------------------------------CRRHLFDVFHATAKTFGFEEYDAPVLEALRPEMTPSLAAKWYSIPQCWRYREHYQWNMDIVEVELVCAACWAMRVFEGFDALCGGGRYIPCAGFGFGCVIVELLQ"/>
+                    <sequence id="seq_his_bact_d1adjc_T_thermophilus" taxon="his_bact_d1adjc_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------MHQRIVATARKVLEAAGALELVTPIFETLRPEGTAAMVVRLWMAGPMFRARQFHQVNYEALDAEAVVLLYECLKAFEVHHALGGGGRYVPGVGFAFGERVALALE"/>
+                    <sequence id="seq_his_bact_d1qe0a_S_aureus" taxon="his_bact_d1qe0a_S_aureus" totalcount="20" value="----------------------------------------------------------------------------------------------------KWRYIENQLDELMTFYNYKEIRTPIFETLRPEGTAAVVIKLYYNGPMFRYRQFNQFGVEAIDAEVLAMVMHIYQAFELMMTLCGGGRYETGIGFALSERLLLALE"/>
+                    <sequence id="seq_lys_euk_3bju_H_sapiens" taxon="lys_euk_3bju_H_sapiens" totalcount="20" value="----------------------------------------------------------------------------------------------------IRSKIITYIRSFLDELGFLEIETPMMNYMRIAPELYHKDRVYEIGRQFRNPEFTTCEFYMAYHDLMEITEKMVSRFELFVEICNAYTEPPTAGWGMGDRVAMFLT"/>
+                    <sequence id="seq_lys_bact_3e9h_G_stearothermophilus" taxon="lys_bact_3e9h_G_stearothermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------TRSLIIQSMRRYLDSHGYLEVETPMMHYMRIAIELHLKEKVYEIGRVFRNPEFTMLELYEAFRDIMKLTENLIARFELFIEHANAFTEPPTGGLGIGDRLVMLLT"/>
+                    <sequence id="seq_lys_bact_3g1z_S_typhimurium" taxon="lys_bact_3g1z_S_typhimurium" totalcount="20" value="----------------------------------------------------------------------------------------------------KRAAIMAEIRRFFADRGVLEVETPCMSYLMTSPEYHMKGPVFQLCRSFRNPEFTMLEWYRPMYRLMNEVDDLLQRFEVYYELANGFHEPDCSGVALGDRLVMLAL"/>
+                    <sequence id="seq_lys_bact_d1e1oa_E_coli" taxon="lys_bact_d1e1oa_E_coli" totalcount="20" value="----------------------------------------------------------------------------------------------------VRSKILAAIRQFMVARGFMEVETPMMQYLRIAPELYLKERVFEINRNFRNPEFTMMELYMAYHDLIELTESLFRRFEFFIEIGNGFSEPPTAGLGIGDRMIMLFT"/>
+                    <sequence id="seq_phe_bact_2alya_T_thermophilus" taxon="phe_bact_2alya_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------PITLMERELVEIFRALGYQAVEGPEVELLRTHTSPMQVFRIVVPGRVFRFAVFHQLEGLVVMAHLKGAIYELAQGAQFAVELGGAGMVVTGFAFGLGERLAMLRY"/>
+                    <sequence id="seq_phe_bact_2rhq_S_haemolyticus" taxon="phe_bact_2rhq_S_haemolyticus" totalcount="20" value="----------------------------------------------------------------------------------------------------PLTRTVEEIEDLFLGLGYEIVDGYEVELMRTHTSPVQAVKIICPGKVYRRHQFTQIEGLVVMSDLKGTLELVAKSVEVDVEILGAGMVYSGFAFGMGDRIAMLKY"/>
+                    <sequence id="seq_phe_euk_3l4g_H_sapiens" taxon="phe_euk_3l4g_H_sapiens" totalcount="20" value="----------------------------------------------------------------------------------------------------PLLKVRSQFRQIFLEMGFTEMPTNFIELLRTHTTSASAVKYFSIDRVFRNAEFHQIEGVVALGHLMGVLREFFTSMEVFSEVGNSGVFVSVIAWGLSERPTMIKY"/>
+                    <sequence id="seq_pro_bact_2i4la_R_palustris" taxon="pro_bact_2i4la_R_palustris" totalcount="20" value="----------------------------------------------------------------------------------------------------VLKKIEQIVREEQNRAGAIELLMPTLQLYGPTNEEMITLNLYHIQWKFRDREFLMKDAYSFYNKMFVAYLRTFASHEFIVEVGQIFYFIHGGSYGVGSRLLGAII"/>
+                    <sequence id="seq_pro_bact_2j3mb_E_faecalis" taxon="pro_bact_2j3mb_E_faecalis" totalcount="20" value="----------------------------------------------------------------------------------------------------VLEKLKTIMREEFEKIDAVEMLMPALLILGPTHEETFTLNLYQIQTKYRDREFIMKDGYSFYRDYEKAYSRIFESKEFMAEIGHIFKLVIMGCYGIGSRLLSAIV"/>
+                    <sequence id="seq_pro_euk_3ial_G_lamblia" taxon="pro_euk_3ial_G_lamblia" totalcount="20" value="----------------------------------------------------------------------------------------------------MENAIMRLCEEEYAKVGISQILFPTVIALRPTSETAIYLKIHQTCTIFRHREIHWNEAHCCLSDYWKVIDTIFSSEVSDVQTAGIHNLPYLTCAGISTRVLACAL"/>
+                    <sequence id="seq_pro_bact_d1hc7a_T_thermophilus" taxon="pro_bact_d1hc7a_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------IWENIQQVLDRMFKETGHQNAYFPLFIAVRPTSETVIGQLLNQWGNVVRWSEFLWQEGHTAVRRMLSIYARLARTTTIEAQAGTSHYLVHTTSWGLSWRFIGAII"/>
+                    <sequence id="seq_pro_arch_d1nj8a_M_jannaschii" taxon="pro_arch_d1nj8a_M_jannaschii" totalcount="20" value="----------------------------------------------------------------------------------------------------IRRYTFEIIRNLLDESGHDEALFPMLIALRPTSETPIYIKIYQIVNTFRYREITFKEAHTAVKEAISIYKKFFDTMAFDTQIATVHNLAYQTCYGISDRVIASII"/>
+                    <sequence id="seq_ser_euk_1wleb_B_taurus" taxon="ser_euk_1wleb_B_taurus" totalcount="20" value="----------------------------------------------------------------------------------------------------LQHGLVNFTLNKLIHRGFTPMTVPDLLNLAGTAEVGLAIRMVCSSTCYRAHHFTKVEMFGVLEEFLSLQMEILTKFDIEAEVTSASNCAHTVNATGAPRLLIALL"/>
+                    <sequence id="seq_ser_arch_2cjab_M_barkeri" taxon="ser_arch_2cjab_M_barkeri" totalcount="20" value="----------------------------------------------------------------------------------------------------IFRTFEKIVLEELEPLGYREMIFPKLVGMCYAQCPPFWVKVFDRSTSHRYDEFHRIEIVWIAEELHDRYMHIFNTTDYEAEFQNVSINLWSGCSGVGERWAAVLA"/>
+                    <sequence id="seq_ser_bact_d1sera_T_thermophilus" taxon="ser_bact_d1sera_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------YELALLRFAMDFMARRGFLPMTLPSYAYLTGTAEVVLNLRYAGYAPAFRSHQFHKVEQYVLFQELLENAEEILRQVDIEVETHSCSALAYTLNNTAAPRILAMLL"/>
+                    <sequence id="seq_thr_arch_3a32_A_pernix" taxon="thr_arch_3a32_A_pernix" totalcount="20" value="----------------------------------------------------------------------------------------------------IRYALAEVLAKFHARRGYYVVETPIIAAVKPMNCPYHIFKVFEFGRVHRYRGFTQDDAHIIVYDVFEEMKLVLEKLDFIMQMGTIQFDVYIIHRALSERFLGVYL"/>
+                    <sequence id="seq_thr_bact_d1evka_E_coli" taxon="thr_bact_d1evka_E_coli" totalcount="20" value="----------------------------------------------------------------------------------------------------IFRELEVFVRSKLKEYQYQEVKGPFMMCIKPMNCPGHVLRMAEFGSCHRNRGFTQDDAHIFVNGCIRLVYDMYSKIEFTLQCGTVQLDPVMIHRAISERFIGILT"/>
+                    <sequence id="seq_thr_bact_d1nyra_S_aureus" taxon="thr_bact_d1nyra_S_aureus" totalcount="20" value="----------------------------------------------------------------------------------------------------IRREIERYIVDKEVSMGYDHVYTPVLAVLRPMNCPHHMIRIAELGTMHRYRGMTLNDSHIFFKRVVNMIIDVYKKLDVQVTLSTAQLDPVVIHRGVTERFVAFLT"/>
+                </data>
+    
+
+    
+<map name="Beta">beast.math.distributions.Beta</map>
+<map name="Exponential">beast.math.distributions.Exponential</map>
+<map name="InverseGamma">beast.math.distributions.InverseGamma</map>
+<map name="LogNormal">beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Gamma">beast.math.distributions.Gamma</map>
+<map name="Uniform">beast.math.distributions.Uniform</map>
+<map name="prior">beast.math.distributions.Prior</map>
+<map name="LaplaceDistribution">beast.math.distributions.LaplaceDistribution</map>
+<map name="OneOnX">beast.math.distributions.OneOnX</map>
+<map name="Normal">beast.math.distributions.Normal</map>
+<map name="taxon">beast.evolution.alignment.Taxon</map>
+<map name="taxonset">beast.evolution.alignment.TaxonSet</map>
+
+<taxonset id='allTaxa' alignment='@AARS'/>
+
+
+<run chainLength="10000000" id="mcmc" spec="MCMC">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:AARS" name="stateNode">
+            <taxonset id="TaxonSet.AARS" spec="TaxonSet">
+                <data idref="AARS" name="alignment"/>
+            </taxonset>
+        </tree>
+        <parameter id="birthRate2.t:AARS" lower = "0.0" name="stateNode" upper="10000.0">1.0</parameter>
+		<parameter id="relativeDeathRate2.t:AARS" lower = "0.0" name="stateNode" upper="1.0">0.5</parameter>
+		<stateNode idref='ucldStdev.c:AARS'/>
+		<stateNode idref='rateCategories.c:AARS'/>
+    </state>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+
+            <distribution id="V.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="V" spec="TaxonSet">
+                    <taxon id="val_bact_1gax_T_thermophilus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="G" spec="TaxonSet">
+                    <taxon id="gly_euk_2zt5_H_sapiens"/>
+                    <taxon id="gly_bact_d1atib_T_thermophilus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="A.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="A" spec="TaxonSet">
+                    <taxon id="ala_bact_1yfsa_A_aeolicus"/>
+                    <taxon id="ala_arch_2ztg_A_fulgidus"/>
+                    <taxon id="ala_arch_2zze_P_horikoshii"/>
+                    <taxon id="ala_bact_3hxv_E_coli"/>
+                </taxonset>
+            </distribution>
+            <distribution id="D.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="D" spec="TaxonSet">
+                    <taxon id="asp_arch_1wydb_S_tokodaii"/>
+                    <taxon id="asp_euk_3i7f_E_histolytica"/>
+                    <taxon id="asp_arch_d1b8aa_T_kodakarensis"/>
+                    <taxon id="asp_bact_d1c0aa_E_coli"/>
+                    <taxon id="asp_bact_d1efwa_T_thermophilus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="P.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="P" spec="TaxonSet">
+                    <taxon id="pro_bact_2i4la_R_palustris"/>
+                    <taxon id="pro_bact_2j3mb_E_faecalis"/>
+                    <taxon id="pro_euk_3ial_G_lamblia"/>
+                    <taxon id="pro_bact_d1hc7a_T_thermophilus"/>
+                    <taxon id="pro_arch_d1nj8a_M_jannaschii"/>
+                </taxonset>
+            </distribution>
+            <distribution id="E.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="E" spec="TaxonSet">
+                    <taxon id="glu_bact_1j09_T_thermophilus"/>
+                    <taxon id="glu_bact_1nzj_E_coli"/>
+                    <taxon id="glu_bact_2cfo_T_elongatus"/>
+                    <taxon id="glu_bact_2o5r_T_maritima"/>
+                </taxonset>
+            </distribution>
+            <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="S" spec="TaxonSet">
+                    <taxon id="ser_euk_1wleb_B_taurus"/>
+                    <taxon id="ser_arch_2cjab_M_barkeri"/>
+                    <taxon id="ser_bact_d1sera_T_thermophilus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="L" spec="TaxonSet">
+                    <taxon id="leu_arch_1wz2_P_horikoshii"/>
+                    <taxon id="leu_bact_2v0c_T_thermophilus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="R.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="R" spec="TaxonSet">
+                    <taxon id="arg_euk_1f7u_S_cerevisiae"/>
+                    <taxon id="arg_bact_1iq0_T_thermophilus"/>
+                    <taxon id="arg_arch_2zue_P_horikoshii"/>
+                    <taxon id="arg_bact_3fnr_C_jejuni"/>
+                </taxonset>
+            </distribution>
+            <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="T" spec="TaxonSet">
+                    <taxon id="thr_arch_3a32_A_pernix"/>
+                    <taxon id="thr_bact_d1evka_E_coli"/>
+                    <taxon id="thr_bact_d1nyra_S_aureus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="I.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="I" spec="TaxonSet">
+                    <taxon id="ile_bact_1ile_T_thermophilus"/>
+                    <taxon id="ile_bact_1qu2_S_aureus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="Q.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="Q" spec="TaxonSet">
+                    <taxon id="gln_bact_1qtq_E_coli"/>
+                    <taxon id="gln_bact_2hz7_D_radiodurans"/>
+                </taxonset>
+            </distribution>
+            <distribution id="N.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="N" spec="TaxonSet">
+                    <taxon id="asn_arch_1x54a_P_horikoshii"/>
+                    <taxon id="asn_euk_3m4p_E_histolytica"/>
+                    <taxon id="asn_bact_d1asza_T_thermophilus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="C.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="C" spec="TaxonSet">
+                    <taxon id="cys_bact_1li5_E_coli"/>
+                    <taxon id="cys_bact_3c8z_M_smegmatis"/>
+                </taxonset>
+            </distribution>
+            <distribution id="Y.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="Y" spec="TaxonSet">
+                    <taxon id="tyr_bact_1h3f_T_thermophilus"/>
+                    <taxon id="tyr_bact_1jil_S_aureus"/>
+                    <taxon id="tyr_bact_1wq4_E_coli"/>
+                    <taxon id="tyr_arch_2cya_A_pernix"/>
+                    <taxon id="tyr_arch_2cyb_A_fulgidus"/>
+                    <taxon id="tyr_arch_2cyc_P_horikoshii"/>
+                    <taxon id="tyr_euk_2dlc_S_cerevisiae"/>
+                    <taxon id="tyr_arch_2zp1_M_jannaschii"/>
+                </taxonset>
+            </distribution>
+            <distribution id="H.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="H" spec="TaxonSet">
+                    <taxon id="his_bact_1htt_E_coli"/>
+                    <taxon id="his_arch_1wu7a_T_acidophilum"/>
+                    <taxon id="his_euk_3hri_T_brucei"/>
+                    <taxon id="his_euk_3lc0_T_cruzi"/>
+                    <taxon id="his_bact_d1adjc_T_thermophilus"/>
+                    <taxon id="his_bact_d1qe0a_S_aureus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="M.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="M" spec="TaxonSet">
+                    <taxon id="met_bact_1pfv_E_coli"/>
+                    <taxon id="met_arch_1rqg_P_abyssi"/>
+                    <taxon id="met_bact_1woy_T_thermophilus"/>
+                    <taxon id="met_bact_2csx_A_aeolicus"/>
+                    <taxon id="met_bact_2x1l_M_smegmatis"/>
+                </taxonset>
+            </distribution>
+            <distribution id="W.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="W" spec="TaxonSet">
+                    <taxon id="trp_bact_1i6m_G_stearothermophilus"/>
+                    <taxon id="trp_euk_1r6u_H_sapiens"/>
+                    <taxon id="trp_bact_2el7_T_thermophilus"/>
+                    <taxon id="trp_bact_2g36_T_maritima"/>
+                    <taxon id="trp_euk_2ip1_S_cerevisiae"/>
+                </taxonset>
+            </distribution>
+            <distribution id="F.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="F" spec="TaxonSet">
+                    <taxon id="phe_bact_2alya_T_thermophilus"/>
+                    <taxon id="phe_bact_2rhq_S_haemolyticus"/>
+                    <taxon id="phe_euk_3l4g_H_sapiens"/>
+                </taxonset>
+            </distribution>
+            <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="K" spec="TaxonSet">
+                    <taxon id="lys_euk_3bju_H_sapiens"/>
+                    <taxon id="lys_bact_3e9h_G_stearothermophilus"/>
+                    <taxon id="lys_bact_3g1z_S_typhimurium"/>
+                    <taxon id="lys_bact_d1e1oa_E_coli"/>
+                </taxonset>
+            </distribution>
+
+            <distribution spec='beast.evolution.substitutionmodel.AARSTreePrior' id='AARSprior'>
+                <trait id="TraitSet1" spec="beast.evolution.tree.TraitSet" taxa="@allTaxa" traitname="state" units="year">
+                    val_bact_1gax_T_thermophilus=0, 
+                    gly_euk_2zt5_H_sapiens=1, gly_bact_d1atib_T_thermophilus=1,  
+                    ala_bact_1yfsa_A_aeolicus=2, ala_arch_2ztg_A_fulgidus=2, ala_arch_2zze_P_horikoshii=2, ala_bact_3hxv_E_coli=2, 
+                    asp_arch_1wydb_S_tokodaii=3, asp_euk_3i7f_E_histolytica=3, asp_arch_d1b8aa_T_kodakarensis=3, asp_bact_d1c0aa_E_coli=3, asp_bact_d1efwa_T_thermophilus=3, 
+                    pro_bact_2i4la_R_palustris=4, pro_bact_2j3mb_E_faecalis=4, pro_euk_3ial_G_lamblia=4, pro_bact_d1hc7a_T_thermophilus=4, pro_arch_d1nj8a_M_jannaschii=4, 
+                    glu_bact_1j09_T_thermophilus=5, glu_bact_1nzj_E_coli=5, glu_bact_2cfo_T_elongatus=5, glu_bact_2o5r_T_maritima=5, 
+                    ser_euk_1wleb_B_taurus=6, ser_arch_2cjab_M_barkeri=6, ser_bact_d1sera_T_thermophilus=6, 
+                    leu_arch_1wz2_P_horikoshii=7, leu_bact_2v0c_T_thermophilus=7, 
+                    arg_euk_1f7u_S_cerevisiae=8, arg_bact_1iq0_T_thermophilus=8, arg_arch_2zue_P_horikoshii=8, arg_bact_3fnr_C_jejuni=8, 
+                    thr_arch_3a32_A_pernix=9, thr_bact_d1evka_E_coli=9, thr_bact_d1nyra_S_aureus=9, 
+                    ile_bact_1ile_T_thermophilus=10, ile_bact_1qu2_S_aureus=10, 
+                    gln_bact_1qtq_E_coli=11, gln_bact_2hz7_D_radiodurans=11, 
+                    asn_arch_1x54a_P_horikoshii=12, asn_euk_3m4p_E_histolytica=12, asn_bact_d1asza_T_thermophilus=12, 
+                    cys_bact_1li5_E_coli=13, cys_bact_3c8z_M_smegmatis=13, 
+                    tyr_bact_1h3f_T_thermophilus=14, tyr_bact_1jil_S_aureus=14, tyr_bact_1wq4_E_coli=14, tyr_arch_2cya_A_pernix=14, tyr_arch_2cyb_A_fulgidus=14, tyr_arch_2cyc_P_horikoshii=14, tyr_euk_2dlc_S_cerevisiae=14, tyr_arch_2zp1_M_jannaschii=14, 
+                    his_bact_1htt_E_coli=15, his_arch_1wu7a_T_acidophilum=15, his_euk_3hri_T_brucei=15, his_euk_3lc0_T_cruzi=15, his_bact_d1adjc_T_thermophilus=15, his_bact_d1qe0a_S_aureus=15, 
+                    met_bact_1pfv_E_coli=16, met_arch_1rqg_P_abyssi=16, met_bact_1woy_T_thermophilus=16, met_bact_2csx_A_aeolicus=16, met_bact_2x1l_M_smegmatis=16, 
+                    trp_bact_1i6m_G_stearothermophilus=17, trp_euk_1r6u_H_sapiens=17, trp_bact_2el7_T_thermophilus=17, trp_bact_2g36_T_maritima=17, trp_euk_2ip1_S_cerevisiae=17, 
+                    lys_euk_3bju_H_sapiens=18, lys_bact_3e9h_G_stearothermophilus=18, lys_bact_3g1z_S_typhimurium=18, lys_bact_d1e1oa_E_coli=18, 
+                    phe_bact_2alya_T_thermophilus=19, phe_bact_2rhq_S_haemolyticus=19, phe_euk_3l4g_H_sapiens=19 
+                </trait>
+				<treeIntervals id='treeIntervals' spec='beast.evolution.tree.coalescent.TreeIntervals' tree='@Tree.t:AARS'/>
+            </distribution>
+
+        <distribution id="BirthDeath.t:AARS" spec="beast.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@birthRate2.t:AARS" relativeDeathRate="@relativeDeathRate2.t:AARS" tree="@Tree.t:AARS"/>
+            <prior id="BirthRatePrior.t:AARS" name="distribution" x="@birthRate2.t:AARS">
+                <LogNormal id="LogNormalDistributionModel.1" name="distr">
+                    <parameter id="RealParameter.6" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.7" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="GammaShapePrior.s:AARS" name="distribution" x="@gammaShape.s:AARS">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="DeathRatePrior.t:AARS" name="distribution" x="@relativeDeathRate2.t:AARS">
+                <LogNormal id="LogNormalDistributionModel.2" name="distr">
+                    <parameter id="RealParameter.8" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.9" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="ucldStdevPrior.c:AARS" name="distribution" x="@ucldStdev.c:AARS">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+    	</distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution">
+            <distribution data="@AARS" id="treeLikelihood.AARS" spec="ThreadedTreeLikelihood" tree="@Tree.t:AARS">
+                <siteModel id="SiteModel.s:AARS" spec="SiteModel">
+                    <parameter estimate="false" id="mutationRate.s:AARS" name="mutationRate" value="1.0"/>
+                    <parameter estimate="false" id="gammaShape.s:AARS" name="shape" value="1.0"/>
+                    <parameter estimate="false" id="proportionInvariant.s:AARS" lower="0.0" name="proportionInvariant" upper="1.0" value="0.0"/>
+
+                    <substModel id="substmodel" spec="TriStateAARSSubstitutionModel" tree="@Tree.t:AARS">
+                        <trait idref="TraitSet1"/>
+						<defaultModel spec='GeneralSubstitutionModel' rates='
+	0.18727491	2.0069284065	0.1526315789	0.5886402754	1.8004640371	0.3144104803	0.2330935252	1.3885245902	0.2522727273	7.8164948454	0.3024523161	1	0.3144475921	0.1969309463	2.0564102564	0.118852459	0.3680555556	0.3048387097	0.6510416667
+0.1875881523		1.4168591224	0.8666666667	0.5679862306	0.0614849188	0.2423580786	1.3424460432	0.2262295082	0.5840909091	0.0309278351	0.3297002725	0.3056994819	0.104815864	1.1253196931	0.1743589744	0.25	0.3333333333	0.3741935484	0.0494791667
+2.0056417489	1.4153661465		0.7403508772	1.5817555938	0.3979118329	1.4366812227	3.3712230216	2.1213114754	0.5522727273	0.193814433	0.9100817439	1.0259067358	0.2407932011	0.5089514066	0.8923076923	0.3155737705	0.1111111111	0.9064516129	0.2109375
+0.1523272214	0.8655462185	0.7390300231		6.1703958692	0.0846867749	0.423580786	1.071942446	0.3754098361	0.1477272727	0.0391752577	0.6185286104	0.0310880829	0.3257790368	5.4271099744	0.1025641026	0.9303278689	0.1319444444	0.4806451613	0.046875
+0.5881523272	0.5678271309	1.5831408776	6.1789473684		0.1542923434	0.6812227074	0.7050359712	0.8229508197	0.4386363636	0.1278350515	5.4741144414	0.0207253886	0.1954674221	0.9462915601	0.3128205128	0.5696721311	0.1597222222	2.585483871	0.0807291667
+1.7997179126	0.0612244898	0.3983833718	0.0842105263	0.1549053356		0.4148471616	0.345323741	0.3262295082	0.4977272727	3.1690721649	0.8692098093	0.3834196891	0.3994334278	0.1304347826	4.8564102564	0.5	0.6666666667	0.2580645161	2.1171875
+0.3145275035	0.243697479	1.4387990762	0.4245614035	0.6815834768	0.4153132251		1.6143884892	0.7950819672	0.6795454545	0.0989690722	0.9346049046	0.1088082902	0.2152974504	0.1943734015	0.1692307692	0.6967213115	0.1388888889	0.5564516129	0.1614583333
+0.2327221439	1.3409363745	3.3718244804	1.0719298246	0.7039586919	0.3445475638	1.6113537118		4.3786885246	1.2227272727	0.3195876289	1.029972752	1.4093264249	0.7875354108	3.9744245524	0.4923076923	0.7418032787	0.5208333333	0.9677419355	0.546875
+1.3878702398	0.2256902761	2.1212471132	0.3754385965	0.8227194492	0.3271461717	0.7947598253	4.3798561151		0.5545454545	1.4577319588	0.8583106267	0.5129533679	0.2917847025	2.0306905371	1.5179487179	0.4754098361	0.1111111111	1.3870967742	0.171875
+0.2524682652	0.5846338535	0.5519630485	0.1473684211	0.4388984509	0.4976798144	0.6790393013	1.2244604317	0.5540983607		0.187628866	3.038147139	0.5284974093	0.3824362606	0.6342710997	0.6820512821	2.1393442623	1.1597222222	5.3532258065	0.1015625
+7.8208744711	0.0300120048	0.1928406467	0.0385964912	0.1273666093	3.1716937355	0.1004366812	0.3194244604	1.4590163934	0.1863636364		0.1144414169	0.170984456	0.4192634561	0.5549872123	4.2564102564	0.1393442623	0.2152777778	0.3241935484	1.0598958333
+0.3018335684	0.3301320528	0.9087759815	0.6175438596	5.4664371773	0.8700696056	0.9323144105	1.0287769784	0.8573770492	3.0340909091	0.1134020619		0.0984455959	0.2266288952	1.5421994885	1.5435897436	4.2991803279	0.2152777778	3.8967741935	0.0989583333
+1.0014104372	0.306122449	1.0277136259	0.0298245614	0.0206540448	0.3839907193	0.1091703057	1.4086330935	0.5131147541	0.5272727273	0.1690721649	0.0980926431		0.5439093484	0.2659846547	0.3897435897	0.25	0.7152777778	0.0741935484	0.3984375
+0.3145275035	0.1032412965	0.2413394919	0.3263157895	0.1962134251	0.3990719258	0.2161572052	0.7870503597	0.2918032787	0.3818181818	0.4206185567	0.2288828338	0.5440414508		1.0869565217	0.4307692308	3.8770491803	2.4861111111	0.1338709677	6.4609375
+0.1960507757	1.12484994	0.5103926097	5.4333333333	0.9466437177	0.1310904872	0.1943231441	3.9755395683	2.031147541	0.6340909091	0.5546391753	1.5449591281	0.2642487047	1.0849858357		0.2	3.9631147541	0.0694444444	3.0129032258	0.0963541667
+2.0578279267	0.1740696279	0.8937644342	0.1035087719	0.3149741824	4.8549883991	0.1703056769	0.4935251799	1.5163934426	0.6818181818	4.2536082474	1.5476839237	0.3886010363	0.4277620397	0.1969309463		0.4057377049	0.5138888889	0.935483871	1.1927083333
+0.1184767278	0.24969988	0.317551963	0.9315789474	0.569707401	0.5	0.6965065502	0.7410071942	0.4737704918	2.1363636364	0.1381443299	4.2970027248	0.2487046632	3.8696883853	3.9539641944	0.4051282051		0.2638888889	0.8903225806	0.6796875
+0.365303244	0.337334934	0.1131639723	0.1298245614	0.156626506	0.6658932715	0.1397379913	0.5237410072	0.1114754098	1.1636363636	0.212371134	0.2152588556	0.7150259067	2.4844192635	0.0716112532	0.5179487179	0.262295082		0.1370967742	1.53125
+0.3060648801	0.3733493397	0.9064665127	0.4807017544	2.5817555938	0.2575406032	0.556768559	0.9669064748	1.3868852459	5.3477272727	0.3237113402	3.8991825613	0.0725388601	0.1331444759	3.010230179	0.9333333333	0.893442623	0.1388888889		0.0885416667
+0.6502115656	0.0504201681	0.2101616628	0.0473684211	0.0808950086	2.1148491879	0.1615720524	0.5467625899	0.1721311475	0.1022727273	1.0577319588	0.1008174387	0.3989637306	6.4504249292	0.0971867008	1.1897435897	0.6803278689	1.5277777778	0.0887096774	
+'>
+							<frequencies spec='Frequencies' frequencies='0.0709	0.0833	0.0866	0.057	0.0581	0.0862	0.0458	0.0695	0.061	0.044	0.0485	0.0367	0.0193	0.0353	0.0391	0.0195	0.0244	0.0144	0.062	0.0384
+'/>
+						</defaultModel>
+                        <frequencies estimate="true" id="AARSFrequencies0" spec="AARSFrequencies">
+                            <parameter dimension="1" estimate="true" id="RealParameter0" name="frequencies" value="1 0 0"/>
+                        </frequencies>
+                    </substModel>
+                </siteModel>
+				<branchRateModel spec='beast.evolution.branchratemodel.UCRelaxedClockModel' id="RelaxedClock.c:AARS" tree='@Tree.t:AARS'>
+					<parameter name='clock.rate' id='ucldMean.c:AARS' value='1.0'/>
+				    <distr id='LogNormalDistributionModel.c:AARS' name='distr' spec="beast.math.distributions.LogNormalDistributionModel" meanInRealSpace='true'>
+				        <parameter name='M' value="1.0" estimate='false' lower='0' upper='1'/>
+				        <parameter name='S' id='ucldStdev.c:AARS' value="0.5" lower="0" upper="1" estimate='true'/>
+				    </distr>
+				    <rateCategories spec='parameter.IntegerParameter' id='rateCategories.c:AARS' value="1" dimension='10' estimate='true'/>
+				</branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id='ucldStdevScaler.c:AARS' spec='ScaleOperator' scaleAll='false' scaleFactor="0.5" weight="3" parameter="@ucldStdev.c:AARS"/>
+    <operator id="CategoriesRandomWalk.c:AARS" spec="IntRandomWalkOperator" windowSize='1' weight="10" parameter="@rateCategories.c:AARS"/>
+	<operator id='CategoriesSwapOperator.c:AARS' spec='SwapOperator' howMany="1" weight="10" intparameter='@rateCategories.c:AARS'/>
+	<operator id='CategoriesUniform.c:AARS' spec='UniformOperator' weight="10" parameter='@rateCategories.c:AARS'/>
+
+    <operator id="BirthDeathTreeScaler.t:AARS" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:AARS" weight="3.0"/>
+
+    <operator id="BirthDeathTreeRootScaler.t:AARS" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:AARS" weight="3.0"/>
+
+    <operator id="BirthDeathUniformOperator.t:AARS" spec="Uniform" tree="@Tree.t:AARS" weight="30.0"/>
+
+    <operator id="BirthDeathSubtreeSlide.t:AARS" spec="SubtreeSlide" tree="@Tree.t:AARS" weight="15.0"/>
+
+    <operator id="BirthDeathNarrow.t:AARS" spec="Exchange" tree="@Tree.t:AARS" weight="15.0"/>
+
+    <operator id="BirthDeathWide.t:AARS" spec="Exchange" isNarrow="false" tree="@Tree.t:AARS" weight="3.0"/>
+
+    <operator id="BirthDeathWilsonBalding.t:AARS" spec="WilsonBalding" tree="@Tree.t:AARS" weight="3.0"/>
+
+    <operator id="BirthRateScaler.t:AARS" spec="ScaleOperator" parameter="@birthRate2.t:AARS" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="DeathRateScaler.t:AARS" spec="ScaleOperator" parameter="@relativeDeathRate2.t:AARS" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id='RestrictedSubtreeSlide' spec='RestrictedSubtreeSlide' weight='60' tree='@Tree.t:AARS'>
+		<clade idref='V'/>
+		<clade idref='G'/>
+		<clade idref='A'/>
+		<clade idref='D'/>
+		<clade idref='P'/>
+		<clade idref='E'/>
+		<clade idref='S'/>
+		<clade idref='L'/>
+		<clade idref='R'/>
+		<clade idref='T'/>
+		<clade idref='I'/>
+		<clade idref='Q'/>
+		<clade idref='N'/>
+		<clade idref='C'/>
+		<clade idref='Y'/>
+		<clade idref='H'/>
+		<clade idref='M'/>
+		<clade idref='W'/>
+		<clade idref='K'/>
+		<clade idref='F'/>
+	</operator>
+
+
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_20states_XrayCrystalsOnly.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.AARS"/>
+        <log id="TreeHeight.t:AARS" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:AARS"/>
+        <log idref="gammaShape.s:AARS"/>
+        <log idref="mutationRate.s:AARS"/>
+        <log idref="ucldStdev.c:AARS"/>
+		<log id='rate.c:AARS' spec='beast.evolution.branchratemodel.RateStatistic' tree='@Tree.t:AARS' branchratemodel='@RelaxedClock.c:AARS'/>
+        <log idref="BirthDeath.t:AARS"/>
+        <log idref="birthRate2.t:AARS"/>
+        <log idref="relativeDeathRate2.t:AARS"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log arg="@posterior" id="ESS.0" spec="util.ESS"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_20states_XrayCrystalsOnly.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:AARS" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS" branchratemodel="@RelaxedClock.c:AARS"/>
+    </logger>
+    
+        <init estimate="false" id="TreeParser.t:AARS" initial="@Tree.t:AARS" spec="beast.util.TreeParser" taxa="@AARS"
+		IsLabelledNewick="true"
+    	newick='((((((ile_bact_1ile_T_thermophilus:0.1, ile_bact_1qu2_S_aureus:0.1):100, (leu_arch_1wz2_P_horikoshii:0.1, leu_bact_2v0c_T_thermophilus:0.1):100):100, (val_bact_1gax_T_thermophilus:100, (met_bact_1pfv_E_coli:0.1, met_arch_1rqg_P_abyssi:0.1, met_bact_1woy_T_thermophilus:0.1, met_bact_2csx_A_aeolicus:0.1, met_bact_2x1l_M_smegmatis:0.1):100):100):100, (((glu_bact_1j09_T_thermophilus:0.1, glu_bact_1nzj_E_coli:0.1, glu_bact_2cfo_T_elongatus:0.1, glu_bact_2o5r_T_maritima:0.1):100, (gln_bact_1qtq_E_coli:0.1, gln_bact_2hz7_D_radiodurans:0.1):100):100, ((cys_bact_1li5_E_coli:0.1, cys_bact_3c8z_M_smegmatis:0.1):100, (arg_euk_1f7u_S_cerevisiae:0.1, arg_bact_1iq0_T_thermophilus:0.1, arg_arch_2zue_P_horikoshii:0.1, arg_bact_3fnr_C_jejuni:0.1):100):100):100):100, ((tyr_bact_1h3f_T_thermophilus:0.1, tyr_bact_1jil_S_aureus:0.1, tyr_bact_1wq4_E_coli:0.1, tyr_arch_2cya_A_pernix:0.1, tyr_arch_2cyb_A_fulgidus:0.1, tyr_arch_2cyc_P_horikoshii:0.1, tyr_euk_2dlc_S_cerevisiae:0.1, tyr_arch_2zp1_M_jannaschii:0.1):100, (trp_bact_1i6m_G_stearothermophilus:0.1, trp_euk_1r6u_H_sapiens:0.1, trp_bact_2el7_T_thermophilus:0.1, trp_bact_2g36_T_maritima:0.1, trp_euk_2ip1_S_cerevisiae:0.1):100):300):300, (((((asn_arch_1x54a_P_horikoshii:0.1, asn_euk_3m4p_E_histolytica:0.1, asn_bact_d1asza_T_thermophilus:0.1):100, (asp_arch_1wydb_S_tokodaii:0.1, asp_euk_3i7f_E_histolytica:0.1, asp_arch_d1b8aa_T_kodakarensis:0.1, asp_bact_d1c0aa_E_coli:0.1, asp_bact_d1efwa_T_thermophilus:0.1):100):100, ((ser_euk_1wleb_B_taurus:0.1, ser_arch_2cjab_M_barkeri:0.1, ser_bact_d1sera_T_thermophilus:0.1):100, (thr_arch_3a32_A_pernix:0.1, thr_bact_d1evka_E_coli:0.1, thr_bact_d1nyra_S_aureus:0.1):100):100):100, (((pro_bact_2i4la_R_palustris:0.1, pro_bact_2j3mb_E_faecalis:0.1, pro_euk_3ial_G_lamblia:0.1, pro_bact_d1hc7a_T_thermophilus:0.1, pro_arch_d1nj8a_M_jannaschii:0.1):100, (gly_euk_2zt5_H_sapiens:0.1, gly_bact_d1atib_T_thermophilus:0.1):100):100, ((his_bact_1htt_E_coli:0.1, his_arch_1wu7a_T_acidophilum:0.1, his_euk_3hri_T_brucei:0.1, his_euk_3lc0_T_cruzi:0.1, his_bact_d1adjc_T_thermophilus:0.1, his_bact_d1qe0a_S_aureus:0.1):100, (lys_euk_3bju_H_sapiens:0.1, lys_bact_3e9h_G_stearothermophilus:0.1, lys_bact_3g1z_S_typhimurium:0.1, lys_bact_d1e1oa_E_coli:0.1):100):100):100):100, ((phe_bact_2alya_T_thermophilus:0.1, phe_bact_2rhq_S_haemolyticus:0.1, phe_euk_3l4g_H_sapiens:0.1):100, (ala_bact_1yfsa_A_aeolicus:0.1, ala_arch_2ztg_A_fulgidus:0.1, ala_arch_2zze_P_horikoshii:0.1, ala_bact_3hxv_E_coli:0.1):100):300):300):300;'/>
+</run>
+
+</beast>

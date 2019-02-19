@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" version="2.0">
+
+
+<data id="AARS" name="alignment">
+	<userDataType spec='beast.evolution.datatype.TwentyState' symbolOrder='VGADPESLRTIQNCYHMWKF'/>
+                    <sequence id="seq_arg_euk_1f7u_S_cerevisiae" taxon="arg_euk_1f7u_S_cerevisiae" totalcount="20" value="IIEFSPNIAKPFHAGHLRSTIIGGFLANLIRMNYLGDWGEFSIEKYIDTYARLDVYSGESQLYLTRDVGAAMIYVIASQQDLHAAQFFEILKQMLQHVNF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_euk_B_mori" taxon="arg_euk_B_mori" totalcount="20" value="IVDFSPNIAKEMHVGHLRSTIIGDSICRVVRLNHLGDWGEVSRQEFQKIYDRLDIDRGESFTYDTSDMAAIKIYVTDVGQYTHFMTIDACARRAVEHVGF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_euk_P_euphratica" taxon="arg_euk_P_euphratica" totalcount="20" value="VVDFSPNIAKEMHVGHLRSTIIGDTLASMLRRNHVGDWGDISRREFDQVYQRLGEEKGESFNYASTDMTALWIYVTDVGQQQHFDMVFKAAKRAASHVGF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_euk_D_discoideum" taxon="arg_euk_D_discoideum" totalcount="20" value="IVEFSPNIAKPFHAGHLRSTIIGNFMVNLVSMNYLGDWGDLSIVKYKDIYNRLDIYAGESLLYITRDIAAAVYYVVASQQDFHFRQLFDILGKMLTHINY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_euk_G_theta" taxon="arg_euk_G_theta" totalcount="20" value="IVDFSPNIAKEMHVGHLRSTIIGDTLCRLLRLNHVGDWGEASRKEFQVVYDMLNEERGESFLYSTTDLAAIRLYVTDAGQSTHFDQARCIARQALEHVPF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_euk_A_subglabra" taxon="arg_euk_A_subglabra" totalcount="20" value="VLEYSPNIAKQFHVGHLRSTILGGFLANLISLNYLGDWGELSIKQYAQEYALLDEYVGESTLYLTRDLGGAIIYVVSSQQDRHLAQFFKLLALMLEHVSF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_euk_G_lamblia" taxon="arg_euk_G_lamblia" totalcount="20" value="VVDFSPNVAKSMHVGHLRSTIIGDSICRLHRINHVGDWGDISRHEFQRIYDRLDDEFGESSTYDTTDMAAIYVYVVDAGQSSHFDLVFKAAEKAAVHVPF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_euk_C_subellipsoidea" taxon="arg_euk_C_subellipsoidea" totalcount="20" value="VVDFSPNVAKEMHVGHLRSTIIGDTIARTLRINHVGDWGEASRNEFDAIYHRLDLWRGESWGYGTTDMATLAIYVTDEGQSGHFKLVFGAGKRAIDHVGF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_euk_L_infantum" taxon="arg_euk_L_infantum" totalcount="20" value="LVDFAPNIAKEMHVGHLRSTIIGESISRLARINHIGDWGDVSREEFDKVYTRLGEERGESFTYDTTDVTATYIYCTDLGQYEHFRMCMQTAKDMWDHAGF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_euk_P_chromatophora" taxon="arg_euk_P_chromatophora" totalcount="20" value="IIDFSPNIAKDMHVGHLRSTLIGDCLARILRLNHVGDWGDQSRREFQVIYDRLDTERGESFNYATTDLAAIRVYVTDSGQANHFAGIFQIARRALEHVPF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_euk_N_ceranae" taxon="arg_euk_N_ceranae" totalcount="20" value="VIDYSPNIAKIFHMGHFRTTILGNFVKKIVGINYLGDWGELSINKYKELYSKLEEYSGESFLYLTRDFSAAKIYVVSSEQKEHFEDLFATLRKALEHVQY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_euk_D_rerio" taxon="arg_euk_D_rerio" totalcount="20" value="IVDFSPNIAKEMHVGHLRSTIIGDSMCRLLRLNHVGDWGDVSRKEFQKVYNCLDKERGESYTYDTSDLAAIRIYVTDSGQAMHFQVIFAAAQLIVEHAGF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_euk_C_owczarzaki" taxon="arg_euk_C_owczarzaki" totalcount="20" value="VLDFSPNIAKPFHAGHLRSAIIGNVLRNLVAINYLGDWGSLSEVEYRSMYARLDVYDGESLTYLTRDIAAAVLYVVGPEQALHFEQLFELLRVLCRHVAF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_euk_S_rosetta" taxon="arg_euk_S_rosetta" totalcount="20" value="IVDFSPNIAKEMHVGHLRSTIIGESISRVHRVNHVGDWGDVSRREFQDIYNRLDEEKGESFTYDTSDLATLRVYVVGQSQGQSQCSAKAEMQSRLLTLGS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_euk_M_domestica" taxon="arg_euk_M_domestica" totalcount="20" value="LVDFSPNIAKEMHVGHLRSTIIGESICRLLRVNHVGDWGDVSRREFQKIYDRLGKEKGESFTYDTSDMAAIRIYVVDAGQNTHLKNIYLAAERCAEHVQF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_euk_C_parvum_Iowa_II" taxon="cys_euk_C_parvum_Iowa_II" totalcount="20" value="NWYAGPTVYDSAHLGHARNYVTFDIIRRVYLVMNITDIDREFELEFFDDMKALDVVTRVSEGWHIECSVMASIHSGGIDLRFPHDNELAQSEAHVYFLHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_euk_D_discoideum" taxon="cys_euk_D_discoideum" totalcount="20" value="SWYTGPTVYSSSHIGHARNYMTVDIIQRIIHVMGLTDIDKKFEQEFFEDLKSLMFTTRVSEGWHIECSAMIDVHSGGVDLEFPHQNEIAQCEGHAYFFHI---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_euk_E_guttata" taxon="cys_euk_E_guttata" totalcount="20" value="GMYIGVTSYDLSHIGHARAYVAFDVLYRYVYVRNFTDVDWRFCEEFLSDMADLTHQPRVTDGWHIECSAMSAIHGGGMDLIFPHENEIAQSCAAVYWIHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_euk_G_lamblia" taxon="cys_euk_G_lamblia" totalcount="20" value="LAYIGPTVYDSTHLGHARTYVTFDVVRRIRYQCNITDVDRKYEQEFLSDMHTLTVVTRVTEGWHIECSAMAALHLGGCDLQFPHDNELIQLETWICFLHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_euk_G_theta" taxon="cys_euk_G_theta" totalcount="20" value="RWYIGPTVYDSSHLGHARTYVAFDVIRRIFCVMNITDVDAFYEQEYHEDMKSLDVLTRVTEGWHIECSVMASIHGGGIDLCFPHDNELAQAEAYVYFLHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_euk_L_infantum" taxon="cys_euk_L_infantum" totalcount="20" value="RWYTGPTVYDLSHMGHARAYLTFDIIRRVIYQMNITDIDRKYERAFFEDMQRLDIVTRVTEGWHIECSVMASIHSGGWDLKFPHDNECAQSEACVYFLHC---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_euk_B_hominis" taxon="cys_euk_B_hominis" totalcount="20" value="SWYSGPTVYDSSHVGHARTYVQIDLLQRIHSAMGITNIDSRYEEEFINDMQRLMSVVRVSDGWHIECSVNCHVHAGGIDLRFPHCNEIAQCEAYCMMLHI---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_euk_N_gruberi" taxon="cys_euk_N_gruberi" totalcount="20" value="TWYTGPTVYDWSHMGHARTYVGFDIVRRIIYIENITDIDRYYEHLFWEDMKQLTVLVRVTEGWHIECSAMACVHCGGIDLKFPHDNELAQSEAYVYFLHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_euk_P_bivittatus" taxon="cys_euk_P_bivittatus" totalcount="20" value="KWYCGPTVYDASHMGHARSYISFDILRRVFYCMNITDIDKFWEEEYHKDMAALDVLTRVSEGWHIECSAMAGIHGGGFDLRFPHDNELAQSEAYVYFLHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_euk_P_chromatophora" taxon="cys_euk_P_chromatophora" totalcount="20" value="SIYCGVTVYDLCHLGHARSYIAWDVLRRYTFVQNFTDIDDRNIEAFKSDMALLDRMPRATKGWHIECSTMVRIHLGGADLIFPHENEIAQSEMAAYWLHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_euk_S_rosetta" taxon="cys_euk_S_rosetta" totalcount="20" value="TWYQGPTVYDHSHIGHAVCFQRFDILRRVLQVWGMTDIDRQYEESFFQDMAALAHITRVTEGWHIECSAMASIHTGGIDLLYPHTNELAQCESHVHFWHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_euk_T_vaginalis" taxon="cys_euk_T_vaginalis" totalcount="20" value="RCYTGPTVYSTSHLGHARTYLSFDMIRRIQWSMNVTDIDADREKAFFAELDTLDALLRVSEGWHIECSTMSGLHAGGIDLRFPHSNEIAQSQARVNWMHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_euk_C_gigas" taxon="cys_euk_C_gigas" totalcount="20" value="KIYSGPTVYDFPHIGNYRSFLFSDLLHRTKLVMNITDIDDRYTQAFLQDLKDLSHYPRATDGWHIECSAMSRIHTGGTDNRFPHENEIAQSECFVYWLHV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_euk_C_owczarzaki" taxon="cys_euk_C_owczarzaki" totalcount="20" value="NAYIGPTVYDASHMGHASTYIQFDVIRRVRWVMNITDVDRYWEEQFNIDMKALDRLTRVSDGWHIECSAMAGIHGGGIDLKFPHDNEIAQSEAFIYFMHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_euk_N_ceranae" taxon="cys_euk_N_ceranae" totalcount="20" value="KIYIGPTVYDHSHIGHARTYVSFDVIRNITFVMNITDIDVKYTNLFLEDMALLTVLTKVTEGWHIECSVMANIHAGGVDLKFPHENEIAQCQARVYFMHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_L_infantum" taxon="gln_euk_L_infantum" totalcount="20" value="YFRFPPEPNGFLHIGHAKSMNLNFGSARAKCYLRYDDTNQVYIDAIMEMVDWMDWVTFSSDSYDFTHCLIDSYSLCTLEFETRRESYFWLLNELPYVWEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_C_gigas" taxon="gln_euk_C_gigas" totalcount="20" value="HTRFPPEPNGILHIGHAKAINFNFGYAKKNTYLRYDDTNEKFFTAIKNMVEWLFQVTHASDTYDYTHCLCDSHSLCTKEFQSRRSSYYWLCNALPVQWEY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_A_subglabra" taxon="gln_euk_A_subglabra" totalcount="20" value="FTRFPPEPNGFLHIGHSKAIFVNFGYAAHKCYLRYDDTNAKYFESILEIVRWLFRITYSSDTYDFTHCLCDSHSLCTTEFIDSRESYEWLCDQLPRQSEY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_C_parvum_Iowa_II" taxon="gln_euk_C_parvum_Iowa_II" totalcount="20" value="VTRFPPEPNGFLHLGHAKSICLNYGIAKIRFHLRYDDTNQQYIDAIEEDVRWLGEKYYASDMYDFAHGQSDSHSICTLEFELHRPLYDWLQSELTRQIEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_G_lamblia" taxon="gln_euk_G_lamblia" totalcount="20" value="LTRFPPEPNGYLHLGHAKAMFISFNYALLKTYLRMDDTNKEYIDSILASIEWLFKFTHTSDSYDFSHCLIDAHSLCTLEFGIRRESYDWVTHNVPMQWEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_T_vaginalis" taxon="gln_euk_T_vaginalis" totalcount="20" value="MTRFPPEPNGWIHIGHAKAMILDFGLAATHCYMRFDDTNVEFIEGIKKDVHWLWKITHTSDTYDYSHCVIDSHSLCTLEFQNRRDSYYWVLDALPVVWEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_C_subellipsoidea" taxon="gln_euk_C_subellipsoidea" totalcount="20" value="VTRFPPEPNGYLHIGHAKAMFVDFGFAERDCYLRFDDTNQEYIDHIQDIVAWLWKVTYSSDSYDYTHCLVDAHSLCTLEFESRRASYYWLLHVLPVVWEY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_H_sapiens" taxon="gln_euk_H_sapiens" totalcount="20" value="RTRFPPEPNGILHIGHAKAINFNFGYAKAICFLRFDDTNAKFFTAICDMVAWLYKVTYASDTYDYTHCLCDSHSLCTKEFQARRSSYFWLCNALPVQWEY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_N_ceranae" taxon="gln_euk_N_ceranae" totalcount="20" value="VTRFPPEPNGILHIGHAKAINLDFGYAEKICYLRFDDTNDYYFESIIEDVKWLYAITSSSKSYEFALCVSDSHSFCTREFFTRQESYKWLLDALPVQWEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_D_rerio" taxon="gln_euk_D_rerio" totalcount="20" value="RTRFPPEPNGILHIGHAKAINFNFGFAKAICFLRYDDTNEKYFTAIKDMVEWLYAVTHASDTYDYTHCLCDSHSLCTKEFQARRSSYFWLCNALPVQWEY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_C_owczarzaki" taxon="gln_euk_C_owczarzaki" totalcount="20" value="HTRFPPEPNGILHIGHAKAMHINFTFARVKCIFRYDDTNERFFVGIRQMVDWLAAVTHTSDTYDYSHCLIDSHSMCTKEFQNRRMSYYWLCNALPVQWEY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_R_rosetta" taxon="gln_euk_R_rosetta" totalcount="20" value="HTRFPPEPNGILHIGHAKAITFNFAYARDNCYLRYDDTNEEFFRGILRDVTWLFKITHSSDTYDFTHCLCDSHSLCTKEFQNRRSSYYWLCNALPVQWEY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_M_domestica" taxon="gln_euk_M_domestica" totalcount="20" value="QTRFPPEPNGILHIGHAKAININFGYAAAVCYLRYDDTNEKFFVGIKDMVEWLYKITHSSDTYDYTHCLCDSHSLCTKEFQSRRSSYYWLCNALPVQWEY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_G_theta" taxon="gln_euk_G_theta" totalcount="20" value="RTRFPPEPNGYLHIGHAKSICLNFGVAKERTNMRFDDTNEEYVRSILKDVRWLDNTRYASDMYDFAHCISDAHSLCTLEFEDHRPLYDWVLDELPQQTEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_euk_E_guttata" taxon="gln_euk_E_guttata" totalcount="20" value="LTRFPPEPNGYLHIGHAKAMFVNFGLAKECCYLRYDDTNKEYIDHIEEIVGWMFKITYTSDSYDYAHCIVDSHSLCTLEFETRRASYYWLLDALPYVWEY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_euk_A_subglabra" taxon="glu_euk_A_subglabra" totalcount="20" value="VTRFPPEPSGYLHIGHAKAAMLNYYFGKMKFIVRFDDTNDEFEQTILEDLQMLDVITHTSDIYDFACPIVDSHALRTNEYRDRNPQYKWMIDSLVEIWDF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_euk_B_hominis" taxon="glu_euk_B_hominis" totalcount="20" value="RVRFAPSPTGFMHLGGLRMALINYLIAKKKFILRIEDTDKGSADNIIRTLCDFDGPYVQSSTYHLASVVDDHLVIRGEEWISSVPKHLQLYSAFPDFIHL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_euk_B_mori" taxon="glu_euk_B_mori" totalcount="20" value="VVRFPPEASGYLHIGHAKAALLNQYYQQAKLVMRFDDTNADFEKVILEDVAMLDMFTHTSQTYDFACPIVDSHVLRTMEYHDRDPQFYWFIEALPYIWEY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_euk_C_parvum_Iowa_II" taxon="glu_euk_C_parvum_Iowa_II" totalcount="20" value="VTRFPPEPSGYLHIGHAKAALLNYYYANKKLLLRFDDTNEEFQESIEADLKILFNVSFTSDTYDFACPIVDSHALRTNEYSDRIEQYNWVINALVEIYEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_euk_D_rerio" taxon="glu_euk_D_rerio" totalcount="20" value="VVRFPPEASGYLHIGHAKAALLNQHYQVTKLIMRFDDTNEDFEKVILEDVAMLDQFTYTSDTYDFACPIVDSHALRTTEYHDRDEQFYWVIEALPYIWEY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_euk_E_guttata" taxon="glu_euk_E_guttata" totalcount="20" value="KLRFAPEPSGYLHIGHAKAALLNQYFAEREVIIRFDDTNNEFVDNLLIDIATLTAVTYTSDTYDFCCPFVDAHALRSSEYHDRNEQYYRIQTDMVHLYEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_euk_L_infantum" taxon="glu_euk_L_infantum" totalcount="20" value="VTRFPPEASGFLHIGHAKAALINRMLADAKMLFRFDDTNEHFEVAIEEDLKTLDGPTYSSDTYDFCCPLVDSHALRTNEYHDRNAQYYWFCDAMPTIEDF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_euk_N_ceranae" taxon="glu_euk_N_ceranae" totalcount="20" value="VTRFAPEPSGCLHIGHLKALLVNYNLAEKTLLLRFDDTNEKYEKEILRDLDTLLKISHSSDTYDFVCPIVDSVVCRANEYKDRNEQYKWFLENLPEFNDF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_euk_T_vaginalis" taxon="glu_euk_T_vaginalis" totalcount="20" value="KLRFAPSPTGYLHIGGLRTALYNYLFAKKKFVLRIEDTDEGAIENLIESLEWADGVYIQSQTYHMAVIVDDHHIVRGEEWLPSTPKHVYLYECLPEFVHL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_euk_P_chromatophora" taxon="glu_euk_P_chromatophora" totalcount="20" value="RVRLAPSPTGTLHIGTARTALFNWLFARQAFLLRIEDTDEEFTDNILEGLQWIDDPVIQSHLYNLAVVVDDAHVIRGEDHIANTAKQLQLYKALPQFAHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_euk_R_rosetta" taxon="glu_euk_R_rosetta" totalcount="20" value="RVRFAPSPTGFLHLGGLRTALFNYLFAVKTFILRLEDTDTGAAEALQRDLAWAHGPYVQSETYHLANVVDDHHVLRGEEWLISTAKHELLYRAFPTFVHL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_B_mori" taxon="ile_euk_B_mori" totalcount="20" value="SFYDPPFATGLPHYGHILAGTIKDVVTRYERRFGWDCHGMKYAADWENIITRMDNDYKTLYDCWFESGSMPYFIAEGIDQTRGFYTLIVLSTALFNLIAN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_C_gigas" taxon="ile_euk_C_gigas" totalcount="20" value="TFYDPPFATGLPHYGHILAGTIKDVVTRWERRFGWDCHGMRYSTEWEEIVTRLDNDYKTMYDCWFESGSMPYFIAEGIDQTRGFYTLLVLSTLLFNLIVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_D_discoideum" taxon="ile_euk_D_discoideum" totalcount="20" value="SFYDPPFATGLPHYGHILAGTIKDTITRYERRFGWDCHGMKYSHEWEIVVNRMDNNYKTMDDCWFESGSMPYFIAEGLDQTRGFYTLLVLSTALFNLIVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_C_owczarzaki" taxon="ile_euk_C_owczarzaki" totalcount="20" value="WQLSPPYANGQLHLGHAMNKILKDIVVRHHFVPGWDCHGREAMEMQRKEFMSWDHPYLTMTDVWFDSGTSWMLVLEGSDQHRGFQSSLLTSVIAFTIVTH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_C_subellipsoidea" taxon="ile_euk_C_subellipsoidea" totalcount="20" value="TLHDPPYANGDTHLGHALNKILKSIIVNYRYVPGWDCHGLKTVKAQREQFKRYDAPYLTLEDVWFDSGTSWALYLEGSDQHRGFQSSLLTAAAAYAVLTH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_L_infantum" taxon="ile_euk_L_infantum" totalcount="20" value="SFYDPPFATGLPHYGHILAGTIKDMVTRFIRRFGWDCHGTRYVDEWRKTVERVDNDYKTMHDCWFESGSMPYFVSEGLDQTRGFYTLLVLGVALFNVAVS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_S_rosetta" taxon="ile_euk_S_rosetta" totalcount="20" value="ILHDPPFANGNLHMGHVLNKALKDMIVRYSFVPGWDCHGEGAIKEQKTDFVRLDHPYLTLHDVWFDSGTSWNVYLEGSDQHRGFQSSLLTKITTFTIITH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_A_subglabra" taxon="ile_euk_A_subglabra" totalcount="20" value="VLQDPPYANGSLHMGHALNKILKDIILRFQYIPGWDCHGLREVDNQREQMKVFNDGYRTIEDVWFDSGTAWTVVLEGSDQHRGFQSLLLTSLGAYTVVTH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_G_lamblia" taxon="ile_euk_G_lamblia" totalcount="20" value="NFYDPPFATGLPHYGHLLAGTIKDVVCRYNRRFGWDCHGMRYSQEWEAIVKRSDRDYKTMNDCWFESGSMPYFIAEGLDQTRGFYTLLILSTALSNCIVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_T_vaginalis" taxon="ile_euk_T_vaginalis" totalcount="20" value="IFYDPPFATGTPHYGHILAGTIKDVVTRYPRRFGWDTHGMKHQQDWERVVRRCDNSYKSMDDCWFESGSMPFFIAEGLDQTRGFYTMTILSSLLFNVIVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_B_hominis" taxon="ile_euk_B_hominis" totalcount="20" value="ITHDPPYANGDLHMGHFENKILKDIINRHEYKPGWDCHGSDTIKRQKKSINEWSIVTILLQDVWIDSGVSWFSYLEGSDQHRGFQSSIFTSQVHFNLVTH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_E_guttata" taxon="ile_euk_E_guttata" totalcount="20" value="IFYDPPFATGLPHYGHILAGTIKDIVTRYTRRFGWDCHGQRYVDEWEKTVVRMDNDYKTMDDCWFESGSMPYFVAEGLDQTRGFYTLMVLSTALFNLICN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_P_chromatophora" taxon="ile_euk_P_chromatophora" totalcount="20" value="VLHDPPYANGDLHMGHVLNKVLKDIINKYCFVPGWDCHGKKQIKIQKAGFIRWEKPYLTFNDVWFDSGSSWALYLEGSDQHRGFQSSLLTSTAVYKVITH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_H_sapiens" taxon="ile_euk_H_sapiens" totalcount="20" value="TFYDPPFATGLPHYGHILAGTIKDIVTRYDRRFGWDCHGMRYSAEWKSTVSRLDNDYKTLYDCWFESGSMPYFIAEGIDQTRGFYTLLVLATALFNVIVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_N_ceranae" taxon="ile_euk_N_ceranae" totalcount="20" value="TFYDPPFATGLPHFGHILAGTVKDVITRYDRRFGWDCHGMKHSSEWKDTVEKMDNSYKTMDDCWFESGCMPYFIGEGIDQTRGFYTLHVISTLLFNVIVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_G_theta" taxon="ile_euk_G_theta" totalcount="20" value="TFYDPPFATGMPHYGHILAGTIKDCITRYERKWGWDTHGMRYASEWKRVVRRLDNDYKTLDDCWFESGSMPYFIAEGLDQTRGFYTLMVIGTALFNVIVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_N_gruberi" taxon="ile_euk_N_gruberi" totalcount="20" value="SFYDPPFATGLPHYGHILAGTIKDVVTRYERRFGWDCHGMKYSSEWEQIITRLDNDYKTMNDCWFESGSMPYFIAEGLDQTRGFYTLLVLGTALFNVIVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_euk_C_parvum_Iowa_II" taxon="ile_euk_C_parvum_Iowa_II" totalcount="20" value="SFYDPPFATGLPHYGHILAGTVKDVVTRYERRFGWDCHGLRYTQEWKSTVERVDNGYKTMDDCWFESGSMPYFVGEGLDQTRGFYTLMVLSTALFNIIVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_euk_L_infantum" taxon="leu_euk_L_infantum" totalcount="20" value="LTTFFPYMNGKLHLGHGFSLTKAEFASRFLWPFGFHVTGDYFPPIAMEDLKSFDRSFMTTSDSLSDSTIYMALRCSGKDLIQNLTMFLYNHAAIPAIFCN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_euk_G_theta" taxon="leu_euk_G_theta" totalcount="20" value="YVLDFPYPSGALHVGHPEGYTATDILSRYMHPMGWDAFGKKNIDRFREQLQSLDREVSTTDPQWAGSCWYYLLYLGGAEHAVLLLYARFWHKVLFRLVNQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_euk_H_sapiens" taxon="leu_euk_H_sapiens" totalcount="20" value="FVTFYPYMNGRLHLGHTFSLSKCEFAVGYLFPFGLHCTGDYFPPLAIQDLKRMDRSFITTDESLSDSTIYMALRVSGKDLVPNLSYYLYNHVAMPAVRAN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_euk_B_taurus" taxon="leu_euk_B_taurus" totalcount="20" value="FVTFYPYMNGRLHLGHTFSLSKCEFAVGYLFPFGLHCTGEYFPPLAVQDLKRMDRSFITTDESLSDSTIYMALRASGKDLIPNLSYFLYNHVAMPAVRAN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_euk_C_gigas" taxon="leu_euk_C_gigas" totalcount="20" value="IVTFYPYMNGRLHLGHTFSLSKAEFGVGYLFPFGLHCSGKYFPPHCKEDLRKMDRSFLTTDESLSDSTIYMALRVSGKDLVPNLTYYIYNHVAIPSIRAN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_euk_C_owczarzaki" taxon="leu_euk_C_owczarzaki" totalcount="20" value="YILAFPYPSGHLHMGHVRVYTLSDCLARFLHPMGWDAFGIKNIEYMRKQLQRLDKEVTTCADTFVDSSWYFAIYVGGVEHAILLLYARFLTRFFFRLLTQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_euk_C_subellipsoidea" taxon="leu_euk_C_subellipsoidea" totalcount="20" value="YILDFPYPSGALHVGHPAGYTATDILARLLHPIGWDAFGERNVNRFRQQLQSLDREVSTTDPQWAGSCWYYLLYVGGAEHAVLLLYARFWHKVLFRLVSQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_euk_A_subglabra" taxon="leu_euk_A_subglabra" totalcount="20" value="MGTVFAYMNGSLHAGHGFSISKIEFNAGFLFPVGFHCTGSYYPHITKDDNIAFDRQFITTDESLSDSTIYMSIRSSGKDLIPNLTFCLYNHAAIPSMRAN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_euk_G_lamblia" taxon="leu_euk_G_lamblia" totalcount="20" value="FVTFYPYMNGRLHLGHLFSATRAEFAVGYLFPFGFHVTGKHFPALCYKDMCKFDRSMITTDESLSDSTIYNALRCSGKDLIPNLTMMLYNHTAIPGMRAN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_euk_B_hominis" taxon="leu_euk_B_hominis" totalcount="20" value="YVLPFPYPSGKMHMGHVRVFSISDCISRYIHPMGWDAFGKNNVEEMRKQISGLNREVNTSTDTFMDSSWYFYYYVGGSEHSIMLLFARFVARFLFHLITQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_euk_T_vaginalis" taxon="leu_euk_T_vaginalis" totalcount="20" value="MITFFPYMNGRLHLGHLFTISKAEFAVRYLFPFAFHCTGHYFPPYGVKDMKQFDRSFITTDDSLSDSTIYTACRVSGKDLVTNLTMWLYNHAAVPAVRAN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_euk_P_chromatophora" taxon="leu_euk_P_chromatophora" totalcount="20" value="YALSFPYPSGKLHMGHVRNYVITDVIARALHPMGWDAFGNTNIQQMRKQLDQLDREISTCNDTFMCSSWYFLHYVGGIEHAILLLYSRFFTKVLFRLLPQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_euk_N_ceranae" taxon="leu_euk_N_ceranae" totalcount="20" value="FITFYPYMNGKLHLGHLYSISKADFMSYYLFPLAFHCTGKTFPKLCISSLKTFDRSFVTTDDSLSDSTIYMALRVSGKDLIKNLLFFMFNHVALPRIFTN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_euk_S_rosetta" taxon="leu_euk_S_rosetta" totalcount="20" value="YALAFPYPSGALHMGHVRVYTISDSVARFIHPMGWDAFGIRNIAYMKEQLDALDREVTTCSDTFVDSAWYFLLYIGGIEHAVLLLYARFVNMAAFKLLAQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_euk_E_guttata" taxon="leu_euk_E_guttata" totalcount="20" value="YGNFFPYMNGYLHLGHAFSLSKLEFAAAYLLPFAFHCTGTFFPPLAVEDLKAFDRTFVTTDESLSDSTLYMALRVSGKDLIQNLTFSIYNHTALPGFRCN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_S_rosetta" taxon="met_euk_S_rosetta" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADVFARFLFICGTDEYGDKYHAIHKEVYDWFDYFGRTSTYVWFDATIGYIYQFMAKDNVLFSIIFPSSLIGTVHLSAT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_B_hominis" taxon="met_euk_B_hominis" totalcount="20" value="KVSTIYYVNGEPHLGHIYSTALADAICRWFLTTGTDEHGDSIASVFQSELSHYGRFIRTTDYVWIDALTNYLLHVFGKDIAKFCYFYPCLLLALPRMICH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_B_mori" taxon="met_euk_B_mori" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADIFARYLYICGTDEYGDKYFEIHNNVYRWFDYFGRTSTYVWFDAPIGYMYQFMAKDNVPFVVMFPATVLGVVHLFAT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_C_gigas" taxon="met_euk_C_gigas" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADVFSRYLYICGTDEYGDKYNKIHAEIYDWFDKFSRTSIYVWFDAPIGYIYNFLGKDNVPFSVIFPCSLLGAVHMSAT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_C_parvum_Iowa_II" taxon="met_euk_C_parvum_Iowa_II" totalcount="20" value="YFTTINYTNGTPHMGHAYEIVTSDILVRIRFQTGTDEHGDENVKQFKNMNEKLDRFIRTTDYVWFDALTNYIVHIVGKDITWFSVIWPAMLLSVPTIFAH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_C_subellipsoidea" taxon="met_euk_C_subellipsoidea" totalcount="20" value="RLRTGTRVNAEPHMGSAYTTMAADAITRFSFVTGTDEHGDGVVASFKGLWEEMDSFIRTTDYVWFDALLGYMVHLVGKDILRFALYWPGMLLSAPKIFAH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_D_discoideum" taxon="met_euk_D_discoideum" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADVYARYIYICGTDEYGDKYHEIHKEIYEWFDKFGRTSTYVWFDAPIGYIVQFMGKDNVPFTVIFPASLIGSLNLSTT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_E_guttata" taxon="met_euk_E_guttata" totalcount="20" value="LITSLPYVNNIPHLGNIICVLSADVFARYIYICGTDEYGDKYHAIHKEVYKWFDEFGRTSSYVWFDAPIGYVYQFMGKDNVPFTVMFPSTLLGTMTISVT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_A_subglabra" taxon="met_euk_A_subglabra" totalcount="20" value="LITSLPYCNNVPHLGNLISLLSADVFSRYLYVCGTDEYGDKYNALHRETYDWFDLFGRTSTYVWFDACIGYVYQFMGKDNTYFSVLFPSSQLGDLHLSTT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_H_sapiens" taxon="met_euk_H_sapiens" totalcount="20" value="LITSLPYVNNVPHLGNIICVLSADVFARYLYLCGTDEYGDKYHIIHADIYRWFDIFGRTTTYVWFDATIGYLYQFMAKDNVPFSLVFPCSALGAVHLIAT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_L_infantum" taxon="met_euk_L_infantum" totalcount="20" value="FATTIYYVNASPHIGHVYSTLIVDVLGRYFVMTGTDEHGTSVSSEFKQCFKEMNYFIRTTNYVWLDALFNYYVHVVGKDILKFAIYWPAFLMSAPRLVSH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_G_lamblia" taxon="met_euk_G_lamblia" totalcount="20" value="YLTTIYYVNGKPHIGHVFTTLLADTLKRFYLMTGTDEHGDNMAKTFETFLENFDVFMRTTMYVWIDALAIYLVQFLGKDIARFCVYWLAFLMGAPRFFIH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_G_theta" taxon="met_euk_G_theta" totalcount="20" value="LLALESSSAFHTAMGSAYPTIAADILADYVFVTGSDEHGDAMVGEFKQLWDKLDSFIRTTDYVWFDALLGYIVHIIGKDILRFAVYWPAMLMSAPYIHSH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_P_chromatophora" taxon="met_euk_P_chromatophora" totalcount="20" value="VTTPLYYVNDRPHLGSAYTTLACDALARYQRLIGCDEHGQQVSEEYHHLWSRWDRFIRTTDYVWFDALIGYLVHVIGKDILRFAVYWPAMLMSAPMVFGH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_N_ceranae" taxon="met_euk_N_ceranae" totalcount="20" value="IITSLPYVNNQPHLGNIICVLSADMYARFVFLSGTDEYGEENRIIHKKIYDWFDFFGHTTSYVWFDAVIGYFVQFMGKDNVFFTIVFPSLIFATIKLSVT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_euk_N_gruberi" taxon="met_euk_N_gruberi" totalcount="20" value="ITTPIYYVNGPPHIGHLFTTILSDSIYLYIFSTGTDEHGEKISETFKTMMKDFTHYLRTSAYVWLDALTNYLVQIIGKDILKFGIYWPAFLMALPTILVH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_1r6u_H_sapiens" taxon="trp_euk_1r6u_H_sapiens" totalcount="20" value="YLYTGRGPSSEAHVGHLIPFIFTKWLQDVPLVIQMTDDEYGDAVENAKDIIACTFIFSDLDSFPAIQAAPSFLIPCAIDQDPYFRMTRDVAPRIPALLHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_2ip1_S_cerevisiae" taxon="trp_euk_2ip1_S_cerevisiae" totalcount="20" value="FLYTGRGPSSSMHLGHMIPFVFTKWLQEPLVIELTDDEVKNFARENAKDIIAVTFIFSDLQHFASIQIATAFLIPCAIDQDPYFRVCRDVADKLKPALLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_B_mori" taxon="trp_euk_B_mori" totalcount="20" value="YLYTGRGPSSDMHLGHMIPFMFTKWLQDVPLIIQLTDDERKMAYNNAKDIIAITFIFNDLDTFPSIEAAPAFLVPCAIDQDPYFRMTRDVAVRLPSLIHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_L_infantum" taxon="trp_euk_L_infantum" totalcount="20" value="YLYTGRGPSSEMHVGHLIPFMFTKWLQDTPLVIQLTDDEDKMTTENLKDIIAFTFIFRDFEMFPAIQAAPSFMIPQAIDQDPYFRLTRDVAPRMPAVIHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_C_gigas" taxon="trp_euk_C_gigas" totalcount="20" value="YLYTGRGPSSEMHMGHLIPFIFTKWLQDTPLVIQLTDDENHLAFENAKDIIACTFIFSDLDSFPAIQAAPSFLIPCAIDQDPYFRMTRDVAPRMPALLHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_M_domestica" taxon="trp_euk_M_domestica" totalcount="20" value="YLYTGRGPSSELHLGHLIPFIMTKYLQEAPLVIQMSDDEIKLAHENAKDIIAMTFIFNNLTGFPAVQAAPALLIPCAIDQDPYFRMCRDVAPRLCALIHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_D_discoideum" taxon="trp_euk_D_discoideum" totalcount="20" value="TVFSGMQPTSSLHLGNYLAMGNWLKIQDLKLIFSIVDLHQSNTISVAINYLACVILFNQSMSYPVLMAADILHVPVGEDQTQHLEFTRDIAQAFPSIITS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_A_subglabra" taxon="trp_euk_A_subglabra" totalcount="20" value="IVFSGIQPTGIPHLGNYLALRNWVDLQNNTVIYSVVGLHRRSKLDAAASLLAISILFHQDEAYPVLQAADVLHVPVGEDQLQHIELMRHIASSFPEVISP---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_G_lamblia" taxon="trp_euk_G_lamblia" totalcount="20" value="YIYTGRGPSSGLHLGHLLPFIFTKYLQDAYVVIQITDDEDSYTRENIKDIIACTFIFINSQAFPPKQMLPVYLIASGIEQDPYFRLARDLAPRMNAYLLG---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_T_vaginalis" taxon="trp_euk_T_vaginalis" totalcount="20" value="YIYTGRGPSSDLHLGHITSFIINKYIQDAWFIIQITDDEHKYTEANIRDIIAQTFIMRESKLFPVRQIAPAFLIPCGREQDPYFRFAREVAGKMVSTIYG---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_C_owczarzaki" taxon="trp_euk_C_owczarzaki" totalcount="20" value="RIVSGIQPTGVPHLGNYLAIKSWVQLQDPDVLYMIVDLHRRNITDMTIALLACSVLFQQSKSYPILMAADVLHVPVGDDQQQHLELASTLANTFPVPMYN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_C_parvum_Iowa_II" taxon="trp_euk_C_parvum_Iowa_II" totalcount="20" value="YLYTGRGPSSELHVGHLVPFLFTKYLQDTPLVIQLTDDEHNYAYENMKDIIACTFIFTNLEAFPAVQAAPAFLVPHAIDQDPYFRMVRDVAPRLPSSIHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_R_filosa" taxon="trp_euk_R_filosa" totalcount="20" value="YLYTGRGPSSEMHLGHTVPFIINKHLQEAPLVIQITDDEYRLARENAKDIIAMTFIFIDTDAYPPIQTVPAFLIPCAIDQDPYFRLCRDVAPKLPSCLYS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_P_chromatophora" taxon="trp_euk_P_chromatophora" totalcount="20" value="RILSGVQPTGSLHIGNWLAIRNWVNLQNTETYVCVVDLHAEDTRNTAALYLACSTVFVQSHDYPIMMAADILLVPVGEDQKQHLELARDIAQQRPEPLIM---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_N_ceranae" taxon="trp_euk_N_ceranae" totalcount="20" value="YLYTGRGPSSKMHLGHVIPFQLCKYFQDTPLVIQMTDDETKYCAENIKDIIAFTYIFSNVEGFPAKEIAPCFLIPCAVDQDPYFRLARDKASVMPTTLYV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_D_rerio" taxon="trp_euk_D_rerio" totalcount="20" value="YLYTGRGPSSQIHVGHLIPFIFTKWLQDVPLVIQLTDDERRFTVENARDIIACTFIFSDLESFPAIQAAPSFLIPCAIDQDPYFRMTRDVAPRIPALLHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_E_guttata" taxon="trp_euk_E_guttata" totalcount="20" value="YLYTGRGPSSELHLGHLVPFMFTKYLQDAPLVIQLTDDEQRLARENAKDIIACTFIFSDFDSFPPVQAAPSFLIPCAIDQDPYFRMTRDVAPRIPALIES---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_G_theta" taxon="trp_euk_G_theta" totalcount="20" value="YLYTGRGPSSDLHMGHLIPFMFTKWLQDTPLVIQMTDDEYELGKENAKDIIACTFIFSNLESFPAIQAAPSFLIPCAIDQDPYFRMTRDVAPRLPALLHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_euk_N_gruberi" taxon="trp_euk_N_gruberi" totalcount="20" value="YLYTGRGPSSEMHLGHLIPFMFTKYLQDVPLVVQMTDDEHRLTYENAKDIIACTFIFSNLDSFPAIQAAPSFLIPCAIDQDPYFRVTRDVAPKLPALIHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_2dlc_S_cerevisiae" taxon="tyr_euk_2dlc_S_cerevisiae" totalcount="20" value="KLYWGTAPTGRPHCGYFVPMTKLADFLKAEVTVLLADLHNYRAKYYELTIKAILKFVVGSSIYPLMQALDEQCQFGGVDQRKIFVLAEENLPSLRAHLMN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_L_infantum" taxon="tyr_euk_L_infantum" totalcount="20" value="RCYDGFEPSGRMHIAQIFKAVNVNKCTAAEFVFWVADWFEKIRIVGRYLIEVWVLFLWSSELYPLMQCCDIFICQLGLDQRKVNMLAREYCDLIPVILSH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_C_gigas" taxon="tyr_euk_C_gigas" totalcount="20" value="KVYWGTATTGKPHVAYFVPMSKIADFLRAEVTILFADLHALRVQYYERAIKAMLKFVKGSDLYPGLQALDEEAQFGGVDQRKIFTFAEKYLPHLRIHLMN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_C_parvum_Iowa_II" taxon="tyr_euk_C_parvum_Iowa_II" totalcount="20" value="ICYDGFEPSGRMHIAQILKTINVNKLTECVFVFYVADWFKIVGEYFVHIWKAAGRFVWASDFYPCMQCADIFICQLGMDQRKVNMLAREYCDAAPVILSH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_C_subellipsoidea" taxon="tyr_euk_C_subellipsoidea" totalcount="20" value="TVYCGFDPTESLHLGNLLGIIVLTWFQRCQPVALLGGATERNVQGIRRILESLIQILNNLDTYQLLQGYDFVMQIGGSDQMGNIITGLDLIRRMCFGLTF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_D_discoideum" taxon="tyr_euk_D_discoideum" totalcount="20" value="RCYDGFEPSGRMHIAQILKSINVNRMTKATFIFWVADWFRKVGQYMIEIWKATVEFLWSSDLYPCMQCADIFICQLGMDQRKVNMLAIEYCDKVPIIVSH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_G_theta" taxon="tyr_euk_G_theta" totalcount="20" value="KAYLGFDATKSLHVGSLLQIMILRHLQQCKPIVLLGGGTKVNVNGIKTVFEKFALLVNNDENYMILQAYDFLLQLGGSDQWGNMVNGVELTRRAVFAMTA---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_N_gruberi" taxon="tyr_euk_N_gruberi" totalcount="20" value="ICYDGFEPSGRIHIAQVMKAINVNKLTKAKFIFLVADWFQTVGKYMIEVWKSIVEFVWSSEFYPCMQCADIFICQLGMDQRKVNMLAREYSELKPIILSH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_S_rosetta" taxon="tyr_euk_S_rosetta" totalcount="20" value="TVYCGFDPTRTLHIGNLLAIMGLVHCVRANVIALVGGAARINIAGITEVLHRIVKVVNNAETYQVLQGHDFLVQLGGSDQWGNITAGIDLVRRVVYGVTM---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_A_subglabra" taxon="tyr_euk_A_subglabra" totalcount="20" value="KCYWGSATTGRPHIGYYVPLTKIADFLTAEVTILLADVHAHRTKYYEFLLRTVLKFVVGSSLYPGLQALDEQFQFGGVDQRKIFTYAKEYLPKLRAHLMN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_B_hominis" taxon="tyr_euk_B_hominis" totalcount="20" value="SIYLGVDPTKGLHIGHLMACRILKRFHDAKCIALVGGAALINVKEIQNDLKRVLLFVNNYDAYQCLQANDFLCQIGGSDQWGNITSGIDFVKRKVHGITV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_G_lamblia" taxon="tyr_euk_G_lamblia" totalcount="20" value="TCYDGFEPSGRIHIAQIAKAINVNRLLRSDCVFYVADWFQILGRYFVEVWKACVRFVWASELYPSMQCADIFLVEMGLDQRKVNALARDYCDKSPVILMH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_P_chromatophora" taxon="tyr_euk_P_chromatophora" totalcount="20" value="RVKLGIDPTGDIHLGHSILFRKLRAFQDAIAVLIIGDFARINAQTYLQQLGKDLEVYQNSTLYPLLQGYDSVVELGGTDQRFNVAIGRDLQRYYQFCLLL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_H_sapiens" taxon="tyr_euk_H_sapiens" totalcount="20" value="KIYWGTATTGKPHVAYFVPMSKIADFLKAEVTILFADLHELRVSYYENVIKAMLKFIKGTDLYPGLQALDEEAQFGGIDQRKIFTFAEKYLPALRVHLMN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_N_ceranae" taxon="tyr_euk_N_ceranae" totalcount="20" value="SIGWRVVVGDNLHLGHVSSLLKIIMVKDVAVRILIDDLDNKNREAIKKIIIKIVSFFLSSDLQPVLKTLDFLIIVHCNDKVVSLVEKSKQFINLIKYINN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_C_owczarzaki" taxon="tyr_euk_C_owczarzaki" totalcount="20" value="VLYWGTATTGRPHIGYFVPMTKIADFLKAQVTILFADLHKLRTEYYEAVIKALLKFVRGTSLYPGLQALDEEAQFGGVDQRKIFTFAEKYMPALRIHLMN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_euk_M_domestica" taxon="tyr_euk_M_domestica" totalcount="20" value="KIYWGTATTGKPHVAYFVPMSKIADFLKAEVTILFADLHELRTKYYEAVIKAMLKFVKGTDLYPGLQALDEEAQFGGVDQRKIFTFSEKYLPQLRIHFMN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_euk_L_infantum" taxon="val_euk_L_infantum" totalcount="20" value="VIIAPPNVTGYLHLGHALTGAVQDTLIRFLYLPGTDHAGKNHAGMITEQFRRIDRERFTMDDTWFSSGLWPFLMETGHDILFFVARMVMLSLHFYEVFLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_euk_N_gruberi" taxon="val_euk_N_gruberi" totalcount="20" value="TILLPPNVTGSLHIGHALTASIQDSLCRYLWVPGVDHAGEEYGNRIDNQMKAMDRKVFTMDDTWFSSGLYPLVMETGSDILFFVARMVMLCTYLFEIYLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_euk_N_ceranae" taxon="val_euk_N_ceranae" totalcount="20" value="VMCMPPNITGSLHIGHSMMIAIQDAICRYLYLPGTDHAGENYGSRILDQFKRLDRQKFTMDDTWFSSGLWPFLLETGKDILFFVGRMVMMSLELFKVLLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_euk_M_domestica" taxon="val_euk_M_domestica" totalcount="20" value="VMVIPPNVTGSLHLGHALTNAIEDAITRYLWVPGCDHAGREKGVRIYDQLKCLDRVAFTMDDTWFSSGLFPFLLETGHDILFFVARMVFFGQKLFEVYLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_euk_G_lamblia" taxon="val_euk_G_lamblia" totalcount="20" value="TLLIPPNVTGSLHIGHALTNSIQDALVRWLYLPGLDHAGEQFGGRILSQLRILDRSVFTLDDTWFSSGLFPFVLETGNDIIFFVARMVMLSLELFEVYLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_euk_E_guttata" taxon="val_euk_E_guttata" totalcount="20" value="VIVLPPNVTGPLHIGHALTAAIQDTIIRWLWVPGTDHAGNLYRDAILRQLRCLDRECYTMDDTWFSSGIFPLVLETGPDILFLVARMVMLGMKLFKVYLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_euk_D_rerio" taxon="val_euk_D_rerio" totalcount="20" value="MMCIPPNVTGSLHLGHALTNAIQDCLTRWLWNPGCDHAGNEKGDRIYHQLKKLDRACFTMDDTWFSSGIFPFLLETGHDILFFVARMVMMGLKLFEVYLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_euk_D_discoideum" taxon="val_euk_D_discoideum" totalcount="20" value="VIVIPPNVTGSLHLGHALTNSIQDAVVRYLWVPGTDHAGGEYGARIQGQLKKMDREVFTMDDTWFSSGLFPFLLETGSDILFFVARMVMMGQQLFQVFLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_euk_C_owczarzaki" taxon="val_euk_C_owczarzaki" totalcount="20" value="MICIPPNVTGALHIGHALTNAVQDTLVRWLWNPGTDHAGEQYGDRICTQLRRLDRNVFTMDDTWFSSALFPFLLETGADILFFVARMVFFSLALFDVYLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_euk_C_gigas" taxon="val_euk_C_gigas" totalcount="20" value="VMCLPPNVTGTLHLGHAITNTIQDALVRWLWLPGCDHAGERKGETIYDQLKKLDRACFTLDDTWFSSGLFPFLMETGSDILFFVARMVMLGMKLFKVLLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_euk_B_hominis" taxon="val_euk_B_hominis" totalcount="20" value="TMVLPPNVTGHLHLGHALTVAIEDAAVRFNWIPGMDHAGQEHRNHIRGQLQSLNQEFYTLDDTWFSSGLVPFLMETGKDILFFVCRMSWLYESLFAIALH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_euk_S_rosetta" taxon="val_euk_S_rosetta" totalcount="20" value="TLVIPPNVTGSLHMGHALTNSIEDTLTRWLWNPGCDHAGEEKGGFIYKQIKYLDREAFTMSDTWFSSGIFPILLETGYDILFFVARMVMMCTYLFDVYLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_euk_C_subellipsoidea" taxon="val_euk_C_subellipsoidea" totalcount="20" value="VIVIPPNVTGSLHLGHALMVAVEDTLTRWLWVPGTDHAGDTYGGKILAQLRRMDRLAFTMDDTWFSSGLFPFLLETGHDILFFVARMVMMGMKLFQIYLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_euk_P_chromatophora" taxon="val_euk_P_chromatophora" totalcount="20" value="SVVIPPNVTGSLHMGHAFNSALIDTIVRFLCLPGTDHASVQSGGIIVNQMRRLDRERFTLDDTWFSSGLWPFTLVTGFDIIFFVARMTMMASSFFEVYIH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_euk_C_parvum_Iowa_II" taxon="val_euk_C_parvum_Iowa_II" totalcount="20" value="VIALPPNVTGRLHLGHTLTAAIQDSLCRYLWIPGTDHAGEKHGSAICSQFRRLDREFFTLDDTWFSSGLIPFLLETGSDILFFVARMVMLSFACFTIYLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ala_euk_B_mori" taxon="ala_euk_B_mori" totalcount="20" value="----------------------------------------------------------------------------------------------------TGNEIRKTFIDFFIKKGHKYVHSSTIPLFANAGMNQFKYRVVNTQKCIRATFFEMMGNWSFKKEICAWAWELLTCSELHYEIWNLVFITKHIDCGLGERLVSVIQ"/>
+                    <sequence id="seq_ala_euk_L_infantum" taxon="ala_euk_L_infantum" totalcount="20" value="----------------------------------------------------------------------------------------------------PVSRVRQEFVDYFKKQGHTFVPSPVCPLFINAGMNQFKKRAANSQMCIRATFFEMLGSWSFKKEAIQWAWELLTCSEVHFEIWNLVFMQKHIDTGMGERLTSILQ"/>
+                    <sequence id="seq_ala_euk_C_gigas" taxon="ala_euk_C_gigas" totalcount="20" value="----------------------------------------------------------------------------------------------------TGAEIRNLFVDFFKEKEHLYVHSSVVPLFTNAGMNQFKYRAANSQKCIRATFFEMLGNWSFKTECCGWAWEFLTCTEIHYEIWNLVFIRKHCDCGMGERLVCVMQ"/>
+                    <sequence id="seq_ala_euk_D_discoideum" taxon="ala_euk_D_discoideum" totalcount="20" value="----------------------------------------------------------------------------------------------------DVNQIRKTFIDFFREKEHTFVPSAVIPLFANAGMNQFKLRAVNSQKCIRATFFEMLGNWSFKKEAITWAWELLTCSEIHYEIWNLVFIQKHVDTGMGERLTSIIQ"/>
+                    <sequence id="seq_ala_euk_B_hominis" taxon="ala_euk_B_hominis" totalcount="20" value="----------------------------------------------------------------------------------------------------TAKELRDQFLQYFASKNHTIVPSSVIPLFVNAGMNQFKRRVTTSQLCIRATMFEMLGNFSLKDEAISMAYEFVSCSELFFEIWNLVFMGGWIDTGMGERMLSVLN"/>
+                    <sequence id="seq_ala_euk_C_subellipsoidea" taxon="ala_euk_C_subellipsoidea" totalcount="20" value="----------------------------------------------------------------------------------------------------MASEIREKFLSFYESRGHTRMQASLIPLLTIAGMLQFKRRATTTQKCVRVTFFEMLGNFSFKAEAIQMAWELSTCSELYYEFYNLVFMNKNIDTGMGERVAQILQ"/>
+                    <sequence id="seq_ala_euk_P_chromatophora" taxon="ala_euk_P_chromatophora" totalcount="20" value="----------------------------------------------------------------------------------------------------TGAEIREAFLDFFAKRGHQRMAALLIPLLTIAGMLPFKLSATSSQKCIRTTFFEMLGNFSFKEQAIIWAWELSTCSEIYYEFYNLVFMNKNIDTGMGERMAQILQ"/>
+                    <sequence id="seq_ala_euk_N_ceranae" taxon="ala_euk_N_ceranae" totalcount="20" value="----------------------------------------------------------------------------------------------------TVKKLKRAFFSYFKSKGHEIIKSSVIPLFTNSGMVQFKKRACSIQRCIRATFFEMMGNWSFKKEAIEYAWDFLVCTEIHYEIWNIVFIRKCIDTGIGERLLSILN"/>
+                    <sequence id="seq_ala_euk_D_rerio" taxon="ala_euk_D_rerio" totalcount="20" value="----------------------------------------------------------------------------------------------------TAAQIREKFIDFFRRHEHQYVHSATIPLFANAGMNQFKRRAANTQKCIRATFFEMLGSWSFKHLACKMALELLTCSEIHYDIWNLVFIKKSIDTGMGERLVSVLQ"/>
+                    <sequence id="seq_ala_euk_C_owczarzaki" taxon="ala_euk_C_owczarzaki" totalcount="20" value="----------------------------------------------------------------------------------------------------PASAVRQQFVDFFVSKGHEFVPSSVIPLFANAGMNQFKYRTANSQKCIRATFFEMLGNWSFKKEAISWAWELLTCSEIHFEIWNLVFIRCHVDTGMGERIVSVLQ"/>
+                    <sequence id="seq_ala_euk_S_rosetta" taxon="ala_euk_S_rosetta" totalcount="20" value="----------------------------------------------------------------------------------------------------TADKVRGKFISYFEERGHKFWPSSTIPLFANAGMNQYKTRAVNSQKCIRATFFEMLGNWSFKEEAIDFSWDLLTCTEIHYEIWNLVFMAQHVDTGMGERILSVLQ"/>
+                    <sequence id="seq_ala_euk_G_theta" taxon="ala_euk_G_theta" totalcount="20" value="----------------------------------------------------------------------------------------------------PVSRVRKTFIEFFQSKGHTFWANSVVPLFTNAGMNQFKNRACNSQKCIRATFFEMLGNWSFKKEATAWAWELLTCTELHYEIWNVVFIGKHVDTGMGERITSILQ"/>
+                    <sequence id="seq_ala_euk_E_guttata" taxon="ala_euk_E_guttata" totalcount="20" value="----------------------------------------------------------------------------------------------------PANRVRDTFIKFFEDKAHVNWKSPVVPLFANAGMNQFKLRACNTQKCIRATFFEMLGNWSFKNEAIEWAWELLTCTEIHFEIWNLVFIAKHVDTGMGERLTSILQ"/>
+                    <sequence id="seq_ala_euk_N_gruberi" taxon="ala_euk_N_gruberi" totalcount="20" value="----------------------------------------------------------------------------------------------------TSKEIRKQFVEFFEKKEHTFVPSSVVPLFTNAGMNQFKKRAANSQKCIRATFFEMLGNWSFKREAITWAWELLTCSEIHYEIWNNVFMAKHVDTGMGERLVSILQ"/>
+                    <sequence id="seq_ala_euk_C_parvum_Iowa_II" taxon="ala_euk_C_parvum_Iowa_II" totalcount="20" value="----------------------------------------------------------------------------------------------------TGDEVRRQFVKYFEGLDHTFYRSPVIPLFINAGMNQFKLRVANSQKCIRATFFEMLGSWSFKEEAIEWAFKLLTCSEIHYEIWNLVFMKKCVDTGMGERLVSILQ"/>
+                    <sequence id="seq_asn_euk_3m4p_E_histolytica" taxon="asn_euk_3m4p_E_histolytica" totalcount="20" value="----------------------------------------------------------------------------------------------------LRSEIQWYFRKYYHDNHFTEIQPPTIVYLTQSSQLYLEGKSFCMLSSYRAAEYLHLEAELPFEDLLNHLEDLVCSVDLLMEIVGGSMRCPHGGYGLGERLVMWLL"/>
+                    <sequence id="seq_asn_euk_G_lamblia" taxon="asn_euk_G_lamblia" totalcount="20" value="----------------------------------------------------------------------------------------------------ARGRILRAFRNHFYFKGWTEVTPPTIVYLTQSSQLYLEGDVYCILPSFRASEFTHLETEHPFSELLGIIEDFVISVDLLVEIVGGSMRCPHGGMGLGERFICWLL"/>
+                    <sequence id="seq_asn_euk_G_theta" taxon="asn_euk_G_theta" totalcount="20" value="----------------------------------------------------------------------------------------------------IRSTLAFSVHKYFQEHGFQYVADTCYTFLTVSGQLQVSTTLIALRQKPMLAEFWMIEPEMALQDVMENAEGLLKAMDILFEMVGGSQRVPHAGYGLGDRLVQFAT"/>
+                    <sequence id="seq_asn_euk_H_sapiens" taxon="asn_euk_H_sapiens" totalcount="20" value="----------------------------------------------------------------------------------------------------ARSMVTRCFRDHFFDRGYYEVTPPTLVFLTQSSQLYLEGDVFCIAQSYRAAEYTHVEAECPFDDLLNRLEDLVCSVDVLMEIVGGSMRCPHGGYGLGERFLTWIL"/>
+                    <sequence id="seq_asn_euk_L_infantum" taxon="asn_euk_L_infantum" totalcount="20" value="----------------------------------------------------------------------------------------------------VRHELLRVFREHFWSHQYYEVTPPTLVYLTQSSQLYLEGNVYCCMPSYRASEFTHLEAEYDFEDLLNHLEGMFCSVDVLAEVLGGSMRAPHGGFGLGERLLVWML"/>
+                    <sequence id="seq_asn_euk_N_ceranae" taxon="asn_euk_N_ceranae" totalcount="20" value="----------------------------------------------------------------------------------------------------ARSSLLKIIRDIFYEGNFIEITPPTIVYLTQSSQLYLEYRAYCIASSYRASEYTHVEAELAFEDLINNIEHLVTSFDLLYEIVGGSMRCSHGGYGLGERLLMALM"/>
+                    <sequence id="seq_asn_euk_N_gruberi" taxon="asn_euk_N_gruberi" totalcount="20" value="----------------------------------------------------------------------------------------------------MRSIILQCFREHYYSRGYTEITPPTMVYLTQSSQLYLEGDSFCIAQSYRASEFTHVEAERPFEDLLNTLEDLVCSVDVLLEVIGGSMRCPHGGYGLGERYMLWLL"/>
+                    <sequence id="seq_asn_euk_T_vaginalis" taxon="asn_euk_T_vaginalis" totalcount="20" value="----------------------------------------------------------------------------------------------------VRDHLTRIIRENFYKHDCTEVVCPCLVYLTQSSQLYLEGDVFCIEPSFRACEFTHIEAEYPFDELMSRIEDMVISCDLLVEIVGGSMRFPHGGFGLGERLVRWIL"/>
+                    <sequence id="seq_asn_euk_A_subglabra" taxon="asn_euk_A_subglabra" totalcount="20" value="----------------------------------------------------------------------------------------------------LRAHLLTAFRATLIKHQLIEVTPPCLVFLTQSSQLYLEGDVFCIQESFRASEYTHLEGELAFDELMDHIETLICSCDLLMEIVGGSMRCEHGGYGLGERLLAWLA"/>
+                    <sequence id="seq_asn_euk_B_mori" taxon="asn_euk_B_mori" totalcount="20" value="----------------------------------------------------------------------------------------------------ARAAVTRAFREHFASRRYTEVTPPTLVYLTQSSQLYLEGDVYCIAQSYRAAEYSHVEAECPFEDLLSRLEDLVVSVDVLMEIVGGSMRVPHGGYGLGERFLCWLL"/>
+                    <sequence id="seq_asn_euk_C_gigas" taxon="asn_euk_C_gigas" totalcount="20" value="----------------------------------------------------------------------------------------------------MRSVIMQAFRDHFINRGYYEVTPPTLVYLTQSSQLYLEGDVFSIAQSYRAAEYTHIEAECPFDDLLNKLEDLVCSVDVLMEIVGGSMRCPHGGYGLGERFMCWLL"/>
+                    <sequence id="seq_asn_euk_C_owczarzaki" taxon="asn_euk_C_owczarzaki" totalcount="20" value="----------------------------------------------------------------------------------------------------VRNALTMAIHRHFQDKDFLNVNTPIITYLTCSGQLHAESRVYVLGPTFRAAEFYMLEAEQFQMDLLDLTSDCVKAMDLLVELVGGSLRAPHGGFGMGERLMMYLT"/>
+                    <sequence id="seq_asn_euk_C_parvum_Iowa_II" taxon="asn_euk_C_parvum_Iowa_II" totalcount="20" value="----------------------------------------------------------------------------------------------------IRNSLAIAIHEYFQKNGFMYIHTPIITYLTVSGQLALESDVYTFGPTFRAAEFWMIEPEMALSDNMKLGEGLLKAMDILVEVIGGSQRVPHSGFGLGERLIMMVT"/>
+                    <sequence id="seq_asn_euk_D_discoideum" taxon="asn_euk_D_discoideum" totalcount="20" value="----------------------------------------------------------------------------------------------------IRSLCLFAFRQHFFENHYMEVTPPTLVYLTQSSQLYLEGDNFTITQSYRATEFLHLEAECPYEELQDRIEFLVVSLDLLMEIVGGSMRTQHGGYGLGERFLTWML"/>
+                    <sequence id="seq_asn_euk_E_guttata" taxon="asn_euk_E_guttata" totalcount="20" value="----------------------------------------------------------------------------------------------------IRNALAYATHTFFQKHGFLYVHTPIITVLTVSGQLQVESSVYTFGPTFRAAEFWMVEPEIAIQDDMNCAEAYVRAMDVLVELVGGSQRVKHSGFGLGERMILFAT"/>
+                    <sequence id="seq_asn_euk_S_rosetta" taxon="asn_euk_S_rosetta" totalcount="20" value="----------------------------------------------------------------------------------------------------VRSCLTQLTHRIFAEWDFASVHTPILTHLTVSGQLHAEPRVYTFGPTFRAAEFYMLEAEMALDDCLDLQDDFISAADLIVELTGGSARVPHAGFGLGERLLLAVT"/>
+                    <sequence id="seq_asn_euk_C_subellipsoidea" taxon="asn_euk_C_subellipsoidea" totalcount="20" value="----------------------------------------------------------------------------------------------------IRNALAVATHDFFQSHGFLYVHTPLITGAGESGQMNAESNVYTFGPTFRRAEFWMIEPEMALEDDMRCAEDYVQAMDVLVELIGGSQRVPHSGFGLGERLILLAT"/>
+                    <sequence id="seq_asp_euk_3i7f_E_histolytica" taxon="asp_euk_3i7f_E_histolytica" totalcount="20" value="----------------------------------------------------------------------------------------------------IQSACCGLFREFLTSQKFVEIHTPKLIYLAQSPQLYKQRKVFEVGPVFRATEFEGLDIEMEYHECIDVMEKLFTSYDVFVEITSGAQRWPHAGCGIGERITMLYL"/>
+                    <sequence id="seq_asp_euk_E_guttata" taxon="asp_euk_E_guttata" totalcount="20" value="----------------------------------------------------------------------------------------------------IQCQIENIFRQFLLSEGFVGIHTPKLICLAQSPQLHKQGRVFEIGPVFRACEFTGLDVEMEYSEVMDIVDRLFVSFDVFIEIISGAQRPPHGGFGVGERVVMLFC"/>
+                    <sequence id="seq_asp_euk_G_lamblia" taxon="asp_euk_G_lamblia" totalcount="20" value="----------------------------------------------------------------------------------------------------VRSAIAHEFRSFLDKAGFIEINTPKIVCLAQSPQLYKQGRVYEVGPVFRACEFIGLDLEMEYTEILVLLGDLMKSYDMFIEICSGAQRAPHGGAGLGERIVMLML"/>
+                    <sequence id="seq_asp_euk_L_infantum" taxon="asp_euk_L_infantum" totalcount="20" value="----------------------------------------------------------------------------------------------------LQSRVCQYFRQFLIDNDFCEIHSPKIIYLAQSPQLYKQPRVFEVGPVFRSTEFVGLDVEMRYYEVLDVAESLFNSYDMFIEISSGAQRWPHGGFGVGERVVMLYL"/>
+                    <sequence id="seq_asp_euk_S_rosetta" taxon="asp_euk_S_rosetta" totalcount="20" value="----------------------------------------------------------------------------------------------------MQSGVCRLFRDFLLKEGFTEIHSPKIIFLAQSPQLYKQGKVFEIGPVFRATEFTGLDMEMAYHEVLEVLDRLFISYDIMMEIMSGAQRSPHGGGGVGERVVMLFL"/>
+                    <sequence id="seq_asp_euk_A_subglabra" taxon="asp_euk_A_subglabra" totalcount="20" value="----------------------------------------------------------------------------------------------------LQAVVTDLFREHLHKNGFTEIHSPKLQFLAQSPQLAKQERVYEIGPVFRATEFIGLDLEMTYHEVMELLDSLFLSYDFFMEILSGAQRPPHGGGGIGERVLMLFL"/>
+                    <sequence id="seq_asp_euk_B_hominis" taxon="asp_euk_B_hominis" totalcount="20" value="----------------------------------------------------------------------------------------------------FRSEFLHSLRLSLHSHHFTEVETPLLTALSQSPQQYKQDRYFQIARCFRNLEFTQLDIEMADLEIQSTIQNLLLSCDLVLEVGGGSLRPPHGGFAIGDRLLSLLR"/>
+                    <sequence id="seq_asp_euk_B_mori" taxon="asp_euk_B_mori" totalcount="20" value="----------------------------------------------------------------------------------------------------IEAGVCRLFRDILTKKGFVEIHTPKIIYLAQSPQLYKQDKVFTVGAVFRATEFVGLDLEMSYHEVLDTIGGTFTSYDMFMEILSGAQRPPHAGGGIGERVVMLYL"/>
+                    <sequence id="seq_asp_euk_C_gigas" taxon="asp_euk_C_gigas" totalcount="20" value="----------------------------------------------------------------------------------------------------ITAGVCRFFREHLDRQGFIEIHSPKIIFLAQSPQLYKQDKVYTVGAVFRATEFVGLDLEMSYHEVLKVIGDMFISYDMFMEILSGAQRPPHAGGGIGERVTMLYL"/>
+                    <sequence id="seq_asp_euk_C_owczarzaki" taxon="asp_euk_C_owczarzaki" totalcount="20" value="----------------------------------------------------------------------------------------------------LQSAVCLLFREFLTSQNFIEIHSPKIIYLAQSPQFYKQERVFEIAPVFRATEFVGLDLEMAYHEVLDMLDKLFVSYDLFMEILSGAQRPPHGGGGIGERVLMLYL"/>
+                    <sequence id="seq_asp_euk_C_parvum_Iowa_II" taxon="asp_euk_C_parvum_Iowa_II" totalcount="20" value="----------------------------------------------------------------------------------------------------IQSEVCRLLREFLIEREFIEIHTPKLLCLAQSPQLHKQERVFEIGPVFRACEFVGVDIEMNYHELVDVFDAMFRSFDFFMEILSGAQRPPHGGCGIGERVIMLFL"/>
+                    <sequence id="seq_asp_euk_D_discoideum" taxon="asp_euk_D_discoideum" totalcount="20" value="----------------------------------------------------------------------------------------------------LQSGVCTLFREQLLGEGFIEIHSPKIIYLAQSPQLYKQNKVFEIGPVFRATEFVGLDLEMTYHEALDTLDRLMTAYDLFMEICSGAQRSQHAGGGVGERVVMLYL"/>
+                    <sequence id="seq_asp_euk_C_subellipsoidea" taxon="asp_euk_C_subellipsoidea" totalcount="20" value="----------------------------------------------------------------------------------------------------LRHRMLRAIRNFLDDREFLEVETPLLCALPQSPQLFKQERYYQIARCFRDPEFSQLDMEMTQNAIMSLVEEMVLAYDLVYEVAGGSLRPPHGGIAFGDRLCMLLA"/>
+                    <sequence id="seq_asp_euk_P_chromatophora" taxon="asp_euk_P_chromatophora" totalcount="20" value="----------------------------------------------------------------------------------------------------LRHNTVKAARRFLENEGFIEIETPLLTALPQSPQIFKQERYYQIARCFRDPEFTQIDMEMSQKEILRLNESLIAAYDLVLELGGGSLRPPHGGIAFGDRLVMLLA"/>
+                    <sequence id="seq_asp_euk_N_ceranae" taxon="asp_euk_N_ceranae" totalcount="20" value="----------------------------------------------------------------------------------------------------ILDAVMFKFRDFLRSNGFIEVKTPKLITLAQSPQLYKQKRVYEIGHVYRASEFIGLDLEMEYISVINFIYDLFKSYDFIIEILSGAERPPHGGCGIGERLVKAYF"/>
+                    <sequence id="seq_asp_euk_G_theta" taxon="asp_euk_G_theta" totalcount="20" value="----------------------------------------------------------------------------------------------------IQSHVGQAFRNFLAARGFVEIHTPKLQWLAQSPQLHKQERVMEVGPVFRACEFVGLDFEMEYAEAMDIVEGFVVSFDAYLEICSGAQRSPHAGAGLGERLTMTIL"/>
+                    <sequence id="seq_asp_euk_N_gruberi" taxon="asp_euk_N_gruberi" totalcount="20" value="----------------------------------------------------------------------------------------------------LQSLIGRKFCEYMYSKDFTEIHTPHIVELTTSSHLHQQDRVFEISCAFEKNEKTTLNFGMTYHEVISVVKELLNNFIILIVVGRGCQYQPCGGCSIDELFLMQFL"/>
+                    <sequence id="seq_gly_euk_2zt5_H_sapiens" taxon="gly_euk_2zt5_H_sapiens" totalcount="20" value="----------------------------------------------------------------------------------------------------LKNNIIQTWRQHFQEEQILEIDCTMLTYLRPETAQGIFFAAAQIGNSFRNREFTMAEIEHFLGYFIGRIYLYLTCWDAESEIVGCADRPNVIEPSFGGRIMYTVF"/>
+                    <sequence id="seq_gly_euk_S_rosetta" taxon="gly_euk_S_rosetta" totalcount="20" value="----------------------------------------------------------------------------------------------------IMNNIQQEWRRHFLEDNLLEISCPAMTFLRPELAQGIVFGGCQIGTAYRNREFPLAEIEYFLAYFLARIYLFLTCWDAELESAACADRPSVIEPTFGGRIIYAIL"/>
+                    <sequence id="seq_gly_euk_B_hominis" taxon="gly_euk_B_hominis" totalcount="20" value="----------------------------------------------------------------------------------------------------LKSNFINLWKQHFLEEDMLEVECTNLTFLRPETAQGMFFAAAQVGTGFRNREFPMAEIEHFLGYFMARTYLFLKCWDCEIECVGIADRPSVVEPSFGGRLIYSIL"/>
+                    <sequence id="seq_gly_euk_B_mori" taxon="gly_euk_B_mori" totalcount="20" value="----------------------------------------------------------------------------------------------------LKSNMIHLWKKFFLQEQMLEVECSILTFLRPETAQGILFAAAQIGNSFRNREFTMCEIEHFLGYFMARIHMYMLCWDAECECVGCADRGSVIEPSFGGRILYCIL"/>
+                    <sequence id="seq_gly_euk_C_gigas" taxon="gly_euk_C_gigas" totalcount="20" value="----------------------------------------------------------------------------------------------------VKANILQTWRNFFLEEQMLEVDCSMLTFLRPETAQGIFFAAAQIGNAFRNREFTMAEIEHFLGYFMGRIQMFMLCWDAECECVGCADRPSVIEPSFGGRVMYSVF"/>
+                    <sequence id="seq_gly_euk_C_owczarzaki" taxon="gly_euk_C_owczarzaki" totalcount="20" value="----------------------------------------------------------------------------------------------------IKANLLSLWRSHFFEEQMLEVDCSMLTYLRPETAQGIFFAAAQIGSSFRNREFTMAEIEHFLGYFIGRIYLFMTCWDAECECIGCADRSNVIEPSFGGRIIYSLL"/>
+                    <sequence id="seq_gly_euk_D_discoideum" taxon="gly_euk_D_discoideum" totalcount="20" value="----------------------------------------------------------------------------------------------------VKANLINLWRQHFLNEDMSEVDCVSVTYLRPETAQGIFFAAAQIGNAFRNREFTMAEIEHFLAYFMARTQQFLHCWDAEIECVGHADRSHVIEPSFGGRIIYSIL"/>
+                    <sequence id="seq_gly_euk_G_lamblia" taxon="gly_euk_G_lamblia" totalcount="20" value="----------------------------------------------------------------------------------------------------LRNNFLSMWRQHFVAEDMLEIMCTNIVYLRPETAQGIFFAMAQVGTVFRNREFEQCEIEHFMAYFIGRTYLFLLCWDCDCEIVGIADRPHVIEPSFGGRILYSIL"/>
+                    <sequence id="seq_gly_euk_G_theta" taxon="gly_euk_G_theta" totalcount="20" value="----------------------------------------------------------------------------------------------------IKNNIVDAWRKFFVSDGMLEVACPSITFLRPETAQGIFMTIAQIGKSFRNREFEMAEIEHFLAYFLGKTQKFLRCWDAEVEVVGHADRTRVVEPSFGDRLFYCSL"/>
+                    <sequence id="seq_gly_euk_L_infantum" taxon="gly_euk_L_infantum" totalcount="20" value="----------------------------------------------------------------------------------------------------MKSNMLHFWRQHFIEESMCEVDTTCLTYMRPELAQGIIFAGACIGTAFRNREFTLAEIEHFLGYFIGRVALFLTCWDAELECVGIADRSSVIEPSFGGRILYCLL"/>
+                    <sequence id="seq_gly_euk_N_ceranae" taxon="gly_euk_N_ceranae" totalcount="20" value="----------------------------------------------------------------------------------------------------IKQNFTSEWRKHFYYDKLYEVESSILLFLRPETAQGQFFGSATIGKAFRNREFEQAEIEYFLGYFMGRTYLFLACWDCEIECVGIADRSDVIEPSFGGRILYILL"/>
+                    <sequence id="seq_gly_euk_N_gruberi" taxon="gly_euk_N_gruberi" totalcount="20" value="----------------------------------------------------------------------------------------------------IKANILDLWRRHFNEENMLEVDCSSLTYLRPETAQGIFFASAQIGQAFRNREFTLAEIEHFHAYYIARVKLFMDCWDCELEVVGIANRYSVIEPSFGGRIIYCLL"/>
+                    <sequence id="seq_gly_euk_A_subglabra" taxon="gly_euk_A_subglabra" totalcount="20" value="----------------------------------------------------------------------------------------------------LQANIIGEWRKHFVEEGMHELDTTIMTYLRPETAQGHFFASACIGRSFRNREFTMAEIEHFLGYFLARISLFLLCWDAEIECVGCADRKTVIEPSFGGRILYCLL"/>
+                    <sequence id="seq_gly_euk_C_parvum_Iowa_II" taxon="gly_euk_C_parvum_Iowa_II" totalcount="20" value="----------------------------------------------------------------------------------------------------LKSEVESFWRRHFLAEDMLEISATCLTFMRPETAQGIFFSVAQIGLGFRNREFQMAEIEHFLAYFLSRTYDFLICWDAEVECAGHADRPGVIEPSFGGRIIYCLL"/>
+                    <sequence id="seq_gly_euk_C_subellipsoidea" taxon="gly_euk_C_subellipsoidea" totalcount="20" value="----------------------------------------------------------------------------------------------------IKQNVTQLWRQHFLEESMLEVECPAVTYLRPETAQGIFFAAAQIGQSYRNREFTQAEIEHFLAYFIGRTYLFLVCWDAEVECVGLADRSSVIEPSFGGRIIYCMF"/>
+                    <sequence id="seq_his_euk_3hri_T_brucei" taxon="his_euk_3hri_T_brucei" totalcount="20" value="----------------------------------------------------------------------------------------------------LRKYLFDVFHSTARKFGFEEYDSPVLEALRPEMTPSLAAKWYSIPQCWRYREHYQWNMDIIEVELVCAACTAMQVFEGFDALCGGGRYVPCVGFGFGCVIVELLN"/>
+                    <sequence id="seq_his_euk_3lc0_T_cruzi" taxon="his_euk_3lc0_T_cruzi" totalcount="20" value="----------------------------------------------------------------------------------------------------CRRHLFDVFHATAKTFGFEEYDAPVLEALRPEMTPSLAAKWYSIPQCWRYREHYQWNMDIVEVELVCAACWAMRVFEGFDALCGGGRYIPCAGFGFGCVIVELLQ"/>
+                    <sequence id="seq_his_euk_H_sapiens" taxon="his_euk_H_sapiens" totalcount="20" value="----------------------------------------------------------------------------------------------------VREKVFDVIIRCFKRHGAEVIDTPVFESLRYDLTVPFAIKRYHIAKVYRRREFYQCDFDIADAECLKIMCEILSIYEAVLSVAAGGRYVPCVGLSIGERIFSIVE"/>
+                    <sequence id="seq_his_euk_C_owczarzaki" taxon="his_euk_C_owczarzaki" totalcount="20" value="----------------------------------------------------------------------------------------------------SQARVTQTFGEVTANLGFGEVETPIVECLRPEGTAGVMASLCYTGPMFRRRQFLQCGVEYLDGLVLYAAWRLIRVFEIVATVLAGGRYVPAVGWAAGERLSLARA"/>
+                    <sequence id="seq_his_euk_L_infantum" taxon="his_euk_L_infantum" totalcount="20" value="----------------------------------------------------------------------------------------------------VRRHLFGVFHDTARRFGFEEYDAPVLETLRPEMTPSLVAKWYSIPQCWRYREHYQWNMDIVEVELVCAACAAMEVFEAFDAICGGGRYVSCVGFGFGCVIVELLK"/>
+                    <sequence id="seq_his_euk_G_theta" taxon="his_euk_G_theta" totalcount="20" value="----------------------------------------------------------------------------------------------------MRNWLFGHWKDVARLHGFEEYDAPVLESLRPEMTPSLAVKWFSIPQCWRYREHYQWNMDIWEAELLSAIVTFFKVFEGFDAICGGGRYLPAVGFGFGAVIAELLK"/>
+                    <sequence id="seq_his_euk_E_guttata" taxon="his_euk_E_guttata" totalcount="20" value="----------------------------------------------------------------------------------------------------LRSWLFHNFREVSHSFGFEEVDFPVLEALRPELTPSLALKWFAIGQCWRYREHYQWNMDIIEAELISSIITFFKVFEGFDAICGGGRYIPACGFGFGAVIIELLK"/>
+                    <sequence id="seq_his_euk_M_domestica" taxon="his_euk_M_domestica" totalcount="20" value="----------------------------------------------------------------------------------------------------QRQNVLDKIVGVFKKHGGEAIDTPVFEALRYDLTVPLALKRYHIAKVYRRREFYQCDFDIADAECVKIVSEILDIYECVLSVAGGGRYVPCVGVSIGERIFSVIE"/>
+                    <sequence id="seq_his_euk_T_vaginalis" taxon="his_euk_T_vaginalis" totalcount="20" value="----------------------------------------------------------------------------------------------------VRQEVIQLVTSIFKRHGGVAIDTPVFESLRYDLTVPFAIKRYHIAKVYRRREFYQCDFDVADAEVISIVSELLTIYEAGTSIAGGGRYVPAVGVSLGERIFALIE"/>
+                    <sequence id="seq_his_euk_C_gigas" taxon="his_euk_C_gigas" totalcount="20" value="----------------------------------------------------------------------------------------------------IREGVFNTIIKCFKRHGAETIDTPVFESLRYDLTVPFAVKRYHIAKVYRRREFYQCDFDIADAECVKLVSEILNIYEAILSVAGGGRYVPCVGVSIGERVFAIME"/>
+                    <sequence id="seq_his_euk_C_parvum_Iowa_II" taxon="his_euk_C_parvum_Iowa_II" totalcount="20" value="----------------------------------------------------------------------------------------------------IKNLVFGMIREVYRAHGAVEIDTPVFESLRYDLTVPLALKRYQIGKVYRRREFYQCDLDIVDSEIIKIATQVLSIYEAVLSIAAGGRYIPAVGFSVGERIMSIIE"/>
+                    <sequence id="seq_his_euk_D_discoideum" taxon="his_euk_D_discoideum" totalcount="20" value="----------------------------------------------------------------------------------------------------IREQVFDGIKQVFKRHGAVTIETPVFESLRYDLTVPFAIKRYHIARVYRRREFYQCDFDIADAECLVMICEILEIYEAVLSIAAGGRYVPAVGFSIGERIFTILE"/>
+                    <sequence id="seq_his_euk_D_rerio" taxon="his_euk_D_rerio" totalcount="20" value="----------------------------------------------------------------------------------------------------IREKVFNIIINCFKRHGAETIDSPVFESLRYDLTVPFAIKRYHIAKVYRRREFYQCDFDIADAECLKLVYEILSIYEAILSVAGGGRYVPCVGVSIGERVFSIME"/>
+                    <sequence id="seq_his_euk_A_subglabra" taxon="his_euk_A_subglabra" totalcount="20" value="----------------------------------------------------------------------------------------------------CREHIERIVKDVFQTFGGSCLDTPVFEALRYDHTVPLAQKLWQVGKVYRRREFMQADFDLADAELIAIISTILSTVEAIVSIAGGGRYVPCVGASIGDRIFALVF"/>
+                    <sequence id="seq_his_euk_G_lamblia" taxon="his_euk_G_lamblia" totalcount="20" value="----------------------------------------------------------------------------------------------------LRQAALSLITSVFQQHGAVCIETPVMESLRYDLTVPFAIKRYSIGRVYRRREFYQCDLDIVDAEVVVIVFEILHVFEAKLSIAGGGRYLCAVGGSIGERIFAILE"/>
+                    <sequence id="seq_his_euk_P_chromatophora" taxon="his_euk_P_chromatophora" totalcount="20" value="----------------------------------------------------------------------------------------------------LWQFIEETARTHFRRSGVNEIRTPLLETLRPEGTASIVQRFWYSGPMFRYRQFHQIGLELHDVEAISIAWDLLMAFEIISTVCGGGRYTPAIGWALGERLVLLIM"/>
+                    <sequence id="seq_lys_euk_3bju_H_sapiens" taxon="lys_euk_3bju_H_sapiens" totalcount="20" value="----------------------------------------------------------------------------------------------------IRSKIITYIRSFLDELGFLEIETPMMNYMRIAPELYHKDRVYEIGRQFRNPEFTTCEFYMAYHDLMEITEKMVSRFELFVEICNAYTEPPTAGWGMGDRVAMFLT"/>
+                    <sequence id="seq_lys_euk_B_mori" taxon="lys_euk_B_mori" totalcount="20" value="----------------------------------------------------------------------------------------------------TRAKIIAYVRRFLDNMGFLEVETPLMNYMRIAPELYHKDRVYEIGRQFRNPEFTTCEFYMAYNDLMTITESILSRFEVYVEICNAYTEPPTGGWGLGDRLTMFLT"/>
+                    <sequence id="seq_lys_euk_L_infantum" taxon="lys_euk_L_infantum" totalcount="20" value="----------------------------------------------------------------------------------------------------KRHAITRALRDFLDARSFVEVETPVLHFLRVAPELHLKERVYEIGRVFRNPEFTTCEFYAAYKDLMTMTEEILRRFELFIEYCNAYSEPPTAGWGMGDRVAMLLN"/>
+                    <sequence id="seq_lys_euk_C_gigas" taxon="lys_euk_C_gigas" totalcount="20" value="----------------------------------------------------------------------------------------------------VRAKIINYVRKFLDEMGFLEVETPLMNYMRVAPELYLKDRVYEIGRLFRNPEFTTCEFYMAYNDLMKITETLLSRFELFVEICNAYTELNDPVVQREFEQQAKDK"/>
+                    <sequence id="seq_lys_euk_D_discoideum" taxon="lys_euk_D_discoideum" totalcount="20" value="----------------------------------------------------------------------------------------------------IRSKVIQGVRRYLDNLGFIEVETPMMNFMRIAPELYLKDRVYEIGKQFRNPEFTTCEFYMAYNDLYTMTEQLLQRFELFVEICNAYTELNNPFVQIEFAEQAKAK"/>
+                    <sequence id="seq_lys_euk_C_owczarzaki" taxon="lys_euk_C_owczarzaki" totalcount="20" value="----------------------------------------------------------------------------------------------------TRHAIFRSIRRMMDAQGFIEVETPSLCNLRIAPELYLKDRVYEIGKQFRNPEFTTMEMYQAFDDLFDFTESLLVRFELFVEICNAYAEPPTVGWGMLDRLVMLLT"/>
+                    <sequence id="seq_lys_euk_A_subglabra" taxon="lys_euk_A_subglabra" totalcount="20" value="----------------------------------------------------------------------------------------------------TRSRVLNYVRRFLDNLGFLEVETPMMSYLRIAPELYLKDRVYEIGRVFRNPEFTICEFYMAMYDLMDLTESMVERFEGFLEICNAYTELNDPFEQREFEEQLRQK"/>
+                    <sequence id="seq_lys_euk_G_lamblia" taxon="lys_euk_G_lamblia" totalcount="20" value="----------------------------------------------------------------------------------------------------QRSGIINFIRRMIDQRNYLEVETPMLQYLRIAPELFLKNRVFEINKNFRNPEFTMMEAYSALEDMCDLIEGLVSRFEVFIEVSNAYTELNNPIIQREFQAQIRDK"/>
+                    <sequence id="seq_lys_euk_B_hominis" taxon="lys_euk_B_hominis" totalcount="20" value="----------------------------------------------------------------------------------------------------TRSKIIQLIRSFLTAEGFLDVETSILSALRISPELALKDRVFEMGKVFRNFEFTSVEAYMAYTDWMRLTEKLLHRFELFVEIVNAYTEQNDPVKQEMFAKQGEQR"/>
+                    <sequence id="seq_lys_euk_T_vaginalis" taxon="lys_euk_T_vaginalis" totalcount="20" value="----------------------------------------------------------------------------------------------------TRCKVVKMIRGFLDDLDFTEVETPIMWWLRVAPELFLKNRVYELGKQFRNPEFTSCEFYMAYNDLMDLTEKLYQRFEVFIEYANAYTELNCPMVQREFLDQLKAK"/>
+                    <sequence id="seq_lys_euk_C_subellipsoidea" taxon="lys_euk_C_subellipsoidea" totalcount="20" value="----------------------------------------------------------------------------------------------------ARARMMGALRRTLEARGFLEVETPVLEVLRIATELHLKERIYEIGRVFRNPEFTTLELYQAYHDMMDLTEDLVRRFELFIELANAYSELTDPVDQRQLEAQLTER"/>
+                    <sequence id="seq_lys_euk_P_chromatophora" taxon="lys_euk_P_chromatophora" totalcount="20" value="----------------------------------------------------------------------------------------------------RRAQVVSGIRRWLDEREFLEIETPVLHYLRIATELHLKERVYELGRIFRNPEFTSVEIYQAYTDMMDLTEQLIDRFELFIETANAFSEPPTGGLGIGDRLTMLLT"/>
+                    <sequence id="seq_lys_euk_N_ceranae" taxon="lys_euk_N_ceranae" totalcount="20" value="----------------------------------------------------------------------------------------------------QRTNIIKFIRKYLDDKDFVEVETPLLNFLRIAPELYLKDRVYEIGKLFRNPEFTACEFYMAYNDMMNMAEEMLNRFELFIEICNAYTELNNPIEQRMFKMQAQDI"/>
+                    <sequence id="seq_lys_euk_G_theta" taxon="lys_euk_G_theta" totalcount="20" value="----------------------------------------------------------------------------------------------------RRAKIIQGIRDYLNQREYLEIETPILTYMRIATELHLKERVYELGRIFRNPEFTSVELYQAYEDMMNLVEEMICRFELFVELANAFSEPPTAGLGIGDRLIMLLT"/>
+                    <sequence id="seq_lys_euk_S_rosetta" taxon="lys_euk_S_rosetta" totalcount="20" value="----------------------------------------------------------------------------------------------------VRANIISYVRRFLDMNGFLEVETPMMNFLRVAPELYLKDRVYELGRQFRNPEFTSCEFYMAFNDLMVMTEELIARFELFVEVCNAYTELNDPQVQREFEQQAKDK"/>
+                    <sequence id="seq_lys_euk_N_gruberi" taxon="lys_euk_N_gruberi" totalcount="20" value="----------------------------------------------------------------------------------------------------IRNKTMSFIRNFFTNKGFLEVETPILSKLRIAPELYLKDRVFELSKVFRNPEFTSCEAYQAYNEMMDMTEEFFRRFELFIELCNAYTELNDPEDQREFRKQQEKK"/>
+                    <sequence id="seq_lys_euk_C_parvum_Iowa_II" taxon="lys_euk_C_parvum_Iowa_II" totalcount="20" value="----------------------------------------------------------------------------------------------------LRSRAIKYIRNYFDRLGFLEVETPMLNYMRIAPELYLKDKVYEIGKNFRNPEFTAMEFYMAYYDLMDLTEELISRFELFVELCNAYTELNEPLQQRKFEQQADAK"/>
+                    <sequence id="seq_phe_euk_3l4g_H_sapiens" taxon="phe_euk_3l4g_H_sapiens" totalcount="20" value="----------------------------------------------------------------------------------------------------PLLKVRSQFRQIFLEMGFTEMPTNFIELLRTHTTSASAVKYFSIDRVFRNAEFHQIEGVVALGHLMGVLREFFTSMEVFSEVGNSGVFVSVIAWGLSERPTMIKY"/>
+                    <sequence id="seq_phe_euk_M_domestica" taxon="phe_euk_M_domestica" totalcount="20" value="----------------------------------------------------------------------------------------------------PLLKVRTEFRQIFLEMGFSEMPTNYVELLRTHTTAVSAAKYFSIDKVFRNAEFHQVEGVIALGDLIGTLYEFFRSMEIFCEVGNSGVFVNVIAWGLSERPTMIKY"/>
+                    <sequence id="seq_phe_euk_N_gruberi" taxon="phe_euk_N_gruberi" totalcount="20" value="----------------------------------------------------------------------------------------------------TLLKVRTEFRKVFLELGFEEMATNFVELLRTHTTAVSTRKYFSIDRVFRNCEFHQIEGMVILGDMIGLFRVFFASMEIFGEVGNSGMFVTVLAWGLSERPTMIKY"/>
+                    <sequence id="seq_phe_euk_P_chromatophora" taxon="phe_euk_P_chromatophora" totalcount="20" value="----------------------------------------------------------------------------------------------------PLVKTTEDIVDIFCGLGYRVVEGPEIELLRTHTSPVQITRIIAPGRVYRRPVFHQVEVLAIFSHLRGTVMTFLKSAEVDVEVMGCGMVWSGFAAGLGERFCMVRS"/>
+                    <sequence id="seq_phe_euk_R_filosa" taxon="phe_euk_R_filosa" totalcount="20" value="----------------------------------------------------------------------------------------------------PLMKMRNEMRKILLEMGFEEMPTNFVELLRTHTTAISSMKYFSIDRVFRNAEFHQVEGLIALGHLIGVISQFFQSMEIFGEVGNSGVFVQVIAWGLGERPCMIAT"/>
+                    <sequence id="seq_phe_euk_S_rosetta" taxon="phe_euk_S_rosetta" totalcount="20" value="----------------------------------------------------------------------------------------------------PLMKVRTEYRQIFLEMGFEEMPTRFVEILRTHTTAVSAVKYFSIDRVFRNAEFHQIEGVIALGDLIGTLESFFKSMEVFSEIGNSGIFVVVIAWGLSERPTMIKY"/>
+                    <sequence id="seq_phe_euk_T_vaginalis" taxon="phe_euk_T_vaginalis" totalcount="20" value="----------------------------------------------------------------------------------------------------PLLKVRAEFRNIFFQMGFEEMDTKWVEIMRTHTTAVSSRKFFSIDRVYRNAEFHQVEGFIILGDLMRNIREFFSSMEIFAEIGNSGMFYTVIAWGFGERPTMIEY"/>
+                    <sequence id="seq_phe_euk_B_mori" taxon="phe_euk_B_mori" totalcount="20" value="----------------------------------------------------------------------------------------------------PLLKVRSEFREIFLEMGFTEMPTKYVELLRTHTTAVSAQKYFSIDKVFRNAEFHQVEGVVALADLITVLDAFFKSMEIFAEIGNSGVFVNVIAWGLSERPTMIKY"/>
+                    <sequence id="seq_phe_euk_C_gigas" taxon="phe_euk_C_gigas" totalcount="20" value="----------------------------------------------------------------------------------------------------PLLKVRAQYRQIFLEMGFTEMPTNFVEILRTHTTANSAVKYFSIDRVFRNAEFHQIEGSVALGDLMGIIQEFFKSMEIFSEIGNSGIFVSVIAWGLSERPTMIKY"/>
+                    <sequence id="seq_phe_euk_D_discoideum" taxon="phe_euk_D_discoideum" totalcount="20" value="----------------------------------------------------------------------------------------------------PLNKVKNEFKQIFLDMGFEEMPTNFVEILRTHTTAVSAKKYFSIDRVFRNAEFHQVEGVIALGHLIGVISEFFKSMEIFGELGNSGIFVRVAAWGLSERPTMIKY"/>
+                    <sequence id="seq_phe_euk_E_guttata" taxon="phe_euk_E_guttata" totalcount="20" value="----------------------------------------------------------------------------------------------------PLLKVKRQIQLIFLQMGFEEMATNFVELLRTHTTAVSSKKYYSIDRVFRNAEFHQIEGLICLGHLIGVLEDFFSSMEIFSEIGNSGMFVQVIAWGLSERPTMILY"/>
+                    <sequence id="seq_phe_euk_G_lamblia" taxon="phe_euk_G_lamblia" totalcount="20" value="----------------------------------------------------------------------------------------------------PLMEMRRLFVEAFVGMGFEQMKTKLVEVLRTHTTAVSARRFFSIDRVYRNCEFNQVEGMVILGNLIATLRAFFASMEIFAEVGNSGLFVQVLAWGLSERPTMIVH"/>
+                    <sequence id="seq_phe_euk_G_theta" taxon="phe_euk_G_theta" totalcount="20" value="----------------------------------------------------------------------------------------------------PLLKVRAQFREIFLEMGFEEMPTRFVELLRTHTTAISAKKFFSIDRVFRNAEFHQIEGLVVLGDLMGMIQAFFESMEIFHEVGNSGMFVTCIAWGLSERPTMILY"/>
+                    <sequence id="seq_phe_euk_L_infantum" taxon="phe_euk_L_infantum" totalcount="20" value="----------------------------------------------------------------------------------------------------PLLKVRQEFREILMELGFQEMDTHWAEVLRTHTTGSSAGRYYSIDRVFRNCEFHQVEGFVILAKMMHTFDSFFRSMEIFGEVGNSGLFVTVMAWGLSERPTMIKY"/>
+                    <sequence id="seq_phe_euk_B_hominis" taxon="phe_euk_B_hominis" totalcount="20" value="----------------------------------------------------------------------------------------------------PICILKKTILSYFLNKEFSVYEDSPIVVLRPHTSAHQVNSFIVVGDVYRRPAFTQMEIVRVINDMKGVVEGLIKSLEVEVELLGSGVIDCGWALGIGERLAMSLF"/>
+                    <sequence id="seq_pro_euk_3ial_G_lamblia" taxon="pro_euk_3ial_G_lamblia" totalcount="20" value="----------------------------------------------------------------------------------------------------MENAIMRLCEEEYAKVGISQILFPTVIALRPTSETAIYLKIHQTCTIFRHREIHWNEAHCCLSDYWKVIDTIFSSEVSDVQTAGIHNLPYLTCAGISTRVLACAL"/>
+                    <sequence id="seq_pro_euk_D_discoideum" taxon="pro_euk_D_discoideum" totalcount="20" value="----------------------------------------------------------------------------------------------------IWEQIQAFFDAEIKKLDVQNAYFPLLVAIRPTSETIMYLKLNQWVNVVRWREFLWQEGHTAVFTILDLYRRVYETTTIEGQAATSHALAWQNSWGLTTRTIGVMV"/>
+                    <sequence id="seq_pro_euk_E_guttata" taxon="pro_euk_E_guttata" totalcount="20" value="----------------------------------------------------------------------------------------------------IWEAIQDYLNVKFKETGHSNMYFPQLIVVRPTSETIVNLMINQWVNVTRWLEFLWQEGHTAALQMIDMYTKFAFTYTIEAQAGTSHNLVWQTSWAISTRFVGGII"/>
+                    <sequence id="seq_pro_euk_L_infantum" taxon="pro_euk_L_infantum" totalcount="20" value="----------------------------------------------------------------------------------------------------VWKCVQRFLGGKIEKLGVEDCYFPMFVAVRPTSETVMYVRLNMWNNVIRWREFLWQEGHCAVLDILECYASVYETTTVETQGATSHNLPWQNSWGLSTRVIGVMI"/>
+                    <sequence id="seq_pro_euk_N_gruberi" taxon="pro_euk_N_gruberi" totalcount="20" value="----------------------------------------------------------------------------------------------------VWEKVQNFFDGHIKKLGVQNVMFPMFVALRPTSETIMYLKLNQWTNVVRWREFYWQEGHSAVYDILELYKRTYETTTIEAQAATSHHLVYQNSWGLSTRSLGVMI"/>
+                    <sequence id="seq_pro_euk_R_filosa" taxon="pro_euk_R_filosa" totalcount="20" value="----------------------------------------------------------------------------------------------------MWECIKNFMDEEIKKMGVSNTYFPLFVAVRPTSETIMYLKINQWCNVVRWREFLWQEGHTAVYEILDMYARTYRSTTVEAQGATSHCLVVQNSWGFTTRSIGVMI"/>
+                    <sequence id="seq_pro_euk_T_vaginalis" taxon="pro_euk_T_vaginalis" totalcount="20" value="----------------------------------------------------------------------------------------------------MHNEIMHLFEVAYSKIGVPMTQFPAFICLRPTSETAMYVMVQQSCNVYRYREIPWNEAHTALGKFWDIVHDILTTDVLDVQSVGAHYLSYMTCIGVSTRCLAAVL"/>
+                    <sequence id="seq_pro_euk_A_subglabra" taxon="pro_euk_A_subglabra" totalcount="20" value="----------------------------------------------------------------------------------------------------IWEVIQEWFNREIKKLGVENAYFPMFVAIRPTSETAMYLKLNQWNSVVRWREFLWQEGHTAVRQILELYRRVYETTTIEGQAATSHCLVWQNSWGLSTRSIGVMV"/>
+                    <sequence id="seq_pro_euk_B_hominis" taxon="pro_euk_B_hominis" totalcount="20" value="----------------------------------------------------------------------------------------------------IWERIQEFLDAKIKASGVKNAYFPMFVAIRPTSETIMYLRLNQWTNVVRWREFLWQEGHSAVLEILDYYARVYETTTVEAQAATSHCLVWQNSWGLTTRSIGVLI"/>
+                    <sequence id="seq_pro_euk_C_parvum_Iowa_II" taxon="pro_euk_C_parvum_Iowa_II" totalcount="20" value="----------------------------------------------------------------------------------------------------IWETIQSVFDQKIKQHDVQNAYFPIFVAIRPTSETIMYLKINQWTSIVRWREFLWQEGHTAVDIILNEYASIYETKSIEGQAATSHLLAHQTSWGLTTRAIGVMI"/>
+                    <sequence id="seq_pro_euk_C_subellipsoidea" taxon="pro_euk_C_subellipsoidea" totalcount="20" value="----------------------------------------------------------------------------------------------------IWEGIQSYLDSRFKELGVQNAYFPQLIVVRPTSETMVNMLLNQWANVHRWLEFLWQEGHTAAQQMVEVYADFAITLTIEAQAGTSHDLPQQTSWGASTRLIGGII"/>
+                    <sequence id="seq_pro_euk_P_chromatophora" taxon="pro_euk_P_chromatophora" totalcount="20" value="----------------------------------------------------------------------------------------------------VLKKISSCVREEMTSAGAIELLMPQLQALGPTHEEVVTCTLYQIQTKFRDREFVMKDAYSFYDRMDLGYRNIFRSQEFMVEVGHIFRLFWMGCYGIGSRLSQAAV"/>
+                    <sequence id="seq_pro_euk_N_ceranae" taxon="pro_euk_N_ceranae" totalcount="20" value="----------------------------------------------------------------------------------------------------IWNEIRKWFTNEIEKLGVEECLFPMLIAIRPTSETVMYLKVNQWCNILRWKEILWQEGHTAVLDILDLYYRMYKSTTVEGQAATSHHLVYQNSWGMTTRSLGIAV"/>
+                    <sequence id="seq_pro_euk_C_owczarzaki" taxon="pro_euk_C_owczarzaki" totalcount="20" value="----------------------------------------------------------------------------------------------------VWDHIRDFFDREIKLLGVENAYFPMFVALRPTSETIMYLKINQWANVVRWREFLWQEGHTAVLQILELYRRVYETTTVEAQGATSHNLVWQNSWGLTTRTIGVMI"/>
+                    <sequence id="seq_pro_euk_S_rosetta" taxon="pro_euk_S_rosetta" totalcount="20" value="----------------------------------------------------------------------------------------------------VVQRLQSLVRAELNAIGSQECVLPAITCLAATHEETVTLYLYQMQPKYRDREFMMKDMYTFYAKVVECYQRILQSHEFQIEVGHAFLLIHMGCYGLGTRMLSAVA"/>
+                    <sequence id="seq_pro_euk_G_theta" taxon="pro_euk_G_theta" totalcount="20" value="----------------------------------------------------------------------------------------------------VWDELKDELNRRIKETGTQNAYFPLFIIVRPTSETIIWLKVNQWANVVRWAEFLWQEGHTAAREMLDVYAEVAETYTIEAQSGTSHFLVWATSWGVSTRLLGALV"/>
+                    <sequence id="seq_ser_euk_1wleb_B_taurus" taxon="ser_euk_1wleb_B_taurus" totalcount="20" value="----------------------------------------------------------------------------------------------------LQHGLVNFTLNKLIHRGFTPMTVPDLLNLAGTAEVGLAIRMVCSSTCYRAHHFTKVEMFGVLEEFLSLQMEILTKFDIEAEVTSASNCAHTVNATGAPRLLIALL"/>
+                    <sequence id="seq_ser_euk_B_mori" taxon="ser_euk_B_mori" totalcount="20" value="----------------------------------------------------------------------------------------------------LEQALVQLSLRMLLEKGYTPLYTPFFMYLIATSEQPIAIKYAGLSTCFRQHQFEKVEQFVLMDEMINNAEEFCKKLDLEAELVSCSNCVHMLNATMATRVICAIL"/>
+                    <sequence id="seq_ser_euk_C_owczarzaki" taxon="ser_euk_C_owczarzaki" totalcount="20" value="----------------------------------------------------------------------------------------------------LEFALIQYAFTMLVQRDFTPLTTPFFMYLIATSEQPIAKRYAGYSSCFRQHQFEKIEQFCIMEQMLKNATDFYQKYDVEGELVSCSNCVHMLNSTMATRVICIIL"/>
+                    <sequence id="seq_ser_euk_L_infantum" taxon="ser_euk_L_infantum" totalcount="20" value="----------------------------------------------------------------------------------------------------LQFALISYALNFLIARGYEPFYPPFFLYLIATSEAPIAIKYAGVSSCFRKHQFDKLEQFVVLEEMIQTSQDFNEKYDLEAELVSCSNCCHMLNGTLATRTMCCIC"/>
+                    <sequence id="seq_ser_euk_T_vaginalis" taxon="ser_euk_T_vaginalis" totalcount="20" value="----------------------------------------------------------------------------------------------------LNQALFRYGLDFLQAHGYTAIHTPFFMFLIATSEQTLCKKYCGFSSCFRKHQFEKVEQFCIHEQMVHNSCEFIKKVDIEAELVSASNCVHMLNATLAERTLCCIL"/>
+                    <sequence id="seq_ser_euk_C_gigas" taxon="ser_euk_C_gigas" totalcount="20" value="----------------------------------------------------------------------------------------------------LEQALINLAMQSLYTKGYVPLYTPFFMYLIATSEQPIAIKYLGYSTCFRQHQFEKIEQFVLFDEMINNAEEFNKKLDLEAELVSCSNCVHMLNATMATRTICAIL"/>
+                    <sequence id="seq_ser_euk_D_discoideum" taxon="ser_euk_D_discoideum" totalcount="20" value="----------------------------------------------------------------------------------------------------LNQAIINFALMHMTKRGSVPLQTPFFMYLIATSEQPISKKYVGYSTCFRKHQFEKIEQFCIMEEMINNSEQFYQKYDLEGELVSCSNCVHMLNSTLATRVICCIL"/>
+                    <sequence id="seq_ser_euk_A_subglabra" taxon="ser_euk_A_subglabra" totalcount="20" value="----------------------------------------------------------------------------------------------------LELALTNYAFSVALKRGFRPALTPDVVVLTGTAEIPLAVRVAGLGRAFRSHQFSKVELFAVLDELKQVQIELFSKYDMEAEISSTSNCAHTLNGTAAPRLIIALL"/>
+                    <sequence id="seq_ser_euk_H_sapiens" taxon="ser_euk_H_sapiens" totalcount="20" value="----------------------------------------------------------------------------------------------------LEQALIQYALRTLGSRGYIPIYTPFFMYLIATSEQPIAIKYAGLSTCFRQHQFEKIEQFVYFEEMITTAEEFYQKLDLEAELVSCSNCVHMLNATMATRTICAIL"/>
+                    <sequence id="seq_ser_euk_S_rosetta" taxon="ser_euk_S_rosetta" totalcount="20" value="----------------------------------------------------------------------------------------------------LEMALVSYALQFLMARKFTALSPPLFMYLIATAEQPIALRYVGVSECFRQHQFKKIEQFVIMDEMLTNAEDFLKKLDIEAELVSCSNCVHMLNSTLATRTICCIL"/>
+                    <sequence id="seq_ser_euk_G_lamblia" taxon="ser_euk_G_lamblia" totalcount="20" value="----------------------------------------------------------------------------------------------------LNQALIQYALKFLTDRGYQAMQTPFFMYLIATSEQPLCIRYAGMSTCFRKHQFEKIEQIVVMEYMIDNCRAFFDKYDLEAELVSCSNCVHLLNSTLAERTLCCLV"/>
+                    <sequence id="seq_ser_euk_C_subellipsoidea" taxon="ser_euk_C_subellipsoidea" totalcount="20" value="----------------------------------------------------------------------------------------------------LELALCNYAMQKVASKGFLPMTTPDLVCLTGTAEVPLAIRLAAFGHCFRTHQFSKVEMFVLLQELCDIEEEIFTKIDIEAEVSSASNCLHTLNATAAPRLIVAIL"/>
+                    <sequence id="seq_ser_euk_P_chromatophora" taxon="ser_euk_P_chromatophora" totalcount="20" value="----------------------------------------------------------------------------------------------------LERALINFMLDFHTKKGYCEILPPILAWLIPTSEVPITLKYVAYSPCFRRHQFNKVELYWFHIQITADAEAVLQTYDLEVEISSSSNCVHTLNASGAGRTMAALL"/>
+                    <sequence id="seq_ser_euk_N_ceranae" taxon="ser_euk_N_ceranae" totalcount="20" value="----------------------------------------------------------------------------------------------------LGMALSRYAIDFLEKQGYTFIQTPVMMYLIATSEQPLSKLYCGQSLCFRKHQFEKIEQFVIFYKMIGLSEEFYKKYDLEAELVSCSNCVHMLNSTLAQRTLCCVV"/>
+                    <sequence id="seq_ser_euk_G_theta" taxon="ser_euk_G_theta" totalcount="20" value="----------------------------------------------------------------------------------------------------LHRALAQFMLDTHVEKGYSEVYVPYIVYLIPTAEVPVTIKYTAHTPCFRSHQFEKVELVQILEELTGHAEAILKTYDLEVEISSCSNCVHTLNGSGAGRTLVAIL"/>
+                    <sequence id="seq_ser_euk_E_guttata" taxon="ser_euk_E_guttata" totalcount="20" value="----------------------------------------------------------------------------------------------------LNQALINFGLDFLEKRGFTALHTPFFMYLIATAEQPLCLRYAGYSSCFRKHQFEKIEQFCIHEEMLKNSEDFYKKYDLEGELVSCSNCVHMLNSTLAERTMCCIL"/>
+                    <sequence id="seq_ser_euk_N_gruberi" taxon="ser_euk_N_gruberi" totalcount="20" value="----------------------------------------------------------------------------------------------------LEVALQNFAISKLLKRGFKIIMPPELMCLIGTSEIGLALKYAGLSHCFRTHQFTKVEMFVYLDEIVSIQEEIFSKIDMEAEVSSASNCPHTLNGTAAPRAIITIL"/>
+                    <sequence id="seq_ser_euk_C_parvum_Iowa_II" taxon="ser_euk_C_parvum_Iowa_II" totalcount="20" value="----------------------------------------------------------------------------------------------------MSMALSHYAMGFLLKKGYLAIQPPYFMFLIATSEQPIAIKYAGISTCFRKHQFEKVEQFCVHEEMISISEEFYQKYDLEAELVSCSNCCHFLNGTLAQRTMCCIV"/>
+                    <sequence id="seq_thr_euk_E_guttata" taxon="thr_euk_E_guttata" totalcount="20" value="----------------------------------------------------------------------------------------------------VRHIIEDAWKKIHIQRGYDLLYTPHVAQLRPMNCPYHIIRVAELGTVYRYRGFTQDDAHIFIRGVLDLTEEILLKIDLKIQCSTIQVDPIMIHRAVSERFFGVLI"/>
+                    <sequence id="seq_thr_euk_G_lamblia" taxon="thr_euk_G_lamblia" totalcount="20" value="----------------------------------------------------------------------------------------------------IYRKLEAFIRELLHEFDYEEVMTPTFLGLKPMNCPCHCIRMAEFGVVHRNVRFEQDDAHIFMTGLIEFIKRVYTKIDVHLQCGTIQLDPVMIHRAISERFMAILI"/>
+                    <sequence id="seq_thr_euk_H_sapiens" taxon="thr_euk_H_sapiens" totalcount="20" value="----------------------------------------------------------------------------------------------------IYNALIEFIRSEYRKRGFQEVVTPNIFALKPMNCPGHCLRLADFGVLHRNRRFQQDDAHIFIKGCLDFLRTVYSKIDIQIQCATIQLDPVIVHRAISERMIAILT"/>
+                    <sequence id="seq_thr_euk_N_gruberi" taxon="thr_euk_N_gruberi" totalcount="20" value="----------------------------------------------------------------------------------------------------LFNSIQSLMRNEYWHRGYSEVQTPNVFSLKPMNCPSHCIRFADFGVLHRNRKFQQDDAHIFIMGALRMMQDIYKKIDILIQCATVQLDPVIVHRAISERFLAIAT"/>
+                    <sequence id="seq_thr_euk_R_filosa" taxon="thr_euk_R_filosa" totalcount="20" value="----------------------------------------------------------------------------------------------------IYNKLQQFISGCYRDRGFTEVISPNVYGLKPMNCPGHCLRFADFGALHRNRRFQQDDAHIFVSNCLHFLDYVYGKVDIHVQCATIQLDPVIVHRAISERFIAILS"/>
+                    <sequence id="seq_thr_euk_T_vaginalis" taxon="thr_euk_T_vaginalis" totalcount="20" value="----------------------------------------------------------------------------------------------------MYRRLMSMIRQQYLKRQFVEVITPNIFGMKPMNCPGHCIRMAEFGVLHRNRRFVQDDAHIFISDGLDFMTEVYGKIDVLVQLATIQLDPVMIHRAVSERFIAIAI"/>
+                    <sequence id="seq_thr_euk_A_subglabra" taxon="thr_euk_A_subglabra" totalcount="20" value="----------------------------------------------------------------------------------------------------IYNTLVEFVRSEYWKRGYQEVISPNLFAMKPMNCPGHCIRMAEFAILHRNRRFVQDDAHIFIAGVIDFLQSVYGKIDITIQCATIQLDPVMIHRAISERFMGIIT"/>
+                    <sequence id="seq_thr_euk_B_mori" taxon="thr_euk_B_mori" totalcount="20" value="----------------------------------------------------------------------------------------------------IYNTLVNFIKEQYRSRGFHEVVTPNMYALKPMNCPGHCLRLADFGVLHRNRRFQQDDAHIFIVGCLEFLKCVYSKIDITIQCATIQLDPVIIHRAVSERMVAILS"/>
+                    <sequence id="seq_thr_euk_C_gigas" taxon="thr_euk_C_gigas" totalcount="20" value="----------------------------------------------------------------------------------------------------IYNTLIDLIKSEYRKRGFQEVVSPNIYALKPMNCPGHCLRMADFGVLHRNRRFQQDDAHIFIAGCLDFLKAVYDKIDIIIQCATIQLDPVMIHRAISERMIAILC"/>
+                    <sequence id="seq_thr_euk_C_owczarzaki" taxon="thr_euk_C_owczarzaki" totalcount="20" value="----------------------------------------------------------------------------------------------------IYNTLMEFIRSEYWARGFTEVITPNMYALKPMNCPGHCIRFADFGVLHRNRRFQQDDAHIFIDNALAFLKAVYTKIDITIQCATIQLDPVIIHRAISERMIAILT"/>
+                    <sequence id="seq_thr_euk_D_discoideum" taxon="thr_euk_D_discoideum" totalcount="20" value="----------------------------------------------------------------------------------------------------IYNKLLQFLRLEYRKRGYQEVISPNIYSLKPMNCPGHCMRIADFGVLHRNRRFQQDDAHIFIKQCLDFMKYVYTKIDIHLQCATIQLDPVMIHRALSERMMAILM"/>
+                    <sequence id="seq_thr_euk_L_infantum" taxon="thr_euk_L_infantum" totalcount="20" value="----------------------------------------------------------------------------------------------------IYNTLVEFLRKKYRRCGFQEVISPNMYGLKPMNCPGHCIRYADFGVLHRNRRFQQDDAHIFMEGQMQFLSDVYGKIDIVVQCATIQLDPVMIHRAISERSIAILC"/>
+                    <sequence id="seq_thr_euk_C_subellipsoidea" taxon="thr_euk_C_subellipsoidea" totalcount="20" value="----------------------------------------------------------------------------------------------------IYNNLVELIREKYWEYEYEEVVTPNLYGLKPMNCPGHCIRMADFGVLHRNRRFQQDDAHVFVSSCLRMLDEVYAKIDITVQCATIQLDPVIVHRAISERMLAILT"/>
+                    <sequence id="seq_thr_euk_P_chromatophora" taxon="thr_euk_P_chromatophora" totalcount="20" value="----------------------------------------------------------------------------------------------------IRLLIEDFWRQSHLEAGYELLYTPHIAQLKPMNCPFHVIRWAELGTVYRYRGFTQDDAHIFVLEVLNLTERILSKIDLKIQCSTIQLDPIMIHRAISERFFGVMI"/>
+                    <sequence id="seq_thr_euk_N_ceranae" taxon="thr_euk_N_ceranae" totalcount="20" value="----------------------------------------------------------------------------------------------------LYNKLCDLMRSEYLKRGFQEVITPNIFAMKPMNCPGHCIRYADFGVLHRNRRFQQDDAHIFISNCLDFLKHIYGKIDIILQCGTIQLDPVIIHRAISERFIAILI"/>
+                    <sequence id="seq_thr_euk_S_rosetta" taxon="thr_euk_S_rosetta" totalcount="20" value="----------------------------------------------------------------------------------------------------LLHRLTDLIRRQFRIRGYEEVMTPLVFGLKPMNCPAHCLRLGEFSALHRNRQFHQDDAHIFVAGCLDFVRTVYDKIDVYLQSATIQLDPVIIHRAISERMTAVLL"/>
+                    <sequence id="seq_thr_euk_G_theta" taxon="thr_euk_G_theta" totalcount="20" value="----------------------------------------------------------------------------------------------------MRNIIESFWKDLHMRSGYELVYSPHIAQIKPMNCPFHVIRWAELGTVYRYRGFTQDDAHVFILKILDLTESVLSKIDLKIQCSTIQCDPIMIHRAISERFFGILV"/>
+                </data>
+    
+    
+<map name="Beta">beast.math.distributions.Beta</map>
+<map name="Exponential">beast.math.distributions.Exponential</map>
+<map name="InverseGamma">beast.math.distributions.InverseGamma</map>
+<map name="LogNormal">beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Gamma">beast.math.distributions.Gamma</map>
+<map name="Uniform">beast.math.distributions.Uniform</map>
+<map name="prior">beast.math.distributions.Prior</map>
+<map name="LaplaceDistribution">beast.math.distributions.LaplaceDistribution</map>
+<map name="OneOnX">beast.math.distributions.OneOnX</map>
+<map name="Normal">beast.math.distributions.Normal</map>
+<map name="taxon">beast.evolution.alignment.Taxon</map>
+<map name="taxonset">beast.evolution.alignment.TaxonSet</map>
+
+<taxonset id='allTaxa' alignment='@AARS'/>
+
+
+<run chainLength="10000000" id="mcmc" spec="MCMC">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:AARS" name="stateNode">
+            <taxonset id="TaxonSet.AARS" spec="TaxonSet">
+                <data idref="AARS" name="alignment"/>
+            </taxonset>
+        </tree>
+        <parameter id="birthRate2.t:AARS" lower = "0.0" name="stateNode" upper="10000.0">1.0</parameter>
+		<parameter id="relativeDeathRate2.t:AARS" lower = "0.0" name="stateNode" upper="1.0">0.5</parameter>
+		<stateNode idref='ucldStdev.c:AARS'/>
+		<stateNode idref='rateCategories.c:AARS'/>
+    </state>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+
+            <distribution id="V.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="V" spec="TaxonSet">
+                    <taxon id="val_euk_L_infantum"/>
+                    <taxon id="val_euk_N_gruberi"/>
+                    <taxon id="val_euk_N_ceranae"/>
+                    <taxon id="val_euk_M_domestica"/>
+                    <taxon id="val_euk_G_lamblia"/>
+                    <taxon id="val_euk_E_guttata"/>
+                    <taxon id="val_euk_D_rerio"/>
+                    <taxon id="val_euk_D_discoideum"/>
+                    <taxon id="val_euk_C_owczarzaki"/>
+                    <taxon id="val_euk_C_gigas"/>
+                    <taxon id="val_euk_B_hominis"/>
+                    <taxon id="val_euk_S_rosetta"/>
+                    <taxon id="val_euk_C_subellipsoidea"/>
+                    <taxon id="val_euk_P_chromatophora"/>
+                    <taxon id="val_euk_C_parvum_Iowa_II"/>
+                </taxonset>
+            </distribution>
+            <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="G" spec="TaxonSet">
+                    <taxon id="gly_euk_2zt5_H_sapiens"/>
+                    <taxon id="gly_euk_S_rosetta"/>
+                    <taxon id="gly_euk_B_hominis"/>
+                    <taxon id="gly_euk_B_mori"/>
+                    <taxon id="gly_euk_C_gigas"/>
+                    <taxon id="gly_euk_C_owczarzaki"/>
+                    <taxon id="gly_euk_D_discoideum"/>
+                    <taxon id="gly_euk_G_lamblia"/>
+                    <taxon id="gly_euk_G_theta"/>
+                    <taxon id="gly_euk_L_infantum"/>
+                    <taxon id="gly_euk_N_ceranae"/>
+                    <taxon id="gly_euk_N_gruberi"/>
+                    <taxon id="gly_euk_A_subglabra"/>
+                    <taxon id="gly_euk_C_parvum_Iowa_II"/>
+                    <taxon id="gly_euk_C_subellipsoidea"/>
+                </taxonset>
+            </distribution>
+            <distribution id="A.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="A" spec="TaxonSet">
+                    <taxon id="ala_euk_B_mori"/>
+                    <taxon id="ala_euk_L_infantum"/>
+                    <taxon id="ala_euk_C_gigas"/>
+                    <taxon id="ala_euk_D_discoideum"/>
+                    <taxon id="ala_euk_B_hominis"/>
+                    <taxon id="ala_euk_C_subellipsoidea"/>
+                    <taxon id="ala_euk_P_chromatophora"/>
+                    <taxon id="ala_euk_N_ceranae"/>
+                    <taxon id="ala_euk_D_rerio"/>
+                    <taxon id="ala_euk_C_owczarzaki"/>
+                    <taxon id="ala_euk_S_rosetta"/>
+                    <taxon id="ala_euk_G_theta"/>
+                    <taxon id="ala_euk_E_guttata"/>
+                    <taxon id="ala_euk_N_gruberi"/>
+                    <taxon id="ala_euk_C_parvum_Iowa_II"/>
+                </taxonset>
+            </distribution>
+            <distribution id="D.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="D" spec="TaxonSet">
+                    <taxon id="asp_euk_3i7f_E_histolytica"/>
+                    <taxon id="asp_euk_E_guttata"/>
+                    <taxon id="asp_euk_G_lamblia"/>
+                    <taxon id="asp_euk_L_infantum"/>
+                    <taxon id="asp_euk_S_rosetta"/>
+                    <taxon id="asp_euk_A_subglabra"/>
+                    <taxon id="asp_euk_B_hominis"/>
+                    <taxon id="asp_euk_B_mori"/>
+                    <taxon id="asp_euk_C_gigas"/>
+                    <taxon id="asp_euk_C_owczarzaki"/>
+                    <taxon id="asp_euk_C_parvum_Iowa_II"/>
+                    <taxon id="asp_euk_D_discoideum"/>
+                    <taxon id="asp_euk_C_subellipsoidea"/>
+                    <taxon id="asp_euk_P_chromatophora"/>
+                    <taxon id="asp_euk_N_ceranae"/>
+                    <taxon id="asp_euk_G_theta"/>
+                    <taxon id="asp_euk_N_gruberi"/>
+                </taxonset>
+            </distribution>
+            <distribution id="P.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="P" spec="TaxonSet">
+                    <taxon id="pro_euk_3ial_G_lamblia"/>
+                    <taxon id="pro_euk_D_discoideum"/>
+                    <taxon id="pro_euk_E_guttata"/>
+                    <taxon id="pro_euk_L_infantum"/>
+                    <taxon id="pro_euk_N_gruberi"/>
+                    <taxon id="pro_euk_R_filosa"/>
+                    <taxon id="pro_euk_T_vaginalis"/>
+                    <taxon id="pro_euk_A_subglabra"/>
+                    <taxon id="pro_euk_B_hominis"/>
+                    <taxon id="pro_euk_C_parvum_Iowa_II"/>
+                    <taxon id="pro_euk_C_subellipsoidea"/>
+                    <taxon id="pro_euk_P_chromatophora"/>
+                    <taxon id="pro_euk_N_ceranae"/>
+                    <taxon id="pro_euk_C_owczarzaki"/>
+                    <taxon id="pro_euk_S_rosetta"/>
+                    <taxon id="pro_euk_G_theta"/>
+                </taxonset>
+            </distribution>
+            <distribution id="E.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="E" spec="TaxonSet">
+                    <taxon id="glu_euk_A_subglabra"/>
+                    <taxon id="glu_euk_B_hominis"/>
+                    <taxon id="glu_euk_B_mori"/>
+                    <taxon id="glu_euk_C_parvum_Iowa_II"/>
+                    <taxon id="glu_euk_D_rerio"/>
+                    <taxon id="glu_euk_E_guttata"/>
+                    <taxon id="glu_euk_L_infantum"/>
+                    <taxon id="glu_euk_N_ceranae"/>
+                    <taxon id="glu_euk_T_vaginalis"/>
+                    <taxon id="glu_euk_P_chromatophora"/>
+                    <taxon id="glu_euk_R_rosetta"/>
+                </taxonset>
+            </distribution>
+            <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="S" spec="TaxonSet">
+                    <taxon id="ser_euk_1wleb_B_taurus"/>
+                    <taxon id="ser_euk_B_mori"/>
+                    <taxon id="ser_euk_C_owczarzaki"/>
+                    <taxon id="ser_euk_L_infantum"/>
+                    <taxon id="ser_euk_T_vaginalis"/>
+                    <taxon id="ser_euk_C_gigas"/>
+                    <taxon id="ser_euk_D_discoideum"/>
+                    <taxon id="ser_euk_A_subglabra"/>
+                    <taxon id="ser_euk_H_sapiens"/>
+                    <taxon id="ser_euk_S_rosetta"/>
+                    <taxon id="ser_euk_G_lamblia"/>
+                    <taxon id="ser_euk_C_subellipsoidea"/>
+                    <taxon id="ser_euk_P_chromatophora"/>
+                    <taxon id="ser_euk_N_ceranae"/>
+                    <taxon id="ser_euk_G_theta"/>
+                    <taxon id="ser_euk_E_guttata"/>
+                    <taxon id="ser_euk_N_gruberi"/>
+                    <taxon id="ser_euk_C_parvum_Iowa_II"/>
+                </taxonset>
+            </distribution>
+            <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="L" spec="TaxonSet">
+                    <taxon id="leu_euk_L_infantum"/>
+                    <taxon id="leu_euk_G_theta"/>
+                    <taxon id="leu_euk_H_sapiens"/>
+                    <taxon id="leu_euk_B_taurus"/>
+                    <taxon id="leu_euk_C_gigas"/>
+                    <taxon id="leu_euk_C_owczarzaki"/>
+                    <taxon id="leu_euk_C_subellipsoidea"/>
+                    <taxon id="leu_euk_A_subglabra"/>
+                    <taxon id="leu_euk_G_lamblia"/>
+                    <taxon id="leu_euk_B_hominis"/>
+                    <taxon id="leu_euk_T_vaginalis"/>
+                    <taxon id="leu_euk_P_chromatophora"/>
+                    <taxon id="leu_euk_N_ceranae"/>
+                    <taxon id="leu_euk_S_rosetta"/>
+                    <taxon id="leu_euk_E_guttata"/>
+                </taxonset>
+            </distribution>
+            <distribution id="R.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="R" spec="TaxonSet">
+                    <taxon id="arg_euk_1f7u_S_cerevisiae"/>
+                    <taxon id="arg_euk_B_mori"/>
+                    <taxon id="arg_euk_P_euphratica"/>
+                    <taxon id="arg_euk_D_discoideum"/>
+                    <taxon id="arg_euk_G_theta"/>
+                    <taxon id="arg_euk_A_subglabra"/>
+                    <taxon id="arg_euk_G_lamblia"/>
+                    <taxon id="arg_euk_C_subellipsoidea"/>
+                    <taxon id="arg_euk_L_infantum"/>
+                    <taxon id="arg_euk_P_chromatophora"/>
+                    <taxon id="arg_euk_N_ceranae"/>
+                    <taxon id="arg_euk_D_rerio"/>
+                    <taxon id="arg_euk_C_owczarzaki"/>
+                    <taxon id="arg_euk_S_rosetta"/>
+                    <taxon id="arg_euk_M_domestica"/>
+                </taxonset>
+            </distribution>
+            <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="T" spec="TaxonSet">
+                    <taxon id="thr_euk_E_guttata"/>
+                    <taxon id="thr_euk_G_lamblia"/>
+                    <taxon id="thr_euk_H_sapiens"/>
+                    <taxon id="thr_euk_N_gruberi"/>
+                    <taxon id="thr_euk_R_filosa"/>
+                    <taxon id="thr_euk_T_vaginalis"/>
+                    <taxon id="thr_euk_A_subglabra"/>
+                    <taxon id="thr_euk_B_mori"/>
+                    <taxon id="thr_euk_C_gigas"/>
+                    <taxon id="thr_euk_C_owczarzaki"/>
+                    <taxon id="thr_euk_D_discoideum"/>
+                    <taxon id="thr_euk_L_infantum"/>
+                    <taxon id="thr_euk_C_subellipsoidea"/>
+                    <taxon id="thr_euk_P_chromatophora"/>
+                    <taxon id="thr_euk_N_ceranae"/>
+                    <taxon id="thr_euk_S_rosetta"/>
+                    <taxon id="thr_euk_G_theta"/>
+                </taxonset>
+            </distribution>
+            <distribution id="I.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="I" spec="TaxonSet">
+                    <taxon id="ile_euk_B_mori"/>
+                    <taxon id="ile_euk_C_gigas"/>
+                    <taxon id="ile_euk_D_discoideum"/>
+                    <taxon id="ile_euk_C_owczarzaki"/>
+                    <taxon id="ile_euk_C_subellipsoidea"/>
+                    <taxon id="ile_euk_L_infantum"/>
+                    <taxon id="ile_euk_S_rosetta"/>
+                    <taxon id="ile_euk_A_subglabra"/>
+                    <taxon id="ile_euk_G_lamblia"/>
+                    <taxon id="ile_euk_T_vaginalis"/>
+                    <taxon id="ile_euk_B_hominis"/>
+                    <taxon id="ile_euk_E_guttata"/>
+                    <taxon id="ile_euk_P_chromatophora"/>
+                    <taxon id="ile_euk_H_sapiens"/>
+                    <taxon id="ile_euk_N_ceranae"/>
+                    <taxon id="ile_euk_G_theta"/>
+                    <taxon id="ile_euk_N_gruberi"/>
+                    <taxon id="ile_euk_C_parvum_Iowa_II"/>
+                </taxonset>
+            </distribution>
+            <distribution id="Q.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="Q" spec="TaxonSet">
+                    <taxon id="gln_euk_L_infantum"/>
+                    <taxon id="gln_euk_C_gigas"/>
+                    <taxon id="gln_euk_A_subglabra"/>
+                    <taxon id="gln_euk_C_parvum_Iowa_II"/>
+                    <taxon id="gln_euk_G_lamblia"/>
+                    <taxon id="gln_euk_T_vaginalis"/>
+                    <taxon id="gln_euk_C_subellipsoidea"/>
+                    <taxon id="gln_euk_H_sapiens"/>
+                    <taxon id="gln_euk_N_ceranae"/>
+                    <taxon id="gln_euk_D_rerio"/>
+                    <taxon id="gln_euk_C_owczarzaki"/>
+                    <taxon id="gln_euk_R_rosetta"/>
+                    <taxon id="gln_euk_M_domestica"/>
+                    <taxon id="gln_euk_G_theta"/>
+                    <taxon id="gln_euk_E_guttata"/>
+                </taxonset>
+            </distribution>
+            <distribution id="N.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="N" spec="TaxonSet">
+                    <taxon id="asn_euk_3m4p_E_histolytica"/>
+                    <taxon id="asn_euk_G_lamblia"/>
+                    <taxon id="asn_euk_G_theta"/>
+                    <taxon id="asn_euk_H_sapiens"/>
+                    <taxon id="asn_euk_L_infantum"/>
+                    <taxon id="asn_euk_N_ceranae"/>
+                    <taxon id="asn_euk_N_gruberi"/>
+                    <taxon id="asn_euk_T_vaginalis"/>
+                    <taxon id="asn_euk_A_subglabra"/>
+                    <taxon id="asn_euk_B_mori"/>
+                    <taxon id="asn_euk_C_gigas"/>
+                    <taxon id="asn_euk_C_owczarzaki"/>
+                    <taxon id="asn_euk_C_parvum_Iowa_II"/>
+                    <taxon id="asn_euk_D_discoideum"/>
+                    <taxon id="asn_euk_E_guttata"/>
+                    <taxon id="asn_euk_S_rosetta"/>
+                    <taxon id="asn_euk_C_subellipsoidea"/>
+                </taxonset>
+            </distribution>
+            <distribution id="C.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="C" spec="TaxonSet">
+                    <taxon id="cys_euk_C_parvum_Iowa_II"/>
+                    <taxon id="cys_euk_D_discoideum"/>
+                    <taxon id="cys_euk_E_guttata"/>
+                    <taxon id="cys_euk_G_lamblia"/>
+                    <taxon id="cys_euk_G_theta"/>
+                    <taxon id="cys_euk_L_infantum"/>
+                    <taxon id="cys_euk_B_hominis"/>
+                    <taxon id="cys_euk_N_gruberi"/>
+                    <taxon id="cys_euk_P_bivittatus"/>
+                    <taxon id="cys_euk_P_chromatophora"/>
+                    <taxon id="cys_euk_S_rosetta"/>
+                    <taxon id="cys_euk_T_vaginalis"/>
+                    <taxon id="cys_euk_C_gigas"/>
+                    <taxon id="cys_euk_C_owczarzaki"/>
+                    <taxon id="cys_euk_N_ceranae"/>
+                </taxonset>
+            </distribution>
+            <distribution id="Y.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="Y" spec="TaxonSet">
+                    <taxon id="tyr_euk_2dlc_S_cerevisiae"/>
+                    <taxon id="tyr_euk_L_infantum"/>
+                    <taxon id="tyr_euk_C_gigas"/>
+                    <taxon id="tyr_euk_C_parvum_Iowa_II"/>
+                    <taxon id="tyr_euk_C_subellipsoidea"/>
+                    <taxon id="tyr_euk_D_discoideum"/>
+                    <taxon id="tyr_euk_G_theta"/>
+                    <taxon id="tyr_euk_N_gruberi"/>
+                    <taxon id="tyr_euk_S_rosetta"/>
+                    <taxon id="tyr_euk_A_subglabra"/>
+                    <taxon id="tyr_euk_B_hominis"/>
+                    <taxon id="tyr_euk_G_lamblia"/>
+                    <taxon id="tyr_euk_P_chromatophora"/>
+                    <taxon id="tyr_euk_H_sapiens"/>
+                    <taxon id="tyr_euk_N_ceranae"/>
+                    <taxon id="tyr_euk_C_owczarzaki"/>
+                    <taxon id="tyr_euk_M_domestica"/>
+                </taxonset>
+            </distribution>
+            <distribution id="H.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="H" spec="TaxonSet">
+                    <taxon id="his_euk_3hri_T_brucei"/>
+                    <taxon id="his_euk_3lc0_T_cruzi"/>
+                    <taxon id="his_euk_H_sapiens"/>
+                    <taxon id="his_euk_C_owczarzaki"/>
+                    <taxon id="his_euk_L_infantum"/>
+                    <taxon id="his_euk_G_theta"/>
+                    <taxon id="his_euk_E_guttata"/>
+                    <taxon id="his_euk_M_domestica"/>
+                    <taxon id="his_euk_T_vaginalis"/>
+                    <taxon id="his_euk_C_gigas"/>
+                    <taxon id="his_euk_C_parvum_Iowa_II"/>
+                    <taxon id="his_euk_D_discoideum"/>
+                    <taxon id="his_euk_D_rerio"/>
+                    <taxon id="his_euk_A_subglabra"/>
+                    <taxon id="his_euk_G_lamblia"/>
+                    <taxon id="his_euk_P_chromatophora"/>
+                </taxonset>
+            </distribution>
+            <distribution id="M.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="M" spec="TaxonSet">
+                    <taxon id="met_euk_S_rosetta"/>
+                    <taxon id="met_euk_B_hominis"/>
+                    <taxon id="met_euk_B_mori"/>
+                    <taxon id="met_euk_C_gigas"/>
+                    <taxon id="met_euk_C_parvum_Iowa_II"/>
+                    <taxon id="met_euk_C_subellipsoidea"/>
+                    <taxon id="met_euk_D_discoideum"/>
+                    <taxon id="met_euk_E_guttata"/>
+                    <taxon id="met_euk_A_subglabra"/>
+                    <taxon id="met_euk_H_sapiens"/>
+                    <taxon id="met_euk_L_infantum"/>
+                    <taxon id="met_euk_G_lamblia"/>
+                    <taxon id="met_euk_G_theta"/>
+                    <taxon id="met_euk_P_chromatophora"/>
+                    <taxon id="met_euk_N_ceranae"/>
+                    <taxon id="met_euk_N_gruberi"/>
+                </taxonset>
+            </distribution>
+            <distribution id="W.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="W" spec="TaxonSet">
+                    <taxon id="trp_euk_1r6u_H_sapiens"/>
+                    <taxon id="trp_euk_2ip1_S_cerevisiae"/>
+                    <taxon id="trp_euk_B_mori"/>
+                    <taxon id="trp_euk_L_infantum"/>
+                    <taxon id="trp_euk_C_gigas"/>
+                    <taxon id="trp_euk_M_domestica"/>
+                    <taxon id="trp_euk_D_discoideum"/>
+                    <taxon id="trp_euk_A_subglabra"/>
+                    <taxon id="trp_euk_G_lamblia"/>
+                    <taxon id="trp_euk_T_vaginalis"/>
+                    <taxon id="trp_euk_C_owczarzaki"/>
+                    <taxon id="trp_euk_C_parvum_Iowa_II"/>
+                    <taxon id="trp_euk_R_filosa"/>
+                    <taxon id="trp_euk_P_chromatophora"/>
+                    <taxon id="trp_euk_N_ceranae"/>
+                    <taxon id="trp_euk_D_rerio"/>
+                    <taxon id="trp_euk_E_guttata"/>
+                    <taxon id="trp_euk_G_theta"/>
+                    <taxon id="trp_euk_N_gruberi"/>
+                </taxonset>
+            </distribution>
+            <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="K" spec="TaxonSet">
+                    <taxon id="lys_euk_3bju_H_sapiens"/>
+                    <taxon id="lys_euk_B_mori"/>
+                    <taxon id="lys_euk_L_infantum"/>
+                    <taxon id="lys_euk_C_gigas"/>
+                    <taxon id="lys_euk_D_discoideum"/>
+                    <taxon id="lys_euk_C_owczarzaki"/>
+                    <taxon id="lys_euk_A_subglabra"/>
+                    <taxon id="lys_euk_G_lamblia"/>
+                    <taxon id="lys_euk_B_hominis"/>
+                    <taxon id="lys_euk_T_vaginalis"/>
+                    <taxon id="lys_euk_C_subellipsoidea"/>
+                    <taxon id="lys_euk_P_chromatophora"/>
+                    <taxon id="lys_euk_N_ceranae"/>
+                    <taxon id="lys_euk_G_theta"/>
+                    <taxon id="lys_euk_S_rosetta"/>
+                    <taxon id="lys_euk_N_gruberi"/>
+                    <taxon id="lys_euk_C_parvum_Iowa_II"/>
+                </taxonset>
+            </distribution>
+            <distribution id="F.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="F" spec="TaxonSet">
+                    <taxon id="phe_euk_3l4g_H_sapiens"/>
+                    <taxon id="phe_euk_M_domestica"/>
+                    <taxon id="phe_euk_N_gruberi"/>
+                    <taxon id="phe_euk_P_chromatophora"/>
+                    <taxon id="phe_euk_R_filosa"/>
+                    <taxon id="phe_euk_S_rosetta"/>
+                    <taxon id="phe_euk_T_vaginalis"/>
+                    <taxon id="phe_euk_B_mori"/>
+                    <taxon id="phe_euk_C_gigas"/>
+                    <taxon id="phe_euk_D_discoideum"/>
+                    <taxon id="phe_euk_E_guttata"/>
+                    <taxon id="phe_euk_G_lamblia"/>
+                    <taxon id="phe_euk_G_theta"/>
+                    <taxon id="phe_euk_L_infantum"/>
+                    <taxon id="phe_euk_B_hominis"/>
+                </taxonset>
+            </distribution>
+
+            <distribution spec='beast.evolution.substitutionmodel.AARSTreePrior' id='AARSprior'>
+                <trait id="TraitSet1" spec="beast.evolution.tree.TraitSet" taxa="@allTaxa" traitname="state" units="year">
+                    val_euk_L_infantum=0, val_euk_N_gruberi=0, val_euk_N_ceranae=0, val_euk_M_domestica=0, val_euk_G_lamblia=0, val_euk_E_guttata=0, val_euk_D_rerio=0, val_euk_D_discoideum=0, val_euk_C_owczarzaki=0, val_euk_C_gigas=0, val_euk_B_hominis=0, val_euk_S_rosetta=0, val_euk_C_subellipsoidea=0, val_euk_P_chromatophora=0, val_euk_C_parvum_Iowa_II=0, 
+                    gly_euk_2zt5_H_sapiens=1, gly_euk_S_rosetta=1, gly_euk_B_hominis=1, gly_euk_B_mori=1, gly_euk_C_gigas=1, gly_euk_C_owczarzaki=1, gly_euk_D_discoideum=1, gly_euk_G_lamblia=1, gly_euk_G_theta=1, gly_euk_L_infantum=1, gly_euk_N_ceranae=1, gly_euk_N_gruberi=1, gly_euk_A_subglabra=1, gly_euk_C_parvum_Iowa_II=1, gly_euk_C_subellipsoidea=1, 
+                    ala_euk_B_mori=2, ala_euk_L_infantum=2, ala_euk_C_gigas=2, ala_euk_D_discoideum=2, ala_euk_B_hominis=2, ala_euk_C_subellipsoidea=2, ala_euk_P_chromatophora=2, ala_euk_N_ceranae=2, ala_euk_D_rerio=2, ala_euk_C_owczarzaki=2, ala_euk_S_rosetta=2, ala_euk_G_theta=2, ala_euk_E_guttata=2, ala_euk_N_gruberi=2, ala_euk_C_parvum_Iowa_II=2, 
+                    asp_euk_3i7f_E_histolytica=3, asp_euk_E_guttata=3, asp_euk_G_lamblia=3, asp_euk_L_infantum=3, asp_euk_S_rosetta=3, asp_euk_A_subglabra=3, asp_euk_B_hominis=3, asp_euk_B_mori=3, asp_euk_C_gigas=3, asp_euk_C_owczarzaki=3, asp_euk_C_parvum_Iowa_II=3, asp_euk_D_discoideum=3, asp_euk_C_subellipsoidea=3, asp_euk_P_chromatophora=3, asp_euk_N_ceranae=3, asp_euk_G_theta=3, asp_euk_N_gruberi=3, 
+                    pro_euk_3ial_G_lamblia=4, pro_euk_D_discoideum=4, pro_euk_E_guttata=4, pro_euk_L_infantum=4, pro_euk_N_gruberi=4, pro_euk_R_filosa=4, pro_euk_T_vaginalis=4, pro_euk_A_subglabra=4, pro_euk_B_hominis=4, pro_euk_C_parvum_Iowa_II=4, pro_euk_C_subellipsoidea=4, pro_euk_P_chromatophora=4, pro_euk_N_ceranae=4, pro_euk_C_owczarzaki=4, pro_euk_S_rosetta=4, pro_euk_G_theta=4, 
+                    glu_euk_A_subglabra=5, glu_euk_B_hominis=5, glu_euk_B_mori=5, glu_euk_C_parvum_Iowa_II=5, glu_euk_D_rerio=5, glu_euk_E_guttata=5, glu_euk_L_infantum=5, glu_euk_N_ceranae=5, glu_euk_T_vaginalis=5, glu_euk_P_chromatophora=5, glu_euk_R_rosetta=5, 
+                    ser_euk_1wleb_B_taurus=6, ser_euk_B_mori=6, ser_euk_C_owczarzaki=6, ser_euk_L_infantum=6, ser_euk_T_vaginalis=6, ser_euk_C_gigas=6, ser_euk_D_discoideum=6, ser_euk_A_subglabra=6, ser_euk_H_sapiens=6, ser_euk_S_rosetta=6, ser_euk_G_lamblia=6, ser_euk_C_subellipsoidea=6, ser_euk_P_chromatophora=6, ser_euk_N_ceranae=6, ser_euk_G_theta=6, ser_euk_E_guttata=6, ser_euk_N_gruberi=6, ser_euk_C_parvum_Iowa_II=6, 
+                    leu_euk_L_infantum=7, leu_euk_G_theta=7, leu_euk_H_sapiens=7, leu_euk_B_taurus=7, leu_euk_C_gigas=7, leu_euk_C_owczarzaki=7, leu_euk_C_subellipsoidea=7, leu_euk_A_subglabra=7, leu_euk_G_lamblia=7, leu_euk_B_hominis=7, leu_euk_T_vaginalis=7, leu_euk_P_chromatophora=7, leu_euk_N_ceranae=7, leu_euk_S_rosetta=7, leu_euk_E_guttata=7, 
+                    arg_euk_1f7u_S_cerevisiae=8, arg_euk_B_mori=8, arg_euk_P_euphratica=8, arg_euk_D_discoideum=8, arg_euk_G_theta=8, arg_euk_A_subglabra=8, arg_euk_G_lamblia=8, arg_euk_C_subellipsoidea=8, arg_euk_L_infantum=8, arg_euk_P_chromatophora=8, arg_euk_N_ceranae=8, arg_euk_D_rerio=8, arg_euk_C_owczarzaki=8, arg_euk_S_rosetta=8, arg_euk_M_domestica=8, 
+                    thr_euk_E_guttata=9, thr_euk_G_lamblia=9, thr_euk_H_sapiens=9, thr_euk_N_gruberi=9, thr_euk_R_filosa=9, thr_euk_T_vaginalis=9, thr_euk_A_subglabra=9, thr_euk_B_mori=9, thr_euk_C_gigas=9, thr_euk_C_owczarzaki=9, thr_euk_D_discoideum=9, thr_euk_L_infantum=9, thr_euk_C_subellipsoidea=9, thr_euk_P_chromatophora=9, thr_euk_N_ceranae=9, thr_euk_S_rosetta=9, thr_euk_G_theta=9, 
+                    ile_euk_B_mori=10, ile_euk_C_gigas=10, ile_euk_D_discoideum=10, ile_euk_C_owczarzaki=10, ile_euk_C_subellipsoidea=10, ile_euk_L_infantum=10, ile_euk_S_rosetta=10, ile_euk_A_subglabra=10, ile_euk_G_lamblia=10, ile_euk_T_vaginalis=10, ile_euk_B_hominis=10, ile_euk_E_guttata=10, ile_euk_P_chromatophora=10, ile_euk_H_sapiens=10, ile_euk_N_ceranae=10, ile_euk_G_theta=10, ile_euk_N_gruberi=10, ile_euk_C_parvum_Iowa_II=10, 
+                    gln_euk_L_infantum=11, gln_euk_C_gigas=11, gln_euk_A_subglabra=11, gln_euk_C_parvum_Iowa_II=11, gln_euk_G_lamblia=11, gln_euk_T_vaginalis=11, gln_euk_C_subellipsoidea=11, gln_euk_H_sapiens=11, gln_euk_N_ceranae=11, gln_euk_D_rerio=11, gln_euk_C_owczarzaki=11, gln_euk_R_rosetta=11, gln_euk_M_domestica=11, gln_euk_G_theta=11, gln_euk_E_guttata=11, 
+                    asn_euk_3m4p_E_histolytica=12, asn_euk_G_lamblia=12, asn_euk_G_theta=12, asn_euk_H_sapiens=12, asn_euk_L_infantum=12, asn_euk_N_ceranae=12, asn_euk_N_gruberi=12, asn_euk_T_vaginalis=12, asn_euk_A_subglabra=12, asn_euk_B_mori=12, asn_euk_C_gigas=12, asn_euk_C_owczarzaki=12, asn_euk_C_parvum_Iowa_II=12, asn_euk_D_discoideum=12, asn_euk_E_guttata=12, asn_euk_S_rosetta=12, asn_euk_C_subellipsoidea=12, 
+                    cys_euk_C_parvum_Iowa_II=13, cys_euk_D_discoideum=13, cys_euk_E_guttata=13, cys_euk_G_lamblia=13, cys_euk_G_theta=13, cys_euk_L_infantum=13, cys_euk_B_hominis=13, cys_euk_N_gruberi=13, cys_euk_P_bivittatus=13, cys_euk_P_chromatophora=13, cys_euk_S_rosetta=13, cys_euk_T_vaginalis=13, cys_euk_C_gigas=13, cys_euk_C_owczarzaki=13, cys_euk_N_ceranae=13, 
+                    tyr_euk_2dlc_S_cerevisiae=14, tyr_euk_L_infantum=14, tyr_euk_C_gigas=14, tyr_euk_C_parvum_Iowa_II=14, tyr_euk_C_subellipsoidea=14, tyr_euk_D_discoideum=14, tyr_euk_G_theta=14, tyr_euk_N_gruberi=14, tyr_euk_S_rosetta=14, tyr_euk_A_subglabra=14, tyr_euk_B_hominis=14, tyr_euk_G_lamblia=14, tyr_euk_P_chromatophora=14, tyr_euk_H_sapiens=14, tyr_euk_N_ceranae=14, tyr_euk_C_owczarzaki=14, tyr_euk_M_domestica=14, 
+                    his_euk_3hri_T_brucei=15, his_euk_3lc0_T_cruzi=15, his_euk_H_sapiens=15, his_euk_C_owczarzaki=15, his_euk_L_infantum=15, his_euk_G_theta=15, his_euk_E_guttata=15, his_euk_M_domestica=15, his_euk_T_vaginalis=15, his_euk_C_gigas=15, his_euk_C_parvum_Iowa_II=15, his_euk_D_discoideum=15, his_euk_D_rerio=15, his_euk_A_subglabra=15, his_euk_G_lamblia=15, his_euk_P_chromatophora=15, 
+                    met_euk_S_rosetta=16, met_euk_B_hominis=16, met_euk_B_mori=16, met_euk_C_gigas=16, met_euk_C_parvum_Iowa_II=16, met_euk_C_subellipsoidea=16, met_euk_D_discoideum=16, met_euk_E_guttata=16, met_euk_A_subglabra=16, met_euk_H_sapiens=16, met_euk_L_infantum=16, met_euk_G_lamblia=16, met_euk_G_theta=16, met_euk_P_chromatophora=16, met_euk_N_ceranae=16, met_euk_N_gruberi=16, 
+                    trp_euk_1r6u_H_sapiens=17, trp_euk_2ip1_S_cerevisiae=17, trp_euk_B_mori=17, trp_euk_L_infantum=17, trp_euk_C_gigas=17, trp_euk_M_domestica=17, trp_euk_D_discoideum=17, trp_euk_A_subglabra=17, trp_euk_G_lamblia=17, trp_euk_T_vaginalis=17, trp_euk_C_owczarzaki=17, trp_euk_C_parvum_Iowa_II=17, trp_euk_R_filosa=17, trp_euk_P_chromatophora=17, trp_euk_N_ceranae=17, trp_euk_D_rerio=17, trp_euk_E_guttata=17, trp_euk_G_theta=17, trp_euk_N_gruberi=17, 
+                    lys_euk_3bju_H_sapiens=18, lys_euk_B_mori=18, lys_euk_L_infantum=18, lys_euk_C_gigas=18, lys_euk_D_discoideum=18, lys_euk_C_owczarzaki=18, lys_euk_A_subglabra=18, lys_euk_G_lamblia=18, lys_euk_B_hominis=18, lys_euk_T_vaginalis=18, lys_euk_C_subellipsoidea=18, lys_euk_P_chromatophora=18, lys_euk_N_ceranae=18, lys_euk_G_theta=18, lys_euk_S_rosetta=18, lys_euk_N_gruberi=18, lys_euk_C_parvum_Iowa_II=18, 
+                    phe_euk_3l4g_H_sapiens=19, phe_euk_M_domestica=19, phe_euk_N_gruberi=19, phe_euk_P_chromatophora=19, phe_euk_R_filosa=19, phe_euk_S_rosetta=19, phe_euk_T_vaginalis=19, phe_euk_B_mori=19, phe_euk_C_gigas=19, phe_euk_D_discoideum=19, phe_euk_E_guttata=19, phe_euk_G_lamblia=19, phe_euk_G_theta=19, phe_euk_L_infantum=19, phe_euk_B_hominis=19
+				</trait>
+				<treeIntervals id='treeIntervals' spec='beast.evolution.tree.coalescent.TreeIntervals' tree='@Tree.t:AARS'/>
+            </distribution>
+
+        <distribution id="BirthDeath.t:AARS" spec="beast.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@birthRate2.t:AARS" relativeDeathRate="@relativeDeathRate2.t:AARS" tree="@Tree.t:AARS"/>
+            <prior id="BirthRatePrior.t:AARS" name="distribution" x="@birthRate2.t:AARS">
+                <LogNormal id="LogNormalDistributionModel.1" name="distr">
+                    <parameter id="RealParameter.6" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.7" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="GammaShapePrior.s:AARS" name="distribution" x="@gammaShape.s:AARS">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="DeathRatePrior.t:AARS" name="distribution" x="@relativeDeathRate2.t:AARS">
+                <LogNormal id="LogNormalDistributionModel.2" name="distr">
+                    <parameter id="RealParameter.8" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.9" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="ucldStdevPrior.c:AARS" name="distribution" x="@ucldStdev.c:AARS">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+    	</distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution">
+            <distribution data="@AARS" id="treeLikelihood.AARS" spec="ThreadedTreeLikelihood" tree="@Tree.t:AARS">
+                <siteModel id="SiteModel.s:AARS" spec="SiteModel">
+                    <parameter estimate="false" id="mutationRate.s:AARS" name="mutationRate" value="1.0"/>
+                    <parameter estimate="false" id="gammaShape.s:AARS" name="shape" value="1.0"/>
+                    <parameter estimate="false" id="proportionInvariant.s:AARS" lower="0.0" name="proportionInvariant" upper="1.0" value="0.0"/>
+
+                    <substModel id="substmodel" spec="TriStateAARSSubstitutionModel" tree="@Tree.t:AARS">
+                        <trait idref="TraitSet1"/>
+						<defaultModel spec='GeneralSubstitutionModel' rates='
+	0.18727491	2.0069284065	0.1526315789	0.5886402754	1.8004640371	0.3144104803	0.2330935252	1.3885245902	0.2522727273	7.8164948454	0.3024523161	1	0.3144475921	0.1969309463	2.0564102564	0.118852459	0.3680555556	0.3048387097	0.6510416667
+0.1875881523		1.4168591224	0.8666666667	0.5679862306	0.0614849188	0.2423580786	1.3424460432	0.2262295082	0.5840909091	0.0309278351	0.3297002725	0.3056994819	0.104815864	1.1253196931	0.1743589744	0.25	0.3333333333	0.3741935484	0.0494791667
+2.0056417489	1.4153661465		0.7403508772	1.5817555938	0.3979118329	1.4366812227	3.3712230216	2.1213114754	0.5522727273	0.193814433	0.9100817439	1.0259067358	0.2407932011	0.5089514066	0.8923076923	0.3155737705	0.1111111111	0.9064516129	0.2109375
+0.1523272214	0.8655462185	0.7390300231		6.1703958692	0.0846867749	0.423580786	1.071942446	0.3754098361	0.1477272727	0.0391752577	0.6185286104	0.0310880829	0.3257790368	5.4271099744	0.1025641026	0.9303278689	0.1319444444	0.4806451613	0.046875
+0.5881523272	0.5678271309	1.5831408776	6.1789473684		0.1542923434	0.6812227074	0.7050359712	0.8229508197	0.4386363636	0.1278350515	5.4741144414	0.0207253886	0.1954674221	0.9462915601	0.3128205128	0.5696721311	0.1597222222	2.585483871	0.0807291667
+1.7997179126	0.0612244898	0.3983833718	0.0842105263	0.1549053356		0.4148471616	0.345323741	0.3262295082	0.4977272727	3.1690721649	0.8692098093	0.3834196891	0.3994334278	0.1304347826	4.8564102564	0.5	0.6666666667	0.2580645161	2.1171875
+0.3145275035	0.243697479	1.4387990762	0.4245614035	0.6815834768	0.4153132251		1.6143884892	0.7950819672	0.6795454545	0.0989690722	0.9346049046	0.1088082902	0.2152974504	0.1943734015	0.1692307692	0.6967213115	0.1388888889	0.5564516129	0.1614583333
+0.2327221439	1.3409363745	3.3718244804	1.0719298246	0.7039586919	0.3445475638	1.6113537118		4.3786885246	1.2227272727	0.3195876289	1.029972752	1.4093264249	0.7875354108	3.9744245524	0.4923076923	0.7418032787	0.5208333333	0.9677419355	0.546875
+1.3878702398	0.2256902761	2.1212471132	0.3754385965	0.8227194492	0.3271461717	0.7947598253	4.3798561151		0.5545454545	1.4577319588	0.8583106267	0.5129533679	0.2917847025	2.0306905371	1.5179487179	0.4754098361	0.1111111111	1.3870967742	0.171875
+0.2524682652	0.5846338535	0.5519630485	0.1473684211	0.4388984509	0.4976798144	0.6790393013	1.2244604317	0.5540983607		0.187628866	3.038147139	0.5284974093	0.3824362606	0.6342710997	0.6820512821	2.1393442623	1.1597222222	5.3532258065	0.1015625
+7.8208744711	0.0300120048	0.1928406467	0.0385964912	0.1273666093	3.1716937355	0.1004366812	0.3194244604	1.4590163934	0.1863636364		0.1144414169	0.170984456	0.4192634561	0.5549872123	4.2564102564	0.1393442623	0.2152777778	0.3241935484	1.0598958333
+0.3018335684	0.3301320528	0.9087759815	0.6175438596	5.4664371773	0.8700696056	0.9323144105	1.0287769784	0.8573770492	3.0340909091	0.1134020619		0.0984455959	0.2266288952	1.5421994885	1.5435897436	4.2991803279	0.2152777778	3.8967741935	0.0989583333
+1.0014104372	0.306122449	1.0277136259	0.0298245614	0.0206540448	0.3839907193	0.1091703057	1.4086330935	0.5131147541	0.5272727273	0.1690721649	0.0980926431		0.5439093484	0.2659846547	0.3897435897	0.25	0.7152777778	0.0741935484	0.3984375
+0.3145275035	0.1032412965	0.2413394919	0.3263157895	0.1962134251	0.3990719258	0.2161572052	0.7870503597	0.2918032787	0.3818181818	0.4206185567	0.2288828338	0.5440414508		1.0869565217	0.4307692308	3.8770491803	2.4861111111	0.1338709677	6.4609375
+0.1960507757	1.12484994	0.5103926097	5.4333333333	0.9466437177	0.1310904872	0.1943231441	3.9755395683	2.031147541	0.6340909091	0.5546391753	1.5449591281	0.2642487047	1.0849858357		0.2	3.9631147541	0.0694444444	3.0129032258	0.0963541667
+2.0578279267	0.1740696279	0.8937644342	0.1035087719	0.3149741824	4.8549883991	0.1703056769	0.4935251799	1.5163934426	0.6818181818	4.2536082474	1.5476839237	0.3886010363	0.4277620397	0.1969309463		0.4057377049	0.5138888889	0.935483871	1.1927083333
+0.1184767278	0.24969988	0.317551963	0.9315789474	0.569707401	0.5	0.6965065502	0.7410071942	0.4737704918	2.1363636364	0.1381443299	4.2970027248	0.2487046632	3.8696883853	3.9539641944	0.4051282051		0.2638888889	0.8903225806	0.6796875
+0.365303244	0.337334934	0.1131639723	0.1298245614	0.156626506	0.6658932715	0.1397379913	0.5237410072	0.1114754098	1.1636363636	0.212371134	0.2152588556	0.7150259067	2.4844192635	0.0716112532	0.5179487179	0.262295082		0.1370967742	1.53125
+0.3060648801	0.3733493397	0.9064665127	0.4807017544	2.5817555938	0.2575406032	0.556768559	0.9669064748	1.3868852459	5.3477272727	0.3237113402	3.8991825613	0.0725388601	0.1331444759	3.010230179	0.9333333333	0.893442623	0.1388888889		0.0885416667
+0.6502115656	0.0504201681	0.2101616628	0.0473684211	0.0808950086	2.1148491879	0.1615720524	0.5467625899	0.1721311475	0.1022727273	1.0577319588	0.1008174387	0.3989637306	6.4504249292	0.0971867008	1.1897435897	0.6803278689	1.5277777778	0.0887096774	
+'>
+							<frequencies spec='Frequencies' frequencies='0.0709	0.0833	0.0866	0.057	0.0581	0.0862	0.0458	0.0695	0.061	0.044	0.0485	0.0367	0.0193	0.0353	0.0391	0.0195	0.0244	0.0144	0.062	0.0384
+'/>
+						</defaultModel>
+                        <frequencies estimate="true" id="AARSFrequencies0" spec="AARSFrequencies">
+                            <parameter dimension="1" estimate="true" id="RealParameter0" name="frequencies" value="1 0 0"/>
+                        </frequencies>
+                    </substModel>
+                </siteModel>
+				<branchRateModel spec='beast.evolution.branchratemodel.UCRelaxedClockModel' id="RelaxedClock.c:AARS" tree='@Tree.t:AARS'>
+					<parameter name='clock.rate' id='ucldMean.c:AARS' value='1.0'/>
+				    <distr id='LogNormalDistributionModel.c:AARS' name='distr' spec="beast.math.distributions.LogNormalDistributionModel" meanInRealSpace='true'>
+				        <parameter name='M' value="1.0" estimate='false' lower='0' upper='1'/>
+				        <parameter name='S' id='ucldStdev.c:AARS' value="0.5" lower="0" upper="1" estimate='true'/>
+				    </distr>
+				    <rateCategories spec='parameter.IntegerParameter' id='rateCategories.c:AARS' value="1" dimension='10' estimate='true'/>
+				</branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id='ucldStdevScaler.c:AARS' spec='ScaleOperator' scaleAll='false' scaleFactor="0.5" weight="3" parameter="@ucldStdev.c:AARS"/>
+    <operator id="CategoriesRandomWalk.c:AARS" spec="IntRandomWalkOperator" windowSize='1' weight="10" parameter="@rateCategories.c:AARS"/>
+	<operator id='CategoriesSwapOperator.c:AARS' spec='SwapOperator' howMany="1" weight="10" intparameter='@rateCategories.c:AARS'/>
+	<operator id='CategoriesUniform.c:AARS' spec='UniformOperator' weight="10" parameter='@rateCategories.c:AARS'/>
+
+    <operator id="BirthDeathTreeScaler.t:AARS" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:AARS" weight="3.0"/>
+
+    <operator id="BirthDeathTreeRootScaler.t:AARS" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:AARS" weight="3.0"/>
+
+    <operator id="BirthDeathUniformOperator.t:AARS" spec="Uniform" tree="@Tree.t:AARS" weight="30.0"/>
+
+    <operator id="BirthDeathSubtreeSlide.t:AARS" spec="SubtreeSlide" tree="@Tree.t:AARS" weight="15.0"/>
+
+    <operator id="BirthDeathNarrow.t:AARS" spec="Exchange" tree="@Tree.t:AARS" weight="15.0"/>
+
+    <operator id="BirthDeathWide.t:AARS" spec="Exchange" isNarrow="false" tree="@Tree.t:AARS" weight="3.0"/>
+
+    <operator id="BirthDeathWilsonBalding.t:AARS" spec="WilsonBalding" tree="@Tree.t:AARS" weight="3.0"/>
+
+    <operator id="BirthRateScaler.t:AARS" spec="ScaleOperator" parameter="@birthRate2.t:AARS" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="DeathRateScaler.t:AARS" spec="ScaleOperator" parameter="@relativeDeathRate2.t:AARS" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id='RestrictedSubtreeSlide' spec='RestrictedSubtreeSlide' weight='60' tree='@Tree.t:AARS'>
+		<clade idref='V'/>
+		<clade idref='G'/>
+		<clade idref='A'/>
+		<clade idref='D'/>
+		<clade idref='P'/>
+		<clade idref='E'/>
+		<clade idref='S'/>
+		<clade idref='L'/>
+		<clade idref='R'/>
+		<clade idref='T'/>
+		<clade idref='I'/>
+		<clade idref='Q'/>
+		<clade idref='N'/>
+		<clade idref='C'/>
+		<clade idref='Y'/>
+		<clade idref='H'/>
+		<clade idref='M'/>
+		<clade idref='W'/>
+		<clade idref='K'/>
+		<clade idref='F'/>
+	</operator>
+
+
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_Euk.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.AARS"/>
+        <log id="TreeHeight.t:AARS" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:AARS"/>
+        <log idref="gammaShape.s:AARS"/>
+        <log idref="mutationRate.s:AARS"/>
+        <log idref="ucldStdev.c:AARS"/>
+		<log id='rate.c:AARS' spec='beast.evolution.branchratemodel.RateStatistic' tree='@Tree.t:AARS' branchratemodel='@RelaxedClock.c:AARS'/>
+        <log idref="BirthDeath.t:AARS"/>
+        <log idref="birthRate2.t:AARS"/>
+        <log idref="relativeDeathRate2.t:AARS"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log arg="@posterior" id="ESS.0" spec="util.ESS"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_Euk.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:AARS" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS" branchratemodel="@RelaxedClock.c:AARS"/>
+    </logger>
+    
+        <init estimate="false" id="TreeParser.t:AARS" initial="@Tree.t:AARS" spec="beast.util.TreeParser" taxa="@AARS"
+		IsLabelledNewick="true"
+    	newick='((((((ile_euk_B_mori:0.1, ile_euk_C_gigas:0.1, ile_euk_D_discoideum:0.1, ile_euk_C_owczarzaki:0.1, ile_euk_C_subellipsoidea:0.1, ile_euk_L_infantum:0.1, ile_euk_S_rosetta:0.1, ile_euk_A_subglabra:0.1, ile_euk_G_lamblia:0.1, ile_euk_T_vaginalis:0.1, ile_euk_B_hominis:0.1, ile_euk_E_guttata:0.1, ile_euk_P_chromatophora:0.1, ile_euk_H_sapiens:0.1, ile_euk_N_ceranae:0.1, ile_euk_G_theta:0.1, ile_euk_N_gruberi:0.1, ile_euk_C_parvum_Iowa_II:0.1):100, (leu_euk_L_infantum:0.1, leu_euk_G_theta:0.1, leu_euk_H_sapiens:0.1, leu_euk_B_taurus:0.1, leu_euk_C_gigas:0.1, leu_euk_C_owczarzaki:0.1, leu_euk_C_subellipsoidea:0.1, leu_euk_A_subglabra:0.1, leu_euk_G_lamblia:0.1, leu_euk_B_hominis:0.1, leu_euk_T_vaginalis:0.1, leu_euk_P_chromatophora:0.1, leu_euk_N_ceranae:0.1, leu_euk_S_rosetta:0.1, leu_euk_E_guttata:0.1):100):100, ((val_euk_L_infantum:0.1, val_euk_N_gruberi:0.1, val_euk_N_ceranae:0.1, val_euk_M_domestica:0.1, val_euk_G_lamblia:0.1, val_euk_E_guttata:0.1, val_euk_D_rerio:0.1, val_euk_D_discoideum:0.1, val_euk_C_owczarzaki:0.1, val_euk_C_gigas:0.1, val_euk_B_hominis:0.1, val_euk_S_rosetta:0.1, val_euk_C_subellipsoidea:0.1, val_euk_P_chromatophora:0.1, val_euk_C_parvum_Iowa_II:0.1):100, (met_euk_S_rosetta:0.1, met_euk_B_hominis:0.1, met_euk_B_mori:0.1, met_euk_C_gigas:0.1, met_euk_C_parvum_Iowa_II:0.1, met_euk_C_subellipsoidea:0.1, met_euk_D_discoideum:0.1, met_euk_E_guttata:0.1, met_euk_A_subglabra:0.1, met_euk_H_sapiens:0.1, met_euk_L_infantum:0.1, met_euk_G_lamblia:0.1, met_euk_G_theta:0.1, met_euk_P_chromatophora:0.1, met_euk_N_ceranae:0.1, met_euk_N_gruberi:0.1):100):100):100, (((glu_euk_A_subglabra:0.1, glu_euk_B_hominis:0.1, glu_euk_B_mori:0.1, glu_euk_C_parvum_Iowa_II:0.1, glu_euk_D_rerio:0.1, glu_euk_E_guttata:0.1, glu_euk_L_infantum:0.1, glu_euk_N_ceranae:0.1, glu_euk_T_vaginalis:0.1, glu_euk_P_chromatophora:0.1, glu_euk_R_rosetta:0.1):100, (gln_euk_L_infantum:0.1, gln_euk_C_gigas:0.1, gln_euk_A_subglabra:0.1, gln_euk_C_parvum_Iowa_II:0.1, gln_euk_G_lamblia:0.1, gln_euk_T_vaginalis:0.1, gln_euk_C_subellipsoidea:0.1, gln_euk_H_sapiens:0.1, gln_euk_N_ceranae:0.1, gln_euk_D_rerio:0.1, gln_euk_C_owczarzaki:0.1, gln_euk_R_rosetta:0.1, gln_euk_M_domestica:0.1, gln_euk_G_theta:0.1, gln_euk_E_guttata:0.1):100):100, ((cys_euk_C_parvum_Iowa_II:0.1, cys_euk_D_discoideum:0.1, cys_euk_E_guttata:0.1, cys_euk_G_lamblia:0.1, cys_euk_G_theta:0.1, cys_euk_L_infantum:0.1, cys_euk_B_hominis:0.1, cys_euk_N_gruberi:0.1, cys_euk_P_bivittatus:0.1, cys_euk_P_chromatophora:0.1, cys_euk_S_rosetta:0.1, cys_euk_T_vaginalis:0.1, cys_euk_C_gigas:0.1, cys_euk_C_owczarzaki:0.1, cys_euk_N_ceranae:0.1):100, (arg_euk_1f7u_S_cerevisiae:0.1, arg_euk_B_mori:0.1, arg_euk_P_euphratica:0.1, arg_euk_D_discoideum:0.1, arg_euk_G_theta:0.1, arg_euk_A_subglabra:0.1, arg_euk_G_lamblia:0.1, arg_euk_C_subellipsoidea:0.1, arg_euk_L_infantum:0.1, arg_euk_P_chromatophora:0.1, arg_euk_N_ceranae:0.1, arg_euk_D_rerio:0.1, arg_euk_C_owczarzaki:0.1, arg_euk_S_rosetta:0.1, arg_euk_M_domestica:0.1):100):100):100):100, ((tyr_euk_2dlc_S_cerevisiae:0.1, tyr_euk_L_infantum:0.1, tyr_euk_C_gigas:0.1, tyr_euk_C_parvum_Iowa_II:0.1, tyr_euk_C_subellipsoidea:0.1, tyr_euk_D_discoideum:0.1, tyr_euk_G_theta:0.1, tyr_euk_N_gruberi:0.1, tyr_euk_S_rosetta:0.1, tyr_euk_A_subglabra:0.1, tyr_euk_B_hominis:0.1, tyr_euk_G_lamblia:0.1, tyr_euk_P_chromatophora:0.1, tyr_euk_H_sapiens:0.1, tyr_euk_N_ceranae:0.1, tyr_euk_C_owczarzaki:0.1, tyr_euk_M_domestica:0.1):100, (trp_euk_1r6u_H_sapiens:0.1, trp_euk_2ip1_S_cerevisiae:0.1, trp_euk_B_mori:0.1, trp_euk_L_infantum:0.1, trp_euk_C_gigas:0.1, trp_euk_M_domestica:0.1, trp_euk_D_discoideum:0.1, trp_euk_A_subglabra:0.1, trp_euk_G_lamblia:0.1, trp_euk_T_vaginalis:0.1, trp_euk_C_owczarzaki:0.1, trp_euk_C_parvum_Iowa_II:0.1, trp_euk_R_filosa:0.1, trp_euk_P_chromatophora:0.1, trp_euk_N_ceranae:0.1, trp_euk_D_rerio:0.1, trp_euk_E_guttata:0.1, trp_euk_G_theta:0.1, trp_euk_N_gruberi:0.1):100):300):300, (((((asn_euk_3m4p_E_histolytica:0.1, asn_euk_G_lamblia:0.1, asn_euk_G_theta:0.1, asn_euk_H_sapiens:0.1, asn_euk_L_infantum:0.1, asn_euk_N_ceranae:0.1, asn_euk_N_gruberi:0.1, asn_euk_T_vaginalis:0.1, asn_euk_A_subglabra:0.1, asn_euk_B_mori:0.1, asn_euk_C_gigas:0.1, asn_euk_C_owczarzaki:0.1, asn_euk_C_parvum_Iowa_II:0.1, asn_euk_D_discoideum:0.1, asn_euk_E_guttata:0.1, asn_euk_S_rosetta:0.1, asn_euk_C_subellipsoidea:0.1):100, (asp_euk_3i7f_E_histolytica:0.1, asp_euk_E_guttata:0.1, asp_euk_G_lamblia:0.1, asp_euk_L_infantum:0.1, asp_euk_S_rosetta:0.1, asp_euk_A_subglabra:0.1, asp_euk_B_hominis:0.1, asp_euk_B_mori:0.1, asp_euk_C_gigas:0.1, asp_euk_C_owczarzaki:0.1, asp_euk_C_parvum_Iowa_II:0.1, asp_euk_D_discoideum:0.1, asp_euk_C_subellipsoidea:0.1, asp_euk_P_chromatophora:0.1, asp_euk_N_ceranae:0.1, asp_euk_G_theta:0.1, asp_euk_N_gruberi:0.1):100):100, ((ser_euk_1wleb_B_taurus:0.1, ser_euk_B_mori:0.1, ser_euk_C_owczarzaki:0.1, ser_euk_L_infantum:0.1, ser_euk_T_vaginalis:0.1, ser_euk_C_gigas:0.1, ser_euk_D_discoideum:0.1, ser_euk_A_subglabra:0.1, ser_euk_H_sapiens:0.1, ser_euk_S_rosetta:0.1, ser_euk_G_lamblia:0.1, ser_euk_C_subellipsoidea:0.1, ser_euk_P_chromatophora:0.1, ser_euk_N_ceranae:0.1, ser_euk_G_theta:0.1, ser_euk_E_guttata:0.1, ser_euk_N_gruberi:0.1, ser_euk_C_parvum_Iowa_II:0.1):100, (thr_euk_E_guttata:0.1, thr_euk_G_lamblia:0.1, thr_euk_H_sapiens:0.1, thr_euk_N_gruberi:0.1, thr_euk_R_filosa:0.1, thr_euk_T_vaginalis:0.1, thr_euk_A_subglabra:0.1, thr_euk_B_mori:0.1, thr_euk_C_gigas:0.1, thr_euk_C_owczarzaki:0.1, thr_euk_D_discoideum:0.1, thr_euk_L_infantum:0.1, thr_euk_C_subellipsoidea:0.1, thr_euk_P_chromatophora:0.1, thr_euk_N_ceranae:0.1, thr_euk_S_rosetta:0.1, thr_euk_G_theta:0.1):100):100):100, (((pro_euk_3ial_G_lamblia:0.1, pro_euk_D_discoideum:0.1, pro_euk_E_guttata:0.1, pro_euk_L_infantum:0.1, pro_euk_N_gruberi:0.1, pro_euk_R_filosa:0.1, pro_euk_T_vaginalis:0.1, pro_euk_A_subglabra:0.1, pro_euk_B_hominis:0.1, pro_euk_C_parvum_Iowa_II:0.1, pro_euk_C_subellipsoidea:0.1, pro_euk_P_chromatophora:0.1, pro_euk_N_ceranae:0.1, pro_euk_C_owczarzaki:0.1, pro_euk_S_rosetta:0.1, pro_euk_G_theta:0.1):100, (gly_euk_2zt5_H_sapiens:0.1, gly_euk_S_rosetta:0.1, gly_euk_B_hominis:0.1, gly_euk_B_mori:0.1, gly_euk_C_gigas:0.1, gly_euk_C_owczarzaki:0.1, gly_euk_D_discoideum:0.1, gly_euk_G_lamblia:0.1, gly_euk_G_theta:0.1, gly_euk_L_infantum:0.1, gly_euk_N_ceranae:0.1, gly_euk_N_gruberi:0.1, gly_euk_A_subglabra:0.1, gly_euk_C_parvum_Iowa_II:0.1, gly_euk_C_subellipsoidea:0.1):100):100, ((his_euk_3hri_T_brucei:0.1, his_euk_3lc0_T_cruzi:0.1, his_euk_H_sapiens:0.1, his_euk_C_owczarzaki:0.1, his_euk_L_infantum:0.1, his_euk_G_theta:0.1, his_euk_E_guttata:0.1, his_euk_M_domestica:0.1, his_euk_T_vaginalis:0.1, his_euk_C_gigas:0.1, his_euk_C_parvum_Iowa_II:0.1, his_euk_D_discoideum:0.1, his_euk_D_rerio:0.1, his_euk_A_subglabra:0.1, his_euk_G_lamblia:0.1, his_euk_P_chromatophora:0.1):100, (lys_euk_3bju_H_sapiens:0.1, lys_euk_B_mori:0.1, lys_euk_L_infantum:0.1, lys_euk_C_gigas:0.1, lys_euk_D_discoideum:0.1, lys_euk_C_owczarzaki:0.1, lys_euk_A_subglabra:0.1, lys_euk_G_lamblia:0.1, lys_euk_B_hominis:0.1, lys_euk_T_vaginalis:0.1, lys_euk_C_subellipsoidea:0.1, lys_euk_P_chromatophora:0.1, lys_euk_N_ceranae:0.1, lys_euk_G_theta:0.1, lys_euk_S_rosetta:0.1, lys_euk_N_gruberi:0.1, lys_euk_C_parvum_Iowa_II:0.1):100):100):100):100, ((phe_euk_3l4g_H_sapiens:0.1, phe_euk_M_domestica:0.1, phe_euk_N_gruberi:0.1, phe_euk_P_chromatophora:0.1, phe_euk_R_filosa:0.1, phe_euk_S_rosetta:0.1, phe_euk_T_vaginalis:0.1, phe_euk_B_mori:0.1, phe_euk_C_gigas:0.1, phe_euk_D_discoideum:0.1, phe_euk_E_guttata:0.1, phe_euk_G_lamblia:0.1, phe_euk_G_theta:0.1, phe_euk_L_infantum:0.1, phe_euk_B_hominis:0.1):100, (ala_euk_B_mori:0.1, ala_euk_L_infantum:0.1, ala_euk_C_gigas:0.1, ala_euk_D_discoideum:0.1, ala_euk_B_hominis:0.1, ala_euk_C_subellipsoidea:0.1, ala_euk_P_chromatophora:0.1, ala_euk_N_ceranae:0.1, ala_euk_D_rerio:0.1, ala_euk_C_owczarzaki:0.1, ala_euk_S_rosetta:0.1, ala_euk_G_theta:0.1, ala_euk_E_guttata:0.1, ala_euk_N_gruberi:0.1, ala_euk_C_parvum_Iowa_II:0.1):100):300):300):300;'/>
+</run>
+
+</beast>

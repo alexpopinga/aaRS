@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" version="2.0">
+
+
+<data id="AARS" name="alignment">
+	<userDataType spec='beast.evolution.datatype.TwentyState' symbolOrder='VGADPESLRTIQNCYHMWKF'/>
+                    <sequence id="seq_arg_bact_1iq0_T_thermophilus" taxon="arg_bact_1iq0_T_thermophilus" totalcount="20" value="LVEHSVNPNKELHVGHLRNIALGDAIARILVLNYIDDTGNRILLAQMATMHALDLLVWESDTYYAKDIAFQFINVVDVRQSHPQALVRAALALAAHHLAY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_3fnr_C_jejuni" taxon="arg_bact_3fnr_C_jejuni" totalcount="20" value="LLEYSANPTGPLHIGHARGAVFGDTLTRLNTEYYVNDAGDKMLVLIKQNLEQADSYVSERSTYLAADIVYHKINIWGADHHGYIPRMKAAMEFLLEIILA---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_R_marinus" taxon="arg_bact_R_marinus" totalcount="20" value="IVEYSANPTGPLTVGHGRNAVLGDTIANLTREYYYNDAGKVIFEDIRRTLARLDSYFNEHTTYRLPDIAYHIVDVFGADHIATYPDVLRALEVLVDVVIY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_E_coli" taxon="arg_bact_E_coli" totalcount="20" value="VVDYAPNVAKEMHVGHLRSTIIGDAAVRTIRANHVGDWGDITMTQNQITYDRLNDVMGESLLYTTTDIACAKLYYIDSRQHQHLMQAWAIVRKALEHHMF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_C_aggregans" taxon="arg_bact_C_aggregans" totalcount="20" value="VIDYSPNIAKRMHVGHIRSTIIGQALVHIIGDNHLGDWGDLSLRAAQRNYDRLGYAYGESFVYMTRDIATIKIYVVDARQELHFRQLFAIVRAMLVHVPF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_P_mikurensis" taxon="arg_bact_P_mikurensis" totalcount="20" value="VVDYSPNLAKEMHVGHLRSSVIGDALCRVIRQNHIGDWGGESLRHMNEVFARLGDDKPESAGYATTDLAAAAVYVVDSRQREHFQKFFAAARDAMDHAAF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_S_elongatus" taxon="arg_bact_S_elongatus" totalcount="20" value="IVDFSPNIAKEMHVGHLRSTIIGDSIARVLRLNHVGDWGDQSRREFQKIYDRLDEERGESFNYATTDLAALRIYVTDSGQANHFAQVFQVAQRAIEHVPF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_B_fragilis" taxon="arg_bact_B_fragilis" totalcount="20" value="MIEYSPNTNKPLHLGHVRNNLLGNALANIVKTNIVNDRGNWVYAGFDETYRKMDKIYYESNVYMTQDIGTAKIYVVGNEQNYHFQVLSILLDKLLVHFSY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_H_aurantiacus" taxon="arg_bact_H_aurantiacus" totalcount="20" value="VVDYSPNIAKRMRVDHIRSTMIGQAIVNIIRMNHWGDYDDLSLTANQANYRRLGVQHCESFLYITRDIAAIKIYVVKQAQELHFRQAFTISKTLLSHVAC---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_B_thailandensis" taxon="arg_bact_B_thailandensis" totalcount="20" value="LLEFSANPTGPLHVGHGRQAALGDALANVHREFYYNDAGAYLRREQDMDLKAFDQYYLESSTYFVPDVAYHVINIQGSDHHGTIARVRAGLQGIPDYVLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_B_licheniformis" taxon="arg_bact_B_licheniformis" totalcount="20" value="QVEFSANPTGNLHLGHARGAAVGDSLCNVSREYYINDAGKYELGKLREDLENFDVWYSETSTYLLPDIAYHKINVWGADHHGYIPRMKAAIEALLEVEII---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_T_maritima" taxon="arg_bact_T_maritima" totalcount="20" value="QFEYSANPTGPFTVGHGRQIIIGDVLSEVTREMYINDAGNRILSSMKDTLEKIDVYFSEKSTYFMTDIAYHYYDIWGSDHHGHIPRMKAAMKALFNVILH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_A_aeolicus" taxon="arg_bact_A_aeolicus" totalcount="20" value="QLEYSANPTGPLHLGHGRGAVVGDTLARLTREYYINDAGDLMMKEIREDLSLMDVWFSERSTYFASDIAYHYINVWGADHHGYIPRVKAALKMLLEILLV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_G_stearothermophilus" taxon="arg_bact_G_stearothermophilus" totalcount="20" value="QVEFSANPTGDLHLGHARGAAVGDSLCNITREYYINDAGRYELDKIKQDLAAFDVWYSETSTYLLPDIAYHQINVWGADHHGYIPRMKAAIAALLEVEII---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_S_aureus" taxon="arg_bact_S_aureus" totalcount="20" value="LLEYSANPTGDLHIGHARNAAVGDALANITREYYINDAGEYEMAKLKNDLAEFDNWFSETSTYFLPDIAYHFIDLFGADHHGYINRLKASLETFLEIQIM---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_G_obscuriglobus" taxon="arg_bact_G_obscuriglobus" totalcount="20" value="VIDLGPNVAKPLHVGHLRSTIIGDALVRIIGDNHLGDWGPACMEMLRPIYERLDHALGESFTYTTTDLATIKLYVVGAPQALHFKTVFAQAKRWFQHVQF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_C_thermalis" taxon="arg_bact_C_thermalis" totalcount="20" value="IVDYSPNIAKEMHVGHLRPAVIGDCLSRIVRLSHVGDWGQLSSRAYRVIYDLMGIERGESFNYATTDLAAIRIYPVGAEQTNHFAQIFQVGKRAFFHAPF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_B_burgdorferi" taxon="arg_bact_B_burgdorferi" totalcount="20" value="ILEFSPNTNKPLHVGHLRNDVIGESLSRITKINLINDRGKWAIEGIKETYEITNKIYLESEIYLTQDLGNIAIYVVGSEQIQHFKSLFFVAEKLLIHLSH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_C_A_asiaticus" taxon="arg_bact_C_A_asiaticus" totalcount="20" value="VVEYSPNTNKPLHLGHLRNNFLGHAVSEIYKVNLVNDRGGWVYDGFDITYQKLDKVYYESQVYITQDLGTADVYVVGNEQDYHFEVLAKIMARLLYHLSY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_bact_D_radiodurans" taxon="arg_bact_D_radiodurans" totalcount="20" value="VIEHSVNPNKELHVGHLRNVVLGDSMARIEVQNYIDDTGEQTVKAQLQTCFRLDLLNWESDMYAAKDIGYQFINVIDSRQDHPQTVVRSALGVASIHLSY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_1li5_E_coli" taxon="cys_bact_1li5_E_coli" totalcount="20" value="GMYVGITVYDLCHIGHGRTFVAFDVVARYKYVRNITDIDDRMIAEMHKDFDALDMEPRATHGWHIECSAMNCIHGGGSDLMFPHENEIAQSTCAVYWMHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_3c8z_M_smegmatis" taxon="cys_bact_3c8z_M_smegmatis" totalcount="20" value="TMYVGITPYDATHLGHAATYLTFDLVHRLQYVQNVTDVDDRETQLFREDMAALHDYVAATDGWHVECSAIALIQGGGSDLIFPHEYSAAHAESVAHYVHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_R_marinus" taxon="cys_bact_R_marinus" totalcount="20" value="RLYAGPTVYTYAHIGNFRSFLTADLIVRVVYVCNITDVGRYYTQAFLEDWQALDVRPRATEGWHIECSVMSMLHLGGEDLIFPHECEIAQAESLAYWVHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_H_aurantiacus" taxon="cys_bact_H_aurantiacus" totalcount="20" value="RMYVGVTPYDTTHMGHARTYVVYDTIRRYLYVQNVTDIDRQETERFLRDMDALNHYVKATDGWHIECTAMVLIHGGGSDLQFPHACELAQAENFVAWSHI---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_C_aggregans" taxon="cys_bact_C_aggregans" totalcount="20" value="TLYVGVTPYDTTHMGHARTFIVFDVLVRYTYCQNITDVDERQIAQLRADCADLTFAPRVSEGWHIECSAMSIIHGGGADLIFPHSCEIAQSESAAIWMHV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_S_elongatus" taxon="cys_bact_S_elongatus" totalcount="20" value="SLYCGVTVYDYCHLGHARSYIVWDTLRRYRYVQNFTDIDDRYTQAYFEDMARLDDYPRATHGWHIECSAMVRIHVGGADLVFPHENEIAQSEAVAYWLHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_T_maritima" taxon="cys_bact_T_maritima" totalcount="20" value="RMYVGPTVYDLIHVGNARPALVFDVFRRYIMVQNFTDIDDTFIAEYWRDAHALNFHPRTTDGWHIECTVMSVIHAGGEDLVFPHENEKAQAEALAYWMHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_T_thermophilus" taxon="cys_bact_T_thermophilus" totalcount="20" value="GIYVGPTVYADPHLGHARGPVVYDVLRRYRFVSNITDVEEKYTWSYFDAMQALSIAPRASGGWHIECTAMSLLHAGGIDLQFPHECEIAQAEAAAHWMHH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_B_fragilis" taxon="cys_bact_B_fragilis" totalcount="20" value="GMYVGPTVYGDAHLGHARPAITFDVLFRYRYVRNITDVEQYYLNRYHKAMEALSIEPHASGGWHAECTAMGRIHGGGMDLIFPHECEIAQSVASVYWMHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_B_licheniformis" taxon="cys_bact_B_licheniformis" totalcount="20" value="KMYVGPTVYNYIHIGNARPAIVYDTVRKYQYVSNFTDVDERFIKAYFEDVGSLDCHPRVTEGWHIECSAMAKIHAGGQDLTFPHENEIAQSEALAYWLHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_B_thailandensis" taxon="cys_bact_B_thailandensis" totalcount="20" value="RMYVGITVYDYCHIGHARMVVVFDIVQRWTYVRNITDIDRRFIDAMNADFDALDIEPRATDGWHIECSAMGCIHGGGQDLQFPHENEIAQSEGAVYWMHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_C_jejuni" taxon="cys_bact_C_jejuni" totalcount="20" value="SIYLGPTVYDDAHLGHARSSVCFDLLRRVKFARNYTDIDEFYIKSYEEDMRVLDFKPRATHGWHTECVAMIDIHAGGIDLLFPHENEAAQCRCGAIWLHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_C_thermalis" taxon="cys_bact_C_thermalis" totalcount="20" value="KMYYGVTVYDYCHLGHARACIIWDVVRRYTYIQNFTDIDERYIQAYFEDMTRLDAYPRATHGWHIECSAMVRIHAGGADLIFPHENEIAQSEAVSYWMHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_A_aeolicus" taxon="cys_bact_A_aeolicus" totalcount="20" value="LIYTGVTVYDDSHVGHGRSLIVFDVFRRFKFVRNFTDVDDRYIARYYVDMENIDVEPRVTEGWHTECVAMVFIHGGGLDLVFPHENEIAQAEAIAYWMHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_D_radiodurans" taxon="cys_bact_D_radiodurans" totalcount="20" value="GMYLGPTVYSDAHLGHAKKEVAFDVIRRARYVSNITDVEDKYFWSFFRDMDALSINPRATGGWHIECSAMSLIHGGGLDLQFPHEAEIAQAEAAAYWMHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_P_mikurensis" taxon="cys_bact_P_mikurensis" totalcount="20" value="SMYSGPTVYDFAHIGNFRTFLFADVLRRFHHVMNLTDVGAFYIAAFKEDAAKLDGLPRATEGWHIECSAMARIHTGGEDNIFPHECEIAQSRCGALWLHS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_S_aureus" taxon="cys_bact_S_aureus" totalcount="20" value="KMYVGPTVYNYIHIGNARPAINYDVVRRYEYVSNFTDVDEKYIAAFHEDVGALTSNPRVMDGWHIECSVMAFIHAGGSDLQFPHENEIAQSEAHAYWMHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_G_obscuriglobus" taxon="cys_bact_G_obscuriglobus" totalcount="20" value="TMYVGPTVYKPSHIGHMVGPVIFDTVKRYKWIVNITDVDAKMTEDYFACLKSLDHFPKATDGWHIECTCMAIIHGGGLDLQFPHENELAQSESWAIWMHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_M_mobile" taxon="cys_bact_M_mobile" totalcount="20" value="YIYVGPTVYNKVHIGNMKPIMTFDLFLRGLFLHNLTDIDELYSDFYLKMLDEYDYIEKVTDGWHTECSALINIHGGGIDLIFPNENENIQNIALAKWLHV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_B_burgdorferi" taxon="cys_bact_B_burgdorferi" totalcount="20" value="KVYAGPTVYNYAHIGNFRTYIFGDLLIKTNYAMNITDIGEFFTEAFFNDCRKLDKVLVASKSWHLECAAMNLIHLGGVDHIGVHINEIAIAECFCVFVHG---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_bact_C_A_asiaticus" taxon="cys_bact_C_A_asiaticus" totalcount="20" value="GMYVGPTVYGPAHLGHARCYVTFDVIQRYRYVRNITDVGQRYMNSFHRDMALLNIEPQASGGWHIECTALATIHGGGMDLLFPHECELAQSQAAAYWLHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_bact_1qtq_E_coli" taxon="gln_bact_1qtq_E_coli" totalcount="20" value="HTRFPPEPNGYLHIGHAKSICLNFGIAQDQCNLRFDDTNIEYVESIKNDVEWLSNVRYSSDMYDFTHCISDAHSLCTLEFQDNRRLYDWVLDNIPRQYEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_bact_2hz7_D_radiodurans" taxon="gln_bact_2hz7_D_radiodurans" totalcount="20" value="VTRFPPDPSGYAHLGHVFASLLDFNTARQQFNLRMDDTNQEYVDSIADDLKWLGHFYYASDAYDFEHPLQDAHSMCSLEFVDNRAIYDWLMEKLPHQYEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_bact_C_jejuni" taxon="gln_bact_C_jejuni" totalcount="20" value="MYRFAPSPTGDMHIGNLRAAIFNYICARQDFILRIEDTDAGKEEEIKEILNLFQHYYIQSETYNFACAVDDMCIIRGEDHVSNTPKQEHIRASLMTYAHL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_bact_P_mikurensis" taxon="gln_bact_P_mikurensis" totalcount="20" value="RTRFPPEPNGFLHVGHAKAICIDFGVARAPCLLRFDDTNARYADAIRTDLAWLSEITHTSDTYDFAHGQCDAHSLCSLEFEDHRPLYDWFIEKLSRQIEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_bact_B_thailandensis" taxon="gln_bact_B_thailandensis" totalcount="20" value="ETRFPPEPNGYLHIGHAKSICLNFSVARDVCHLRFDDTNVEYVNSIVDAVRWLQHQYFASDMYDYTHCISDAHSLCTLEFEDHRPLYDWVLNELPQQIEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_bact_S_elongatus" taxon="gln_bact_S_elongatus" totalcount="20" value="RVRIAPSPTGNLHIGTARTAVFNWLFARRQFILRIEDTDSEYTDNILTGLQWLDGPFYQTQLYNLAVVVDDIHVIRGEDHIANTAKQILLYEALPEFAHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_bact_T_thermophilus" taxon="gln_bact_T_thermophilus" totalcount="20" value="VTRFPPEPNGYLHIGHARSIVLNFGLAQDECNLRFDDTNEEYARAIEEDVRWLTRVLYASDMYDFAHPLEDFHSLCTLEFENNRTVYDWVIENLPHQYEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_bact_B_fragilis" taxon="gln_bact_B_fragilis" totalcount="20" value="QTRFPPEPNGYLHIGHAKAICLDFGIAAAVCNLRFDDTNMEYVEAIQEDIRWLGNVYYASDMYDFAHGQSDYHSLCTLEFVPHRPLYDLFIDWLPRQTEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_gln_bact_G_obscuriglobus" taxon="gln_bact_G_obscuriglobus" totalcount="20" value="TGRLAPSPTGAQHVGNARTYLVAWLAARATVRVRIEDIDPGAAEQALDDLRWLDEVVTQTTAYQLAVVVDDAEVVRGDDLIPSTPRQLLLYRALPAFAHV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_1j09_T_thermophilus" taxon="glu_bact_1j09_T_thermophilus" totalcount="20" value="VTRIAPSPTGDPHVGTAYIALFNYAWARRRFIVRIEDTDPGAEERILAALKWLDGPYRQSETYHLANVVDDHDVIRAEEWLVSTPIHVLLYRAFPRFYHM---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_1nzj_E_coli" taxon="glu_bact_1nzj_E_coli" totalcount="20" value="IGRFAPSPSGELHFGSLIAALGSYLQARARWLVRIEDIDPGAAETILRQLEHYDDVLWQSQAYNLAVVVDDHEIVRGADLIEPTVRQISLYQLFPDYIHL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_2cfo_T_elongatus" taxon="glu_bact_2cfo_T_elongatus" totalcount="20" value="RVRLAPSPTGNLHIGTARTAVFNWLYARHKFILRIEDTDPEYTENILEGLQWLDGPYFQSDLYNLVVVVDDIDVIRGEDHIGNTPKQILLYEALPNFAHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_2o5r_T_maritima" taxon="glu_bact_2o5r_T_maritima" totalcount="20" value="RVRFAPSPTGFLHVGGARTALFNFLFARKEFILRIEDTDREYEEKLMESLRWLDGPYRQSETYNFACVVDDMHVIRGDDHLSNTLRQLALYEAFPVFAHV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_R_marinus" taxon="glu_bact_R_marinus" totalcount="20" value="RVRFAPSPTGFLHIGGLRTALYNFLFARKQFILRIEDTDPGAEEDIIESLRWADGPYRQSETYHMANVVDDHHVIRGEEWLSSTPKHVLLYRYLPQMAHL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_C_aggregans" taxon="glu_bact_C_aggregans" totalcount="20" value="RVRFAPSPTGSLHIGGVRTALFNWLCARHQFILRIEDTDPGAADDISISLRWVDGPYVQSQVYHFAHLVDDHLVMRGEEWVPSTPYHVLLYDYFPIFAHL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_C_jejuni" taxon="glu_bact_C_jejuni" totalcount="20" value="TTRFAPSPTGYLHIGGLRTALYNYLYARKNFLLRIEDTDKEATKAIIEAFKWCDEVTYQSETYNFTVVIDDADVIRGDDHLSNTPKQIVLYEALPKFFHV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_P_mikurensis" taxon="glu_bact_P_mikurensis" totalcount="20" value="VTRFAPSPTGELHVGGARTALYSWALARRRFLLRFEDTDAAAADRIRADLAWFDEGPRQSETFHLAVVVDDHHVVRGQEHLSNTPKHAALCDALPVWAHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_B_thailandensis" taxon="glu_bact_B_thailandensis" totalcount="20" value="RTRFAPSPTGFIHLGNIRSALYPWAFARKTFVLRIEDTDQEAVDAILEGMAWLDGPYYQMQMYNFCVVVDDLHVIRGDDHVNNTPRQINILRALPVYAHL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_B_fragilis" taxon="glu_bact_B_fragilis" totalcount="20" value="RVRFAPSPTGALHIGGVRTALYNYLFARQDLIFRIEDTDPGAEEYILESFKWLDGVYRQSETYHLANIVDDHHVIRGEEWLPSAPLHVLLYRAFPAFAHL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_G_stearothermophilus" taxon="glu_bact_G_stearothermophilus" totalcount="20" value="RVRYAPSPTGHLHIGGARTALFNYLFARHKMIVRIEDTDEGGEQSQLENLQWLDSVYRQTETYNFAVVIDDHHVFRGEEHLSNTPKQLMVYEYFPQFAHL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_H_aurantiacus" taxon="glu_bact_H_aurantiacus" totalcount="20" value="RTRFAPSPTGYLHIGSLRTVLFSWLWARHQFLLRIEDTDEGAEEQLTSSLQAIDGPYKQSETYALAAMVDDHHVLRADEWIPTWPIHHQIYEAFPVWVHV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_D_radiodurans" taxon="glu_bact_D_radiodurans" totalcount="20" value="VTRFPPDPSGYAHLGHVFASLLDFNTARQQFNLRMDDTNQEYVDSIADDLKWLGHFYYASDAYDFEHPLQDAHSMCSLEFVDNRAIYDWLMEKLPHQYEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_A_aeolicus" taxon="glu_bact_A_aeolicus" totalcount="20" value="KTRFAPSPTGYLHLGNARTAIFSYLFARHGFVLRIEDTDKEYEEMLIEDLKWLDEFYRQSETYNFVVVVDDAHVIRGEDHIPNTPKQILIYEALPKFAHL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_G_obscuriglobus" taxon="glu_bact_G_obscuriglobus" totalcount="20" value="RTRFAPSPTGYLHIGGVRTALFNWLYARRQFVLRIDDTDAEAVKPILDGFDWLDGPYFQGQLYAFATVVDEVHVIRAEEHLANTPVQILIYNALPEFAHV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_M_mobile" taxon="glu_bact_M_mobile" totalcount="20" value="RTRYAPSPTGYLHIGGARTALFNYLFAKHDFIVRIEDTDAGGEESQLDNLEWLDSPYRQSETYNFAVVVDDFHVLRGEEHITNTPKQLAVYEAMPVFGHL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_B_licheniformis" taxon="glu_bact_B_licheniformis" totalcount="20" value="RVRYAPSPTGHLHIGNARTALFNYLFARSKFIIRIEDTDEGGEQSQLNYLKWLDSVYRQSETYNFAVAVDDYHVLRGEDHISNTPKQIMIYNALPAFGHM---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_B_burgdorferi" taxon="glu_bact_B_burgdorferi" totalcount="20" value="RVRYAPSPTGLQHIGGIRTALFNYFFAKSKFLLRIEDTDPEAENDLYSSLKWLDGPYVQSQTYHLANVVDDYHVLRAQEWVSSGPLHVLLYKAFPIYCHL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_bact_S_aureus" taxon="glu_bact_S_aureus" totalcount="20" value="RVRYAPSPTGYLHIGNARTALFNYLYAKHDFVIRIEDTDEDGETSQFDNLKWLDSVYRQSETYNFAVAIDDHDVIRGDDHISNTPKQIMIYEAFPRFGHM---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_1ile_T_thermophilus" taxon="ile_bact_1ile_T_thermophilus" totalcount="20" value="TVYEPPTANGLPHVGHAQARSYKDLFPRYPRRAGWDTHGFTYEKEWEAFTERIDDAYATLEDVWYDSGAMPFFIAEGIDQTRGFNSLHQLGVMLFNVICH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_1qu2_S_aureus" taxon="ile_bact_1qu2_S_aureus" totalcount="20" value="ILHDPPYANGNLHMGHALNKILKDFIVRYPYVPGWDTHGLEQIELQKKDFRRLDDPYITLKDVWFDSGSSHRMYLEGSDQYRGFNSSITTSVATYFLLSH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_R_marinus" taxon="ile_bact_R_marinus" totalcount="20" value="SFYEPPTANGKPGIHHVLARTIKDIFCRYERKAGWDTHGLRYKELWDQLTERIDHPYITFEDVWFDSGAMPFFIAEGVDQTRGFYTLHAIATMVFHVVVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_E_coli" taxon="ile_bact_E_coli" totalcount="20" value="ILHDPPYANGSIHIGHSVNKILKDIIIKSPYVPGWDCHGATQVDGQRKDFIRLDHPYLTMDDVWFDSGSTHSMYLEGSDQHRGFMSSLMISTAMYQVLTH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_C_aggregans" taxon="ile_bact_C_aggregans" totalcount="20" value="VFYEPPTANGRPGLHHTISRSFKDVILRYGRREGWDTHGWEYIQEWKAFTKRISDAYITYEDCWFDSGSMPVYICEAVDQTRGFYTLHAVSTLLFNVICL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_C_jejuni" taxon="ile_bact_C_jejuni" totalcount="20" value="TLHDPPYANGHIHIGHALNKILKETIIKTRFTPGWDCHGSEFVDIQREEFKDLDKPYLTMKDVWFDSGSTFNMYLEGSDQHRGFQSSLLVGTAIYSILTH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_P_mikurensis" taxon="ile_bact_P_mikurensis" totalcount="20" value="VAHDPPYANGDIHLGHLLNKVLKDLVVRSPYTPGWDCHGGKHVKTQRQQMERLDNPYLTMDDVWFESGSSWHLYLEGSDQHRGFQHSLLPALAVFGVLTH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_B_thailandensis" taxon="ile_bact_B_thailandensis" totalcount="20" value="ILHDPPYANGDIHLGHAVNKILKDMVVKSPYVPGWDCHGTEQIEKQKAGFKRLENPYKTMNDVWFDSGTTHWLYLEGSDQHRGFHSSLLTASMLYGLLTH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_S_elongatus" taxon="ile_bact_S_elongatus" totalcount="20" value="VLHDPPYANGALHMGHALNKTLKDIINKYRYVPGWDCHGLAQVEQQSQSFQRYDAPYLTLTDVWFDSGSSWALYLEGSDQHRGFQSSLLTSVACYRVLTH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_B_fragilis" taxon="ile_bact_B_fragilis" totalcount="20" value="VFFEPPSANGMPGIHHVMARSIKDIFCRYKRKAGWDTHGMKFTKEWEDLTHKMDHPYITYDDVWFDSGAMPYFIAEGVDQTRGFFTLHAIATMVYAVISN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_G_stearothermophilus" taxon="ile_bact_G_stearothermophilus" totalcount="20" value="VLHDPPYANGDIHMGHALNKILKDIIVRYPYVPGWDTHGYEQIDNQRRQFKRLDNPYITLKDVWFDSGSSHQLYLEGSDQYRGFNSSLSTAVAVYGVLSH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_H_aurantiacus" taxon="ile_bact_H_aurantiacus" totalcount="20" value="VFFEPPTANGRPGIHHVEARSSKDIMVRFGARGGWDTHGWDYIQEWEKLTQRIDDPYITYDDCWFDSGAMPVFISEAIDQTRGFYTLHAVSTLLYNVICL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_T_maritima" taxon="ile_bact_T_maritima" totalcount="20" value="VLHDPPYANGHIHIGTALNKILKDIVVKYPYVPGWDTHGLRFVDIQREEFKRLDNPYITLKDVWIDSGASFEMYLEGSDQHRGFHSSIFLAVAKYEVLTH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_A_aeolicus" taxon="ile_bact_A_aeolicus" totalcount="20" value="VLHDPPYANGHIHVGHALNKILKDVINKYNFIPGWDCHGKKYVNIQREDFVRLDHPYLTMDDVWFDSGCSHALYLEGSDQHRGFQASLLESVGSYAVLTH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_M_mobile" taxon="ile_bact_M_mobile" totalcount="20" value="ILHDPPYANGDLHIGHALNKILKDIVVRYPFVPGWDTHGLSQIKNQKKQFLTMDDYYQTLDDVWFDSGTTSMVYLEGSDQYRGFNSSLINSVVYFKLVSH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_C_thermalis" taxon="ile_bact_C_thermalis" totalcount="20" value="TLHDPPYANGSLHIGHALNKILKDIINRYRCIHGWDCHGLKAMQEQCASLKRWDNSYLTLKDVWFDSGSSWALYLEGSDQHRGFQSSLLTSVATYTVLTH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_C_A_asiaticus" taxon="ile_bact_C_A_asiaticus" totalcount="20" value="TFYEPPSANGEPGIHHVLSRALKDLFCRYKRKSGWDTHGMRYTDQWEKLTTELDNPYITYDDVWFDSGAMPYFIAEGVDQTRGFFTLHAIAVMLFNVVSN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_G_obscuriglobus" taxon="ile_bact_G_obscuriglobus" totalcount="20" value="SFLDPITANNPMGVHHAWGRTYKDVYNRYRYQQGFDCQGNKFARVQTDQSIRLNRTYFTMSNPWLDAGIVAFFITESFGQFRNFYALLAMSTMMFTLLGH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_B_licheniformis" taxon="ile_bact_B_licheniformis" totalcount="20" value="VLHDPPYANGDIHMGHALNKVLKDFIVRSPYVPGWDTHGWQQIEGQKTQFKRLDNPYVTLKDVWFDSGSSHQLYLEGSDQYRGFNSSISTAVAVYGVLSH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_B_burgdorferi" taxon="ile_bact_B_burgdorferi" totalcount="20" value="TFYDPPFATGLPHFGHFVPNTIKDIIPRYKRNFGWDTHGLRYTEEWKNIILRLDKGYKTMDDCWFESGAMPYFIAEGLDQTRGFYTLTILGTALFNVIVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_bact_D_radiodurans" taxon="ile_bact_D_radiodurans" totalcount="20" value="VFYEPPTANGKPALHHVLARSFKDLFPRFTRKGGWDTHGWETIQDWNELTERMDDPYITYQDVWFDSGSMPYYICEAIDQTRGFYSLHAISTMLYNVICL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_2v0c_T_thermophilus" taxon="leu_bact_2v0c_T_thermophilus" totalcount="20" value="YVLVFPYPSGDLHMGHLKNYTMGDVLARFLHPMGWDAFGYANIRQAKESLRLMDREVTTCEDTFFDSSWYYLQYIGGVEHAVLLLYSRFFTKFLFGLFTQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_A_aeolicus" taxon="leu_bact_A_aeolicus" totalcount="20" value="YVLEFPYPSGRIHMGHVRNYTIGDAIARYLHPMGWDAFGEYNIDYMKKQLKILDREIATCDDTFFDSSWYFLVYIGGIEHAVLLLYARFFQKFLFKLITQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_B_burgdorferi" taxon="leu_bact_B_burgdorferi" totalcount="20" value="YILDFPYPSANLHVGHPEGYTATDIFGRYLHPIGFDSFGEENINKFKKQIKALDREIRTHEPQWAGSCWYYLLYIGGAEHTVLLLYSRFWHKVLFKLINQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_B_licheniformis" taxon="leu_bact_B_licheniformis" totalcount="20" value="YALDFPYPSGGLHVGHPEGYTATDILSRMLHPMGWDAFGEQNIDNFRRQIRALDREVNTTDPQWAGSCWYFLMYIGGAEHAVLLLYARFWHKFLFQLYNQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_B_thailandensis" taxon="leu_bact_B_thailandensis" totalcount="20" value="YCVSLPYPSGKLHMGHVRNYTINDVMYRYLMPMGWDAFGYDNIAYMKKQMQSMDREVTTCKDTFVDSAWYFSQYIGGIEHAILLLYSRFWAKVMANLLTQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_C_Amoebophilus_asiaticus" taxon="leu_bact_C_Amoebophilus_asiaticus" totalcount="20" value="YILDFPYPSGELHVGHPLGYIASDIVARYLHPMGFDAFGAKNIGRYKQQLCQLDRCISTCEPGWAGSSWYFFLYLGGAEHATGLLYARFWTQFLFELIHQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_C_aggregans" taxon="leu_bact_C_aggregans" totalcount="20" value="YVLDYPYPSGDLSVGHCRNYVPTDVVARYLHPMGWDAFGRRYSANYKRQMNMLDREITSSEGTFACSSWYFLMYVGGAEHAVMLLYARFWTKVLFCLRNQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_C_jejuni" taxon="leu_bact_C_jejuni" totalcount="20" value="YILSFPYPSGRIHMGHVRNYTIGDALARYLHPIGFDSFGYENIAYMKKELFSLSRMLATSDDTFFESSWYFAQYIGGIEHAILLLYARFFQKALFRLLTQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_C_thermalis" taxon="leu_bact_C_thermalis" totalcount="20" value="YALSFPYPSGSLHMGHVRNYVITDVIARLLHPMGWDAFGQRNIAQMRDQLKRLDKELATCSDTFIDSSWYFLQYVGGIEHAILLLYSRFFTKVLFRLLTQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_D_radiodurans" taxon="leu_bact_D_radiodurans" totalcount="20" value="YALTFPYPSGNLHIGHWYANVAPDARARWLFPMAFDAFGYANIERMTGQFSRMDRKFATCDDTFVDSSWYMYLYTGGIEHAILLLYSRFWTKVMFRLRNQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_E_coli" taxon="leu_bact_E_coli" totalcount="20" value="YCLSLPYPSGRLHMGHVRNYTIGDVIARYLQPIGWDAFGYDNIAYMKNQLKMLDRELATCTDTFMESSWYYAIYIGGIEHAIMLLYFRFFHKLMAQLLCQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_G_obscuriglobus" taxon="leu_bact_G_obscuriglobus" totalcount="20" value="YILDFPYPSGGLHVGHPEGYTATDILARFLHPMGWDAYGQQNINTFRRQIKALDREVDTTDPQWAGSCWYFLLYVGGAEHAVLLLYARFWHKVLFRLVNQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_G_stearothermophilus" taxon="leu_bact_G_stearothermophilus" totalcount="20" value="YVLDFPYPSGGLHVGHPEGYTATDILARMLHPMGWDAFGQKNIDNFRRQIKSLDREINTTDPQWAGSCWYYLVYIGGAEHAVLLLYARFWHKFLFKLFNQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_M_mobile" taxon="leu_bact_M_mobile" totalcount="20" value="YALDFPYPSGGLHVGHPEGYTATDIISRYLHPIGWDAFGLKNIENFRRQLKSLDKEVNTTDPQWAGSCWYYLLYIGGQEHAVLLLYARFWHKILFKLINQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_M_smegmatis" taxon="leu_bact_M_smegmatis" totalcount="20" value="FVQDFPYPSGGLHVGHPLGYIATDVYARYLHALGFDAFGEANIVNFRRQLGRLDRSFSTTDPQWAGSSWYELLYVGGVEHAVLLLYSRFWHKVLYRLVNQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_S_aureus" taxon="leu_bact_S_aureus" totalcount="20" value="YALDFPYPSGGLHVGHPEGYTATDIISRYLHPMGWDAFGKKNIQTFKRQIKELDREVNTTDPQWAGSCWYYLLYIGGVEHAVLLLYARFWHKVLFKLFNQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_S_elongatus" taxon="leu_bact_S_elongatus" totalcount="20" value="YALSFPYPSGNLHMGHVRNYTITDAIARVLHPMGWDAFGYQNVAQMREQLKQLDREVTTCSDTFMCSSWYYLQYVGGIEHAILLLYSRFFTKVLFRLLTQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_T_maritima" taxon="leu_bact_T_maritima" totalcount="20" value="YALVFPYPSGTLHVGHVKNYVIGDIVARYLHPFGYDAFGRKNIATIRQQVKKLDREIATCDDTFVDSSWYFLQYIGGVEHAVLLLYSRFVTKVLFNLFTQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_T_thermophilus" taxon="leu_bact_T_thermophilus" totalcount="20" value="YVLVFPYPSGDLHMGHLKNYTMGDVLARFLHPMGWDAFGYENIRQAKESLRLMDREVTTCEDTFFDSSWYYLQYIGGVEHAVLLLYSRFFTKFLFGLFTQ---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_bact_R_marinus" taxon="leu_bact_R_marinus" totalcount="20" value="FITVYPYTNAPLHIGHGRTYTIGDIIARYLFPMAFHITGVFFAERVHMDFDALDRRFHTGEESLSDSTIYMAQRHTGIAHISNLSFFIYHHIAIPMITLN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_1pfv_E_coli" taxon="met_bact_1pfv_E_coli" totalcount="20" value="LVTCLPYANGSIHLGHMLEHIQADVWVRYNFICADDAHGGEMSQEHQTDFAGFDNYHSTHSYVWLDAPIGYMYHFIGKDIVYFSLFWPAMLEGSPNLFVH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_1woy_T_thermophilus" taxon="met_bact_1woy_T_thermophilus" totalcount="20" value="YVTTIYYVNAEPHLGHAYTTVVADFLARWFFLTGTDEHGDRVSGRFKRAWDLLDDFIRTTEFVWFDALLNYVWHLIGKDILKPAVFWPTMLKAAYHLNVG---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_2csx_A_aeolicus" taxon="met_bact_2csx_A_aeolicus" totalcount="20" value="YVTTIYYVNDVPHLGHAYTTIAADTIARYFFLTGTDEHGDRNAERFKKLWEFLTKFIRTTDYVWFDALFNYILHLVGKDILRFTVYWPAFLMSLPKVFAH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_2x1l_M_smegmatis" taxon="met_bact_2x1l_M_smegmatis" totalcount="20" value="YITTIAYPNGVPHIGHAYEYIATDAIARFRYLTGTDVHGRRNSDVFQRLQEKLDRFIRTSDYVWVDALTNYLLHMIGKDIIRFTVYWPAFLMSAPRIFAH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_R_marinus" taxon="met_bact_R_marinus" totalcount="20" value="LVTALPYANGPIHIGHLAAYLPADLYCRYLFICGSDELGDRYHPMIRDSFARFDYYGRTTSYVWFDAPIGYIIHFIGKDNIVFCLMFPAMLMAHPNVPAN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_C_aggregans" taxon="met_bact_C_aggregans" totalcount="20" value="LVAVWPYANGPRHIGHVAFGVPADIFARYLMVSGTDEHGDRYNKIIGDDLYNLDTFTRTTTYVWFDAVIGYLFYFMGKDNIVFTVIWPAMLLGYPNVVSS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_C_jejuni" taxon="met_bact_C_jejuni" totalcount="20" value="YITTPIYYVNDVHLGHAYTTIIADTLARFRFLTGTDEHGDKISFEFKKLWDEFDIYARTTDYVWLDALFIYVVHLVGKDILRFAIYWPAFLMSVPFIGAH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_P_mikurensis" taxon="met_bact_P_mikurensis" totalcount="20" value="YVTTIYYVNDRPHLGHVYTTLVADVAARFFFLTGVDEHADRNALAFRETFDKLDDFVRTSSYVWIDALFNYLTHYIAKDILWFAAIWPALLLALPTVFTH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_S_elongatus" taxon="met_bact_S_elongatus" totalcount="20" value="ALTTLYYVNDVPHIGSAYTTIAADAIARFLMITGSDEHGNAIVARFQDLWQLLDRFSRTTDYVWFDALLGYVLHLIGKDILRFAVYWPAMLLSAPRVFGH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_H_aurantiacus" taxon="met_bact_H_aurantiacus" totalcount="20" value="LVAVWPYASGARHLGHVAFGVPSDVFARYLMVSGTDDHGDFYNAEIRNNLRDLDLFTRTSTYVWFDAVIGYLYYFMGKDNIVFSVIWPAMLIGHPEVVSS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_S_aureus" taxon="met_bact_S_aureus" totalcount="20" value="YITTIYYPSGNLHIGHAYSTVAGDVIARYRYLTGTDEHGDEMIAGIKQLWAKLDDFIRTTEYVWIDALVNYIIHLMAKEIVRFSIIWPILLMALPKVFAH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_T_maritima" taxon="met_bact_T_maritima" totalcount="20" value="YITTIYYVNSEPHIGSAYTTIVADIIARYFFLTGTDEHGDELAEKFKRLWKELDYFIRTTDYVWVDALINYILHLIGKEINRFSIIWPAMLMSVPKVFAH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_B_burgdorferi" taxon="met_bact_B_burgdorferi" totalcount="20" value="LVTALPYVNNIPHLGNLVQVLSADAFARYLYVCGTDEYGNKYYEIHKSIYKWFDIFGRTTNYVWFDAPIGYIVQFIGKDNILFTIIFPCIEIGSLQLSSS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_B_fragilis" taxon="met_bact_B_fragilis" totalcount="20" value="TVTSLPYANGPVHIGHLAVYVPADIYVRYLFIGGSDEHGDRYHFLIKKSFEEFDVYSRTSSYVWFDAPIGYIVHFIGKDNIVFCIVFPAMLKAEPNVPSN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_B_licheniformis" taxon="met_bact_B_licheniformis" totalcount="20" value="YITTIYYPSGKLHIGHAYTTVAGDAMARYRYLTGTDEHGDRAAEDIQQLWKKLDDFIRTTEYVWIDALFNYIVHLVGKEIVRFTIYWPIMLMALPKVFAH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_B_thailandensis" taxon="met_bact_B_thailandensis" totalcount="20" value="LVTSLPYANGQIHIGHLVEYIQTDIWARTYYIGADDTHGERVWREHKRDFDSFDNFYTTDSYVWLDAPVGYYYHFIGKDILYFTLFWPAMLEFSPNVFAH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_D_radiodurans" taxon="met_bact_D_radiodurans" totalcount="20" value="FITAIDYANGTPHIGHVYEKILADAIARYTFVMGTDEHGDDLSEAFQGLWKKLDFFIRTTSYVWFDALLSYLWHVIGKDILKPAVFWPTMLRAAYRLVVH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_G_stearothermophilus" taxon="met_bact_G_stearothermophilus" totalcount="20" value="YLTTIYYPSDKLHIGHAYTTVAGDAMARYMYLTGTDEHGDDIVAGIQELWRKLDDFIRTTQYVWIDALANYIVHLVGKEIVRFTIYWPIMLMALPKVFGH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_G_obscuriglobus" taxon="met_bact_G_obscuriglobus" totalcount="20" value="FQTTIDYPNSRPHIGTAFEKLGADVQARYFFLMGNDENTDDMARQFREVWAALDTFVQTSSYVWFDALLTYITHFIGKDITRFCALWPAMLWAAPKVFSH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_C_thermalis" taxon="met_bact_C_thermalis" totalcount="20" value="AVTTLYYVNDLPHIGSAYPTMAADALARFLMITGTDEHGDRISSSFVSLWELLDRFSRTTAYVWFDALLGYVIHIIGKDILRFAVYWPAMLMSAPRVFGH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_bact_C_A_asiaticus" taxon="met_bact_C_A_asiaticus" totalcount="20" value="TITALPYANGPIHIGHLAVYIPADIYARYIFISGSDEHGDKYHHLNKQNLQDLDIFSRTSSYVWFDAPIGYIVHFVGKDNIVFCIIFPVMLQAHPQVPAN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_1i6m_G_stearothermophilus" taxon="trp_bact_1i6m_G_stearothermophilus" totalcount="20" value="TIFSGIQPSGVITIGNYIALRQFVELQHENCYFCIVDQHRQNIRRLAALYLAVATLFIQSETYPPLMAADILIVPVGEDQKQHIELTRDLAERFPEARIP---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_2el7_T_thermophilus" taxon="trp_bact_2el7_T_thermophilus" totalcount="20" value="RVLSGIQPSGEIHIGNYLAIKQWVAIGEKDAFFCIVDYHAQRTFEAALVNIAAVTLFVQSHMYPVLQAADILTVPVGEDQVQHIELTREIARRFPQALLN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_2g36_T_maritima" taxon="trp_bact_2g36_T_maritima" totalcount="20" value="RILSGMRPTGKLHIGHLVALENWVKLQEEECFYFVADWHKEYTRDLVRGFLACSVIFVQSGIYPVLQAADILGVPVGEDQVYHIELTREIARRFPEAILS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_E_coli" taxon="trp_bact_E_coli" totalcount="20" value="IVFSGAQPSGELTIGNYMALRQWVNMQDDHCIYCIVDQHRKATLDTLALYLACSTIFVQSHDYPVLMAADILLVPVGEDQKQHLELSRDIAQRFPEPFIP---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_C_aggregans" taxon="trp_bact_C_aggregans" totalcount="20" value="RVFSGIQPSGNLHIGNYLAIQQWVAGQGQTNFICIVDLHHRQTRELAALLLACTTLFVQSHTYPVLMAADILEVPVGEDQKQHIELTRDLAQRFPEPVIR---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_C_jejuni" taxon="trp_bact_C_jejuni" totalcount="20" value="RVLTGLQPSGDLHIGNYFAIKQMVDAQEKQMFMFIANYHKQNSLKAAAAFLSLSVFWLQSDSYPVLMAADILIVPVGKDQIQHVEIARDIALKVPEARVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_P_mikurensis" taxon="trp_bact_P_mikurensis" totalcount="20" value="RILTGLQPSGQLHLGNYCAIQPLLGLQEAKLFVFVASYHRANCRRVVIDYLAFINLYLQQDTYPVLQAADILAVPVGADQTQNVEYARDLAGRFPELLVR---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_S_elongatus" taxon="trp_bact_S_elongatus" totalcount="20" value="RVLSGVQPTGNLHLGNYLAIRNWVEGQQQDNFFCVVDLHAENTYRTAALYLACSTIFVQSHDYPVLMAADILRVPVGEDQKQHLELTRDIAVRIPEPLIP---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_B_fragilis" taxon="trp_bact_B_fragilis" totalcount="20" value="IILTGDRPTGKLHIGHYVSLKRRVELQNSDKFIFIADAQRQNVIEVALDYLACSTIFIQSQTYPISQAADITTVPVGEDQEPMIEQAREIVRRFPEILLP---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_H_aurantiacus" taxon="trp_bact_H_aurantiacus" totalcount="20" value="RVFSGIQPSGNLHLGNYLAIHTWVQEQNQDNFFCIVDLHRKNVRDLAALYLAAATIFVQSHNYPTLMAADILVVPVGDDQRQHIELTRDIAERFPEALIR---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_G_obscuriglobus" taxon="trp_bact_G_obscuriglobus" totalcount="20" value="RILSGVQPSGKLHLGNYFAIKQHIERQDTECFYFIADYHAENVRDVALDYLALASFFRQSDTYPLLMAADILLVPVGKDQEQHLEMTRDVAGAFPDGVYN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_C_thermalis" taxon="trp_bact_C_thermalis" totalcount="20" value="RVLSGIQSTGNLHLGNYLAIRNWVEGQSQENYLFVADLHAANTYTLAALYLACSTIFIQSHDYPVLMASDILKVPVGEDQKQHLEITRDIAARFPEPLIR---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_A_aeolicus" taxon="trp_bact_A_aeolicus" totalcount="20" value="RIVSGMRPTGKLHLGHYFVIRNWVKLQEEECFFFIADWHRQNIREVMIDWLALSVLFIQSLGYPVLQAADILGVPVGEDQLPHIELSREIARRFPKALLT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_B_thailandensis" taxon="trp_bact_B_thailandensis" totalcount="20" value="RIFSGMRPTGSLHLGHYHVLKNWVKLQSEPCFFCVVDWHEKNVWDVLIDWLASATLFIQSKGYPVLMAADILLVPVGEDQVPHVEMTREIARRFPQALLT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_B_licheniformis" taxon="trp_bact_B_licheniformis" totalcount="20" value="TIFSGIQPSGSVTLGNYIAMKQFVDLQDDNCYFCIVDQHRKNIRNLAALYLAIATLFIQSETYPPLMAADILVVPVGEDQKQHLELTRNLAERFPEVKIP---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_B_burgdorferi" taxon="trp_bact_B_burgdorferi" totalcount="20" value="VMLTGDRPTGALHLGHYVSVVNRLKFQEEETYFIIADLHPSNVREMVLDYLACVSIYLQSAGYPVLMSADILLVPVGRDNESHIEFARELARRFPESVFT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_C_A_asiaticus" taxon="trp_bact_C_A_asiaticus" totalcount="20" value="RILTGIQCTGRPHLGNVLAMLPTLELAATDTFIFLADLHRNYVYAAAAAWLALVTFYRQSKTYPILMAADILIVPVGKDQLQHLEITRDIATSFPQALID---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_D_radiodurans" taxon="trp_bact_D_radiodurans" totalcount="20" value="RVFSGIQPTGDPHIGNYFAMQNYVRLGEQQSLYCVVDLHAQKTFDMAVANFAIVVFFVQSHMYPALMAADILIVPVGEDQTQHIELTREIARKFPKAVYN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_S_aureus" taxon="trp_bact_S_aureus" totalcount="20" value="TLFSGIQPSGIPTIGNYIALKQFVDVQNDDCYFCIVDQHRKQTRQLAAIYLASATLFIQSETYPPLMAADIVIVPVGDDQKQHIELTRNLVDRFPEIRMP---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_bact_R_marinus" taxon="trp_bact_R_marinus" totalcount="20" value="IVVSGIQPSGELHLGNYFAIRQHLELHEESYFFIVNYHLRRYTFEAAVTYLALAALFVQSDNYPVLQAADILLVPVGADQKQNIEICRDIAQRFPEPLIR---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_1h3f_T_thermophilus" taxon="tyr_bact_1h3f_T_thermophilus" totalcount="20" value="TVKLGADPTPDLHLGHAVVLRKMRQFQELKVVLIIGDFTRENAKTYVAQAGKIFELRYNSELYPFAQAYDSVVEMGGTDQRFNLLVGREVQRAYQVCFLM---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_1jil_S_aureus" taxon="tyr_bact_1jil_S_aureus" totalcount="20" value="TLYCGADPTDSLHIGHLLPFLTLRRFQEHRPIVLIGGGTDKNIEGISKQMHNIAVLVNNRDTYTILQAIDFGIQVGGSDQWGNITSGIELMRRMAYGLTI---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_1wq4_E_coli" taxon="tyr_bact_1wq4_E_coli" totalcount="20" value="ALVCGFDPTDSLHLGHLVPLLCLKRFQQAKPVALVGGATQEWVDKIRKQVAPFAIAANNYDSYNLLQGYDFALCIGGSDQWGNITSGIDLTRRLVFGLTV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_C_aggregans" taxon="tyr_bact_C_aggregans" totalcount="20" value="RLKQGFDPTPDMHIGHAVGLRKLRAFQELQVVLIVGDWTRANAETYMEQFFRVTEVRWQSEMYPMLQAYDSVVEFGGTDQKFNILAGRELMAQLQQVFLV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_C_jejuni" taxon="tyr_bact_C_jejuni" totalcount="20" value="FIKAGFDPTPDLHLGHSVVLTKMAFLQKHIVQFLIGDFTLINAKTYKTQVFKVTQIKFNSTLYPLLQGYDSVIEMGGTDQKFNLLMGRQLQRVYQAVIMM---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_P_mikurensis" taxon="tyr_bact_P_mikurensis" totalcount="20" value="TLYCGFDPTDSLHLGHLVPVMALAHAQRCKPLALVGGATDANALAIGEQIGRIAKLVNNLDSYMLLQAYDFAVQIGGQDQWGNIVFGTELGRKMLAALTM---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_S_elongatus" taxon="tyr_bact_S_elongatus" totalcount="20" value="RIKLGIDPTSDIHLGHSIIFRKLRQFQDATAVLIIGDFTQRNAETYLDQLRPILEIRYNSELYPLMQGYDSVVELGGTDQKFNIAVGRDLQRHFQFGLLL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_B_fragilis" taxon="tyr_bact_B_fragilis" totalcount="20" value="TAYVGIDPTDSLHIGHLCGVMILRHFQRCKPLALIGGATRHNQACIKKQLAKFAELVNNYDTYQLLQGYDFLLQMGGSDQWGNITTGTELIRRTAYALTC---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_G_stearothermophilus" taxon="tyr_bact_G_stearothermophilus" totalcount="20" value="TLYCGFDPTDSLHIGHLVTIMTLRRFQQAQPIALVGGATETWSARIKAQLERFAKIKNNYDSYMMLQAYDFLLQIGGSDQWGNITAGLELIRRTAFGLTV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_H_aurantiacus" taxon="tyr_bact_H_aurantiacus" totalcount="20" value="RLKLGIDPTSDIHIGHAVALRKMRQFQELTVVLIVGDWTKSNAKYYMDQVFKVTEVRWQSEMYPMLQAYDSIIEFGGTDQKFNILAGRQLMEQMQDVILV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_T_maritima" taxon="tyr_bact_T_maritima" totalcount="20" value="RVKLGVDPSPDLHLGHAVVLRKLREFQDLTVVLIIGDFTLENAKTYQEQAFKITELRFNGELYPLAQAYDSVVELGGTDQLFNLLVGRKIQEEYQIVMTM---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_A_aeolicus" taxon="tyr_bact_A_aeolicus" totalcount="20" value="RVKAGFDPTPDLHLGHVVLLQKLRQFQQLEVFFIIGDFTLENAKTYEHQVFKVTTVVFNSTIYPLLQAYDSVVEIGGTDQKFNLLIGRDIQREYQVCITL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_G_obscuriglobus" taxon="tyr_bact_G_obscuriglobus" totalcount="20" value="RVKYGIDPTFDVHLGHTVPLRKLRQFQEFTAVLIIGTATDKNAQTYLTQIAKVAEVRPNGELYPLMQGHDSVVELGGTEQLYNLMVGRDLQRAAQICLTM---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_C_thermalis" taxon="tyr_bact_C_thermalis" totalcount="20" value="RIKFGIDPTAEIHLGHSIPVRKLRAFQDAKAVLLIGDFTAENAKNYLDQVRPILEVRYNSELYPLVQGYDSVVELGGTDQKFNIAVGRDLQRHFQFGVLL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_B_licheniformis" taxon="tyr_bact_B_licheniformis" totalcount="20" value="SLYSGFDPTDSLHIGHLLPILMLRRFQLARPIALVGGATREWSQKIKNQLSRFAIMANNYDSYMILQSLDFLLQIGGSDQWGNITSGLELIRKSAFGLTI---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_M_mobile" taxon="tyr_bact_M_mobile" totalcount="20" value="GIYVGFDPSKSIHLGNFVVINVLLIAKKHPTVALIGGATKKNTEAIKKQIKHFAKIVNNSDAYSLIQANDFHIQFGGSDQWGNITTGLELIRKRSGGFTI---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_B_burgdorferi" taxon="tyr_bact_B_burgdorferi" totalcount="20" value="VFYAGVDATSSLHIGHLIPFLAMMHLRQHMPIVLIGDSTGNNALLIKNQLQRIECFIHNSNNYQLLQSYDYYLQIGGDDQWGNIISGVDLIRKKTFGLTF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_C_A_asiaticus" taxon="tyr_bact_C_A_asiaticus" totalcount="20" value="TGYIGFDPTPSLHVGNLATIMLLKHFQLAKPIAVVGGATLHNQSCIMKQLKCFAELLNNIDSYQLLQGYDFYLQMGGADQWGNLTTGIELIRRKAFALTA---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_bact_D_radiodurans" taxon="tyr_bact_D_radiodurans" totalcount="20" value="RVKLGADPTPDLHLGHAVILRKMRQFQDLKVIMLIGDFTRANAESYLAQCRLILEIRYNSELYPLTQGYDSVVELGGTDQLFNNLVGRALQRDYQVVLTL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_1gax_T_thermophilus" taxon="val_bact_1gax_T_thermophilus" totalcount="20" value="VIFMPPNVTGSLHMGHALDNSLQDALIRYVWLPGTDHAGEESGGTILKQLKRLDREAFTMDDTWFSSALWPLVLVTGYDILFLVSRMEVSGYHFFTVLLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_R_marinus" taxon="val_bact_R_marinus" totalcount="20" value="VIMMPPNVTGRLHMGHALQDTIQDALTRILWLPGIDHAGEEYGDIILQQKRRLGRTRFTMDDTWFSSWLWPFVLVSGYDILFFIARMIMAGIHFFDVFIT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_E_coli" taxon="val_bact_E_coli" totalcount="20" value="CIMIPPNVTGSLHMGHAFQQTIMDTMIRYLWQVGTDHAGAESGGTITRQMRRLDRERFTMDDTWFSSALWTFVMVSGFDIIFFIARMIMMTMHFFTVYMT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_C_jejuni" taxon="val_bact_C_jejuni" totalcount="20" value="CIMMPPNVTGVLHIGHALTFTLQDIMTRYLYQPGLDHAGEQSGGKILDQMRTLARLRFTMDDTWFSSGLWAMLLITGFDILFFVARMMFQSTNVFDIYLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_B_thailandensis" taxon="val_bact_B_thailandensis" totalcount="20" value="SIQLPPNVTGTLHMGHAFNQTIMDGLVRYLWVPGTDHAGEQSGSTITGQVRRIDREYFTMNDTWFSSALVPFVLVTGFDIIFFVARMVMMTTHFFTVYVH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_S_elongatus" taxon="val_bact_S_elongatus" totalcount="20" value="CIVIPPNVTGSLHMGHAFEASLIDVLIRFLWLPGTDHASAESGGTIVGQLRRLDRERFTMDDTWFSSGLWPFTLVTGFDIIFFVARMTMMAGHFFDVYIH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_G_stearothermophilus" taxon="val_bact_G_stearothermophilus" totalcount="20" value="TIVIPPNVTGKLHLGHAWDTTLQDIITRMLWLPGMDHAGEEYAGHIRSQWAKLDRERFTLDDTWFSSALWPFVLVTGYDIIFFVSRMIFQGLEFFDVLIH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_T_thermophilus" taxon="val_bact_T_thermophilus" totalcount="20" value="VIFMPPNVTGSLHMGHALDNSLQDALIRYVWLPGTDHAGEESGGTILKQLKRLDREAFTMDDTWFSSALWPLVLVTGYDILFLVSRMEVSGYHFFTVLLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_B_licheniformis" taxon="val_bact_B_licheniformis" totalcount="20" value="TVVIPPNVTGKLHLGHAWDSTLQDIVTRMLWLPGMDHAGEEYADFIRSQWAKIDRERFTLDDTWFSSALWPFVLVTGYDIIFFVSRMIFQGIEFFDVLIH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_T_maritima" taxon="val_bact_T_maritima" totalcount="20" value="SIVIPPNITGRIHMGHALNITLQDIVVRYLWVPGEDHAGNKYRREIREQIKALDRERFTLDDTWFSSALWPFLLVTGFDIIFFVARMIMMGYEFFHVYIH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_C_thermalis" taxon="val_bact_C_thermalis" totalcount="20" value="CIVIPPNVTGSLHMGHAFDNTLIDSLIRYLYLPGTDHASDSSKGTIVGQLRRLDRERFTMDDTWFSSGLWPFTLVTGFDIIFFVARMTMLGGHFFDVYIH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_M_smegmatis" taxon="val_bact_M_smegmatis" totalcount="20" value="SIVLPPNVTGSLHMGHALDHTLMDVLTRRLWLPGMDHAGRESGGTIGGQMRRLDRDRFTMDDTWFSSALWPFVLVTGYDILFFVARMMMFGTFVFNVFLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_M_mobile" taxon="val_bact_M_mobile" totalcount="20" value="SILLPPNVTGKLHIGHAWNTTLQDFLIRLLWLPGTDHAGNEYANEIKKQWSKLDKERFTLDDTWFSSGIAPFVIVTAYDIIFFVARMYFMGIYSFKALIH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_B_burgdorferi" taxon="val_bact_B_burgdorferi" totalcount="20" value="SMVAPPNVTGVLHMGHALNFVLQDVLVRYLWLFGTDHAGDRHRGIIVNQINKLDRERFTLDDTWFSSWLWPFTLITAYDIIFFVARMVMAGLEFFDVYIT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_C_A_asiaticus" taxon="val_bact_C_A_asiaticus" totalcount="20" value="TIVLPPNITGVLHMGHVLNTTLQDVLIRKCWVPGIDHASEKYGSIILEQIKQLDRLHFTMDDTWFSSWLWPIVLVTAPEIIFFVARMIMAGYAFFHVYFT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_D_radiodurans" taxon="val_bact_D_radiodurans" totalcount="20" value="TIVIPPNVTGNLHLGHALDNTLIDTLIRYLYLPGMDHAGGKSGGMILDQLTRLDRERFTMDDTWFSSNLWPFVLVTGYDILFFVARMQMAGYGLFTVMLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_bact_S_aureus" taxon="val_bact_S_aureus" totalcount="20" value="TIVIPPNVTGKLHLGHAWDTTLQDIITRMLYLPGMDHAGEEYASFIRAQWAKLDRERFTLDDTWFSSALWPFALVTGYDIIFFVARMIFQGLEFFDVLLH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ala_bact_1yfsa_A_aeolicus" taxon="ala_bact_1yfsa_A_aeolicus" totalcount="20" value="----------------------------------------------------------------------------------------------------SAHEIRELFLSFFEKKGHTRVKAPLVPLFVNAGMVPFKKRATSCQKCLRVTFFEMLGNFSFKKEAIEYAWEFVTSSEIYVEIWNLVFMHPNIDTGMGERIASVLQ"/>
+                    <sequence id="seq_ala_bact_3hxv_E_coli" taxon="ala_bact_3hxv_E_coli" totalcount="20" value="----------------------------------------------------------------------------------------------------STAEIRQAFLDFFHSKGHQVVASSLVPLFTNAGMNQFKSRATTSQRCVRATFFEMLGNFSFKLDAILFAWLLLTCTEIFYEIWNIVFMKPSVDTGMGERIAAVLQ"/>
+                    <sequence id="seq_ala_bact_D_radiodurans" taxon="ala_bact_D_radiodurans" totalcount="20" value="----------------------------------------------------------------------------------------------------TTAEIRERYLYFFETKGHLRLPHSTIALFTVAGMQPFKKRVTTAQKCVRVSLFEMMGNFSFKRDAIHWAWEFLTCSEIYYEVWNLVFPFKNIDTGMGERVASVNM"/>
+                    <sequence id="seq_ala_bact_C_aggregans" taxon="ala_bact_C_aggregans" totalcount="20" value="----------------------------------------------------------------------------------------------------TAAQIRETFISFFKRHGHTHVPSSLVVLFANSGMVQFKTRAVTAQKCLRVTFFEMLGNFSFKAEAIRLAWKLLTCSEITIEIWNNVFMRPSVDTGMGERMAMVMQ"/>
+                    <sequence id="seq_ala_bact_P_mikurensis" taxon="ala_bact_P_mikurensis" totalcount="20" value="----------------------------------------------------------------------------------------------------SAKDVRQQFLDFFAQKGHKVVPAPVVPLFANAGMNPFKKRVCDTQKCIRATFFEMLGNWSFKKEAIRWAWELLVCSELHYEIWNLVFIAKHVDTGMGERIVRVLQ"/>
+                    <sequence id="seq_ala_bact_B_thailandensis" taxon="ala_bact_B_thailandensis" totalcount="20" value="----------------------------------------------------------------------------------------------------KAAEIREKFLKFFESKGHTIVRSSLVPLFTNSGMVQFKSRATTAQRSVRATFFEMLGNFSFKRDAIHYAWELLTCSEIFYEIWNLVFMKPCVDTGMGERIAAVLQ"/>
+                    <sequence id="seq_ala_bact_S_elongatus" taxon="ala_bact_S_elongatus" totalcount="20" value="----------------------------------------------------------------------------------------------------SGDQIRETFLKFFEGKGHRRLPASLIPLLTIAGMLPFKPRATTSQKCIRTTFFEMLGNFSFKKEAIAFAWELVTCSEIYYEVYNLVFMKQNIDTGMGERMAQVLQ"/>
+                    <sequence id="seq_ala_bact_B_fragilis" taxon="ala_bact_B_fragilis" totalcount="20" value="----------------------------------------------------------------------------------------------------TAKETRDSFKNFFESKGHQIVPAPMVIMFTNAGMNQFKHRVADSQKCLRVTMFEMLGNWSFKKEAISWAWEYLVCSEIHIEIWNLVFMAKVIDTGMGERLCMALQ"/>
+                    <sequence id="seq_ala_bact_G_stearothermophilus" taxon="ala_bact_G_stearothermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------TSAEVRRMFLEFFQEKGHTVEPASLIPLWINSGVATLKPRICNAQKSIRTTFFEMLGNFSIKREAIHWAWEFLTNTEIFYEVWNLVFSKKNIDTGMGERMCSILQ"/>
+                    <sequence id="seq_ala_bact_T_thermophilus" taxon="ala_bact_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------RTAEIREKFLSFFEGKGHLRLPFSLIPLFTSAGMAPLKRRVTTCQECLRVTYFEMLGNFSFKKEAILWAWEFLTCSEIFYEIWNLVFTQKNIDTGGLYRVAAILQ"/>
+                    <sequence id="seq_ala_bact_H_aurantiacus" taxon="ala_bact_H_aurantiacus" totalcount="20" value="----------------------------------------------------------------------------------------------------KGSELRQRFLDYFARQGHAVVPSSLIPLFTVAGMVQFNSRAVSSQKCLRITFFEMLGNFSFKKDAIRFAWEFLTCSEIHYEIWNLVFMKPSIDTGMSERLAIVKQ"/>
+                    <sequence id="seq_ala_bact_T_maritima" taxon="ala_bact_T_maritima" totalcount="20" value="----------------------------------------------------------------------------------------------------TSEEIREAFLKFFEKKGHKILPASLIPLFTVAGMVPFKTRVATCQKCLRTTFFEMLGNFSFKEEAIEWAWEFLTDTEIFYEIWNLVFTRKNIDTGAGERFCAMMQ"/>
+                    <sequence id="seq_ala_bact_G_obscuriglobus" taxon="ala_bact_G_obscuriglobus" totalcount="20" value="----------------------------------------------------------------------------------------------------SSSEIRQQFVDFFCKKGHTNIASPVVPLFANAGMNQFKVRVANTQKCIRATFFEMLGNWSFKKDAIAWAWELLTCTEIHIEIWNLVFIAQHVDTGMGERICSVVQ"/>
+                    <sequence id="seq_ala_bact_C_thermalis" taxon="ala_bact_C_thermalis" totalcount="20" value="----------------------------------------------------------------------------------------------------SGNEIRQKFLEFYSQRGHQILAASLVPLLTIAGMLPFKPRATSSQKCIRTTFFEMLGNFSFKEQAIAWGWEISTCSEIYYEFYNLVFMKKNIDTGMGERMAQILQ"/>
+                    <sequence id="seq_ala_bact_M_mobile" taxon="ala_bact_M_mobile" totalcount="20" value="----------------------------------------------------------------------------------------------------KSKEIRNKWLNFFESKGHLIIPKSLIPLWINSGVATLKKRLTNSQKSIRTTFFEMLGNFSIKKEAINFGFEFIFNLEIFYEIWNIVFSQKNIDTGAGERLACILQ"/>
+                    <sequence id="seq_ala_bact_B_licheniformis" taxon="ala_bact_B_licheniformis" totalcount="20" value="----------------------------------------------------------------------------------------------------TSAQVRQMFLDFFKEKGHAVEPASLIPLWINSGVATLKPRICNAQKSIRTTFFEMLGNFSIKEEAIEWAWEFLTNTEIFYEVWNLVFSKKNIDTGMGERMVSVIQ"/>
+                    <sequence id="seq_ala_bact_B_burgdorferi" taxon="ala_bact_B_burgdorferi" totalcount="20" value="----------------------------------------------------------------------------------------------------TLNKLRKKYIDFFKSKKHFEIMKSLVPLFNTAGMQPLIDMLVNVQKCLRTTFFEMLGNWSLKEYSVKCSFEFLTDTEIYVEIWNNVFMRKCVDTGMGERTIAFLQ"/>
+                    <sequence id="seq_ala_bact_C_A_asiaticus" taxon="ala_bact_C_A_asiaticus" totalcount="20" value="----------------------------------------------------------------------------------------------------CSSNIRQKFVDFFKQKDHHHVKAPIVNLFTNAGMNQFKQRAISTQPCLRVTMFEMLGNWSFKEEAIACAWELLTCSEIHVEIWNLVFIAKHVDTGMGERLTMVLQ"/>
+                    <sequence id="seq_ala_bact_S_aureus" taxon="ala_bact_S_aureus" totalcount="20" value="----------------------------------------------------------------------------------------------------KASEIRQKYLDFFVEKGHMVEPAPLVPLWINSGVATLKPRIVNSQKAIRTTFFEMLGNFSIKQEAIEFAWEFLTNTEIFYEVWNLVFSNKNIDTGMGERMASVSQ"/>
+                    <sequence id="seq_asn_bact_R_marinus" taxon="asn_bact_R_marinus" totalcount="20" value="----------------------------------------------------------------------------------------------------IRNRVIRAIHDFFQERGFLQLDAPILTYLSQSGQLYAEGKVYTFGPTFRATEFWMIEPEMALEMNMALAEELVVGMDVLAEIIGGGQRVPHSGFGLGERTLAWIC"/>
+                    <sequence id="seq_asn_bact_E_coli" taxon="asn_bact_E_coli" totalcount="20" value="----------------------------------------------------------------------------------------------------VRHTLAQALHRFFNEQGFFWVSTPLITFLTVSGQLNGESKIYTFGPTFRAAEFWMLEPEVALNDIAGLAEAMLKAMDVLAEIIGGSQRVPHSGFGLGERLIAYVT"/>
+                    <sequence id="seq_asn_bact_C_aggregans" taxon="asn_bact_C_aggregans" totalcount="20" value="----------------------------------------------------------------------------------------------------IRAEVIAAAQEWLNEQGFVRFDTPILTYLAQTGQLYVEGKVYCFGPTFRATEFWMIEPEVAHEDNMRLQEQFVSCADLLAEIIGGSQRVPHSGFGMGERVVAWIT"/>
+                    <sequence id="seq_asn_bact_S_elongatus" taxon="asn_bact_S_elongatus" totalcount="20" value="----------------------------------------------------------------------------------------------------VRNAAATAIHDFFQERGFLWVHTPIITYLTVSGQLEAESNVYTFGPTFRAAEFWMVEPEMALGGDMDLAEAFLKAMDVLAEIIGGSQRVPHAGFGLGERLVQFIT"/>
+                    <sequence id="seq_asn_bact_B_fragilis" taxon="asn_bact_B_fragilis" totalcount="20" value="----------------------------------------------------------------------------------------------------IRHNMAIAIHKFFHEKGFFYFHTPIITSLTVSGQLEGEGAIYTFGPTFRAAEFWMIEPEVAIQENMDLAEEFIKAMDVLFEIIGGSERCPHSGFGLGERLLLFVT"/>
+                    <sequence id="seq_asn_bact_H_aurantiacus" taxon="asn_bact_H_aurantiacus" totalcount="20" value="----------------------------------------------------------------------------------------------------IRAQVIAAAQEYLNSEHFVRYDSPILTYLAQTGQLYVEGRVYCFGPTFRATEFWMIEPEFAQDDNMELQENFVSCADLIAEIIGGSQRVPHSGFGMGERCVAWLA"/>
+                    <sequence id="seq_asn_bact_G_obscuriglobus" taxon="asn_bact_G_obscuriglobus" totalcount="20" value="----------------------------------------------------------------------------------------------------VRHQVSISIHQFFHERGFYYVHTPVITYLTVSGQLQGEGKIYTFGPTFRAAEFWMIEPEMALTDNMDLAEAFLKAMDVLVEIIGGSQRVPHSGFGLGERTILFLS"/>
+                    <sequence id="seq_asn_bact_C_thermalis" taxon="asn_bact_C_thermalis" totalcount="20" value="----------------------------------------------------------------------------------------------------VRNACATAIHQFFQERSFLWVHTPVITFLTVSGQLEAESNVYTFGPTFRAAEFWMVEPEMALVGNMDLAEAFLKAMDVLAEIIGGSQRVPHAGFGLGERLVQFMT"/>
+                    <sequence id="seq_asn_bact_M_mobile" taxon="asn_bact_M_mobile" totalcount="20" value="----------------------------------------------------------------------------------------------------IRSTLALEIHKFYNERGYLWVSSPIITTLGVTGQLHAESKVYTFAPTFRAAEFWMMEPEVALKDLIKMSDDMLRAYDLLVEVIGGSKRASSAGFGLGERLIMYIT"/>
+                    <sequence id="seq_asn_bact_B_burgdorferi" taxon="asn_bact_B_burgdorferi" totalcount="20" value="----------------------------------------------------------------------------------------------------VRNKISYKIHEYFQKNGFFYINTPIITFLSVTGQLHGESKIYTFGPTFRASEFWMIEPEMALNDNIALAEDLLKGMDILVEIIGGSERAPHSGFGLGERLVQYST"/>
+                    <sequence id="seq_asn_bact_C_A_asiaticus" taxon="asn_bact_C_A_asiaticus" totalcount="20" value="----------------------------------------------------------------------------------------------------IRHAISYAIHQFFHEQGFVYLHTPIITSLTVSGQLEAEAEVYTFGPTFRAAEFWMVEPEMALADNIALAERFLKAMDILFEIIGGSQRVPHSGFGLGERLVQFVT"/>
+                    <sequence id="seq_asn_bact_D_radiodurans" taxon="asn_bact_D_radiodurans" totalcount="20" value="----------------------------------------------------------------------------------------------------VRDCVQRGIVEFFHGEGFVRFDAPFFTYLSQTGQLHAERQGLHFGPTFRALEFWMVEPEVAHAENMALQERMVSCDDMIAEIIGGSERMPHAGYGMGERFIAWMT"/>
+                    <sequence id="seq_asn_bact_S_aureus" taxon="asn_bact_S_aureus" totalcount="20" value="----------------------------------------------------------------------------------------------------IRNEVIRATYEFFNKDGFTKVDPPILTFLSQSGQLYLEGKVFSFGPTFRAIEFWMIEGEMAHAESLEIQEQYVTCADLIAEIIGGSERVPHCGFGLGERTVAWIS"/>
+                    <sequence id="seq_asn_bact_d1asza_T_thermophilus" taxon="asn_bact_d1asza_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------IQAGVCELFREYLATKKFTEVHTPKLLYLAQSPQFNKQERVYEIGPVFRATEFTGLDMEMAYHEVLDTLSELFVSYDFFMEILSGAQRPPHAGGGIGERVVMFYL"/>
+                    <sequence id="seq_asp_bact_R_marinus" taxon="asp_bact_R_marinus" totalcount="20" value="----------------------------------------------------------------------------------------------------LRHQVYLITRRYFDAHQFVEVETPVLTALPQSPQLYKQDRYFQIVKCFRDPEFTQIDVEMTEEQIFELIEGLIQAYDLVLEIGGGSIRPPHGGIALGDRIVMLLA"/>
+                    <sequence id="seq_asp_bact_C_aggregans" taxon="asp_bact_C_aggregans" totalcount="20" value="----------------------------------------------------------------------------------------------------LRHRVVKFIRDFLDAEGFIEIETPILIALPQSPQQLKQDKYFQIARCFRDPEFTQLDMEMSQEDVINLIERLFTAYDLILEAGGGSIRPPHGGIAPGDRLVMILA"/>
+                    <sequence id="seq_asp_bact_C_jejuni" taxon="asp_bact_C_jejuni" totalcount="20" value="----------------------------------------------------------------------------------------------------LRSKACIAARNSLANMGFLEVETPILTALPQSPQLFKQDRYFQIAKCFRDPEFTQIDVEMSQKDVIKVAETFLKAYDVVLELGGGSIRPPHGGIAIGDRLIMLVT"/>
+                    <sequence id="seq_asp_bact_B_thailandensis" taxon="asp_bact_B_thailandensis" totalcount="20" value="----------------------------------------------------------------------------------------------------LRYRVAIEARKYLDEQGFIDIETPMLTALPQSPQLFKQDRYYQITKCFRDPEFTQIDCETSEQEIRDLFEDMIRAYDMVLEIGGGSVRPPHGGIAFGDRIVTMMA"/>
+                    <sequence id="seq_asp_bact_S_elongatus" taxon="asp_bact_S_elongatus" totalcount="20" value="----------------------------------------------------------------------------------------------------LRHQVVKAIRRFLEEEQFIEIETPVLTALPQSPQLFKQDRYYQIARCFRDPEFTQLDMEMSQEEIIDLNERLIAAYDIVLEIGGGSLRPPHGGIAYGDRLVMLLT"/>
+                    <sequence id="seq_asp_bact_B_fragilis" taxon="asp_bact_B_fragilis" totalcount="20" value="----------------------------------------------------------------------------------------------------LRHKMTIEVRSYLDKLGFLEVETPVLIALPQSPQTLKQDRYFQIAKCFRDPEFTQIDCEMSQEDVITTFEGMAKAYDMVIEVGGGSIRPPHGGLAYGDRWVSLFA"/>
+                    <sequence id="seq_asp_bact_G_stearothermophilus" taxon="asp_bact_G_stearothermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------LRHKVTKAVRDFLDSERFLEIETPMLTALPQSPQIFKQERYYQIARCFRDPEFTQIDIEMSQKDIMDLTERMMAAYDLVLELGGGSLRPPHGGIALGDRLVMLLA"/>
+                    <sequence id="seq_asp_bact_H_aurantiacus" taxon="asp_bact_H_aurantiacus" totalcount="20" value="----------------------------------------------------------------------------------------------------LRHRTIKFMRDWMDREGFWEIETPILMALPQSPQQLKQDKYFQIARCMRDPEFTQLDIEMSQDDVLDVVERLMTSYDLVCELASGSIRPPHGGMAPGDRLVMLLA"/>
+                    <sequence id="seq_asp_bact_D_radiodurans" taxon="asp_bact_D_radiodurans" totalcount="20" value="----------------------------------------------------------------------------------------------------VQAELVDAFRAHLRGEGFTEISTPKIVYLAQSPQLYKQERVFEVAAVYRANEYLSLDVEMGEEDVMGLENRLLAGFDLLFEITSGGQRPPHGGFAIGERLTAKLL"/>
+                    <sequence id="seq_asp_bact_P_mikurensis" taxon="asp_bact_P_mikurensis" totalcount="20" value="----------------------------------------------------------------------------------------------------KRHRVTKTVRDFCDEHGFLEIETPFLCALPQSPQLFKQERYVQIVRCFRDAEFTQVDLEMSQEDVIGLCEGMIRAYDLVLELGGGSIRPPHGGLAFGDRVVMHLV"/>
+                    <sequence id="seq_asp_bact_T_maritima" taxon="asp_bact_T_maritima" totalcount="20" value="----------------------------------------------------------------------------------------------------LRYRISKIIRDYFDELGFLEIETPFLTALPQSPQLFKQDRYFQIVRCFRDPEFTQVDVEMSVEDVLNVSEGMVSAYDLVIEVGGGSIRPPHGGIAFGDRLVSIIA"/>
+                    <sequence id="seq_asp_bact_A_aeolicus" taxon="asp_bact_A_aeolicus" totalcount="20" value="----------------------------------------------------------------------------------------------------FRHRVYQITRNFFTKEGFIEIETPFLTALPQSPQLFKQDRYFQIVKCFRDPEFTQIDYEMSEEEVMDVAERLIAAYDMVLEIGGGSIRPPHGGLAFGDRVVALML"/>
+                    <sequence id="seq_asp_bact_M_smegmatis" taxon="asp_bact_M_smegmatis" totalcount="20" value="----------------------------------------------------------------------------------------------------LRSKVNAAARSVLAEHDFVEIETPTLTALPQSPQLFKQERYYQIARCYRDPEFTQLDMEMSADDVIAISEQVLKAYDIVCEIGGGSIRPPHGGIAFGDRITALLA"/>
+                    <sequence id="seq_asp_bact_M_mobile" taxon="asp_bact_M_mobile" totalcount="20" value="----------------------------------------------------------------------------------------------------LRHKVTRSMRNFLDRNNYINIETPNLGSLPQSPQLYKQEKYYQIARAFRDLEFTQLDIEMAEEIVIHLIENLFKAYDIVLEVGGGSIRPPHGGIALGDRLLSILT"/>
+                    <sequence id="seq_asp_bact_B_licheniformis" taxon="asp_bact_B_licheniformis" totalcount="20" value="----------------------------------------------------------------------------------------------------IRNEIIRATYEFFNKEGFVKVDPPILTYLSQSGQLYMEGKVFSFGPTFRAIEFWMIEPEMAFNENLEVQENYVSCADLIAEIIGGSERVPHSGFGLGERTVAWIC"/>
+                    <sequence id="seq_asp_bact_B_burgdorferi" taxon="asp_bact_B_burgdorferi" totalcount="20" value="----------------------------------------------------------------------------------------------------LRCQATHLIRNFLIKRKFLELETPTFVALPQSPQLYKQDKYFQIARCYRDPEFTQLDLEMSKENIFKLIENMLFIYDLVLELGSGSIRPNHGGIAIGDRLIMLMT"/>
+                    <sequence id="seq_asp_bact_C_A_asiaticus" taxon="asp_bact_C_A_asiaticus" totalcount="20" value="----------------------------------------------------------------------------------------------------LRQLVAQHARAYLEQHHFVDVETPLLIALPQSPQIFKQDRYYQIAKCFRDPEFTQIDCELSQADILHIFENFTKAYDLVIEIGGGSIRPPHGGIAFGDRLCAIIG"/>
+                    <sequence id="seq_asp_bact_S_aureus" taxon="asp_bact_S_aureus" totalcount="20" value="----------------------------------------------------------------------------------------------------MRHQITRSIRQYLDDEGFFDIETPVLTALPQSPQLFKQDKYYQIVKCFRDPEFTQVDIEMSQEDVMQMGEEMLKAYDIVLELGGGSIRPPHGGIALGDRLVMLLT"/>
+                    <sequence id="seq_asp_bact_d1c0aa_E_coli" taxon="asp_bact_d1c0aa_E_coli" totalcount="20" value="----------------------------------------------------------------------------------------------------TRAKITSLVRRFMDDHGFLDIETPMLTALPQSPQLFKQDRYYQIVKCFRDPEFTQIDVETSAPQVREVMEALVRAYDMVIEVGGGSVRPPHAGLAFGDRLTMLTG"/>
+                    <sequence id="seq_asp_bact_d1efwa_T_thermophilus" taxon="asp_bact_d1efwa_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------LRHRVIKAIWDFLDREGFVQVETPFLTALPQSPQLFKQDRYFQIARCFRDPDFTQLDLEMSVEDVLELNERLMAAYDLVLEVGGGSIRPPHGGIAWGDRLLALMT"/>
+                    <sequence id="seq_gly_bact_R_marinus" taxon="gly_bact_R_marinus" totalcount="20" value="----------------------------------------------------------------------------------------------------LKRNVQQRWWEAMVYENIVGLDAAILMYLRPETAQGIFFGIAQIGKAFRNREFEQMEMQYFFEAWKEKRLQWHIAVDIQYEVEGIHSRPYVVETSAGDRTILMLL"/>
+                    <sequence id="seq_gly_bact_C_A_asiaticus" taxon="gly_bact_C_A_asiaticus" totalcount="20" value="----------------------------------------------------------------------------------------------------LKRNVQNLWWQSMTLHNIVGMDAAILMYLRPETAQGIFFGIAQIGKAFRNREFEQMEMQFFFNYWQQARWQWHIAVDIEYEIEGIHARPHVIETSLGDRLILMLL"/>
+                    <sequence id="seq_gly_bact_G_obscuriglobus" taxon="gly_bact_G_obscuriglobus" totalcount="20" value="----------------------------------------------------------------------------------------------------LKRNIKEAWWQDMVNPRMVGLDCSIIMYLRPETAQGIFFGIAQVGKAFRNREFEQMEIEFFYEYWRDLRRQWYSTTDIEYELEGVAHRPHVIEPSAGDRFTLAVL"/>
+                    <sequence id="seq_gly_bact_G_stearothermophilus" taxon="gly_bact_G_stearothermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------LKNNIKRAWWKKFVESYNVGLDAAILMYLRPETAQGIFFGIAQIGKSFRNREFEQMELEFFFDYWKQFCKDWLLTTDIEYELWGIASRPYCIEPSLGDRVTLAFM"/>
+                    <sequence id="seq_gly_bact_H_aurantiacus" taxon="gly_bact_H_aurantiacus" totalcount="20" value="----------------------------------------------------------------------------------------------------LKNNLKAAWWRAMVERDVEGLDASILTYLRPETAQGIFFGIAQIGKAFRNREFEQMELEFFHSQWVEARLQWWRTVDILYELEGIANRPFVIEPSAGDRGVLAIL"/>
+                    <sequence id="seq_gly_bact_M_mobile" taxon="gly_bact_M_mobile" totalcount="20" value="----------------------------------------------------------------------------------------------------LLNNIKNEWIKYFINENNFLIDAKILMYLRPETAQAIFFGVGQIGKSFRNREFEQMELEYFFEYYLKKCYEFLITSDIEFELLGVANRPHVIEPSMGDRLALAIL"/>
+                    <sequence id="seq_gly_bact_P_mikurensis" taxon="gly_bact_P_mikurensis" totalcount="20" value="----------------------------------------------------------------------------------------------------LKNHVRDHWWHQTVCPSVLGLDSAIIQYLRPETAQGIFFGIAQIGKSFRNREFEQMEMEWFYDFWKHERMRWWECVDVEYELEGVAHRPHVIEPASGTRAVLVLL"/>
+                    <sequence id="seq_gly_bact_S_aureus" taxon="gly_bact_S_aureus" totalcount="20" value="----------------------------------------------------------------------------------------------------LKNNVKKAWWQKFIQSFNVGIDAAILMFLRPETAQGIFFGIGQIGKSFRNREFEQMELEFFQNYWKTFASDWLTTTDIEYELWGIASRPYCIEPSLGDRVTLAFL"/>
+                    <sequence id="seq_gly_bact_B_fragilis" taxon="gly_bact_B_fragilis" totalcount="20" value="----------------------------------------------------------------------------------------------------LKNNIKKYWWDSMVLHNIVGIDSAIFMYLRPETAQGIFFGIAQIGKAFRNREFEQMEMQFFFKKWKEIRLKWHKATDIEFEVEGIHSRPYVIETSIGDRMFLSIM"/>
+                    <sequence id="seq_gly_bact_C_aggregans" taxon="gly_bact_C_aggregans" totalcount="20" value="----------------------------------------------------------------------------------------------------LKNNIIADWWRTNVERDMEGLDAAILMYLRPETAQGIFFGIAQVGKAFRNREFEQMEIEYFHQRWLEARLAWWETFDLMYEIEGIANRPYVIEPSAGGRCMLAVM"/>
+                    <sequence id="seq_gly_bact_D_radiodurans" taxon="gly_bact_D_radiodurans" totalcount="20" value="----------------------------------------------------------------------------------------------------LKNNIKAAWWRSNVERDMEGLDASIIMYLRPETAQGIFFGIAQIGKAFRNRELEQMEIEFFHEHWLEKRLKWWETYDLMYEIEGIANRPFVIEPSAGDRAMLAVL"/>
+                    <sequence id="seq_gly_bact_B_burgdorferi" taxon="gly_bact_B_burgdorferi" totalcount="20" value="----------------------------------------------------------------------------------------------------LKKNIKKEWWKSMVLHNIVGLDSAIFMYLRPETAQGIFFGIAQVGKAFRNCEFEQMEMQFFFCYWQQNRMNFFIAFDIEYEVEGIHNRPYVIETSAGTRSVLMTL"/>
+                    <sequence id="seq_gly_bact_d1atib_T_thermophilus" taxon="gly_bact_d1atib_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------LKNNLKQAWWRRNVERDMEGLDASVLTYLRPETAQGIFFGIAQIGKAFRNREFEQMEIEYFHRYWVEERLKWWQTVDILYELEGIAQRPYVIEPSAGDRGVLALL"/>
+                    <sequence id="seq_his_bact_1htt_E_coli" taxon="his_bact_1htt_E_coli" totalcount="20" value="----------------------------------------------------------------------------------------------------IWQRIEGTLKNVLGSYGYSEIRLPIVETLRPEGTAGCVQRLWYIGPMFRHRQFHQLGCEVFDAELIMLTARWWRVFEWVTTVCAGGRYTPAVGFAMGERLVLLVQ"/>
+                    <sequence id="seq_his_bact_C_aggregans" taxon="his_bact_C_aggregans" totalcount="20" value="----------------------------------------------------------------------------------------------------TSRHIQTILERTIAGFGYQMIDAPIIEALRPEWTASVLLRLSYAGPVFRYRQFTQVGGEIIDAEVIALACAGLNIFEIYDQLCGGGRYVPAVGFAYGERVVAAAT"/>
+                    <sequence id="seq_his_bact_C_jejuni" taxon="his_bact_C_jejuni" totalcount="20" value="----------------------------------------------------------------------------------------------------YYEKVIKICEEVAKNYGFTFINTPHLECMRPEGTAGVVKRWFYYGSMFRYREFHQFGVESLDASIILMLVEIFSAFEFISAIAGGGRYGYGIGFAMGERIITILE"/>
+                    <sequence id="seq_his_bact_P_mikurensis" taxon="his_bact_P_mikurensis" totalcount="20" value="----------------------------------------------------------------------------------------------------RHRRLLDAWRRVSLRNGFEEVDGPIFEALRAEFTPTLAIKWFATPNFCRAREFWQWNVDFLDAEVVFVLVDLLRVFEAFEALAGGGRYMPAVGFGMGVVLANLLR"/>
+                    <sequence id="seq_his_bact_S_elongatus" taxon="his_bact_S_elongatus" totalcount="20" value="----------------------------------------------------------------------------------------------------QKRWIESRLQQVFQQWGYQRIITPTLEGLRPELTASIALRLYYLANVFRPRELFQAGVELLDAEVLHVLADALAVFEVVYVLAQGGRYQPGIGFSCNENLQQVLL"/>
+                    <sequence id="seq_his_bact_B_fragilis" taxon="his_bact_B_fragilis" totalcount="20" value="----------------------------------------------------------------------------------------------------KRNYIFNTIRDVYHLYGFQQIETPSMEGLRYDLTVPFAFKRYQIQPVWRAREFYQCDADVVEVELMQIVDTVFTIFEVKASITGGGRYVSGVGISFGDRIFDVLN"/>
+                    <sequence id="seq_his_bact_G_stearothermophilus" taxon="his_bact_G_stearothermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------KWQHVEQVVRSLCGRYGYEEIRTPIFETLRPEGTAPVAVKLYYTGPMFRYRQFVQFGVEVLDAEVIALAMHIYNTFEIMSTLCGGGRYTPGIGFALSERLLAALE"/>
+                    <sequence id="seq_his_bact_H_aurantiacus" taxon="his_bact_H_aurantiacus" totalcount="20" value="----------------------------------------------------------------------------------------------------LRRFITDTLIGILERYGFEPLSTPIVETLRYDQTVPLAFKRYALGQSYRGREFWQLDADIVDAEIVAVVVEGLRVFEAVLSLLGGGRYLPTVGCAFGERLFDLML"/>
+                    <sequence id="seq_his_bact_B_thailandensis" taxon="his_bact_B_thailandensis" totalcount="20" value="----------------------------------------------------------------------------------------------------LWEFFEATVKSLLRAYGYQNIRTPIVETLRPENTAAVVKRLWYIGPMFRHRQFHQVGVEALDAEIVMMCQRLWEVFEWVTTVAAGGRYTAACGWAMGERILELLK"/>
+                    <sequence id="seq_his_bact_T_maritima" taxon="his_bact_T_maritima" totalcount="20" value="----------------------------------------------------------------------------------------------------YWRYVEETFRNVCESAGIEEIRTPIFETLRPEGTAPVVQRYYYIGPMFRYRQFHQVGFEIIDFEVIMLVDTFLRVFEVRHAIAGGGRYVPALGFAGGERIILALK"/>
+                    <sequence id="seq_his_bact_A_aeolicus" taxon="his_bact_A_aeolicus" totalcount="20" value="----------------------------------------------------------------------------------------------------KFRKISDTARKILKLYNFEEIILPVVEALRPEGTAGTVVKLFYEGPMFRYRQFHQIGAEVFDAEIIKIVYDILQVFEAVSTLIAGGRYTPALGFALGERLMLLLP"/>
+                    <sequence id="seq_his_bact_G_obscuriglobus" taxon="his_bact_G_obscuriglobus" totalcount="20" value="----------------------------------------------------------------------------------------------------AREEVLRRAREVYRSYGFTPIDTPACEGLRFDLTVPFAFKRYAMGPVWRGREFWQCDFDTIDIEAALVINDLFTIYETFLSVCSGGRYLPGVGASLGDRLIAAME"/>
+                    <sequence id="seq_his_bact_C_thermalis" taxon="his_bact_C_thermalis" totalcount="20" value="----------------------------------------------------------------------------------------------------QKHWVEERLQQVFHRWGYHRIITSTLEGLRPELTASIAQRLYYNANVFCRLEFYQTGVELLDAEVLLLLAECLNVFEVIGILGQGGRYIPGVGFVLNEDLQQALL"/>
+                    <sequence id="seq_his_bact_M_mobile" taxon="his_bact_M_mobile" totalcount="20" value="----------------------------------------------------------------------------------------------------LFQYILDTFRKEAELFNYSYIQTPILEALRPEKTAGVINKFYYYGSMFRYREFTQIGCEWIDFEILLFASKFLGVFEFVYTILGGGRYKDAIGFAAGERLMILLK"/>
+                    <sequence id="seq_his_bact_B_licheniformis" taxon="his_bact_B_licheniformis" totalcount="20" value="----------------------------------------------------------------------------------------------------RWQYVEKIARETCHAYQYKEIRTPIFETLRPEGTASAVTKLYYIGPMFRYRQFYQFGIEAIDAEVIALAMSVYRAFEIMSTLAGGGRYAPGIGFAMSERLLAALD"/>
+                    <sequence id="seq_his_bact_B_burgdorferi" taxon="his_bact_B_burgdorferi" totalcount="20" value="----------------------------------------------------------------------------------------------------IRIHIVRQIFSVLNSYNFDLIDTPVLESMRFDLTVPFAFRRSQFGKVFRGREFMQFDFDIVDAEILSVVYYGLEVFESEVSVCSGGRYISGVGGSFGDRIKDIID"/>
+                    <sequence id="seq_his_bact_C_A_asiaticus" taxon="his_bact_C_A_asiaticus" totalcount="20" value="----------------------------------------------------------------------------------------------------QRSYIFDTIRQVYQKYGFSPLETPALEGLRYDLTVPLMFRRYQIQPVWRAREFYQCDADVVEAEILAMAYEVLQVFEVKLSIAGGGRYLTGVGFSFGDRLYVAME"/>
+                    <sequence id="seq_his_bact_D_radiodurans" taxon="his_bact_D_radiodurans" totalcount="20" value="----------------------------------------------------------------------------------------------------KHEWLIAQAREVLERAGAQRIDTPMFEVLRPEGTASIVLKLWTSGPMFRARQFTQVDYEVLDAEAIALMVAVVQAWELHYALGGGGRYVPGIGWAFGERLLLALE"/>
+                    <sequence id="seq_his_bact_d1adjc_T_thermophilus" taxon="his_bact_d1adjc_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------MHQRIVATARKVLEAAGALELVTPIFETLRPEGTAAMVVRLWMAGPMFRARQFHQVNYEALDAEAVVLLYECLKAFEVHHALGGGGRYVPGVGFAFGERVALALE"/>
+                    <sequence id="seq_his_bact_d1qe0a_S_aureus" taxon="his_bact_d1qe0a_S_aureus" totalcount="20" value="----------------------------------------------------------------------------------------------------KWRYIENQLDELMTFYNYKEIRTPIFETLRPEGTAAVVIKLYYNGPMFRYRQFNQFGVEAIDAEVLAMVMHIYQAFELMMTLCGGGRYETGIGFALSERLLLALE"/>
+                    <sequence id="seq_lys_bact_3e9h_G_stearothermophilus" taxon="lys_bact_3e9h_G_stearothermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------TRSLIIQSMRRYLDSHGYLEVETPMMHYMRIAIELHLKEKVYEIGRVFRNPEFTMLELYEAFRDIMKLTENLIARFELFIEHANAFTEPPTGGLGIGDRLVMLLT"/>
+                    <sequence id="seq_lys_bact_3g1z_S_typhimurium" taxon="lys_bact_3g1z_S_typhimurium" totalcount="20" value="----------------------------------------------------------------------------------------------------KRAAIMAEIRRFFADRGVLEVETPCMSYLMTSPEYHMKGPVFQLCRSFRNPEFTMLEWYRPMYRLMNEVDDLLQRFEVYYELANGFHEPDCSGVALGDRLVMLAL"/>
+                    <sequence id="seq_lys_bact_C_aggregans" taxon="lys_bact_C_aggregans" totalcount="20" value="----------------------------------------------------------------------------------------------------ARAQVMSTMRRVLDDRGFLEVETPVLQYLRIATELYLKPGVYEIGKNFRNPEFTMMECYQAYHAMMTLVEEMLGRFEAFIEIGNAFTEPPTGGLGIGDRLVMVLT"/>
+                    <sequence id="seq_lys_bact_C_jejuni" taxon="lys_bact_C_jejuni" totalcount="20" value="----------------------------------------------------------------------------------------------------VRSKVVSLIRHFFENKGFLEVETPMMHFLRIAPELYLKEAVFEINRCFRNPEFTTIEFYWAYKDLMDLTEELFARFELFIELANGFNELNDPLDQYEFLKQIEAK"/>
+                    <sequence id="seq_lys_bact_P_mikurensis" taxon="lys_bact_P_mikurensis" totalcount="20" value="----------------------------------------------------------------------------------------------------TRSRLIKATRDFFEGRGFLEVETPMMQFLRIAPELYLKPRVFEINRNFRNPEFTMLELYEALESILHHTQGLVERFELFVELANAYTELNDPDVQEAFREQLGGV"/>
+                    <sequence id="seq_lys_bact_B_thailandensis" taxon="lys_bact_B_thailandensis" totalcount="20" value="----------------------------------------------------------------------------------------------------ARTKAIASIRKFMGDADFMEVETPMLHFLRIAPELYLKERVFEINRNFRNPEFTMMEFYAAYRWLMDFTERLIRRFELFIEIANGFSELNDPEDQAAFKKQVEQK"/>
+                    <sequence id="seq_lys_bact_S_elongatus" taxon="lys_bact_S_elongatus" totalcount="20" value="----------------------------------------------------------------------------------------------------RRAKITAAIRRHLEDQGFIEIETPVLQYLRIATELHLKEKVFELGRIFRNPEFTSIEVYQAYEDMMRLTETLIARFELFIETANSFSEPPTGGLGIGDRLVMLLT"/>
+                    <sequence id="seq_lys_bact_B_fragilis" taxon="lys_bact_B_fragilis" totalcount="20" value="----------------------------------------------------------------------------------------------------KRSKVYSSMREYFNSKGYMEVETPILQYMRIASELYLKEGVYEIGKNFRNPEFTCMEIYVAYNWMMEFTEKMIERFELMVELCNAYSEPPTSGMGIGDRLTMLMT"/>
+                    <sequence id="seq_lys_bact_T_thermophilus" taxon="lys_bact_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------RRSEIVRYIRRFFEAKGFLEVETPILQYLRISLELYLKEKVFEIGRNFRNPEFTMLEAYWAYQDMAGLVEELLSRWDLYAELAPCYSEPPAAGLGLGDRLAMLLT"/>
+                    <sequence id="seq_lys_bact_H_aurantiacus" taxon="lys_bact_H_aurantiacus" totalcount="20" value="----------------------------------------------------------------------------------------------------IRARLITAMRRYLDERGFLEVETPVLQYLRIATELYLKDGVYEIGKNFRNPEFTMIEVYQAYESIMQLTEGMIRRFELFMEIANAFSELNDPFDQEQFLEQGRDY"/>
+                    <sequence id="seq_lys_bact_T_maritima" taxon="lys_bact_T_maritima" totalcount="20" value="----------------------------------------------------------------------------------------------------KRFKAVRVIREFLNSRGFIEVETPILHYLRIAPELYLKEKIYEIGKNFRNPEFTSIEIYQAYNDMMDLTEELIVRFELIIEIANAFSEPPTGGLGIGDRLFMFIT"/>
+                    <sequence id="seq_lys_bact_G_obscuriglobus" taxon="lys_bact_G_obscuriglobus" totalcount="20" value="----------------------------------------------------------------------------------------------------QRVKIIRTIRTHLDAQGYMEVETPTLHFVRIALELPLKEKVYELGRVFRNPEFTMLELYQAYRSMMDLTEGLIVRFELYVELANAYTELNDPITQEQFTQQLAGL"/>
+                    <sequence id="seq_lys_bact_M_mobile" taxon="lys_bact_M_mobile" totalcount="20" value="----------------------------------------------------------------------------------------------------LRSRIISLIRKYFDNLEYLEVDTPVLQYLRIATELPLKDRVYEIGRIFRNPEFTSIEYYEANEGMMNRTEDLFKRAELFIEYANMFTEPPTGGCGIGDRLVMLFT"/>
+                    <sequence id="seq_lys_bact_B_licheniformis" taxon="lys_bact_B_licheniformis" totalcount="20" value="----------------------------------------------------------------------------------------------------TRSKIIQSMRRYLDDHGYLEVETPTMHYMRIAIELHLKEKVYEIGRVFRNPEFTMIELYEAYKDIMSLTENLIARFELFIEHANAFTEPPTGGLGIGDRLIMLLT"/>
+                    <sequence id="seq_lys_bact_C_A_asiaticus" taxon="lys_bact_C_A_asiaticus" totalcount="20" value="----------------------------------------------------------------------------------------------------KRTQMIQAIRQYLNSQGYDEVETPILQYLRIANELYLKEGVYEFAKDFRNPEFTMLELYVAYKWMMNLTEELLERFEVICEICNAFSELNDPIEQRKFEEQLQLG"/>
+                    <sequence id="seq_lys_bact_D_radiodurans" taxon="lys_bact_D_radiodurans" totalcount="20" value="----------------------------------------------------------------------------------------------------ARSRMIRYIRNELDERGFMEVEGPTLQKLRISLELYLKERVYEIGRVYRNPEFTMLELYWAYSDIAKLVEDLLSRFEVFCELANAFSELNDAFDQREFEAQTARQ"/>
+                    <sequence id="seq_lys_bact_S_aureus" taxon="lys_bact_S_aureus" totalcount="20" value="----------------------------------------------------------------------------------------------------NRSKIIQEMRNYLNNKGFLEVETPMMHYMRIAIELHLKEKVYEIGRVFRNPEFTMIELYEAYHDIMDLTESMVRRFELFIEHANAFTEPPTGGLGIGDRLVMLLT"/>
+                    <sequence id="seq_lys_bact_d1e1oa_E_coli" taxon="lys_bact_d1e1oa_E_coli" totalcount="20" value="----------------------------------------------------------------------------------------------------VRSKILAAIRQFMVARGFMEVETPMMQYLRIAPELYLKERVFEINRNFRNPEFTMMELYMAYHDLIELTESLFRRFEFFIEIGNGFSEPPTAGLGIGDRMIMLFT"/>
+                    <sequence id="seq_phe_bact_2alya_T_thermophilus" taxon="phe_bact_2alya_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------PITLMERELVEIFRALGYQAVEGPEVELLRTHTSPMQVFRIVVPGRVFRFAVFHQLEGLVVMAHLKGAIYELAQGAQFAVELGGAGMVVTGFAFGLGERLAMLRY"/>
+                    <sequence id="seq_phe_bact_2rhq_S_haemolyticus" taxon="phe_bact_2rhq_S_haemolyticus" totalcount="20" value="----------------------------------------------------------------------------------------------------PLTRTVEEIEDLFLGLGYEIVDGYEVELMRTHTSPVQAVKIICPGKVYRRHQFTQIEGLVVMSDLKGTLELVAKSVEVDVEILGAGMVYSGFAFGMGDRIAMLKY"/>
+                    <sequence id="seq_phe_bact_R_marinus" taxon="phe_bact_R_marinus" totalcount="20" value="----------------------------------------------------------------------------------------------------PLTRTLEAIVRVFEQLGFSVAEGPEIEVLRTHTSPVQIIRIIAPGRVYRNCLFHQVEGLYVMGDLKQVLYLFARSAEVDIEILGCGMVYTGYAFGMGERIAMLRY"/>
+                    <sequence id="seq_phe_bact_C_thermalis" taxon="phe_bact_C_thermalis" totalcount="20" value="----------------------------------------------------------------------------------------------------PLNSTTDRIIDIFVGLGYTVATGPEIELLRTHTSNGQIVRIVVPGRCYRRAVFHQIEFFAVFTDLKGTIQIFLQSAEVDVEVMGCGAIYTGFAAGMGERLAMVLH"/>
+                    <sequence id="seq_phe_bact_C_A_asiaticus" taxon="phe_bact_C_A_asiaticus" totalcount="20" value="----------------------------------------------------------------------------------------------------PISILKDRILEIFEKIGFSIVEGPEIELLRTHTSSVQIIRAISIGRVYRNCMFHQVDAFYVFVELKQVLLYFLRSVEIDIEIMGAGMIYTGYAFGMGERIAMLMY"/>
+                    <sequence id="seq_phe_bact_D_radiodurans" taxon="phe_bact_D_radiodurans" totalcount="20" value="----------------------------------------------------------------------------------------------------PISRVLDDLIGIYRQMGYAVIEGPEVELLRTHTSPMQIFKIVVRGKVYRYAMFHQLEGLVVMSDLKGTIAEMARGADFAVELGGCGMVKTGFAFGLGERIAMLKY"/>
+                    <sequence id="seq_phe_bact_G_obscuriglobus" taxon="phe_bact_G_obscuriglobus" totalcount="20" value="----------------------------------------------------------------------------------------------------PATQILRQIYSIFADLGFQVYRTREVEVLRTHTSPGQIVRVILPGMCYRNIQFYQVEGLVVMADLKGTITAFARSIEVDIEILGAGMVVTGFAFGMPQRMLMLKH"/>
+                    <sequence id="seq_phe_bact_H_aurantiacus" taxon="phe_bact_H_aurantiacus" totalcount="20" value="----------------------------------------------------------------------------------------------------PSTQSLRRIQHIFAEMGFQVWESREVEVLRTHTSPGQIIRVILPGKCYRYMMFHQVEGLVIMADLKGTLANFARSVEVDIEILGAGMVWSGFAFGMGERQTMLTY"/>
+                    <sequence id="seq_phe_bact_M_mobile" taxon="phe_bact_M_mobile" totalcount="20" value="----------------------------------------------------------------------------------------------------PLTLIENRFRTWFLNNGYYETEGSEITLLRTHNTGFSIFSAFSIGKVYRNHQFSQVDVIVAFPNLMWLLKSLLSSCEVDVEVLGSGIIMNALAWGIGERIAMIKY"/>
+                    <sequence id="seq_phe_bact_P_mikurensis" taxon="phe_bact_P_mikurensis" totalcount="20" value="----------------------------------------------------------------------------------------------------VISQTVDELLEVFGRMGFDVAEGPELELMRSQTSTVQIVRIVSTGRVYRPSMFHQIEGLCVMVDLKTTLIQFAKSAELYVEIGGCGMVWTGFAFGLGERLVMRKH"/>
+                    <sequence id="seq_phe_bact_S_aureus" taxon="phe_bact_S_aureus" totalcount="20" value="----------------------------------------------------------------------------------------------------PLTRTIEEIEDLFLGLGYEIVNGYEVELLRTHTSPVQAVKIICPGKVYRRHQFTQIEGLVVMSDLKGTLELLAKSVEVDVEILGAGMVYSGFAFGMGDRIAMLKY"/>
+                    <sequence id="seq_phe_bact_M_smegmatis" taxon="phe_bact_M_smegmatis" totalcount="20" value="----------------------------------------------------------------------------------------------------PITILAENIADTFVAMGWELAEGPEVEVLRTHTSPVQIVYIISIGRTFRTPVFHQVEGLAVMAHLRGTLDAFARSAEVDIEWGGCGMVYSGFAFGMGERTLQFRN"/>
+                    <sequence id="seq_phe_bact_E_coli" taxon="phe_bact_E_coli" totalcount="20" value="----------------------------------------------------------------------------------------------------PVTRTIDRIESFFGELGFTVATGPEIELLRTQTSGVQIIRIIAPGRVYRNPMFHQMEGLIVFTNLKGTLHDFLRSAEVDVEVLGCGMVYSGFAFGMGERLTMLRY"/>
+                    <sequence id="seq_phe_bact_A_aeolicus" taxon="phe_bact_A_aeolicus" totalcount="20" value="----------------------------------------------------------------------------------------------------PITVTLERIVTIFRGMGFEVEEGPEVELLRTHTSPVQIIQIIAPGKVYRRPMFHQVEGLVVFRHMKYVIEEFLKSAEVDIEVMGCGMVYQGFAFGMGERLAMLLF"/>
+                    <sequence id="seq_phe_bact_B_licheniformis" taxon="phe_bact_B_licheniformis" totalcount="20" value="----------------------------------------------------------------------------------------------------PLTIVIEEIEDLFISMGYSVEEGPEVELMRTQTSPVQTVKIICPGKVYRRHQFMQIEGLCVMSDLKGTLETVAKSVEVDVEILGAGMVYQGFAFGMGERIAMLKY"/>
+                    <sequence id="seq_phe_bact_B_thailandensis" taxon="phe_bact_B_thailandensis" totalcount="20" value="----------------------------------------------------------------------------------------------------PVMRTWERVEQIFRSIGFDVADGPEIELLRTHTSPMQVIKVIAPGRTYRVPMFNQVEGLWIFADLKGVYTDFLKSAEIDMEISGSGQVYIGFAFGSGERLTMLRY"/>
+                    <sequence id="seq_phe_bact_C_aggregans" taxon="phe_bact_C_aggregans" totalcount="20" value="----------------------------------------------------------------------------------------------------LTNQILRQVQQIFAEMGFQVWESPEVELLRTHTSPGQILRVLIPGKVYRNMMFHQFEFLAVMADLKGTLSFFAESAEMDVEIGGCGMVFSGFAGGFGERVAMLKY"/>
+                    <sequence id="seq_phe_bact_C_jejuni" taxon="phe_bact_C_jejuni" totalcount="20" value="----------------------------------------------------------------------------------------------------PVMSTMDKIIEYFIALNFSIEKGPLIELLRTQTSPVQIIRMIAPGAVFRRPMFHQVEGLVVFANLKSVLEDFLRSAEVDIEVLGCGIVVSGYAFGLGERFAMLLH"/>
+                    <sequence id="seq_pro_bact_2i4la_R_palustris" taxon="pro_bact_2i4la_R_palustris" totalcount="20" value="----------------------------------------------------------------------------------------------------VLKKIEQIVREEQNRAGAIELLMPTLQLYGPTNEEMITLNLYHIQWKFRDREFLMKDAYSFYNKMFVAYLRTFASHEFIVEVGQIFYFIHGGSYGVGSRLLGAII"/>
+                    <sequence id="seq_pro_bact_2j3mb_E_faecalis" taxon="pro_bact_2j3mb_E_faecalis" totalcount="20" value="----------------------------------------------------------------------------------------------------VLEKLKTIMREEFEKIDAVEMLMPALLILGPTHEETFTLNLYQIQTKYRDREFIMKDGYSFYRDYEKAYSRIFESKEFMAEIGHIFKLVIMGCYGIGSRLLSAIV"/>
+                    <sequence id="seq_pro_bact_R_marinus" taxon="pro_bact_R_marinus" totalcount="20" value="----------------------------------------------------------------------------------------------------LWENMRAVLDRMFKETGHENAYFPLFIIVRPTSETIIWILINQWANVVRWMEFLWQEGHTAALRILDIYTTFAETYCIEAQAGTSHFLVWATSWGVSTRLIGALV"/>
+                    <sequence id="seq_pro_bact_E_coli" taxon="pro_bact_E_coli" totalcount="20" value="----------------------------------------------------------------------------------------------------VLKKVENIVREEMNNAGAIEVLMPVVQVLGPTHEEVITLNFYQIQTKFRDREFLMKDAYSFYDAMYAAYSKIFSLIKRGIEVGHIFQLLTMGCYGIGTRVVAAAI"/>
+                    <sequence id="seq_pro_bact_C_aggregans" taxon="pro_bact_C_aggregans" totalcount="20" value="----------------------------------------------------------------------------------------------------IWELMQRALDDRIKATGHANVQFPLLIVIRPTSETIIGLLYNQWANVMRWAEFWWQEGHTATLRIHEVYADFVESYCIEAQAGTSHNLAWTTSWGVSTRLIGALI"/>
+                    <sequence id="seq_pro_bact_B_thailandensis" taxon="pro_bact_B_thailandensis" totalcount="20" value="----------------------------------------------------------------------------------------------------SIRKVEAIVREEMNRAGAIELLMPAVQVIGPTHEEVVTVNFYQIQTKFRDREFIMKDAYSFYKKMYDAYVRIFTDICRGIEVGHVFQLMVMGCYGIGTRILGAAI"/>
+                    <sequence id="seq_pro_bact_P_mikurensis" taxon="pro_bact_P_mikurensis" totalcount="20" value="----------------------------------------------------------------------------------------------------SLRKVERIIREEQHAAGAVEVSLPCLQALAPTAEEAVARNVYQIQTKFRDREFLMKDGYSFYRAQYAAYERIFEVASRGIEVGQVFKLPLMGCYGIGNRVLASAI"/>
+                    <sequence id="seq_pro_bact_S_elongatus" taxon="pro_bact_S_elongatus" totalcount="20" value="----------------------------------------------------------------------------------------------------VLRKVSQIVREEMDATGAQETLLPQLQGLGPTHEEVITQNLYQIQTKFRDREFIMKDAYSFYAAMDQAYRNIFRASARGIEAGHIFQLLWMGCYGIGSRVAQAAV"/>
+                    <sequence id="seq_pro_bact_B_fragilis" taxon="pro_bact_B_fragilis" totalcount="20" value="----------------------------------------------------------------------------------------------------IWEKMQRQLDDMFKETGHVNAYFPLLIIIRPTSETIIWILCNQWANVFRWAEFLWQEGHTAAIRMLNVYAEFAETYTIEAQSGTSHFLVWATSWGVSTRLMGALI"/>
+                    <sequence id="seq_pro_bact_G_stearothermophilus" taxon="pro_bact_G_stearothermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------VLQKIEAIIREEMNRIGGMELLMPALQALGPTHEEMITLVLYQIQTKFRDREFMMKDAYSFYNDMYNAYSNIFRRFARGIEVGHVFKLMIMGCYGIGSRLVAAIA"/>
+                    <sequence id="seq_pro_bact_H_aurantiacus" taxon="pro_bact_H_aurantiacus" totalcount="20" value="----------------------------------------------------------------------------------------------------STQKISQIIREEMDAIDGQELLMPVVTVLNMTHEEVVTVMVYQIQTKYRDREFTMKDAYSFYEQVLNAYKRIYQTIARAIEVGNIFKLAIMGCYGIGQRILASLI"/>
+                    <sequence id="seq_pro_bact_T_maritima" taxon="pro_bact_T_maritima" totalcount="20" value="----------------------------------------------------------------------------------------------------VLLKIENIVREEMNRIGAQEILMPILQTLGPTHEEIVTLTLYQIANKYRDREFIMKDAYSFYEQFKKAYSRIMEKATKGIELGHIFKLFIMGCYGWGSRTMAAVV"/>
+                    <sequence id="seq_pro_bact_A_aeolicus" taxon="pro_bact_A_aeolicus" totalcount="20" value="----------------------------------------------------------------------------------------------------VLKKVESIIRKEMDRSGAQELLLTVLNCLGPTHEEEITVILYQIQVKFRDREFIMKDAYSFYEAMKFAYQRIFNKVRRGLELGHIFLLIIMGCYGIGSRILAALV"/>
+                    <sequence id="seq_pro_bact_G_obscuriglobus" taxon="pro_bact_G_obscuriglobus" totalcount="20" value="----------------------------------------------------------------------------------------------------LWEKMQRALDRLFKDTGHVNAYFPLFIIIRPTSETIIWLLINQWANVVRWAEFLWQEGHTATLQMVRVYQKFAETLCIEAQAGTSHFLAWATSWGVSTRLIGGLI"/>
+                    <sequence id="seq_pro_bact_C_thermalis" taxon="pro_bact_C_thermalis" totalcount="20" value="----------------------------------------------------------------------------------------------------IWEKMQQTLDGMFKDTGHTNAYFPVFIVVRPTSETIIWILLNQWANICRWTEFLWQEGHTAARQMLEIYKTFVETYTIETQVGTSHNLPFATSWGITTRMIGTLI"/>
+                    <sequence id="seq_pro_bact_B_licheniformis" taxon="pro_bact_B_licheniformis" totalcount="20" value="----------------------------------------------------------------------------------------------------VIHKIQSIVRQEMEKINAVEMLMPALQALGATHEEVITLTLYQIQSKFRDREFIMKDAYSFYNDMYQAYTNVFTRFAKGIEVGQVFKLMLMGCYGIGSRTLSAIV"/>
+                    <sequence id="seq_pro_bact_B_burgdorferi" taxon="pro_bact_B_burgdorferi" totalcount="20" value="----------------------------------------------------------------------------------------------------IWSKIQSILDKKFKETGHENAYFPMLIVLRPTSETIIWLKINQWANVVRWTEFLWQEGHTATLLILDVYKRFIETYSIEAQAATSHYLVFASSWGVSTRLIGALI"/>
+                    <sequence id="seq_pro_bact_C_A_asiaticus" taxon="pro_bact_C_A_asiaticus" totalcount="20" value="----------------------------------------------------------------------------------------------------IWEKMQAILDKAFKATGHENAYFPIFIIVRPTSETIIWLLINQWCNVVRWAEFLWQEGHTAALQMLNIYADFGKTYTIEAQAGTSHFLVWGTSWGLTTRLIGALV"/>
+                    <sequence id="seq_pro_bact_D_radiodurans" taxon="pro_bact_D_radiodurans" totalcount="20" value="----------------------------------------------------------------------------------------------------LWENIQRWLDDRFKASGHESLIFPTLIVMRPTSETIIGFLHYQWGSVFRASEFFWHEGHTAVRQQLDLYHEFCRTYSIEGQSGTSHYLAHTTSWAISSRIIGAII"/>
+                    <sequence id="seq_pro_bact_S_aureus" taxon="pro_bact_S_aureus" totalcount="20" value="----------------------------------------------------------------------------------------------------VLNNITAIVRQEMERIDSVEILMPALQALGPTHEELVTMTLFQIQSKFRDREFIMKDAYSFYQDMYQAYSRIFEHFAEGIEVGQVFKLLIMGCYGIGSRTLSAIV"/>
+                    <sequence id="seq_pro_bact_d1hc7a_T_thermophilus" taxon="pro_bact_d1hc7a_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------IWENIQQVLDRMFKETGHQNAYFPLFIAVRPTSETVIGQLLNQWGNVVRWSEFLWQEGHTAVRRMLSIYARLARTTTIEAQAGTSHYLVHTTSWGLSWRFIGAII"/>
+                    <sequence id="seq_ser_bact_R_marinus" taxon="ser_bact_R_marinus" totalcount="20" value="----------------------------------------------------------------------------------------------------LQRALIQFFLDLAVQQGYTEIQPPLFVYPIPTAEVPVTIKFCAYSPCFRRHQFDKVELVQFLEQLREDAERPLRKYDLEVEVSSISNFVHTLNGSGAPRVVAALL"/>
+                    <sequence id="seq_ser_bact_E_coli" taxon="ser_bact_E_coli" totalcount="20" value="----------------------------------------------------------------------------------------------------MHRALSQFMLDLHTEHGYSENYVPYLVALIPTAEVPLTIKMTAHTPCFRSHQFDKVEMVQILEEMTGHAEKVLQTYDLEVEISSCSNVVHTLNGSGAGRTLVAVM"/>
+                    <sequence id="seq_ser_bact_C_aggregans" taxon="ser_bact_C_aggregans" totalcount="20" value="----------------------------------------------------------------------------------------------------LQRAVIQWLLDLHLRQGYQEIYTPFVVWLVPTAEVPLTIYHAAYTPCFRKHQFDKVEMYMFLEKLRRDAEECARTYDIEVEVSSCSNVVHTLNGSGGPRTIIAIM"/>
+                    <sequence id="seq_ser_bact_C_jejuni" taxon="ser_bact_C_jejuni" totalcount="20" value="----------------------------------------------------------------------------------------------------LSRALVNYMIDFNRSRGFEFVNVPFLVYLISTSEIPVTIKMTCYSACFRKHQFEKVELVSIFNEMLECASDLLSTVDLEVEISSVSNCVHTLNGSSAGRTLVAIM"/>
+                    <sequence id="seq_ser_bact_B_thailandensis" taxon="ser_bact_B_thailandensis" totalcount="20" value="----------------------------------------------------------------------------------------------------LHRALAQFMLDTHTQHGYSETYTPYIVYLISTSEISLTIKLTAHSPCFRSHQFDKVEMVQILDEMVGHAEAILQTFDLEVEISSCSNTVHTLNGSGAGRTLVAVL"/>
+                    <sequence id="seq_ser_bact_S_elongatus" taxon="ser_bact_S_elongatus" totalcount="20" value="----------------------------------------------------------------------------------------------------LERALIAFMLDRQTAAGYTEVAPPYLIWLTPTAEVPLTLRYCAYTPCFRRHQFNKVELYQFHQQLLANAEAILQTYDIEVEISSCSNCVHTLNGSGAGRTMAAVL"/>
+                    <sequence id="seq_ser_bact_B_fragilis" taxon="ser_bact_B_fragilis" totalcount="20" value="----------------------------------------------------------------------------------------------------LQRALINFFLDEARKSGYTEIMPPTVVYLIPTAEVPVTIKNCAYTQCFRRHEFSKVELVRIHQEMLDHVEGLLQCFDFEVEVSSVSNFCHTLNGSAAPRIVAALL"/>
+                    <sequence id="seq_ser_bact_G_stearothermophilus" taxon="ser_bact_G_stearothermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------LERALINFMLDIHLDEGYEEVLPPYLVFLIPTAEVPVTLYYAAYSACFRAHQFNKVELVKFLEKLTRQAETILQTYDIEVEISSCSNFVHTLNGSGAGRTVAAIL"/>
+                    <sequence id="seq_ser_bact_H_aurantiacus" taxon="ser_bact_H_aurantiacus" totalcount="20" value="----------------------------------------------------------------------------------------------------LQRALISWMIDMHVDQGYTELAVPYLVWLIPTAEVPVTLRYVAHTPCFRNYQFDKVEMVKMLFSLISNAEDVCKKYDLEMEVSSCGLFVHTLNGSGAPRVIIAIL"/>
+                    <sequence id="seq_ser_bact_T_maritima" taxon="ser_bact_T_maritima" totalcount="20" value="----------------------------------------------------------------------------------------------------LERALINFMLDVHTKEGYTEVWVPHLVFLIPTAEVPLAKKYVSYTPCYRRHQFDKVELVWVLEELVKDAETILRTYDIEVEISSCSNVVHTLNGSGAGRALVAIL"/>
+                    <sequence id="seq_ser_bact_A_aeolicus" taxon="ser_bact_A_aeolicus" totalcount="20" value="----------------------------------------------------------------------------------------------------LERALINFMLDLHTKKGYKEICPPHLVYLIPTAEVPLTIYLTAYTPCYRRHQFDKVELVKILEKLVKDAEEVLQTYDIEVEISSCSNCVHTLNGSGAGRTLAAIL"/>
+                    <sequence id="seq_ser_bact_C_thermalis" taxon="ser_bact_C_thermalis" totalcount="20" value="----------------------------------------------------------------------------------------------------LERALIQFMLDRQTAAGYVEIIPPFLIWLSPTAEVPITINHCAYTPCFRRHQFNKVELYKFHQKLLHDAEAILQTYDLEVEISSCSNCVHTLNGSGAGRTMAAIL"/>
+                    <sequence id="seq_ser_bact_M_smegmatis" taxon="ser_bact_M_smegmatis" totalcount="20" value="----------------------------------------------------------------------------------------------------LQLGLLQLATQVAVQNGFTLMIPPVLVYLVGTSEVPLARRYAGWSSCFRRHQFDKVEGFIYHQRLLGWQREMLAKYDCEAELTSTSNCAATLNGTLATRWLVAIL"/>
+                    <sequence id="seq_ser_bact_M_mobile" taxon="ser_bact_M_mobile" totalcount="20" value="----------------------------------------------------------------------------------------------------LIRALESFMLDTHEKNGYSEIMPPFLVYLIPTAEVPVTSKFSSFTNCFRSHQFNKVELVEFFNSVLKNAKYLLETIDLELEVSSVSYFVHTINGSGADRVLAAIL"/>
+                    <sequence id="seq_ser_bact_B_licheniformis" taxon="ser_bact_B_licheniformis" totalcount="20" value="----------------------------------------------------------------------------------------------------LERALYNFMLDLHVDEGYTEVIPPYMVFLIPTAEVPITINYAAFSACFRSHQFNKVELVKFLEKLTNQAEKVLQKYDIEVEISSCSNFVHTLNGSGAGRTVAALL"/>
+                    <sequence id="seq_ser_bact_B_burgdorferi" taxon="ser_bact_B_burgdorferi" totalcount="20" value="----------------------------------------------------------------------------------------------------LEIALINFSLNKLRDKGFDVFITPDVAYLVGTSEITLGIRMAGFSHCFRKHQFSKVEMFCFHDEFLSIQEQIFTKYDIEAEVTSTSNCAHMVNGTAATTRVIISI"/>
+                    <sequence id="seq_ser_bact_C_A_asiaticus" taxon="ser_bact_C_A_asiaticus" totalcount="20" value="----------------------------------------------------------------------------------------------------LQRALINFFLDEARKAGYEEIQPPILVYLIPTAEVPVTIRHVAYTPCFRRHQFDKVEIVEILETMRRYVESLVQTYDIEVEVSSISNYLHTLNGSAAPRIMAALL"/>
+                    <sequence id="seq_ser_bact_D_radiodurans" taxon="ser_bact_D_radiodurans" totalcount="20" value="----------------------------------------------------------------------------------------------------LEMAVLMFALDFLSQRGFTPLSTTALVLLAGTAEVPINLTFAGFSAAFRRHEFRKVEQYVLFERLLSNAEGLLQMYDIETETHSCSYLAHTLNNTGAPRILVPLL"/>
+                    <sequence id="seq_ser_bact_S_aureus" taxon="ser_bact_S_aureus" totalcount="20" value="----------------------------------------------------------------------------------------------------LERALMNYMITKHTTQGYTEMMVPQLVYTIPTAEVPLTEKFTGQSACFRSHQFDKVEMVRFLEEMTTNAEAILETYDLEVEISSCSNCAHTLNGSGAGRTFAAIV"/>
+                    <sequence id="seq_ser_bact_d1sera_T_thermophilus" taxon="ser_bact_d1sera_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------YELALLRFAMDFMARRGFLPMTLPSYAYLTGTAEVVLNLRYAGYAPAFRSHQFHKVEQYVLFQELLENAEEILRQVDIEVETHSCSALAYTLNNTAAPRILAMLL"/>
+                    <sequence id="seq_thr_bact_R_marinus" taxon="thr_bact_R_marinus" totalcount="20" value="----------------------------------------------------------------------------------------------------LRETLINFLREEQIRRGYQPVVTPHIALLKPMNCPHHIIRLAEFGQVYRYRGFTIDDAHIFFKNVIDLTLYVFRKLDFMVQLGTVQLDPVMIHRAPSERFIGVLI"/>
+                    <sequence id="seq_thr_bact_C_aggregans" taxon="thr_bact_C_aggregans" totalcount="20" value="----------------------------------------------------------------------------------------------------IRHEMEKFVREVQTRYGYQHVWTGNVVRLKPMNCPSHMLRFAEFATLYRYRALTQDDCHIFFSLALQVIREVLGKADFLAQLSTIQVDPVVLHRAVTERFMGILI"/>
+                    <sequence id="seq_thr_bact_C_jejuni" taxon="thr_bact_C_jejuni" totalcount="20" value="----------------------------------------------------------------------------------------------------LRSKLEHMLYKIHRLRGYEPVRGPELLGIKPMNCVGHILKFFEYGVVHRHREFTQDDAHIFVLEILAFVDNLMKKIDIKIQCGTIQVDPVMLHRAISERFIGILT"/>
+                    <sequence id="seq_thr_bact_P_mikurensis" taxon="thr_bact_P_mikurensis" totalcount="20" value="----------------------------------------------------------------------------------------------------IRQELQTFIGEHLARQGYSQVFTPHIGLLKPMNCPHHIIRLAEFGTVYRWRGFTQDDAHLFVRGCIDLVKAVFEKIDFVVQLGTVQVDPVMIHRAPSERFVGCLI"/>
+                    <sequence id="seq_thr_bact_S_elongatus" taxon="thr_bact_S_elongatus" totalcount="20" value="----------------------------------------------------------------------------------------------------LRSTLEDFLKQEQMKRGYQSVVTPHLAVLKPMNCPFHIIRLAEFGTVYRYRGFTVDDSHLFFLSVVDLILSVFKKLDFIFQLGTVQVDPVMIHRAPSERLIGILI"/>
+                    <sequence id="seq_thr_bact_B_fragilis" taxon="thr_bact_B_fragilis" totalcount="20" value="----------------------------------------------------------------------------------------------------LRLRLQDFLRRIQTRYDYQEVITPPIGFLKPMNCPHHCLRIAEFGTVCRYRSFTQDDAHIFFLRVMDIISIVFRKLDFMVQLGTIQVDPVMIHRAPSERFVAVLI"/>
+                    <sequence id="seq_thr_bact_T_thermophilus" taxon="thr_bact_T_thermophilus" totalcount="20" value="----------------------------------------------------------------------------------------------------VREELMAFMREEQVRRGYQLVTTPHIGLLKPMNCPHHILRLAEFGTVYRYRGFTQDDAHIFFLGVLDLVLKVFAKLDFVVQLGTIQVDPVMLHRAPSERFIGILI"/>
+                    <sequence id="seq_thr_bact_H_aurantiacus" taxon="thr_bact_H_aurantiacus" totalcount="20" value="----------------------------------------------------------------------------------------------------LRDVLERFLRQAQIERGYLPVVTPHMGLLKPMNCPHHILRLAEFGTVYRYRSFTVDDSHLFFLKVVDLILFVFGKLDFIFQLGTVQVDPIMIHRAPSERFVGTLI"/>
+                    <sequence id="seq_thr_bact_T_maritima" taxon="thr_bact_T_maritima" totalcount="20" value="----------------------------------------------------------------------------------------------------VLNELMKFSRELHRERGYQEIFTPLIMAVKPMNCPGHILRFFEFGRVHRYRSFTQDDAHIFILGVLDLINTIYSKIDFHIQCATIQLDAVMIHRAISERFFGILI"/>
+                    <sequence id="seq_thr_bact_A_aeolicus" taxon="thr_bact_A_aeolicus" totalcount="20" value="----------------------------------------------------------------------------------------------------YRKVLEDYLREEHLKRGYQLVYTPHVGYVKPMNCPFHILKLFELGTVYRYRGFTQDDAHIVIRETLDFALSTLKKIDVKIQLSTIQFDPYMIHRALSERFTGILL"/>
+                    <sequence id="seq_thr_bact_B_thailandensis" taxon="thr_bact_B_thailandensis" totalcount="20" value="----------------------------------------------------------------------------------------------------LRSLLEDFLKQEQLKRGYLPVVTPHIAVLKPMNCPFHIMRLAEFGTVYRYRGFTVDDSHLFFLNVVDLILSVFNKLDFIFQLGTVQVDPVMIHRAPSERLIGILI"/>
+                    <sequence id="seq_thr_bact_G_obscuriglobus" taxon="thr_bact_G_obscuriglobus" totalcount="20" value="----------------------------------------------------------------------------------------------------IRRLLETFITDYERRAGYLHVFTPDIACLRPMCCPHHIIRIAELGNMYRFRCMTLNDAHLFIAGVLQLMKKAYAKIDVQVTLSTIQADPVMIHRGVTERMMSYLI"/>
+                    <sequence id="seq_thr_bact_B_licheniformis" taxon="thr_bact_B_licheniformis" totalcount="20" value="----------------------------------------------------------------------------------------------------VRKELEKLSRELQNNASYDEVHTPFMMAIKPMNCPGHMIRLAEYGQVHRHRTFCQDDAHIFIKKVFHLIDQVYRKIDFHIQCGTIQLDPVVIHRAISDRFFGILI"/>
+                    <sequence id="seq_thr_bact_B_burgdorferi" taxon="thr_bact_B_burgdorferi" totalcount="20" value="----------------------------------------------------------------------------------------------------IRALIEDFWREEHSKNGYDILFTPHIGYLKPMNCPFHIFRWAELGTVYRYRGFTQDDAHIIIKEVLRFAIYMWSKIDLKIQMSTIQFDPFMIHRALSERFFGILV"/>
+                    <sequence id="seq_thr_bact_C_A_asiaticus" taxon="thr_bact_C_A_asiaticus" totalcount="20" value="----------------------------------------------------------------------------------------------------LREQLEQFLRRAQVKAGYQPVVTPHIGFLKPMNCPHHCVRLAEFGTVYRYRGFTQDDAHIFFAKVIDLVTYVFSKLDFMVQLGTVQLDPVMIHRAPSERFIAILL"/>
+                    <sequence id="seq_thr_bact_D_radiodurans" taxon="thr_bact_D_radiodurans" totalcount="20" value="----------------------------------------------------------------------------------------------------LREELTNFMKEQQFQRGYQGVVTPNIGMLKPMNCPHHVVRLAEFGTVYRYRGFTQDDAHIFFLDVLDLTVLVLKKLDFVVQLGTIQVDPIMIHRAPSERFTGILI"/>
+                    <sequence id="seq_thr_bact_d1evka_E_coli" taxon="thr_bact_d1evka_E_coli" totalcount="20" value="----------------------------------------------------------------------------------------------------IFRELEVFVRSKLKEYQYQEVKGPFMMCIKPMNCPGHVLRMAEFGSCHRNRGFTQDDAHIFVNGCIRLVYDMYSKIEFTLQCGTVQLDPVMIHRAISERFIGILT"/>
+                    <sequence id="seq_thr_bact_d1nyra_S_aureus" taxon="thr_bact_d1nyra_S_aureus" totalcount="20" value="----------------------------------------------------------------------------------------------------IRREIERYIVDKEVSMGYDHVYTPVLAVLRPMNCPHHMIRIAELGTMHRYRGMTLNDSHIFFKRVVNMIIDVYKKLDVQVTLSTAQLDPVVIHRGVTERFVAFLT"/>
+                </data>
+    
+
+    
+<map name="Beta">beast.math.distributions.Beta</map>
+<map name="Exponential">beast.math.distributions.Exponential</map>
+<map name="InverseGamma">beast.math.distributions.InverseGamma</map>
+<map name="LogNormal">beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Gamma">beast.math.distributions.Gamma</map>
+<map name="Uniform">beast.math.distributions.Uniform</map>
+<map name="prior">beast.math.distributions.Prior</map>
+<map name="LaplaceDistribution">beast.math.distributions.LaplaceDistribution</map>
+<map name="OneOnX">beast.math.distributions.OneOnX</map>
+<map name="Normal">beast.math.distributions.Normal</map>
+<map name="taxon">beast.evolution.alignment.Taxon</map>
+<map name="taxonset">beast.evolution.alignment.TaxonSet</map>
+
+<taxonset id='allTaxa' alignment='@AARS'/>
+
+
+<run chainLength="10000000" id="mcmc" spec="MCMC">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:AARS" name="stateNode">
+            <taxonset id="TaxonSet.AARS" spec="TaxonSet">
+                <data idref="AARS" name="alignment"/>
+            </taxonset>
+        </tree>
+        <parameter id="birthRate2.t:AARS" lower = "0.0" name="stateNode" upper="10000.0">1.0</parameter>
+		<parameter id="relativeDeathRate2.t:AARS" lower = "0.0" name="stateNode" upper="1.0">0.5</parameter>
+		<stateNode idref='ucldStdev.c:AARS'/>
+		<stateNode idref='rateCategories.c:AARS'/>
+    </state>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+
+            <distribution id="V.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="V" spec="TaxonSet">
+                    <taxon id="val_bact_1gax_T_thermophilus"/>
+                    <taxon id="val_bact_R_marinus"/>
+                    <taxon id="val_bact_E_coli"/>
+                    <taxon id="val_bact_C_jejuni"/>
+                    <taxon id="val_bact_B_thailandensis"/>
+                    <taxon id="val_bact_S_elongatus"/>
+                    <taxon id="val_bact_G_stearothermophilus"/>
+                    <taxon id="val_bact_T_thermophilus"/>
+                    <taxon id="val_bact_B_licheniformis"/>
+                    <taxon id="val_bact_T_maritima"/>
+                    <taxon id="val_bact_C_thermalis"/>
+                    <taxon id="val_bact_M_smegmatis"/>
+                    <taxon id="val_bact_M_mobile"/>
+                    <taxon id="val_bact_B_burgdorferi"/>
+                    <taxon id="val_bact_C_A_asiaticus"/>
+                    <taxon id="val_bact_D_radiodurans"/>
+                    <taxon id="val_bact_S_aureus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="G.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="G" spec="TaxonSet">
+                    <taxon id="gly_bact_R_marinus"/>
+                    <taxon id="gly_bact_C_A_asiaticus"/>
+                    <taxon id="gly_bact_G_obscuriglobus"/>
+                    <taxon id="gly_bact_G_stearothermophilus"/>
+                    <taxon id="gly_bact_H_aurantiacus"/>
+                    <taxon id="gly_bact_M_mobile"/>
+                    <taxon id="gly_bact_P_mikurensis"/>
+                    <taxon id="gly_bact_S_aureus"/>
+                    <taxon id="gly_bact_B_fragilis"/>
+                    <taxon id="gly_bact_C_aggregans"/>
+                    <taxon id="gly_bact_D_radiodurans"/>
+                    <taxon id="gly_bact_B_burgdorferi"/>
+                    <taxon id="gly_bact_d1atib_T_thermophilus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="A.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="A" spec="TaxonSet">
+                    <taxon id="ala_bact_1yfsa_A_aeolicus"/>
+                    <taxon id="ala_bact_3hxv_E_coli"/>
+                    <taxon id="ala_bact_D_radiodurans"/>
+                    <taxon id="ala_bact_C_aggregans"/>
+                    <taxon id="ala_bact_P_mikurensis"/>
+                    <taxon id="ala_bact_B_thailandensis"/>
+                    <taxon id="ala_bact_S_elongatus"/>
+                    <taxon id="ala_bact_B_fragilis"/>
+                    <taxon id="ala_bact_G_stearothermophilus"/>
+                    <taxon id="ala_bact_T_thermophilus"/>
+                    <taxon id="ala_bact_H_aurantiacus"/>
+                    <taxon id="ala_bact_T_maritima"/>
+                    <taxon id="ala_bact_G_obscuriglobus"/>
+                    <taxon id="ala_bact_C_thermalis"/>
+                    <taxon id="ala_bact_M_mobile"/>
+                    <taxon id="ala_bact_B_licheniformis"/>
+                    <taxon id="ala_bact_B_burgdorferi"/>
+                    <taxon id="ala_bact_C_A_asiaticus"/>
+                    <taxon id="ala_bact_S_aureus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="D.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="D" spec="TaxonSet">
+                    <taxon id="asp_bact_R_marinus"/>
+                    <taxon id="asp_bact_C_aggregans"/>
+                    <taxon id="asp_bact_C_jejuni"/>
+                    <taxon id="asp_bact_B_thailandensis"/>
+                    <taxon id="asp_bact_S_elongatus"/>
+                    <taxon id="asp_bact_B_fragilis"/>
+                    <taxon id="asp_bact_G_stearothermophilus"/>
+                    <taxon id="asp_bact_H_aurantiacus"/>
+                    <taxon id="asp_bact_D_radiodurans"/>
+                    <taxon id="asp_bact_P_mikurensis"/>
+                    <taxon id="asp_bact_T_maritima"/>
+                    <taxon id="asp_bact_A_aeolicus"/>
+                    <taxon id="asp_bact_M_smegmatis"/>
+                    <taxon id="asp_bact_M_mobile"/>
+                    <taxon id="asp_bact_B_licheniformis"/>
+                    <taxon id="asp_bact_B_burgdorferi"/>
+                    <taxon id="asp_bact_C_A_asiaticus"/>
+                    <taxon id="asp_bact_S_aureus"/>
+                    <taxon id="asp_bact_d1c0aa_E_coli"/>
+                    <taxon id="asp_bact_d1efwa_T_thermophilus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="P.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="P" spec="TaxonSet">
+                    <taxon id="pro_bact_2i4la_R_palustris"/>
+                    <taxon id="pro_bact_2j3mb_E_faecalis"/>
+                    <taxon id="pro_bact_R_marinus"/>
+                    <taxon id="pro_bact_E_coli"/>
+                    <taxon id="pro_bact_C_aggregans"/>
+                    <taxon id="pro_bact_B_thailandensis"/>
+                    <taxon id="pro_bact_P_mikurensis"/>
+                    <taxon id="pro_bact_S_elongatus"/>
+                    <taxon id="pro_bact_B_fragilis"/>
+                    <taxon id="pro_bact_G_stearothermophilus"/>
+                    <taxon id="pro_bact_H_aurantiacus"/>
+                    <taxon id="pro_bact_T_maritima"/>
+                    <taxon id="pro_bact_A_aeolicus"/>
+                    <taxon id="pro_bact_G_obscuriglobus"/>
+                    <taxon id="pro_bact_C_thermalis"/>
+                    <taxon id="pro_bact_B_licheniformis"/>
+                    <taxon id="pro_bact_B_burgdorferi"/>
+                    <taxon id="pro_bact_C_A_asiaticus"/>
+                    <taxon id="pro_bact_D_radiodurans"/>
+                    <taxon id="pro_bact_S_aureus"/>
+                    <taxon id="pro_bact_d1hc7a_T_thermophilus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="E.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="E" spec="TaxonSet">
+                    <taxon id="glu_bact_1j09_T_thermophilus"/>
+                    <taxon id="glu_bact_1nzj_E_coli"/>
+                    <taxon id="glu_bact_2cfo_T_elongatus"/>
+                    <taxon id="glu_bact_2o5r_T_maritima"/>
+                    <taxon id="glu_bact_R_marinus"/>
+                    <taxon id="glu_bact_C_aggregans"/>
+                    <taxon id="glu_bact_C_jejuni"/>
+                    <taxon id="glu_bact_P_mikurensis"/>
+                    <taxon id="glu_bact_B_thailandensis"/>
+                    <taxon id="glu_bact_B_fragilis"/>
+                    <taxon id="glu_bact_G_stearothermophilus"/>
+                    <taxon id="glu_bact_H_aurantiacus"/>
+                    <taxon id="glu_bact_D_radiodurans"/>
+                    <taxon id="glu_bact_A_aeolicus"/>
+                    <taxon id="glu_bact_G_obscuriglobus"/>
+                    <taxon id="glu_bact_M_mobile"/>
+                    <taxon id="glu_bact_B_licheniformis"/>
+                    <taxon id="glu_bact_B_burgdorferi"/>
+                    <taxon id="glu_bact_S_aureus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="S.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="S" spec="TaxonSet">
+                    <taxon id="ser_bact_R_marinus"/>
+                    <taxon id="ser_bact_E_coli"/>
+                    <taxon id="ser_bact_C_aggregans"/>
+                    <taxon id="ser_bact_C_jejuni"/>
+                    <taxon id="ser_bact_B_thailandensis"/>
+                    <taxon id="ser_bact_S_elongatus"/>
+                    <taxon id="ser_bact_B_fragilis"/>
+                    <taxon id="ser_bact_G_stearothermophilus"/>
+                    <taxon id="ser_bact_H_aurantiacus"/>
+                    <taxon id="ser_bact_T_maritima"/>
+                    <taxon id="ser_bact_A_aeolicus"/>
+                    <taxon id="ser_bact_C_thermalis"/>
+                    <taxon id="ser_bact_M_smegmatis"/>
+                    <taxon id="ser_bact_M_mobile"/>
+                    <taxon id="ser_bact_B_licheniformis"/>
+                    <taxon id="ser_bact_B_burgdorferi"/>
+                    <taxon id="ser_bact_C_A_asiaticus"/>
+                    <taxon id="ser_bact_D_radiodurans"/>
+                    <taxon id="ser_bact_S_aureus"/>
+                    <taxon id="ser_bact_d1sera_T_thermophilus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="L.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="L" spec="TaxonSet">
+                    <taxon id="leu_bact_2v0c_T_thermophilus"/>
+                    <taxon id="leu_bact_A_aeolicus"/>
+                    <taxon id="leu_bact_B_burgdorferi"/>
+                    <taxon id="leu_bact_B_licheniformis"/>
+                    <taxon id="leu_bact_B_thailandensis"/>
+                    <taxon id="leu_bact_C_Amoebophilus_asiaticus"/>
+                    <taxon id="leu_bact_C_aggregans"/>
+                    <taxon id="leu_bact_C_jejuni"/>
+                    <taxon id="leu_bact_C_thermalis"/>
+                    <taxon id="leu_bact_D_radiodurans"/>
+                    <taxon id="leu_bact_E_coli"/>
+                    <taxon id="leu_bact_G_obscuriglobus"/>
+                    <taxon id="leu_bact_G_stearothermophilus"/>
+                    <taxon id="leu_bact_M_mobile"/>
+                    <taxon id="leu_bact_M_smegmatis"/>
+                    <taxon id="leu_bact_S_aureus"/>
+                    <taxon id="leu_bact_S_elongatus"/>
+                    <taxon id="leu_bact_T_maritima"/>
+                    <taxon id="leu_bact_T_thermophilus"/>
+                    <taxon id="leu_bact_R_marinus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="R.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="R" spec="TaxonSet">
+                    <taxon id="arg_bact_1iq0_T_thermophilus"/>
+                    <taxon id="arg_bact_3fnr_C_jejuni"/>
+                    <taxon id="arg_bact_R_marinus"/>
+                    <taxon id="arg_bact_E_coli"/>
+                    <taxon id="arg_bact_C_aggregans"/>
+                    <taxon id="arg_bact_P_mikurensis"/>
+                    <taxon id="arg_bact_S_elongatus"/>
+                    <taxon id="arg_bact_B_fragilis"/>
+                    <taxon id="arg_bact_H_aurantiacus"/>
+                    <taxon id="arg_bact_B_thailandensis"/>
+                    <taxon id="arg_bact_B_licheniformis"/>
+                    <taxon id="arg_bact_T_maritima"/>
+                    <taxon id="arg_bact_A_aeolicus"/>
+                    <taxon id="arg_bact_G_stearothermophilus"/>
+                    <taxon id="arg_bact_S_aureus"/>
+                    <taxon id="arg_bact_G_obscuriglobus"/>
+                    <taxon id="arg_bact_C_thermalis"/>
+                    <taxon id="arg_bact_B_burgdorferi"/>
+                    <taxon id="arg_bact_C_A_asiaticus"/>
+                    <taxon id="arg_bact_D_radiodurans"/>
+                </taxonset>
+            </distribution>
+            <distribution id="T.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="T" spec="TaxonSet">
+                    <taxon id="thr_bact_R_marinus"/>
+                    <taxon id="thr_bact_C_aggregans"/>
+                    <taxon id="thr_bact_C_jejuni"/>
+                    <taxon id="thr_bact_P_mikurensis"/>
+                    <taxon id="thr_bact_S_elongatus"/>
+                    <taxon id="thr_bact_B_fragilis"/>
+                    <taxon id="thr_bact_T_thermophilus"/>
+                    <taxon id="thr_bact_H_aurantiacus"/>
+                    <taxon id="thr_bact_T_maritima"/>
+                    <taxon id="thr_bact_A_aeolicus"/>
+                    <taxon id="thr_bact_B_thailandensis"/>
+                    <taxon id="thr_bact_G_obscuriglobus"/>
+                    <taxon id="thr_bact_B_licheniformis"/>
+                    <taxon id="thr_bact_B_burgdorferi"/>
+                    <taxon id="thr_bact_C_A_asiaticus"/>
+                    <taxon id="thr_bact_D_radiodurans"/>
+                    <taxon id="thr_bact_d1evka_E_coli"/>
+                    <taxon id="thr_bact_d1nyra_S_aureus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="I.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="I" spec="TaxonSet">
+                    <taxon id="ile_bact_1ile_T_thermophilus"/>
+                    <taxon id="ile_bact_1qu2_S_aureus"/>
+                    <taxon id="ile_bact_R_marinus"/>
+                    <taxon id="ile_bact_E_coli"/>
+                    <taxon id="ile_bact_C_aggregans"/>
+                    <taxon id="ile_bact_C_jejuni"/>
+                    <taxon id="ile_bact_P_mikurensis"/>
+                    <taxon id="ile_bact_B_thailandensis"/>
+                    <taxon id="ile_bact_S_elongatus"/>
+                    <taxon id="ile_bact_B_fragilis"/>
+                    <taxon id="ile_bact_G_stearothermophilus"/>
+                    <taxon id="ile_bact_H_aurantiacus"/>
+                    <taxon id="ile_bact_T_maritima"/>
+                    <taxon id="ile_bact_A_aeolicus"/>
+                    <taxon id="ile_bact_M_mobile"/>
+                    <taxon id="ile_bact_C_thermalis"/>
+                    <taxon id="ile_bact_C_A_asiaticus"/>
+                    <taxon id="ile_bact_G_obscuriglobus"/>
+                    <taxon id="ile_bact_B_licheniformis"/>
+                    <taxon id="ile_bact_B_burgdorferi"/>
+                    <taxon id="ile_bact_D_radiodurans"/>
+                </taxonset>
+            </distribution>
+            <distribution id="Q.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="Q" spec="TaxonSet">
+                    <taxon id="gln_bact_1qtq_E_coli"/>
+                    <taxon id="gln_bact_2hz7_D_radiodurans"/>
+                    <taxon id="gln_bact_C_jejuni"/>
+                    <taxon id="gln_bact_P_mikurensis"/>
+                    <taxon id="gln_bact_B_thailandensis"/>
+                    <taxon id="gln_bact_S_elongatus"/>
+                    <taxon id="gln_bact_T_thermophilus"/>
+                    <taxon id="gln_bact_B_fragilis"/>
+                    <taxon id="gln_bact_G_obscuriglobus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="N.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="N" spec="TaxonSet">
+                    <taxon id="asn_bact_R_marinus"/>
+                    <taxon id="asn_bact_E_coli"/>
+                    <taxon id="asn_bact_C_aggregans"/>
+                    <taxon id="asn_bact_S_elongatus"/>
+                    <taxon id="asn_bact_B_fragilis"/>
+                    <taxon id="asn_bact_H_aurantiacus"/>
+                    <taxon id="asn_bact_G_obscuriglobus"/>
+                    <taxon id="asn_bact_C_thermalis"/>
+                    <taxon id="asn_bact_M_mobile"/>
+                    <taxon id="asn_bact_B_burgdorferi"/>
+                    <taxon id="asn_bact_C_A_asiaticus"/>
+                    <taxon id="asn_bact_D_radiodurans"/>
+                    <taxon id="asn_bact_S_aureus"/>
+                    <taxon id="asn_bact_d1asza_T_thermophilus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="C.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="C" spec="TaxonSet">
+                    <taxon id="cys_bact_1li5_E_coli"/>
+                    <taxon id="cys_bact_3c8z_M_smegmatis"/>
+                    <taxon id="cys_bact_R_marinus"/>
+                    <taxon id="cys_bact_H_aurantiacus"/>
+                    <taxon id="cys_bact_C_aggregans"/>
+                    <taxon id="cys_bact_S_elongatus"/>
+                    <taxon id="cys_bact_T_maritima"/>
+                    <taxon id="cys_bact_T_thermophilus"/>
+                    <taxon id="cys_bact_B_fragilis"/>
+                    <taxon id="cys_bact_B_licheniformis"/>
+                    <taxon id="cys_bact_B_thailandensis"/>
+                    <taxon id="cys_bact_C_jejuni"/>
+                    <taxon id="cys_bact_C_thermalis"/>
+                    <taxon id="cys_bact_A_aeolicus"/>
+                    <taxon id="cys_bact_D_radiodurans"/>
+                    <taxon id="cys_bact_P_mikurensis"/>
+                    <taxon id="cys_bact_S_aureus"/>
+                    <taxon id="cys_bact_G_obscuriglobus"/>
+                    <taxon id="cys_bact_M_mobile"/>
+                    <taxon id="cys_bact_B_burgdorferi"/>
+                    <taxon id="cys_bact_C_A_asiaticus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="Y.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="Y" spec="TaxonSet">
+                    <taxon id="tyr_bact_1h3f_T_thermophilus"/>
+                    <taxon id="tyr_bact_1jil_S_aureus"/>
+                    <taxon id="tyr_bact_1wq4_E_coli"/>
+                    <taxon id="tyr_bact_C_aggregans"/>
+                    <taxon id="tyr_bact_C_jejuni"/>
+                    <taxon id="tyr_bact_P_mikurensis"/>
+                    <taxon id="tyr_bact_S_elongatus"/>
+                    <taxon id="tyr_bact_B_fragilis"/>
+                    <taxon id="tyr_bact_G_stearothermophilus"/>
+                    <taxon id="tyr_bact_H_aurantiacus"/>
+                    <taxon id="tyr_bact_T_maritima"/>
+                    <taxon id="tyr_bact_A_aeolicus"/>
+                    <taxon id="tyr_bact_G_obscuriglobus"/>
+                    <taxon id="tyr_bact_C_thermalis"/>
+                    <taxon id="tyr_bact_B_licheniformis"/>
+                    <taxon id="tyr_bact_M_mobile"/>
+                    <taxon id="tyr_bact_B_burgdorferi"/>
+                    <taxon id="tyr_bact_C_A_asiaticus"/>
+                    <taxon id="tyr_bact_D_radiodurans"/>
+                </taxonset>
+            </distribution>
+            <distribution id="H.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="H" spec="TaxonSet">
+                    <taxon id="his_bact_1htt_E_coli"/>
+                    <taxon id="his_bact_C_aggregans"/>
+                    <taxon id="his_bact_C_jejuni"/>
+                    <taxon id="his_bact_P_mikurensis"/>
+                    <taxon id="his_bact_S_elongatus"/>
+                    <taxon id="his_bact_B_fragilis"/>
+                    <taxon id="his_bact_G_stearothermophilus"/>
+                    <taxon id="his_bact_H_aurantiacus"/>
+                    <taxon id="his_bact_B_thailandensis"/>
+                    <taxon id="his_bact_T_maritima"/>
+                    <taxon id="his_bact_A_aeolicus"/>
+                    <taxon id="his_bact_G_obscuriglobus"/>
+                    <taxon id="his_bact_C_thermalis"/>
+                    <taxon id="his_bact_M_mobile"/>
+                    <taxon id="his_bact_B_licheniformis"/>
+                    <taxon id="his_bact_B_burgdorferi"/>
+                    <taxon id="his_bact_C_A_asiaticus"/>
+                    <taxon id="his_bact_D_radiodurans"/>
+                    <taxon id="his_bact_d1adjc_T_thermophilus"/>
+                    <taxon id="his_bact_d1qe0a_S_aureus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="M.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="M" spec="TaxonSet">
+                    <taxon id="met_bact_1pfv_E_coli"/>
+                    <taxon id="met_bact_1woy_T_thermophilus"/>
+                    <taxon id="met_bact_2csx_A_aeolicus"/>
+                    <taxon id="met_bact_2x1l_M_smegmatis"/>
+                    <taxon id="met_bact_R_marinus"/>
+                    <taxon id="met_bact_C_aggregans"/>
+                    <taxon id="met_bact_C_jejuni"/>
+                    <taxon id="met_bact_P_mikurensis"/>
+                    <taxon id="met_bact_S_elongatus"/>
+                    <taxon id="met_bact_H_aurantiacus"/>
+                    <taxon id="met_bact_S_aureus"/>
+                    <taxon id="met_bact_T_maritima"/>
+                    <taxon id="met_bact_B_burgdorferi"/>
+                    <taxon id="met_bact_B_fragilis"/>
+                    <taxon id="met_bact_B_licheniformis"/>
+                    <taxon id="met_bact_B_thailandensis"/>
+                    <taxon id="met_bact_D_radiodurans"/>
+                    <taxon id="met_bact_G_stearothermophilus"/>
+                    <taxon id="met_bact_G_obscuriglobus"/>
+                    <taxon id="met_bact_C_thermalis"/>
+                    <taxon id="met_bact_C_A_asiaticus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="W.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="W" spec="TaxonSet">
+                    <taxon id="trp_bact_1i6m_G_stearothermophilus"/>
+                    <taxon id="trp_bact_2el7_T_thermophilus"/>
+                    <taxon id="trp_bact_2g36_T_maritima"/>
+                    <taxon id="trp_bact_E_coli"/>
+                    <taxon id="trp_bact_C_aggregans"/>
+                    <taxon id="trp_bact_C_jejuni"/>
+                    <taxon id="trp_bact_P_mikurensis"/>
+                    <taxon id="trp_bact_S_elongatus"/>
+                    <taxon id="trp_bact_B_fragilis"/>
+                    <taxon id="trp_bact_H_aurantiacus"/>
+                    <taxon id="trp_bact_G_obscuriglobus"/>
+                    <taxon id="trp_bact_C_thermalis"/>
+                    <taxon id="trp_bact_A_aeolicus"/>
+                    <taxon id="trp_bact_B_thailandensis"/>
+                    <taxon id="trp_bact_B_licheniformis"/>
+                    <taxon id="trp_bact_B_burgdorferi"/>
+                    <taxon id="trp_bact_C_A_asiaticus"/>
+                    <taxon id="trp_bact_D_radiodurans"/>
+                    <taxon id="trp_bact_S_aureus"/>
+                    <taxon id="trp_bact_R_marinus"/>
+                </taxonset>
+            </distribution>
+            <distribution id="K.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="K" spec="TaxonSet">
+                    <taxon id="lys_bact_3e9h_G_stearothermophilus"/>
+                    <taxon id="lys_bact_3g1z_S_typhimurium"/>
+                    <taxon id="lys_bact_C_aggregans"/>
+                    <taxon id="lys_bact_C_jejuni"/>
+                    <taxon id="lys_bact_P_mikurensis"/>
+                    <taxon id="lys_bact_B_thailandensis"/>
+                    <taxon id="lys_bact_S_elongatus"/>
+                    <taxon id="lys_bact_B_fragilis"/>
+                    <taxon id="lys_bact_T_thermophilus"/>
+                    <taxon id="lys_bact_H_aurantiacus"/>
+                    <taxon id="lys_bact_T_maritima"/>
+                    <taxon id="lys_bact_G_obscuriglobus"/>
+                    <taxon id="lys_bact_M_mobile"/>
+                    <taxon id="lys_bact_B_licheniformis"/>
+                    <taxon id="lys_bact_C_A_asiaticus"/>
+                    <taxon id="lys_bact_D_radiodurans"/>
+                    <taxon id="lys_bact_S_aureus"/>
+                    <taxon id="lys_bact_d1e1oa_E_coli"/>
+                </taxonset>
+            </distribution>
+            <distribution id="F.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:AARS">
+                <taxonset id="F" spec="TaxonSet">
+                    <taxon id="phe_bact_2alya_T_thermophilus"/>
+                    <taxon id="phe_bact_2rhq_S_haemolyticus"/>
+                    <taxon id="phe_bact_R_marinus"/>
+                    <taxon id="phe_bact_C_thermalis"/>
+                    <taxon id="phe_bact_C_A_asiaticus"/>
+                    <taxon id="phe_bact_D_radiodurans"/>
+                    <taxon id="phe_bact_G_obscuriglobus"/>
+                    <taxon id="phe_bact_H_aurantiacus"/>
+                    <taxon id="phe_bact_M_mobile"/>
+                    <taxon id="phe_bact_P_mikurensis"/>
+                    <taxon id="phe_bact_S_aureus"/>
+                    <taxon id="phe_bact_M_smegmatis"/>
+                    <taxon id="phe_bact_E_coli"/>
+                    <taxon id="phe_bact_A_aeolicus"/>
+                    <taxon id="phe_bact_B_licheniformis"/>
+                    <taxon id="phe_bact_B_thailandensis"/>
+                    <taxon id="phe_bact_C_aggregans"/>
+                    <taxon id="phe_bact_C_jejuni"/>
+                </taxonset>
+            </distribution>
+
+            <distribution spec='beast.evolution.substitutionmodel.AARSTreePrior' id='AARSprior'>
+                <trait id="TraitSet1" spec="beast.evolution.tree.TraitSet" taxa="@allTaxa" traitname="state" units="year">
+                    val_bact_1gax_T_thermophilus=0, val_bact_E_coli=0, val_bact_C_jejuni=0, val_bact_B_thailandensis=0, val_bact_S_elongatus=0, val_bact_G_stearothermophilus=0, val_bact_T_thermophilus=0, val_bact_B_licheniformis=0, val_bact_T_maritima=0, val_bact_C_thermalis=0, val_bact_M_smegmatis=0, val_bact_M_mobile=0, val_bact_B_burgdorferi=0, val_bact_C_A_asiaticus=0, val_bact_D_radiodurans=0, val_bact_S_aureus=0,  
+                    gly_bact_R_marinus=1, gly_bact_C_A_asiaticus=1, gly_bact_G_obscuriglobus=1, gly_bact_G_stearothermophilus=1, gly_bact_H_aurantiacus=1, gly_bact_M_mobile=1, gly_bact_P_mikurensis=1, gly_bact_S_aureus=1, gly_bact_B_fragilis=1, gly_bact_C_aggregans=1, gly_bact_D_radiodurans=1, gly_bact_B_burgdorferi=1, gly_bact_d1atib_T_thermophilus=1, 
+                    ala_bact_1yfsa_A_aeolicus=2, ala_bact_3hxv_E_coli=2, ala_bact_D_radiodurans=2, ala_bact_C_aggregans=2, ala_bact_P_mikurensis=2, ala_bact_B_thailandensis=2, ala_bact_S_elongatus=2, ala_bact_B_fragilis=2, ala_bact_G_stearothermophilus=2, ala_bact_T_thermophilus=2, ala_bact_H_aurantiacus=2, ala_bact_T_maritima=2, ala_bact_G_obscuriglobus=2, ala_bact_C_thermalis=2, ala_bact_M_mobile=2, ala_bact_B_licheniformis=2, ala_bact_B_burgdorferi=2, ala_bact_C_A_asiaticus=2, ala_bact_S_aureus=2, 
+                    asp_bact_R_marinus=3, asp_bact_C_aggregans=3, asp_bact_C_jejuni=3, asp_bact_B_thailandensis=3, asp_bact_S_elongatus=3, asp_bact_B_fragilis=3, asp_bact_G_stearothermophilus=3, asp_bact_H_aurantiacus=3, asp_bact_D_radiodurans=3, asp_bact_P_mikurensis=3, asp_bact_T_maritima=3, asp_bact_A_aeolicus=3, asp_bact_M_smegmatis=3, asp_bact_M_mobile=3, asp_bact_B_licheniformis=3, asp_bact_B_burgdorferi=3, asp_bact_C_A_asiaticus=3, asp_bact_S_aureus=3, asp_bact_d1c0aa_E_coli=3, asp_bact_d1efwa_T_thermophilus=3, 
+                    pro_bact_2i4la_R_palustris=4, pro_bact_2j3mb_E_faecalis=4, pro_bact_R_marinus=4, pro_bact_E_coli=4, pro_bact_C_aggregans=4, pro_bact_B_thailandensis=4, pro_bact_P_mikurensis=4, pro_bact_S_elongatus=4, pro_bact_B_fragilis=4, pro_bact_G_stearothermophilus=4, pro_bact_H_aurantiacus=4, pro_bact_T_maritima=4, pro_bact_A_aeolicus=4, pro_bact_G_obscuriglobus=4, pro_bact_C_thermalis=4, pro_bact_B_licheniformis=4, pro_bact_B_burgdorferi=4, pro_bact_C_A_asiaticus=4, pro_bact_D_radiodurans=4, pro_bact_S_aureus=4, pro_bact_d1hc7a_T_thermophilus=4, 
+                    glu_bact_1j09_T_thermophilus=5, glu_bact_1nzj_E_coli=5, glu_bact_2cfo_T_elongatus=5, glu_bact_2o5r_T_maritima=5, glu_bact_R_marinus=5, glu_bact_C_aggregans=5, glu_bact_C_jejuni=5, glu_bact_P_mikurensis=5, glu_bact_B_thailandensis=5, glu_bact_B_fragilis=5, glu_bact_G_stearothermophilus=5, glu_bact_H_aurantiacus=5, glu_bact_D_radiodurans=5, glu_bact_A_aeolicus=5, glu_bact_G_obscuriglobus=5, glu_bact_M_mobile=5, glu_bact_B_licheniformis=5, glu_bact_B_burgdorferi=5, glu_bact_S_aureus=5, 
+                    ser_bact_R_marinus=6, ser_bact_E_coli=6, ser_bact_C_aggregans=6, ser_bact_C_jejuni=6, ser_bact_B_thailandensis=6, ser_bact_S_elongatus=6, ser_bact_B_fragilis=6, ser_bact_G_stearothermophilus=6, ser_bact_H_aurantiacus=6, ser_bact_T_maritima=6, ser_bact_A_aeolicus=6, ser_bact_C_thermalis=6, ser_bact_M_smegmatis=6, ser_bact_M_mobile=6, ser_bact_B_licheniformis=6, ser_bact_B_burgdorferi=6, ser_bact_C_A_asiaticus=6, ser_bact_D_radiodurans=6, ser_bact_S_aureus=6, ser_bact_d1sera_T_thermophilus=6, 
+                    leu_bact_2v0c_T_thermophilus=7, leu_bact_A_aeolicus=7, leu_bact_B_burgdorferi=7, leu_bact_B_licheniformis=7, leu_bact_B_thailandensis=7, leu_bact_C_Amoebophilus_asiaticus=7, leu_bact_C_aggregans=7, leu_bact_C_jejuni=7, leu_bact_C_thermalis=7, leu_bact_D_radiodurans=7, leu_bact_E_coli=7, leu_bact_G_obscuriglobus=7, leu_bact_G_stearothermophilus=7, leu_bact_M_mobile=7, leu_bact_M_smegmatis=7, leu_bact_S_aureus=7, leu_bact_S_elongatus=7, leu_bact_T_maritima=7, leu_bact_T_thermophilus=7, leu_bact_R_marinus=7, 
+                    arg_bact_1iq0_T_thermophilus=8, arg_bact_3fnr_C_jejuni=8, arg_bact_R_marinus=8, arg_bact_E_coli=8, arg_bact_C_aggregans=8, arg_bact_P_mikurensis=8, arg_bact_S_elongatus=8, arg_bact_B_fragilis=8, arg_bact_H_aurantiacus=8, arg_bact_B_thailandensis=8, arg_bact_B_licheniformis=8, arg_bact_T_maritima=8, arg_bact_A_aeolicus=8, arg_bact_G_stearothermophilus=8, arg_bact_S_aureus=8, arg_bact_G_obscuriglobus=8, arg_bact_C_thermalis=8, arg_bact_B_burgdorferi=8, arg_bact_C_A_asiaticus=8, arg_bact_D_radiodurans=8, 
+                    thr_bact_R_marinus=9, thr_bact_C_aggregans=9, thr_bact_C_jejuni=9, thr_bact_P_mikurensis=9, thr_bact_S_elongatus=9, thr_bact_B_fragilis=9, thr_bact_T_thermophilus=9, thr_bact_H_aurantiacus=9, thr_bact_T_maritima=9, thr_bact_A_aeolicus=9, thr_bact_B_thailandensis=9, thr_bact_G_obscuriglobus=9, thr_bact_B_licheniformis=9, thr_bact_B_burgdorferi=9, thr_bact_C_A_asiaticus=9, thr_bact_D_radiodurans=9, thr_bact_d1evka_E_coli=9, thr_bact_d1nyra_S_aureus=9, 
+                    ile_bact_1ile_T_thermophilus=10, ile_bact_1qu2_S_aureus=10, ile_bact_R_marinus=10, ile_bact_E_coli=10, ile_bact_C_aggregans=10, ile_bact_C_jejuni=10, ile_bact_P_mikurensis=10, ile_bact_B_thailandensis=10, ile_bact_S_elongatus=10, ile_bact_B_fragilis=10, ile_bact_G_stearothermophilus=10, ile_bact_H_aurantiacus=10, ile_bact_T_maritima=10, ile_bact_A_aeolicus=10, ile_bact_M_mobile=10, ile_bact_C_thermalis=10, ile_bact_C_A_asiaticus=10, ile_bact_G_obscuriglobus=10, ile_bact_B_licheniformis=10, ile_bact_B_burgdorferi=10, ile_bact_D_radiodurans=10, 
+                    gln_bact_1qtq_E_coli=11, gln_bact_2hz7_D_radiodurans=11, gln_bact_C_jejuni=11, gln_bact_P_mikurensis=11, gln_bact_B_thailandensis=11, gln_bact_S_elongatus=11, gln_bact_T_thermophilus=11, gln_bact_B_fragilis=11, gln_bact_G_obscuriglobus=11, 
+                    asn_bact_R_marinus=12, asn_bact_E_coli=12, asn_bact_C_aggregans=12, asn_bact_S_elongatus=12, asn_bact_B_fragilis=12, asn_bact_H_aurantiacus=12, asn_bact_G_obscuriglobus=12, asn_bact_C_thermalis=12, asn_bact_M_mobile=12, asn_bact_B_burgdorferi=12, asn_bact_C_A_asiaticus=12, asn_bact_D_radiodurans=12, asn_bact_S_aureus=12, asn_bact_d1asza_T_thermophilus=12, 
+                    cys_bact_1li5_E_coli=13, cys_bact_3c8z_M_smegmatis=13, cys_bact_R_marinus=13, cys_bact_H_aurantiacus=13, cys_bact_C_aggregans=13, cys_bact_S_elongatus=13, cys_bact_T_maritima=13, cys_bact_T_thermophilus=13, cys_bact_B_fragilis=13, cys_bact_B_licheniformis=13, cys_bact_B_thailandensis=13, cys_bact_C_jejuni=13, cys_bact_C_thermalis=13, cys_bact_A_aeolicus=13, cys_bact_D_radiodurans=13, cys_bact_P_mikurensis=13, cys_bact_S_aureus=13, cys_bact_G_obscuriglobus=13, cys_bact_M_mobile=13, cys_bact_B_burgdorferi=13, cys_bact_C_A_asiaticus=13, 
+                    tyr_bact_1h3f_T_thermophilus=14, tyr_bact_1jil_S_aureus=14, tyr_bact_1wq4_E_coli=14, tyr_bact_C_aggregans=14, tyr_bact_C_jejuni=14, tyr_bact_P_mikurensis=14, tyr_bact_S_elongatus=14, tyr_bact_B_fragilis=14, tyr_bact_G_stearothermophilus=14, tyr_bact_H_aurantiacus=14, tyr_bact_T_maritima=14, tyr_bact_A_aeolicus=14, tyr_bact_G_obscuriglobus=14, tyr_bact_C_thermalis=14, tyr_bact_B_licheniformis=14, tyr_bact_M_mobile=14, tyr_bact_B_burgdorferi=14, tyr_bact_C_A_asiaticus=14, tyr_bact_D_radiodurans=14, 
+                    his_bact_1htt_E_coli=15, his_bact_C_aggregans=15, his_bact_C_jejuni=15, his_bact_P_mikurensis=15, his_bact_S_elongatus=15, his_bact_B_fragilis=15, his_bact_G_stearothermophilus=15, his_bact_H_aurantiacus=15, his_bact_B_thailandensis=15, his_bact_T_maritima=15, his_bact_A_aeolicus=15, his_bact_G_obscuriglobus=15, his_bact_C_thermalis=15, his_bact_M_mobile=15, his_bact_B_licheniformis=15, his_bact_B_burgdorferi=15, his_bact_C_A_asiaticus=15, his_bact_D_radiodurans=15, his_bact_d1adjc_T_thermophilus=15, his_bact_d1qe0a_S_aureus=15, 
+                    met_bact_1pfv_E_coli=16, met_bact_1woy_T_thermophilus=16, met_bact_2csx_A_aeolicus=16, met_bact_2x1l_M_smegmatis=16, met_bact_R_marinus=16, met_bact_C_aggregans=16, met_bact_C_jejuni=16, met_bact_P_mikurensis=16, met_bact_S_elongatus=16, met_bact_H_aurantiacus=16, met_bact_S_aureus=16, met_bact_T_maritima=16, met_bact_B_burgdorferi=16, met_bact_B_fragilis=16, met_bact_B_licheniformis=16, met_bact_B_thailandensis=16, met_bact_D_radiodurans=16, met_bact_G_stearothermophilus=16, met_bact_G_obscuriglobus=16, met_bact_C_thermalis=16, met_bact_C_A_asiaticus=16, 
+                    trp_bact_1i6m_G_stearothermophilus=17, trp_bact_2el7_T_thermophilus=17, trp_bact_2g36_T_maritima=17, trp_bact_E_coli=17, trp_bact_C_aggregans=17, trp_bact_C_jejuni=17, trp_bact_P_mikurensis=17, trp_bact_S_elongatus=17, trp_bact_B_fragilis=17, trp_bact_H_aurantiacus=17, trp_bact_G_obscuriglobus=17, trp_bact_C_thermalis=17, trp_bact_A_aeolicus=17, trp_bact_B_thailandensis=17, trp_bact_B_licheniformis=17, trp_bact_B_burgdorferi=17, trp_bact_C_A_asiaticus=17, trp_bact_D_radiodurans=17, trp_bact_S_aureus=17, trp_bact_R_marinus=17, 
+                    lys_bact_3e9h_G_stearothermophilus=18, lys_bact_3g1z_S_typhimurium=18, lys_bact_C_aggregans=18, lys_bact_C_jejuni=18, lys_bact_P_mikurensis=18, lys_bact_B_thailandensis=18, lys_bact_S_elongatus=18, lys_bact_B_fragilis=18, lys_bact_T_thermophilus=18, lys_bact_H_aurantiacus=18, lys_bact_T_maritima=18, lys_bact_G_obscuriglobus=18, lys_bact_M_mobile=18, lys_bact_B_licheniformis=18, lys_bact_C_A_asiaticus=18, lys_bact_D_radiodurans=18, lys_bact_S_aureus=18, lys_bact_d1e1oa_E_coli=18, 
+                    phe_bact_2alya_T_thermophilus=19, phe_bact_2rhq_S_haemolyticus=19, phe_bact_R_marinus=19, phe_bact_C_thermalis=19, phe_bact_C_A_asiaticus=19, phe_bact_D_radiodurans=19, phe_bact_G_obscuriglobus=19, phe_bact_H_aurantiacus=19, phe_bact_M_mobile=19, phe_bact_P_mikurensis=19, phe_bact_S_aureus=19, phe_bact_M_smegmatis=19, phe_bact_E_coli=19, phe_bact_A_aeolicus=19, phe_bact_B_licheniformis=19, phe_bact_B_thailandensis=19, phe_bact_C_aggregans=19, phe_bact_C_jejuni=19
+				</trait>
+				<treeIntervals id='treeIntervals' spec='beast.evolution.tree.coalescent.TreeIntervals' tree='@Tree.t:AARS'/>
+            </distribution>
+
+        <distribution id="BirthDeath.t:AARS" spec="beast.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@birthRate2.t:AARS" relativeDeathRate="@relativeDeathRate2.t:AARS" tree="@Tree.t:AARS"/>
+            <prior id="BirthRatePrior.t:AARS" name="distribution" x="@birthRate2.t:AARS">
+                <LogNormal id="LogNormalDistributionModel.1" name="distr">
+                    <parameter id="RealParameter.6" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.7" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="GammaShapePrior.s:AARS" name="distribution" x="@gammaShape.s:AARS">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="DeathRatePrior.t:AARS" name="distribution" x="@relativeDeathRate2.t:AARS">
+                <LogNormal id="LogNormalDistributionModel.2" name="distr">
+                    <parameter id="RealParameter.8" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.9" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="ucldStdevPrior.c:AARS" name="distribution" x="@ucldStdev.c:AARS">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+    	</distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution">
+            <distribution data="@AARS" id="treeLikelihood.AARS" spec="ThreadedTreeLikelihood" tree="@Tree.t:AARS">
+                <siteModel id="SiteModel.s:AARS" spec="SiteModel">
+                    <parameter estimate="false" id="mutationRate.s:AARS" name="mutationRate" value="1.0"/>
+                    <parameter estimate="false" id="gammaShape.s:AARS" name="shape" value="1.0"/>
+                    <parameter estimate="false" id="proportionInvariant.s:AARS" lower="0.0" name="proportionInvariant" upper="1.0" value="0.0"/>
+
+                    <substModel id="substmodel" spec="TriStateAARSSubstitutionModel" tree="@Tree.t:AARS">
+                        <trait idref="TraitSet1"/>
+						<defaultModel spec='GeneralSubstitutionModel' rates='
+	0.18727491	2.0069284065	0.1526315789	0.5886402754	1.8004640371	0.3144104803	0.2330935252	1.3885245902	0.2522727273	7.8164948454	0.3024523161	1	0.3144475921	0.1969309463	2.0564102564	0.118852459	0.3680555556	0.3048387097	0.6510416667
+0.1875881523		1.4168591224	0.8666666667	0.5679862306	0.0614849188	0.2423580786	1.3424460432	0.2262295082	0.5840909091	0.0309278351	0.3297002725	0.3056994819	0.104815864	1.1253196931	0.1743589744	0.25	0.3333333333	0.3741935484	0.0494791667
+2.0056417489	1.4153661465		0.7403508772	1.5817555938	0.3979118329	1.4366812227	3.3712230216	2.1213114754	0.5522727273	0.193814433	0.9100817439	1.0259067358	0.2407932011	0.5089514066	0.8923076923	0.3155737705	0.1111111111	0.9064516129	0.2109375
+0.1523272214	0.8655462185	0.7390300231		6.1703958692	0.0846867749	0.423580786	1.071942446	0.3754098361	0.1477272727	0.0391752577	0.6185286104	0.0310880829	0.3257790368	5.4271099744	0.1025641026	0.9303278689	0.1319444444	0.4806451613	0.046875
+0.5881523272	0.5678271309	1.5831408776	6.1789473684		0.1542923434	0.6812227074	0.7050359712	0.8229508197	0.4386363636	0.1278350515	5.4741144414	0.0207253886	0.1954674221	0.9462915601	0.3128205128	0.5696721311	0.1597222222	2.585483871	0.0807291667
+1.7997179126	0.0612244898	0.3983833718	0.0842105263	0.1549053356		0.4148471616	0.345323741	0.3262295082	0.4977272727	3.1690721649	0.8692098093	0.3834196891	0.3994334278	0.1304347826	4.8564102564	0.5	0.6666666667	0.2580645161	2.1171875
+0.3145275035	0.243697479	1.4387990762	0.4245614035	0.6815834768	0.4153132251		1.6143884892	0.7950819672	0.6795454545	0.0989690722	0.9346049046	0.1088082902	0.2152974504	0.1943734015	0.1692307692	0.6967213115	0.1388888889	0.5564516129	0.1614583333
+0.2327221439	1.3409363745	3.3718244804	1.0719298246	0.7039586919	0.3445475638	1.6113537118		4.3786885246	1.2227272727	0.3195876289	1.029972752	1.4093264249	0.7875354108	3.9744245524	0.4923076923	0.7418032787	0.5208333333	0.9677419355	0.546875
+1.3878702398	0.2256902761	2.1212471132	0.3754385965	0.8227194492	0.3271461717	0.7947598253	4.3798561151		0.5545454545	1.4577319588	0.8583106267	0.5129533679	0.2917847025	2.0306905371	1.5179487179	0.4754098361	0.1111111111	1.3870967742	0.171875
+0.2524682652	0.5846338535	0.5519630485	0.1473684211	0.4388984509	0.4976798144	0.6790393013	1.2244604317	0.5540983607		0.187628866	3.038147139	0.5284974093	0.3824362606	0.6342710997	0.6820512821	2.1393442623	1.1597222222	5.3532258065	0.1015625
+7.8208744711	0.0300120048	0.1928406467	0.0385964912	0.1273666093	3.1716937355	0.1004366812	0.3194244604	1.4590163934	0.1863636364		0.1144414169	0.170984456	0.4192634561	0.5549872123	4.2564102564	0.1393442623	0.2152777778	0.3241935484	1.0598958333
+0.3018335684	0.3301320528	0.9087759815	0.6175438596	5.4664371773	0.8700696056	0.9323144105	1.0287769784	0.8573770492	3.0340909091	0.1134020619		0.0984455959	0.2266288952	1.5421994885	1.5435897436	4.2991803279	0.2152777778	3.8967741935	0.0989583333
+1.0014104372	0.306122449	1.0277136259	0.0298245614	0.0206540448	0.3839907193	0.1091703057	1.4086330935	0.5131147541	0.5272727273	0.1690721649	0.0980926431		0.5439093484	0.2659846547	0.3897435897	0.25	0.7152777778	0.0741935484	0.3984375
+0.3145275035	0.1032412965	0.2413394919	0.3263157895	0.1962134251	0.3990719258	0.2161572052	0.7870503597	0.2918032787	0.3818181818	0.4206185567	0.2288828338	0.5440414508		1.0869565217	0.4307692308	3.8770491803	2.4861111111	0.1338709677	6.4609375
+0.1960507757	1.12484994	0.5103926097	5.4333333333	0.9466437177	0.1310904872	0.1943231441	3.9755395683	2.031147541	0.6340909091	0.5546391753	1.5449591281	0.2642487047	1.0849858357		0.2	3.9631147541	0.0694444444	3.0129032258	0.0963541667
+2.0578279267	0.1740696279	0.8937644342	0.1035087719	0.3149741824	4.8549883991	0.1703056769	0.4935251799	1.5163934426	0.6818181818	4.2536082474	1.5476839237	0.3886010363	0.4277620397	0.1969309463		0.4057377049	0.5138888889	0.935483871	1.1927083333
+0.1184767278	0.24969988	0.317551963	0.9315789474	0.569707401	0.5	0.6965065502	0.7410071942	0.4737704918	2.1363636364	0.1381443299	4.2970027248	0.2487046632	3.8696883853	3.9539641944	0.4051282051		0.2638888889	0.8903225806	0.6796875
+0.365303244	0.337334934	0.1131639723	0.1298245614	0.156626506	0.6658932715	0.1397379913	0.5237410072	0.1114754098	1.1636363636	0.212371134	0.2152588556	0.7150259067	2.4844192635	0.0716112532	0.5179487179	0.262295082		0.1370967742	1.53125
+0.3060648801	0.3733493397	0.9064665127	0.4807017544	2.5817555938	0.2575406032	0.556768559	0.9669064748	1.3868852459	5.3477272727	0.3237113402	3.8991825613	0.0725388601	0.1331444759	3.010230179	0.9333333333	0.893442623	0.1388888889		0.0885416667
+0.6502115656	0.0504201681	0.2101616628	0.0473684211	0.0808950086	2.1148491879	0.1615720524	0.5467625899	0.1721311475	0.1022727273	1.0577319588	0.1008174387	0.3989637306	6.4504249292	0.0971867008	1.1897435897	0.6803278689	1.5277777778	0.0887096774	
+'>
+							<frequencies spec='Frequencies' frequencies='0.0709	0.0833	0.0866	0.057	0.0581	0.0862	0.0458	0.0695	0.061	0.044	0.0485	0.0367	0.0193	0.0353	0.0391	0.0195	0.0244	0.0144	0.062	0.0384
+'/>
+						</defaultModel>
+                        <frequencies estimate="true" id="AARSFrequencies0" spec="AARSFrequencies">
+                            <parameter dimension="1" estimate="true" id="RealParameter0" name="frequencies" value="1 0 0"/>
+                        </frequencies>
+                    </substModel>
+                </siteModel>
+				<branchRateModel spec='beast.evolution.branchratemodel.UCRelaxedClockModel' id="RelaxedClock.c:AARS" tree='@Tree.t:AARS'>
+					<parameter name='clock.rate' id='ucldMean.c:AARS' value='1.0'/>
+				    <distr id='LogNormalDistributionModel.c:AARS' name='distr' spec="beast.math.distributions.LogNormalDistributionModel" meanInRealSpace='true'>
+				        <parameter name='M' value="1.0" estimate='false' lower='0' upper='1'/>
+				        <parameter name='S' id='ucldStdev.c:AARS' value="0.5" lower="0" upper="1" estimate='true'/>
+				    </distr>
+				    <rateCategories spec='parameter.IntegerParameter' id='rateCategories.c:AARS' value="1" dimension='10' estimate='true'/>
+				</branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id='ucldStdevScaler.c:AARS' spec='ScaleOperator' scaleAll='false' scaleFactor="0.5" weight="3" parameter="@ucldStdev.c:AARS"/>
+    <operator id="CategoriesRandomWalk.c:AARS" spec="IntRandomWalkOperator" windowSize='1' weight="10" parameter="@rateCategories.c:AARS"/>
+	<operator id='CategoriesSwapOperator.c:AARS' spec='SwapOperator' howMany="1" weight="10" intparameter='@rateCategories.c:AARS'/>
+	<operator id='CategoriesUniform.c:AARS' spec='UniformOperator' weight="10" parameter='@rateCategories.c:AARS'/>
+
+    <operator id="BirthDeathTreeScaler.t:AARS" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:AARS" weight="3.0"/>
+
+    <operator id="BirthDeathTreeRootScaler.t:AARS" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:AARS" weight="3.0"/>
+
+    <operator id="BirthDeathUniformOperator.t:AARS" spec="Uniform" tree="@Tree.t:AARS" weight="30.0"/>
+
+    <operator id="BirthDeathSubtreeSlide.t:AARS" spec="SubtreeSlide" tree="@Tree.t:AARS" weight="15.0"/>
+
+    <operator id="BirthDeathNarrow.t:AARS" spec="Exchange" tree="@Tree.t:AARS" weight="15.0"/>
+
+    <operator id="BirthDeathWide.t:AARS" spec="Exchange" isNarrow="false" tree="@Tree.t:AARS" weight="3.0"/>
+
+    <operator id="BirthDeathWilsonBalding.t:AARS" spec="WilsonBalding" tree="@Tree.t:AARS" weight="3.0"/>
+
+    <operator id="BirthRateScaler.t:AARS" spec="ScaleOperator" parameter="@birthRate2.t:AARS" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="DeathRateScaler.t:AARS" spec="ScaleOperator" parameter="@relativeDeathRate2.t:AARS" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id='RestrictedSubtreeSlide' spec='RestrictedSubtreeSlide' weight='60' tree='@Tree.t:AARS'>
+		<clade idref='V'/>
+		<clade idref='G'/>
+		<clade idref='A'/>
+		<clade idref='D'/>
+		<clade idref='P'/>
+		<clade idref='E'/>
+		<clade idref='S'/>
+		<clade idref='L'/>
+		<clade idref='R'/>
+		<clade idref='T'/>
+		<clade idref='I'/>
+		<clade idref='Q'/>
+		<clade idref='N'/>
+		<clade idref='C'/>
+		<clade idref='Y'/>
+		<clade idref='H'/>
+		<clade idref='M'/>
+		<clade idref='W'/>
+		<clade idref='K'/>
+		<clade idref='F'/>
+	</operator>
+
+
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_Bact.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.AARS"/>
+        <log id="TreeHeight.t:AARS" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:AARS"/>
+        <log idref="gammaShape.s:AARS"/>
+        <log idref="mutationRate.s:AARS"/>
+        <log idref="ucldStdev.c:AARS"/>
+		<log id='rate.c:AARS' spec='beast.evolution.branchratemodel.RateStatistic' tree='@Tree.t:AARS' branchratemodel='@RelaxedClock.c:AARS'/>
+        <log idref="BirthDeath.t:AARS"/>
+        <log idref="birthRate2.t:AARS"/>
+        <log idref="relativeDeathRate2.t:AARS"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log arg="@posterior" id="ESS.0" spec="util.ESS"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger fileName="IterativeSubstitutionMatrix_noKMSKS_Bact.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:AARS" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS" branchratemodel="@RelaxedClock.c:AARS"/>
+    </logger>
+    
+        <init estimate="false" id="TreeParser.t:AARS" initial="@Tree.t:AARS" spec="beast.util.TreeParser" taxa="@AARS"
+		IsLabelledNewick="true"
+    	newick='((((((ile_bact_1ile_T_thermophilus:0.1, ile_bact_1qu2_S_aureus:0.1, ile_bact_R_marinus:0.1, ile_bact_E_coli:0.1, ile_bact_C_aggregans:0.1, ile_bact_C_jejuni:0.1, ile_bact_P_mikurensis:0.1, ile_bact_B_thailandensis:0.1, ile_bact_S_elongatus:0.1, ile_bact_B_fragilis:0.1, ile_bact_G_stearothermophilus:0.1, ile_bact_H_aurantiacus:0.1, ile_bact_T_maritima:0.1, ile_bact_A_aeolicus:0.1, ile_bact_M_mobile:0.1, ile_bact_C_thermalis:0.1, ile_bact_C_A_asiaticus:0.1, ile_bact_G_obscuriglobus:0.1, ile_bact_B_licheniformis:0.1, ile_bact_B_burgdorferi:0.1, ile_bact_D_radiodurans:0.1):100, (leu_bact_2v0c_T_thermophilus:0.1, leu_bact_A_aeolicus:0.1, leu_bact_B_burgdorferi:0.1, leu_bact_B_licheniformis:0.1, leu_bact_B_thailandensis:0.1, leu_bact_C_Amoebophilus_asiaticus:0.1, leu_bact_C_aggregans:0.1, leu_bact_C_jejuni:0.1, leu_bact_C_thermalis:0.1, leu_bact_D_radiodurans:0.1, leu_bact_E_coli:0.1, leu_bact_G_obscuriglobus:0.1, leu_bact_G_stearothermophilus:0.1, leu_bact_M_mobile:0.1, leu_bact_M_smegmatis:0.1, leu_bact_S_aureus:0.1, leu_bact_S_elongatus:0.1, leu_bact_T_maritima:0.1, leu_bact_T_thermophilus:0.1, leu_bact_R_marinus:0.1):100):100, ((val_bact_1gax_T_thermophilus:0.1, val_bact_R_marinus:0.1, val_bact_E_coli:0.1, val_bact_C_jejuni:0.1, val_bact_B_thailandensis:0.1, val_bact_S_elongatus:0.1, val_bact_G_stearothermophilus:0.1, val_bact_T_thermophilus:0.1, val_bact_B_licheniformis:0.1, val_bact_T_maritima:0.1, val_bact_C_thermalis:0.1, val_bact_M_smegmatis:0.1, val_bact_M_mobile:0.1, val_bact_B_burgdorferi:0.1, val_bact_C_A_asiaticus:0.1, val_bact_D_radiodurans:0.1, val_bact_S_aureus:0.1):100, (met_bact_1pfv_E_coli:0.1, met_bact_1woy_T_thermophilus:0.1, met_bact_2csx_A_aeolicus:0.1, met_bact_2x1l_M_smegmatis:0.1, met_bact_R_marinus:0.1, met_bact_C_aggregans:0.1, met_bact_C_jejuni:0.1, met_bact_P_mikurensis:0.1, met_bact_S_elongatus:0.1, met_bact_H_aurantiacus:0.1, met_bact_S_aureus:0.1, met_bact_T_maritima:0.1, met_bact_B_burgdorferi:0.1, met_bact_B_fragilis:0.1, met_bact_B_licheniformis:0.1, met_bact_B_thailandensis:0.1, met_bact_D_radiodurans:0.1, met_bact_G_stearothermophilus:0.1, met_bact_G_obscuriglobus:0.1, met_bact_C_thermalis:0.1, met_bact_C_A_asiaticus:0.1):100):100):100, (((glu_bact_1j09_T_thermophilus:0.1, glu_bact_1nzj_E_coli:0.1, glu_bact_2cfo_T_elongatus:0.1, glu_bact_2o5r_T_maritima:0.1, glu_bact_R_marinus:0.1, glu_bact_C_aggregans:0.1, glu_bact_C_jejuni:0.1, glu_bact_P_mikurensis:0.1, glu_bact_B_thailandensis:0.1, glu_bact_B_fragilis:0.1, glu_bact_G_stearothermophilus:0.1, glu_bact_H_aurantiacus:0.1, glu_bact_D_radiodurans:0.1, glu_bact_A_aeolicus:0.1, glu_bact_G_obscuriglobus:0.1, glu_bact_M_mobile:0.1, glu_bact_B_licheniformis:0.1, glu_bact_B_burgdorferi:0.1, glu_bact_S_aureus:0.1):100, (gln_bact_1qtq_E_coli:0.1, gln_bact_2hz7_D_radiodurans:0.1, gln_bact_C_jejuni:0.1, gln_bact_P_mikurensis:0.1, gln_bact_B_thailandensis:0.1, gln_bact_S_elongatus:0.1, gln_bact_T_thermophilus:0.1, gln_bact_B_fragilis:0.1, gln_bact_G_obscuriglobus:0.1):100):100, ((cys_bact_1li5_E_coli:0.1, cys_bact_3c8z_M_smegmatis:0.1, cys_bact_R_marinus:0.1, cys_bact_H_aurantiacus:0.1, cys_bact_C_aggregans:0.1, cys_bact_S_elongatus:0.1, cys_bact_T_maritima:0.1, cys_bact_T_thermophilus:0.1, cys_bact_B_fragilis:0.1, cys_bact_B_licheniformis:0.1, cys_bact_B_thailandensis:0.1, cys_bact_C_jejuni:0.1, cys_bact_C_thermalis:0.1, cys_bact_A_aeolicus:0.1, cys_bact_D_radiodurans:0.1, cys_bact_P_mikurensis:0.1, cys_bact_S_aureus:0.1, cys_bact_G_obscuriglobus:0.1, cys_bact_M_mobile:0.1, cys_bact_B_burgdorferi:0.1, cys_bact_C_A_asiaticus:0.1):100, (arg_bact_1iq0_T_thermophilus:0.1, arg_bact_3fnr_C_jejuni:0.1, arg_bact_R_marinus:0.1, arg_bact_E_coli:0.1, arg_bact_C_aggregans:0.1, arg_bact_P_mikurensis:0.1, arg_bact_S_elongatus:0.1, arg_bact_B_fragilis:0.1, arg_bact_H_aurantiacus:0.1, arg_bact_B_thailandensis:0.1, arg_bact_B_licheniformis:0.1, arg_bact_T_maritima:0.1, arg_bact_A_aeolicus:0.1, arg_bact_G_stearothermophilus:0.1, arg_bact_S_aureus:0.1, arg_bact_G_obscuriglobus:0.1, arg_bact_C_thermalis:0.1, arg_bact_B_burgdorferi:0.1, arg_bact_C_A_asiaticus:0.1, arg_bact_D_radiodurans:0.1):100):100):100):100, ((tyr_bact_1h3f_T_thermophilus:0.1, tyr_bact_1jil_S_aureus:0.1, tyr_bact_1wq4_E_coli:0.1, tyr_bact_C_aggregans:0.1, tyr_bact_C_jejuni:0.1, tyr_bact_P_mikurensis:0.1, tyr_bact_S_elongatus:0.1, tyr_bact_B_fragilis:0.1, tyr_bact_G_stearothermophilus:0.1, tyr_bact_H_aurantiacus:0.1, tyr_bact_T_maritima:0.1, tyr_bact_A_aeolicus:0.1, tyr_bact_G_obscuriglobus:0.1, tyr_bact_C_thermalis:0.1, tyr_bact_B_licheniformis:0.1, tyr_bact_M_mobile:0.1, tyr_bact_B_burgdorferi:0.1, tyr_bact_C_A_asiaticus:0.1, tyr_bact_D_radiodurans:0.1):100, (trp_bact_1i6m_G_stearothermophilus:0.1, trp_bact_2el7_T_thermophilus:0.1, trp_bact_2g36_T_maritima:0.1, trp_bact_E_coli:0.1, trp_bact_C_aggregans:0.1, trp_bact_C_jejuni:0.1, trp_bact_P_mikurensis:0.1, trp_bact_S_elongatus:0.1, trp_bact_B_fragilis:0.1, trp_bact_H_aurantiacus:0.1, trp_bact_G_obscuriglobus:0.1, trp_bact_C_thermalis:0.1, trp_bact_A_aeolicus:0.1, trp_bact_B_thailandensis:0.1, trp_bact_B_licheniformis:0.1, trp_bact_B_burgdorferi:0.1, trp_bact_C_A_asiaticus:0.1, trp_bact_D_radiodurans:0.1, trp_bact_S_aureus:0.1, trp_bact_R_marinus:0.1):100):300):300, (((((asn_bact_R_marinus:0.1, asn_bact_E_coli:0.1, asn_bact_C_aggregans:0.1, asn_bact_S_elongatus:0.1, asn_bact_B_fragilis:0.1, asn_bact_H_aurantiacus:0.1, asn_bact_G_obscuriglobus:0.1, asn_bact_C_thermalis:0.1, asn_bact_M_mobile:0.1, asn_bact_B_burgdorferi:0.1, asn_bact_C_A_asiaticus:0.1, asn_bact_D_radiodurans:0.1, asn_bact_S_aureus:0.1, asn_bact_d1asza_T_thermophilus:0.1):100, (asp_bact_R_marinus:0.1, asp_bact_C_aggregans:0.1, asp_bact_C_jejuni:0.1, asp_bact_B_thailandensis:0.1, asp_bact_S_elongatus:0.1, asp_bact_B_fragilis:0.1, asp_bact_G_stearothermophilus:0.1, asp_bact_H_aurantiacus:0.1, asp_bact_D_radiodurans:0.1, asp_bact_P_mikurensis:0.1, asp_bact_T_maritima:0.1, asp_bact_A_aeolicus:0.1, asp_bact_M_smegmatis:0.1, asp_bact_M_mobile:0.1, asp_bact_B_licheniformis:0.1, asp_bact_B_burgdorferi:0.1, asp_bact_C_A_asiaticus:0.1, asp_bact_S_aureus:0.1, asp_bact_d1c0aa_E_coli:0.1, asp_bact_d1efwa_T_thermophilus:0.1):100):100, ((ser_bact_R_marinus:0.1, ser_bact_E_coli:0.1, ser_bact_C_aggregans:0.1, ser_bact_C_jejuni:0.1, ser_bact_B_thailandensis:0.1, ser_bact_S_elongatus:0.1, ser_bact_B_fragilis:0.1, ser_bact_G_stearothermophilus:0.1, ser_bact_H_aurantiacus:0.1, ser_bact_T_maritima:0.1, ser_bact_A_aeolicus:0.1, ser_bact_C_thermalis:0.1, ser_bact_M_smegmatis:0.1, ser_bact_M_mobile:0.1, ser_bact_B_licheniformis:0.1, ser_bact_B_burgdorferi:0.1, ser_bact_C_A_asiaticus:0.1, ser_bact_D_radiodurans:0.1, ser_bact_S_aureus:0.1, ser_bact_d1sera_T_thermophilus:0.1):100, (thr_bact_R_marinus:0.1, thr_bact_C_aggregans:0.1, thr_bact_C_jejuni:0.1, thr_bact_P_mikurensis:0.1, thr_bact_S_elongatus:0.1, thr_bact_B_fragilis:0.1, thr_bact_T_thermophilus:0.1, thr_bact_H_aurantiacus:0.1, thr_bact_T_maritima:0.1, thr_bact_A_aeolicus:0.1, thr_bact_B_thailandensis:0.1, thr_bact_G_obscuriglobus:0.1, thr_bact_B_licheniformis:0.1, thr_bact_B_burgdorferi:0.1, thr_bact_C_A_asiaticus:0.1, thr_bact_D_radiodurans:0.1, thr_bact_d1evka_E_coli:0.1, thr_bact_d1nyra_S_aureus:0.1):100):100):100, (((pro_bact_2i4la_R_palustris:0.1, pro_bact_2j3mb_E_faecalis:0.1, pro_bact_R_marinus:0.1, pro_bact_E_coli:0.1, pro_bact_C_aggregans:0.1, pro_bact_B_thailandensis:0.1, pro_bact_P_mikurensis:0.1, pro_bact_S_elongatus:0.1, pro_bact_B_fragilis:0.1, pro_bact_G_stearothermophilus:0.1, pro_bact_H_aurantiacus:0.1, pro_bact_T_maritima:0.1, pro_bact_A_aeolicus:0.1, pro_bact_G_obscuriglobus:0.1, pro_bact_C_thermalis:0.1, pro_bact_B_licheniformis:0.1, pro_bact_B_burgdorferi:0.1, pro_bact_C_A_asiaticus:0.1, pro_bact_D_radiodurans:0.1, pro_bact_S_aureus:0.1, pro_bact_d1hc7a_T_thermophilus:0.1):100, (gly_bact_C_A_asiaticus:0.1, gly_bact_G_obscuriglobus:0.1, gly_bact_G_stearothermophilus:0.1, gly_bact_H_aurantiacus:0.1, gly_bact_M_mobile:0.1, gly_bact_P_mikurensis:0.1, gly_bact_S_aureus:0.1, gly_bact_B_fragilis:0.1, gly_bact_C_aggregans:0.1, gly_bact_D_radiodurans:0.1, gly_bact_B_burgdorferi:0.1, gly_bact_d1atib_T_thermophilus:0.1, gly_bact_R_marinus:0.1):100):100, ((his_bact_1htt_E_coli:0.1, his_bact_C_aggregans:0.1, his_bact_C_jejuni:0.1, his_bact_P_mikurensis:0.1, his_bact_S_elongatus:0.1, his_bact_B_fragilis:0.1, his_bact_G_stearothermophilus:0.1, his_bact_H_aurantiacus:0.1, his_bact_B_thailandensis:0.1, his_bact_T_maritima:0.1, his_bact_A_aeolicus:0.1, his_bact_G_obscuriglobus:0.1, his_bact_C_thermalis:0.1, his_bact_M_mobile:0.1, his_bact_B_licheniformis:0.1, his_bact_B_burgdorferi:0.1, his_bact_C_A_asiaticus:0.1, his_bact_D_radiodurans:0.1, his_bact_d1adjc_T_thermophilus:0.1, his_bact_d1qe0a_S_aureus:0.1):100, (lys_bact_3e9h_G_stearothermophilus:0.1, lys_bact_3g1z_S_typhimurium:0.1, lys_bact_C_aggregans:0.1, lys_bact_C_jejuni:0.1, lys_bact_P_mikurensis:0.1, lys_bact_B_thailandensis:0.1, lys_bact_S_elongatus:0.1, lys_bact_B_fragilis:0.1, lys_bact_T_thermophilus:0.1, lys_bact_H_aurantiacus:0.1, lys_bact_T_maritima:0.1, lys_bact_G_obscuriglobus:0.1, lys_bact_M_mobile:0.1, lys_bact_B_licheniformis:0.1, lys_bact_C_A_asiaticus:0.1, lys_bact_D_radiodurans:0.1, lys_bact_S_aureus:0.1, lys_bact_d1e1oa_E_coli:0.1):100):100):100):100, ((phe_bact_2alya_T_thermophilus:0.1, phe_bact_2rhq_S_haemolyticus:0.1, phe_bact_R_marinus:0.1, phe_bact_C_thermalis:0.1, phe_bact_C_A_asiaticus:0.1, phe_bact_D_radiodurans:0.1, phe_bact_G_obscuriglobus:0.1, phe_bact_H_aurantiacus:0.1, phe_bact_M_mobile:0.1, phe_bact_P_mikurensis:0.1, phe_bact_S_aureus:0.1, phe_bact_M_smegmatis:0.1, phe_bact_E_coli:0.1, phe_bact_A_aeolicus:0.1, phe_bact_B_licheniformis:0.1, phe_bact_B_thailandensis:0.1, phe_bact_C_aggregans:0.1, phe_bact_C_jejuni:0.1):100, (ala_bact_1yfsa_A_aeolicus:0.1, ala_bact_3hxv_E_coli:0.1, ala_bact_D_radiodurans:0.1, ala_bact_C_aggregans:0.1, ala_bact_P_mikurensis:0.1, ala_bact_B_thailandensis:0.1, ala_bact_S_elongatus:0.1, ala_bact_B_fragilis:0.1, ala_bact_G_stearothermophilus:0.1, ala_bact_T_thermophilus:0.1, ala_bact_H_aurantiacus:0.1, ala_bact_T_maritima:0.1, ala_bact_G_obscuriglobus:0.1, ala_bact_C_thermalis:0.1, ala_bact_M_mobile:0.1, ala_bact_B_licheniformis:0.1, ala_bact_B_burgdorferi:0.1, ala_bact_C_A_asiaticus:0.1, ala_bact_S_aureus:0.1):100):300):300):300;'/>
+</run>
+
+</beast>
