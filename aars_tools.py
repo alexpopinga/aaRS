@@ -22,12 +22,12 @@ except ImportError:
 
 
 AARS_XML = 'AARS.xml'
-BASE_DIR = 'BEAST 2/XMLs/Better Priors (final, actually used XMLs)/'
-A_B_E_ZIP = 'GenBank aa sequences w: no structure/Archaeans_Bacteria_Eukaryotes.zip'
+BASE_DIR = os.path.join('BEAST 2', 'XMLs', 'Better Priors (full alignments, Supporting Information)')
+A_B_E_ZIP = os.path.join('GenBank aa sequences w no structure', 'Archaeans_Bacteria_Eukaryotes.zip')
 CLASS_I = os.path.join(BASE_DIR, 'ClassI_betterPriors.xml')
 CLASS_II = os.path.join(BASE_DIR, 'ClassII_betterPriors.xml')
 TMP = tempfile.gettempdir()
-OUTPUT_DIR = os.path.join(TMP, 'Archaeans_Bacteria_Eukaryotes/')
+OUTPUT_DIR = os.path.join(TMP, 'Archaeans_Bacteria_Eukaryotes')
 LINE_WIDTH = 72
 
 # Result files
@@ -310,7 +310,7 @@ def get_nuc_from_data_set(domain, species, aa, cache_path):
     if not os.path.exists(directory):
         os.makedirs(directory)
     with open(cache_path, 'w') as file_p:
-        file_p.write('>gi|' + (nuc_id if nuc_id else 'none') + '\n' + nuc_data + '\n')
+        file_p.write('>gi|' + (nuc_id if nuc_id else 'none') + '\n' + (nuc_data if nuc_data else 'none') + '\n')
     return nuc_header, nuc_id, nuc_data
 
 
@@ -416,7 +416,7 @@ def output_split_files():
                                   #
                                   # Given this, if the nucleotide sequences has
                                   # one extra codon, we ignore it.
-                                  or actual_nuc_len - estimated_nuc_len <= 3):
+                                  or abs(actual_nuc_len - estimated_nuc_len) <= 3):
 
             counts['perfectly aligned to our nucleotide data'] += 1
             nuc_align = ''.join(['---' if v['amino-acid-aligned-gaps'][i] in '-.'
@@ -438,7 +438,18 @@ def output_split_files():
         # currently, we only check GenBank for the GI parsed from the amino acid
         # file and ignore the GI from the nucleotide file
         check, gb_aa, gb_nuc = check_genbank(v['aa-gi'])
-        if check:
+        estimated_nuc_len = len(v['amino-acid-data']) * 3
+        actual_nuc_len = len(gb_nuc) if gb_nuc else -9000
+        if check and (estimated_nuc_len == actual_nuc_len
+                      # From Peter Wills - 10 Oct 2018
+                      # "Many of these aaRS sequences are of the
+                      # 'catalytic domain' and some have other
+                      # domains attached to them, so you may have
+                      # the first codon of the following domain."
+                      #
+                      # Given this, if the nucleotide sequences has
+                      # one extra codon, we ignore it.
+                      or abs(actual_nuc_len - estimated_nuc_len) <= 3):
             aa_align = align(v['gaps-value'], gb_aa)
             aa_misalignments = sum([1 if c2 not in '-.*?' and c1 not in '*?' and c1 != c2 else 0
                                     for c1, c2 in zip(gb_aa, aa_align)])
@@ -470,9 +481,9 @@ def output_split_files():
                 if not os.path.exists(directory):
                     os.makedirs(directory)
                 with open(aa_cache_path, 'w') as file_p:
-                    file_p.write('>gi|' + v['aa-gi'] + '|hello\n' + gb_aa + '\n')
+                    file_p.write('>gi|' + v['aa-gi'] + '|cached\n' + gb_aa + '\n')
                 with open(nuc_cache_path, 'w') as file_p:
-                    file_p.write('>gi|' + v['aa-gi'] + '|hello\n' + gb_nuc + '\n')
+                    file_p.write('>gi|' + v['aa-gi'] + '|cached\n' + gb_nuc + '\n')
                 continue
         if misalignment == 0:
             if estimated_nuc_len < actual_nuc_len:
@@ -522,6 +533,42 @@ def output_split_files():
         json.dump(bad, b, indent=2)
     with open(os.path.join(TMP, 'gap_data_missing.txt'), 'w') as m:
         json.dump(missing_data, m, indent=2)
+
+    # write perfect FASTA output data
+    with open(os.path.join(TMP, 'classI_nuc_perfect.fasta'), 'w') as f:
+        for k, v in perfect.items():
+            if v['class'] == 'class_I':
+                f.write('>{}:{}:{}\n'.format(d[k]['amino-acid'], d[k]['domain'], d[k]['species']))
+                removed_gaps = ''.join([x for x in perfect[k]['nuc-al'] if x not in "-."])
+                for i, c in enumerate(d[k]['gaps-value']):
+                    if c == '-':
+                        f.write('---')
+                    else:
+                        f.write(removed_gaps[0+i*3:3+i*3])
+                f.write('\n')
+    with open(os.path.join(TMP, 'classII_nuc_perfect.fasta'), 'w') as f:
+        for k, v in perfect.items():
+            if v['class'] == 'class_II':
+                f.write('>{}:{}:{}\n'.format(d[k]['amino-acid'], d[k]['domain'], d[k]['species']))
+                removed_gaps = ''.join([x for x in perfect[k]['nuc-al'] if x not in "-."])
+                for i, c in enumerate(d[k]['gaps-value']):
+                    if c == '-':
+                        f.write('---')
+                    else:
+                        f.write(removed_gaps[0+i*3:3+i*3])
+                f.write('\n')
+    with open(os.path.join(TMP, 'classI_aa_perfect.fasta'), 'w') as f:
+        for k, v in perfect.items():
+            if v['class'] == 'class_I':
+                f.write('>{}:{}:{}\n'.format(d[k]['amino-acid'], d[k]['domain'], d[k]['species']))
+                f.write(d[k]['gaps-value'])
+                f.write('\n')
+    with open(os.path.join(TMP, 'classII_aa_perfect.fasta'), 'w') as f:
+        for k, v in perfect.items():
+            if v['class'] == 'class_II':
+                f.write('>{}:{}:{}\n'.format(d[k]['amino-acid'], d[k]['domain'], d[k]['species']))
+                f.write(d[k]['gaps-value'])
+                f.write('\n')
 
     # write perfect HTML output data
     with open('gap_data_perfect.html', 'w') as file_p:
