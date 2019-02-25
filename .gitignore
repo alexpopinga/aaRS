@@ -2,3 +2,6 @@
 .DS_Store
 __pycache__/*
 *.so
+aars_algorithms_fast.c
+build/lib*
+build/temp*
