@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
+
+
+    <data
+id="NormalBEAST2"
+dataType="aminoacid"
+name="alignment">
+                    <sequence id="seq_arg_arch_2zue_P_horikoshii" taxon="arg_arch_2zue_P_horikoshii" totalcount="19" value="IVEHSVNPTKPLHMGHARNAILGDVMARIEVENYIDDLGEEVVRAEMVTTYKLDLLVWESDTYTGKDIAYHLINVIGAEEKHPELAIKYALELLLYHLAY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_P_delaneyi" taxon="arg_arch_P_delaneyi" totalcount="19" value="VVEHSANPVHPLHIGHARNASLGDSLARLETRFYINDMGELCLEGFRETLSRLEKWDWESELYTTRDIAYSIFNVIAAEERLEELEVRLALIALMIHYAY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_S_acidocaldarius" taxon="arg_arch_S_acidocaldarius" totalcount="19" value="VVEHSANPIHPLHIGHLRNSILGDTISRMNRRFYVNDAGNLNLDGFRESLDKLDVYDYESELYTTRDIAYTVINVIAEEESIPEMELRASLYLLLVHYSY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_M_kandleri" taxon="arg_arch_M_kandleri" totalcount="19" value="ILEHSANPNGPLHIGHGRNAVIGDILARCEVEYYVNDMGTVVERGHIETLERLDRFVYESELYTTRDIAYHLVDVLGADHKLAVEELRAVLDMLIDVYEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_M_hungatei" taxon="arg_arch_M_hungatei" totalcount="19" value="VLEHSANPNGPLHVGHIRNTIIGDTLARCEVEYYVNDMGIPVLDGFKDTLAAMDRFIYESDVYAARDIAFHIIDVLGADHKLIGTELEATLEILIVFFEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_A_fulgidus" taxon="arg_arch_A_fulgidus" totalcount="19" value="LIEHSANPDGPLHIGHIRNSIIGDTIARIKTHYYVNDMGETALEGIKETLKTIDEFVWESELYITRDLAYHMINVLGADHKLYGAELSKILELLIIFFEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_M_thermautotrophicus" taxon="arg_arch_M_thermautotrophicus" totalcount="19" value="ILEHSANPNGPLHIGHIRNAIIGDSLARIETEYYVNDMGEYCLSGMEETMKRLDRFVWEGELYSTRDIAYHLIDVLGSDHKLAAEEVGIAVELLVIFYEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_P_aerophilum" taxon="arg_arch_P_aerophilum" totalcount="19" value="LVEHSANPVHPLHIGHGRNAILGDSLARLETHFYVDDCGDLVLKGERETLARLDKWDYESELYVTRDVAYALIRVISTEETHEEAHVRIILYALIVHYAY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_T_acidophilum" taxon="arg_arch_T_acidophilum" totalcount="19" value="SVEHSANPTGPLHIGRARNSIIGDSIYRIVREYFVNDSGKIAGDGIASTLKRIDEFDWESDLYFARDIAYHLIDVLGEDHKDHAKSLNHVLKEMVSELEY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_N_equitans" taxon="arg_arch_N_equitans" totalcount="19" value="VLDYSPNIGKPPHVGNLRSAIIGNPLKNIISINWWGDFGEITIKYMREFYPKLDEESGESFLYLTRDLAAAIIYVVANEESEHFNELIYIAKKANYVKKF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_M_aeolicus_Nankai" taxon="arg_arch_M_aeolicus_Nankai" totalcount="19" value="IIEHSANPNGPLHIGHSRNAIVGDSLKRIEAEYYVNDMGNYALSGFKETLNNLDKFVWESSLYSTRDIAYHIINILGADHKLTAEMVNASLKLLVVFYEY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_S_marinus" taxon="arg_arch_S_marinus" totalcount="19" value="VVEHSANPVHPLHVGSGRNAVIGNTYANLEERFYVNDMGEETLKGFRETLSRLDSYDWESSLYTTRDIAYSIYNVIAVEETREEKEVKATLYLLLVTILY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_M_acetivorans" taxon="arg_arch_M_acetivorans" totalcount="19" value="LLEHSANPNGPLHVGHIRNSIIGDTLARIEVEYYVNDMGSLAIAGIKETLLRLDKFVNESRLYTTRDLAYHEIDVFGADHKLISGELRATLNAIVVIFEF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_M_janaschii" taxon="arg_arch_M_janaschii" totalcount="19" value="ILEHSANPNGPLHIGHLRNAIIGDCLKRIETHYYVNDMGNYALDGIKETLKNLDTFVWESSLYSTRDIAYHLIDVLGADHKLTAEMVKAALKLLVIFYEY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_P_occultum" taxon="arg_arch_P_occultum" totalcount="19" value="VVEHSANPVHPLHIGHARNASLGDTLARLETRFYINDMGNLCLEGFRETLGRLDKWDWESELYTTRDIAYSIFNVIAAEERLEELEVRLALIALMIHYAY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_arg_arch_Halobacterium" taxon="arg_arch_Halobacterium" totalcount="19" value="VVEHSANPTGPVHVGRARNPILGDAVSRVTREYYVNDAGEGVLGGMRETLERLDEFVRETELYTTRDLAHHEITVLGEDEELHANKLRAALDIRLEFLEY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_arch_P_aerophilum" taxon="cys_arch_P_aerophilum" totalcount="19" value="RGYVGITPYDHVHVGHGRVYVFFDMFRRYRLVINFTDIDERYIAEFFEMSNKLHAYPRVTEGWHLECVVMSTFHGGGADLIFPHENEIAIAKAYAYWIHV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_arch_P_delaneyi" taxon="cys_arch_P_delaneyi" totalcount="19" value="RMYVGPTVYDYTHIGHARTYVAFDAIKRYIHVENITDIDDEYSRDYFDMLKKLHIHPRVTEGWHIECSVMSSIHGGGEDLIFPHENEKAESEAYVYWLHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_arch_P_horikoshii" taxon="cys_arch_P_horikoshii" totalcount="19" value="RMYVGPTVYDYPHLGHARTYIAFDVIRRYLMVMNFTDIDEKFIKVFLEDMKALDIYPRVTEGWHIECSVMSSIHGGGNDLIFPHENEIAESEACVYWLHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_arch_P_occultum" taxon="cys_arch_P_occultum" totalcount="19" value="RMYVGPTVYDYTHLGHARTYVAFDAIKRYIHVENITDIDDTYSRDYFEMLEKLHIHPRVTDGWHIECSVMSSIHGGGEDLVFPHENERAESEAFVYWLHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_arch_S_acidocaldarius" taxon="cys_arch_S_acidocaldarius" totalcount="19" value="KMYVGPTVYDYVHIGHGRAFVGFDGIVRYIRVENITDIDDYYTKDYMESLKALDEHPRVTSGWHIECSTMSTIHGGGVDLVFPHENERAESEALVYWVHV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_arch_S_marinus" taxon="cys_arch_S_marinus" totalcount="19" value="KMYVGPTVYDYNHIGHGRVYVVYDALKRYLHVMNITDIDETYTRDYLESLGKLDLHPRVTEGWHIECSVMSSIHGGGTDLIFPHENERAESEAAVYWVHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_arch_T_acidophilum" taxon="cys_arch_T_acidophilum" totalcount="19" value="NMFVGPTVEDHFHIGHARTYIFFDAVAKLFYLENITDIDDMYLREFLEDMSALNYFAKSTLGWHIEDTAITEIHGGGSDLIFPHEAEIAEMRAISYWIHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_arch_A_fulgidus" taxon="cys_arch_A_fulgidus" totalcount="19" value="KMYVGITAYDYSHIGHARSAVFFDVFRRYVYVENFTDVDEKFIEEYLKDMEALTYEPKVTEGWHIECSVMSAIHGGGKDLIFPHENERAESFARVIWVHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_arch_Halobacterium" taxon="cys_arch_Halobacterium" totalcount="19" value="LVYTGLTVSDDAHLGHARLWVESDVVVRWRHVENFTDVNRHYIESVIEDMRALEVYPRVSEGWHIECSAMSMVHVGGEDLVFPHENEIAESEAAAYWLHV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_arch_M_hungatei" taxon="cys_arch_M_hungatei" totalcount="19" value="SLFVGPTVYNYPHLGHARTYVVFDVLAKYLYIENITDVDRKFEREYIKDMLSLSYHARATTGWHIEDTAITEIHGGGLDLIFPHEAEIAEMESLVYWMHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_cys_arch_N_equitans" taxon="cys_arch_N_equitans" totalcount="19" value="KMYTGVTPYDKAHVGHLRTYLVTDLLRRIIAVTNFTDIDEENIKYVFDVLKELYVYPRVTYGWHIECSVMSSIHLGGSDLIFPHENEIAESETLVYWVHI---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_arch_M_hungatei" taxon="glu_arch_M_hungatei" totalcount="19" value="VMRFAPNPSGPLHLGHARAAFLNDEYIRRKYILRIEDTDPDAYDMVREDIAWMAETIFESDLMNLSVAVDDHHVIRGKDHIANTKREEFIFRYMPVYRHY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_arch_M_jannaschii" taxon="glu_arch_M_jannaschii" totalcount="19" value="VMRFAPNPSGPLHIGHARAAVLNDYFVKKKLILRLEDTDPEAYDMIKEDLDWLDEVVIESDLMNFSVPVDDHHVLRGKDHIVNTEKEAYIYKYFPEFIHY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_arch_M_kandleri" taxon="glu_arch_M_kandleri" totalcount="19" value="RLRFAPNPSGPLHIGHARAAVLNDEYARRTLVLRIEDTDPEAYDMIEEDLEWLDERYVESNTMNFAVAVDDHHVLRGKDHESNTRREKYVFEHLPEYVHY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_arch_M_thermautotrophicus" taxon="glu_arch_M_thermautotrophicus" totalcount="19" value="VLRFAPNPSGPLHIGHARAAILNHEYARKRLILRIEDTDPEAYDMIPADLEWLDETVIESDMMNFSVAVDDHHVLRGKDHLANREKEEYLYRHLPEFIHY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_arch_P_aerophilum" taxon="glu_arch_P_aerophilum" totalcount="19" value="VVRFAPNPDFVLHLGSARPAILNYAYRIKKFILRFEDTDPNAYESIREDLRWLDEEYIESETYNFAVSIDDHHVLRAEEHSVNTIKESYVFRHFPVTIHF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_arch_P_delaneyi" taxon="glu_arch_P_delaneyi" totalcount="19" value="VTRFAPNPDFVIHLGNARPAILSYEYKVIKMILRFEDTDPEAYELIKEDLEWLDEEYIESLTYNFAAGVDDWHILRAKEHMENTIKEKYVYEYMPHVVHF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_arch_A_fulgidus" taxon="glu_arch_A_fulgidus" totalcount="19" value="VMRFAPNPNGPPTLGSARGIIVNGEYARMKYIIRFDDTDPEAYDWYLEDIEWLDEVIYASKTLDFESAIEDHHIIRGKDLIDSERRERYIYEYFPITKHW---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_arch_P_occultum" taxon="glu_arch_P_occultum" totalcount="19" value="VTRFAPNPDFIIHLGNARPAILSYEYKVMRMILRFEDTDPEAYELIKEDLKWLDEEYIESLTYNLAAAVDDHHILRAKEHMENTIKEKYIYGYMPNVIHF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_arch_S_acidocaldarius" taxon="glu_arch_S_acidocaldarius" totalcount="19" value="VTRFAPNPDGPLHLGNARAAIISHEYARIKFILRFDDTDPEAYDWIKEDLKWLDLEVRASATYNFASAIDDYHIFRGKEHAVNAGKEKWIYNYMPYVREF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_arch_S_marinus" taxon="glu_arch_S_marinus" totalcount="19" value="VTRFAPNPDYTIHLGNARPALLSYWYAEMKMILRFEDTDPEAYDRIRNDLKWLNEEYIESLTYNLAAAIDDHHILRAKEHVSNTIKEKFLYDHMPETIHF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_arch_T_acidophilum" taxon="glu_arch_T_acidophilum" totalcount="19" value="VMRMAPSPSGPLHIGHTRMAILNDEYVKRELILRIEDTNPDAYHMIPEDLEWLTKIVIESDMMSFSVAVDDHHVLRGKDELTNTDKERYIFDYNPYYYHY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_arch_T_volcanium" taxon="glu_arch_T_volcanium" totalcount="19" value="VMRLAPSPSGPLHIGHTRMAILNDEYVKRDLILRIEDTNPEAYAMIPEDLEWLTKTVIESEMMSFSVAVDDHHVLRGKDELTNTEKERYVFEYNPYYYHY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_glu_arch_Halobacterium" taxon="glu_arch_Halobacterium" totalcount="19" value="RMRCAPNPNGPWHIGHSRMPAVIGTYAEEEFIVRFDDTDPWAYDEILDEIGYLADVYRASDMLDFESGVDDHHIIRGIDLEDSAKREEFVYDYFPEVIHW---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_P_delaneyi" taxon="ile_arch_P_delaneyi" totalcount="19" value="AFLEPPTANGFMHVGHARGRTLKDVKLRYWDEAGWDTEGDYYLGHWERASKRLDHAYETRDDVWMDSGVAHTWITEAADETRGFYTLLVTGVVWYSVLLE---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_T_volcanium" taxon="ile_arch_T_volcanium" totalcount="19" value="VFLEPPTANGRPHIGHAMTRTIKDIVLRYYRRYGWDCHGFRYIDEWKTVDEIIDGDYITLRDTWFDSGSATYFITEAIDETRGFYVLHVISTIMYSALSI---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_S_acidocaldarius" taxon="ile_arch_S_acidocaldarius" totalcount="19" value="LFIDPPYPSSIPHIGTVWNKTIKDCILRYKDEPGYDTHGINNSKSLTENFRNLDNPYFTFNDVWFDSGVAFFLVLEGHDELRGFFSLLRTGVILYAVLVH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_M_kandleri" taxon="ile_arch_M_kandleri" totalcount="19" value="YFLDPPYASGSIHLGTAWNKIIKDAVNRYRLEPGWDCHGLKHVEIMTEEFKRLDNPYMTLDDVWVDSGVAAWFITEGHDETRGFYSELGCGVVTYTVLMH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_M_hungatei" taxon="ile_arch_M_hungatei" totalcount="19" value="FFVDPPYTTGHIHLGTAWNKILKDSILRYIDRAGYDMHGLSHKDIMSEEFKSLNDPYETIMDVWFDSAMASWFITEGEDETRGFYSELGASTIAYSVLMH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_A_fulgidus" taxon="ile_arch_A_fulgidus" totalcount="19" value="YFVDPPYTTGRIHLGTAWNKVLKDTILRYTDTPGWDMHGLANKDAMTEEFKSLDNPYMTIKDVWFDSGVASWFITEGHDETRGFYSELGTSVVCYAVLMH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_M_thermautotrophicus" taxon="ile_arch_M_thermautotrophicus" totalcount="19" value="SFLDPPYCSGRIHLGTAWNKIMKDTYLRFRREPGWDTHGVENKAVMTGEFERLDDPYVTFDDVWIDSGVAGWFITEGHDETRGFYSELGCGVIAYRVLMH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_P_aerophilum" taxon="ile_arch_P_aerophilum" totalcount="19" value="TFLEPPTTNGMPHVGHIRGRTYKDVVIRFWVEGGWDMEGEEYLAYWREGTKRLDNAYETREDVWLDSGIAWIFVTEGIDETRGFYSLLATSVLYYNVLIE---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_T_acidophilum" taxon="ile_arch_T_acidophilum" totalcount="19" value="VFLEPPTANGRPHIGHAMTRTIKDIVLRYYRRVGWDCHGFRYIDEWKEVDDLIDGDYITLRDTWFDSGSATYFITEAIDETRGFYVLHVIATIMYSALSI---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_N_equitans" taxon="ile_arch_N_equitans" totalcount="19" value="SYLDPPFANDDIHVGHAWGRALRDSEIRYYVRPGFDTHGYKNINKEISSFKRLDNPYFTYDDVWLDSGGAFYFILEGWDEIRGFYSLLGEGVLYYNVYVS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_P_horikoshii" taxon="ile_arch_P_horikoshii" totalcount="19" value="YFLDPPYVSGAIHLGTAWNKIIKDMIIRFWREPGFDMHGLNNLKIMTEEFKMLDDPYMTIKDVWFDSGIASWFIVEGEDEVTKFYSEEAASVIAYRVAMH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_M_acetivorans" taxon="ile_arch_M_acetivorans" totalcount="19" value="FFVDPPYTTGHIHLGTAWNKIIKDTILRYLERPGWDMHGITEKEAMTEEFERLEEPYMTLKDVWFDSAVASWFVTEGHDETRGFYSELGASMVGYSVLMH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_S_marinus" taxon="ile_arch_S_marinus" totalcount="19" value="NFIDPPYPSGVPHIGTAWNKTLKDIVLRYFDRPGYDCHGFNNIKSLTKWFKELDNPYLTLRDVWFDSAISFYFIVEGHDEIRGFFSLLRAGVLGYTVLVH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_M_jannaschii" taxon="ile_arch_M_jannaschii" totalcount="19" value="YFVDPPYCSGAIHLGTAWNKIIKDTYLRFLDKAGWDMHGLKHKEIMEKEFKNLDNAYMPITDVWFDSGLAPYFITEGHDEVTKFYSEHALSAIVYKCLMH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_P_occultum" taxon="ile_arch_P_occultum" totalcount="19" value="AFLEPPTANGFMHVGHARGRTLKDVKLRYWDEAGWDTEGDYYIEHWERASKRLDHAYETRHDVWMDSGVAHTWITEAADETRGFYTLLVTGVVWYSVLLE---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ile_arch_Halobacterium" taxon="ile_arch_Halobacterium" totalcount="19" value="FFVDPPYTSGAAHMGHAWNKSLKDAYIRYTDRPGYDMHGEESLAELESDFESFDNPYRTIDDVWLDSSVASWLIIEAHDETRGFWSELGMGTAAYNVVMH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_1wz2_P_horikoshii" taxon="leu_arch_1wz2_P_horikoshii" totalcount="19" value="YITVFPYLSGHLHVGHARTYTIPDVIARFLFPMAWHITGKYFMKAAKETFIRADREFYTTSESLSDSTIYMAWRCSGKDLIPNLTFFIFNHVAIPGIAVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_P_delaneyi" taxon="leu_arch_P_delaneyi" totalcount="19" value="FITAFPYPNSPLHLGHSRTYTITDVYARYLFPMGFHYTGRYFHNDAKMAMIESDREFTTIDESLSDSTIYMASRHSGRDLVPNLTFFIFNHAAIPEIVVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_T_volcanium" taxon="leu_arch_T_volcanium" totalcount="19" value="MITVWPYTNGSLHVGHGRTYTLGDIIARYLFPMGFHESGDYFSNAIINDFKHLDRKFTSADESLSDSTIYPAIRLTAVPHISNLSFYVMNHAAIPGLIIS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_M_aeolicus_Nankai" taxon="leu_arch_M_aeolicus_Nankai" totalcount="19" value="FITAFPYLNGVLHAGHLRTFTIPEITARYLWTFGFHVSGNYFSKKATESFKKMDRNFKTDDESLSDSTLYMAWRCSAKDLVPNLTFMIFNHVALPGIVVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_S_acidocaldarius" taxon="leu_arch_S_acidocaldarius" totalcount="19" value="FITVFPYTNSPLHIGHGRTYITADIYARYLFPFAFEFTGAYFKEDMRNTALTLDREFTTIDDSLSDSTIYTVSRHSGRDLVENIPYYLYHHVGVPRIVLN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_M_kandleri" taxon="leu_arch_M_kandleri" totalcount="19" value="YITVYPYPSGSMHVGHARTYLVPDIYARFLFPMAFHVTGEYFAREYEENMKRMDRKFTTVDEPLSDSTVYMAWRLSAKDLVTNLTFFIFHHAALPGIVVF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_M_hungatei" taxon="leu_arch_M_hungatei" totalcount="19" value="YLTVYPYPSGAMHVGHGRTYIVPDVVARFLYPMAFHVTGNHFSNEYERVMTEADRRFTTVEEPLSDSTIYMAFRFSAKDLISNLTFELFHHCTIPGMVVF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_A_fulgidus" taxon="leu_arch_A_fulgidus" totalcount="19" value="FLTIYPYLNGNLHAGHTRTFTIGDAFARYLFPLGFHVTGEYFSREALEALKSIDRVFTTTDESLSDSTIYMALRSSGKDLVANLLFYLFHHVAIPAIAVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_M_thermautotrophicus" taxon="leu_arch_M_thermautotrophicus" totalcount="19" value="FLTVYPYPSGAMHIGHGRTYTVPDVYARFLFPMAWHVTGEYFSREYRSVMEDMDREFKTTDEPLTDSTIYMAWRLSAKDLIGNLTFHIFHHSAIPGAVVF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_P_aerophilum" taxon="leu_arch_P_aerophilum" totalcount="19" value="FVTAYPYPNGAIHIGHGRTYLIADVLARFLFPMGFHYTGRYFHEESKRAMEKFDREFTTIDESLSDSTIYMASRNSGKDLIPNLTFFIFNHVAIPEIVAN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_T_acidophilum" taxon="leu_arch_T_acidophilum" totalcount="19" value="MITVWPYTNGSLHVGHGRTYTLGDIIARYLFPMGFHESGDYFSNAIINDFKHLDRRFTSADESLSDSTIYPAIRLTAIPHISNLSFYVLNHAAIPGLIIS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_N_equitans" taxon="leu_arch_N_equitans" totalcount="19" value="FVTAFPYVNGYLHLGHLVTYIKAEITARYLFPMGFHATGEYFSKAAKEDLSKLERSFTTVNESLSDSTIYTAIRFSAEDLIANLVFYIFHHVAIPGIAVS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_M_acetivorans" taxon="leu_arch_M_acetivorans" totalcount="19" value="FITIYPYLNGNLHAGHTRTFTIGDVVARHLYPMGFHVTGDYFKREAEKAMRMIDRKFTTTDESLGDSTIYMSLRSSGKDLVPNLLFFLFHHVALPALAVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_M_jannaschii" taxon="leu_arch_M_jannaschii" totalcount="19" value="FITAFPYLNGVLHAGHLRTFTIPEVVARFLWTFGYHVTGEYFSKKAEEAFKRMDRNFKTDDESLSDSTIYPAWRCSAKDLIPNLTFYIFNHVAIPGIVVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_P_occultum" taxon="leu_arch_P_occultum" totalcount="19" value="FITAFPYPNSPLHLGHSRTYTITDAYARFLFPMGFHFTGRYFSRDAKEAMIESDREFTTIDESLSDSTIYMASRHSGRDLVPNLTFFIFNHAAIPEIVVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_leu_arch_Halobacterium" taxon="leu_arch_Halobacterium" totalcount="19" value="FVTVYPYPSGGMHIGHARTYTVPDVYARYLFPIAWHVTGRYFIENYKENMESLDREFTTNDEPLSDSTVYMSYRISGNDLISNLTFYLFHHTDLPGIAVA---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_P_delaneyi" taxon="lys_arch_P_delaneyi" totalcount="19" value="VVNGGLSVSGLEHVGRLREVVIPEVVRRIREYLTLYTEDIDRFWADFGPYIKDFEVVTTTDNWRIEWVGVWWFEPYGKDHAGSRDSANELAVKVPEGLPY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_T_volcanium" taxon="lys_arch_T_volcanium" totalcount="19" value="RISTGISPSGPIHVGNMREILTGDILYKADFIYLCDDMDSDHFLNPFIEVMRKTRVIKTSDPWRIEWPAKWYIEPFGKDHGGSYDTGKRIAREIPLPLVY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_A_fulgidus" taxon="lys_arch_A_fulgidus" totalcount="19" value="RIATGISPSGHIHLGNLREMVTADAIRRAKIVYIADDFDSEHFLEPFLESLEILEVRRAYETWRVDWAARWECEPFGKDHAGSYDTGVRIAREIPYPVPY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_M_thermautotrophicus" taxon="lys_arch_M_thermautotrophicus" totalcount="19" value="VVASGTSISGSIHIGNSCDVFIASSIAKSRTVWIADDHDVEHFERPFLEALERFEHYSGARTWRVEWAARWKCEPFGKDHAGSYDVSSIISEEIPYPVPY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_T_acidophilum" taxon="lys_arch_T_acidophilum" totalcount="19" value="RVSTGISPSGPIHVGNMREILTGDILFKADFIYLCDDMDSDYYLEPFVRVMKEARVIKTSDPWRVEWPAKWFVEPFGKDHGGSYDTGRRIAREVPVPLMY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_N_equitans" taxon="lys_arch_N_equitans" totalcount="19" value="TVRCANTPTGVLHIGNANDVIRAYFIAKVRLVFTSDDRDSEHFISIYFKEFELLEYYSPSIDWYVEWAMDWAVEPMGKDHY-SWKISPKIAKEVPIPVVY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_M_aeolicus" taxon="lys_arch_M_aeolicus" totalcount="19" value="LISSGITPSGHIHVGNARETLTADGIYKGELIFIADNYDADHFLNPFINSLDDLTVYKADEPWRVDWPARWKAEPMGKDHGGSYDTGIKISEMVPEKIIY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_Halobacterium" taxon="lys_arch_Halobacterium" totalcount="19" value="VIKGGISPSGVPHLGNMNEIVRGYFVAEAREVFTSDDRDGDHFSNLIEESAALLEMVSNTAPWRFEWPAEWRFEPFGKDHA-SWPSGVDIARNVPVPMVY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_M_kandleri" taxon="lys_arch_M_kandleri" totalcount="19" value="VVASGASTSGRLHVGNARDVLTADAVARVRVVWISDDVDSDRWARNFVEELREFEWISSAEGWKIEWPTRWVCEPFGKDHYGSYEVGSAIAEEFPVPVPY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_M_acetivorans" taxon="lys_arch_M_acetivorans" totalcount="19" value="LVATGITPSGHIHIGNMREVVTADAAYRARLIYIADNYDAEHFLKPFIEALRRLEVLRADETWRVDWPARWAVEPFGKDHAGSYDTGKRIVREIPFPIVY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_S_marinus" taxon="lys_arch_S_marinus" totalcount="19" value="IFNGGLSVSGLEHVGRLREIIIPEVLRRIKEYITLYTEDVEHYWEDFGPYLEEFEVVTTTDNWRIEWVGVWWFEPYGKDHAGSRDSCVDLAVNVPEGIPY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_P_occultum" taxon="lys_arch_P_occultum" totalcount="19" value="VFNGGLSVSGLEHVGRLREVVIPEVVRRIKEYLTLYTEDVDRFWADFGPYLGEFEVVKTTDNWRIEWVGVWWFEPYGKDHAGSRDSANELALKVPEGLPY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_lys_arch_1irx_P_horikoshii" taxon="lys_arch_1irx_P_horikoshii" totalcount="19" value="VVESGITPSGYVHVGNFRELFTAYIVGHARHIHMWDDYDAEHFMRKFEEEVEKLDLLYASERWRVDWPMRWSFEPAGKDHLGSYDTGKEIIKEVPLSLMY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_1rqg_P_abyssi" taxon="met_arch_1rqg_P_abyssi" totalcount="19" value="MVTSLPYANGPIHAGHLAAYLPADIFVRYVFICGTDEHGDEFHEEIKITFERADFFGRTELYVWFEAPIGYIIHFIGKDNIPFAIFWPAFLMAYPDIPAN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_P_aerophilum" taxon="met_arch_P_aerophilum" totalcount="19" value="VIGSWPYVETVPHLGNMISVLSADVYARYVFVSGSDVHGMKMHAIVAELFKKWDLYTHTHSYVWFEAVLGYIVFFVGKDNVPFVIILPALLLAYPTTAST---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_T_volcanium" taxon="met_arch_T_volcanium" totalcount="19" value="LVNCLPYANGPLHVGHIAAYLGADVFVRFLYVSGSDEYGDRYYAEHIETFKKLDIFMRTTYYVWFEALIGYIYYFIGKDNIPFSIIWPAMLLGYPDIPAN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_S_acidocaldarius" taxon="met_arch_S_acidocaldarius" totalcount="19" value="LVTSWPYVNAVPHLGNLISILSADVFARYVFVSGSDEHGDEAHAYDKKLFDTWDNYSRTESYVWFEALLGYLYYFIGKDNIPFAVILPAMLMASPVIAAT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_T_acidophilum" taxon="met_arch_T_acidophilum" totalcount="19" value="LVNCLPYANGPLHIGHIAAYLGADVFVRYLYVSGSDEYGDIYYEEHLRTFENLDIFMRTTWYVWFEALIGYIYYFIGKDNIPFAIIWPAMLMGYPDIPAN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_Halobacterium" taxon="met_arch_Halobacterium" totalcount="19" value="VVTALPYANGDLHIGHLRSYVSADAFTRAVYVCGSDMHGLRHHKEYRETFPKFDEYGHTHDYVWVDAPIEYVVHVIGRDIIEHTVYWPAMLEAYPAVCAA---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_M_acetivorans" taxon="met_arch_M_acetivorans" totalcount="19" value="LVTCLPYANGKAHIGHLRTYVPADIFARSTFVCGSDTHGEIYHKHFDETFKELDAFGTTDDYVWVDAPIGYIVHFIGGDITYHCIFWPAMLNGYPAVVAS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_M_aeolicus_Nankai" taxon="met_arch_M_aeolicus_Nankai" totalcount="19" value="LLTTLAYTNGPLHLGHARTYIPADIIKRYIHVGGTDNHGNKYHNEIKRDLDNLDSYGKTHSYVWLEAPIGYIWHFIGKDITVHAVFWPGMLLGYPSIFSG---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_M_hungatei" taxon="met_arch_M_hungatei" totalcount="19" value="LVTCLPYTNGPCHLGHLRTYVPADFYVRFVFICGSDNHGERYHTHFSDTFTKMDHFGMTDDYVWVDAPIGYITHFIGEDITYHCVFWPAMLHGYPAVVAS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_M_jannaschii" taxon="met_arch_M_jannaschii" totalcount="19" value="LITTLAYTNGPLHLGHARTYIPADIIYKYIHVGGTDNHGEKYHNEIKEDLDLLDAFGKTHSYVWLEAPIGYIYHFIGKDITVHAVFWPGMLIALPAVVSG---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_M_kandleri" taxon="met_arch_M_kandleri" totalcount="19" value="LVTTLAYTNGPLHIGHVRTYLPADVYTRFIHIGGTDNHGEKYHEMIKEDLERLDEFSREFNYVWFDAPIGYVVHFIGKDIIVHALFWPAMLMGLPTIVAG---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_M_thermautotrophicus" taxon="met_arch_M_thermautotrophicus" totalcount="19" value="FITCLPYANGPTHLGHLRTYIPADIYARYLFVCATDEHGTRYHEMIRGDLERCDSFTRTTDYVWGEAFLGYIIHFIGKDIIYHAIFWPALLMAYPNIIAG---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_N_equitans" taxon="met_arch_N_equitans" totalcount="19" value="LVTALPYSNGPIHLGHIAAYLPADIFYRFLYICGSDEYGSFYRKIEEEIFKKFDIYSGTESYVWFDAPIGYIVHFIGKDNIPFTIFWPALIIGYPEVFGN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_A_fulgidus" taxon="met_arch_A_fulgidus" totalcount="19" value="LVTCLPYANGKAHVGHLRTYVPADVYVRYVFVCGSDCHGDIYHEHFIKIFDALDFYGRTDSYVWVDAPIGYIIHFIGLDIVYHCIFWPAMLKGYPAVVAS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_P_delaneyi" taxon="met_arch_P_delaneyi" totalcount="19" value="VVTSWPYVNNVPHLGNLISILSADVFARYVFVSGSDEHGDEAHEYVSKLFEEYDNYTRTESYVWFDALLGYVVYFIGKDNIPFAIILPAMFMAYPYISST---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_P_horikoshii" taxon="met_arch_P_horikoshii" totalcount="19" value="MVTSLPYANGPIHAGHLAAYLPADIFVRYVFICGTDEHGDEFHEHIKITFERADFFGRTELYVWFEAPIGYIIHFIGKDNIPFAIFWPAFLMAYPDIPAN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_S_marinus" taxon="met_arch_S_marinus" totalcount="19" value="YITTIYYPNAPPHIGHAYTTVFADVLARYFFMTGNDEHGDEMADVYKKYWELLDYFIRTTDYVWFDALLNYIHHVIGKDILWFTVVWFSILKALPKLLVH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_met_arch_P_occultum" taxon="met_arch_P_occultum" totalcount="19" value="VVASWPYVNNVPHLGNLISVLSADVFARYVFVSGSDEHGDEAHEYVSRLFREFDNYTRTESYVWFDALLGYIVYFIGKDNIPFAIIFPAMLMALPYIAST---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_arch_P_delaneyi" taxon="trp_arch_P_delaneyi" totalcount="19" value="ALVTGFMPSGKFHFGHKMVADEIIYYEKEVFIVIADAEVIEIGLYYVANLIALTHIYFETNVAALTEAADILLVPVGADEDPHIRFTRDIADRFRPASTY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_arch_S_acidocaldarius" taxon="trp_arch_S_acidocaldarius" totalcount="19" value="FLYTGRAPSLGMHIGHLIPFIFTKWLEENVYIEITDDETKEWSYENILDIIAVTFIFEDTEFYPALEIVPTMLIPAGIDEDPYWRLERDIAESLKAAEIH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_arch_M_kandleri" taxon="trp_arch_M_kandleri" totalcount="19" value="SVLSGMMPSGRMHLGHKTVVDELVFYEEKVYVPIADLEAHRIAVEYVLNYAALCEIYLESEFAPIVEAADILLVPVGVDEDPHLRLTRDIAEKEKPASTY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_arch_M_thermautotrophicus" taxon="trp_arch_M_thermautotrophicus" totalcount="19" value="AVVTGMMPSGRMHIGHKMIVDELRWYDREIFIPIADMESRRIAIEYIAGYIALIHVYLESEYAPIIEVSDILIVPVGPDEDPHIRLTRDIAARFLPSSTY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_arch_P_aerophilum" taxon="trp_arch_P_aerophilum" totalcount="19" value="ALYTGRGPSGPVHIGHMVPWILLKWFSDEVYFEITDDEATNWAYENALDVIALLHLIIDTKFYPSLEIAVAFLIPCAIDEDPYFRLARDIADALKPSTLY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_arch_M_acetivorans" taxon="trp_arch_M_acetivorans" totalcount="19" value="SVMDGFMPSGKVHLGHKMVMDEIVWHEESAFVGIADRECREIGVEYILSLIALGLIYFESGLSVATEAADILVVPVGPDEDPHLRLTRGLAGKMPPASTY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_arch_N_equitans" taxon="trp_arch_N_equitans" totalcount="19" value="FLYTGIAPSKKMHIGHLVPFILTRWFEENVYIMFPDEEVRRKIKEMHAKIAALTFMFINSEFYTVLEIVPTFLIPAGIDEDPYFRLERDIAPKLKAAEIL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_arch_T_acidophilum" taxon="trp_arch_T_acidophilum" totalcount="19" value="NVMTGLMPSGEMHLGNKSAIDEVIFFEKRVSIAVADLEAREVAIEYILNYIAMCEIYFESRNAPLIEAADVLVVPVGFDEDPHLRLMRDLAKRMAPSATY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_arch_T_volcanium" taxon="trp_arch_T_volcanium" totalcount="19" value="NVMTGLMPSGEMHLGNKSAIDEVIYFEKSVSIAVADLEAREIAIEYILNYIAMCEIYFESKNAPLIEAADVLVVPVGFDEDPHIRLMRDLAKRMPPSATY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_arch_A_fulgidus" taxon="trp_arch_A_fulgidus" totalcount="19" value="AVMSGFMPSGLPHFGHKMTMDEIVWHESKAFVAIADMETRELGMLYIKSIIALAVIYFESKFVTAIEAADILVVPVGADEDPHMRLTRDLAARIPPSSTY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_arch_M_hungatei" taxon="trp_arch_M_hungatei" totalcount="19" value="NVMTGFMPSGHPHLGHLMVMKEVVWHVERGYICIADRECRKYGDEYLSCLYALGETYEESSMSVLTEVADILIVPVGLDEDPHIRLTRGVAHKLTPSATF---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_arch_P_horikoshii" taxon="trp_arch_P_horikoshii" totalcount="19" value="FLYTGRGPSGPMHIGHIIPFFATKWLEENLYIEITDDETKRWAYDNILDIIAVTFIFENSEFFPAIEIAPTFLIPAAIDEDPYWRLERDFAESLKTAALH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_arch_M_jannaschii" taxon="trp_arch_M_jannaschii" totalcount="19" value="AVVSGMMPSGKMHFGHKMIIDELLYYEKEIYIPIADLETKNLAIEYITNYIALINIYLESKFAPIVEVADILIVPVGIDEDPHLRLTRDIASRAPPSSTY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_arch_P_occultum" taxon="trp_arch_P_occultum" totalcount="19" value="ALVTGFMPSGRFHFGHKMVADEIIYYEKEIFIVIADAEVIETGLYYVANLIALTHIYFETNMAALTEAADILLVPVGADEDPHIRLARDIADRFRPASTY---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_trp_arch_Halobacterium" taxon="trp_arch_Halobacterium" totalcount="19" value="SIVTGIGPSGPMHLGHAMVFYFAKRLEDRVYVPLSDDETGDYLRENLRDLLAVTRFVVDTKFYPAVETAHLLLVPIAVDEDPHVRVSRDVAAKAKPGALL---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_2cya_A_pernix" taxon="tyr_arch_2cya_A_pernix" totalcount="19" value="KGYIGYEPSGVAHIGWLVWMYKVKDLVEADFSVLEATWHRAAARIVRRVMEAAVRFVDAEEIYPLMEVSDIFIALGGMDERKAHMLARDVAEKLPVAIHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_2cyb_A_fulgidus" taxon="tyr_arch_2cyb_A_fulgidus" totalcount="19" value="RAYVGYEPSGEIHLGHMMTVEKLMDLEEAEIIVLLADIHAEVADYNKKVFIALAKFVLGSEIYPLMEALDIALAVGGIDERKIHMLARENLPRLPVCLHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_2cyc_P_horikoshii" taxon="tyr_arch_2cyc_P_horikoshii" totalcount="19" value="EHYIGFEISGYIHLGTLMAGAKIADFEKAKTRVFLADWHEEVALYFKVGMEKSVEFVLASEIYPMMEVADIFIAHAGMDERKAHVIAIEVAEKLPVAVHH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_2zp1_M_jannaschii" taxon="tyr_arch_2zp1_M_jannaschii" totalcount="19" value="SAYIGFEPSGKIHLGHYLEIKKMIDLENADIIILLADLARKIGDYNKKVFEAMAKYVYGSEIYPIMEVNTSHVAVGGMEERKIHMLARELLPKKVVCIHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_P_delaneyi" taxon="tyr_arch_P_delaneyi" totalcount="19" value="KGYLGFEPSGLFHIGWLVWANKVKDLVDAEFYLLAATWHRKAARHVVDVLEAIGKVVDAEDIYPAMEVTDIFIALGGLDERKAHMLARDTAEKLPIAIHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_T_volcanium" taxon="tyr_arch_T_volcanium" totalcount="19" value="KSYIGIEPSGIPHVATVMWPRKLAELEDDKIYVLLADWHRKGGELLKRSFMAEGEYLWASEIYPIMEVTDIFIAFGGMDERHAHMLARDIADKMAVSVHG---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_M_kandleri" taxon="tyr_arch_M_kandleri" totalcount="19" value="VAYVGFEPSGKVHLGHKLVIDKMIDLEEAHVIILLADLHRELADYNRRCFLAMGEFVLGSEVYPLMEALDIVLAVGGLEERKIHMLARDVLPKLPTCLHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_M_hungatei" taxon="tyr_arch_M_hungatei" totalcount="19" value="KVYAGYEPSGEIHLGHLVTINKLIDLRDAEVTVLLADLHKKLAEYNRRCFEGLGKYVLGSSVYPIMEMADIAAALGGIDERKIHMLAREYLPSKPVCIHV---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_M_thermautotrophicus" taxon="tyr_arch_M_thermautotrophicus" totalcount="19" value="VVYTGYEPSGRIHLGHALTVRKLRELEDARVKILLADYHRELADYNEKCFLALGEFILGSSIYPLMEVIDMVVALGGMEERKIHMLARENLPRLPVCIHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_P_aerophilum" taxon="tyr_arch_P_aerophilum" totalcount="19" value="SAYLGFEPLWPIHIGWLIWAYKLAELKEADVIVLVATWHRAHGERVRAVLDRIGKYVYGDDMYPLMEVADIFVAVGGMDERRAHMLARDVAEKLPIALHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_T_acidophilum" taxon="tyr_arch_T_acidophilum" totalcount="19" value="KSYIGIEPSGIPHIATVMWPRKLAEIEDDKVTVLLADWHRKGGEILRKTFEAEGDYVWASDLYPIMEVTDIFMAFGGMDERHAHMLARDIAEKMVVSVHG---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_M_aeolicus_Nankai" taxon="tyr_arch_M_aeolicus_Nankai" totalcount="19" value="IAYIGFEPSGRIHLGHYLEIKKMIDLENAKIIILLADLHKELAEENKKVFDAIGTYIYGSEVYPLMEVIDIKVAVGGMEERKIHMLAREILPSMPVCIHN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_N_equitans" taxon="tyr_arch_N_equitans" totalcount="19" value="NHYIGFEISGFVHLGTIISMLKVRDFEKAKTTLFLADYHRKVAKYFAEALKVSLKVVLGSELYVPMEVADIYLAHGGIDERKAHVIAIEVSDAFPIAVHH---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_S_acidocaldarius" taxon="tyr_arch_S_acidocaldarius" totalcount="19" value="KGYIGFEPSGLFHIGWLIWAEKLKDLIKADMSILVATWHKLAGKYALEVLEGFGKVVYAEDIYPAMEVSDIFIALGGTDERKAHMLARDVAEKLVIAIHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_M_acetivorans" taxon="tyr_arch_M_acetivorans" totalcount="19" value="RAYVGYEPSGKIHMGHVLTVNKLIDLEKAKITVLLADVHRKIADYNRRCFIALGDFVYGSDVYPLMEAIDIAVAVGGIDERKIHMLARENLKSLPICIHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_S_marinus" taxon="tyr_arch_S_marinus" totalcount="19" value="RGYIGFEPSGLVHVGWLVWMNKVRDLLEADFYILEATWHRKAARLVRKVMEGFGKFVDAEEIYPLMEVSDIFIALGGTDERKAHMLARDIAEKIPVAIHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_P_occultum" taxon="tyr_arch_P_occultum" totalcount="19" value="KGYIGFEPSGLFHIGWLVWANKVRDMIDAEFYLLAATWHRKAARHVIDVLEAIGKVVDAEDIYPAMEVTDIFIALGGTDERKAHMLARDTAEKLPIAIHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_tyr_arch_Halobacterium" taxon="tyr_arch_Halobacterium" totalcount="19" value="RAYVGYEPSGVLHLGHLLTANKLIDLEDAEVVVLLADVHRETAEEMKAEFLAYGEFVLGSDVYPLMEALDIELAIGGLDERKVHMLAREELPSLRPALHT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_P_delaneyi" taxon="val_arch_P_delaneyi" totalcount="19" value="IIDTPPYPSGKWHVGGAAHYAEIDMIARYFVPWYADRNGDKIEEELVRIWSRLGIENGTDSDTWFDSSISVLMRPEGLDIIRTLYFTMLRVYELFWIRVT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_T_volcanium" taxon="val_arch_T_volcanium" totalcount="19" value="TIDTPPTVSGKMHMGHSFSYSHIDFIARYFFPWGFDDNGEASEKALIEGWKRMGDYYVTSSDTWATSSLTPRLRGEGHDIISFAFTTIARSKIHWTLMIS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_M_aeolicus_Nankai" taxon="val_arch_M_aeolicus_Nankai" totalcount="19" value="IIDTPPYPTGRMHLGHALNWTYMDIIARFLFPEGWDCHGDENIEKMREEINSLGREYITMSDTWMDSSITPMLRPEGHDIIRTAFYTIIKSIALWEIVIN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_S_acidocaldarius" taxon="val_arch_S_acidocaldarius" totalcount="19" value="VIDTPPFTSGELHMGHAYWVTISDTIGRFLLPEGWDTEGEDMIRSMRTAMIRLGREYRTYEDVWVDSSVTVLLRLEGTDIIRTLFYTYYRTLALFEVLIN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_P_aerophilum" taxon="val_arch_P_aerophilum" totalcount="19" value="VIDTPPYLSNRPHIGETASYAHFDMIARFIFPFYLDRNGDSYEGEFVSSLRRWGWPNGTDSDTWFDSSISWMMRPEGYDIIRTLYYSLLRAYLLFYVRIN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_T_acidophilum" taxon="val_arch_T_acidophilum" totalcount="19" value="AIDTPPTVSGKMHMGHSFSYPHIDFIARYFFPWGFDDNGESSEKSLLEGWKRIGDYYVTSSDTWATSSLTPRLRGEGHDIISFAFTTIARSKIHWRIMIS---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_P_horikoshii" taxon="val_arch_P_horikoshii" totalcount="19" value="AIDTPPFTSGTLHLGHVLSHTWIDIIARYLFPEGFDNHGWEAIEAMRKEFIRIGLEYHTMDDCWVDSSITPLLRPEGTDIIRTAFYTILRTYVLWDIVIN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_A_fulgidus" taxon="val_arch_A_fulgidus" totalcount="19" value="IIDTPPYPTGSFHIGHALNWCIIDFIARYMFPEGWDCHGEENIAKMRETARRMGKEYITMYDTWMDSSITPLLRPEGHDIIRTAFYTILRSLALWEIVIN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_Halobacterium" taxon="val_arch_Halobacterium" totalcount="19" value="IVDTPPYPTGNLHLGHGLEWSYIDFVARFLFPEGWDCHGEERIDGMKETMRELGAEYRTMDDTWMDSSITPLLRPEGHDIIRTAFYTLLRTGALWDALIN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_M_acetivorans" taxon="val_arch_M_acetivorans" totalcount="19" value="IIDTPPYPTGNFHIGNALNWCYIDYIARYMFPEGWDCHGAGNIEKMRKTMLRLGNEFVTMEDTWMDSSITALIRPEGHDIIRTAFYTILRSLALWSIVIN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_M_hungatei" taxon="val_arch_M_hungatei" totalcount="19" value="VIDTPPYPTGEFHIGNAFNWCYIDFLARYMFPEGWDCHGIGNIRKMRASMRRMAHEYITMMDTWMDSSISVMIRPEGHDIIRTAFYTILRAVSLWEILVN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_M_thermautotrophicus" taxon="val_arch_M_thermautotrophicus" totalcount="19" value="VIDTPPYPTGELHMGHVLNWTYMDVVARYFFPEGWDCHGLENIRKMREELIELGTEYVTMDDTWMDSSITPLLRPEGHDIIRTLYYTTVRALVHFEILIN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_M_kandleri" taxon="val_arch_M_kandleri" totalcount="19" value="IIDTPPYPTGSIHMGHVLNWVYMDIIARFLFPEGWDCHGEENIRMMKEEMERLGHEFVTMTDTWMDSSISPLLRPEGHDIIRTAFYTILRCMALFEIVIN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_N_equitans" taxon="val_arch_N_equitans" totalcount="19" value="IIDTPPYPAPLWHIGAALSYALEDFIARGIFPEGFDGNGDSWREKMDKILKDLLHRYNTDDDTWMDSSITIYLRPEGYEIIRTLYYTLLRVYELFFVVIN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_M_jannaschii" taxon="val_arch_M_jannaschii" totalcount="19" value="IIDTPPYPTGRLHLGHALNWTYMDIIARYLFPEGWDCHGKENIEKMRREIKSLGKEYITMTDTWMDSSITPMLRPEGHDIIRTAFYTIVKSVALWEIVIN---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_val_arch_P_occultum" taxon="val_arch_P_occultum" totalcount="19" value="VIDTPPYPSGKWHVGGAAHYAEIDMIARYFVPWYADRNGDRVEEELVRIWRGLGIRNGTDSDTWFDSSISVLLRPEGVDIIRTLYFSVLRVYELFWVRVT---------------------------------------------------------------------------------------------------------"/>
+                    <sequence id="seq_ala_arch_2ztg_A_fulgidus" taxon="ala_arch_2ztg_A_fulgidus" totalcount="19" value="----------------------------------------------------------------------------------------------------ELDEMREYYLNFFERRGHGRIEYPVVAYLTIASIADFENPLTISEPCIRLTLFEMMAHHAFKNETVAYCTELLNCLEAIVEVATLVFMNYIVDTGYGERFVWASK"/>
+                    <sequence id="seq_ala_arch_2zze_P_horikoshii" taxon="ala_arch_2zze_P_horikoshii" totalcount="19" value="----------------------------------------------------------------------------------------------------TLDEMREKFLRFFEKHPHGRVRYPVLPLLVGASIMDFENPLVISEPSIRFTIFEMMAHHAFMDETVELAFEFFTAFEVLYEVATLVFMTKVVDTGYGERLVWMSE"/>
+                    <sequence id="seq_ala_arch_P_delaneyi" taxon="ala_arch_P_delaneyi" totalcount="19" value="----------------------------------------------------------------------------------------------------SVAEARRKFIRFFERNGHEFIERPVVAYLTIASIVVFENPLVIVEPSIRLTSFEMGGHHAFKEETVRLAFEFFTSFEVTVELATLVFMLRVVDTGYGERLAWFTE"/>
+                    <sequence id="seq_ala_arch_T_volcanium" taxon="ala_arch_T_volcanium" totalcount="19" value="----------------------------------------------------------------------------------------------------TLSEMRKAFFDFFEKRGHKLLEYPVVPLLVNASIYDFENPIVMSEPSIRMTSFEMLCHDAFKEETVRYSYEFLTALEVFVEVATLVFMMEIVDTGYGERLTWLSE"/>
+                    <sequence id="seq_ala_arch_S_acidocaldarius" taxon="ala_arch_S_acidocaldarius" totalcount="19" value="----------------------------------------------------------------------------------------------------TVRESREKFLRFFEKRGHTIVPKPVVAYLTIASIVDFENPLVVSEPCIRLTTFEMAAHHAFKDETVAFAKEFFTCFEVTVELATLVFMLKIVDTGYGERIAWFTE"/>
+                    <sequence id="seq_ala_arch_M_kandleri" taxon="ala_arch_M_kandleri" totalcount="19" value="----------------------------------------------------------------------------------------------------DVWEAGEEFFRFFERHDHEVLDYPVVAHLTIASIACFENPLVINEPCIRLTLFHMGGHHAFKEETVRLCYEFTVCFEVVVELATLVFMEKIVDTGYGERYAWITT"/>
+                    <sequence id="seq_ala_arch_M_hungatei" taxon="ala_arch_M_hungatei" totalcount="19" value="----------------------------------------------------------------------------------------------------TVDEMREAYLSFFEKEGHTRIDYPVAAYLTIASIADFENPLTISEPCIRLTCFEMMAHHAFKDRTVELCDELLTSVEVLIEVATLVFMLRIVDTGYGERFVWASE"/>
+                    <sequence id="seq_ala_arch_M_thermautotrophicus" taxon="ala_arch_M_thermautotrophicus" totalcount="19" value="----------------------------------------------------------------------------------------------------DLYEIEDKFMEFFAERGHEPIRYPVLAFLVGASIYNFENPLVVAEPSIRLTCFTMGGHHAFEEETIKYCHDFLTCYEVCVELATLVFILKIVDTGYGERFAWISE"/>
+                    <sequence id="seq_ala_arch_M_aeolicus_Nankai" taxon="ala_arch_M_aeolicus_Nankai" totalcount="19" value="----------------------------------------------------------------------------------------------------TYNEMVKEFLNFFDKNGHTPIKYPVSALLTIASIAVFENPLVIAEPCIRLTCFTMGGHHAFTDRTVELCYNFFTCYEVITELATLVFMLKIVDTGYGERFVWASK"/>
+                    <sequence id="seq_ala_arch_M_acetivorans" taxon="ala_arch_M_acetivorans" totalcount="19" value="----------------------------------------------------------------------------------------------------NISEMREYYLSFFEARGHTRLDYPVVAYLTIASIADFENPLTISEPCIRLTNFEMMAHHAFKEHTLELCDELLTCVEVIVELATLVFMNYIVDTGYGERFVWASK"/>
+                    <sequence id="seq_ala_arch_S_marinus" taxon="ala_arch_S_marinus" totalcount="19" value="----------------------------------------------------------------------------------------------------TFDEARRKFIEFFTSHGHGYVDYPVLAYLTIASIIVFENPLVIVEPSVRLTSFEMGGHHAFVNETLEYAFDFFTAYEVLVELATLVFMVLVVDTGYGERIAWFTE"/>
+                    <sequence id="seq_ala_arch_M_jannaschii" taxon="ala_arch_M_jannaschii" totalcount="19" value="----------------------------------------------------------------------------------------------------TYKEMVKEFINFFKEHGHEPIKAPVTALLTIASIAVFENPLVIAEPCIRLTCFTMGGHHAFEDETVELCFNFFKCYEVITELATLVFMLKIVDTGYGERFVWAST"/>
+                    <sequence id="seq_ala_arch_P_occultum" taxon="ala_arch_P_occultum" totalcount="19" value="----------------------------------------------------------------------------------------------------SVAEARRKFLRFFERNGHEIIERPVVAYLTIASIVVFENPLVIVEPSIRLTSFEMGGHHAFKEETVRLAFEFFTSFEVTVELATLVFMVKVVDTGYGERIAWFTE"/>
+                    <sequence id="seq_asn_arch_1x54a_P_horikoshii" taxon="asn_arch_1x54a_P_horikoshii" totalcount="19" value="----------------------------------------------------------------------------------------------------VKETLIMAAREWLLKDGWHEVFPPILVYLSESAELYLEEKVWSLTPSFRATEFWHLELEAALWDIMKVEEELVSASDMLAEIIGGSERVPHSGFGLGERLVAWVL"/>
+                    <sequence id="seq_asn_arch_T_volcanium" taxon="asn_arch_T_volcanium" totalcount="19" value="----------------------------------------------------------------------------------------------------VRSTIFRSFADFFYDEGYYEVHTPFMVFLNESAEFYLEEKVFTIAPSFRATEYWHAEAEVANREMMDVEENMIYNHDLLAEIIGGSERVPHSGFGLGDRLAMWIM"/>
+                    <sequence id="seq_asn_arch_P_aerophilum" taxon="asn_arch_P_aerophilum" totalcount="19" value="----------------------------------------------------------------------------------------------------VEASILRALREFLDSKGFVEVLSPIIGKVMSSAILYKEGKIYFVSPNIRLVEFYELDLEMYYHEAMDLAEDLITDFDMLYEAISGAERLETAGFGIGERLTRYIC"/>
+                    <sequence id="seq_asn_arch_T_acidophilum" taxon="asn_arch_T_acidophilum" totalcount="19" value="----------------------------------------------------------------------------------------------------IRSTIFRSFADFFYENGYYEVETPFMVYLNESAEFYLEEKVFTIAPSFRATEYWHAEAEVANNEMMDIEERMIYNHDMLAEIIGGSERVPHSGFGLGDRLAMWIM"/>
+                    <sequence id="seq_asn_arch_N_equitans" taxon="asn_arch_N_equitans" totalcount="19" value="----------------------------------------------------------------------------------------------------LRAKVEKFFRDWFMENGFVEINTPKIVYLTESPELYKEPKVFEIAFAYRAAEFTSVDAEMGEYDVINTIKKMLIGFDIIFEIISGAERPPHGGFGLGERYLRELL"/>
+                    <sequence id="seq_asn_arch_S_marinus" taxon="asn_arch_S_marinus" totalcount="19" value="----------------------------------------------------------------------------------------------------IKHSVLKAGREYFVENDWWEVTPPILTYLSESAELYLEEKVWSLTTSFRAAEYWHLEAEAAMEDMMRVAEELVAGFDLLAEIIGGSERVPHSGFGLGERLVMWIA"/>
+                    <sequence id="seq_asp_arch_1wydb_S_tokodaii" taxon="asp_arch_1wydb_S_tokodaii" totalcount="19" value="----------------------------------------------------------------------------------------------------IESLALKAFRETLYKEGFIEIFTPKIIFLAESPELYKEERVFEVAPAWRAAEFISMDVEMAYNDVMELLEKILHSFDLIYEIVSGSTRPPHAGFGMGARLMVMLT"/>
+                    <sequence id="seq_asp_arch_P_delaneyi" taxon="asp_arch_P_delaneyi" totalcount="19" value="----------------------------------------------------------------------------------------------------VEAEMARAAREWFYEHGFVEIFTSKIVFLAESPELYKEERVFEIGPAFRATEYTSVDLEMGFEDVMDAVEGVVRSFDLLFEIATGGERPPHGGAGIGERVAMELL"/>
+                    <sequence id="seq_asp_arch_T_volcanium" taxon="asp_arch_T_volcanium" totalcount="19" value="----------------------------------------------------------------------------------------------------AESSILWGIREFLHSEGFIEVHTPKIVYLNESPELYKEEKVFEVGPAFRANEFTSIDIEMSHNDAMRILENAVKSFDLEYEVTSGAERPPHAGWGLGERLTMIVL"/>
+                    <sequence id="seq_asp_arch_S_acidocaldarius" taxon="asp_arch_S_acidocaldarius" totalcount="19" value="----------------------------------------------------------------------------------------------------IENITLKSFRETLYKEGFVEVFTPKIIFLAESPELYKEEKVFEIAPAWRAAEFISMDVEMAYEDTMKLLEKLIYSFDLIYEIASGSTRPPHTGFGMGARLLVMLT"/>
+                    <sequence id="seq_asp_arch_M_kandleri" taxon="asp_arch_M_kandleri" totalcount="19" value="----------------------------------------------------------------------------------------------------IRNVVTTAIREFLEERGFIEVHTPKIIYLAESPELYKEERVYEIGPIFRANEAISVDIEMSEEDVMRVLEELLAAFDLMYELASGAERPPHGGWGLGERTLMTIT"/>
+                    <sequence id="seq_asp_arch_M_hungatei" taxon="asp_arch_M_hungatei" totalcount="19" value="----------------------------------------------------------------------------------------------------IRNAVEHATRNFFFENGFIEINTSKIVFLNESPELYKEEKVYEIGPIFRANEATSIDIEVSHLGVMETLEDLIRAFDMMHELSSGAERPPHAGWGLGERLVTTML"/>
+                    <sequence id="seq_asp_arch_A_fulgidus" taxon="asp_arch_A_fulgidus" totalcount="19" value="----------------------------------------------------------------------------------------------------IRHEVMESVREFLSEEGFIEVHTPKIVFLNESPELYKEEKVFEIGPIFRANEAISIDIEMSHNGVMDVLERLVESFDLMHELSSGAERPPHAGWGLGERLIMSML"/>
+                    <sequence id="seq_asp_arch_M_thermautotrophicus" taxon="asp_arch_M_thermautotrophicus" totalcount="19" value="----------------------------------------------------------------------------------------------------IKSRMLHSVRVFLEEEGFLEINTPKLVFLGESPELYKEDRVYEIAPIFRANEVISIDIEASHEDVMKILENLVVAFDLMYEISSGAMRPPHAGWGLGERFNMTLT"/>
+                    <sequence id="seq_asp_arch_P_aerophilum" taxon="asp_arch_P_aerophilum" totalcount="19" value="----------------------------------------------------------------------------------------------------VASAMLRSIREVLYGEGFVEVFTPKIIYLSESPELYKEERVFEIGPAYRANEFISVDAEAAYNDIMDILEKIMRSYDLIIEVASGATRPPHAGFGLGNRLVTALL"/>
+                    <sequence id="seq_asp_arch_T_acidophilum" taxon="asp_arch_T_acidophilum" totalcount="19" value="----------------------------------------------------------------------------------------------------IESALLWGIREYLHSEKFIEVHTPKIVYLNESPELYKEDRVFEVGPAFRANEFTSIDIEMSHNDAMAMLENAIRSFDLEYEVTSGAERPPHAGWGLGERLTMILL"/>
+                    <sequence id="seq_asp_arch_N_equitans" taxon="asp_arch_N_equitans" totalcount="19" value="----------------------------------------------------------------------------------------------------LRAKVEKFFRDWFMENGFVEINTPKIVYLTESPELYKEPKVFEIAFAYRAAEFTSVDAEMGEYDVINTIKKMLIGFDIIFEIISGAERPPHGGFGLGERYLRELL"/>
+                    <sequence id="seq_asp_arch_M_aeolicus_Nankai" taxon="asp_arch_M_aeolicus_Nankai" totalcount="19" value="----------------------------------------------------------------------------------------------------LRSEVLKSIRNTFHDNGFIDVDTPKLVFLGESPELYKEDRVFEIGPIFRANEAISIDCEMSEKDAMEILEKVINAFDLMYEISSGAERPPHSGWGVGERLMMIMA"/>
+                    <sequence id="seq_asp_arch_M_acetivorans" taxon="asp_arch_M_acetivorans" totalcount="19" value="----------------------------------------------------------------------------------------------------IRHEALEAIREYFVKNKFIETATPKVVFLNESPELFKEDRVFEIGPIFRANEATSIDVEVSHFDVMEILENLVASFDMMHELSSGAERPPHAGWGMGERFVMTML"/>
+                    <sequence id="seq_asp_arch_P_horikoshii" taxon="asp_arch_P_horikoshii" totalcount="19" value="----------------------------------------------------------------------------------------------------IRSSVFRAVREFFYSEGFIEIHTPKIIFLAESPELYKEDKVFEIAPIFRANEAWSIDAEMAEGEVMDLLERLISAFDLEYEISSGGERPPHGGFGLGERLIMRML"/>
+                    <sequence id="seq_asp_arch_S_marinus" taxon="asp_arch_S_marinus" totalcount="19" value="----------------------------------------------------------------------------------------------------IRAGIIEAAREYFNNNGFIEIHTPKIVYLSESPELYKEPRVFEITPYFRANESWGIDAEEGVEDVLNTLEDLIVKFDLDYEIASGGERPPHGGFGLGERLMMKML"/>
+                    <sequence id="seq_asp_arch_M_jannaschii" taxon="asp_arch_M_jannaschii" totalcount="19" value="----------------------------------------------------------------------------------------------------IRSEMLKSVRNTLYNEGFIEVNTPKLVFLGESPELYKEDRVFEIAPIFRANEATSIDIEMADKDAMDILEKVVYAFDLMYEISSGAERPPHAGWGLGDRFTMVLT"/>
+                    <sequence id="seq_asp_arch_Halobacterium" taxon="asp_arch_Halobacterium" totalcount="19" value="----------------------------------------------------------------------------------------------------LRSKAMGAMRSWFYDNEFEEVDTPELSYLSESPELYKEDRLFEVGHAFRASEIAMFDVELGHHDVMDVEEESLRKFDLLYELSSGGERPPHGGYGLGDRLIEELA"/>
+                    <sequence id="seq_asp_arch_d1b8aa_T_kodakarensis" taxon="asp_arch_d1b8aa_T_kodakarensis" totalcount="19" value="----------------------------------------------------------------------------------------------------IRSSVFKAVRDFFHENGFIEIHTPKIIFLAESPELYKEDRVYEIAPIFRANEAWSIDSEMAEEEVMSFLERLVAAFDLEYEISSGGERPPHGGFGLGERLIKEML"/>
+                    <sequence id="seq_gly_arch_T_volcanium" taxon="gly_arch_T_volcanium" totalcount="19" value="----------------------------------------------------------------------------------------------------LKDNIISIWKKSYAKEGAIFLDTPVIAYLRPETAEGIFIIVCEVGKGFRNREFTEAEVEVFMAYFLEKTYSILSTWDFEYEIVGVSDRPRVVEPSYGDRIVLTIL"/>
+                    <sequence id="seq_gly_arch_T_acidophilum" taxon="gly_arch_T_acidophilum" totalcount="19" value="----------------------------------------------------------------------------------------------------LKDNIIAAWKREYAREGAIFLDTPVIDYLRPETAEGIPIIVCEVGKGFRNREFSEAEVEVFMAYFLNKTYEILLTWDFEYEIVGVSDRPKVVEPSYGDRILLTIM"/>
+                    <sequence id="seq_gly_arch_N_equitans" taxon="gly_arch_N_equitans" totalcount="19" value="----------------------------------------------------------------------------------------------------LKNNFINEWKNYFLRPNFWEVDPAIVMYLRPETAEGPYLGLAVVGKAFRNREFTEAELEIFYAYFVGKVKEFYEHVDIEIEVGGIHYRPHVLELSFGDRNVLALI"/>
+                    <sequence id="seq_gly_arch_M_kandleri" taxon="gly_arch_M_kandleri" totalcount="19" value="----------------------------------------------------------------------------------------------------LKRKIEEKWREYYVHEGFMEIEAPNLLYLRPETAEAIFFGVVEIGRAYRNREFTEAEAEVFIGYFLGLTKRMLNCWDVEVEVVGIADRSHVIEPSYGDRILYCVL"/>
+                    <sequence id="seq_gly_arch_M_thermautotrophicus" taxon="gly_arch_M_thermautotrophicus" totalcount="19" value="----------------------------------------------------------------------------------------------------LKNKIMNRWREFYVVEGFYEIESPTIMYLRPETAEGIFFGVVELGKSYRNREFTEAEAEIFLTYHLCLAKRFLMCWDVEAEIIGIADRPHVIEPSFGDRIIYTLL"/>
+                    <sequence id="seq_gly_arch_P_aerophilum" taxon="gly_arch_P_aerophilum" totalcount="19" value="----------------------------------------------------------------------------------------------------LRRNIVEKWRKVFVLDLIIEVETPIIMYLRPETAEGMFFGVAEIGRVARNREFTEMEIELFMAFFMALAAKFLKSYDEMVEVSGHAYRPHVVEPSFGDRIMYVVL"/>
+                    <sequence id="seq_gly_arch_P_delaneyi" taxon="gly_arch_P_delaneyi" totalcount="19" value="----------------------------------------------------------------------------------------------------LKDKIIALWRHYFIRHIVVEIETPVIAYLRPETAEGMFLGIAEIGRVARNREFTIAEMEFFLAYWMAVARDFIMTFDELVEVSGHAYRPHVAEPSFGERLLFVTL"/>
+                    <sequence id="seq_gly_arch_P_horikoshii" taxon="gly_arch_P_horikoshii" totalcount="19" value="----------------------------------------------------------------------------------------------------IKRKIERKIREAFIREGFFEIETPDITYLRPETAEGIFFGVFEIGKAYRNREFTEAEAEIFFAYYMVMIKKILLTWDAEVECVGLAYRVMIHEPSFGDRPFYLLL"/>
+                    <sequence id="seq_gly_arch_P_occultum" taxon="gly_arch_P_occultum" totalcount="19" value="----------------------------------------------------------------------------------------------------LKEKIVALWRDYFIRHIVVEIETPVIAYLRPETAEGMFLGIAEVGRVARNREFTIAEMEFFLAYWMAIARDFVMTFDELVEVSGHAYRPHVAEPSFGERLIFVAL"/>
+                    <sequence id="seq_gly_arch_S_acidocaldarius" taxon="gly_arch_S_acidocaldarius" totalcount="19" value="----------------------------------------------------------------------------------------------------IKNKIVDLWRKHFIKDFVVEIDTPALTFLRPETAEGMFIGIAEIGKVGRNREFTIMEVEFFMAYWMGVASNFVNTFDEIVEISGHAYRPHVIEPSFGERCLYLTL"/>
+                    <sequence id="seq_gly_arch_S_marinus" taxon="gly_arch_S_marinus" totalcount="19" value="----------------------------------------------------------------------------------------------------IKRNIINEWLNNLVYGLVLEIETPIITYLRPETAEGMFLGIAEIGRVGRNREFTIMELEFFMAYWMALGNIFLRTFDEEVEVAGYSYRPHVVEPSFGERIFYVVL"/>
+                    <sequence id="seq_gly_arch_A_fulgidus" taxon="gly_arch_A_fulgidus" totalcount="19" value="----------------------------------------------------------------------------------------------------LRRKIENIWRKYFVIERAAEIDTPTIGYLRPETAEGMFFGVAEIGRAYRNREFNEAELEFFLAYFIGKTRRFLLCWDAEVEVVGIADRIHVIEPSFGDRITYSVL"/>
+                    <sequence id="seq_gly_arch_Halobacterium" taxon="gly_arch_Halobacterium" totalcount="19" value="----------------------------------------------------------------------------------------------------LKRNVEETWRDRFVTEGNMEIDSPTVTYLRPETAEGMFFGAAEIGAGYRNREFTMAELEFFVAYFLARSKEWFECWDAEGELEGIASRVFVVEPAFGGRAVYTVL"/>
+                    <sequence id="seq_gly_arch_M_acetivorans" taxon="gly_arch_M_acetivorans" totalcount="19" value="----------------------------------------------------------------------------------------------------LKRRIEEVWREFYVIEGHMEIECPTIGYLRPETAEGMFFGAVEIGKSYRNREFTEAECELFLGYNIALTNEFLTCWDAEIEIVGIADRPHVIEPSYGDRIFYGIM"/>
+                    <sequence id="seq_gly_arch_M_aeolicus_Nankai" taxon="gly_arch_M_aeolicus_Nankai" totalcount="19" value="----------------------------------------------------------------------------------------------------LKNNIIDTWRKHYITEEFYEIDCPTITYMRPETAEGIFFGVAEIGKAYRNREFTEAEAEFFIAYFVAITKRFLLCWDAEIECVGIADRSHVIEPSHGDRITFCLL"/>
+                    <sequence id="seq_gly_arch_M_hungatei" taxon="gly_arch_M_hungatei" totalcount="19" value="----------------------------------------------------------------------------------------------------VKRRIEDLWREFYVIEGYYEIECPTIGYLRPETAEGIFFGTVEIGRSYRNREFTEAEAEIFVAYYLALTHELLVCWDAEIETVGIADRSHVIEPSYGDRMIYAVL"/>
+                    <sequence id="seq_gly_arch_M_jannaschii" taxon="gly_arch_M_jannaschii" totalcount="19" value="----------------------------------------------------------------------------------------------------LKNNIISKFREEYIIEGFYEIESPTVTYMRPETAEGIFFGVVEIGKSYRNREFTEAEIEYFIAYFIALTKRFLECWDAEIECVGIADRPHVIEPSYGDRITYCLL"/>
+                    <sequence id="seq_his_arch_1wu7a_T_acidophilum" taxon="his_arch_1wu7a_T_acidophilum" totalcount="19" value="----------------------------------------------------------------------------------------------------VEKFIFKTAEEAAEAFGFRRIDFPSLETLIPEATPSTVLRWYSFPKVWRYREHYEFNADIFDAEVIALASSILDVFEAYDAILGGGRYVPAVGFGMGAVISLLKR"/>
+                    <sequence id="seq_his_arch_P_delaneyi" taxon="his_arch_P_delaneyi" totalcount="19" value="----------------------------------------------------------------------------------------------------ALSRLAEIFTEVAEAYGYREVKPPTLEALRPEATASIALRLYYVVNCFRYREFWEAGIELLDFEVIRILVKFYEIFEVKVSIAGGGRYVPGTGFAIGDRTLAAIE"/>
+                    <sequence id="seq_his_arch_T_volcanium" taxon="his_arch_T_volcanium" totalcount="19" value="----------------------------------------------------------------------------------------------------IEKFIFETASSVAESYGFKRIDFPSLETLIPEATPSTVVRWYSFPKVWRYREHYEFNADIFDAEIISLASGILDVFEAYDAILGGGRYIPAVGFGMGAVISLLLK"/>
+                    <sequence id="seq_his_arch_M_aeolicus_Nankai" taxon="his_arch_M_aeolicus_Nankai" totalcount="19" value="----------------------------------------------------------------------------------------------------KRKIIENKLKSVFMAYNFNEINTPTFEGLRPEITSSVVEKLFYFANCFRYREFWEMGCELLDAEVINLAMDGLNVFEVYGEVCGGGRYTPAVGFAYGDRIMLNID"/>
+                    <sequence id="seq_his_arch_S_acidocaldarius" taxon="his_arch_S_acidocaldarius" totalcount="19" value="----------------------------------------------------------------------------------------------------KIKFIEETFRSVVLNSGYEEVYTPIVEALRPEITPSIVLRLFYVGEVYRYREFREAGVELLDIEVISLLNEIYDIFEVVHSIAGGGRYTPAIGFAIGERTALVIN"/>
+                    <sequence id="seq_his_arch_M_kandleri" taxon="his_arch_M_kandleri" totalcount="19" value="----------------------------------------------------------------------------------------------------ARRWLERYLLDVFRSYGYEEVLTPTFEALRPEMTAPVVLKLAYIVNCFRYREFWEAGVEVFDVEVIELTYRIFDVFEIHVECAGGGRYVPAVGMAIGFRLLLAAE"/>
+                    <sequence id="seq_his_arch_Halobacterium" taxon="his_arch_Halobacterium" totalcount="19" value="----------------------------------------------------------------------------------------------------PRRVAIDALEGAAREYGFREIGTPALEALTPELTPTVAIKWFSTRPFWRYREFYETNVDIFDAEVLAVVADGLTVFECFDSVFGGGRYTPAVGVAPGATLGLLLE"/>
+                    <sequence id="seq_his_arch_M_hungatei" taxon="his_arch_M_hungatei" totalcount="19" value="----------------------------------------------------------------------------------------------------RRREIEARMRARARLYGFREIATPVFEALRPELTAPVLVKWCYFADCFRYREFWEFGAELIDAEVITLGYDLLRVFECFAEILGGGAYTPSAGFAIGDRVMVALG"/>
+                    <sequence id="seq_his_arch_A_fulgidus" taxon="his_arch_A_fulgidus" totalcount="19" value="----------------------------------------------------------------------------------------------------RRREIEKRMRKIAESFGYREVATPTFEALRPELTAPVMLRFYYFANCFRYREFWEFGVELIDAEVIILADKILKVFECYAEVCGGGSYTPSTGFAIGDRVCEACS"/>
+                    <sequence id="seq_his_arch_M_thermautotrophicus" taxon="his_arch_M_thermautotrophicus" totalcount="19" value="----------------------------------------------------------------------------------------------------NRKEVEGVLRRTFETYGYHEIKTPIFEALRPELTAPVAIKMYYFGSCFRYREFWEFGCELIEAEVISLASESLHVFEIYVEICGGGTYVESTGFAFGDRLMNALG"/>
+                    <sequence id="seq_his_arch_P_aerophilum" taxon="his_arch_P_aerophilum" totalcount="19" value="----------------------------------------------------------------------------------------------------ALRHMEEVLCKVAESFGYRRVETPVVEGLRFDMTVPVAVRWYYFTKVFRYREFYEFGVELVDAEVIELLIASLEVFEAFVAVGGGGRYTPALGFAIGERLMEAVG"/>
+                    <sequence id="seq_his_arch_N_equitans" taxon="his_arch_N_equitans" totalcount="19" value="----------------------------------------------------------------------------------------------------LWKEIVSKIESVYEKYGFDPIITPIVEALKYDETVPLAFKRYTIDRTFRYREFWEADADIVDAEILNMMIEAYEVYEVWIALGGGGRYIPAVGGSIGNPLIDVGL"/>
+                    <sequence id="seq_his_arch_M_acetivorans" taxon="his_arch_M_acetivorans" totalcount="19" value="----------------------------------------------------------------------------------------------------RRRYVESVMRNVVRNWGYSEIITPTFETLRPELTAPVMLKLFYFENCFRYREFWEFGVELIDAEVIALADALLKVFEVYAEVCGGGSYVPSTGFGIGDRIMEICP"/>
+                    <sequence id="seq_his_arch_P_horikoshii" taxon="his_arch_P_horikoshii" totalcount="19" value="----------------------------------------------------------------------------------------------------KRRWVFEKIREVFEAYGFKEILTPVMESLRPDMTSSVAIKWYYIANMFRYREFWEAGVELIDAEVIALFVESYLVFEAISSIGGGGRYTPATGFAIGERLLPILE"/>
+                    <sequence id="seq_his_arch_R_marinus" taxon="his_arch_R_marinus" totalcount="19" value="----------------------------------------------------------------------------------------------------AWEHVEEVVREVLERFNFREIRTPILEVLRPEVTAPVMEKLYYIGPCFRAREFHEFGVELIDAEVIAAMMAVYETFELESALAGGGRYVPAVGFAAGERLFIALE"/>
+                    <sequence id="seq_his_arch_M_jannaschii" taxon="his_arch_M_jannaschii" totalcount="19" value="----------------------------------------------------------------------------------------------------KRRFVENKLREVFERYGYKEILTPTFEALRPEMTSPVVLRLYYFANCFRYREFWEMGCELIDAEVLNLAMDGLIVFEIYGEICGGGRYTPAVGFAYGDRIMMNID"/>
+                    <sequence id="seq_his_arch_P_occultum" taxon="his_arch_P_occultum" totalcount="19" value="----------------------------------------------------------------------------------------------------ALRRLAEIFARIARSYGYGEVKPPTLEALRPEATASIAVRLYYVVNCFRYREFWEAGVELLDFEVIKLLLKFYEIFEVKVSIAGGGRYVPGTGFAIGDRTLAAME"/>
+                    <sequence id="seq_phe_arch_S_acidocaldarius" taxon="phe_arch_S_acidocaldarius" totalcount="19" value="----------------------------------------------------------------------------------------------------YYREYLNWVRKKMVNLGWKELNAEELIILRSENTAITAGKYFYIGSVWRPIEFEELEGIIIMAELKTEIEKILKSVEVYAEVAGAGMLHKIGAFGIGNRLAMIAL"/>
+                    <sequence id="seq_phe_arch_P_aerophilum" taxon="phe_arch_P_aerophilum" totalcount="19" value="----------------------------------------------------------------------------------------------------FFNEFLDYVREVMIGLGFEEVRGPVLEVLRTETTATTIYKVFTIGRVFRPMEFHELDGIVVFKHLLGELEEIAKSVEVYAEFGGAGIFSRVLAWGWGDRIAMILL"/>
+                    <sequence id="seq_phe_arch_P_delaneyi" taxon="phe_arch_P_delaneyi" totalcount="19" value="----------------------------------------------------------------------------------------------------FFREFVEYLRDVMKELGFVEIEEPPVEILRSHTTAVSAFRFFSLGRVYRVPEFHEIDGIASLRWLIGMLSEFLESIEGYVEILGAGMFYPVAAWGMGERLAMALY"/>
+                    <sequence id="seq_phe_arch_P_horikoshii" taxon="phe_arch_P_horikoshii" totalcount="19" value="----------------------------------------------------------------------------------------------------PYRVFLDKIRRRLIEMGFIEMTVSLIEMPRAHATALSAGKYFTIERVFRPIEFNEIDGFVAFRHLLGILKRFAISVELSAEFGGAGIFVPVIAWGIGDRLAMFKL"/>
+                    <sequence id="seq_phe_arch_P_occultum" taxon="phe_arch_P_occultum" totalcount="19" value="----------------------------------------------------------------------------------------------------FFRELIEHIRDVMKELGFVEVEEPPVEILRSHTTAVSAFRFFSIGRVYRVPEFHEVDGIASLRWLMGMLGELLESLEGYVEVLGAGLFYPVAAWGMGERLAMALY"/>
+                    <sequence id="seq_phe_arch_S_marinus" taxon="phe_arch_S_marinus" totalcount="19" value="----------------------------------------------------------------------------------------------------AYIEFLDLVRDILVSMGFEEVKGPHVEILRSETTAVSVYRVFSLDRVFRPMEFYELDGVIVFKHLLAFFKEFAASVEGFIEVFPGGVFVRAIAWGIGDRLAMAVL"/>
+                    <sequence id="seq_phe_arch_T_volcanium" taxon="phe_arch_T_volcanium" totalcount="19" value="----------------------------------------------------------------------------------------------------PLVYFINEIRRIFLDMGFTEMSGHYIEILRTHTTVTTAEAIFSVEKVFRHAEFYEIEGAVYVATLKWILRTFYGSLDVVVELGGSGIFAPVMAWGMGERLAMLYY"/>
+                    <sequence id="seq_phe_arch_A_fulgidus" taxon="phe_arch_A_fulgidus" totalcount="19" value="----------------------------------------------------------------------------------------------------PYERIIEECRKVFLEMGFTEIKGHYVEVLRTHTTAITIEKAFCIDRVYRRPEFDELEGVVLFKHLLGLLKEFFTSVEPEVELGGAGVFGKVLAWGLGGRLAMLKI"/>
+                    <sequence id="seq_phe_arch_Halobacterium" taxon="phe_arch_Halobacterium" totalcount="19" value="----------------------------------------------------------------------------------------------------VLREAAERVEEVLVGMGFEEMEGPHVDALRGHTTSLTAERYFSVEKAYRNLEFFEIEGWVMVRDLMGTFREFYSSFELFGEIGNSGIFADVMAWGLAERLLMLVT"/>
+                    <sequence id="seq_phe_arch_M_acetivorans" taxon="phe_arch_M_acetivorans" totalcount="19" value="----------------------------------------------------------------------------------------------------PYRRLIEEMREIFLEMGFTEIKGGIIEVLRTHTTSVTIVKAFCIDRAYRRPEFEELEGVVMFADLLGLLAEFYHSVEPEVELGGAGVFEPVLAWGLGSRLAMLKL"/>
+                    <sequence id="seq_phe_arch_M_hungatei" taxon="phe_arch_M_hungatei" totalcount="19" value="----------------------------------------------------------------------------------------------------PYERMIDEMRRILLDMGFTELHGSIIEVLRTHTTSLSIVKAFCIGRVYRRPEFEELEGIVMFRNLLGYLKEFYGSVEPEVELGGAGIFCPVLAWGLGSRVAMLRM"/>
+                    <sequence id="seq_phe_arch_M_aeolicus_Nankai" taxon="phe_arch_M_aeolicus_Nankai" totalcount="19" value="----------------------------------------------------------------------------------------------------PMTRIINDVKEVLIGMGFKEVKNPIVEVLRTHTTVSSIHKIFSIDRVFRNPEFYECEGIILFDNLIGLLKEFLNSLEAEVELLGAGVFKPVLAWGIGSRLAMLRW"/>
+                    <sequence id="seq_phe_arch_M_jannaschii" taxon="phe_arch_M_jannaschii" totalcount="19" value="----------------------------------------------------------------------------------------------------PLTRIIREVKEILLAMGFKEVKSPIVEILRTHTTASSIHKVFCIDRVFRNPEFYECEGIIMFNNLIGVLKEFLNSLEAEVEILGAGIFKPVLAWGIGSRLAMLRY"/>
+                    <sequence id="seq_phe_arch_M_kandleri" taxon="phe_arch_M_kandleri" totalcount="19" value="----------------------------------------------------------------------------------------------------PLKEVINEIRRIFLEMGFVEVSGPLVEVLRTHTTAVSVLKAFSIGRVYRRPEFHECEGIVLFRDLLGILEEFYRSVEPEVELGGAGIFVVCLAWGLGERLAMLKL"/>
+                    <sequence id="seq_phe_arch_M_thermautotrophicus" taxon="phe_arch_M_thermautotrophicus" totalcount="19" value="----------------------------------------------------------------------------------------------------PLRRIIDEIRSIFLKLGFTESRGPIVEVLRTHTTCVSALKMFSVGRVFRRPEFHEVEGIVAFRNLLGILREFYRSTECEIELGGAGMFTPVAAFGLGERLAMIRF"/>
+                    <sequence id="seq_pro_arch_P_delaneyi" taxon="pro_arch_P_delaneyi" totalcount="19" value="----------------------------------------------------------------------------------------------------IRRRVVELIRDVLDEKGHEEVLFPLLIALRPTSETSITRKFYEIVSIFRYREVTFKEAHTVVAEAIELYKRIFDTVAFDTEIGTAHHLAWETSYGLSDRVVATVI"/>
+                    <sequence id="seq_pro_arch_T_volcanium" taxon="pro_arch_T_volcanium" totalcount="19" value="----------------------------------------------------------------------------------------------------IMKLIDNIIRNAVDKHSFDEVNFPVLIALRPTSESAMYLKIYEIVSVYRYREIHFFEAHTAMDEYRIIWTEIADTIAFDTEIGTIHEYVHETTFGMSERLLAAII"/>
+                    <sequence id="seq_pro_arch_T_acidophilum" taxon="pro_arch_T_acidophilum" totalcount="19" value="----------------------------------------------------------------------------------------------------IMSLIDSIVRRAVDKRNFEEVNFPILIALRPTSESAMYLKIYEIVSVYRYREIHFFEAHTAMDEYKEIWREISSTIAFDTEIGTIHEYAHETTYGMSERLLAAII"/>
+                    <sequence id="seq_pro_arch_P_aerophilum" taxon="pro_arch_P_aerophilum" totalcount="19" value="----------------------------------------------------------------------------------------------------IRRNVENLIRKFHDETGHEEVLFPVFIVLRPTSETAIMLRVYEIVSVFRAREIMFKEAHTVVREAVEIYKRIFDTIAFDTEIGTVHYLAHTTSYGISERSIAAML"/>
+		    		<sequence id="seq_pro_arch_M_kandleri" taxon="pro_arch_M_kandleri" totalcount="19" value="----------------------------------------------------------------------------------------------------IRERVVEKLRRKLRETGHEEVLFPTLIALRPTSETAIYLKIFEIVNTFRYREITFKEAHTAVKEAVEIYSSFFDTVAFDTEIGTVHMLVYMTCYGISDRVVASMI"/>
+                    <sequence id="seq_pro_arch_M_acetivorans" taxon="pro_arch_M_acetivorans" totalcount="19" value="----------------------------------------------------------------------------------------------------IRRSTYNIIREILDNSGHEETLFPLLIALRPTSETAIYIKLYEIVNTFRYREISFKEAHTVVKEAVELYTEIYRTDAIDAEIGTVHHLAHETCYGISERSIAATI"/>
+                    <sequence id="seq_pro_arch_S_acidocaldarius" taxon="pro_arch_S_acidocaldarius" totalcount="19" value="----------------------------------------------------------------------------------------------------IREAAVDLIRKLLDAKGHEEVLFPLLVALRPTSETAITKKYYEIVSVFRYREVTFKEAHTLVKEAIEIYKNFFETIAFDTEIGTVHHLPHETSYGISDRVIAVVV"/>
+                    <sequence id="seq_pro_arch_M_aeolicus_Nankai" taxon="pro_arch_M_aeolicus_Nankai" totalcount="19" value="----------------------------------------------------------------------------------------------------IRRYAFEAIRDMLDESNHDEALFPMLIALRPTSETPIYIKIYEIVNSFRYREITFKEAHTAVETALNIYKTFFDTMAFDTEIGTVHNLAYETCYGISDRIIASII"/>
+                    <sequence id="seq_pro_arch_N_equitans" taxon="pro_arch_N_equitans" totalcount="19" value="----------------------------------------------------------------------------------------------------AFKFLMSLLENKLESIGAEPAWFPIVIILRPTSETEMYLIIYMTNTVYRYREVLWNETHSVMAKAKEVYDYIFWTYAADAEVGTIHLLIPETSYGISMRAFGGAL"/>
+                    <sequence id="seq_pro_arch_P_horikoshii" taxon="pro_arch_P_horikoshii" totalcount="19" value="----------------------------------------------------------------------------------------------------IMRNIEKFIHEEMERTGHEEVLFPALIVLRPTSETAMYFKVYEIVNVYRYREIRFFEAHTAIKEDLEIFDNLMRSLGAEVEIGTMHNYVHETTFGMSERLLAAVI"/>
+                    <sequence id="seq_pro_arch_S_marinus" taxon="pro_arch_S_marinus" totalcount="19" value="----------------------------------------------------------------------------------------------------ALRMIEKIMINLLEETGHEEAYFPTMIFVRPTSETVMYLKMYEVVNVFRYREISFIEAHTAINEALSIYKKFFDNYDFITELGSVINLVYETCYGVSERTLGAVI"/>
+                    <sequence id="seq_pro_arch_P_occultum" taxon="pro_arch_P_occultum" totalcount="19" value="----------------------------------------------------------------------------------------------------IRRRVIELVRRVLDGAGHEEVLFPLLIALRPTSETSISRRFYEIVSIFRYREVTFKEAHTVVAEAIELYKRIFDTVAFDTEIGTVHHLAWETSYGLSDRVIASLI"/>
+                    <sequence id="seq_pro_arch_d1nj8a_M_jannaschii" taxon="pro_arch_d1nj8a_M_jannaschii" totalcount="19" value="----------------------------------------------------------------------------------------------------IRRYTFEIIRNLLDESGHDEALFPMLIALRPTSETPIYIKIYEIVNTFRYREITFKEAHTAVKEAISIYKKFFDTMAFDTEIATVHNLAYETCYGISDRVIASII"/>
+                    <sequence id="seq_ser_arch_2cjab_M_barkeri" taxon="ser_arch_2cjab_M_barkeri" totalcount="19" value="----------------------------------------------------------------------------------------------------IFRTFEKIVLEELEPLGYREMIFPKLVGMCYAECPPFWVKVFDRSTSHRYDEFHRIEIVWIAEELHDRYMHIFNTTDYEAEFENVSINLWSGCSGVGERWAAVLA"/>
+                    <sequence id="seq_ser_arch_P_delaneyi" taxon="ser_arch_P_delaneyi" totalcount="19" value="----------------------------------------------------------------------------------------------------LDFALLMYAIDHLTSKGYKLVLPPYMIYLIATAEHPLALKLVGVSPCFRKHEFHKVEEYIYLEELIRNAEELFEKYDLEVEMVSASNTVHTLNSTAATRAITAIL"/>
+                    <sequence id="seq_ser_arch_T_volcanium" taxon="ser_arch_T_volcanium" totalcount="19" value="----------------------------------------------------------------------------------------------------LEMALENYAVDFLSERGFTVVEPPYMLYLIATSEHSIAIRVAGVSACFRRHEFNKIEEFIFLEEILSNAEEIYRKYDIEAEIVSASNDVHTLNSTAATRILVAIM"/>
+                    <sequence id="seq_ser_arch_S_acidocaldarius" taxon="ser_arch_S_acidocaldarius" totalcount="19" value="----------------------------------------------------------------------------------------------------LDIALLLYAIDTITSRGYTLVLPPYMLYLIATAEHSIALKLVGVSPAFRKHEFHKVEEFIFHEEMIENAEEIFRKYDLEVEMVSCSNCLHTLNSTAATRAITAIL"/>
+                    <sequence id="seq_ser_arch_M_kandleri" taxon="ser_arch_M_kandleri" totalcount="19" value="----------------------------------------------------------------------------------------------------LFEVLRDFLLERTRKLGFEPALFPKLIVLAPAECEPFYIKLYDCSWTYRWNEFERIEHVWIREELLEATKRVAESYEFEVSVGSFNVHLFTGCAGLGTRWVVGLL"/>
+                    <sequence id="seq_ser_arch_M_hungatei" taxon="ser_arch_M_hungatei" totalcount="19" value="----------------------------------------------------------------------------------------------------LDLALERFSLDILMEKGYTPIIPPYMIYLIATSEHPMALRLAGLSPCFRRHEFHKVEEFVYHEELRENAEEIFEKYDIEAEVVSCSNCVHTLNSTAASRAMRAIL"/>
+                    <sequence id="seq_ser_arch_A_fulgidus" taxon="ser_arch_A_fulgidus" totalcount="19" value="----------------------------------------------------------------------------------------------------LDFALTMYALDFLRKEDFTIVSPPYMMYLIATSEHPIALLYAGVSPCFRKHEFNKVEEFVFHEKLIENVEKLWEKYDLEAEMVSCSNCVHTLNSTAATRAITAII"/>
+                    <sequence id="seq_ser_arch_M_thermautotrophicus" taxon="ser_arch_M_thermautotrophicus" totalcount="19" value="----------------------------------------------------------------------------------------------------LHRALEEFFIERVKPLGFVECLFPKLIVIAPAECEPFYVKFFDRSWTYRWHEFERVELVWLRDRTVELSHDAADKYEMRLAVVSANVHIWTGCTGIGSRWIYGFL"/>
+                    <sequence id="seq_ser_arch_P_aerophilum" taxon="ser_arch_P_aerophilum" totalcount="19" value="----------------------------------------------------------------------------------------------------LDFALAMYALDYLAEKGFRPVIPPYMLYLIATAEHGIAELYVGWSPCFRKHIFHKVEEFVFHEEITKNTEELIRKYDIEVELASCSNVVHTLNCTGATRTITAIL"/>
+                    <sequence id="seq_ser_arch_T_acidophilum" taxon="ser_arch_T_acidophilum" totalcount="19" value="----------------------------------------------------------------------------------------------------LEMALENYAVDFLSERGFSIVEPPYMLYLIATSEHSIALRVAGISACFRRHEFNKIEEFVFLEEILGNAEAIYRKYDIEAEIVSASNDVHTLNSTAATRILVAIM"/>
+                    <sequence id="seq_ser_arch_M_aeolicus_Nankai" taxon="ser_arch_M_aeolicus_Nankai" totalcount="19" value="----------------------------------------------------------------------------------------------------LLRAFEELLMEEINKIGFDECLFPKLIVLAPAECEPFYVKFVDKSWTYRWHEFLRIETVEMRDDTLKYAEKLAEKYEMRLAVTSANVHVWTGCTGFGSRWVIGLA"/>
+                    <sequence id="seq_ser_arch_N_equitans" taxon="ser_arch_N_equitans" totalcount="19" value="----------------------------------------------------------------------------------------------------MELKLIKFVLETLKKYNYKIMKLPYLVYLNPTAEHPIALIVYGFTTAFRKHEFEKIEEYAFYNFLVSNAETIVKEWDLEVELHSFGTVVNTIYATAPERAMTALL"/>
+                    <sequence id="seq_ser_arch_M_acetivorans" taxon="ser_arch_M_acetivorans" totalcount="19" value="----------------------------------------------------------------------------------------------------LERALINFMLDVHTREGYLEVFPPVLIYLAPTAEVPVTVSLTAYTACFRRHEFNKVELVKFLEKLTLDAEEILKTYDIEVEISSCSNFVHTLNGSGAGRTVVAIL"/>
+                    <sequence id="seq_ser_arch_P_horikoshii" taxon="ser_arch_P_horikoshii" totalcount="19" value="----------------------------------------------------------------------------------------------------LDLALIRFALDRLIEKGFTPVIPPYMVYLIPTAEHPLALLYVGVSPCFRKHEFHKVEEFVYHEKIIRNAEELFEKYDIEAEVVSASNCVHTLNSTAASRAIVAIL"/>
+                    <sequence id="seq_ser_arch_S_marinus" taxon="ser_arch_S_marinus" totalcount="19" value="----------------------------------------------------------------------------------------------------LDMALLAYAIDYLTSKGYTLVLPPYMLYLIATAEHPLALKYVGISPCFRKHEFHKVEEFVYMEELISNAEHLFRKYDLEAEMVSCSNVLHTLNSTAATRTITAIL"/>
+                    <sequence id="seq_ser_arch_M_jannaschii" taxon="ser_arch_M_jannaschii" totalcount="19" value="----------------------------------------------------------------------------------------------------LFRALEELIVEEVKKIGFEECLFPKLIVLAPAECEPFYIMFFDRSWTYRWNEFLRVECVWIRDKTLKYAEKLAEKYEMRLAVTSANVHVWTGCTGYGTRWVVGYL"/>
+                    <sequence id="seq_ser_arch_P_occultum" taxon="ser_arch_P_occultum" totalcount="19" value="----------------------------------------------------------------------------------------------------LDFALLMYAIDKLTSKGYRLVLPPYMIYLIATAEHPLAIKLVGVSPCFRKHEFHKVEEFVYLEELIRNAEELFEKYDLEAEMVSASNTVHTLNSTAATRTITAIL"/>
+                    <sequence id="seq_ser_arch_Halobacterium" taxon="ser_arch_Halobacterium" totalcount="19" value="----------------------------------------------------------------------------------------------------LEHALVEFMLDVHREEGYVDVFPPIPVWLLPTSEVPVTLKHEAYSPNFRRHEFNKVEMVNFFEGLVDEAEEVLRKYDIEVEVSSVSNFLHTLNGSGAPRVMVAIL"/>
+                    <sequence id="seq_thr_arch_3a32_A_pernix" taxon="thr_arch_3a32_A_pernix" totalcount="19" value="----------------------------------------------------------------------------------------------------IRYALAEVLAKFHARRGYYVVETPIIAAVKPMNCPYHIFKVFEFGRVHRYRGFTEDDAHIIVYDVFEEMKLVLEKLDFIMEMGTIEFDVYIIHRALSERFLGVYL"/>
+                    <sequence id="seq_thr_arch_M_thermautotrophicus" taxon="thr_arch_M_thermautotrophicus" totalcount="19" value="----------------------------------------------------------------------------------------------------IRDLLADYVYMLVTSEGAMPVETPIMYMLRYACCFGAFASIYELSTSFRLRGFTMPDLHTVFAREVEMCMRTGEKMDFAAENPTVEIDPIILHCSPSERVICSLL"/>
+                    <sequence id="seq_thr_arch_T_volcanium" taxon="thr_arch_T_volcanium" totalcount="19" value="----------------------------------------------------------------------------------------------------IRKELIKYMDYVNGKNGWTDVWTPHVFGIKPMNCPGHIVKYSEPGTVYRYRAFTEDDGHEFIKTLLGMVRETFTKIDVHVELSTIEVDVVIIHRAISERFMAILL"/>
+                    <sequence id="seq_thr_arch_M_aeolicus_Nankai" taxon="thr_arch_M_aeolicus_Nankai" totalcount="19" value="----------------------------------------------------------------------------------------------------IRDLLEDYVYNMVVENNGMPVETPVMYMLRFAACFGEFLKLYELSTSFRYRGFTMPDMHTVFENEFWMCLKTGDKVDMAVENPTVEIDPVILHCSPSERVLCGLL"/>
+                    <sequence id="seq_thr_arch_S_acidocaldarius" taxon="thr_arch_S_acidocaldarius" totalcount="19" value="----------------------------------------------------------------------------------------------------IRKEMMRFMEEINDSMGYKEVYTSHVYGIKPMNCPAHIIRFSEFGHVYRWRGFTEDDGHIFIKLLMKKTLDVLAKIDFDIELSTIEVDPVMVHRAISDRFMAILL"/>
+                    <sequence id="seq_thr_arch_M_kandleri" taxon="thr_arch_M_kandleri" totalcount="19" value="----------------------------------------------------------------------------------------------------VRRCLAEYVENLMADLGAAVVETPVMYMLRYAACFGAFLKIYELSESFRLRAFTMPDLHTVFLEEAKLCLEVGLKVDFAFENPTVEIDPVILHCSPSERVICAIL"/>
+                    <sequence id="seq_thr_arch_M_hungatei" taxon="thr_arch_M_hungatei" totalcount="19" value="----------------------------------------------------------------------------------------------------VRDLLADYALSLVLDYGASPVETPVMYMLRFAACFGMFMKMYELSTSFRHRAFTMPDMHSLFEEELAIGWKTGRKIDLAAENPTVEIDPPILHCSPSERVFCAIL"/>
+                    <sequence id="seq_thr_arch_A_fulgidus" taxon="thr_arch_A_fulgidus" totalcount="19" value="----------------------------------------------------------------------------------------------------VKTLLEEFITRKCIDYGAMEVETPIMYFLRFAACFGEFLKIYELTRSFRKRAFTMPDMHTVFFNEYRLSVEVLRKFEFNFALSTVEIDPYILHCSVAERVMYALL"/>
+                    <sequence id="seq_thr_arch_P_aerophilum" taxon="thr_arch_P_aerophilum" totalcount="19" value="----------------------------------------------------------------------------------------------------MMELVEDYSYIVALGIPVFKIRGTNMFILRYAACFEEFFGMLEIADSYRHRRFYMPDLHIFTYKLHEVIFREIGNVEFHIEIATFEIDPVIIHTAISERYLYAVF"/>
+                    <sequence id="seq_thr_arch_T_acidophilum" taxon="thr_arch_T_acidophilum" totalcount="19" value="----------------------------------------------------------------------------------------------------IRKELLSYMDSMNRKNGWFDVWTPHVFGIKPMNCPGHIVRYSEPGTVYRYRAFTEDDGHAFIRTLLTMVKDVFTKIDVHVELSTIELDVVMIHRAISERVMAILL"/>
+                    <sequence id="seq_thr_arch_P_occultum" taxon="thr_arch_P_occultum" totalcount="19" value="----------------------------------------------------------------------------------------------------MIEAVSEYAWKLALGIPVLRIRGTNMFVMRYAACHEEFLGMFEVADSYRFRKFYMPDLHILSEKLEEVIHREAANVEYHIEIATFEFDPVIIHTALSERYIYMVF"/>
+                    <sequence id="seq_thr_arch_S_marinus" taxon="thr_arch_S_marinus" totalcount="19" value="----------------------------------------------------------------------------------------------------IMESIMEYSWNIVLGIPVYKVMGTNMFVLRYAACHEEFFGMFEVADSYRLRKFYMPDLHILSRIVEDKILEEIANVEYHIEIATFEIDPVIIHTAIGERFIYTIF"/>
+                    <sequence id="seq_thr_arch_P_delaneyi" taxon="thr_arch_P_delaneyi" totalcount="19" value="----------------------------------------------------------------------------------------------------MVDAVSEYAWKLALGIPVLRIRGTNMFVMRYAACHEEFLGMFEIADSYRLRRFYMPDLHILSRKLEEVIHREATNVEYHIEIATFEFDPVIIHTALSERYIYMVL"/>
+                    <sequence id="seq_thr_arch_N_equitans" taxon="thr_arch_N_equitans" totalcount="19" value="----------------------------------------------------------------------------------------------------MVDLVNDYSIKIALPFPVFIVKGTNMFVLRYAACFEEFFGMLEVADSYRFRKFYMPDLHVFFLNMHKKIMEEIKNIEYHIEIGTTEIDVIILHNAISERYIYALF"/>
+                    <sequence id="seq_thr_arch_M_acetivorans" taxon="thr_arch_M_acetivorans" totalcount="19" value="----------------------------------------------------------------------------------------------------VKSLLENYVLDVATEFGAMEVETPLMYFLRFAACFGEFLRMIEMTRSFRKRAFTMPDMHTLFKEEYDLCIDVLEKFEFNFALSTVEIDPIVLHCSPAERCIYALL"/>
+                    <sequence id="seq_thr_arch_P_horikoshii" taxon="thr_arch_P_horikoshii" totalcount="19" value="----------------------------------------------------------------------------------------------------IKSLLEEYVTEKVIEYGAMEVETPVMYFLRFAACFGEFLRMYELTRSFRRRAFTMPDMHTLFKKEFKLSMEVLKKFEFNFALSTVEIDPLILHCSPAERVMYAIL"/>
+                    <sequence id="seq_thr_arch_M_jannaschii" taxon="thr_arch_M_jannaschii" totalcount="19" value="----------------------------------------------------------------------------------------------------MRDLLADYVYNLVVNMGAMPVETPIMYMLRFAACFGEFLKLYELSTSFRYRCFTMPDMHTVFEKEFWECLKTGDKVDIAVENPTVEIDPIILHCSPSERVLCGLL"/>
+                    <sequence id="seq_thr_arch_Halobacterium" taxon="thr_arch_Halobacterium" totalcount="19" value="----------------------------------------------------------------------------------------------------VLRELSEYVHGLNREMGYDEVETPHLFGLKPMNCPGHAVRYFEDGKVYRKWAFTIDDGHVFVRRLIDIILEVLDKIDFAFDGPTVELDPVMIHRALSERFFMVLV"/>
+                </data>
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="10000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:NormalBEAST2" name="stateNode">
+            <taxonset id="TaxonSet.NormalBEAST2" spec="TaxonSet">
+                <alignment idref="NormalBEAST2"/>
+            </taxonset>
+        </tree>
+        <parameter id="gammaShape.s:NormalBEAST2" name="stateNode">1.0</parameter>
+        <parameter id="mutationRate.s:NormalBEAST2" name="stateNode">1.0</parameter>
+        <parameter id="ucldStdev.c:NormalBEAST2" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:NormalBEAST2" spec="parameter.IntegerParameter" dimension="1006">1</stateNode>
+        <parameter id="birthRate2.t:NormalBEAST2" lower="0.0" name="stateNode" upper="10000.0">1.0</parameter>
+        <parameter id="relativeDeathRate2.t:NormalBEAST2" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+    </state>
+
+    <init id="RandomTree.t:NormalBEAST2" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:NormalBEAST2" taxa="@NormalBEAST2">
+        <populationModel id="ConstantPopulation0.t:NormalBEAST2" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:NormalBEAST2" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BirthDeath.t:NormalBEAST2" spec="beast.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@birthRate2.t:NormalBEAST2" relativeDeathRate="@relativeDeathRate2.t:NormalBEAST2" tree="@Tree.t:NormalBEAST2"/>
+            <prior id="BirthRatePrior.t:NormalBEAST2" name="distribution" x="@birthRate2.t:NormalBEAST2">
+                <LogNormal id="LogNormalDistributionModel.1" name="distr">
+                    <parameter id="RealParameter.6" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.7" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="GammaShapePrior.s:NormalBEAST2" name="distribution" x="@gammaShape.s:NormalBEAST2">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="DeathRatePrior.t:NormalBEAST2" name="distribution" x="@relativeDeathRate2.t:NormalBEAST2">
+                <LogNormal id="LogNormalDistributionModel.2" name="distr">
+                    <parameter id="RealParameter.8" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.9" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="ucldStdevPrior.c:NormalBEAST2" name="distribution" x="@ucldStdev.c:NormalBEAST2">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.2" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.3" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.NormalBEAST2" spec="ThreadedTreeLikelihood" data="@NormalBEAST2" tree="@Tree.t:NormalBEAST2">
+                <siteModel id="SiteModel.s:NormalBEAST2" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:NormalBEAST2" shape="@gammaShape.s:NormalBEAST2">
+                    <parameter id="proportionInvariant.s:NormalBEAST2" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="WAG.s:NormalBEAST2" spec="WAG"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:NormalBEAST2" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:NormalBEAST2" tree="@Tree.t:NormalBEAST2">
+                    <LogNormal id="LogNormalDistributionModel.c:NormalBEAST2" S="@ucldStdev.c:NormalBEAST2" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.1" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:NormalBEAST2" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+      <distribution id="arg.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      	<taxonset id="arg" spec="TaxonSet">
+             <taxon id="arg_arch_2zue_P_horikoshii" spec="Taxon"/>
+             <taxon id="arg_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="arg_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="arg_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="arg_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="arg_arch_A_fulgidus" spec="Taxon"/>
+             <taxon id="arg_arch_M_thermautotrophicus" spec="Taxon"/>
+             <taxon id="arg_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="arg_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="arg_arch_N_equitans" spec="Taxon"/>
+             <taxon id="arg_arch_M_aeolicus_Nankai" spec="Taxon"/>
+             <taxon id="arg_arch_S_marinus" spec="Taxon"/>
+             <taxon id="arg_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="arg_arch_M_janaschii" spec="Taxon"/>
+             <taxon id="arg_arch_P_occultum" spec="Taxon"/>
+             <taxon id="arg_arch_Halobacterium" spec="Taxon"/>
+      </taxonset>
+	</distribution>
+    <distribution id="cys.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="cys" spec="TaxonSet">
+             <taxon id="cys_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="cys_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="cys_arch_P_horikoshii" spec="Taxon"/>
+             <taxon id="cys_arch_P_occultum" spec="Taxon"/>
+             <taxon id="cys_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="cys_arch_S_marinus" spec="Taxon"/>
+             <taxon id="cys_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="cys_arch_A_fulgidus" spec="Taxon"/>
+             <taxon id="cys_arch_Halobacterium" spec="Taxon"/>
+             <taxon id="cys_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="cys_arch_N_equitans" spec="Taxon"/>
+      </taxonset>
+	</distribution>
+    <distribution id="glu.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="glu" spec="TaxonSet">
+             <taxon id="glu_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="glu_arch_M_jannaschii" spec="Taxon"/>
+             <taxon id="glu_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="glu_arch_M_thermautotrophicus" spec="Taxon"/>
+             <taxon id="glu_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="glu_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="glu_arch_A_fulgidus" spec="Taxon"/>
+             <taxon id="glu_arch_P_occultum" spec="Taxon"/>
+             <taxon id="glu_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="glu_arch_S_marinus" spec="Taxon"/>
+             <taxon id="glu_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="glu_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="glu_arch_Halobacterium" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="ile.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="ile" spec="TaxonSet">
+             <taxon id="ile_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="ile_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="ile_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="ile_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="ile_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="ile_arch_A_fulgidus" spec="Taxon"/>
+             <taxon id="ile_arch_M_thermautotrophicus" spec="Taxon"/>
+             <taxon id="ile_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="ile_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="ile_arch_N_equitans" spec="Taxon"/>
+             <taxon id="ile_arch_P_horikoshii" spec="Taxon"/>
+             <taxon id="ile_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="ile_arch_S_marinus" spec="Taxon"/>
+             <taxon id="ile_arch_M_jannaschii" spec="Taxon"/>
+             <taxon id="ile_arch_P_occultum" spec="Taxon"/>
+             <taxon id="ile_arch_Halobacterium" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="leu.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="leu" spec="TaxonSet">
+             <taxon id="leu_arch_1wz2_P_horikoshii" spec="Taxon"/>
+             <taxon id="leu_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="leu_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="leu_arch_M_aeolicus_Nankai" spec="Taxon"/>
+             <taxon id="leu_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="leu_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="leu_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="leu_arch_A_fulgidus" spec="Taxon"/>
+             <taxon id="leu_arch_M_thermautotrophicus" spec="Taxon"/>
+             <taxon id="leu_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="leu_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="leu_arch_N_equitans" spec="Taxon"/>
+             <taxon id="leu_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="leu_arch_M_jannaschii" spec="Taxon"/>
+             <taxon id="leu_arch_P_occultum" spec="Taxon"/>
+             <taxon id="leu_arch_Halobacterium" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="met.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="met" spec="TaxonSet">
+             <taxon id="met_arch_1rqg_P_abyssi" spec="Taxon"/>
+             <taxon id="met_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="met_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="met_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="met_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="met_arch_Halobacterium" spec="Taxon"/>
+             <taxon id="met_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="met_arch_M_aeolicus_Nankai" spec="Taxon"/>
+             <taxon id="met_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="met_arch_M_jannaschii" spec="Taxon"/>
+             <taxon id="met_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="met_arch_M_thermautotrophicus" spec="Taxon"/>
+             <taxon id="met_arch_N_equitans" spec="Taxon"/>
+             <taxon id="met_arch_A_fulgidus" spec="Taxon"/>
+             <taxon id="met_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="met_arch_P_horikoshii" spec="Taxon"/>
+             <taxon id="met_arch_S_marinus" spec="Taxon"/>
+             <taxon id="met_arch_P_occultum" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="trp.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="trp" spec="TaxonSet">
+             <taxon id="trp_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="trp_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="trp_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="trp_arch_M_thermautotrophicus" spec="Taxon"/>
+             <taxon id="trp_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="trp_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="trp_arch_N_equitans" spec="Taxon"/>
+             <taxon id="trp_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="trp_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="trp_arch_A_fulgidus" spec="Taxon"/>
+             <taxon id="trp_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="trp_arch_P_horikoshii" spec="Taxon"/>
+             <taxon id="trp_arch_M_jannaschii" spec="Taxon"/>
+             <taxon id="trp_arch_P_occultum" spec="Taxon"/>
+             <taxon id="trp_arch_Halobacterium" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="tyr.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="tyr" spec="TaxonSet">
+             <taxon id="tyr_arch_2cya_A_pernix" spec="Taxon"/>
+             <taxon id="tyr_arch_2cyb_A_fulgidus" spec="Taxon"/>
+             <taxon id="tyr_arch_2cyc_P_horikoshii" spec="Taxon"/>
+             <taxon id="tyr_arch_2zp1_M_jannaschii" spec="Taxon"/>
+             <taxon id="tyr_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="tyr_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="tyr_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="tyr_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="tyr_arch_M_thermautotrophicus" spec="Taxon"/>
+             <taxon id="tyr_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="tyr_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="tyr_arch_M_aeolicus_Nankai" spec="Taxon"/>
+             <taxon id="tyr_arch_N_equitans" spec="Taxon"/>
+             <taxon id="tyr_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="tyr_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="tyr_arch_S_marinus" spec="Taxon"/>
+             <taxon id="tyr_arch_P_occultum" spec="Taxon"/>
+             <taxon id="tyr_arch_Halobacterium" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="val.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="val" spec="TaxonSet">
+             <taxon id="val_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="val_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="val_arch_M_aeolicus_Nankai" spec="Taxon"/>
+             <taxon id="val_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="val_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="val_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="val_arch_P_horikoshii" spec="Taxon"/>
+             <taxon id="val_arch_A_fulgidus" spec="Taxon"/>
+             <taxon id="val_arch_Halobacterium" spec="Taxon"/>
+             <taxon id="val_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="val_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="val_arch_M_thermautotrophicus" spec="Taxon"/>
+             <taxon id="val_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="val_arch_N_equitans" spec="Taxon"/>
+             <taxon id="val_arch_M_jannaschii" spec="Taxon"/>
+             <taxon id="val_arch_P_occultum" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="ala.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="ala" spec="TaxonSet">
+             <taxon id="ala_arch_2ztg_A_fulgidus" spec="Taxon"/>
+             <taxon id="ala_arch_2zze_P_horikoshii" spec="Taxon"/>
+             <taxon id="ala_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="ala_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="ala_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="ala_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="ala_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="ala_arch_M_thermautotrophicus" spec="Taxon"/>
+             <taxon id="ala_arch_M_aeolicus_Nankai" spec="Taxon"/>
+             <taxon id="ala_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="ala_arch_S_marinus" spec="Taxon"/>
+             <taxon id="ala_arch_M_jannaschii" spec="Taxon"/>
+             <taxon id="ala_arch_P_occultum" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="asn.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="asn" spec="TaxonSet">
+             <taxon id="asn_arch_1x54a_P_horikoshii" spec="Taxon"/>
+             <taxon id="asn_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="asn_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="asn_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="asn_arch_N_equitans" spec="Taxon"/>
+             <taxon id="asn_arch_S_marinus" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="asp.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="asp" spec="TaxonSet">
+             <taxon id="asp_arch_1wydb_S_tokodaii" spec="Taxon"/>
+             <taxon id="asp_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="asp_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="asp_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="asp_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="asp_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="asp_arch_A_fulgidus" spec="Taxon"/>
+             <taxon id="asp_arch_M_thermautotrophicus" spec="Taxon"/>
+             <taxon id="asp_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="asp_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="asp_arch_N_equitans" spec="Taxon"/>
+             <taxon id="asp_arch_M_aeolicus_Nankai" spec="Taxon"/>
+             <taxon id="asp_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="asp_arch_P_horikoshii" spec="Taxon"/>
+             <taxon id="asp_arch_S_marinus" spec="Taxon"/>
+             <taxon id="asp_arch_M_jannaschii" spec="Taxon"/>
+             <taxon id="asp_arch_Halobacterium" spec="Taxon"/>
+             <taxon id="asp_arch_d1b8aa_T_kodakarensis" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="gly.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="gly" spec="TaxonSet">
+             <taxon id="gly_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="gly_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="gly_arch_N_equitans" spec="Taxon"/>
+             <taxon id="gly_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="gly_arch_M_thermautotrophicus" spec="Taxon"/>
+             <taxon id="gly_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="gly_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="gly_arch_P_horikoshii" spec="Taxon"/>
+             <taxon id="gly_arch_P_occultum" spec="Taxon"/>
+             <taxon id="gly_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="gly_arch_S_marinus" spec="Taxon"/>
+             <taxon id="gly_arch_A_fulgidus" spec="Taxon"/>
+             <taxon id="gly_arch_Halobacterium" spec="Taxon"/>
+             <taxon id="gly_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="gly_arch_M_aeolicus_Nankai" spec="Taxon"/>
+             <taxon id="gly_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="gly_arch_M_jannaschii" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="his.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="his" spec="TaxonSet">
+             <taxon id="his_arch_1wu7a_T_acidophilum" spec="Taxon"/>
+             <taxon id="his_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="his_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="his_arch_M_aeolicus_Nankai" spec="Taxon"/>
+             <taxon id="his_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="his_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="his_arch_Halobacterium" spec="Taxon"/>
+             <taxon id="his_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="his_arch_A_fulgidus" spec="Taxon"/>
+             <taxon id="his_arch_M_thermautotrophicus" spec="Taxon"/>
+             <taxon id="his_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="his_arch_N_equitans" spec="Taxon"/>
+             <taxon id="his_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="his_arch_P_horikoshii" spec="Taxon"/>
+             <taxon id="his_arch_R_marinus" spec="Taxon"/>
+             <taxon id="his_arch_M_jannaschii" spec="Taxon"/>
+             <taxon id="his_arch_P_occultum" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="lys.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="lys" spec="TaxonSet">
+             <taxon id="lys_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="lys_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="lys_arch_A_fulgidus" spec="Taxon"/>
+             <taxon id="lys_arch_M_thermautotrophicus" spec="Taxon"/>
+             <taxon id="lys_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="lys_arch_N_equitans" spec="Taxon"/>
+             <taxon id="lys_arch_M_aeolicus" spec="Taxon"/>
+             <taxon id="lys_arch_Halobacterium" spec="Taxon"/>
+             <taxon id="lys_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="lys_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="lys_arch_S_marinus" spec="Taxon"/>
+             <taxon id="lys_arch_P_occultum" spec="Taxon"/>
+             <taxon id="lys_arch_1irx_P_horikoshii" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="phe.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="phe" spec="TaxonSet">
+             <taxon id="phe_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="phe_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="phe_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="phe_arch_P_horikoshii" spec="Taxon"/>
+             <taxon id="phe_arch_P_occultum" spec="Taxon"/>
+             <taxon id="phe_arch_S_marinus" spec="Taxon"/>
+             <taxon id="phe_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="phe_arch_A_fulgidus" spec="Taxon"/>
+             <taxon id="phe_arch_Halobacterium" spec="Taxon"/>
+             <taxon id="phe_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="phe_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="phe_arch_M_aeolicus_Nankai" spec="Taxon"/>
+             <taxon id="phe_arch_M_jannaschii" spec="Taxon"/>
+             <taxon id="phe_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="phe_arch_M_thermautotrophicus" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="pro.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="pro" spec="TaxonSet">
+             <taxon id="pro_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="pro_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="pro_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="pro_arch_P_aerophilum" spec="Taxon"/>
+		     <taxon id="pro_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="pro_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="pro_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="pro_arch_M_aeolicus_Nankai" spec="Taxon"/>
+             <taxon id="pro_arch_N_equitans" spec="Taxon"/>
+             <taxon id="pro_arch_P_horikoshii" spec="Taxon"/>
+             <taxon id="pro_arch_S_marinus" spec="Taxon"/>
+             <taxon id="pro_arch_P_occultum" spec="Taxon"/>
+             <taxon id="pro_arch_d1nj8a_M_jannaschii" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="ser.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="ser" spec="TaxonSet">
+             <taxon id="ser_arch_2cjab_M_barkeri" spec="Taxon"/>
+             <taxon id="ser_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="ser_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="ser_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="ser_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="ser_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="ser_arch_A_fulgidus" spec="Taxon"/>
+             <taxon id="ser_arch_M_thermautotrophicus" spec="Taxon"/>
+             <taxon id="ser_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="ser_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="ser_arch_M_aeolicus_Nankai" spec="Taxon"/>
+             <taxon id="ser_arch_N_equitans" spec="Taxon"/>
+             <taxon id="ser_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="ser_arch_P_horikoshii" spec="Taxon"/>
+             <taxon id="ser_arch_S_marinus" spec="Taxon"/>
+             <taxon id="ser_arch_M_jannaschii" spec="Taxon"/>
+             <taxon id="ser_arch_P_occultum" spec="Taxon"/>
+             <taxon id="ser_arch_Halobacterium" spec="Taxon"/>
+      </taxonset>
+	</distribution>    
+	<distribution id="thr.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+      <taxonset id="thr" spec="TaxonSet">
+             <taxon id="thr_arch_3a32_A_pernix" spec="Taxon"/>
+             <taxon id="thr_arch_M_thermautotrophicus" spec="Taxon"/>
+             <taxon id="thr_arch_T_volcanium" spec="Taxon"/>
+             <taxon id="thr_arch_M_aeolicus_Nankai" spec="Taxon"/>
+             <taxon id="thr_arch_S_acidocaldarius" spec="Taxon"/>
+             <taxon id="thr_arch_M_kandleri" spec="Taxon"/>
+             <taxon id="thr_arch_M_hungatei" spec="Taxon"/>
+             <taxon id="thr_arch_A_fulgidus" spec="Taxon"/>
+             <taxon id="thr_arch_P_aerophilum" spec="Taxon"/>
+             <taxon id="thr_arch_T_acidophilum" spec="Taxon"/>
+             <taxon id="thr_arch_P_occultum" spec="Taxon"/>
+             <taxon id="thr_arch_S_marinus" spec="Taxon"/>
+             <taxon id="thr_arch_P_delaneyi" spec="Taxon"/>
+             <taxon id="thr_arch_N_equitans" spec="Taxon"/>
+             <taxon id="thr_arch_M_acetivorans" spec="Taxon"/>
+             <taxon id="thr_arch_P_horikoshii" spec="Taxon"/>
+             <taxon id="thr_arch_M_jannaschii" spec="Taxon"/>
+             <taxon id="thr_arch_Halobacterium" spec="Taxon"/>
+      </taxonset>
+	</distribution>
+	
+            <distribution id="ClassI.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+                <taxonset id="ClassI" spec="TaxonSet">
+                    <taxon idref="arg_arch_2zue_P_horikoshii"/>
+                    <taxon idref="arg_arch_P_delaneyi"/>
+                    <taxon idref="arg_arch_S_acidocaldarius"/>
+                    <taxon idref="arg_arch_M_kandleri"/>
+                    <taxon idref="arg_arch_M_hungatei"/>
+                    <taxon idref="arg_arch_A_fulgidus"/>
+                    <taxon idref="arg_arch_M_thermautotrophicus"/>
+                    <taxon idref="arg_arch_P_aerophilum"/>
+                    <taxon idref="arg_arch_T_acidophilum"/>
+                    <taxon idref="arg_arch_N_equitans"/>
+                    <taxon idref="arg_arch_M_aeolicus_Nankai"/>
+                    <taxon idref="arg_arch_S_marinus"/>
+                    <taxon idref="arg_arch_M_acetivorans"/>
+                    <taxon idref="arg_arch_M_janaschii"/>
+                    <taxon idref="arg_arch_P_occultum"/>
+                    <taxon idref="arg_arch_Halobacterium"/>
+                    <taxon idref="cys_arch_P_aerophilum"/>
+                    <taxon idref="cys_arch_P_delaneyi"/>
+                    <taxon idref="cys_arch_P_horikoshii"/>
+                    <taxon idref="cys_arch_P_occultum"/>
+                    <taxon idref="cys_arch_S_acidocaldarius"/>
+                    <taxon idref="cys_arch_S_marinus"/>
+                    <taxon idref="cys_arch_T_acidophilum"/>
+                    <taxon idref="cys_arch_A_fulgidus"/>
+                    <taxon idref="cys_arch_Halobacterium"/>
+                    <taxon idref="cys_arch_M_hungatei"/>
+                    <taxon idref="cys_arch_N_equitans"/>
+                    <taxon idref="glu_arch_M_hungatei"/>
+                    <taxon idref="glu_arch_M_jannaschii"/>
+                    <taxon idref="glu_arch_M_kandleri"/>
+                    <taxon idref="glu_arch_M_thermautotrophicus"/>
+                    <taxon idref="glu_arch_P_aerophilum"/>
+                    <taxon idref="glu_arch_P_delaneyi"/>
+                    <taxon idref="glu_arch_A_fulgidus"/>
+                    <taxon idref="glu_arch_P_occultum"/>
+                    <taxon idref="glu_arch_S_acidocaldarius"/>
+                    <taxon idref="glu_arch_S_marinus"/>
+                    <taxon idref="glu_arch_T_acidophilum"/>
+                    <taxon idref="glu_arch_T_volcanium"/>
+                    <taxon idref="glu_arch_Halobacterium"/>
+                    <taxon idref="ile_arch_P_delaneyi"/>
+                    <taxon idref="ile_arch_T_volcanium"/>
+                    <taxon idref="ile_arch_S_acidocaldarius"/>
+                    <taxon idref="ile_arch_M_kandleri"/>
+                    <taxon idref="ile_arch_M_hungatei"/>
+                    <taxon idref="ile_arch_A_fulgidus"/>
+                    <taxon idref="ile_arch_M_thermautotrophicus"/>
+                    <taxon idref="ile_arch_P_aerophilum"/>
+                    <taxon idref="ile_arch_T_acidophilum"/>
+                    <taxon idref="ile_arch_N_equitans"/>
+                    <taxon idref="ile_arch_P_horikoshii"/>
+                    <taxon idref="ile_arch_M_acetivorans"/>
+                    <taxon idref="ile_arch_S_marinus"/>
+                    <taxon idref="ile_arch_M_jannaschii"/>
+                    <taxon idref="ile_arch_P_occultum"/>
+                    <taxon idref="ile_arch_Halobacterium"/>
+                    <taxon idref="leu_arch_1wz2_P_horikoshii"/>
+                    <taxon idref="leu_arch_P_delaneyi"/>
+                    <taxon idref="leu_arch_T_volcanium"/>
+                    <taxon idref="leu_arch_M_aeolicus_Nankai"/>
+                    <taxon idref="leu_arch_S_acidocaldarius"/>
+                    <taxon idref="leu_arch_M_kandleri"/>
+                    <taxon idref="leu_arch_M_hungatei"/>
+                    <taxon idref="leu_arch_A_fulgidus"/>
+                    <taxon idref="leu_arch_M_thermautotrophicus"/>
+                    <taxon idref="leu_arch_P_aerophilum"/>
+                    <taxon idref="leu_arch_T_acidophilum"/>
+                    <taxon idref="leu_arch_N_equitans"/>
+                    <taxon idref="leu_arch_M_acetivorans"/>
+                    <taxon idref="leu_arch_M_jannaschii"/>
+                    <taxon idref="leu_arch_P_occultum"/>
+                    <taxon idref="leu_arch_Halobacterium"/>
+                    <taxon idref="met_arch_1rqg_P_abyssi"/>
+                    <taxon idref="met_arch_P_aerophilum"/>
+                    <taxon idref="met_arch_T_volcanium"/>
+                    <taxon idref="met_arch_S_acidocaldarius"/>
+                    <taxon idref="met_arch_T_acidophilum"/>
+                    <taxon idref="met_arch_Halobacterium"/>
+                    <taxon idref="met_arch_M_acetivorans"/>
+                    <taxon idref="met_arch_M_aeolicus_Nankai"/>
+                    <taxon idref="met_arch_M_hungatei"/>
+                    <taxon idref="met_arch_M_jannaschii"/>
+                    <taxon idref="met_arch_M_kandleri"/>
+                    <taxon idref="met_arch_M_thermautotrophicus"/>
+                    <taxon idref="met_arch_N_equitans"/>
+                    <taxon idref="met_arch_A_fulgidus"/>
+                    <taxon idref="met_arch_P_delaneyi"/>
+                    <taxon idref="met_arch_P_horikoshii"/>
+                    <taxon idref="met_arch_S_marinus"/>
+                    <taxon idref="met_arch_P_occultum"/>
+                    <taxon idref="val_arch_P_delaneyi"/>
+                    <taxon idref="val_arch_T_volcanium"/>
+                    <taxon idref="val_arch_M_aeolicus_Nankai"/>
+                    <taxon idref="val_arch_S_acidocaldarius"/>
+                    <taxon idref="val_arch_P_aerophilum"/>
+                    <taxon idref="val_arch_T_acidophilum"/>
+                    <taxon idref="val_arch_P_horikoshii"/>
+                    <taxon idref="val_arch_A_fulgidus"/>
+                    <taxon idref="val_arch_Halobacterium"/>
+                    <taxon idref="val_arch_M_acetivorans"/>
+                    <taxon idref="val_arch_M_hungatei"/>
+                    <taxon idref="val_arch_M_thermautotrophicus"/>
+                    <taxon idref="val_arch_M_kandleri"/>
+                    <taxon idref="val_arch_N_equitans"/>
+                    <taxon idref="val_arch_M_jannaschii"/>
+                    <taxon idref="val_arch_P_occultum"/>
+                    <taxon idref="trp_arch_P_delaneyi"/>
+                    <taxon idref="trp_arch_S_acidocaldarius"/>
+                    <taxon idref="trp_arch_M_kandleri"/>
+                    <taxon idref="trp_arch_M_thermautotrophicus"/>
+                    <taxon idref="trp_arch_P_aerophilum"/>
+                    <taxon idref="trp_arch_M_acetivorans"/>
+                    <taxon idref="trp_arch_N_equitans"/>
+                    <taxon idref="trp_arch_T_acidophilum"/>
+                    <taxon idref="trp_arch_T_volcanium"/>
+                    <taxon idref="trp_arch_A_fulgidus"/>
+                    <taxon idref="trp_arch_M_hungatei"/>
+                    <taxon idref="trp_arch_P_horikoshii"/>
+                    <taxon idref="trp_arch_M_jannaschii"/>
+                    <taxon idref="trp_arch_P_occultum"/>
+                    <taxon idref="trp_arch_Halobacterium"/>
+                    <taxon idref="tyr_arch_2cya_A_pernix"/>
+                    <taxon idref="tyr_arch_2cyb_A_fulgidus"/>
+                    <taxon idref="tyr_arch_2cyc_P_horikoshii"/>
+                    <taxon idref="tyr_arch_2zp1_M_jannaschii"/>
+                    <taxon idref="tyr_arch_P_delaneyi"/>
+                    <taxon idref="tyr_arch_T_volcanium"/>
+                    <taxon idref="tyr_arch_M_kandleri"/>
+                    <taxon idref="tyr_arch_M_hungatei"/>
+                    <taxon idref="tyr_arch_M_thermautotrophicus"/>
+                    <taxon idref="tyr_arch_P_aerophilum"/>
+                    <taxon idref="tyr_arch_T_acidophilum"/>
+                    <taxon idref="tyr_arch_M_aeolicus_Nankai"/>
+                    <taxon idref="tyr_arch_N_equitans"/>
+                    <taxon idref="tyr_arch_S_acidocaldarius"/>
+                    <taxon idref="tyr_arch_M_acetivorans"/>
+                    <taxon idref="tyr_arch_S_marinus"/>
+                    <taxon idref="tyr_arch_P_occultum"/>
+                    <taxon idref="tyr_arch_Halobacterium"/>
+                </taxonset>
+            </distribution>
+            <distribution id="ClassII.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+                <taxonset id="ClassII" spec="TaxonSet">
+                    <taxon idref="ala_arch_2ztg_A_fulgidus"/>
+                    <taxon idref="ala_arch_2zze_P_horikoshii"/>
+                    <taxon idref="ala_arch_P_delaneyi"/>
+                    <taxon idref="ala_arch_T_volcanium"/>
+                    <taxon idref="ala_arch_S_acidocaldarius"/>
+                    <taxon idref="ala_arch_M_kandleri"/>
+                    <taxon idref="ala_arch_M_hungatei"/>
+                    <taxon idref="ala_arch_M_thermautotrophicus"/>
+                    <taxon idref="ala_arch_M_aeolicus_Nankai"/>
+                    <taxon idref="ala_arch_M_acetivorans"/>
+                    <taxon idref="ala_arch_S_marinus"/>
+                    <taxon idref="ala_arch_M_jannaschii"/>
+                    <taxon idref="ala_arch_P_occultum"/>
+                    <taxon idref="asn_arch_1x54a_P_horikoshii"/>
+                    <taxon idref="asn_arch_T_volcanium"/>
+                    <taxon idref="asn_arch_P_aerophilum"/>
+                    <taxon idref="asn_arch_T_acidophilum"/>
+                    <taxon idref="asn_arch_N_equitans"/>
+                    <taxon idref="asn_arch_S_marinus"/>
+                    <taxon idref="asp_arch_1wydb_S_tokodaii"/>
+                    <taxon idref="asp_arch_P_delaneyi"/>
+                    <taxon idref="asp_arch_T_volcanium"/>
+                    <taxon idref="asp_arch_S_acidocaldarius"/>
+                    <taxon idref="asp_arch_M_kandleri"/>
+                    <taxon idref="asp_arch_M_hungatei"/>
+                    <taxon idref="asp_arch_A_fulgidus"/>
+                    <taxon idref="asp_arch_M_thermautotrophicus"/>
+                    <taxon idref="asp_arch_P_aerophilum"/>
+                    <taxon idref="asp_arch_T_acidophilum"/>
+                    <taxon idref="asp_arch_N_equitans"/>
+                    <taxon idref="asp_arch_M_aeolicus_Nankai"/>
+                    <taxon idref="asp_arch_M_acetivorans"/>
+                    <taxon idref="asp_arch_P_horikoshii"/>
+                    <taxon idref="asp_arch_S_marinus"/>
+                    <taxon idref="asp_arch_M_jannaschii"/>
+                    <taxon idref="asp_arch_Halobacterium"/>
+                    <taxon idref="asp_arch_d1b8aa_T_kodakarensis"/>
+                    <taxon idref="gly_arch_T_volcanium"/>
+                    <taxon idref="gly_arch_T_acidophilum"/>
+                    <taxon idref="gly_arch_N_equitans"/>
+                    <taxon idref="gly_arch_M_kandleri"/>
+                    <taxon idref="gly_arch_M_thermautotrophicus"/>
+                    <taxon idref="gly_arch_P_aerophilum"/>
+                    <taxon idref="gly_arch_P_delaneyi"/>
+                    <taxon idref="gly_arch_P_horikoshii"/>
+                    <taxon idref="gly_arch_P_occultum"/>
+                    <taxon idref="gly_arch_S_acidocaldarius"/>
+                    <taxon idref="gly_arch_S_marinus"/>
+                    <taxon idref="gly_arch_A_fulgidus"/>
+                    <taxon idref="gly_arch_Halobacterium"/>
+                    <taxon idref="gly_arch_M_acetivorans"/>
+                    <taxon idref="gly_arch_M_aeolicus_Nankai"/>
+                    <taxon idref="gly_arch_M_hungatei"/>
+                    <taxon idref="gly_arch_M_jannaschii"/>
+                    <taxon idref="his_arch_1wu7a_T_acidophilum"/>
+                    <taxon idref="his_arch_P_delaneyi"/>
+                    <taxon idref="his_arch_T_volcanium"/>
+                    <taxon idref="his_arch_M_aeolicus_Nankai"/>
+                    <taxon idref="his_arch_S_acidocaldarius"/>
+                    <taxon idref="his_arch_M_kandleri"/>
+                    <taxon idref="his_arch_Halobacterium"/>
+                    <taxon idref="his_arch_M_hungatei"/>
+                    <taxon idref="his_arch_A_fulgidus"/>
+                    <taxon idref="his_arch_M_thermautotrophicus"/>
+                    <taxon idref="his_arch_P_aerophilum"/>
+                    <taxon idref="his_arch_N_equitans"/>
+                    <taxon idref="his_arch_M_acetivorans"/>
+                    <taxon idref="his_arch_P_horikoshii"/>
+                    <taxon idref="his_arch_R_marinus"/>
+                    <taxon idref="his_arch_M_jannaschii"/>
+                    <taxon idref="his_arch_P_occultum"/>
+                    <taxon idref="lys_arch_P_delaneyi"/>
+                    <taxon idref="lys_arch_T_volcanium"/>
+                    <taxon idref="lys_arch_A_fulgidus"/>
+                    <taxon idref="lys_arch_M_thermautotrophicus"/>
+                    <taxon idref="lys_arch_T_acidophilum"/>
+                    <taxon idref="lys_arch_N_equitans"/>
+                    <taxon idref="lys_arch_M_aeolicus"/>
+                    <taxon idref="lys_arch_Halobacterium"/>
+                    <taxon idref="lys_arch_M_kandleri"/>
+                    <taxon idref="lys_arch_M_acetivorans"/>
+                    <taxon idref="lys_arch_S_marinus"/>
+                    <taxon idref="lys_arch_P_occultum"/>
+                    <taxon idref="lys_arch_1irx_P_horikoshii"/>
+                    <taxon idref="phe_arch_S_acidocaldarius"/>
+                    <taxon idref="phe_arch_P_aerophilum"/>
+                    <taxon idref="phe_arch_P_delaneyi"/>
+                    <taxon idref="phe_arch_P_horikoshii"/>
+                    <taxon idref="phe_arch_P_occultum"/>
+                    <taxon idref="phe_arch_S_marinus"/>
+                    <taxon idref="phe_arch_T_volcanium"/>
+                    <taxon idref="phe_arch_A_fulgidus"/>
+                    <taxon idref="phe_arch_Halobacterium"/>
+                    <taxon idref="phe_arch_M_acetivorans"/>
+                    <taxon idref="phe_arch_M_hungatei"/>
+                    <taxon idref="phe_arch_M_aeolicus_Nankai"/>
+                    <taxon idref="phe_arch_M_jannaschii"/>
+                    <taxon idref="phe_arch_M_kandleri"/>
+                    <taxon idref="phe_arch_M_thermautotrophicus"/>
+                    <taxon idref="pro_arch_P_delaneyi"/>
+                    <taxon idref="pro_arch_T_volcanium"/>
+                    <taxon idref="pro_arch_T_acidophilum"/>
+                    <taxon idref="pro_arch_P_aerophilum"/>
+		    		<taxon idref="pro_arch_M_kandleri"/>
+                    <taxon idref="pro_arch_M_acetivorans"/>
+                    <taxon idref="pro_arch_S_acidocaldarius"/>
+                    <taxon idref="pro_arch_M_aeolicus_Nankai"/>
+                    <taxon idref="pro_arch_N_equitans"/>
+                    <taxon idref="pro_arch_P_horikoshii"/>
+                    <taxon idref="pro_arch_S_marinus"/>
+                    <taxon idref="pro_arch_P_occultum"/>
+                    <taxon idref="pro_arch_d1nj8a_M_jannaschii"/>
+                    <taxon idref="ser_arch_2cjab_M_barkeri"/>
+                    <taxon idref="ser_arch_P_delaneyi"/>
+                    <taxon idref="ser_arch_T_volcanium"/>
+                    <taxon idref="ser_arch_S_acidocaldarius"/>
+                    <taxon idref="ser_arch_M_kandleri"/>
+                    <taxon idref="ser_arch_M_hungatei"/>
+                    <taxon idref="ser_arch_A_fulgidus"/>
+                    <taxon idref="ser_arch_M_thermautotrophicus"/>
+                    <taxon idref="ser_arch_P_aerophilum"/>
+                    <taxon idref="ser_arch_T_acidophilum"/>
+                    <taxon idref="ser_arch_M_aeolicus_Nankai"/>
+                    <taxon idref="ser_arch_N_equitans"/>
+                    <taxon idref="ser_arch_M_acetivorans"/>
+                    <taxon idref="ser_arch_P_horikoshii"/>
+                    <taxon idref="ser_arch_S_marinus"/>
+                    <taxon idref="ser_arch_M_jannaschii"/>
+                    <taxon idref="ser_arch_P_occultum"/>
+                    <taxon idref="ser_arch_Halobacterium"/>
+                    <taxon idref="thr_arch_3a32_A_pernix"/>
+                    <taxon idref="thr_arch_M_thermautotrophicus"/>
+                    <taxon idref="thr_arch_T_volcanium"/>
+                    <taxon idref="thr_arch_M_aeolicus_Nankai"/>
+                    <taxon idref="thr_arch_S_acidocaldarius"/>
+                    <taxon idref="thr_arch_M_kandleri"/>
+                    <taxon idref="thr_arch_M_hungatei"/>
+                    <taxon idref="thr_arch_A_fulgidus"/>
+                    <taxon idref="thr_arch_P_aerophilum"/>
+                    <taxon idref="thr_arch_T_acidophilum"/>
+                    <taxon idref="thr_arch_P_occultum"/>
+                    <taxon idref="thr_arch_S_marinus"/>
+                    <taxon idref="thr_arch_P_delaneyi"/>
+                    <taxon idref="thr_arch_N_equitans"/>
+                    <taxon idref="thr_arch_M_acetivorans"/>
+                    <taxon idref="thr_arch_P_horikoshii"/>
+                    <taxon idref="thr_arch_M_jannaschii"/>
+                    <taxon idref="thr_arch_Halobacterium"/>
+                </taxonset>
+            </distribution>
+
+        </distribution>
+    </distribution>
+    	
+    <operator id="gammaShapeScaler.s:NormalBEAST2" spec="ScaleOperator" parameter="@gammaShape.s:NormalBEAST2" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+        <parameter idref="mutationRate.s:NormalBEAST2"/>
+        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">112</weightvector>
+    </operator>
+
+    <operator id="ucldStdevScaler.c:NormalBEAST2" spec="ScaleOperator" parameter="@ucldStdev.c:NormalBEAST2" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:NormalBEAST2" spec="IntRandomWalkOperator" parameter="@rateCategories.c:NormalBEAST2" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:NormalBEAST2" spec="SwapOperator" intparameter="@rateCategories.c:NormalBEAST2" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:NormalBEAST2" spec="UniformOperator" parameter="@rateCategories.c:NormalBEAST2" weight="10.0"/>
+
+    <operator id="BirthDeathTreeScaler.t:NormalBEAST2" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:NormalBEAST2" weight="3.0"/>
+
+    <operator id="BirthDeathTreeRootScaler.t:NormalBEAST2" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:NormalBEAST2" weight="3.0"/>
+
+    <operator id="BirthDeathUniformOperator.t:NormalBEAST2" spec="Uniform" tree="@Tree.t:NormalBEAST2" weight="30.0"/>
+
+    <operator id="BirthDeathSubtreeSlide.t:NormalBEAST2" spec="SubtreeSlide" tree="@Tree.t:NormalBEAST2" weight="15.0"/>
+
+    <operator id="BirthDeathNarrow.t:NormalBEAST2" spec="Exchange" tree="@Tree.t:NormalBEAST2" weight="15.0"/>
+
+    <operator id="BirthDeathWide.t:NormalBEAST2" spec="Exchange" isNarrow="false" tree="@Tree.t:NormalBEAST2" weight="3.0"/>
+
+    <operator id="BirthDeathWilsonBalding.t:NormalBEAST2" spec="WilsonBalding" tree="@Tree.t:NormalBEAST2" weight="3.0"/>
+
+    <operator id="BirthRateScaler.t:NormalBEAST2" spec="ScaleOperator" parameter="@birthRate2.t:NormalBEAST2" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="DeathRateScaler.t:NormalBEAST2" spec="ScaleOperator" parameter="@relativeDeathRate2.t:NormalBEAST2" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id='RestrictedSubtreeSlide' spec='RestrictedSubtreeSlide' weight='60' tree='@Tree.t:NormalBEAST2'>
+		<clade idref='val'/>
+		<clade idref='gly'/>
+		<clade idref='ala'/>
+		<clade idref='asp'/>
+		<clade idref='pro'/>
+		<clade idref='glu'/>
+		<clade idref='ser'/>
+		<clade idref='leu'/>
+		<clade idref='arg'/>
+		<clade idref='thr'/>
+		<clade idref='ile'/>
+		<clade idref='asn'/>
+		<clade idref='cys'/>
+		<clade idref='tyr'/>
+		<clade idref='his'/>
+		<clade idref='met'/>
+		<clade idref='trp'/>
+		<clade idref='phe'/>
+		<clade idref='lys'/>
+		<clade idref='ClassI'/>
+		<clade idref='ClassII'/>
+	</operator>
+
+    <logger id="tracelog" fileName="NormalBEAST2_Arch_NEW.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.NormalBEAST2"/>
+        <log id="TreeHeight.t:NormalBEAST2" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:NormalBEAST2"/>
+        <log idref="gammaShape.s:NormalBEAST2"/>
+        <log idref="mutationRate.s:NormalBEAST2"/>
+        <log idref="ucldStdev.c:NormalBEAST2"/>
+        <log id="rate.c:NormalBEAST2" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:NormalBEAST2" tree="@Tree.t:NormalBEAST2"/>
+        <log idref="BirthDeath.t:NormalBEAST2"/>
+        <log idref="birthRate2.t:NormalBEAST2"/>
+        <log idref="relativeDeathRate2.t:NormalBEAST2"/>
+        <log idref='arg.prior'/>
+        <log idref='cys.prior'/>
+        <log idref='glu.prior'/>
+        <log idref='ile.prior'/>
+        <log idref='leu.prior'/>
+        <log idref='met.prior'/>
+        <log idref='tyr.prior'/>
+        <log idref='trp.prior'/>
+        <log idref='val.prior'/>
+        <log idref='ala.prior'/>
+        <log idref='asn.prior'/>
+        <log idref='asp.prior'/>
+        <log idref='gly.prior'/>
+        <log idref='his.prior'/>
+        <log idref='lys.prior'/>
+        <log idref='phe.prior'/>
+        <log idref='pro.prior'/>
+        <log idref='ser.prior'/>
+        <log idref='thr.prior'/>
+        <log idref='ClassI.prior'/>
+        <log idref='ClassII.prior'/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:NormalBEAST2" fileName="NormalBEAST2_Arch_NEW.trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:NormalBEAST2" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:NormalBEAST2" tree="@Tree.t:NormalBEAST2"/>
+    </logger>
+
+        <init estimate="false" id="TreeParser.t:NormalBEAST2" initial="@Tree.t:NormalBEAST2" spec="beast.util.TreeParser" taxa="@NormalBEAST2"
+		IsLabelledNewick="true"
+    	newick='((((((ile_arch_P_delaneyi:0.1, ile_arch_T_volcanium:0.1, ile_arch_S_acidocaldarius:0.1, ile_arch_M_kandleri:0.1, ile_arch_M_hungatei:0.1, ile_arch_A_fulgidus:0.1, ile_arch_M_thermautotrophicus:0.1, ile_arch_P_aerophilum:0.1, ile_arch_T_acidophilum:0.1, ile_arch_N_equitans:0.1, ile_arch_P_horikoshii:0.1, ile_arch_M_acetivorans:0.1, ile_arch_S_marinus:0.1, ile_arch_M_jannaschii:0.1, ile_arch_P_occultum:0.1, ile_arch_Halobacterium:0.1):100, (leu_arch_1wz2_P_horikoshii:0.1, leu_arch_P_delaneyi:0.1, leu_arch_T_volcanium:0.1, leu_arch_M_aeolicus_Nankai:0.1, leu_arch_S_acidocaldarius:0.1, leu_arch_M_kandleri:0.1, leu_arch_M_hungatei:0.1, leu_arch_A_fulgidus:0.1, leu_arch_M_thermautotrophicus:0.1, leu_arch_P_aerophilum:0.1, leu_arch_T_acidophilum:0.1, leu_arch_N_equitans:0.1, leu_arch_M_acetivorans:0.1, leu_arch_M_jannaschii:0.1, leu_arch_P_occultum:0.1, leu_arch_Halobacterium:0.1):100):100, ((val_arch_P_delaneyi:0.1, val_arch_T_volcanium:0.1, val_arch_M_aeolicus_Nankai:0.1, val_arch_S_acidocaldarius:0.1, val_arch_P_aerophilum:0.1, val_arch_T_acidophilum:0.1, val_arch_P_horikoshii:0.1, val_arch_A_fulgidus:0.1, val_arch_Halobacterium:0.1, val_arch_M_acetivorans:0.1, val_arch_M_hungatei:0.1, val_arch_M_thermautotrophicus:0.1, val_arch_M_kandleri:0.1, val_arch_N_equitans:0.1, val_arch_M_jannaschii:0.1, val_arch_P_occultum:0.1):100, (met_arch_1rqg_P_abyssi:0.1, met_arch_P_aerophilum:0.1, met_arch_T_volcanium:0.1, met_arch_S_acidocaldarius:0.1, met_arch_T_acidophilum:0.1, met_arch_Halobacterium:0.1, met_arch_M_acetivorans:0.1, met_arch_M_aeolicus_Nankai:0.1, met_arch_M_hungatei:0.1, met_arch_M_jannaschii:0.1, met_arch_M_kandleri:0.1, met_arch_M_thermautotrophicus:0.1, met_arch_N_equitans:0.1, met_arch_A_fulgidus:0.1, met_arch_P_delaneyi:0.1, met_arch_P_horikoshii:0.1, met_arch_S_marinus:0.1, met_arch_P_occultum:0.1):100):100):100, (((glu_arch_M_hungatei:0.1, glu_arch_M_jannaschii:0.1, glu_arch_M_kandleri:0.1, glu_arch_M_thermautotrophicus:0.1, glu_arch_P_aerophilum:0.1, glu_arch_P_delaneyi:0.1, glu_arch_A_fulgidus:0.1, glu_arch_P_occultum:0.1, glu_arch_S_acidocaldarius:0.1, glu_arch_S_marinus:0.1, glu_arch_T_acidophilum:0.1, glu_arch_T_volcanium:0.1, glu_arch_Halobacterium:0.1):100, (lys_arch_P_delaneyi:0.1, lys_arch_T_volcanium:0.1, lys_arch_A_fulgidus:0.1, lys_arch_M_thermautotrophicus:0.1, lys_arch_T_acidophilum:0.1, lys_arch_N_equitans:0.1, lys_arch_M_aeolicus:0.1, lys_arch_Halobacterium:0.1, lys_arch_M_kandleri:0.1, lys_arch_M_acetivorans:0.1, lys_arch_S_marinus:0.1, lys_arch_P_occultum:0.1, lys_arch_1irx_P_horikoshii:0.1):100):100, ((cys_arch_P_aerophilum:0.1, cys_arch_P_delaneyi:0.1, cys_arch_P_horikoshii:0.1, cys_arch_P_occultum:0.1, cys_arch_S_acidocaldarius:0.1, cys_arch_S_marinus:0.1, cys_arch_T_acidophilum:0.1, cys_arch_A_fulgidus:0.1, cys_arch_Halobacterium:0.1, cys_arch_M_hungatei:0.1, cys_arch_N_equitans:0.1):100, (arg_arch_2zue_P_horikoshii:0.1, arg_arch_P_delaneyi:0.1, arg_arch_S_acidocaldarius:0.1, arg_arch_M_kandleri:0.1, arg_arch_M_hungatei:0.1, arg_arch_A_fulgidus:0.1, arg_arch_M_thermautotrophicus:0.1, arg_arch_P_aerophilum:0.1, arg_arch_T_acidophilum:0.1, arg_arch_N_equitans:0.1, arg_arch_M_aeolicus_Nankai:0.1, arg_arch_S_marinus:0.1, arg_arch_M_acetivorans:0.1, arg_arch_M_janaschii:0.1, arg_arch_P_occultum:0.1, arg_arch_Halobacterium:0.1):100):100):100):100, ((tyr_arch_2cya_A_pernix:0.1, tyr_arch_2cyb_A_fulgidus:0.1, tyr_arch_2cyc_P_horikoshii:0.1, tyr_arch_2zp1_M_jannaschii:0.1, tyr_arch_P_delaneyi:0.1, tyr_arch_T_volcanium:0.1, tyr_arch_M_kandleri:0.1, tyr_arch_M_hungatei:0.1, tyr_arch_M_thermautotrophicus:0.1, tyr_arch_P_aerophilum:0.1, tyr_arch_T_acidophilum:0.1, tyr_arch_M_aeolicus_Nankai:0.1, tyr_arch_N_equitans:0.1, tyr_arch_S_acidocaldarius:0.1, tyr_arch_M_acetivorans:0.1, tyr_arch_S_marinus:0.1, tyr_arch_P_occultum:0.1, tyr_arch_Halobacterium:0.1):100, (trp_arch_P_delaneyi:0.1, trp_arch_S_acidocaldarius:0.1, trp_arch_M_kandleri:0.1, trp_arch_M_thermautotrophicus:0.1, trp_arch_P_aerophilum:0.1, trp_arch_M_acetivorans:0.1, trp_arch_N_equitans:0.1, trp_arch_T_acidophilum:0.1, trp_arch_T_volcanium:0.1, trp_arch_A_fulgidus:0.1, trp_arch_M_hungatei:0.1, trp_arch_P_horikoshii:0.1, trp_arch_M_jannaschii:0.1, trp_arch_P_occultum:0.1, trp_arch_Halobacterium:0.1):100):300):300, (((((asn_arch_1x54a_P_horikoshii:0.1, asn_arch_T_volcanium:0.1, asn_arch_P_aerophilum:0.1, asn_arch_T_acidophilum:0.1, asn_arch_N_equitans:0.1, asn_arch_S_marinus:0.1):100, (asp_arch_1wydb_S_tokodaii:0.1, asp_arch_P_delaneyi:0.1, asp_arch_T_volcanium:0.1, asp_arch_S_acidocaldarius:0.1, asp_arch_M_kandleri:0.1, asp_arch_M_hungatei:0.1, asp_arch_A_fulgidus:0.1, asp_arch_M_thermautotrophicus:0.1, asp_arch_P_aerophilum:0.1, asp_arch_T_acidophilum:0.1, asp_arch_N_equitans:0.1, asp_arch_M_aeolicus_Nankai:0.1, asp_arch_M_acetivorans:0.1, asp_arch_P_horikoshii:0.1, asp_arch_S_marinus:0.1, asp_arch_M_jannaschii:0.1, asp_arch_Halobacterium:0.1, asp_arch_d1b8aa_T_kodakarensis:0.1):100):100, ((ser_arch_2cjab_M_barkeri:0.1, ser_arch_P_delaneyi:0.1, ser_arch_T_volcanium:0.1, ser_arch_S_acidocaldarius:0.1, ser_arch_M_kandleri:0.1, ser_arch_M_hungatei:0.1, ser_arch_A_fulgidus:0.1, ser_arch_M_thermautotrophicus:0.1, ser_arch_P_aerophilum:0.1, ser_arch_T_acidophilum:0.1, ser_arch_M_aeolicus_Nankai:0.1, ser_arch_N_equitans:0.1, ser_arch_M_acetivorans:0.1, ser_arch_P_horikoshii:0.1, ser_arch_S_marinus:0.1, ser_arch_M_jannaschii:0.1, ser_arch_P_occultum:0.1, ser_arch_Halobacterium:0.1):100, (thr_arch_3a32_A_pernix:0.1, thr_arch_M_thermautotrophicus:0.1, thr_arch_T_volcanium:0.1, thr_arch_M_aeolicus_Nankai:0.1, thr_arch_S_acidocaldarius:0.1, thr_arch_M_kandleri:0.1, thr_arch_M_hungatei:0.1, thr_arch_A_fulgidus:0.1, thr_arch_P_aerophilum:0.1, thr_arch_T_acidophilum:0.1, thr_arch_P_occultum:0.1, thr_arch_S_marinus:0.1, thr_arch_P_delaneyi:0.1, thr_arch_N_equitans:0.1, thr_arch_M_acetivorans:0.1, thr_arch_P_horikoshii:0.1, thr_arch_M_jannaschii:0.1, thr_arch_Halobacterium:0.1):100):100):100, (((pro_arch_P_delaneyi:0.1, pro_arch_T_volcanium:0.1, pro_arch_T_acidophilum:0.1, pro_arch_P_aerophilum:0.1, pro_arch_M_kandleri:0.1, pro_arch_M_acetivorans:0.1, pro_arch_S_acidocaldarius:0.1, pro_arch_M_aeolicus_Nankai:0.1, pro_arch_N_equitans:0.1, pro_arch_P_horikoshii:0.1, pro_arch_S_marinus:0.1, pro_arch_P_occultum:0.1, pro_arch_d1nj8a_M_jannaschii:0.1):100, (gly_arch_T_volcanium:0.1, gly_arch_T_acidophilum:0.1, gly_arch_N_equitans:0.1, gly_arch_M_kandleri:0.1, gly_arch_M_thermautotrophicus:0.1, gly_arch_P_aerophilum:0.1, gly_arch_P_delaneyi:0.1, gly_arch_P_horikoshii:0.1, gly_arch_P_occultum:0.1, gly_arch_S_acidocaldarius:0.1, gly_arch_S_marinus:0.1, gly_arch_A_fulgidus:0.1, gly_arch_Halobacterium:0.1, gly_arch_M_acetivorans:0.1, gly_arch_M_aeolicus_Nankai:0.1, gly_arch_M_hungatei:0.1, gly_arch_M_jannaschii:0.1):100):100, (his_arch_1wu7a_T_acidophilum:0.1, his_arch_P_delaneyi:0.1, his_arch_T_volcanium:0.1, his_arch_M_aeolicus_Nankai:0.1, his_arch_S_acidocaldarius:0.1, his_arch_M_kandleri:0.1, his_arch_Halobacterium:0.1, his_arch_M_hungatei:0.1, his_arch_A_fulgidus:0.1, his_arch_M_thermautotrophicus:0.1, his_arch_P_aerophilum:0.1, his_arch_N_equitans:0.1, his_arch_M_acetivorans:0.1, his_arch_P_horikoshii:0.1, his_arch_R_marinus:0.1, his_arch_M_jannaschii:0.1, his_arch_P_occultum:0.1):200):100):100, ((phe_arch_S_acidocaldarius:0.1, phe_arch_P_aerophilum:0.1, phe_arch_P_delaneyi:0.1, phe_arch_P_horikoshii:0.1, phe_arch_P_occultum:0.1, phe_arch_S_marinus:0.1, phe_arch_T_volcanium:0.1, phe_arch_A_fulgidus:0.1, phe_arch_Halobacterium:0.1, phe_arch_M_acetivorans:0.1, phe_arch_M_hungatei:0.1, phe_arch_M_aeolicus_Nankai:0.1, phe_arch_M_jannaschii:0.1, phe_arch_M_kandleri:0.1, phe_arch_M_thermautotrophicus:0.1):100, (ala_arch_2ztg_A_fulgidus:0.1, ala_arch_2zze_P_horikoshii:0.1, ala_arch_P_delaneyi:0.1, ala_arch_T_volcanium:0.1, ala_arch_S_acidocaldarius:0.1, ala_arch_M_kandleri:0.1, ala_arch_M_hungatei:0.1, ala_arch_M_thermautotrophicus:0.1, ala_arch_M_aeolicus_Nankai:0.1, ala_arch_M_acetivorans:0.1, ala_arch_S_marinus:0.1, ala_arch_M_jannaschii:0.1, ala_arch_P_occultum:0.1):100):300):300):300;'/>
+</run>
+
+</beast>
