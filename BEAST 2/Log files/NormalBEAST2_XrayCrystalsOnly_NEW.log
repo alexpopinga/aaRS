@@ -1,0 +1,293 @@
+#
+#model:
+#
+#<?xml version="1.0" encoding="UTF-8" standalone="no"?><input id="posterior" spec="beast.core.util.CompoundDistribution">
+#    <distribution id="prior" spec="beast.core.util.CompoundDistribution">
+#        <distribution id="BirthDeath.t:NormalBEAST2" spec="beast.evolution.speciation.BirthDeathGernhard08Model">
+#            <parameter id="relativeDeathRate2.t:NormalBEAST2" lower="0.0" name="relativeDeathRate" upper="1.0">0.5</parameter>
+#            <parameter id="birthRate2.t:NormalBEAST2" lower="0.0" name="birthDiffRate" upper="10000.0">1.0</parameter>
+#            <tree id="Tree.t:NormalBEAST2">
+#                <taxonset id="TaxonSet.NormalBEAST2" spec="beast.evolution.alignment.TaxonSet">
+#                </taxonset>
+#            </tree>
+#        </distribution>
+#        <prior id="BirthRatePrior.t:NormalBEAST2" name="distribution" x="@birthRate2.t:NormalBEAST2">
+#            <LogNormal id="LogNormalDistributionModel.1" name="distr">
+#                <parameter estimate="false" id="RealParameter.6" name="M">1.0</parameter>
+#                <parameter estimate="false" id="RealParameter.7" lower="0.0" name="S" upper="5.0">1.25</parameter>
+#            </LogNormal>
+#        </prior>
+#        <prior id="GammaShapePrior.s:NormalBEAST2" name="distribution">
+#            <parameter id="gammaShape.s:NormalBEAST2" name="x">1.0</parameter>
+#            <Exponential id="Exponential.0" name="distr">
+#                <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+#            </Exponential>
+#        </prior>
+#        <prior id="DeathRatePrior.t:NormalBEAST2" name="distribution" x="@relativeDeathRate2.t:NormalBEAST2">
+#            <LogNormal id="LogNormalDistributionModel.2" name="distr">
+#                <parameter estimate="false" id="RealParameter.8" name="M">1.0</parameter>
+#                <parameter estimate="false" id="RealParameter.9" lower="0.0" name="S" upper="5.0">1.25</parameter>
+#            </LogNormal>
+#        </prior>
+#        <prior id="ucldStdevPrior.c:NormalBEAST2" name="distribution">
+#            <parameter id="ucldStdev.c:NormalBEAST2" lower="0.0" name="x">0.1</parameter>
+#            <Gamma id="Gamma.0" name="distr">
+#                <parameter estimate="false" id="RealParameter.2" name="alpha">0.5396</parameter>
+#                <parameter estimate="false" id="RealParameter.3" name="beta">0.3819</parameter>
+#            </Gamma>
+#        </prior>
+#    </distribution>
+#    <distribution id="likelihood" spec="beast.core.util.CompoundDistribution" useThreads="true">
+#        <distribution data="@NormalBEAST2" id="treeLikelihood.NormalBEAST2" spec="beast.evolution.likelihood.ThreadedTreeLikelihood" tree="@Tree.t:NormalBEAST2">
+#            <siteModel gammaCategoryCount="4" id="SiteModel.s:NormalBEAST2" shape="@gammaShape.s:NormalBEAST2" spec="beast.evolution.sitemodel.SiteModel">
+#                <parameter id="mutationRate.s:NormalBEAST2" name="mutationRate">1.0</parameter>
+#                <parameter estimate="false" id="proportionInvariant.s:NormalBEAST2" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+#                <substModel id="WAG.s:NormalBEAST2" spec="beast.evolution.substitutionmodel.WAG"/>
+#            </siteModel>
+#            <branchRateModel id="RelaxedClock.c:NormalBEAST2" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" tree="@Tree.t:NormalBEAST2">
+#                <LogNormal S="@ucldStdev.c:NormalBEAST2" id="LogNormalDistributionModel.c:NormalBEAST2" meanInRealSpace="true" name="distr">
+#                    <parameter estimate="false" id="RealParameter.1" lower="0.0" name="M" upper="1.0">1.0</parameter>
+#                </LogNormal>
+#                <rateCategories dimension="144" id="rateCategories.c:NormalBEAST2" spec="beast.core.parameter.IntegerParameter">1</rateCategories>
+#                <parameter estimate="false" id="ucldMean.c:NormalBEAST2" name="clock.rate">1.0</parameter>
+#            </branchRateModel>
+#        </distribution>
+#        <distribution id="val.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="val" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="val_bact_1gax_T_thermophilus" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="gly.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="gly" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="gly_euk_2zt5_H_sapiens" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gly_bact_d1atib_T_thermophilus" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="ala.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="ala" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="ala_bact_1yfsa_A_aeolicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ala_arch_2ztg_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ala_arch_2zze_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ala_bact_3hxv_E_coli" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="asp.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="asp" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="asp_arch_1wydb_S_tokodaii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_euk_3i7f_E_histolytica" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_arch_d1b8aa_T_kodakarensis" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_bact_d1c0aa_E_coli" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asp_bact_d1efwa_T_thermophilus" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="pro.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="pro" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="pro_bact_2i4la_R_palustris" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_bact_2j3mb_E_faecalis" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_euk_3ial_G_lamblia" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_bact_d1hc7a_T_thermophilus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="pro_arch_d1nj8a_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="glu.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="glu" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="glu_bact_1j09_T_thermophilus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="glu_bact_1nzj_E_coli" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="glu_bact_2cfo_T_elongatus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="glu_bact_2o5r_T_maritima" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="ser.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="ser" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="ser_euk_1wleb_B_taurus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_arch_2cjab_M_barkeri" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ser_bact_d1sera_T_thermophilus" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="leu.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="leu" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="leu_arch_1wz2_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="leu_bact_2v0c_T_thermophilus" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="arg.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="arg" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="arg_euk_1f7u_S_cerevisiae" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_bact_1iq0_T_thermophilus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_arch_2zue_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="arg_bact_3fnr_C_jejuni" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="thr.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="thr" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="thr_arch_3a32_A_pernix" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_bact_d1evka_E_coli" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="thr_bact_d1nyra_S_aureus" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="ile.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="ile" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="ile_bact_1ile_T_thermophilus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="ile_bact_1qu2_S_aureus" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="gln.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="gln" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="gln_bact_1qtq_E_coli" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="gln_bact_2hz7_D_radiodurans" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="asn.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="asn" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="asn_arch_1x54a_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asn_euk_3m4p_E_histolytica" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="asn_bact_d1asza_T_thermophilus" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="cys.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="cys" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="cys_bact_1li5_E_coli" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="cys_bact_3c8z_M_smegmatis" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="tyr.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="tyr" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="tyr_bact_1h3f_T_thermophilus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_bact_1jil_S_aureus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_bact_1wq4_E_coli" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_2cya_A_pernix" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_2cyb_A_fulgidus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_2cyc_P_horikoshii" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_euk_2dlc_S_cerevisiae" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="tyr_arch_2zp1_M_jannaschii" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="his.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="his" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="his_bact_1htt_E_coli" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_arch_1wu7a_T_acidophilum" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_euk_3hri_T_brucei" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_euk_3lc0_T_cruzi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_bact_d1adjc_T_thermophilus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="his_bact_d1qe0a_S_aureus" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="met.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="met" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="met_bact_1pfv_E_coli" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_arch_1rqg_P_abyssi" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_bact_1woy_T_thermophilus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_bact_2csx_A_aeolicus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="met_bact_2x1l_M_smegmatis" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="trp.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="trp" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="trp_bact_1i6m_G_stearothermophilus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_euk_1r6u_H_sapiens" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_bact_2el7_T_thermophilus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_bact_2g36_T_maritima" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="trp_euk_2ip1_S_cerevisiae" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="phe.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="phe" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="phe_bact_2alya_T_thermophilus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_bact_2rhq_S_haemolyticus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="phe_euk_3l4g_H_sapiens" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="lys.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="lys" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon id="lys_euk_3bju_H_sapiens" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="lys_bact_3e9h_G_stearothermophilus" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="lys_bact_3g1z_S_typhimurium" spec="beast.evolution.alignment.Taxon"/>
+#                <taxon id="lys_bact_d1e1oa_E_coli" spec="beast.evolution.alignment.Taxon"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="ClassI.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="ClassI" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon idref="arg_euk_1f7u_S_cerevisiae"/>
+#                <taxon idref="arg_bact_1iq0_T_thermophilus"/>
+#                <taxon idref="arg_arch_2zue_P_horikoshii"/>
+#                <taxon idref="arg_bact_3fnr_C_jejuni"/>
+#                <taxon idref="cys_bact_1li5_E_coli"/>
+#                <taxon idref="cys_bact_3c8z_M_smegmatis"/>
+#                <taxon idref="glu_bact_1j09_T_thermophilus"/>
+#                <taxon idref="glu_bact_1nzj_E_coli"/>
+#                <taxon idref="glu_bact_2cfo_T_elongatus"/>
+#                <taxon idref="glu_bact_2o5r_T_maritima"/>
+#                <taxon idref="gln_bact_1qtq_E_coli"/>
+#                <taxon idref="gln_bact_2hz7_D_radiodurans"/>
+#                <taxon idref="ile_bact_1ile_T_thermophilus"/>
+#                <taxon idref="ile_bact_1qu2_S_aureus"/>
+#                <taxon idref="leu_arch_1wz2_P_horikoshii"/>
+#                <taxon idref="leu_bact_2v0c_T_thermophilus"/>
+#                <taxon idref="met_bact_1pfv_E_coli"/>
+#                <taxon idref="met_arch_1rqg_P_abyssi"/>
+#                <taxon idref="met_bact_1woy_T_thermophilus"/>
+#                <taxon idref="met_bact_2csx_A_aeolicus"/>
+#                <taxon idref="met_bact_2x1l_M_smegmatis"/>
+#                <taxon idref="val_bact_1gax_T_thermophilus"/>
+#                <taxon idref="trp_bact_1i6m_G_stearothermophilus"/>
+#                <taxon idref="trp_euk_1r6u_H_sapiens"/>
+#                <taxon idref="trp_bact_2el7_T_thermophilus"/>
+#                <taxon idref="trp_bact_2g36_T_maritima"/>
+#                <taxon idref="trp_euk_2ip1_S_cerevisiae"/>
+#                <taxon idref="tyr_bact_1h3f_T_thermophilus"/>
+#                <taxon idref="tyr_bact_1jil_S_aureus"/>
+#                <taxon idref="tyr_bact_1wq4_E_coli"/>
+#                <taxon idref="tyr_arch_2cya_A_pernix"/>
+#                <taxon idref="tyr_arch_2cyb_A_fulgidus"/>
+#                <taxon idref="tyr_arch_2cyc_P_horikoshii"/>
+#                <taxon idref="tyr_euk_2dlc_S_cerevisiae"/>
+#                <taxon idref="tyr_arch_2zp1_M_jannaschii"/>
+#            </taxonset>
+#        </distribution>
+#        <distribution id="ClassII.prior" monophyletic="true" spec="beast.math.distributions.MRCAPrior" tree="@Tree.t:NormalBEAST2">
+#            <taxonset id="ClassII" spec="beast.evolution.alignment.TaxonSet">
+#                <taxon idref="ala_bact_1yfsa_A_aeolicus"/>
+#                <taxon idref="ala_arch_2ztg_A_fulgidus"/>
+#                <taxon idref="ala_arch_2zze_P_horikoshii"/>
+#                <taxon idref="ala_bact_3hxv_E_coli"/>
+#                <taxon idref="asn_arch_1x54a_P_horikoshii"/>
+#                <taxon idref="asn_euk_3m4p_E_histolytica"/>
+#                <taxon idref="asn_bact_d1asza_T_thermophilus"/>
+#                <taxon idref="asp_arch_1wydb_S_tokodaii"/>
+#                <taxon idref="asp_euk_3i7f_E_histolytica"/>
+#                <taxon idref="asp_arch_d1b8aa_T_kodakarensis"/>
+#                <taxon idref="asp_bact_d1c0aa_E_coli"/>
+#                <taxon idref="asp_bact_d1efwa_T_thermophilus"/>
+#                <taxon idref="gly_euk_2zt5_H_sapiens"/>
+#                <taxon idref="gly_bact_d1atib_T_thermophilus"/>
+#                <taxon idref="his_bact_1htt_E_coli"/>
+#                <taxon idref="his_arch_1wu7a_T_acidophilum"/>
+#                <taxon idref="his_euk_3hri_T_brucei"/>
+#                <taxon idref="his_euk_3lc0_T_cruzi"/>
+#                <taxon idref="his_bact_d1adjc_T_thermophilus"/>
+#                <taxon idref="his_bact_d1qe0a_S_aureus"/>
+#                <taxon idref="lys_euk_3bju_H_sapiens"/>
+#                <taxon idref="lys_bact_3e9h_G_stearothermophilus"/>
+#                <taxon idref="lys_bact_3g1z_S_typhimurium"/>
+#                <taxon idref="lys_bact_d1e1oa_E_coli"/>
+#                <taxon idref="phe_bact_2alya_T_thermophilus"/>
+#                <taxon idref="phe_bact_2rhq_S_haemolyticus"/>
+#                <taxon idref="phe_euk_3l4g_H_sapiens"/>
+#                <taxon idref="pro_bact_2i4la_R_palustris"/>
+#                <taxon idref="pro_bact_2j3mb_E_faecalis"/>
+#                <taxon idref="pro_euk_3ial_G_lamblia"/>
+#                <taxon idref="pro_bact_d1hc7a_T_thermophilus"/>
+#                <taxon idref="pro_arch_d1nj8a_M_jannaschii"/>
+#                <taxon idref="ser_euk_1wleb_B_taurus"/>
+#                <taxon idref="ser_arch_2cjab_M_barkeri"/>
+#                <taxon idref="ser_bact_d1sera_T_thermophilus"/>
+#                <taxon idref="thr_arch_3a32_A_pernix"/>
+#                <taxon idref="thr_bact_d1evka_E_coli"/>
+#                <taxon idref="thr_bact_d1nyra_S_aureus"/>
+#            </taxonset>
+#        </distribution>
+#    </distribution>
+#</input>
+#
+Sample	posterior	likelihood	prior	treeLikelihood	TreeHeight	gammaShape	mutationRate	ucldStdev	rate.mean	rate.variance	rate.coefficientOfVariation	BirthDeath	birthRate2	relativeDeathRate2	mrcatime(arg)	mrcatime(cys)	mrcatime(glu)	mrcatime(gln)	mrcatime(ile)	mrcatime(leu)	mrcatime(met)	mrcatime(tyr)	mrcatime(trp)	height(val_bact_1gax_T_thermophilus)	mrcatime(ala)	mrcatime(asn)	mrcatime(asp)	mrcatime(gly)	mrcatime(his)	mrcatime(lys)	mrcatime(phe)	mrcatime(pro)	mrcatime(ser)	mrcatime(thr)	mrcatime(ClassI)	mrcatime(ClassII)
+0	-23366.073378585294	-18769.002523674208	-4597.070854911086	-18769.002523674208	700.1	1.0	1.0	0.1	1.00622710892644	0.009443135651940255	0.0970019016569186	-4594.061842907717	1.0	0.5	0.10000000000002274	0.10000000000002274	0.10000000000002274	0.10000000000002274	0.10000000000002274	0.10000000000002274	0.10000000000002274	0.10000000000002274	0.10000000000002274	0.0	0.10000000000002274	0.10000000000002274	0.10000000000002274	0.10000000000002274	0.10000000000002274	0.10000000000002274	0.10000000000002274	0.10000000000002274	0.10000000000002274	0.10000000000002274	400.1	400.1
