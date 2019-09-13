@@ -229,8 +229,8 @@
                 <data idref="AARS" name="alignment"/>
             </taxonset>
         </tree>
-        <parameter id="birthRate2.t:AARS" lower = "0.0" name="stateNode" upper="10000.0">1.0</parameter>
-		<parameter id="relativeDeathRate2.t:AARS" lower = "0.0" name="stateNode" upper="1.0">0.5</parameter>
+        <parameter id="bPopSizes.t:AARS" dimension="5" lower="0.0" name="stateNode" upper="380000.0">380.0</parameter>
+        <stateNode id="bGroupSizes.t:AARS" spec="parameter.IntegerParameter" dimension="5">1</stateNode>
 		<stateNode idref='ucldStdev.c:AARS'/>
 		<stateNode idref='rateCategories.c:AARS'/>
     </state>
@@ -545,23 +545,14 @@
 				<treeIntervals id='treeIntervals' spec='beast.evolution.tree.coalescent.TreeIntervals' tree='@Tree.t:AARS'/>
             </distribution>
 
-        <distribution id="BirthDeath.t:AARS" spec="beast.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@birthRate2.t:AARS" relativeDeathRate="@relativeDeathRate2.t:AARS" tree="@Tree.t:AARS"/>
-            <prior id="BirthRatePrior.t:AARS" name="distribution" x="@birthRate2.t:AARS">
-                <LogNormal id="LogNormalDistributionModel.1" name="distr">
-                    <parameter id="RealParameter.6" estimate="false" name="M">1.0</parameter>
-                    <parameter id="RealParameter.7" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
-                </LogNormal>
-            </prior>
+            <distribution id="BayesianSkyline.t:AARS" spec="BayesianSkyline" groupSizes="@bGroupSizes.t:AARS" popSizes="@bPopSizes.t:AARS">
+                <treeIntervals id="BSPTreeIntervals.t:AARS" spec="TreeIntervals" tree="@Tree.t:AARS"/>
+            </distribution>
+            <distribution id="MarkovChainedPopSizes.t:AARS" spec="beast.math.distributions.MarkovChainDistribution" jeffreys="true" parameter="@bPopSizes.t:AARS"/>
             <prior id="GammaShapePrior.s:AARS" name="distribution" x="@gammaShape.s:AARS">
                 <Exponential id="Exponential.0" name="distr">
-                    <parameter id="RealParameter.0" lower="0.0" name="mean" upper="0.0">1.0</parameter>
+                    <parameter id="RealParameter.0" estimate="false" name="mean">1.0</parameter>
                 </Exponential>
-            </prior>
-            <prior id="DeathRatePrior.t:AARS" name="distribution" x="@relativeDeathRate2.t:AARS">
-                <LogNormal id="LogNormalDistributionModel.2" name="distr">
-                    <parameter id="RealParameter.8" estimate="false" name="M">1.0</parameter>
-                    <parameter id="RealParameter.9" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
-                </LogNormal>
             </prior>
             <prior id="ucldStdevPrior.c:AARS" name="distribution" x="@ucldStdev.c:AARS">
                 <Gamma id="Gamma.0" name="distr">
@@ -621,28 +612,35 @@
         </distribution>
     </distribution>
 
-    <operator id='ucldStdevScaler.c:AARS' spec='ScaleOperator' scaleAll='false' scaleFactor="0.5" weight="3" parameter="@ucldStdev.c:AARS"/>
-    <operator id="CategoriesRandomWalk.c:AARS" spec="IntRandomWalkOperator" windowSize='1' weight="10" parameter="@rateCategories.c:AARS"/>
-	<operator id='CategoriesSwapOperator.c:AARS' spec='SwapOperator' howMany="1" weight="10" intparameter='@rateCategories.c:AARS'/>
-	<operator id='CategoriesUniform.c:AARS' spec='UniformOperator' weight="10" parameter='@rateCategories.c:AARS'/>
+    <operator id="gammaShapeScaler.s:AARS" spec="ScaleOperator" parameter="@gammaShape.s:AARS" scaleFactor="0.5" weight="0.1"/>
 
-    <operator id="BirthDeathTreeScaler.t:AARS" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:AARS" weight="3.0"/>
+    <operator id="ucldStdevScaler.c:AARS" spec="ScaleOperator" parameter="@ucldStdev.c:AARS" scaleFactor="0.5" weight="3.0"/>
 
-    <operator id="BirthDeathTreeRootScaler.t:AARS" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:AARS" weight="3.0"/>
+    <operator id="CategoriesRandomWalk.c:AARS" spec="IntRandomWalkOperator" parameter="@rateCategories.c:AARS" weight="10.0" windowSize="1"/>
 
-    <operator id="BirthDeathUniformOperator.t:AARS" spec="Uniform" tree="@Tree.t:AARS" weight="30.0"/>
+    <operator id="CategoriesSwapOperator.c:AARS" spec="SwapOperator" intparameter="@rateCategories.c:AARS" weight="10.0"/>
 
-    <operator id="BirthDeathSubtreeSlide.t:AARS" spec="SubtreeSlide" tree="@Tree.t:AARS" weight="15.0"/>
+    <operator id="CategoriesUniform.c:AARS" spec="UniformOperator" parameter="@rateCategories.c:AARS" weight="10.0"/>
 
-    <operator id="BirthDeathNarrow.t:AARS" spec="Exchange" tree="@Tree.t:AARS" weight="15.0"/>
+    <operator id="BayesianSkylineTreeScaler.t:AARS" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:AARS" weight="3.0"/>
 
-    <operator id="BirthDeathWide.t:AARS" spec="Exchange" isNarrow="false" tree="@Tree.t:AARS" weight="3.0"/>
+    <operator id="BayesianSkylineTreeRootScaler.t:AARS" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:AARS" weight="3.0"/>
 
-    <operator id="BirthDeathWilsonBalding.t:AARS" spec="WilsonBalding" tree="@Tree.t:AARS" weight="3.0"/>
+    <operator id="BayesianSkylineUniformOperator.t:AARS" spec="Uniform" tree="@Tree.t:AARS" weight="30.0"/>
 
-    <operator id="BirthRateScaler.t:AARS" spec="ScaleOperator" parameter="@birthRate2.t:AARS" scaleFactor="0.75" weight="3.0"/>
+    <operator id="BayesianSkylineSubtreeSlide.t:AARS" spec="SubtreeSlide" tree="@Tree.t:AARS" weight="15.0"/>
 
-    <operator id="DeathRateScaler.t:AARS" spec="ScaleOperator" parameter="@relativeDeathRate2.t:AARS" scaleFactor="0.75" weight="3.0"/>
+    <operator id="BayesianSkylineNarrow.t:AARS" spec="Exchange" tree="@Tree.t:AARS" weight="15.0"/>
+
+    <operator id="BayesianSkylineWide.t:AARS" spec="Exchange" isNarrow="false" tree="@Tree.t:AARS" weight="3.0"/>
+
+    <operator id="BayesianSkylineWilsonBalding.t:AARS" spec="WilsonBalding" tree="@Tree.t:AARS" weight="3.0"/>
+
+    <operator id="popSizesScaler.t:AARS" spec="ScaleOperator" parameter="@bPopSizes.t:AARS" scaleFactor="0.75" weight="15.0"/>
+
+    <operator id="groupSizesDelta.t:AARS" spec="DeltaExchangeOperator" integer="true" weight="6.0">
+        <intparameter idref="bGroupSizes.t:AARS"/>
+    </operator>
 
     <operator id='RestrictedSubtreeSlide' spec='RestrictedSubtreeSlide' weight='60' tree='@Tree.t:AARS'>
 		<clade idref='V'/>
@@ -668,7 +666,7 @@
 	</operator>
 
 
-    <logger fileName="IterativeSubstitutionMatrix_sim1.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+    <logger fileName="IterativeSubstitutionMatrix_sim1_sky.log" id="tracelog" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
         <log idref="prior"/>
@@ -678,9 +676,9 @@
         <log idref="mutationRate.s:AARS"/>
         <log idref="ucldStdev.c:AARS"/>
 		<log id='rate.c:AARS' spec='beast.evolution.branchratemodel.RateStatistic' tree='@Tree.t:AARS' branchratemodel='@RelaxedClock.c:AARS'/>
-        <log idref="BirthDeath.t:AARS"/>
-        <log idref="birthRate2.t:AARS"/>
-        <log idref="relativeDeathRate2.t:AARS"/>
+        <log idref="BayesianSkyline.t:AARS"/>
+        <log idref="bPopSizes.t:AARS"/>
+        <log idref="bGroupSizes.t:AARS"/>
     </logger>
 
     <logger id="screenlog" logEvery="1000">
@@ -690,7 +688,7 @@
         <log idref="prior"/>
     </logger>
 
-    <logger fileName="IterativeSubstitutionMatrix_sim1.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
+    <logger fileName="IterativeSubstitutionMatrix_sim1_sky.trees" id="treelog.t:AARS" logEvery="10000" mode="tree">
         <log id="TreeWithMetaDataLogger.t:AARS" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:AARS" branchratemodel="@RelaxedClock.c:AARS"/>
     </logger>
     
